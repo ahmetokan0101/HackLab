@@ -15,22 +15,12 @@
                 {
                     "id": "1",
                     "title": "Sayfa 1",
-                    "content": "Basitçe söylemek gerekirse, bir işletim sistemi, bir bilgisayar kullanıcısı ile bilgisayar donanımı arasında bir arayüzdür. Bilgisayarlarla iletişim kurmamıza ve çalışmamıza yardımcı olur.",
-                    "media": {
-                        "type": "image",
-                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgXvKYMHCbwGeZKJlp4b8k_4gM5j8SUtw_sA&s.jpg",
-                        "title": "İşletim Sistemleri Giriş Resmi"
-                    }
+                    "content": "Basitçe söylemek gerekirse, bir işletim sistemi, bir bilgisayar kullanıcısı ile bilgisayar donanımı arasında bir arayüzdür. Bilgisayarlarla iletişim kurmamıza ve çalışmamıza yardımcı olur."
                 },
                 {
                     "id": "2",
                     "title": "Sayfa 2",
-                    "content": "Muhtemelen Windows veya macOS gibi işletim sistemleriyle çalışmışsınızdır. Ancak, bir hacker olarak bunlara veda edip Linux adlı bir işletim sistemiyle uygulamalı çalışmanız gerekebilir.",
-                    "media": {
-                        "type": "video",
-                        "url": "https://www.youtube.com/watch?v=gBgQTk31FmQ",
-                        "title": "İşletim Sistemi Karşılaştırması"
-                    }
+                    "content": "Muhtemelen Windows veya macOS gibi işletim sistemleriyle çalışmışsınızdır. Ancak, bir hacker olarak bunlara veda edip Linux adlı bir işletim sistemiyle uygulamalı çalışmanız gerekebilir."
                 },
                 {
                     "id": "3",
@@ -43,7 +33,7 @@
             "id": "1_2",
             "title": "2. Kurulum",
             "duration": "9 dk",
-            "color": "#E74C3C",
+            "color": "#e74c3c",
             "documents": 6,
             "isCompleted": false,
             "isActive": false,
@@ -51,43 +41,33 @@
             "pages": [
                 {
                     "id": "1",
-                    "title": "Kali Linux Kurulumu",
-                    "content": "Kali Linux, etik hacking için özel olarak tasarlanmış bir Linux dağıtımıdır. Kurulum işlemi oldukça basittir ve birkaç adımda tamamlanabilir.",
-                    "media": {
-                        "type": "video",
-                        "url": "https://www.w3schools.com/html/mov_bbb.mp4",
-                        "title": "Kali Linux Kurulum Videosu"
-                    }
+                    "title": "Sayfa 1",
+                    "content": "Kali Linux, etik hacking için özel olarak tasarlanmış bir Linux dağıtımıdır. Kurulum işlemi oldukça basittir ve birkaç adımda tamamlanabilir."
                 },
                 {
                     "id": "2",
-                    "title": "Sistem Gereksinimleri",
-                    "content": "Kali Linux'u çalıştırmak için minimum 2GB RAM, 20GB disk alanı ve 64-bit işlemci gereklidir. Daha iyi performans için 4GB RAM önerilir.",
-                    "image": null
+                    "title": "Sayfa 2",
+                    "content": "Kali Linux'u çalıştırmak için minimum 2GB RAM, 20GB disk alanı ve 64-bit işlemci gereklidir. Daha iyi performans için 4GB RAM önerilir."
                 },
                 {
                     "id": "3",
-                    "title": "Sanal Makine Kurulumu",
-                    "content": "Güvenli bir ortamda çalışmak için Kali Linux'u sanal makine olarak kurmanızı öneririz. VirtualBox veya VMware kullanabilirsiniz.",
-                    "image": null
+                    "title": "Sayfa 3",
+                    "content": "Güvenli bir ortamda çalışmak için Kali Linux'u sanal makine olarak kurmanızı öneririz. VirtualBox veya VMware kullanabilirsiniz."
                 },
                 {
                     "id": "4",
-                    "title": "Live USB Oluşturma",
-                    "content": "Alternatif olarak, Kali Linux'u USB bellek üzerinde çalıştırabilirsiniz. Bu yöntem sisteminizi etkilemez ve taşınabilir bir çözüm sunar.",
-                    "image": null
+                    "title": "Sayfa 4",
+                    "content": "Alternatif olarak, Kali Linux'u USB bellek üzerinde çalıştırabilirsiniz. Bu yöntem sisteminizi etkilemez ve taşınabilir bir çözüm sunar."
                 },
                 {
                     "id": "5",
-                    "title": "İlk Giriş",
-                    "content": "Kali Linux'a ilk girişinizde varsayılan kullanıcı adı \"kali\" ve şifre \"kali\"dir. Güvenlik için bu şifreyi değiştirmeyi unutmayın.",
-                    "image": null
+                    "title": "Sayfa 5",
+                    "content": "Kali Linux'a ilk girişinizde varsayılan kullanıcı adı \"kali\" ve şifre \"kali\"dir. Güvenlik için bu şifreyi değiştirmeyi unutmayın."
                 },
                 {
                     "id": "6",
-                    "title": "Temel Ayarlar",
-                    "content": "Kurulum tamamlandıktan sonra sistem güncellemelerini yapın, ağ ayarlarını yapılandırın ve gerekli araçları yükleyin.",
-                    "image": null
+                    "title": "Sayfa 6",
+                    "content": "Kurulum tamamlandıktan sonra sistem güncellemelerini yapın, ağ ayarlarını yapılandırın ve gerekli araçları yükleyin."
                 }
             ]
         },
@@ -104,44 +84,66 @@
                 {
                     "id": "1",
                     "title": "Masaüstü Ortamı",
-                    "content": "Kali Linux varsayılan olarak Xfce masaüstü ortamını kullanır. Bu hafif ve hızlı bir ortamdır, güvenlik araçlarına odaklanmanızı sağlar.",
-                    "image": null
+                    "content": "Kali Linux varsayılan olarak Xfce masaüstü ortamını kullanır. Bu hafif ve hızlı bir ortamdır, güvenlik araçlarına odaklanmanızı sağlar."
                 },
                 {
                     "id": "2",
                     "title": "Uygulama Menüsü",
-                    "content": "Kali Linux'ta güvenlik araçları kategorilere ayrılmıştır: Information Gathering, Vulnerability Analysis, Web Application Analysis, Database Assessment, Password Attacks, Wireless Attacks, Exploitation Tools, Sniffing & Spoofing, Post Exploitation, Forensics, Reporting Tools, Social Engineering Tools.",
-                    "image": null
+                    "content": "Kali Linux'ta güvenlik araçları kategorilere ayrılmıştır: Information Gathering, Vulnerability Analysis, Web Application Analysis, Database Assessment, Password Attacks, Wireless Attacks, Exploitation Tools, Sniffing & Spoofing, Post Exploitation, Forensics, Reporting Tools, Social Engineering Tools."
                 },
                 {
                     "id": "3",
                     "title": "Terminal Kullanımı",
-                    "content": "Terminal, Kali Linux'ta en önemli araçtır. Çoğu güvenlik aracı komut satırından çalışır ve terminal üzerinden yönetilir.",
-                    "image": null
+                    "content": "Terminal, Kali Linux'ta en önemli araçtır. Çoğu güvenlik aracı komut satırından çalışır ve terminal üzerinden yönetilir."
+                },
+                {
+                    "id": "4",
+                    "title": "Quiz: Kali Linux Temel Bilgiler",
+                    "type": "quiz",
+                    "question": "Which of the following is the preinstalled browser in Kali?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Chrome",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Firefox",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Safari",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Opera",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Kali Linux'ta varsayılan olarak Firefox tarayıcısı yüklü gelir. Bu, güvenlik araçları ve eklentileri ile uyumlu olması için seçilmiştir."
                 },
                 {
                     "id": "4",
                     "title": "Temel Araçlar",
-                    "content": "Kali Linux'ta önceden yüklü gelen araçlar: Nmap, Wireshark, Metasploit Framework, Burp Suite, John the Ripper, Aircrack-ng, SQLmap, Hydra, Nikto, Dirb.",
-                    "image": null
+                    "content": "Kali Linux'ta önceden yüklü gelen araçlar: Nmap, Wireshark, Metasploit Framework, Burp Suite, John the Ripper, Aircrack-ng, SQLmap, Hydra, Nikto, Dirb."
                 },
                 {
                     "id": "5",
                     "title": "Araç Güncelleme",
-                    "content": "Kali Linux'taki araçları güncel tutmak önemlidir. 'apt update' ve 'apt upgrade' komutlarını düzenli olarak çalıştırın.",
-                    "image": null
+                    "content": "Kali Linux'taki araçları güncel tutmak önemlidir. 'apt update' ve 'apt upgrade' komutlarını düzenli olarak çalıştırın."
                 },
                 {
                     "id": "6",
                     "title": "Yeni Araç Yükleme",
-                    "content": "Yeni güvenlik araçları yüklemek için 'apt install' komutunu kullanabilirsiniz. Ayrıca GitHub'dan manuel olarak da araç indirebilirsiniz.",
-                    "image": null
+                    "content": "Yeni güvenlik araçları yüklemek için 'apt install' komutunu kullanabilirsiniz. Ayrıca GitHub'dan manuel olarak da araç indirebilirsiniz."
                 },
                 {
                     "id": "7",
                     "title": "Araç Yönetimi",
-                    "content": "Kali Linux'ta araçları organize etmek ve yönetmek için çeşitli yöntemler vardır. Kendi scriptlerinizi yazabilir ve araçları otomatikleştirebilirsiniz.",
-                    "image": null
+                    "content": "Kali Linux'ta araçları organize etmek ve yönetmek için çeşitli yöntemler vardır. Kendi scriptlerinizi yazabilir ve araçları otomatikleştirebilirsiniz."
                 }
             ]
         },
@@ -158,50 +160,42 @@
                 {
                     "id": "1",
                     "title": "Dosya Sistemi Komutları",
-                    "content": "ls, cd, pwd, mkdir, rmdir, cp, mv, rm gibi temel dosya sistemi komutlarını öğreneceğiz. Bu komutlar dosya ve klasörleri yönetmek için kullanılır.",
-                    "image": null
+                    "content": "ls, cd, pwd, mkdir, rmdir, cp, mv, rm gibi temel dosya sistemi komutlarını öğreneceğiz. Bu komutlar dosya ve klasörleri yönetmek için kullanılır."
                 },
                 {
                     "id": "2",
                     "title": "Dosya İçeriği Komutları",
-                    "content": "cat, less, more, head, tail, grep, sed, awk gibi dosya içeriğini görüntüleme ve işleme komutlarını öğreneceğiz.",
-                    "image": null
+                    "content": "cat, less, more, head, tail, grep, sed, awk gibi dosya içeriğini görüntüleme ve işleme komutlarını öğreneceğiz."
                 },
                 {
                     "id": "3",
                     "title": "Sistem Bilgisi Komutları",
-                    "content": "uname, whoami, id, ps, top, htop, df, du gibi sistem bilgilerini görüntüleme komutlarını öğreneceğiz.",
-                    "image": null
+                    "content": "uname, whoami, id, ps, top, htop, df, du gibi sistem bilgilerini görüntüleme komutlarını öğreneceğiz."
                 },
                 {
                     "id": "4",
                     "title": "Ağ Komutları",
-                    "content": "ifconfig, ip, netstat, ss, ping, traceroute, nslookup, dig gibi ağ yönetimi komutlarını öğreneceğiz.",
-                    "image": null
+                    "content": "ifconfig, ip, netstat, ss, ping, traceroute, nslookup, dig gibi ağ yönetimi komutlarını öğreneceğiz."
                 },
                 {
                     "id": "5",
                     "title": "Kullanıcı Yönetimi",
-                    "content": "useradd, userdel, usermod, passwd, su, sudo gibi kullanıcı yönetimi komutlarını öğreneceğiz.",
-                    "image": null
+                    "content": "useradd, userdel, usermod, passwd, su, sudo gibi kullanıcı yönetimi komutlarını öğreneceğiz."
                 },
                 {
                     "id": "6",
                     "title": "İzin Yönetimi",
-                    "content": "chmod, chown, chgrp gibi dosya ve klasör izinlerini yönetme komutlarını öğreneceğiz.",
-                    "image": null
+                    "content": "chmod, chown, chgrp gibi dosya ve klasör izinlerini yönetme komutlarını öğreneceğiz."
                 },
                 {
                     "id": "7",
                     "title": "Paket Yönetimi",
-                    "content": "apt, apt-get, dpkg gibi paket yönetimi komutlarını öğreneceğiz. Bu komutlar yazılım yüklemek ve güncellemek için kullanılır.",
-                    "image": null
+                    "content": "apt, apt-get, dpkg gibi paket yönetimi komutlarını öğreneceğiz. Bu komutlar yazılım yüklemek ve güncellemek için kullanılır."
                 },
                 {
                     "id": "8",
                     "title": "Pratik Uygulamalar",
-                    "content": "Öğrendiğimiz komutları pratik senaryolarda kullanacağız. Dosya arama, log analizi, sistem izleme gibi gerçek dünya örnekleri.",
-                    "image": null
+                    "content": "Öğrendiğimiz komutları pratik senaryolarda kullanacağız. Dosya arama, log analizi, sistem izleme gibi gerçek dünya örnekleri."
                 }
             ]
         },
@@ -218,44 +212,37 @@
                 {
                     "id": "1",
                     "title": "Ağ Konfigürasyonu",
-                    "content": "ifconfig ve ip komutları ile ağ arayüzlerini yapılandırma ve görüntüleme işlemlerini öğreneceğiz.",
-                    "image": null
+                    "content": "ifconfig ve ip komutları ile ağ arayüzlerini yapılandırma ve görüntüleme işlemlerini öğreneceğiz."
                 },
                 {
                     "id": "2",
                     "title": "Ağ Bağlantıları",
-                    "content": "netstat ve ss komutları ile aktif ağ bağlantılarını görüntüleme ve analiz etme işlemlerini öğreneceğiz.",
-                    "image": null
+                    "content": "netstat ve ss komutları ile aktif ağ bağlantılarını görüntüleme ve analiz etme işlemlerini öğreneceğiz."
                 },
                 {
                     "id": "3",
                     "title": "Ağ Testleri",
-                    "content": "ping, traceroute, mtr komutları ile ağ bağlantısını test etme ve yol analizi yapma işlemlerini öğreneceğiz.",
-                    "image": null
+                    "content": "ping, traceroute, mtr komutları ile ağ bağlantısını test etme ve yol analizi yapma işlemlerini öğreneceğiz."
                 },
                 {
                     "id": "4",
                     "title": "DNS Sorguları",
-                    "content": "nslookup, dig, host komutları ile DNS sorguları yapma ve domain bilgilerini görüntüleme işlemlerini öğreneceğiz.",
-                    "image": null
+                    "content": "nslookup, dig, host komutları ile DNS sorguları yapma ve domain bilgilerini görüntüleme işlemlerini öğreneceğiz."
                 },
                 {
                     "id": "5",
                     "title": "Port Tarama",
-                    "content": "nc (netcat), telnet komutları ile port tarama ve bağlantı testi yapma işlemlerini öğreneceğiz.",
-                    "image": null
+                    "content": "nc (netcat), telnet komutları ile port tarama ve bağlantı testi yapma işlemlerini öğreneceğiz."
                 },
                 {
                     "id": "6",
                     "title": "Ağ İzleme",
-                    "content": "tcpdump, wireshark komutları ile ağ trafiğini izleme ve analiz etme işlemlerini öğreneceğiz.",
-                    "image": null
+                    "content": "tcpdump, wireshark komutları ile ağ trafiğini izleme ve analiz etme işlemlerini öğreneceğiz."
                 },
                 {
                     "id": "7",
                     "title": "Pratik Senaryolar",
-                    "content": "Öğrendiğimiz ağ komutlarını gerçek dünya senaryolarında kullanacağız. Ağ sorunlarını tespit etme ve çözme örnekleri.",
-                    "image": null
+                    "content": "Öğrendiğimiz ağ komutlarını gerçek dünya senaryolarında kullanacağız. Ağ sorunlarını tespit etme ve çözme örnekleri."
                 }
             ]
         },
@@ -272,50 +259,42 @@
                 {
                     "id": "1",
                     "title": "Bash Script Temelleri",
-                    "content": "Bash script nedir ve neden önemlidir? Script yazmanın güvenlik testlerindeki rolü ve avantajları.",
-                    "image": null
+                    "content": "Bash script nedir ve neden önemlidir? Script yazmanın güvenlik testlerindeki rolü ve avantajları."
                 },
                 {
                     "id": "2",
                     "title": "Script Yapısı",
-                    "content": "Shebang (#!), yorumlar, değişkenler, fonksiyonlar gibi bash script temel yapılarını öğreneceğiz.",
-                    "image": null
+                    "content": "Shebang (#!), yorumlar, değişkenler, fonksiyonlar gibi bash script temel yapılarını öğreneceğiz."
                 },
                 {
                     "id": "3",
                     "title": "Değişkenler ve Parametreler",
-                    "content": "Değişken tanımlama, parametre alma, çevre değişkenleri kullanma işlemlerini öğreneceğiz.",
-                    "image": null
+                    "content": "Değişken tanımlama, parametre alma, çevre değişkenleri kullanma işlemlerini öğreneceğiz."
                 },
                 {
                     "id": "4",
                     "title": "Kontrol Yapıları",
-                    "content": "if-else, case, for, while, until gibi kontrol yapılarını öğreneceğiz.",
-                    "image": null
+                    "content": "if-else, case, for, while, until gibi kontrol yapılarını öğreneceğiz."
                 },
                 {
                     "id": "5",
                     "title": "Fonksiyonlar",
-                    "content": "Fonksiyon tanımlama, parametre geçirme, return değerleri gibi fonksiyon kullanımını öğreneceğiz.",
-                    "image": null
+                    "content": "Fonksiyon tanımlama, parametre geçirme, return değerleri gibi fonksiyon kullanımını öğreneceğiz."
                 },
                 {
                     "id": "6",
                     "title": "Hata Yönetimi",
-                    "content": "set -e, trap, exit codes gibi hata yönetimi tekniklerini öğreneceğiz.",
-                    "image": null
+                    "content": "set -e, trap, exit codes gibi hata yönetimi tekniklerini öğreneceğiz."
                 },
                 {
                     "id": "7",
                     "title": "Dosya İşlemleri",
-                    "content": "Dosya okuma, yazma, kontrol etme gibi dosya işlemlerini script içinde nasıl yapacağımızı öğreneceğiz.",
-                    "image": null
+                    "content": "Dosya okuma, yazma, kontrol etme gibi dosya işlemlerini script içinde nasıl yapacağımızı öğreneceğiz."
                 },
                 {
                     "id": "8",
                     "title": "Güvenlik Scriptleri",
-                    "content": "Güvenlik testleri için basit script örnekleri yazacağız. Port tarama, log analizi, sistem izleme scriptleri.",
-                    "image": null
+                    "content": "Güvenlik testleri için basit script örnekleri yazacağız. Port tarama, log analizi, sistem izleme scriptleri."
                 }
             ]
         },
@@ -332,50 +311,42 @@
                 {
                     "id": "1",
                     "title": "IP Sweeping Nedir?",
-                    "content": "IP sweeping, bir ağdaki aktif IP adreslerini tespit etme işlemidir. Bu işlem ağ keşfi ve güvenlik testlerinin ilk adımıdır.",
-                    "image": null
+                    "content": "IP sweeping, bir ağdaki aktif IP adreslerini tespit etme işlemidir. Bu işlem ağ keşfi ve güvenlik testlerinin ilk adımıdır."
                 },
                 {
                     "id": "2",
                     "title": "Ping Sweep Tekniği",
-                    "content": "Ping komutu kullanarak IP adreslerini tarama tekniğini öğreneceğiz. Bu en basit ve etkili yöntemlerden biridir.",
-                    "image": null
+                    "content": "Ping komutu kullanarak IP adreslerini tarama tekniğini öğreneceğiz. Bu en basit ve etkili yöntemlerden biridir."
                 },
                 {
                     "id": "3",
                     "title": "Script Planlama",
-                    "content": "IP sweeping scriptini planlarken dikkat edilmesi gereken noktalar: ağ aralığı, timeout değerleri, çıktı formatı.",
-                    "image": null
+                    "content": "IP sweeping scriptini planlarken dikkat edilmesi gereken noktalar: ağ aralığı, timeout değerleri, çıktı formatı."
                 },
                 {
                     "id": "4",
                     "title": "Temel Script Yazma",
-                    "content": "Basit bir IP sweeping scripti yazacağız. For döngüsü kullanarak IP adreslerini tarayacağız.",
-                    "image": null
+                    "content": "Basit bir IP sweeping scripti yazacağız. For döngüsü kullanarak IP adreslerini tarayacağız."
                 },
                 {
                     "id": "5",
                     "title": "Gelişmiş Özellikler",
-                    "content": "Scripte timeout, paralel işleme, sonuç kaydetme gibi gelişmiş özellikler ekleyeceğiz.",
-                    "image": null
+                    "content": "Scripte timeout, paralel işleme, sonuç kaydetme gibi gelişmiş özellikler ekleyeceğiz."
                 },
                 {
                     "id": "6",
                     "title": "Hata Yönetimi",
-                    "content": "Script içinde hata yönetimi nasıl yapılır? Bağlantı hataları, timeout hataları nasıl ele alınır?",
-                    "image": null
+                    "content": "Script içinde hata yönetimi nasıl yapılır? Bağlantı hataları, timeout hataları nasıl ele alınır?"
                 },
                 {
                     "id": "7",
                     "title": "Performans Optimizasyonu",
-                    "content": "Script performansını artırmak için paralel işleme, background jobs, timeout ayarları gibi teknikleri öğreneceğiz.",
-                    "image": null
+                    "content": "Script performansını artırmak için paralel işleme, background jobs, timeout ayarları gibi teknikleri öğreneceğiz."
                 },
                 {
                     "id": "8",
                     "title": "Pratik Uygulama",
-                    "content": "Yazdığımız scripti gerçek bir ağda test edeceğiz ve sonuçları analiz edeceğiz.",
-                    "image": null
+                    "content": "Yazdığımız scripti gerçek bir ağda test edeceğiz ve sonuçları analiz edeceğiz."
                 }
             ]
         },
@@ -392,32 +363,96 @@
                 {
                     "id": "1",
                     "title": "Test Hazırlığı",
-                    "content": "Test öncesi hazırlık yapalım. Öğrendiğimiz konuları gözden geçirelim ve test stratejimizi belirleyelim.",
-                    "image": null
+                    "content": "Test öncesi hazırlık yapalım. Öğrendiğimiz konuları gözden geçirelim ve test stratejimizi belirleyelim."
                 },
                 {
                     "id": "2",
                     "title": "Teorik Sorular",
-                    "content": "İşletim sistemleri, Linux komutları, bash scripting konularında teorik soruları cevaplayacağız.",
-                    "image": null
+                    "content": "İşletim sistemleri, Linux komutları, bash scripting konularında teorik soruları cevaplayacağız."
                 },
                 {
                     "id": "3",
                     "title": "Pratik Uygulamalar",
-                    "content": "Kali Linux'ta komutları kullanarak pratik görevleri tamamlayacağız. Dosya işlemleri, ağ komutları, script yazma.",
-                    "image": null
+                    "content": "Kali Linux'ta komutları kullanarak pratik görevleri tamamlayacağız. Dosya işlemleri, ağ komutları, script yazma."
                 },
                 {
                     "id": "4",
                     "title": "Proje Çalışması",
-                    "content": "Kapsamlı bir proje çalışması yapacağız. Tüm öğrendiğimiz konuları bir araya getiren bir senaryo.",
-                    "image": null
+                    "content": "Kapsamlı bir proje çalışması yapacağız. Tüm öğrendiğimiz konuları bir araya getiren bir senaryo."
                 },
                 {
                     "id": "5",
                     "title": "Değerlendirme",
-                    "content": "Test sonuçlarını değerlendireceğiz ve gelecek modüller için öneriler alacağız.",
-                    "image": null
+                    "content": "Test sonuçlarını değerlendireceğiz ve gelecek modüller için öneriler alacağız."
+                }
+            ]
+        },
+        {
+            "id": "2_1",
+            "title": "1. MAC Adresi Temelleri",
+            "duration": "6 dk",
+            "color": "#3498db",
+            "documents": 4,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "MAC adreslerinin temel yapısı ve işleyişi",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Sayfa 1",
+                    "content": "MAC (Media Access Control) adresi, ağ cihazlarının benzersiz kimlik numarasıdır. 48-bit uzunluğunda olup, 6 byte'lık hexadecimal formatta yazılır."
+                },
+                {
+                    "id": "2",
+                    "title": "Sayfa 2",
+                    "content": "MAC adresleri XX:XX:XX:XX:XX:XX formatında yazılır. İlk 3 byte üretici kodunu, son 3 byte ise cihaz seri numarasını temsil eder."
+                },
+                {
+                    "id": "3",
+                    "title": "Sayfa 3",
+                    "content": "Unicast, Multicast ve Broadcast olmak üzere üç tür MAC adresi vardır. Her birinin ağ trafiğinde farklı rolleri bulunur."
+                },
+                {
+                    "id": "4",
+                    "title": "Sayfa 4",
+                    "content": "MAC adresleri ağ güvenliğinde önemli rol oynar. Ancak spoofing saldırılarına karşı savunmasızdır."
+                }
+            ]
+        },
+        {
+            "id": "3_1",
+            "title": "1. OSINT Temelleri",
+            "duration": "7 dk",
+            "color": "#3498db",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Open Source Intelligence temelleri",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Sayfa 1",
+                    "content": "OSINT (Open Source Intelligence), açık kaynaklardan elde edilen istihbarat bilgileridir. Bu bilgiler kamuya açık kaynaklardan toplanır."
+                },
+                {
+                    "id": "2",
+                    "title": "Sayfa 2",
+                    "content": "Sosyal medya, web siteleri, haber kaynakları, resmi belgeler, forumlar gibi OSINT kaynaklarını öğreneceğiz."
+                },
+                {
+                    "id": "3",
+                    "title": "Sayfa 3",
+                    "content": "OSINT toplarken dikkat edilmesi gereken yasal konular ve etik kurallar hakkında bilgi edineceğiz."
+                },
+                {
+                    "id": "4",
+                    "title": "Sayfa 4",
+                    "content": "Maltego, Shodan, theHarvester, Recon-ng gibi OSINT araçlarını tanıyacağız."
+                },
+                {
+                    "id": "5",
+                    "title": "Sayfa 5",
+                    "content": "OSINT tekniklerini pratik senaryolarda uygulayacağız."
                 }
             ]
         }
