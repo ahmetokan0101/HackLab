@@ -1,0 +1,168 @@
+{
+  "categoryId": "2",
+  "categoryTitle": "2. MAC Adresini Hackle",
+  "lessons": [
+    {
+      "id": "2_1",
+      "title": "1. MAC Adresi Temelleri",
+      "duration": "6 dk",
+      "color": "#3498DB",
+      "documents": 4,
+      "isCompleted": false,
+      "isActive": true,
+      "description": "MAC adreslerinin temel yapısı ve işleyişi",
+      "pages": [
+        {
+          "id": "1",
+          "title": "MAC Adresi Nedir?",
+          "content": "MAC (Media Access Control) adresi, ağ cihazlarının benzersiz kimlik numarasıdır. 48-bit uzunluğunda olup, 6 byte'lık hexadecimal formatta yazılır.",
+          "image": null
+        },
+        {
+          "id": "2",
+          "title": "MAC Adresi Formatı",
+          "content": "MAC adresleri XX:XX:XX:XX:XX:XX formatında yazılır. İlk 3 byte üretici kodunu, son 3 byte ise cihaz seri numarasını temsil eder.",
+          "image": null
+        },
+        {
+          "id": "3",
+          "title": "MAC Adresi Türleri",
+          "content": "Unicast, Multicast ve Broadcast olmak üzere üç tür MAC adresi vardır. Her birinin ağ trafiğinde farklı rolleri bulunur.",
+          "image": null
+        },
+        {
+          "id": "4",
+          "title": "MAC Adresi Güvenliği",
+          "content": "MAC adresleri ağ güvenliğinde önemli rol oynar. Ancak spoofing saldırılarına karşı savunmasızdır.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "2_2",
+      "title": "2. MAC Adresi Spoofing",
+      "duration": "8 dk",
+      "color": "#E74C3C",
+      "documents": 5,
+      "isCompleted": false,
+      "isActive": false,
+      "description": "MAC adresi değiştirme teknikleri",
+      "pages": [
+        {
+          "id": "1",
+          "title": "MAC Spoofing Nedir?",
+          "content": "MAC spoofing, bir cihazın MAC adresini başka bir cihazın MAC adresi ile değiştirme işlemidir. Bu işlem güvenlik testleri için kullanılır.",
+          "image": null
+        },
+        {
+          "id": "2",
+          "title": "Spoofing Yöntemleri",
+          "content": "Manuel MAC adresi değiştirme, otomatik araçlar kullanma, kernel seviyesinde değiştirme gibi farklı yöntemleri öğreneceğiz.",
+          "image": null
+        },
+        {
+          "id": "3",
+          "title": "Linux'ta MAC Değiştirme",
+          "content": "ifconfig ve ip komutları ile Linux sistemlerde MAC adresi değiştirme işlemlerini öğreneceğiz.",
+          "image": null
+        },
+        {
+          "id": "4",
+          "title": "Windows'ta MAC Değiştirme",
+          "content": "Windows sistemlerde registry düzenleme ve üçüncü parti araçlar kullanarak MAC adresi değiştirme işlemlerini öğreneceğiz.",
+          "image": null
+        },
+        {
+          "id": "5",
+          "title": "Otomatik Araçlar",
+          "content": "macchanger, Technitium MAC Address Changer gibi otomatik MAC değiştirme araçlarını kullanmayı öğreneceğiz.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "2_3",
+      "title": "3. Ağ Güvenliği",
+      "duration": "7 dk",
+      "color": "#9B59B6",
+      "documents": 6,
+      "isCompleted": false,
+      "isActive": false,
+      "description": "MAC adresi tabanlı güvenlik önlemleri",
+      "pages": [
+        {
+          "id": "1",
+          "title": "MAC Filtreleme",
+          "content": "MAC adresi filtreleme, sadece belirli MAC adreslerine sahip cihazların ağa erişmesine izin veren bir güvenlik önlemidir.",
+          "image": null
+        },
+        {
+          "id": "2",
+          "title": "Port Güvenliği",
+          "content": "Switch portlarında MAC adresi sınırlaması yaparak güvenliği artırma tekniklerini öğreneceğiz.",
+          "image": null
+        },
+        {
+          "id": "3",
+          "title": "MAC Adresi Tespiti",
+          "content": "Ağdaki MAC adreslerini tespit etme ve izleme tekniklerini öğreneceğiz.",
+          "image": null
+        },
+        {
+          "id": "4",
+          "title": "Saldırı Tespiti",
+          "content": "MAC spoofing saldırılarını tespit etme ve önleme tekniklerini öğreneceğiz.",
+          "image": null
+        },
+        {
+          "id": "5",
+          "title": "Güvenlik Politikaları",
+          "content": "MAC adresi tabanlı güvenlik politikaları oluşturma ve uygulama tekniklerini öğreneceğiz.",
+          "image": null
+        },
+        {
+          "id": "6",
+          "title": "Pratik Uygulamalar",
+          "content": "Öğrendiğimiz güvenlik tekniklerini pratik senaryolarda uygulayacağız.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "2_4",
+      "title": "4. Test ve Değerlendirme",
+      "duration": "5 dk",
+      "color": "#F39C12",
+      "documents": 4,
+      "isCompleted": false,
+      "isActive": false,
+      "description": "MAC adresi güvenlik testleri",
+      "pages": [
+        {
+          "id": "1",
+          "title": "Test Senaryoları",
+          "content": "MAC adresi güvenliğini test etmek için çeşitli senaryolar hazırlayacağız.",
+          "image": null
+        },
+        {
+          "id": "2",
+          "title": "Saldırı Simülasyonu",
+          "content": "MAC spoofing saldırılarını simüle ederek güvenlik önlemlerini test edeceğiz.",
+          "image": null
+        },
+        {
+          "id": "3",
+          "title": "Sonuç Analizi",
+          "content": "Test sonuçlarını analiz edecek ve güvenlik açıklarını tespit edeceğiz.",
+          "image": null
+        },
+        {
+          "id": "4",
+          "title": "Raporlama",
+          "content": "Test sonuçlarını rapor haline getirecek ve öneriler sunacağız.",
+          "image": null
+        }
+      ]
+    }
+  ]
+} 
