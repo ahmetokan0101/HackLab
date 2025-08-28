@@ -28,7 +28,7 @@
                     "content": "Muhtemelen Windows veya macOS gibi işletim sistemleriyle çalışmışsınızdır. Ancak, bir hacker olarak bunlara veda edip Linux adlı bir işletim sistemiyle uygulamalı çalışmanız gerekebilir.",
                     "media": {
                         "type": "video",
-                        "url": "https://tv-trt1.medya.trt.com.tr/master_720.m3u8",
+                        "url": "https://www.youtube.com/watch?v=gBgQTk31FmQ",
                         "title": "İşletim Sistemi Karşılaştırması"
                     }
                 },
@@ -55,7 +55,7 @@
                     "content": "Kali Linux, etik hacking için özel olarak tasarlanmış bir Linux dağıtımıdır. Kurulum işlemi oldukça basittir ve birkaç adımda tamamlanabilir.",
                     "media": {
                         "type": "video",
-                        "url": "https:\/\/www.youtube.com\/embed\/example-kali-install",
+                        "url": "https://www.youtube.com/embed/example-kali-install",
                         "title": "Kali Linux Kurulum Videosu"
                     }
                 },
