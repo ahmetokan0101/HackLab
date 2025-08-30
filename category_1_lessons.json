@@ -14,12 +14,12 @@
             "pages": [
                 {
                     "id": "1",
-                    "title": "Sayfa 1",
+                    "title": "İşletim Sistemi Nedir ?",
                     "content": "Basitçe söylemek gerekirse, bir işletim sistemi, bir bilgisayar kullanıcısı ile bilgisayar donanımı arasında bir arayüzdür. Bilgisayarlarla iletişim kurmamıza ve çalışmamıza yardımcı olur."
                 },
                 {
                     "id": "2",
-                    "title": "Sayfa 2",
+                    "title": "Hangi İşletim Sistemleri vardır ?",
                     "content": "Muhtemelen Windows veya macOS gibi işletim sistemleriyle çalışmışsınızdır. Ancak, bir hacker olarak bunlara veda edip Linux adlı bir işletim sistemiyle uygulamalı çalışmanız gerekebilir."
                 },
                 {
