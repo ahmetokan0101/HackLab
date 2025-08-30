@@ -3,984 +3,305 @@
       "1": [
         {
           "id": "1_1",
-          "title": "1. Giriş",
-          "duration": "8 dk",
-          "color": "#3498DB",
-          "documents": 3,
+          "title": "1. Etik Hacking Nedir",
+          "duration": "12 dk",
+          "color": "#FF6B35",
+          "documents": 4,
           "isCompleted": false,
           "isActive": true,
-          "description": "İşletim sistemlerine giriş ve temel kavramlar",
+          "description": "Etik hacking kavramını ve temel prensiplerini öğren",
           "pages": [
             {
               "id": "1",
-              "title": "İşletim Sistemleri",
-              "content": "Basitçe söylemek gerekirse, bir işletim sistemi, bir bilgisayar kullanıcısı ile bilgisayar donanımı arasında bir arayüzdür. Bilgisayarlarla iletişim kurmamıza ve çalışmamıza yardımcı olur.",
+              "title": "Etik Hacking Nedir?",
+              "content": "Etik hacking, sistemlerin güvenlik açıklarını tespit etmek ve güvenliği artırmak amacıyla yapılan yasal ve etik hacking faaliyetleridir. Etik hackerlar, kötü niyetli saldırganların kullandığı teknikleri öğrenerek sistemleri korumaya yardımcı olur.",
               "image": null
             },
             {
               "id": "2",
-              "title": "İşletim Sistemi Türleri",
-              "content": "Muhtemelen Windows veya macOS gibi işletim sistemleriyle çalışmışsınızdır. Ancak, bir hacker olarak bunlara veda edip Linux adlı bir işletim sistemiyle uygulamalı çalışmanız gerekebilir.",
+              "title": "Etik Hacking'in Amacı",
+              "content": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır. Bu sayede gerçek saldırganlar sistemlere zarar vermeden önce güvenlik önlemleri alınabilir.",
               "image": null
             },
             {
               "id": "3",
-              "title": "Linux ve Hacking",
-              "content": "Linux, hackerlar için en popüler işletim sistemidir. Güçlü komut satırı araçları, açık kaynak kod yapısı ve güvenlik odaklı tasarımı ile etik hacking için mükemmel bir platform sunar.",
+              "title": "Etik Hacking Süreci",
+              "content": "Etik hacking süreci şu aşamalardan oluşur: Planlama ve İzin Alma, Keşif ve Bilgi Toplama, Güvenlik Açığı Analizi, Penetrasyon Testi, Raporlama ve Öneriler.",
               "image": null
+            },
+            {
+              "id": "4",
+              "title": "Quiz: Etik Hacking Temel Bilgiler",
+              "type": "quiz",
+              "question": "Etik hacking'in temel amacı nedir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sistemlere zarar vermek",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Güvenlik açıklarını tespit etmek",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Veri çalmak",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sistemleri kapatmak",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır."
             }
           ]
         },
         {
           "id": "1_2",
-          "title": "2. Kurulum",
-          "duration": "9 dk",
-          "color": "#E74C3C",
-          "documents": 6,
+          "title": "2. Hacking Türleri",
+          "duration": "15 dk",
+          "color": "#F7931E",
+          "documents": 5,
           "isCompleted": false,
           "isActive": false,
-          "description": "Kali Linux kurulum ve yapılandırma",
+          "description": "Farklı hacking türlerini ve özelliklerini öğren",
           "pages": [
             {
               "id": "1",
-              "title": "Kali Linux Kurulumu",
-              "content": "Kali Linux, etik hacking için özel olarak tasarlanmış bir Linux dağıtımıdır. Kurulum işlemi oldukça basittir ve birkaç adımda tamamlanabilir.",
+              "title": "Hacking Türleri",
+              "content": "Hacking, farklı amaçlara ve motivasyonlara göre çeşitli türlere ayrılır. Her türün kendine özgü özellikleri ve riskleri vardır.",
               "image": null
             },
             {
               "id": "2",
-              "title": "Sistem Gereksinimleri",
-              "content": "Kali Linux'u çalıştırmak için minimum 2GB RAM, 20GB disk alanı ve 64-bit işlemci gereklidir. Daha iyi performans için 4GB RAM önerilir.",
+              "title": "Siyah Şapka Hacking",
+              "content": "Siyah şapka hackerlar, sistemlere izinsiz erişim sağlayarak zarar verir. Bu tür hacking yasa dışıdır ve kötü niyetli amaçlarla yapılır. Veri çalma, sistem kapatma ve finansal zarar verme gibi faaliyetler içerir.",
               "image": null
             },
             {
               "id": "3",
-              "title": "Sanal Makine Kurulumu",
-              "content": "Güvenli bir ortamda çalışmak için Kali Linux'u sanal makine olarak kurmanızı öneririz. VirtualBox veya VMware kullanabilirsiniz.",
+              "title": "Beyaz Şapka Hacking",
+              "content": "Beyaz şapka hackerlar, etik hacking yapan güvenlik uzmanlarıdır. Sistemlerin güvenliğini test etmek için yasal izinlerle çalışırlar. Güvenlik açıklarını tespit ederek sistemleri korumaya yardımcı olurlar.",
               "image": null
             },
             {
               "id": "4",
-              "title": "Live USB Oluşturma",
-              "content": "Alternatif olarak, Kali Linux'u USB bellek üzerinde çalıştırabilirsiniz. Bu yöntem sisteminizi etkilemez ve taşınabilir bir çözüm sunar.",
+              "title": "Gri Şapka Hacking",
+              "content": "Gri şapka hackerlar, bazen yasal bazen yasa dışı faaliyetlerde bulunur. Sistemlere izinsiz erişim sağlayabilir ancak genellikle zarar verme amacı gütmez. Güvenlik açıklarını bulduklarında sistem yöneticilerine bildirirler.",
               "image": null
             },
             {
               "id": "5",
-              "title": "İlk Giriş",
-              "content": "Kali Linux'a ilk girişinizde varsayılan kullanıcı adı \"kali\" ve şifre \"kali\"dir. Güvenlik için bu şifreyi değiştirmeyi unutmayın.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "Temel Ayarlar",
-              "content": "Kurulum tamamlandıktan sonra sistem güncellemelerini yapın, ağ ayarlarını yapılandırın ve gerekli araçları yükleyin.",
-              "image": null
+              "title": "Quiz: Hacking Türleri",
+              "type": "quiz",
+              "question": "Hangi hacking türü yasa dışıdır?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Beyaz şapka hacking",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Siyah şapka hacking",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Gri şapka hacking",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Hiçbiri",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Siyah şapka hacking yasa dışıdır ve kötü niyetli amaçlarla yapılır. Sistemlere zarar verme, veri çalma gibi faaliyetler içerir."
             }
           ]
         },
         {
           "id": "1_3",
-          "title": "3. Kali Linux'a Genel Bakış",
-          "duration": "5 dk",
-          "color": "#9B59B6",
-          "documents": 7,
+          "title": "3. Hacker Türleri",
+          "duration": "10 dk",
+          "color": "#8B5CF6",
+          "documents": 4,
           "isCompleted": false,
           "isActive": false,
-          "description": "Kali Linux arayüzü ve temel araçlar",
+          "description": "Farklı hacker türlerini ve özelliklerini tanı",
           "pages": [
             {
               "id": "1",
-              "title": "Masaüstü Ortamı",
-              "content": "Kali Linux varsayılan olarak Xfce masaüstü ortamını kullanır. Bu hafif ve hızlı bir ortamdır, güvenlik araçlarına odaklanmanızı sağlar.",
+              "title": "Hacker Türleri",
+              "content": "Hackerlar, motivasyonlarına, becerilerine ve amaçlarına göre farklı kategorilere ayrılır. Her türün kendine özgü özellikleri ve davranış kalıpları vardır.",
               "image": null
             },
             {
               "id": "2",
-              "title": "Uygulama Menüsü",
-              "content": "Kali Linux'ta güvenlik araçları kategorilere ayrılmıştır: Information Gathering, Vulnerability Analysis, Web Application Analysis, Database Assessment, Password Attacks, Wireless Attacks, Exploitation Tools, Sniffing & Spoofing, Post Exploitation, Forensics, Reporting Tools, Social Engineering Tools.",
+              "title": "Script Kiddie",
+              "content": "Script kiddie'ler, hazır araçları ve scriptleri kullanarak hacking yapan kişilerdir. Derin teknik bilgiye sahip değillerdir ve genellikle eğlence amaçlı faaliyet gösterirler. Sosyal medyada ün kazanmak için saldırılar düzenleyebilirler.",
               "image": null
             },
             {
               "id": "3",
-              "title": "Terminal Kullanımı",
-              "content": "Terminal, Kali Linux'ta en önemli araçtır. Çoğu güvenlik aracı komut satırından çalışır ve terminal üzerinden yönetilir.",
+              "title": "Profesyonel Hacker",
+              "content": "Profesyonel hackerlar, yüksek teknik beceriye sahip uzmanlardır. Güvenlik şirketlerinde, devlet kurumlarında veya bağımsız olarak çalışırlar. Etik hacking, penetrasyon testi ve güvenlik araştırmaları yaparlar.",
               "image": null
             },
             {
               "id": "4",
-              "title": "Temel Araçlar",
-              "content": "Kali Linux'ta önceden yüklü gelen araçlar: Nmap, Wireshark, Metasploit Framework, Burp Suite, John the Ripper, Aircrack-ng, SQLmap, Hydra, Nikto, Dirb.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Araç Güncelleme",
-              "content": "Kali Linux'taki araçları güncel tutmak önemlidir. 'apt update' ve 'apt upgrade' komutlarını düzenli olarak çalıştırın.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "Yeni Araç Yükleme",
-              "content": "Yeni güvenlik araçları yüklemek için 'apt install' komutunu kullanabilirsiniz. Ayrıca GitHub'dan manuel olarak da araç indirebilirsiniz.",
-              "image": null
-            },
-            {
-              "id": "7",
-              "title": "Araç Yönetimi",
-              "content": "Kali Linux'ta araçları organize etmek ve yönetmek için çeşitli yöntemler vardır. Kendi scriptlerinizi yazabilir ve araçları otomatikleştirebilirsiniz.",
-              "image": null
+              "title": "Quiz: Hacker Türleri",
+              "type": "quiz",
+              "question": "Script kiddie'lerin özelliği nedir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Yüksek teknik beceri",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Hazır araçları kullanma",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Profesyonel çalışma",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Derin bilgi",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar. Derin teknik bilgiye sahip değillerdir."
             }
           ]
         },
         {
           "id": "1_4",
-          "title": "4. Temel Linux Komutları",
-          "duration": "6 dk",
-          "color": "#F39C12",
-          "documents": 8,
+          "title": "4. Hacking'in Avantajları ve Dezavantajları",
+          "duration": "8 dk",
+          "color": "#00FF88",
+          "documents": 4,
           "isCompleted": false,
           "isActive": false,
-          "description": "Linux komut satırı temelleri",
+          "description": "Hacking'in olumlu ve olumsuz yönlerini analiz et",
           "pages": [
             {
               "id": "1",
-              "title": "Dosya Sistemi Komutları",
-              "content": "ls, cd, pwd, mkdir, rmdir, cp, mv, rm gibi temel dosya sistemi komutlarını öğreneceğiz. Bu komutlar dosya ve klasörleri yönetmek için kullanılır.",
+              "title": "Hacking'in Avantajları",
+              "content": "Etik hacking, sistem güvenliğini artırır, güvenlik açıklarını tespit eder ve organizasyonları korur. Güvenlik uzmanlarının becerilerini geliştirmesine yardımcı olur ve siber güvenlik alanında kariyer fırsatları sunar.",
               "image": null
             },
             {
               "id": "2",
-              "title": "Dosya İçeriği Komutları",
-              "content": "cat, less, more, head, tail, grep, sed, awk gibi dosya içeriğini görüntüleme ve işleme komutlarını öğreneceğiz.",
+              "title": "Hacking'in Dezavantajları",
+              "content": "Kötü niyetli hacking, sistemlere zarar verir, veri kaybına neden olur ve yasal sorunlara yol açar. Kişisel bilgilerin çalınmasına, finansal zararlara ve itibar kaybına neden olabilir.",
               "image": null
             },
             {
               "id": "3",
-              "title": "Sistem Bilgisi Komutları",
-              "content": "uname, whoami, id, ps, top, htop, df, du gibi sistem bilgilerini görüntüleme komutlarını öğreneceğiz.",
+              "title": "Etik Kurallar",
+              "content": "Etik hacking yaparken mutlaka yasal izinler alınmalı, gizlilik kurallarına uyulmalı ve zarar verme amacı güdülmemelidir. Tüm faaliyetler şeffaf ve hesap verebilir olmalıdır.",
               "image": null
             },
             {
               "id": "4",
-              "title": "Ağ Komutları",
-              "content": "ifconfig, ip, netstat, ss, ping, traceroute, nslookup, dig gibi ağ yönetimi komutlarını öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Kullanıcı Yönetimi",
-              "content": "useradd, userdel, usermod, passwd, su, sudo gibi kullanıcı yönetimi komutlarını öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "İzin Yönetimi",
-              "content": "chmod, chown, chgrp gibi dosya ve klasör izinlerini yönetme komutlarını öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "7",
-              "title": "Paket Yönetimi",
-              "content": "apt, apt-get, dpkg gibi paket yönetimi komutlarını öğreneceğiz. Bu komutlar yazılım yüklemek ve güncellemek için kullanılır.",
-              "image": null
-            },
-            {
-              "id": "8",
-              "title": "Pratik Uygulamalar",
-              "content": "Öğrendiğimiz komutları pratik senaryolarda kullanacağız. Dosya arama, log analizi, sistem izleme gibi gerçek dünya örnekleri.",
-              "image": null
+              "title": "Quiz: Hacking Avantaj ve Dezavantajları",
+              "type": "quiz",
+              "question": "Etik hacking'in en önemli avantajı nedir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sistemlere zarar vermek",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Güvenlik açıklarını tespit etmek",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Veri çalmak",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sistemleri kapatmak",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Etik hacking'in en önemli avantajı, sistemlerdeki güvenlik açıklarını tespit ederek güvenliği artırmaktır."
             }
           ]
         },
         {
           "id": "1_5",
-          "title": "5. Yaygın Ağ Komutları",
-          "duration": "3 dk",
-          "color": "#00FF88",
-          "documents": 7,
+          "title": "5. Test ve Değerlendirme",
+          "duration": "5 dk",
+          "color": "#FF6B35",
+          "documents": 4,
           "isCompleted": false,
           "isActive": false,
-          "description": "Ağ analizi ve izleme komutları",
-          "pages": [
-            {
-              "id": "1",
-              "title": "Ağ Konfigürasyonu",
-              "content": "ifconfig ve ip komutları ile ağ arayüzlerini yapılandırma ve görüntüleme işlemlerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Ağ Bağlantıları",
-              "content": "netstat ve ss komutları ile aktif ağ bağlantılarını görüntüleme ve analiz etme işlemlerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Ağ Testleri",
-              "content": "ping, traceroute, mtr komutları ile ağ bağlantısını test etme ve yol analizi yapma işlemlerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "DNS Sorguları",
-              "content": "nslookup, dig, host komutları ile DNS sorguları yapma ve domain bilgilerini görüntüleme işlemlerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Port Tarama",
-              "content": "nc (netcat), telnet komutları ile port tarama ve bağlantı testi yapma işlemlerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "Ağ İzleme",
-              "content": "tcpdump, wireshark komutları ile ağ trafiğini izleme ve analiz etme işlemlerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "7",
-              "title": "Pratik Senaryolar",
-              "content": "Öğrendiğimiz ağ komutlarını gerçek dünya senaryolarında kullanacağız. Ağ sorunlarını tespit etme ve çözme örnekleri.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "1_6",
-          "title": "6. Script Yazmaya Hazırlık",
-          "duration": "8 dk",
-          "color": "#8B5CF6",
-          "documents": 8,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "Bash script yazma temelleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "Bash Script Temelleri",
-              "content": "Bash script nedir ve neden önemlidir? Script yazmanın güvenlik testlerindeki rolü ve avantajları.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Script Yapısı",
-              "content": "Shebang (#!), yorumlar, değişkenler, fonksiyonlar gibi bash script temel yapılarını öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Değişkenler ve Parametreler",
-              "content": "Değişken tanımlama, parametre alma, çevre değişkenleri kullanma işlemlerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Kontrol Yapıları",
-              "content": "if-else, case, for, while, until gibi kontrol yapılarını öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Fonksiyonlar",
-              "content": "Fonksiyon tanımlama, parametre geçirme, return değerleri gibi fonksiyon kullanımını öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "Hata Yönetimi",
-              "content": "set -e, trap, exit codes gibi hata yönetimi tekniklerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "7",
-              "title": "Dosya İşlemleri",
-              "content": "Dosya okuma, yazma, kontrol etme gibi dosya işlemlerini script içinde nasıl yapacağımızı öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "8",
-              "title": "Güvenlik Scriptleri",
-              "content": "Güvenlik testleri için basit script örnekleri yazacağız. Port tarama, log analizi, sistem izleme scriptleri.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "1_7",
-          "title": "7. IP Sweeping Bash Script",
-          "duration": "6 dk",
-          "color": "#00D4FF",
-          "documents": 8,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "IP tarama scripti geliştirme",
-          "pages": [
-            {
-              "id": "1",
-              "title": "IP Sweeping Nedir?",
-              "content": "IP sweeping, bir ağdaki aktif IP adreslerini tespit etme işlemidir. Bu işlem ağ keşfi ve güvenlik testlerinin ilk adımıdır.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Ping Sweep Tekniği",
-              "content": "Ping komutu kullanarak IP adreslerini tarama tekniğini öğreneceğiz. Bu en basit ve etkili yöntemlerden biridir.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Script Planlama",
-              "content": "IP sweeping scriptini planlarken dikkat edilmesi gereken noktalar: ağ aralığı, timeout değerleri, çıktı formatı.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Temel Script Yazma",
-              "content": "Basit bir IP sweeping scripti yazacağız. For döngüsü kullanarak IP adreslerini tarayacağız.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Gelişmiş Özellikler",
-              "content": "Scripte timeout, paralel işleme, sonuç kaydetme gibi gelişmiş özellikler ekleyeceğiz.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "Hata Yönetimi",
-              "content": "Script içinde hata yönetimi nasıl yapılır? Bağlantı hataları, timeout hataları nasıl ele alınır?",
-              "image": null
-            },
-            {
-              "id": "7",
-              "title": "Performans Optimizasyonu",
-              "content": "Script performansını artırmak için paralel işleme, background jobs, timeout ayarları gibi teknikleri öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "8",
-              "title": "Pratik Uygulama",
-              "content": "Yazdığımız scripti gerçek bir ağda test edeceğiz ve sonuçları analiz edeceğiz.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "1_8",
-          "title": "8. Test",
-          "duration": "10 dk",
-          "color": "#95A5A6",
-          "documents": 5,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "Öğrenilen konuların test edilmesi",
+          "description": "Etik Hacking'e Giriş kategorisinin kapsamlı testi",
           "pages": [
             {
               "id": "1",
               "title": "Test Hazırlığı",
-              "content": "Test öncesi hazırlık yapalım. Öğrendiğimiz konuları gözden geçirelim ve test stratejimizi belirleyelim.",
+              "content": "Bu test, Etik Hacking'e Giriş kategorisindeki tüm konuları kapsamaktadır. Test öncesi öğrendiğiniz konuları gözden geçirin ve hazır olduğunuzda teste başlayın.",
               "image": null
             },
             {
               "id": "2",
-              "title": "Teorik Sorular",
-              "content": "İşletim sistemleri, Linux komutları, bash scripting konularında teorik soruları cevaplayacağız.",
+              "title": "Test Kuralları",
+              "content": "Test 10 sorudan oluşmaktadır. Her soru için sadece bir doğru cevap vardır. Testi tamamladıktan sonra sonuçlarınızı görebilir ve eksik konularınızı tekrar çalışabilirsiniz.",
               "image": null
             },
             {
               "id": "3",
-              "title": "Pratik Uygulamalar",
-              "content": "Kali Linux'ta komutları kullanarak pratik görevleri tamamlayacağız. Dosya işlemleri, ağ komutları, script yazma.",
+              "title": "Kategori Tamamlama",
+              "content": "Bu testi başarıyla tamamladığınızda, Etik Hacking'e Giriş kategorisini tamamlamış olacaksınız. Test sonucunuz %70 ve üzerinde olmalıdır.",
               "image": null
             },
             {
               "id": "4",
-              "title": "Proje Çalışması",
-              "content": "Kapsamlı bir proje çalışması yapacağız. Tüm öğrendiğimiz konuları bir araya getiren bir senaryo.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Değerlendirme",
-              "content": "Test sonuçlarını değerlendireceğiz ve gelecek modüller için öneriler alacağız.",
-              "image": null
-            }
-          ]
-        }
-      ],
-      "2": [
-        {
-          "id": "2_1",
-          "title": "1. MAC Adresi Temelleri",
-          "duration": "6 dk",
-          "color": "#3498DB",
-          "documents": 4,
-          "isCompleted": false,
-          "isActive": true,
-          "description": "MAC adreslerinin temel yapısı ve işleyişi",
-          "pages": [
-            {
-              "id": "1",
-              "title": "MAC Adresi Nedir?",
-              "content": "MAC (Media Access Control) adresi, ağ cihazlarının benzersiz kimlik numarasıdır. 48-bit uzunluğunda olup, 6 byte'lık hexadecimal formatta yazılır.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "MAC Adresi Formatı",
-              "content": "MAC adresleri XX:XX:XX:XX:XX:XX formatında yazılır. İlk 3 byte üretici kodunu, son 3 byte ise cihaz seri numarasını temsil eder.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "MAC Adresi Türleri",
-              "content": "Unicast, Multicast ve Broadcast olmak üzere üç tür MAC adresi vardır. Her birinin ağ trafiğinde farklı rolleri bulunur.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "MAC Adresi Güvenliği",
-              "content": "MAC adresleri ağ güvenliğinde önemli rol oynar. Ancak spoofing saldırılarına karşı savunmasızdır.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "2_2",
-          "title": "2. MAC Adresi Spoofing",
-          "duration": "8 dk",
-          "color": "#E74C3C",
-          "documents": 5,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "MAC adresi değiştirme teknikleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "MAC Spoofing Nedir?",
-              "content": "MAC spoofing, bir cihazın MAC adresini başka bir cihazın MAC adresi ile değiştirme işlemidir. Bu işlem güvenlik testleri için kullanılır.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Spoofing Yöntemleri",
-              "content": "Manuel MAC adresi değiştirme, otomatik araçlar kullanma, kernel seviyesinde değiştirme gibi farklı yöntemleri öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Linux'ta MAC Değiştirme",
-              "content": "ifconfig ve ip komutları ile Linux sistemlerde MAC adresi değiştirme işlemlerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Windows'ta MAC Değiştirme",
-              "content": "Windows sistemlerde registry düzenleme ve üçüncü parti araçlar kullanarak MAC adresi değiştirme işlemlerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Otomatik Araçlar",
-              "content": "macchanger, Technitium MAC Address Changer gibi otomatik MAC değiştirme araçlarını kullanmayı öğreneceğiz.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "2_3",
-          "title": "3. Ağ Güvenliği",
-          "duration": "7 dk",
-          "color": "#9B59B6",
-          "documents": 6,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "MAC adresi tabanlı güvenlik önlemleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "MAC Filtreleme",
-              "content": "MAC adresi filtreleme, sadece belirli MAC adreslerine sahip cihazların ağa erişmesine izin veren bir güvenlik önlemidir.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Port Güvenliği",
-              "content": "Switch portlarında MAC adresi sınırlaması yaparak güvenliği artırma tekniklerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "MAC Adresi Tespiti",
-              "content": "Ağdaki MAC adreslerini tespit etme ve izleme tekniklerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Saldırı Tespiti",
-              "content": "MAC spoofing saldırılarını tespit etme ve önleme tekniklerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Güvenlik Politikaları",
-              "content": "MAC adresi tabanlı güvenlik politikaları oluşturma ve uygulama tekniklerini öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "Pratik Uygulamalar",
-              "content": "Öğrendiğimiz güvenlik tekniklerini pratik senaryolarda uygulayacağız.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "2_4",
-          "title": "4. Test ve Değerlendirme",
-          "duration": "5 dk",
-          "color": "#F39C12",
-          "documents": 4,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "MAC adresi güvenlik testleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "Test Senaryoları",
-              "content": "MAC adresi güvenliğini test etmek için çeşitli senaryolar hazırlayacağız.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Saldırı Simülasyonu",
-              "content": "MAC spoofing saldırılarını simüle ederek güvenlik önlemlerini test edeceğiz.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Sonuç Analizi",
-              "content": "Test sonuçlarını analiz edecek ve güvenlik açıklarını tespit edeceğiz.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Raporlama",
-              "content": "Test sonuçlarını rapor haline getirecek ve öneriler sunacağız.",
-              "image": null
-            }
-          ]
-        }
-      ],
-      "3": [
-        {
-          "id": "3_1",
-          "title": "1. OSINT Temelleri",
-          "duration": "7 dk",
-          "color": "#3498DB",
-          "documents": 5,
-          "isCompleted": false,
-          "isActive": true,
-          "description": "Open Source Intelligence temelleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "OSINT Nedir?",
-              "content": "OSINT (Open Source Intelligence), açık kaynaklardan elde edilen istihbarat bilgileridir. Bu bilgiler kamuya açık kaynaklardan toplanır.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "OSINT Kaynakları",
-              "content": "Sosyal medya, web siteleri, haber kaynakları, resmi belgeler, forumlar gibi OSINT kaynaklarını öğreneceğiz.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Yasal Konular",
-              "content": "OSINT toplarken dikkat edilmesi gereken yasal konular ve etik kurallar hakkında bilgi edineceğiz.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "OSINT Araçları",
-              "content": "Maltego, Shodan, theHarvester, Recon-ng gibi OSINT araçlarını tanıyacağız.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Pratik Uygulamalar",
-              "content": "OSINT tekniklerini pratik senaryolarda uygulayacağız.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "3_2",
-          "title": "2. Sosyal Medya Analizi",
-          "duration": "6 dk",
-          "color": "#E74C3C",
-          "documents": 4,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "Sosyal medyadan bilgi toplama",
-          "pages": [
-            {
-              "id": "1",
-              "title": "Sosyal Medya Platformları",
-              "content": "Facebook, Twitter, LinkedIn, Instagram gibi platformlardan bilgi toplama teknikleri.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Profil Analizi",
-              "content": "Sosyal medya profillerini analiz etme ve değerli bilgiler çıkarma teknikleri.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Meta Veri Analizi",
-              "content": "Fotoğraf ve video dosyalarından meta veri çıkarma ve analiz etme.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Pratik Uygulamalar",
-              "content": "Sosyal medya analizi tekniklerini pratik örneklerle uygulayacağız.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "3_3",
-          "title": "3. Web Tabanlı Bilgi Toplama",
-          "duration": "8 dk",
-          "color": "#9B59B6",
-          "documents": 6,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "Web sitelerinden bilgi toplama",
-          "pages": [
-            {
-              "id": "1",
-              "title": "Web Tarama",
-              "content": "Web sitelerini otomatik olarak tarama ve bilgi toplama teknikleri.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "DNS Sorguları",
-              "content": "WHOIS, DNS kayıtları, subdomain keşfi gibi DNS tabanlı bilgi toplama.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Port Tarama",
-              "content": "Hedef sistemlerin açık portlarını tespit etme ve servis analizi.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Teknoloji Tespiti",
-              "content": "Web sitelerinde kullanılan teknolojileri tespit etme teknikleri.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Dosya Keşfi",
-              "content": "Web sitelerinde gizli dosyaları ve dizinleri keşfetme.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "Pratik Uygulamalar",
-              "content": "Web tabanlı bilgi toplama tekniklerini gerçek senaryolarda uygulayacağız.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "3_4",
-          "title": "4. Test ve Raporlama",
-          "duration": "5 dk",
-          "color": "#F39C12",
-          "documents": 3,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "Bilgi toplama testleri ve raporlama",
-          "pages": [
-            {
-              "id": "1",
-              "title": "Test Senaryoları",
-              "content": "Bilgi toplama tekniklerini test etmek için senaryolar hazırlayacağız.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Veri Analizi",
-              "content": "Toplanan verileri analiz etme ve değerlendirme teknikleri.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Raporlama",
-              "content": "Bilgi toplama sonuçlarını rapor haline getirme ve sunma.",
-              "image": null
-            }
-          ]
-        }
-      ],
-      "4": [
-        {
-          "id": "4_1",
-          "title": "1. AI ve Makine Öğrenmesi",
-          "duration": "8 dk",
-          "color": "#3498DB",
-          "documents": 6,
-          "isCompleted": false,
-          "isActive": true,
-          "description": "Yapay zeka ve makine öğrenmesi temelleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "AI Nedir?",
-              "content": "Yapay zeka, bilgisayarların insan benzeri düşünme ve öğrenme yeteneklerine sahip olmasını sağlayan teknolojidir.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Makine Öğrenmesi",
-              "content": "Makine öğrenmesi, bilgisayarların verilerden öğrenmesini sağlayan AI alt dalıdır.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Derin Öğrenme",
-              "content": "Derin öğrenme, çok katmanlı sinir ağları kullanarak karmaşık problemleri çözen AI tekniğidir.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "AI Güvenlik Araçları",
-              "content": "Güvenlik alanında kullanılan AI araçları ve teknolojileri.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "AI Saldırı Teknikleri",
-              "content": "AI sistemlerine yönelik saldırı teknikleri ve güvenlik açıkları.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "AI Savunma Teknikleri",
-              "content": "AI tabanlı güvenlik sistemleri ve savunma mekanizmaları.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "4_2",
-          "title": "2. AI Destekli Penetrasyon Testleri",
-          "duration": "7 dk",
-          "color": "#E74C3C",
-          "documents": 5,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "AI kullanarak penetrasyon testleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "AI Penetrasyon Araçları",
-              "content": "AI destekli penetrasyon test araçları ve platformları.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Otomatik Zafiyet Tespiti",
-              "content": "AI kullanarak otomatik zafiyet tespiti ve analizi.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "AI Saldırı Simülasyonu",
-              "content": "AI kullanarak gerçekçi saldırı senaryoları simüle etme.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "AI Tabanlı Sosyal Mühendislik",
-              "content": "AI kullanarak gelişmiş sosyal mühendislik saldırıları.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Pratik Uygulamalar",
-              "content": "AI destekli penetrasyon testlerini pratik senaryolarda uygulayacağız.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "4_3",
-          "title": "3. Test ve Değerlendirme",
-          "duration": "5 dk",
-          "color": "#9B59B6",
-          "documents": 4,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "AI güvenlik testleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "Test Hazırlığı",
-              "content": "AI güvenlik testleri için hazırlık ve planlama.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "AI Sistem Analizi",
-              "content": "AI sistemlerinin güvenlik analizi ve değerlendirmesi.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Sonuç Değerlendirme",
-              "content": "AI güvenlik test sonuçlarını değerlendirme ve analiz.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Raporlama",
-              "content": "AI güvenlik test sonuçlarını rapor haline getirme.",
-              "image": null
-            }
-          ]
-        }
-      ],
-      "5": [
-        {
-          "id": "5_1",
-          "title": "1. Prompt Mühendisliği",
-          "duration": "6 dk",
-          "color": "#3498DB",
-          "documents": 5,
-          "isCompleted": false,
-          "isActive": true,
-          "description": "Etkili prompt yazma teknikleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "Prompt Nedir?",
-              "content": "Prompt, AI modellerine verilen talimatlardır. Etkili prompt yazma, AI'dan daha iyi sonuçlar almanın anahtarıdır.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Prompt Yapısı",
-              "content": "İyi bir prompt'un temel yapısı: açık, net, spesifik ve hedef odaklı olmalıdır.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Prompt Teknikleri",
-              "content": "Few-shot learning, chain-of-thought, role-playing gibi prompt teknikleri.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Güvenlik Odaklı Promptlar",
-              "content": "Güvenlik testleri için özel olarak tasarlanmış prompt örnekleri.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Pratik Uygulamalar",
-              "content": "Prompt mühendisliği tekniklerini pratik örneklerle uygulayacağız.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "5_2",
-          "title": "2. AI Araçları ile Hacking",
-          "duration": "7 dk",
-          "color": "#E74C3C",
-          "documents": 6,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "AI araçlarını güvenlik için kullanma",
-          "pages": [
-            {
-              "id": "1",
-              "title": "AI Hacking Araçları",
-              "content": "ChatGPT, Claude, GitHub Copilot gibi AI araçlarını güvenlik testlerinde kullanma.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Kod Analizi",
-              "content": "AI kullanarak kod analizi ve zafiyet tespiti.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "Sosyal Mühendislik",
-              "content": "AI kullanarak gelişmiş sosyal mühendislik saldırıları hazırlama.",
-              "image": null
-            },
-            {
-              "id": "4",
-              "title": "Otomasyon",
-              "content": "AI kullanarak güvenlik testlerini otomatikleştirme.",
-              "image": null
-            },
-            {
-              "id": "5",
-              "title": "Yasal Konular",
-              "content": "AI araçlarını kullanırken dikkat edilmesi gereken yasal konular.",
-              "image": null
-            },
-            {
-              "id": "6",
-              "title": "Pratik Uygulamalar",
-              "content": "AI araçlarını güvenlik testlerinde pratik olarak kullanacağız.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "id": "5_3",
-          "title": "3. Test ve Değerlendirme",
-          "duration": "4 dk",
-          "color": "#9B59B6",
-          "documents": 3,
-          "isCompleted": false,
-          "isActive": false,
-          "description": "AI prompt testleri",
-          "pages": [
-            {
-              "id": "1",
-              "title": "Prompt Testleri",
-              "content": "Yazdığımız promptları test etme ve değerlendirme.",
-              "image": null
-            },
-            {
-              "id": "2",
-              "title": "Sonuç Analizi",
-              "content": "AI'dan aldığımız sonuçları analiz etme ve değerlendirme.",
-              "image": null
-            },
-            {
-              "id": "3",
-              "title": "İyileştirme",
-              "content": "Promptları iyileştirme ve optimize etme teknikleri.",
-              "image": null
+              "title": "Kapsamlı Test: Etik Hacking'e Giriş",
+              "type": "quiz",
+              "question": "Etik hacking sürecinin ilk aşaması nedir?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Penetrasyon testi",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Planlama ve izin alma",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Bilgi toplama",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Raporlama",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Etik hacking sürecinin ilk aşaması planlama ve izin almaktır. Yasal izinler olmadan hiçbir güvenlik testi yapılamaz."
             }
           ]
         }
       ]
     }
-  } 
+} 
