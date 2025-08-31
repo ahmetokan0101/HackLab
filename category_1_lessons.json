@@ -40,13 +40,13 @@
                     "options": [
                         {
                             "id": "A",
-                            "text": "Sistemlere zarar vermek",
-                            "isCorrect": false
+                            "text": "Güvenlik açıklarını tespit etmek",
+                            "isCorrect": true
                         },
                         {
                             "id": "B",
-                            "text": "Güvenlik açıklarını tespit etmek",
-                            "isCorrect": true
+                            "text": "Sistemlere zarar vermek",
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
@@ -126,13 +126,13 @@
                         },
                         {
                             "id": "B",
-                            "text": "Siyah şapka hacking",
-                            "isCorrect": true
+                            "text": "Gri şapka hacking",
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Gri şapka hacking",
-                            "isCorrect": false
+                            "text": "Siyah şapka hacking",
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
@@ -188,18 +188,18 @@
                         },
                         {
                             "id": "B",
-                            "text": "Hazır araçları kullanma",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "C",
                             "text": "Profesyonel çalışma",
                             "isCorrect": false
                         },
                         {
-                            "id": "D",
+                            "id": "C",
                             "text": "Derin bilgi",
                             "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Hazır araçları kullanma",
+                            "isCorrect": true
                         }
                     ],
                     "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar. Derin teknik bilgiye sahip değillerdir."
@@ -250,13 +250,13 @@
                         },
                         {
                             "id": "B",
-                            "text": "Güvenlik açıklarını tespit etmek",
-                            "isCorrect": true
+                            "text": "Veri çalmak",
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Veri çalmak",
-                            "isCorrect": false
+                            "text": "Güvenlik açıklarını tespit etmek",
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
@@ -312,13 +312,13 @@
                         },
                         {
                             "id": "B",
-                            "text": "Planlama ve izin alma",
-                            "isCorrect": true
+                            "text": "Bilgi toplama",
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Bilgi toplama",
-                            "isCorrect": false
+                            "text": "Planlama ve izin alma",
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
@@ -399,18 +399,18 @@
                         },
                         {
                             "id": "B",
-                            "text": "Stuxnet",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "C",
                             "text": "Anonymous saldırıları",
                             "isCorrect": false
                         },
                         {
-                            "id": "D",
+                            "id": "C",
                             "text": "Kevin Mitnick olayları",
                             "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Stuxnet",
+                            "isCorrect": true
                         }
                     ],
                     "explanation": "Stuxnet, 2010'da İran'ın nükleer tesislerini hedef alan ve endüstriyel kontrol sistemlerini etkileyen ilk siber silah olarak tarihe geçmiştir."
@@ -466,18 +466,18 @@
                         },
                         {
                             "id": "B",
-                            "text": "Güvenlik açıklarını tespit etmek",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "C",
                             "text": "Veri çalmak",
                             "isCorrect": false
                         },
                         {
-                            "id": "D",
+                            "id": "C",
                             "text": "Sistemleri kapatmak",
                             "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Güvenlik açıklarını tespit etmek",
+                            "isCorrect": true
                         }
                     ],
                     "explanation": "Etik hackerın en önemli sorumluluğu, sistemlerdeki güvenlik açıklarını tespit etmek ve bu açıkları kapatmak için öneriler sunmaktır."
