@@ -27,40 +27,101 @@
                     "title": "Solucan (Worm)",
                     "content": "Solucan, ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür. Solucanlar, ağ kaynaklarını tüketerek sistem performansını düşürür.\r\n\r\nSolucanların özellikleri:\r\n• Otomatik yayılma\r\n• Ağ kaynaklarını tüketme\r\n• Kullanıcı etkileşimi gerektirmeme\r\n• Hızlı yayılma\r\n• Sistem performansını düşürme\r\n\r\nÜnlü solucan örnekleri:\r\n• ILOVEYOU (2000): 45 milyon bilgisayara bulaştı\r\n• Code Red (2001): Web sunucularına saldırdı\r\n• Conficker (2008): 15 milyon bilgisayara yayıldı\r\n• WannaCry (2017): 300.000 bilgisayarı etkiledi\r\n\r\nKorunma yöntemleri:\r\n• Güvenlik duvarı kullanma\r\n• Ağ trafiğini izleme\r\n• Güvenlik güncellemelerini yükleme\r\n• Şüpheli bağlantıları engelleme\r\n• Ağ segmentasyonu uygulama"
                 },
-                                    {
-                        "id": "4",
-                        "title": "Trojan ve Ransomware",
-                        "content": "Trojan (Truva Atı), kendini faydalı yazılım gibi gizleyen ancak arka planda zararlı işlemler yapan yazılım türüdür. Ransomware ise dosyaları şifreleyerek fidye talep eden modern tehdit türüdür.\r\n\r\nTrojan'ların özellikleri:\r\n• Kendini gizleme ve sahte kimlik\r\n• Uzaktan erişim sağlama\r\n• Veri çalma ve izleme\r\n• Sistem kontrolünü ele geçirme\r\n• Diğer zararlı yazılımları indirme\r\n\r\nTrojan türleri:\r\n• Backdoor: Arka kapı erişimi sağlar\r\n• Keylogger: Tuş vuruşlarını kaydeder\r\n• Banker: Banka bilgilerini çalar\r\n• Downloader: Diğer zararlıları indirir\r\n• Rootkit: Sistem seviyesinde gizlenir\r\n\r\nRansomware'lerin özellikleri:\r\n• Dosya şifreleme\r\n• Fidye talep etme\r\n• Şifreleme anahtarı saklama\r\n• Hızlı yayılma\r\n• Kritik verilere erişimi engelleme\r\n\r\nÜnlü ransomware örnekleri:\r\n• WannaCry (2017): 300.000+ bilgisayar\r\n• NotPetya (2017): 10 milyar $ zarar\r\n• Ryuk (2018): Hedefli saldırılar\r\n• REvil (2021): Büyük şirketlere saldırdı\r\n\r\nKorunma yöntemleri:\r\n• Düzenli yedekleme yapma\r\n• Güvenlik yazılımları kullanma\r\n• E-posta güvenliği sağlama\r\n• Kullanıcı eğitimi verme\r\n• Güvenlik güncellemelerini yükleme"
-                    },
-                    {
-                        "id": "5",
-                        "title": "Quiz: Bilgisayar Güvenliği",
-                        "type": "quiz",
-                        "question": "Hangi zararlı yazılım türü kendini kopyalayarak ağ üzerinde yayılır?",
-                        "options": [
-                            {
-                                "id": "A",
-                                "text": "Virüs",
-                                "isCorrect": false
-                            },
-                            {
-                                "id": "B",
-                                "text": "Solucan (Worm)",
-                                "isCorrect": true
-                            },
-                            {
-                                "id": "C",
-                                "text": "Trojan",
-                                "isCorrect": false
-                            },
-                            {
-                                "id": "D",
-                                "text": "Ransomware",
-                                "isCorrect": false
-                            }
-                        ],
-                        "explanation": "Solucan (Worm), ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür."
-                    }
+                {
+                    "id": "4",
+                    "title": "Trojan ve Ransomware",
+                    "content": "Trojan (Truva Atı), kendini faydalı yazılım gibi gizleyen ancak arka planda zararlı işlemler yapan yazılım türüdür. Ransomware ise dosyaları şifreleyerek fidye talep eden modern tehdit türüdür.\r\n\r\nTrojan'ların özellikleri:\r\n• Kendini gizleme ve sahte kimlik\r\n• Uzaktan erişim sağlama\r\n• Veri çalma ve izleme\r\n• Sistem kontrolünü ele geçirme\r\n• Diğer zararlı yazılımları indirme\r\n\r\nTrojan türleri:\r\n• Backdoor: Arka kapı erişimi sağlar\r\n• Keylogger: Tuş vuruşlarını kaydeder\r\n• Banker: Banka bilgilerini çalar\r\n• Downloader: Diğer zararlıları indirir\r\n• Rootkit: Sistem seviyesinde gizlenir\r\n\r\nRansomware'lerin özellikleri:\r\n• Dosya şifreleme\r\n• Fidye talep etme\r\n• Şifreleme anahtarı saklama\r\n• Hızlı yayılma\r\n• Kritik verilere erişimi engelleme\r\n\r\nÜnlü ransomware örnekleri:\r\n• WannaCry (2017): 300.000+ bilgisayar\r\n• NotPetya (2017): 10 milyar $ zarar\r\n• Ryuk (2018): Hedefli saldırılar\r\n• REvil (2021): Büyük şirketlere saldırdı\r\n\r\nKorunma yöntemleri:\r\n• Düzenli yedekleme yapma\r\n• Güvenlik yazılımları kullanma\r\n• E-posta güvenliği sağlama\r\n• Kullanıcı eğitimi verme\r\n• Güvenlik güncellemelerini yükleme"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Bilgisayar Güvenliği",
+                    "type": "quiz",
+                    "question": "Hangi zararlı yazılım türü kendini kopyalayarak ağ üzerinde yayılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Virüs",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Solucan (Worm)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Trojan",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Ransomware",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Solucan (Worm), ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür."
+                }
+            ]
+        },
+        {
+            "id": "2_2",
+            "title": "2. Açık Portlar ve Servisler",
+            "duration": "15 dk",
+            "color": "#e74c3c",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Ağ güvenliğinde açık portlar ve servislerin risklerini öğren, port tarama tekniklerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Port ve Servis Kavramları",
+                    "content": "Port, bilgisayar ağlarında veri alışverişi yapılan sanal noktalardır. Her port belirli bir servis veya uygulama tarafından kullanılır ve 0-65535 arasında numaralandırılır.\r\n\r\nPort türleri:\r\n• Well-known ports (0-1023): Standart servisler için ayrılmış\r\n• Registered ports (1024-49151): Uygulama geliştiricileri için\r\n• Dynamic ports (49152-65535): Geçici bağlantılar için\r\n\r\nYaygın port numaraları:\r\n• Port 21: FTP (File Transfer Protocol)\r\n• Port 22: SSH (Secure Shell)\r\n• Port 23: Telnet\r\n• Port 25: SMTP (Simple Mail Transfer Protocol)\r\n• Port 53: DNS (Domain Name System)\r\n• Port 80: HTTP (Hypertext Transfer Protocol)\r\n• Port 443: HTTPS (HTTP Secure)\r\n• Port 3306: MySQL\r\n• Port 5432: PostgreSQL\r\n• Port 27017: MongoDB\r\n\r\nPort açık olması, o servisin dış dünyadan erişilebilir olduğu anlamına gelir."
+                },
+                {
+                    "id": "2",
+                    "title": "Port Tarama Teknikleri",
+                    "content": "Port tarama, hedef sistemde hangi portların açık olduğunu ve hangi servislerin çalıştığını tespit etme yöntemidir. Bu teknik hem güvenlik testlerinde hem de saldırılarda kullanılır.\r\n\r\nPort tarama türleri:\r\n• TCP Connect Scan: Tam bağlantı kurarak tarama\r\n• SYN Scan: Yarı açık bağlantı ile tarama\r\n• UDP Scan: UDP portlarını tarama\r\n• FIN Scan: FIN bayrağı ile tarama\r\n• XMAS Scan: Çoklu bayrak ile tarama\r\n• NULL Scan: Bayrak olmadan tarama\r\n\r\nPort tarama araçları:\r\n• Nmap: En popüler port tarama aracı\r\n• Masscan: Hızlı port tarama\r\n• Angry IP Scanner: Kullanıcı dostu arayüz\r\n• Netcat: Çok amaçlı ağ aracı\r\n• Zenmap: Nmap'in grafiksel arayüzü\r\n\r\nPort tarama komutları:\r\n• nmap -sS 192.168.1.1 (SYN scan)\r\n• nmap -sT 192.168.1.1 (TCP connect)\r\n• nmap -sU 192.168.1.1 (UDP scan)\r\n• nmap -p 80,443,22 192.168.1.1 (belirli portlar)"
+                },
+                {
+                    "id": "3",
+                    "title": "Açık Portların Güvenlik Riskleri",
+                    "content": "Açık portlar, sistemlere dış dünyadan erişim sağlar ve bu da güvenlik riskleri oluşturur. Her açık port potansiyel bir saldırı vektörüdür.\r\n\r\nGüvenlik riskleri:\r\n• Bilgi sızıntısı: Servis versiyonları ve yapılandırmaları\r\n• Brute force saldırıları: Şifre deneme saldırıları\r\n• Exploit saldırıları: Bilinen güvenlik açıkları\r\n• Man-in-the-middle: Araya girme saldırıları\r\n• DDoS saldırıları: Hizmet reddi saldırıları\r\n• Port knocking: Gizli port erişimi\r\n\r\nRisk değerlendirmesi:\r\n• Kritik portlar: SSH (22), RDP (3389), Database portları\r\n• Orta risk: Web servisleri (80, 443), Mail servisleri\r\n• Düşük risk: DNS (53), NTP (123)\r\n\r\nGüvenlik önlemleri:\r\n• Gereksiz portları kapatma\r\n• Güvenlik duvarı kuralları\r\n• Port izleme ve loglama\r\n• Düzenli güvenlik testleri\r\n• Servis güncellemeleri"
+                },
+                {
+                    "id": "4",
+                    "title": "Servis Keşfi ve Versiyon Tespiti",
+                    "content": "Servis keşfi, açık portlarda çalışan servislerin türünü ve versiyonunu tespit etme sürecidir. Bu bilgi saldırganlar için değerli hedef bilgisi sağlar.\r\n\r\nServis keşfi yöntemleri:\r\n• Banner grabbing: Servis banner'larını okuma\r\n• Version detection: Versiyon tespiti\r\n• Script scanning: Özel script'ler ile tarama\r\n• Service enumeration: Servis detaylarını çıkarma\r\n• OS detection: İşletim sistemi tespiti\r\n\r\nBanner grabbing teknikleri:\r\n• Telnet ile bağlantı: telnet 192.168.1.1 80\r\n• Netcat ile bağlantı: nc 192.168.1.1 80\r\n• HTTP HEAD isteği: HEAD / HTTP/1.0\r\n• FTP bağlantısı: ftp 192.168.1.1\r\n• SSH bağlantısı: ssh 192.168.1.1\r\n\r\nVersiyon tespiti:\r\n• Nmap -sV: Versiyon tespiti\r\n• Nmap -sC: Script taraması\r\n• Nmap -A: Agresif tarama\r\n• Nmap --version-intensity: Versiyon tespit yoğunluğu\r\n\r\nServis bilgileri:\r\n• Servis adı ve türü\r\n• Versiyon numarası\r\n• Yapılandırma detayları\r\n• Güvenlik özellikleri\r\n• Bilinen güvenlik açıkları"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Port Güvenliği",
+                    "type": "quiz",
+                    "question": "Hangi port numarası SSH bağlantıları için kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Port 21",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Port 22",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Port 23",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Port 25",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Port 22, SSH (Secure Shell) bağlantıları için standart olarak kullanılan port numarasıdır. SSH, güvenli uzaktan erişim sağlayan protokoldür."
+                }
             ]
         }
     ]
