@@ -748,6 +748,43 @@
                     "explanation": "WannaCry ransomware saldırısı 2017 yılında gerçekleşti ve 150'den fazla ülkede 300.000'den fazla bilgisayarı etkiledi."
                 }
             ]
+        },
+        {
+            "id": "2_1",
+            "title": "1. Zararlı Yazılım Türleri",
+            "duration": "12",
+            "color": "#3498db",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Zararlı yazılım türlerini detaylı olarak öğren, her birinin özelliklerini ve nasıl çalıştığını keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "",
+                    "content": "Zararlı yazılım (Malware), bilgisayar sistemlerine, ağlara ve kullanıcılara zarar vermek amacıyla tasarlanmış kötü niyetli programlardır. Bu yazılımlar genellikle gizlice çalışır ve kullanıcının bilgisi olmadan sistemlere sızar.\r\n\r\nZararlı yazılımların temel özellikleri:\r\n• Gizli çalışma ve kendini gizleme\r\n• Sistem kaynaklarını tüketme\r\n• Veri çalma veya şifreleme\r\n• Sistemlere uzaktan erişim sağlama\r\n• Diğer sistemlere yayılma\r\n\r\nGünümüzde zararlı yazılımlar, siber suçluların en etkili silahlarından biridir ve her gün milyonlarca yeni tür ortaya çıkmaktadır."
+                },
+                {
+                    "id": "2",
+                    "title": "",
+                    "content": "Virüs, kendini kopyalayabilen ve diğer programlara bulaşabilen zararlı yazılım türüdür. Tıpkı biyolojik virüsler gibi, bilgisayar virüsleri de konak programlara bağlanarak çoğalır.\r\n\r\nVirüslerin özellikleri:\r\n• Kendini kopyalama ve yayılma\r\n• Konak programlara bağlanma\r\n• Kullanıcı etkileşimi gerektirme\r\n• Sistem dosyalarına zarar verme\r\n• Yavaş çalışma ve çökme\r\n\r\nVirüs türleri:\r\n• Dosya virüsleri: .exe, .com dosyalarına bulaşır\r\n• Boot sektör virüsleri: Disk boot sektörüne bulaşır\r\n• Makro virüsleri: Office belgelerine bulaşır\r\n• Çok parçalı virüsler: Birden fazla hedefe saldırır\r\n\r\nKorunma yöntemleri:\r\n• Güncel antivirüs yazılımı kullanma\r\n• Şüpheli dosyaları açmama\r\n• Güvenlik güncellemelerini yükleme\r\n• E-posta eklerini dikkatli açma"
+                },
+                {
+                    "id": "3",
+                    "title": "",
+                    "content": "Solucan, ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür. Solucanlar, ağ kaynaklarını tüketerek sistem performansını düşürür.\r\n\r\nSolucanların özellikleri:\r\n• Otomatik yayılma\r\n• Ağ kaynaklarını tüketme\r\n• Kullanıcı etkileşimi gerektirmeme\r\n• Hızlı yayılma\r\n• Sistem performansını düşürme\r\n\r\nÜnlü solucan örnekleri:\r\n• ILOVEYOU (2000): 45 milyon bilgisayara bulaştı\r\n• Code Red (2001): Web sunucularına saldırdı\r\n• Conficker (2008): 15 milyon bilgisayara yayıldı\r\n• WannaCry (2017): 300.000 bilgisayarı etkiledi\r\n\r\nKorunma yöntemleri:\r\n• Güvenlik duvarı kullanma\r\n• Ağ trafiğini izleme\r\n• Güvenlik güncellemelerini yükleme\r\n• Şüpheli bağlantıları engelleme\r\n• Ağ segmentasyonu uygulama"
+                },
+                {
+                    "id": "4",
+                    "title": "",
+                    "content": "Trojan (Truva Atı), kendini faydalı yazılım gibi gizleyen ancak arka planda zararlı işlemler yapan yazılım türüdür. Ransomware ise dosyaları şifreleyerek fidye talep eden modern tehdit türüdür.\r\n\r\nTrojan'ların özellikleri:\r\n• Kendini gizleme ve sahte kimlik\r\n• Uzaktan erişim sağlama\r\n• Veri çalma ve izleme\r\n• Sistem kontrolünü ele geçirme\r\n• Diğer zararlı yazılımları indirme\r\n\r\nTrojan türleri:\r\n• Backdoor: Arka kapı erişimi sağlar\r\n• Keylogger: Tuş vuruşlarını kaydeder\r\n• Banker: Banka bilgilerini çalar\r\n• Downloader: Diğer zararlıları indirir\r\n• Rootkit: Sistem seviyesinde gizlenir\r\n\r\nRansomware'lerin özellikleri:\r\n• Dosya şifreleme\r\n• Fidye talep etme\r\n• Şifreleme anahtarı saklama\r\n• Hızlı yayılma\r\n• Kritik verilere erişimi engelleme\r\n\r\nÜnlü ransomware örnekleri:\r\n• WannaCry (2017): 300.000+ bilgisayar\r\n• NotPetya (2017): 10 milyar $ zarar\r\n• Ryuk (2018): Hedefli saldırılar\r\n• REvil (2021): Büyük şirketlere saldırdı\r\n\r\nKorunma yöntemleri:\r\n• Düzenli yedekleme yapma\r\n• Güvenlik yazılımları kullanma\r\n• E-posta güvenliği sağlama\r\n• Kullanıcı eğitimi verme\r\n• Güvenlik güncellemelerini yükleme"
+                },
+                {
+                    "id": "5",
+                    "title": "Bilgisayar Güvenliği",
+                    "content": "[Quiz Sayfası: Quiz: Bilgisayar Güvenliği]"
+                }
+            ]
         }
     ]
 }
