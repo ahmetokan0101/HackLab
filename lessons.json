@@ -39,13 +39,13 @@
                         "options": [
                             {
                                 "id": "A",
-                                "text": "Sistemlere zarar vermek",
-                                "isCorrect": false
+                                "text": "Güvenlik açıklarını tespit etmek",
+                                "isCorrect": true
                             },
                             {
                                 "id": "B",
-                                "text": "Güvenlik açıklarını tespit etmek",
-                                "isCorrect": true
+                                "text": "Sistemlere zarar vermek",
+                                "isCorrect": false
                             },
                             {
                                 "id": "C",
@@ -125,13 +125,13 @@
                             },
                             {
                                 "id": "B",
-                                "text": "Siyah şapka hacking",
-                                "isCorrect": true
+                                "text": "Gri şapka hacking",
+                                "isCorrect": false
                             },
                             {
                                 "id": "C",
-                                "text": "Gri şapka hacking",
-                                "isCorrect": false
+                                "text": "Siyah şapka hacking",
+                                "isCorrect": true
                             },
                             {
                                 "id": "D",
@@ -187,18 +187,18 @@
                             },
                             {
                                 "id": "B",
-                                "text": "Hazır araçları kullanma",
-                                "isCorrect": true
-                            },
-                            {
-                                "id": "C",
                                 "text": "Profesyonel çalışma",
                                 "isCorrect": false
                             },
                             {
-                                "id": "D",
+                                "id": "C",
                                 "text": "Derin bilgi",
                                 "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Hazır araçları kullanma",
+                                "isCorrect": true
                             }
                         ],
                         "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar. Derin teknik bilgiye sahip değillerdir."
@@ -249,13 +249,13 @@
                             },
                             {
                                 "id": "B",
-                                "text": "Güvenlik açıklarını tespit etmek",
-                                "isCorrect": true
+                                "text": "Veri çalmak",
+                                "isCorrect": false
                             },
                             {
                                 "id": "C",
-                                "text": "Veri çalmak",
-                                "isCorrect": false
+                                "text": "Güvenlik açıklarını tespit etmek",
+                                "isCorrect": true
                             },
                             {
                                 "id": "D",
@@ -276,6 +276,68 @@
                 "isCompleted": false,
                 "isActive": false,
                 "description": "Tarihte önemli etik hacking olaylarını ve etkilerini öğren",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Test Hazırlığı",
+                        "content": "Bu test, Etik Hacking'e Giriş kategorisindeki tüm konuları kapsamaktadır. Test öncesi öğrendiğiniz konuları gözden geçirin ve hazır olduğunuzda teste başlayın.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabTest.png",
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Test Kuralları",
+                        "content": "Test 10 sorudan oluşmaktadır. Her soru için sadece bir doğru cevap vardır. Testi tamamladıktan sonra sonuçlarınızı görebilir ve eksik konularınızı tekrar çalışabilirsiniz."
+                    },
+                    {
+                        "id": "3",
+                        "title": "Kategori Tamamlama",
+                        "content": "Bu testi başarıyla tamamladığınızda, Etik Hacking'e Giriş kategorisini tamamlamış olacaksınız. Test sonucunuz %70 ve üzerinde olmalıdır."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Kapsamlı Test: Etik Hacking'e Giriş",
+                        "content": "[Quiz Sayfası: Kapsamlı Test: Etik Hacking'e Giriş]",
+                        "type": "quiz",
+                        "question": "Etik hacking sürecinin ilk aşaması nedir?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Penetrasyon testi",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Bilgi toplama",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Planlama ve izin alma",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "D",
+                                "text": "Raporlama",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Etik hacking sürecinin ilk aşaması planlama ve izin almaktır. Yasal izinler olmadan hiçbir güvenlik testi yapılamaz."
+                    }
+                ]
+            },
+            {
+                "id": "1_6",
+                "title": "6. Etik Hackerın Rolü ve Sorumlulukları",
+                "duration": "14 dk",
+                "color": "#3498db",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Etik hackerın görevleri, sorumlulukları ve etik kurallarını öğren",
                 "pages": [
                     {
                         "id": "1",
@@ -336,88 +398,21 @@
                             },
                             {
                                 "id": "B",
-                                "text": "Stuxnet",
-                                "isCorrect": true
-                            },
-                            {
-                                "id": "C",
                                 "text": "Anonymous saldırıları",
                                 "isCorrect": false
                             },
                             {
-                                "id": "D",
+                                "id": "C",
                                 "text": "Kevin Mitnick olayları",
                                 "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Stuxnet",
+                                "isCorrect": true
                             }
                         ],
                         "explanation": "Stuxnet, 2010'da İran'ın nükleer tesislerini hedef alan ve endüstriyel kontrol sistemlerini etkileyen ilk siber silah olarak tarihe geçmiştir."
-                    }
-                ]
-            },
-            {
-                "id": "1_6",
-                "title": "6. Etik Hackerın Rolü ve Sorumlulukları",
-                "duration": "14 dk",
-                "color": "#3498db",
-                "documents": 5,
-                "isCompleted": false,
-                "isActive": false,
-                "description": "Etik hackerın görevleri, sorumlulukları ve etik kurallarını öğren",
-                "pages": [
-                    {
-                        "id": "1",
-                        "title": "Etik Hackerın Rolü",
-                        "content": "Etik hackerlar, organizasyonların güvenlik sistemlerini test eden, güvenlik açıklarını tespit eden ve güvenlik önerileri sunan profesyonel güvenlik uzmanlarıdır. Sistemleri korumak ve güvenliği artırmak için çalışırlar.",
-                        "media": {
-                            "type": "image",
-                            "url": "https://ankaraotantik.com/HackLab/HackLabRol.png",
-                            "title": "Etik Hacker Rolleri"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "title": "Temel Sorumluluklar",
-                        "content": "Etik hackerların temel sorumlulukları: Güvenlik açıklarını tespit etmek, penetrasyon testleri yapmak, güvenlik raporları hazırlamak, güvenlik önerileri sunmak, güvenlik farkındalığı eğitimi vermek ve güvenlik politikaları geliştirmektir."
-                    },
-                    {
-                        "id": "3",
-                        "title": "Etik Kurallar ve Prensipler",
-                        "content": "Etik hackerlar şu kurallara uymalıdır: Yasal izinler almak, gizlilik kurallarına uymak, zarar vermemek, şeffaf olmak, hesap verebilir olmak, sürekli öğrenmek ve mesleki gelişim göstermek. Bu kurallar, etik hacking'in temelini oluşturur."
-                    },
-                    {
-                        "id": "4",
-                        "title": "Mesleki Gelişim",
-                        "content": "Etik hackerlar sürekli kendilerini geliştirmelidir. Yeni güvenlik tehditlerini takip etmek, sertifikalar almak, konferanslara katılmak, araştırma yapmak ve toplulukla paylaşımda bulunmak önemlidir. Siber güvenlik alanı sürekli değiştiği için güncel kalmak kritiktir."
-                    },
-                    {
-                        "id": "5",
-                        "title": "Quiz: Etik Hackerın Sorumlulukları",
-                        "content": "[Quiz Sayfası: Quiz: Etik Hackerın Sorumlulukları]",
-                        "type": "quiz",
-                        "question": "Etik hackerın en önemli sorumluluğu nedir?",
-                        "options": [
-                            {
-                                "id": "A",
-                                "text": "Sistemlere zarar vermek",
-                                "isCorrect": false
-                            },
-                            {
-                                "id": "B",
-                                "text": "Güvenlik açıklarını tespit etmek",
-                                "isCorrect": true
-                            },
-                            {
-                                "id": "C",
-                                "text": "Veri çalmak",
-                                "isCorrect": false
-                            },
-                            {
-                                "id": "D",
-                                "text": "Sistemleri kapatmak",
-                                "isCorrect": false
-                            }
-                        ],
-                        "explanation": "Etik hackerın en önemli sorumluluğu, sistemlerdeki güvenlik açıklarını tespit etmek ve bu açıkları kapatmak için öneriler sunmaktır."
                     }
                 ]
             },
@@ -750,6 +745,106 @@
                             }
                         ],
                         "explanation": "WannaCry ransomware saldırısı 2017 yılında gerçekleşti ve 150'den fazla ülkede 300.000'den fazla bilgisayarı etkiledi."
+                    }
+                ]
+            },
+            {
+                "id": "2_1",
+                "title": "1. Zararlı Yazılım Türleri",
+                "duration": "12",
+                "color": "#3498db",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Zararlı yazılım türlerini detaylı olarak öğren, her birinin özelliklerini ve nasıl çalıştığını keşfet.",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "",
+                        "content": "Zararlı yazılım (Malware), bilgisayar sistemlerine, ağlara ve kullanıcılara zarar vermek amacıyla tasarlanmış kötü niyetli programlardır. Bu yazılımlar genellikle gizlice çalışır ve kullanıcının bilgisi olmadan sistemlere sızar.\r\n\r\nZararlı yazılımların temel özellikleri:\r\n• Gizli çalışma ve kendini gizleme\r\n• Sistem kaynaklarını tüketme\r\n• Veri çalma veya şifreleme\r\n• Sistemlere uzaktan erişim sağlama\r\n• Diğer sistemlere yayılma\r\n\r\nGünümüzde zararlı yazılımlar, siber suçluların en etkili silahlarından biridir ve her gün milyonlarca yeni tür ortaya çıkmaktadır."
+                    },
+                    {
+                        "id": "2",
+                        "title": "",
+                        "content": "Virüs, kendini kopyalayabilen ve diğer programlara bulaşabilen zararlı yazılım türüdür. Tıpkı biyolojik virüsler gibi, bilgisayar virüsleri de konak programlara bağlanarak çoğalır.\r\n\r\nVirüslerin özellikleri:\r\n• Kendini kopyalama ve yayılma\r\n• Konak programlara bağlanma\r\n• Kullanıcı etkileşimi gerektirme\r\n• Sistem dosyalarına zarar verme\r\n• Yavaş çalışma ve çökme\r\n\r\nVirüs türleri:\r\n• Dosya virüsleri: .exe, .com dosyalarına bulaşır\r\n• Boot sektör virüsleri: Disk boot sektörüne bulaşır\r\n• Makro virüsleri: Office belgelerine bulaşır\r\n• Çok parçalı virüsler: Birden fazla hedefe saldırır\r\n\r\nKorunma yöntemleri:\r\n• Güncel antivirüs yazılımı kullanma\r\n• Şüpheli dosyaları açmama\r\n• Güvenlik güncellemelerini yükleme\r\n• E-posta eklerini dikkatli açma"
+                    },
+                    {
+                        "id": "3",
+                        "title": "",
+                        "content": "Solucan, ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür. Solucanlar, ağ kaynaklarını tüketerek sistem performansını düşürür.\r\n\r\nSolucanların özellikleri:\r\n• Otomatik yayılma\r\n• Ağ kaynaklarını tüketme\r\n• Kullanıcı etkileşimi gerektirmeme\r\n• Hızlı yayılma\r\n• Sistem performansını düşürme\r\n\r\nÜnlü solucan örnekleri:\r\n• ILOVEYOU (2000): 45 milyon bilgisayara bulaştı\r\n• Code Red (2001): Web sunucularına saldırdı\r\n• Conficker (2008): 15 milyon bilgisayara yayıldı\r\n• WannaCry (2017): 300.000 bilgisayarı etkiledi\r\n\r\nKorunma yöntemleri:\r\n• Güvenlik duvarı kullanma\r\n• Ağ trafiğini izleme\r\n• Güvenlik güncellemelerini yükleme\r\n• Şüpheli bağlantıları engelleme\r\n• Ağ segmentasyonu uygulama"
+                    },
+                    {
+                        "id": "4",
+                        "title": "",
+                        "content": "Trojan (Truva Atı), kendini faydalı yazılım gibi gizleyen ancak arka planda zararlı işlemler yapan yazılım türüdür. Ransomware ise dosyaları şifreleyerek fidye talep eden modern tehdit türüdür.\r\n\r\nTrojan'ların özellikleri:\r\n• Kendini gizleme ve sahte kimlik\r\n• Uzaktan erişim sağlama\r\n• Veri çalma ve izleme\r\n• Sistem kontrolünü ele geçirme\r\n• Diğer zararlı yazılımları indirme\r\n\r\nTrojan türleri:\r\n• Backdoor: Arka kapı erişimi sağlar\r\n• Keylogger: Tuş vuruşlarını kaydeder\r\n• Banker: Banka bilgilerini çalar\r\n• Downloader: Diğer zararlıları indirir\r\n• Rootkit: Sistem seviyesinde gizlenir\r\n\r\nRansomware'lerin özellikleri:\r\n• Dosya şifreleme\r\n• Fidye talep etme\r\n• Şifreleme anahtarı saklama\r\n• Hızlı yayılma\r\n• Kritik verilere erişimi engelleme\r\n\r\nÜnlü ransomware örnekleri:\r\n• WannaCry (2017): 300.000+ bilgisayar\r\n• NotPetya (2017): 10 milyar $ zarar\r\n• Ryuk (2018): Hedefli saldırılar\r\n• REvil (2021): Büyük şirketlere saldırdı\r\n\r\nKorunma yöntemleri:\r\n• Düzenli yedekleme yapma\r\n• Güvenlik yazılımları kullanma\r\n• E-posta güvenliği sağlama\r\n• Kullanıcı eğitimi verme\r\n• Güvenlik güncellemelerini yükleme"
+                    },
+                    {
+                        "id": "5",
+                        "title": "Bilgisayar Güvenliği",
+                        "content": "[Quiz Sayfası: Quiz: Bilgisayar Güvenliği]"
+                    }
+                ]
+            }
+        ],
+        "2": [
+            {
+                "id": "2_1",
+                "title": "1. Zararlı Yazılım Türleri",
+                "duration": "12",
+                "color": "#3498db",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Zararlı yazılım türlerini detaylı olarak öğren, her birinin özelliklerini ve nasıl çalıştığını keşfet.",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Zararlı Yazılım Nedir?",
+                        "content": "Zararlı yazılım (Malware), bilgisayar sistemlerine, ağlara ve kullanıcılara zarar vermek amacıyla tasarlanmış kötü niyetli programlardır. Bu yazılımlar genellikle gizlice çalışır ve kullanıcının bilgisi olmadan sistemlere sızar.\r\n\r\nZararlı yazılımların temel özellikleri:\r\n• Gizli çalışma ve kendini gizleme\r\n• Sistem kaynaklarını tüketme\r\n• Veri çalma veya şifreleme\r\n• Sistemlere uzaktan erişim sağlama\r\n• Diğer sistemlere yayılma\r\n\r\nGünümüzde zararlı yazılımlar, siber suçluların en etkili silahlarından biridir ve her gün milyonlarca yeni tür ortaya çıkmaktadır."
+                    },
+                    {
+                        "id": "2",
+                        "title": "Virüs (Virus)",
+                        "content": "Virüs, kendini kopyalayabilen ve diğer programlara bulaşabilen zararlı yazılım türüdür. Tıpkı biyolojik virüsler gibi, bilgisayar virüsleri de konak programlara bağlanarak çoğalır.\r\n\r\nVirüslerin özellikleri:\r\n• Kendini kopyalama ve yayılma\r\n• Konak programlara bağlanma\r\n• Kullanıcı etkileşimi gerektirme\r\n• Sistem dosyalarına zarar verme\r\n• Yavaş çalışma ve çökme\r\n\r\nVirüs türleri:\r\n• Dosya virüsleri: .exe, .com dosyalarına bulaşır\r\n• Boot sektör virüsleri: Disk boot sektörüne bulaşır\r\n• Makro virüsleri: Office belgelerine bulaşır\r\n• Çok parçalı virüsler: Birden fazla hedefe saldırır\r\n\r\nKorunma yöntemleri:\r\n• Güncel antivirüs yazılımı kullanma\r\n• Şüpheli dosyaları açmama\r\n• Güvenlik güncellemelerini yükleme\r\n• E-posta eklerini dikkatli açma"
+                    },
+                    {
+                        "id": "3",
+                        "title": "Solucan (Worm)",
+                        "content": "Solucan, ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür. Solucanlar, ağ kaynaklarını tüketerek sistem performansını düşürür.\r\n\r\nSolucanların özellikleri:\r\n• Otomatik yayılma\r\n• Ağ kaynaklarını tüketme\r\n• Kullanıcı etkileşimi gerektirmeme\r\n• Hızlı yayılma\r\n• Sistem performansını düşürme\r\n\r\nÜnlü solucan örnekleri:\r\n• ILOVEYOU (2000): 45 milyon bilgisayara bulaştı\r\n• Code Red (2001): Web sunucularına saldırdı\r\n• Conficker (2008): 15 milyon bilgisayara yayıldı\r\n• WannaCry (2017): 300.000 bilgisayarı etkiledi\r\n\r\nKorunma yöntemleri:\r\n• Güvenlik duvarı kullanma\r\n• Ağ trafiğini izleme\r\n• Güvenlik güncellemelerini yükleme\r\n• Şüpheli bağlantıları engelleme\r\n• Ağ segmentasyonu uygulama"
+                    },
+                    {
+                        "id": "4",
+                        "title": "Trojan ve Ransomware",
+                        "content": "Trojan (Truva Atı), kendini faydalı yazılım gibi gizleyen ancak arka planda zararlı işlemler yapan yazılım türüdür. Ransomware ise dosyaları şifreleyerek fidye talep eden modern tehdit türüdür.\r\n\r\nTrojan'ların özellikleri:\r\n• Kendini gizleme ve sahte kimlik\r\n• Uzaktan erişim sağlama\r\n• Veri çalma ve izleme\r\n• Sistem kontrolünü ele geçirme\r\n• Diğer zararlı yazılımları indirme\r\n\r\nTrojan türleri:\r\n• Backdoor: Arka kapı erişimi sağlar\r\n• Keylogger: Tuş vuruşlarını kaydeder\r\n• Banker: Banka bilgilerini çalar\r\n• Downloader: Diğer zararlıları indirir\r\n• Rootkit: Sistem seviyesinde gizlenir\r\n\r\nRansomware'lerin özellikleri:\r\n• Dosya şifreleme\r\n• Fidye talep etme\r\n• Şifreleme anahtarı saklama\r\n• Hızlı yayılma\r\n• Kritik verilere erişimi engelleme\r\n\r\nÜnlü ransomware örnekleri:\r\n• WannaCry (2017): 300.000+ bilgisayar\r\n• NotPetya (2017): 10 milyar $ zarar\r\n• Ryuk (2018): Hedefli saldırılar\r\n• REvil (2021): Büyük şirketlere saldırdı\r\n\r\nKorunma yöntemleri:\r\n• Düzenli yedekleme yapma\r\n• Güvenlik yazılımları kullanma\r\n• E-posta güvenliği sağlama\r\n• Kullanıcı eğitimi verme\r\n• Güvenlik güncellemelerini yükleme"
+                    },
+                    {
+                        "id": "5",
+                        "title": "Quiz: Bilgisayar Güvenliği",
+                        "type": "quiz",
+                        "question": "Hangi zararlı yazılım türü kendini kopyalayarak ağ üzerinde yayılır?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Virüs",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Solucan (Worm)",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Trojan",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Ransomware",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Solucan (Worm), ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür."
                     }
                 ]
             }
