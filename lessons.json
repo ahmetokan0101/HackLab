@@ -842,6 +842,85 @@
                 "description": "Bilgisayar Güvenlik Tehditleri kategorisinin kapsamlı testi",
                 "pages": []
             }
+        ],
+        "3": [
+            {
+                "id": "3_1",
+                "title": "Sosyal Mühendislik Nedir?",
+                "duration": "25 dakika",
+                "color": "#ec4899",
+                "documents": 2,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Sosyal mühendisliğin temel kavramları, tarihçesi ve günümüzdeki önemi hakkında detaylı bilgi.",
+                "pages": []
+            },
+            {
+                "id": "3_2",
+                "title": "Phishing, Pretexting, Baiting, Tailgating",
+                "duration": "35 dakika",
+                "color": "#f97316",
+                "documents": 3,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Sosyal mühendisliğin temel tekniklerini öğren: Phishing, Pretexting, Baiting ve Tailgating yöntemlerini detaylı olarak incele.",
+                "pages": []
+            },
+            {
+                "id": "3_3",
+                "title": "Sosyal Mühendislik Testleri",
+                "duration": "40 dakika",
+                "color": "#10b981",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Sosyal mühendislik testlerini öğren, nasıl tasarlandığını ve uygulandığını keşfet.",
+                "pages": []
+            },
+            {
+                "id": "3_4",
+                "title": "İnsan Faktörlü Saldırılara Karşı Korunma",
+                "duration": "50 dakika",
+                "color": "#3b82f6",
+                "documents": 7,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "İnsan faktörlü saldırılara karşı etkili korunma yöntemlerini öğren, güvenlik farkındalığını artır.",
+                "pages": []
+            },
+            {
+                "id": "3_5",
+                "title": "Vaka Analizleri ve Örnek Saldırılar",
+                "duration": "55 dakika",
+                "color": "#8b5cf6",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Gerçek sosyal mühendislik saldırılarını analiz et, saldırganların kullandığı teknikleri ve sonuçları öğren.",
+                "pages": []
+            },
+            {
+                "id": "3_6",
+                "title": "Sosyal Mühendislik Savunma Stratejileri",
+                "duration": "50 dakika",
+                "color": "#ef4444",
+                "documents": 8,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Sosyal mühendislik saldırılarına karşı gelişmiş savunma stratejilerini öğren, organizasyonel güvenlik önlemlerini keşfet.",
+                "pages": []
+            },
+            {
+                "id": "3_7",
+                "title": "Test ve Değerlendirme",
+                "duration": "15 dk",
+                "color": "#10b981",
+                "documents": 10,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Sosyal Mühendislik kategorisinin kapsamlı testi",
+                "pages": []
+            }
         ]
     }
 }
