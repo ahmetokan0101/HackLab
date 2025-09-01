@@ -90,6 +90,56 @@
                 "Penetrasyon Test Uzmanı için 67–109 bin TL\r",
                 "Siber Güvenlik Uzmanı için 73–119 bin TL"
             ]
+        },
+        {
+            "id": "3",
+            "title": "3. Sosyal Mühendislik",
+            "subtitle": "İnsan Faktörü ve Güvenlik Açıkları",
+            "icon": "psychology",
+            "color": "#ec4899",
+            "gradient": [
+                "#ec4899",
+                "#f97316"
+            ],
+            "description": "Sosyal mühendislik tekniklerini öğren, insan psikolojisini kullanarak güvenlik açıklarını tespit et ve korunma yöntemlerini keşfet.",
+            "totalLessons": 7,
+            "duration": "2.5 saat",
+            "difficulty": "Orta",
+            "whatYouWillLearn": [
+                "Sosyal mühendislik türlerini ve tekniklerini anlama\r",
+                "İnsan psikolojisinin güvenlik açıklarındaki rolünü öğrenme\r",
+                "Phishing, pretexting ve baiting tekniklerini tanıma\r",
+                "Sosyal mühendislik saldırılarına karşı korunma yöntemleri\r",
+                "Güvenlik farkındalığı eğitimi verme becerileri\r",
+                "Sosyal mühendislik testleri tasarlama ve uygulama"
+            ],
+            "targetAudience": [
+                "Siber güvenlik uzmanları ve analistleri\r",
+                "Güvenlik danışmanları ve eğitmenleri\r",
+                "İnsan kaynakları ve eğitim departmanları\r",
+                "Güvenlik farkındalığı programları geliştirenler\r",
+                "Penetrasyon test uzmanları"
+            ],
+            "benefits": [
+                "İnsan faktörünü anlayarak güvenlik açıklarını tespit etme\r",
+                "Sosyal mühendislik saldırılarına karşı etkili korunma\r",
+                "Güvenlik farkındalığı eğitimi verme becerileri\r",
+                "Organizasyonel güvenlik kültürü oluşturma\r",
+                "Sosyal mühendislik testleri yapabilme"
+            ],
+            "requirements": [
+                "Temel siber güvenlik bilgisi\r",
+                "İnsan psikolojisi ve davranış bilimi ilgisi\r",
+                "İletişim ve ikna teknikleri becerisi\r",
+                "Güvenlik testleri konusunda deneyim\r",
+                "Etik kurallara uygun çalışma anlayışı"
+            ],
+            "averageSalary": [
+                "Sosyal Mühendislik Uzmanı: 85,000 - 130,000 TL\r",
+                "Güvenlik Farkındalık Eğitmeni: 65,000 - 95,000 TL\r",
+                "Penetrasyon Test Uzmanı: 75,000 - 120,000 TL\r",
+                "Güvenlik Danışmanı: 90,000 - 150,000 TL"
+            ]
         }
     ]
 }
