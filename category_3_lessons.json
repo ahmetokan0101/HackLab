@@ -1,1 +1,585 @@
-
+{
+    "categoryId": "3",
+    "categoryTitle": "Sosyal Mühendislik",
+    "lessons": [
+        {
+            "id": "3_1",
+            "title": "Sosyal Mühendislik Nedir?",
+            "duration": "45 dakika",
+            "color": "#ec4899",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Sosyal mühendisliğin temel kavramları, tarihçesi ve günümüzdeki önemi hakkında detaylı bilgi.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Sosyal Mühendislik Tanımı",
+                    "content": "Sosyal mühendislik, siber güvenlik alanında insan psikolojisini kullanarak güvenlik açıklarını tespit etme ve bu açıkları kullanarak sistemlere erişim sağlama yöntemidir.\n\nBu teknik, teknik güvenlik önlemlerini aşmak yerine, insan faktörünün zaaflarını kullanır. Sosyal mühendisler, hedef kişilerin güven, korku, açgözlülük gibi duygularını manipüle ederek istenen bilgileri elde etmeye çalışır.\n\nSosyal mühendislik, siber güvenlik alanında en tehlikeli saldırı türlerinden biri olarak kabul edilir çünkü en güçlü güvenlik sistemlerini bile insan hatası ile aşabilir."
+                },
+                {
+                    "id": "2",
+                    "title": "Tarihçe ve Gelişimi",
+                    "content": "Sosyal mühendislik kavramı, 1990'larda Kevin Mitnick'in çalışmalarıyla popüler hale geldi. Mitnick, teknik becerilerinden çok insan psikolojisini kullanarak sistemlere erişim sağladı.\n\nGünümüzde sosyal mühendislik:\n• Phishing e-postaları\n• Sahte web siteleri\n• Sosyal medya manipülasyonu\n• Telefon dolandırıcılığı\n• Fiziksel erişim yöntemleri\n\nBu teknikler sürekli gelişmekte ve daha sofistike hale gelmektedir."
+                },
+                {
+                    "id": "3",
+                    "title": "İnsan Psikolojisi ve Güvenlik",
+                    "content": "Sosyal mühendislik, insan psikolojisinin temel prensiplerini kullanır. İnsanlar doğal olarak güvenmeye, yardım etmeye ve otoriteye saygı duymaya eğilimlidir.\n\nKullanılan psikolojik faktörler:\n• Güven: Tanıdık ve güvenilir görünme\n• Korku: Acil durum ve tehdit yaratma\n• Açgözlülük: Ücretsiz ödül ve fırsat sunma\n• Otorite: Yetkili kişi gibi davranma\n• Sosyal kanıt: Başkalarının da yaptığını gösterme\n\nBu faktörler, hedef kişilerin mantıklı düşünme yeteneğini zayıflatır ve saldırganların isteklerini yerine getirmelerine neden olur."
+                },
+                {
+                    "id": "4",
+                    "title": "Sosyal Mühendislik Döngüsü",
+                    "content": "Sosyal mühendislik saldırıları belirli bir döngüyü takip eder:\n\n1. Bilgi Toplama: Hedef hakkında detaylı bilgi toplama\n2. Hedef Seçimi: En uygun kurbanı belirleme\n3. Güven Oluşturma: Hedefle güven ilişkisi kurma\n4. Manipülasyon: İstenen bilgiyi elde etme\n5. Sonuç: Elde edilen bilgiyi kullanma\n\nBu döngü, saldırganların sistematik olarak çalışmasını sağlar ve başarı şansını artırır."
+                },
+                {
+                    "id": "5",
+                    "title": "Günümüzdeki Tehditler",
+                    "content": "Modern sosyal mühendislik tehditleri sürekli gelişmekte ve daha sofistike hale gelmektedir:\n\n• Deepfake teknolojisi ile sahte video ve ses\n• Yapay zeka destekli kişiselleştirilmiş saldırılar\n• Sosyal medya platformlarının kötüye kullanımı\n• Mobil cihazlara özel saldırı teknikleri\n• Bulut tabanlı hizmetlere yönelik saldırılar\n\nBu tehditler, geleneksel güvenlik önlemlerini aşarak daha etkili hale gelmektedir."
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Sosyal Mühendislik Temelleri",
+                    "content": "Sosyal mühendislik hakkında öğrendiklerini test et:\n\nSoru 1: Sosyal mühendislik saldırılarında en çok kullanılan psikolojik faktör nedir?\nA) Korku\nB) Güven ✓\nC) Öfke\nD) Üzüntü\n\nSoru 2: Kevin Mitnick hangi yıllarda sosyal mühendisliği popüler hale getirdi?\nA) 1970'ler\nB) 1980'ler\nC) 1990'lar ✓\nD) 2000'ler\n\nSoru 3: Sosyal mühendislik döngüsünün ilk adımı nedir?\nA) Hedef seçimi\nB) Bilgi toplama ✓\nC) Güven oluşturma\nD) Manipülasyon"
+                }
+            ]
+        },
+        {
+            "id": "3_2",
+            "title": "Phishing, Pretexting, Baiting, Tailgating",
+            "duration": "60 dakika",
+            "color": "#f97316",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Sosyal mühendisliğin temel tekniklerini öğren: Phishing, Pretexting, Baiting ve Tailgating yöntemlerini detaylı olarak incele.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Phishing Teknikleri",
+                    "content": "Phishing, en yaygın sosyal mühendislik saldırı türüdür. Saldırganlar, güvenilir kurumlar gibi görünerek hedef kişilerden hassas bilgiler elde etmeye çalışır.\n\nPhishing türleri:\n• E-posta phishing\n• Spear phishing (hedefli)\n• Whaling (büyük balık avı)\n• Vishing (sesli phishing)\n• Smishing (SMS phishing)\n\nKorunma yöntemleri:\n• Gönderen adresini kontrol etme\n• Linkleri doğrulama\n• Gramer hatalarına dikkat etme\n• Acil durum mesajlarına şüpheyle yaklaşma"
+                },
+                {
+                    "id": "2",
+                    "title": "Pretexting ve Baiting",
+                    "content": "Pretexting: Saldırgan, sahte bir kimlik veya senaryo oluşturarak hedef kişiden bilgi almayı amaçlar. Örneğin, IT destek ekibi gibi davranarak şifre sorma.\n\nBaiting: Fiziksel veya dijital tuzaklar kullanarak kurbanları cezbetme yöntemi. USB bellekler, sahte web siteleri veya indirme linkleri kullanılır.\n\nPretexting örnekleri:\n• Sahte müfettiş kimliği\n• IT destek personeli\n• Güvenlik görevlisi\n• Müşteri hizmetleri temsilcisi\n\nBaiting örnekleri:\n• Ücretsiz yazılım indirme\n• Sahte ödül kampanyaları\n• Fiziksel USB bellekler\n• Sahte sosyal medya profilleri"
+                },
+                {
+                    "id": "3",
+                    "title": "Tailgating ve Fiziksel Erişim",
+                    "content": "Tailgating (peş takip), saldırganın yetkisiz erişim için yetkili bir kişiyi takip etmesi yöntemidir. Bu teknik, fiziksel güvenlik sistemlerini aşmak için kullanılır.\n\nTailgating yöntemleri:\n• Kapı açıkken içeri girme\n• Yetkili kişiyle birlikte geçiş\n• Sahte kimlik kartları\n• Güvenlik personeli gibi davranma\n\nKorunma önlemleri:\n• Kapıları kendin kapatma\n• Kimlik kontrolü yapma\n• Şüpheli davranışları rapor etme\n• Fiziksel güvenlik protokollerine uyma\n\nFiziksel güvenlik, siber güvenlik kadar önemlidir çünkü fiziksel erişim genellikle sistem erişimini de beraberinde getirir."
+                },
+                {
+                    "id": "4",
+                    "title": "Spear Phishing Detayları",
+                    "content": "Spear phishing, belirli bir hedefe yönelik olarak tasarlanmış özel phishing saldırılarıdır. Bu saldırılar, hedef hakkında detaylı bilgi toplanarak kişiselleştirilir.\n\nSpear phishing özellikleri:\n• Hedef hakkında detaylı araştırma\n• Kişiselleştirilmiş mesajlar\n• Gerçekçi senaryolar\n• Sosyal medya bilgilerinin kullanımı\n• Şirket içi bilgilerin kullanımı\n\nÖrnek senaryolar:\n• CEO'dan gelen acil ödeme talebi\n• IT departmanından gelen güvenlik uyarısı\n• İnsan kaynaklarından gelen form doldurma talebi\n• Finans departmanından gelen bütçe onayı"
+                },
+                {
+                    "id": "5",
+                    "title": "Vishing ve Smishing Teknikleri",
+                    "content": "Vishing (Voice + Phishing): Sesli arama yoluyla yapılan phishing saldırılarıdır. Saldırganlar, otomatik sesli mesajlar veya canlı operatörler kullanır.\n\nVishing özellikleri:\n• Otomatik sesli mesajlar\n• Sahte banka çağrıları\n• Acil durum uyarıları\n• Ödül bildirimleri\n• Borç tahsilatı\n\nSmishing (SMS + Phishing): SMS yoluyla yapılan phishing saldırılarıdır. Kısa mesajlar kullanılarak hedefler kandırılmaya çalışılır.\n\nSmishing özellikleri:\n• Kısa ve etkili mesajlar\n• Acil durum bildirimleri\n• Ödül ve fırsat duyuruları\n• Güvenlik uyarıları\n• Hesap doğrulama talepleri"
+                },
+                {
+                    "id": "6",
+                    "title": "Fiziksel Sosyal Mühendislik",
+                    "content": "Fiziksel sosyal mühendislik, saldırganın fiziksel olarak hedef ortama erişim sağlamaya çalıştığı yöntemlerdir.\n\nFiziksel teknikler:\n• Shoulder surfing (omuz üstünden izleme)\n• Dumpster diving (çöp karıştırma)\n• Impersonation (kimlik taklidi)\n• Piggybacking (sırt sırta geçiş)\n• Reverse social engineering\n\nGüvenlik önlemleri:\n• Ekran koruyucu kullanma\n• Hassas belgeleri imha etme\n• Kimlik doğrulama yapma\n• Şüpheli davranışları rapor etme\n• Fiziksel güvenlik protokollerine uyma"
+                },
+                {
+                    "id": "7",
+                    "title": "Sosyal Medya Manipülasyonu",
+                    "content": "Sosyal medya platformları, sosyal mühendislik saldırıları için ideal ortamlardır. Saldırganlar, bu platformlarda hedefler hakkında bilgi toplar ve manipülasyon yapar.\n\nSosyal medya tehditleri:\n• Sahte profil oluşturma\n• Hedef hakkında bilgi toplama\n• Güven ilişkisi kurma\n• Yanlış bilgi yayma\n• Kimlik hırsızlığı\n\nKorunma yöntemleri:\n• Gizlilik ayarlarını kontrol etme\n• Kişisel bilgileri paylaşmama\n• Şüpheli profilleri engelleme\n• Güçlü şifreler kullanma\n• İki faktörlü doğrulama"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Sosyal Mühendislik Teknikleri",
+                    "content": "Öğrendiğin teknikleri test et:\n\nSoru 1: Spear phishing nedir?\nA) Genel phishing saldırısı\nB) Hedefli phishing saldırısı ✓\nC) Sesli phishing saldırısı\nD) SMS phishing saldırısı\n\nSoru 2: Tailgating tekniğinde saldırgan ne yapar?\nA) E-posta gönderir\nB) Yetkili kişiyi takip eder ✓\nC) Sahte web sitesi oluşturur\nD) Telefon araması yapar\n\nSoru 3: Vishing hangi iletişim kanalını kullanır?\nA) E-posta\nB) SMS\nC) Sesli arama ✓\nD) Sosyal medya"
+                }
+            ]
+        },
+        {
+            "id": "3_3",
+            "title": "Sosyal Mühendislik Testleri",
+            "duration": "40 dakika",
+            "color": "#10b981",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Sosyal mühendislik testlerini öğren, nasıl tasarlandığını ve uygulandığını keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Test Planlaması ve Hazırlık",
+                    "content": "Sosyal mühendislik testleri, organizasyonların güvenlik farkındalığını ölçmek ve iyileştirmek için yapılır. Bu testler dikkatli planlama gerektirir.\n\nTest planlama aşamaları:\n• Hedef belirleme ve kapsam\n• Test senaryolarının tasarlanması\n• Etik kuralların belirlenmesi\n• Yasal izinlerin alınması\n• Test ekibinin oluşturulması\n• Zaman çizelgesinin hazırlanması"
+                },
+                {
+                    "id": "2",
+                    "title": "Test Senaryoları ve Yöntemleri",
+                    "content": "Sosyal mühendislik testleri çeşitli senaryolar kullanır:\n\nE-posta tabanlı testler:\n• Phishing e-postaları gönderme\n• Sahte ekler kullanma\n• Acil durum mesajları\n• Ödül ve fırsat duyuruları\n\nFiziksel testler:\n• Güvenlik personeli testi\n• Kimlik doğrulama testi\n• Fiziksel erişim testi\n• Belge güvenliği testi"
+                },
+                {
+                    "id": "3",
+                    "title": "Test Sonuçları ve Raporlama",
+                    "content": "Test sonuçları detaylı olarak raporlanmalı ve analiz edilmelidir:\n\nRaporlama kriterleri:\n• Test kapsamı ve hedefler\n• Kullanılan yöntemler\n• Elde edilen sonuçlar\n• Güvenlik açıkları\n• Öneriler ve iyileştirmeler\n\nMetrikler:\n• Başarı oranı\n• Tepki süreleri\n• Farkındalık seviyesi\n• Eğitim ihtiyaçları"
+                },
+                {
+                    "id": "4",
+                    "title": "Etik Kurallar ve Sınırlar",
+                    "content": "Sosyal mühendislik testleri etik kurallar çerçevesinde yapılmalıdır:\n\nEtik prensipler:\n• Zarar vermeme\n• Gizlilik koruma\n• Şeffaflık\n• Yasal uygunluk\n• Onay alma\n\nTest sınırları:\n• Kişisel bilgileri koruma\n• Aşırı stres yaratmama\n• Gerçek suç işlememe\n• İş süreçlerini bozmama"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Sosyal Mühendislik Testleri",
+                    "content": "Test konusundaki bilgilerini kontrol et:\n\nSoru 1: Sosyal mühendislik testlerinin ana amacı nedir?\nA) Sistemlere zarar vermek\nB) Güvenlik farkındalığını ölçmek ✓\nC) Veri çalmak\nD) Sistemleri kapatmak\n\nSoru 2: Test planlamasında en önemli aşama nedir?\nA) Test senaryoları\nB) Etik kuralların belirlenmesi ✓\nC) Zaman çizelgesi\nD) Test ekibi\n\nSoru 3: Test sonuçları nasıl raporlanmalıdır?\nA) Sadece başarı oranı\nB) Detaylı analiz ve öneriler ✓\nC) Sadece güvenlik açıkları\nD) Sadece kullanılan yöntemler"
+                }
+            ]
+        },
+        {
+            "id": "3_4",
+            "title": "İnsan Faktörlü Saldırılara Karşı Korunma",
+            "duration": "50 dakika",
+            "color": "#3b82f6",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "İnsan faktörlü saldırılara karşı etkili korunma yöntemlerini öğren, güvenlik farkındalığını artır.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Güvenlik Farkındalığı Eğitimi",
+                    "content": "Güvenlik farkındalığı eğitimi, çalışanların sosyal mühendislik saldırılarını tanımasını ve bunlara karşı korunmasını sağlar.\n\nEğitim konuları:\n• Sosyal mühendislik tekniklerini tanıma\n• Şüpheli e-postaları tespit etme\n• Güvenli şifre oluşturma\n• İki faktörlü doğrulama kullanma\n• Fiziksel güvenlik önlemleri\n\nEğitim yöntemleri:\n• Düzenli eğitim oturumları\n• Simülasyon testleri\n• Video eğitimleri\n• Etkileşimli modüller\n• Quiz ve değerlendirmeler"
+                },
+                {
+                    "id": "2",
+                    "title": "E-posta Güvenliği",
+                    "content": "E-posta, sosyal mühendislik saldırılarının en yaygın vektörüdür. Güvenli e-posta kullanımı için:\n\nGönderen kontrolü:\n• E-posta adresini detaylı inceleme\n• Domain adresini doğrulama\n• Beklenmeyen gönderenlere dikkat etme\n• Şirket içi e-posta politikalarını takip etme\n\nİçerik analizi:\n• Acil durum mesajlarına şüpheyle yaklaşma\n• Gramer ve yazım hatalarını kontrol etme\n• Beklenmeyen ekleri açmama\n• Şüpheli linkleri tıklamama\n\nGüvenlik araçları:\n• Spam filtreleri\n• Antivirüs yazılımları\n• E-posta güvenlik geçitleri\n• Güvenlik farkındalık platformları"
+                },
+                {
+                    "id": "3",
+                    "title": "Şifre Güvenliği ve Kimlik Doğrulama",
+                    "content": "Güçlü şifreler ve çok faktörlü kimlik doğrulama, hesap güvenliğinin temelidir:\n\nGüçlü şifre oluşturma:\n• En az 12 karakter kullanma\n• Büyük/küçük harf, sayı ve sembol karışımı\n• Kişisel bilgileri kullanmama\n• Her hesap için farklı şifre\n• Şifre yöneticisi kullanma\n\nÇok faktörlü kimlik doğrulama:\n• SMS doğrulama kodu\n• Uygulama tabanlı doğrulama\n• Biyometrik doğrulama\n• Donanım anahtarları\n• Yedek kodlar\n\nŞifre politikaları:\n• Düzenli şifre değişimi\n• Şifre karmaşıklık gereksinimleri\n• Hesap kilitleme politikaları\n• Şifre geçmişi kontrolü"
+                },
+                {
+                    "id": "4",
+                    "title": "Fiziksel Güvenlik Önlemleri",
+                    "content": "Fiziksel güvenlik, siber güvenliğin ayrılmaz bir parçasıdır:\n\nOfis güvenliği:\n• Ekran kilitleme kullanma\n• Masayı temiz tutma\n• Hassas belgeleri kilitli dolapta saklama\n• Ziyaretçi kayıt defteri tutma\n• Güvenlik personeli ile işbirliği\n\nMobil cihaz güvenliği:\n• Cihazları şifreleme\n• Uzaktan silme özelliği\n• Güvenli Wi-Fi kullanma\n• Cihazları güncel tutma\n• Yedekleme yapma\n\nVeri koruma:\n• Hassas verileri şifreleme\n• Güvenli veri imha yöntemleri\n• Veri sınıflandırma\n• Erişim kontrolü\n• Veri kaybı önleme (DLP)"
+                },
+                {
+                    "id": "5",
+                    "title": "Sosyal Medya Güvenliği",
+                    "content": "Sosyal medya platformları, saldırganlar için zengin bilgi kaynaklarıdır:\n\nProfil güvenliği:\n• Gizlilik ayarlarını kontrol etme\n• Kişisel bilgileri sınırlama\n• Şüpheli bağlantıları kabul etmeme\n• Profil fotoğraflarında konum bilgisi paylaşmama\n• İş ve kişisel hesapları ayırma\n\nİçerik paylaşımı:\n• Hassas iş bilgilerini paylaşmama\n• Tatil planlarını paylaşmama\n• Şirket içi bilgileri paylaşmama\n• Konum bilgilerini kontrol etme\n• Paylaşım öncesi düşünme\n\nGüvenlik araçları:\n• Sosyal medya güvenlik yazılımları\n• Şüpheli aktivite izleme\n• Otomatik güvenlik uyarıları\n• Güvenlik farkındalık eğitimleri"
+                },
+                {
+                    "id": "6",
+                    "title": "Olay Müdahale ve Raporlama",
+                    "content": "Güvenlik olaylarına hızlı ve etkili müdahale çok önemlidir:\n\nOlay tespiti:\n• Şüpheli aktiviteleri tanıma\n• Güvenlik ihlallerini rapor etme\n• Anormal davranışları tespit etme\n• Güvenlik araçlarını kullanma\n• Çalışan geri bildirimlerini dinleme\n\nMüdahale süreci:\n• Olayı belgeleme\n• Güvenlik ekibine bildirme\n• Etkilenen sistemleri izole etme\n• Kanıtları koruma\n• İletişim protokollerini takip etme\n\nRaporlama:\n• Detaylı olay raporu hazırlama\n• Etkilenen sistemleri belirleme\n• Zarar değerlendirmesi yapma\n• Önleyici önlemler önerme\n• Ders alınan noktaları belirleme"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Korunma Yöntemleri",
+                    "content": "Korunma yöntemleri hakkında öğrendiklerini test et:\n\nSoru 1: Güçlü şifre için minimum karakter sayısı nedir?\nA) 8 karakter\nB) 10 karakter\nC) 12 karakter ✓\nD) 6 karakter\n\nSoru 2: Sosyal medyada hangi bilgi paylaşılmamalıdır?\nA) Tatil planları ✓\nB) Profil fotoğrafı\nC) İsim\nD) Şehir\n\nSoru 3: Güvenlik olayı tespit edildiğinde ilk yapılması gereken nedir?\nA) Sistemi kapatma\nB) Olayı belgeleme ✓\nC) Şifre değiştirme\nD) Antivirüs taraması"
+                }
+            ]
+        },
+        {
+            "id": "3_5",
+            "title": "Vaka Analizleri ve Örnek Saldırılar",
+            "duration": "55 dakika",
+            "color": "#8b5cf6",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Gerçek sosyal mühendislik saldırılarını analiz et, saldırganların kullandığı teknikleri ve sonuçları öğren.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Ünlü Sosyal Mühendislik Vakaları",
+                    "content": "Tarihte önemli sosyal mühendislik vakaları, bu saldırıların etkisini ve tehlikesini göstermektedir:\n\nKevin Mitnick Vakası (1990'lar):\n• Telefon şirketlerini kandırarak sistemlere erişim\n• Sahte kimlikler ve pretexting teknikleri\n• 5 yıl hapis cezası\n• Etik hacking alanında öncü\n\nTarget Veri İhlali (2013):\n• HVAC şirketi üzerinden erişim\n• 40 milyon kredi kartı bilgisi çalındı\n• 110 milyon müşteri bilgisi etkilendi\n• Maliyet: 162 milyon dolar\n\nSony Pictures Saldırısı (2014):\n• Sahte e-posta ile başladı\n• 100 TB veri çalındı\n• Filmler ve e-postalar yayınlandı\n• Şirket itibarı ciddi zarar gördü"
+                },
+                {
+                    "id": "2",
+                    "title": "CEO Dolandırıcılığı (Business Email Compromise)",
+                    "content": "CEO dolandırıcılığı, şirketlere en çok zarar veren sosyal mühendislik saldırı türlerinden biridir:\n\nSaldırı yöntemi:\n• Saldırgan, CEO'nun e-posta adresini taklit eder\n• Finans departmanına acil ödeme talebi gönderir\n• Genellikle büyük miktarlı transferler istenir\n• Zaman baskısı yaratılır\n\nGerçek vaka örnekleri:\n• Google ve Facebook (2013-2015): 100 milyon dolar\n• Ubiquiti Networks (2015): 46.7 milyon dolar\n• Scoular Company (2016): 17.2 milyon dolar\n• FACC (2016): 47 milyon dolar\n\nKorunma yöntemleri:\n• Çok faktörlü doğrulama\n• Ödeme onay süreçleri\n• E-posta güvenlik araçları\n• Çalışan eğitimi\n• Şüpheli talepleri doğrulama"
+                },
+                {
+                    "id": "3",
+                    "title": "Phishing Saldırıları ve Sonuçları",
+                    "content": "Phishing saldırıları, bireyler ve organizasyonlar için ciddi tehdit oluşturur:\n\nGüncel phishing örnekleri:\n• COVID-19 temalı saldırılar (2020-2023)\n• Sahte aşı randevu bildirimleri\n• Sahte devlet kurumu mesajları\n• Banka güvenlik uyarıları\n• Sosyal medya hesap doğrulama\n\nBaşarılı phishing sonuçları:\n• Hesap bilgileri çalınması\n• Finansal kayıplar\n• Kimlik hırsızlığı\n• Veri sızıntıları\n• Sistem erişimi\n\nİstatistikler:\n• 2022'de phishing saldırıları %61 arttı\n• Ortalama maliyet: 4.35 milyon dolar\n• En çok hedef: Sağlık sektörü\n• Mobil cihazlarda %85 artış"
+                },
+                {
+                    "id": "4",
+                    "title": "Fiziksel Sosyal Mühendislik Vakaları",
+                    "content": "Fiziksel sosyal mühendislik, teknik güvenlik önlemlerini aşmanın etkili bir yoludur:\n\nÜnlü fiziksel saldırılar:\n• Frank Abagnale Jr. (Catch Me If You Can):\n  - Sahte pilot kimliği\n  - Sahte doktor kimliği\n  - Sahte avukat kimliği\n  - 2.5 milyon dolar dolandırıcılık\n\n• Christopher Rocancourt:\n  - Sahte aristokrat kimliği\n  - Lüks yaşam tarzı taklidi\n  - 40 milyon dolar dolandırıcılık\n\n• Anna Sorokin (Anna Delvey):\n  - Sahte sosyalite kimliği\n  - Lüks otel ve restoran dolandırıcılığı\n  - 275,000 dolar dolandırıcılık\n\nFiziksel güvenlik dersleri:\n• Kimlik doğrulama protokollerini sıkılaştırma\n• Çalışan eğitimi\n• Güvenlik kameraları\n• Ziyaretçi kayıt sistemi\n• Güvenlik personeli eğitimi"
+                },
+                {
+                    "id": "5",
+                    "title": "Sosyal Medya Manipülasyonu Vakaları",
+                    "content": "Sosyal medya platformları, sosyal mühendislik saldırıları için ideal ortamlardır:\n\nCambridge Analytica Skandalı (2018):\n• Facebook'tan 87 milyon kullanıcı verisi çalındı\n• Kişilik profilleri oluşturuldu\n• Seçim kampanyalarında kullanıldı\n• Facebook 5 milyar dolar ceza ödedi\n\nSahte haber ve dezenformasyon:\n• 2016 ABD seçimlerinde Rus müdahalesi\n• Brexit kampanyasında yanlış bilgi yayma\n• COVID-19 sırasında sahte bilgiler\n• Siyasi manipülasyon kampanyaları\n\nKorunma yöntemleri:\n• Bilgi kaynaklarını doğrulama\n• Şüpheli içerikleri rapor etme\n• Güvenilir haber kaynaklarını takip etme\n• Sosyal medya okuryazarlığı\n• Algoritma manipülasyonuna karşı uyanık olma"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Vaka Analizleri",
+                    "content": "Vaka analizleri hakkında öğrendiklerini test et:\n\nSoru 1: Target veri ihlalinde kaç kredi kartı bilgisi çalındı?\nA) 20 milyon\nB) 30 milyon\nC) 40 milyon ✓\nD) 50 milyon\n\nSoru 2: CEO dolandırıcılığında en çok kullanılan teknik nedir?\nA) Fiziksel erişim\nB) E-posta taklidi ✓\nC) Sosyal medya manipülasyonu\nD) Telefon dolandırıcılığı\n\nSoru 3: Cambridge Analytica skandalında hangi platform kullanıldı?\nA) Twitter\nB) Instagram\nC) Facebook ✓\nD) LinkedIn"
+                }
+            ]
+        },
+        {
+            "id": "3_6",
+            "title": "6. Sosyal Mühendislik Savunma Stratejileri",
+            "duration": "50 dakika",
+            "color": "#ef4444",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Sosyal mühendislik saldırılarına karşı gelişmiş savunma stratejilerini öğren, organizasyonel güvenlik önlemlerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Savunma Stratejileri Genel Bakış",
+                    "content": "Sosyal mühendislik saldırılarına karşı etkili savunma, çok katmanlı bir yaklaşım gerektirir. Tek bir yöntem yeterli değildir, birden fazla savunma katmanı kullanılmalıdır.\n\nSavunma katmanları:\n• Teknik önlemler (güvenlik yazılımları, filtreler)\n• Prosedürsel önlemler (politikalar, protokoller)\n• İnsan faktörü (eğitim, farkındalık)\n• Fiziksel önlemler (güvenlik sistemleri)\n• Organizasyonel önlemler (kontrol mekanizmaları)\n\nSavunma prensipleri:\n• Derinlemesine savunma (defense in depth)\n• En az ayrıcalık prensibi\n• Savunma ve tespit dengesi\n• Sürekli iyileştirme\n• Olay müdahale hazırlığı"
+                },
+                {
+                    "id": "2",
+                    "title": "Organizasyonel Güvenlik Politikaları",
+                    "content": "Organizasyonel güvenlik politikaları, sosyal mühendislik saldırılarına karşı temel savunma katmanını oluşturur.\n\nPolitika türleri:\n• Bilgi güvenliği politikası\n• E-posta güvenlik politikası\n• Sosyal medya kullanım politikası\n• Fiziksel güvenlik politikası\n• Ziyaretçi yönetim politikası\n• Veri sınıflandırma politikası\n\nPolitika özellikleri:\n• Açık ve anlaşılır olmalı\n• Düzenli güncellenmeli\n• Çalışanlara bildirilmeli\n• Uyulmama durumunda yaptırımlar içermeli\n• Yasal gerekliliklere uygun olmalı\n• Pratik ve uygulanabilir olmalı"
+                },
+                {
+                    "id": "3",
+                    "title": "Güvenlik Farkındalık Programları",
+                    "content": "Güvenlik farkındalık programları, çalışanların sosyal mühendislik tehditlerini tanımasını ve bunlara karşı korunmasını sağlar.\n\nProgram bileşenleri:\n• Düzenli eğitim oturumları\n• Simülasyon testleri ve tatbikatlar\n• Video eğitimleri ve interaktif modüller\n• Güvenlik bültenleri ve güncellemeler\n• Quiz ve değerlendirmeler\n• Gerçek vaka analizleri\n\nEğitim konuları:\n• Sosyal mühendislik tekniklerini tanıma\n• Şüpheli e-postaları tespit etme\n• Güvenli şifre oluşturma ve yönetimi\n• İki faktörlü doğrulama kullanımı\n• Fiziksel güvenlik önlemleri\n• Veri koruma ve gizlilik"
+                },
+                {
+                    "id": "4",
+                    "title": "Teknik Savunma Araçları",
+                    "content": "Teknik savunma araçları, sosyal mühendislik saldırılarını otomatik olarak tespit etmeye ve engellemeye yardımcı olur.\n\nE-posta güvenlik araçları:\n• Spam filtreleri ve anti-phishing yazılımları\n• E-posta güvenlik geçitleri (ESG)\n• Domain tabanlı mesaj kimlik doğrulama (DMARC)\n• Sender Policy Framework (SPF)\n• DomainKeys Identified Mail (DKIM)\n\nWeb güvenlik araçları:\n• Web uygulama güvenlik duvarları (WAF)\n• Anti-malware yazılımları\n• Güvenli tarayıcı eklentileri\n• URL filtreleme sistemleri\n• Güvenlik tarayıcıları"
+                },
+                {
+                    "id": "5",
+                    "title": "Fiziksel Güvenlik Önlemleri",
+                    "content": "Fiziksel güvenlik, sosyal mühendislik saldırılarının önemli bir vektörüdür ve kapsamlı önlemler gerektirir.\n\nGiriş kontrol sistemleri:\n• Kartlı giriş sistemleri\n• Biyometrik doğrulama (parmak izi, yüz tanıma)\n• PIN kodları ve şifreler\n• Çift faktörlü fiziksel doğrulama\n• Ziyaretçi kayıt ve takip sistemleri\n\nGüvenlik personeli:\n• Eğitimli güvenlik görevlileri\n• 7/24 güvenlik izleme\n• Şüpheli davranış tespiti\n• Acil durum müdahale ekipleri\n• Düzenli güvenlik denetimleri"
+                },
+                {
+                    "id": "6",
+                    "title": "Olay Tespit ve Müdahale",
+                    "content": "Sosyal mühendislik saldırılarının hızlı tespiti ve etkili müdahalesi, zararın minimize edilmesi için kritiktir.\n\nTespit yöntemleri:\n• Güvenlik izleme sistemleri (SIEM)\n• Kullanıcı davranış analizi (UBA)\n• Anomali tespit sistemleri\n• Güvenlik farkındalık raporları\n• Çalışan geri bildirimleri\n• Otomatik tehdit tespiti\n\nMüdahale süreci:\n• Olay sınıflandırma ve önceliklendirme\n• Etkilenen sistemlerin izolasyonu\n• Kanıtların korunması ve toplanması\n• Güvenlik ekibine bildirim\n• İletişim protokollerinin uygulanması\n• Dış kurumlarla koordinasyon"
+                },
+                {
+                    "id": "7",
+                    "title": "Sürekli İyileştirme ve Değerlendirme",
+                    "content": "Sosyal mühendislik savunma stratejileri sürekli olarak değerlendirilmeli ve iyileştirilmelidir.\n\nDeğerlendirme metrikleri:\n• Saldırı tespit oranları\n• Yanlış pozitif oranları\n• Müdahale süreleri\n• Eğitim etkinliği\n• Güvenlik farkındalık seviyesi\n• Olay tekrarlama oranları\n\nİyileştirme süreci:\n• Düzenli güvenlik değerlendirmeleri\n• Penetrasyon testleri\n• Sosyal mühendislik simülasyonları\n• Güvenlik açığı taramaları\n• Risk değerlendirmeleri\n• Benchmark karşılaştırmaları"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Savunma Stratejileri",
+                    "content": "Savunma stratejileri hakkında öğrendiklerini test et:\n\nSoru 1: Savunma katmanlarından hangisi en önemlidir?\nA) Teknik önlemler\nB) Prosedürsel önlemler\nC) İnsan faktörü ✓\nD) Fiziksel önlemler\n\nSoru 2: Güvenlik farkındalık programlarında hangisi bulunmaz?\nA) Simülasyon testleri\nB) Video eğitimleri\nC) Fiziksel saldırılar ✓\nD) Quiz ve değerlendirmeler\n\nSoru 3: Olay tespitinde hangi sistem kullanılır?\nA) SIEM ✓\nB) WAF\nC) DMARC\nD) SPF"
+                }
+            ]
+        },
+        {
+            "id": "3_7",
+            "title": "7. Test ve Değerlendirme",
+            "duration": "15 dk",
+            "color": "#10b981",
+            "documents": 10,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Sosyal Mühendislik kategorisinin kapsamlı testi",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Test Hazırlığı",
+                    "content": "Bu test, Sosyal Mühendislik kategorisindeki tüm konuları kapsamaktadır. Test öncesi öğrendiğiniz konuları gözden geçirin ve hazır olduğunuzda teste başlayın.\n\nTest kapsamı:\n• Sosyal mühendislik temelleri ve teknikleri\n• Phishing, pretexting, baiting, tailgating\n• Sosyal mühendislik testleri ve değerlendirme\n• İnsan faktörlü saldırılara karşı korunma\n• Vaka analizleri ve örnek saldırılar\n\nTest kuralları:\n• 10 sorudan oluşur\n• Her soru için sadece bir doğru cevap vardır\n• Testi tamamladıktan sonra sonuçlarınızı görebilirsiniz\n• %70 ve üzerinde başarı gerekir"
+                },
+                {
+                    "id": "2",
+                    "title": "Soru 1: Sosyal Mühendislik Temelleri",
+                    "type": "quiz",
+                    "question": "Kevin Mitnick hangi yıllarda sosyal mühendisliği popüler hale getirdi?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "1970'ler",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "1980'ler",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "1990'lar",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "2000'ler",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Kevin Mitnick, 1990'larda sosyal mühendisliği popüler hale getirdi. Teknik becerilerinden çok insan psikolojisini kullanarak sistemlere erişim sağladı."
+                },
+                {
+                    "id": "3",
+                    "title": "Soru 2: Sosyal Mühendislik Döngüsü",
+                    "type": "quiz",
+                    "question": "Sosyal mühendislik döngüsünün ilk adımı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Hedef seçimi",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Bilgi toplama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Güven oluşturma",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Manipülasyon",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Sosyal mühendislik döngüsünün ilk adımı bilgi toplamadır. Hedef hakkında detaylı bilgi toplanarak en uygun saldırı yöntemi belirlenir."
+                },
+                {
+                    "id": "4",
+                    "title": "Soru 3: Günümüzdeki Tehditler",
+                    "type": "quiz",
+                    "question": "Modern sosyal mühendislik tehditlerinden hangisi yapay zeka ile ilgilidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Deepfake teknolojisi",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Yapay zeka destekli kişiselleştirilmiş saldırılar",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Mobil cihazlara özel saldırılar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Bulut tabanlı hizmetlere yönelik saldırılar",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Yapay zeka destekli kişiselleştirilmiş saldırılar, modern sosyal mühendislik tehditlerinden biridir. Bu saldırılar hedef hakkında toplanan verileri analiz ederek kişiselleştirilmiş mesajlar oluşturur."
+                },
+                {
+                    "id": "5",
+                    "title": "Soru 4: Phishing Teknikleri",
+                    "type": "quiz",
+                    "question": "Spear phishing nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Genel phishing saldırısı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Hedefli phishing saldırısı",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sesli phishing saldırısı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "SMS phishing saldırısı",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Spear phishing, belirli bir hedefe yönelik olarak tasarlanmış özel phishing saldırılarıdır. Hedef hakkında detaylı bilgi toplanarak kişiselleştirilir."
+                },
+                {
+                    "id": "6",
+                    "title": "Soru 5: Tailgating ve Fiziksel Erişim",
+                    "type": "quiz",
+                    "question": "Tailgating tekniğinde saldırgan ne yapar?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "E-posta gönderir",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Yetkili kişiyi takip eder",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sahte web sitesi oluşturur",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Telefon araması yapar",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Tailgating (peş takip), saldırganın yetkisiz erişim için yetkili bir kişiyi takip etmesi yöntemidir. Bu teknik fiziksel güvenlik sistemlerini aşmak için kullanılır."
+                },
+                {
+                    "id": "7",
+                    "title": "Soru 6: Vishing ve Smishing",
+                    "type": "quiz",
+                    "question": "Vishing hangi iletişim kanalını kullanır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "E-posta",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SMS",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sesli arama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sosyal medya",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Vishing (Voice + Phishing), sesli arama yoluyla yapılan phishing saldırılarıdır. Saldırganlar otomatik sesli mesajlar veya canlı operatörler kullanır."
+                },
+                {
+                    "id": "8",
+                    "title": "Soru 7: Sosyal Mühendislik Testleri",
+                    "type": "quiz",
+                    "question": "Sosyal mühendislik testlerinin ana amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sistemlere zarar vermek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Güvenlik farkındalığını ölçmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Veri çalmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sistemleri kapatmak",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Sosyal mühendislik testlerinin ana amacı güvenlik farkındalığını ölçmektir. Bu testler çalışanların sosyal mühendislik saldırılarına karşı ne kadar hazırlıklı olduğunu değerlendirir."
+                },
+                {
+                    "id": "9",
+                    "title": "Soru 8: Korunma Yöntemleri",
+                    "type": "quiz",
+                    "question": "Güçlü şifre için minimum karakter sayısı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "8 karakter",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "10 karakter",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "12 karakter",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "6 karakter",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Güçlü şifre için en az 12 karakter kullanılmalıdır. Şifre büyük/küçük harf, sayı ve sembol karışımından oluşmalıdır."
+                },
+                {
+                    "id": "10",
+                    "title": "Soru 9: Sosyal Medya Güvenliği",
+                    "type": "quiz",
+                    "question": "Sosyal medyada hangi bilgi paylaşılmamalıdır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Tatil planları",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Profil fotoğrafı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "İsim",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Şehir",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Tatil planları paylaşılmamalıdır çünkü bu bilgi ev hırsızlığı için kullanılabilir. Saldırganlar evin boş olduğu zamanları öğrenerek hırsızlık yapabilir."
+                },
+                {
+                    "id": "11",
+                    "title": "Soru 10: Vaka Analizleri",
+                    "type": "quiz",
+                    "question": "Target veri ihlalinde kaç kredi kartı bilgisi çalındı?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "20 milyon",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "30 milyon",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "40 milyon",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "50 milyon",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Target veri ihlalinde 40 milyon kredi kartı bilgisi çalındı. Bu olay HVAC şirketi üzerinden gerçekleşti ve 110 milyon müşteri bilgisi etkilendi."
+                }
+            ]
+        }
+    ]
+}
