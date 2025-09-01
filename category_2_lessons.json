@@ -1,34 +1,34 @@
 {
-    "categoryId": "2",
+  "categoryId": "2",
     "categoryTitle": "2. Bilgisayar Güvenlik Tehditleri",
-    "lessons": [
-        {
-            "id": "2_1",
+  "lessons": [
+    {
+      "id": "2_1",
             "title": "1. Zararlı Yazılım Türleri",
             "duration": "12",
             "color": "#3498db",
             "documents": 5,
-            "isCompleted": false,
-            "isActive": true,
+      "isCompleted": false,
+      "isActive": true,
             "description": "Zararlı yazılım türlerini detaylı olarak öğren, her birinin özelliklerini ve nasıl çalıştığını keşfet.",
-            "pages": [
-                {
-                    "id": "1",
+      "pages": [
+        {
+          "id": "1",
                     "title": "Zararlı Yazılım Nedir?",
                     "content": "Zararlı yazılım (Malware), bilgisayar sistemlerine, ağlara ve kullanıcılara zarar vermek amacıyla tasarlanmış kötü niyetli programlardır. Bu yazılımlar genellikle gizlice çalışır ve kullanıcının bilgisi olmadan sistemlere sızar.\r\n\r\nZararlı yazılımların temel özellikleri:\r\n• Gizli çalışma ve kendini gizleme\r\n• Sistem kaynaklarını tüketme\r\n• Veri çalma veya şifreleme\r\n• Sistemlere uzaktan erişim sağlama\r\n• Diğer sistemlere yayılma\r\n\r\nGünümüzde zararlı yazılımlar, siber suçluların en etkili silahlarından biridir ve her gün milyonlarca yeni tür ortaya çıkmaktadır."
-                },
-                {
-                    "id": "2",
+        },
+        {
+          "id": "2",
                     "title": "Virüs (Virus)",
                     "content": "Virüs, kendini kopyalayabilen ve diğer programlara bulaşabilen zararlı yazılım türüdür. Tıpkı biyolojik virüsler gibi, bilgisayar virüsleri de konak programlara bağlanarak çoğalır.\r\n\r\nVirüslerin özellikleri:\r\n• Kendini kopyalama ve yayılma\r\n• Konak programlara bağlanma\r\n• Kullanıcı etkileşimi gerektirme\r\n• Sistem dosyalarına zarar verme\r\n• Yavaş çalışma ve çökme\r\n\r\nVirüs türleri:\r\n• Dosya virüsleri: .exe, .com dosyalarına bulaşır\r\n• Boot sektör virüsleri: Disk boot sektörüne bulaşır\r\n• Makro virüsleri: Office belgelerine bulaşır\r\n• Çok parçalı virüsler: Birden fazla hedefe saldırır\r\n\r\nKorunma yöntemleri:\r\n• Güncel antivirüs yazılımı kullanma\r\n• Şüpheli dosyaları açmama\r\n• Güvenlik güncellemelerini yükleme\r\n• E-posta eklerini dikkatli açma"
-                },
-                {
-                    "id": "3",
+        },
+        {
+          "id": "3",
                     "title": "Solucan (Worm)",
                     "content": "Solucan, ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür. Solucanlar, ağ kaynaklarını tüketerek sistem performansını düşürür.\r\n\r\nSolucanların özellikleri:\r\n• Otomatik yayılma\r\n• Ağ kaynaklarını tüketme\r\n• Kullanıcı etkileşimi gerektirmeme\r\n• Hızlı yayılma\r\n• Sistem performansını düşürme\r\n\r\nÜnlü solucan örnekleri:\r\n• ILOVEYOU (2000): 45 milyon bilgisayara bulaştı\r\n• Code Red (2001): Web sunucularına saldırdı\r\n• Conficker (2008): 15 milyon bilgisayara yayıldı\r\n• WannaCry (2017): 300.000 bilgisayarı etkiledi\r\n\r\nKorunma yöntemleri:\r\n• Güvenlik duvarı kullanma\r\n• Ağ trafiğini izleme\r\n• Güvenlik güncellemelerini yükleme\r\n• Şüpheli bağlantıları engelleme\r\n• Ağ segmentasyonu uygulama"
-                },
-                {
-                    "id": "4",
+        },
+        {
+          "id": "4",
                     "title": "Trojan ve Ransomware",
                     "content": "Trojan (Truva Atı), kendini faydalı yazılım gibi gizleyen ancak arka planda zararlı işlemler yapan yazılım türüdür. Ransomware ise dosyaları şifreleyerek fidye talep eden modern tehdit türüdür.\r\n\r\nTrojan'ların özellikleri:\r\n• Kendini gizleme ve sahte kimlik\r\n• Uzaktan erişim sağlama\r\n• Veri çalma ve izleme\r\n• Sistem kontrolünü ele geçirme\r\n• Diğer zararlı yazılımları indirme\r\n\r\nTrojan türleri:\r\n• Backdoor: Arka kapı erişimi sağlar\r\n• Keylogger: Tuş vuruşlarını kaydeder\r\n• Banker: Banka bilgilerini çalar\r\n• Downloader: Diğer zararlıları indirir\r\n• Rootkit: Sistem seviyesinde gizlenir\r\n\r\nRansomware'lerin özellikleri:\r\n• Dosya şifreleme\r\n• Fidye talep etme\r\n• Şifreleme anahtarı saklama\r\n• Hızlı yayılma\r\n• Kritik verilere erişimi engelleme\r\n\r\nÜnlü ransomware örnekleri:\r\n• WannaCry (2017): 300.000+ bilgisayar\r\n• NotPetya (2017): 10 milyar $ zarar\r\n• Ryuk (2018): Hedefli saldırılar\r\n• REvil (2021): Büyük şirketlere saldırdı\r\n\r\nKorunma yöntemleri:\r\n• Düzenli yedekleme yapma\r\n• Güvenlik yazılımları kullanma\r\n• E-posta güvenliği sağlama\r\n• Kullanıcı eğitimi verme\r\n• Güvenlik güncellemelerini yükleme"
                 },
@@ -60,41 +60,41 @@
                         }
                     ],
                     "explanation": "Solucan (Worm), ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür."
-                }
-            ]
-        },
-        {
-            "id": "2_2",
+        }
+      ]
+    },
+    {
+      "id": "2_2",
             "title": "2. Açık Portlar ve Servisler",
             "duration": "15 dk",
             "color": "#e74c3c",
             "documents": 6,
-            "isCompleted": false,
-            "isActive": false,
+      "isCompleted": false,
+      "isActive": false,
             "description": "Ağ güvenliğinde açık portlar ve servislerin risklerini öğren, port tarama tekniklerini keşfet.",
-            "pages": [
-                {
-                    "id": "1",
+      "pages": [
+        {
+          "id": "1",
                     "title": "Port ve Servis Kavramları",
                     "content": "Port, bilgisayar ağlarında veri alışverişi yapılan sanal noktalardır. Her port belirli bir servis veya uygulama tarafından kullanılır ve 0-65535 arasında numaralandırılır.\r\n\r\nPort türleri:\r\n• Well-known ports (0-1023): Standart servisler için ayrılmış\r\n• Registered ports (1024-49151): Uygulama geliştiricileri için\r\n• Dynamic ports (49152-65535): Geçici bağlantılar için\r\n\r\nYaygın port numaraları:\r\n• Port 21: FTP (File Transfer Protocol)\r\n• Port 22: SSH (Secure Shell)\r\n• Port 23: Telnet\r\n• Port 25: SMTP (Simple Mail Transfer Protocol)\r\n• Port 53: DNS (Domain Name System)\r\n• Port 80: HTTP (Hypertext Transfer Protocol)\r\n• Port 443: HTTPS (HTTP Secure)\r\n• Port 3306: MySQL\r\n• Port 5432: PostgreSQL\r\n• Port 27017: MongoDB\r\n\r\nPort açık olması, o servisin dış dünyadan erişilebilir olduğu anlamına gelir."
-                },
-                {
-                    "id": "2",
+        },
+        {
+          "id": "2",
                     "title": "Port Tarama Teknikleri",
                     "content": "Port tarama, hedef sistemde hangi portların açık olduğunu ve hangi servislerin çalıştığını tespit etme yöntemidir. Bu teknik hem güvenlik testlerinde hem de saldırılarda kullanılır.\r\n\r\nPort tarama türleri:\r\n• TCP Connect Scan: Tam bağlantı kurarak tarama\r\n• SYN Scan: Yarı açık bağlantı ile tarama\r\n• UDP Scan: UDP portlarını tarama\r\n• FIN Scan: FIN bayrağı ile tarama\r\n• XMAS Scan: Çoklu bayrak ile tarama\r\n• NULL Scan: Bayrak olmadan tarama\r\n\r\nPort tarama araçları:\r\n• Nmap: En popüler port tarama aracı\r\n• Masscan: Hızlı port tarama\r\n• Angry IP Scanner: Kullanıcı dostu arayüz\r\n• Netcat: Çok amaçlı ağ aracı\r\n• Zenmap: Nmap'in grafiksel arayüzü\r\n\r\nPort tarama komutları:\r\n• nmap -sS 192.168.1.1 (SYN scan)\r\n• nmap -sT 192.168.1.1 (TCP connect)\r\n• nmap -sU 192.168.1.1 (UDP scan)\r\n• nmap -p 80,443,22 192.168.1.1 (belirli portlar)"
-                },
-                {
-                    "id": "3",
+        },
+        {
+          "id": "3",
                     "title": "Açık Portların Güvenlik Riskleri",
                     "content": "Açık portlar, sistemlere dış dünyadan erişim sağlar ve bu da güvenlik riskleri oluşturur. Her açık port potansiyel bir saldırı vektörüdür.\r\n\r\nGüvenlik riskleri:\r\n• Bilgi sızıntısı: Servis versiyonları ve yapılandırmaları\r\n• Brute force saldırıları: Şifre deneme saldırıları\r\n• Exploit saldırıları: Bilinen güvenlik açıkları\r\n• Man-in-the-middle: Araya girme saldırıları\r\n• DDoS saldırıları: Hizmet reddi saldırıları\r\n• Port knocking: Gizli port erişimi\r\n\r\nRisk değerlendirmesi:\r\n• Kritik portlar: SSH (22), RDP (3389), Database portları\r\n• Orta risk: Web servisleri (80, 443), Mail servisleri\r\n• Düşük risk: DNS (53), NTP (123)\r\n\r\nGüvenlik önlemleri:\r\n• Gereksiz portları kapatma\r\n• Güvenlik duvarı kuralları\r\n• Port izleme ve loglama\r\n• Düzenli güvenlik testleri\r\n• Servis güncellemeleri"
-                },
-                {
-                    "id": "4",
+        },
+        {
+          "id": "4",
                     "title": "Servis Keşfi ve Versiyon Tespiti",
                     "content": "Servis keşfi, açık portlarda çalışan servislerin türünü ve versiyonunu tespit etme sürecidir. Bu bilgi saldırganlar için değerli hedef bilgisi sağlar.\r\n\r\nServis keşfi yöntemleri:\r\n• Banner grabbing: Servis banner'larını okuma\r\n• Version detection: Versiyon tespiti\r\n• Script scanning: Özel script'ler ile tarama\r\n• Service enumeration: Servis detaylarını çıkarma\r\n• OS detection: İşletim sistemi tespiti\r\n\r\nBanner grabbing teknikleri:\r\n• Telnet ile bağlantı: telnet 192.168.1.1 80\r\n• Netcat ile bağlantı: nc 192.168.1.1 80\r\n• HTTP HEAD isteği: HEAD / HTTP/1.0\r\n• FTP bağlantısı: ftp 192.168.1.1\r\n• SSH bağlantısı: ssh 192.168.1.1\r\n\r\nVersiyon tespiti:\r\n• Nmap -sV: Versiyon tespiti\r\n• Nmap -sC: Script taraması\r\n• Nmap -A: Agresif tarama\r\n• Nmap --version-intensity: Versiyon tespit yoğunluğu\r\n\r\nServis bilgileri:\r\n• Servis adı ve türü\r\n• Versiyon numarası\r\n• Yapılandırma detayları\r\n• Güvenlik özellikleri\r\n• Bilinen güvenlik açıkları"
-                },
-                {
-                    "id": "5",
+        },
+        {
+          "id": "5",
                     "title": "Quiz: Port Güvenliği",
                     "type": "quiz",
                     "question": "Hangi port numarası SSH bağlantıları için kullanılır?",
@@ -121,8 +121,433 @@
                         }
                     ],
                     "explanation": "Port 22, SSH (Secure Shell) bağlantıları için standart olarak kullanılan port numarasıdır. SSH, güvenli uzaktan erişim sağlayan protokoldür."
+        }
+      ]
+    },
+    {
+      "id": "2_3",
+            "title": "3. İnsan Hatalarından Kaynaklanan Güvenlik Açıkları",
+            "duration": "18 dk",
+            "color": "#9b59b6",
+            "documents": 7,
+      "isCompleted": false,
+      "isActive": false,
+            "description": "İnsan faktörünün güvenlik açıklarında oynadığı rolü öğren, sosyal mühendislik tekniklerini keşfet.",
+      "pages": [
+        {
+          "id": "1",
+                    "title": "İnsan Faktörü ve Güvenlik",
+                    "content": "Güvenlik açıklarının en büyük kaynağı insanlardır! Teknik güvenlik önlemleri ne kadar güçlü olursa olsun, insanlar hata yapabilir ve bu hatalar saldırganlar tarafından kullanılabilir.\r\n\r\nİnsan hatalarının nedenleri:\r\n• Bilgi eksikliği ve eğitimsizlik\r\n• Dikkatsizlik ve unutkanlık\r\n• Merak ve acelecilik\r\n• Sosyal baskı ve manipülasyon\r\n• Güven duygusu ve naiflik\r\n\r\nGüvenlik açıklarında insan faktörünün payı:\r\n• %90'dan fazla güvenlik ihlali insan hatasından kaynaklanır\r\n• Teknik açıklar sadece %10 civarında\r\n• En güçlü sistemler bile insan hatasıyla çökebilir\r\n\r\nÖrnek senaryolar:\r\n• Çalışan şifresini post-it'e yazıp masaya yapıştırır\r\n• E-posta ekini açmadan önce düşünmez\r\n• Tanımadığı kişiye bilgi verir\r\n• Güvenlik uyarılarını görmezden gelir\r\n• Şüpheli bağlantıları tıklar"
+        },
+        {
+          "id": "2",
+                    "title": "Sosyal Mühendislik Teknikleri",
+                    "content": "Sosyal mühendislik, insanların psikolojik zaaflarını kullanarak güvenlik açıkları yaratma sanatıdır. Saldırganlar teknik bilgi yerine insan psikolojisini kullanır.\r\n\r\nTemel sosyal mühendislik teknikleri:\r\n• Pretexting: Sahte bir kimlik veya senaryo oluşturma\r\n• Phishing: Sahte e-postalar ile bilgi çalma\r\n• Vishing: Telefon üzerinden bilgi çalma\r\n• Baiting: Çekici tekliflerle tuzak kurma\r\n• Quid pro quo: Karşılıklı fayda vaadi\r\n• Tailgating: Fiziksel erişim sağlama\r\n\r\nPhishing örnekleri:\r\n• Banka e-postası: 'Hesabınız kilitlendi, hemen açın'\r\n• Sosyal medya: 'Arkadaşınız size mesaj gönderdi'\r\n• İş e-postası: 'Patronunuz acil belge istiyor'\r\n• Ödül: '1 milyon dolar kazandınız!'\r\n• Korku: 'Hesabınız hacklendi!'\r\n\r\nSosyal mühendislik belirtileri:\r\n• Aciliyet yaratma\r\n• Korku ve panik uyandırma\r\n• Çok iyi teklifler\r\n• Tanıdık görünme\r\n• Yetki kullanma"
+        },
+        {
+          "id": "3",
+                    "title": "Şifre Güvenliği ve Kimlik Doğrulama",
+                    "content": "Şifreler güvenliğin temelidir ama insanlar genellikle zayıf şifreler seçer. Güçlü şifre oluşturma ve güvenli kimlik doğrulama yöntemleri öğrenelim.\r\n\r\nZayıf şifre örnekleri:\r\n• 123456, password, admin\r\n• Doğum tarihi, evcil hayvan adı\r\n• Klavye sırası: qwerty, asdfgh\r\n• Basit kelimeler: şifre, güvenlik\r\n• Kişisel bilgiler: ad, soyad, telefon\r\n\r\nGüçlü şifre nasıl oluşturulur:\r\n• En az 12 karakter uzunluğunda\r\n• Büyük/küçük harf, sayı, özel karakter\r\n• Rastgele ve anlamsız\r\n• Her hesap için farklı\r\n• Düzenli değiştirilmeli\r\n\r\nŞifre yöneticileri:\r\n• LastPass, 1Password, Bitwarden\r\n• Güvenli şifre oluşturma\r\n• Otomatik doldurma\r\n• Şifre güvenlik analizi\r\n• Çoklu cihaz senkronizasyonu\r\n\r\nİki faktörlü doğrulama (2FA):\r\n• SMS kodu, e-posta kodu\r\n• Authenticator uygulamaları\r\n• Donanım anahtarları\r\n• Biyometrik doğrulama\r\n• Backup kodları"
+        },
+        {
+          "id": "4",
+                    "title": "E-posta Güvenliği ve Kimlik Avı",
+                    "content": "E-posta en tehlikeli saldırı vektörlerinden biridir. Kimlik avı saldırılarını tanıma ve e-posta güvenliği sağlama yöntemlerini öğrenelim.\r\n\r\nKimlik avı belirtileri:\r\n• Acil eylem gerektiren mesajlar\r\n• Gramer ve yazım hataları\r\n• Şüpheli bağlantılar ve ekler\r\n• Tanıdık olmayan gönderenler\r\n• Çok iyi teklifler ve ödüller\r\n• Korku ve panik uyandıran içerik\r\n• Kişisel bilgi isteme\r\n• Şüpheli dosya ekleri\r\n\r\nE-posta güvenlik kuralları:\r\n• Tanımadığın gönderenlerden gelen e-postaları açma\r\n• Şüpheli bağlantıları tıklama\r\n• Bilinmeyen dosya eklerini indirme\r\n• E-posta içeriğinde şifre gönderme\r\n• Kişisel bilgileri e-posta ile paylaşma\r\n• Güvenlik uyarılarını görmezden gelme\r\n\r\nGüvenli e-posta kullanımı:\r\n• Spam filtreleri kullanma\r\n• Güvenlik yazılımları kurma\r\n• Şüpheli e-postaları işaretleme\r\n• Güvenlik eğitimi alma\r\n• Düzenli güvenlik testleri yapma"
+        },
+        {
+          "id": "5",
+                    "title": "Fiziksel Güvenlik ve Sosyal Mühendislik",
+                    "content": "Fiziksel güvenlik, dijital güvenlik kadar önemlidir. Saldırganlar bazen binaya girmek için insan hatalarını kullanır.\r\n\r\nFiziksel güvenlik açıkları:\r\n• Kapıları açık bırakma\r\n• Ziyaretçi kartlarını unutma\r\n• Güvenlik personelini kandırma\r\n• Çöp kutularından bilgi çıkarma\r\n• Şirket bilgilerini dışarı taşıma\r\n• Güvenlik kameralarını görmezden gelme\r\n\r\nTailgating (peşinden girme) teknikleri:\r\n• Kapıyı tutarak yardım etme\r\n• Ağır paketler taşıma\r\n• Acil durum senaryoları\r\n• Yetkili görünme\r\n• Tanıdık biri gibi davranma\r\n• Güvenlik personeliyle konuşma\r\n\r\nFiziksel güvenlik önlemleri:\r\n• Kapıları her zaman kilitli tutma\r\n• Ziyaretçi kartlarını takip etme\r\n• Şüpheli kişileri rapor etme\r\n• Çöp kutularını güvenli şekilde imha etme\r\n• Şirket bilgilerini dışarı çıkarmama\r\n• Güvenlik protokollerini takip etme"
+        },
+        {
+          "id": "6",
+                    "title": "Güvenlik Farkındalığı ve Eğitimi",
+                    "content": "Güvenlik farkındalığı, tüm çalışanların güvenlik tehditlerini tanıması ve uygun davranışları benimsemesidir. Düzenli eğitim ve farkındalık programları gerekir.\r\n\r\nGüvenlik farkındalığı konuları:\r\n• Şifre güvenliği ve yönetimi\r\n• E-posta güvenliği ve kimlik avı\r\n• Sosyal medya güvenliği\r\n• Mobil cihaz güvenliği\r\n• Veri sınıflandırması ve koruma\r\n• Fiziksel güvenlik protokolleri\r\n• Olay raporlama ve müdahale\r\n\r\nEğitim yöntemleri:\r\n• Düzenli güvenlik eğitimleri\r\n• Simülasyon saldırıları\r\n• Güvenlik testleri ve sınavlar\r\n• Güvenlik haberleri ve güncellemeler\r\n• Güvenlik politikaları ve prosedürler\r\n• Güvenlik farkındalık kampanyaları\r\n\r\nGüvenlik kültürü oluşturma:\r\n• Üst yönetim desteği\r\n• Güvenlik ödülleri ve tanıma\r\n• Güvenlik ekipleri ve temsilcileri\r\n• Düzenli güvenlik toplantıları\r\n• Güvenlik iyileştirme önerileri\r\n• Güvenlik metrikleri ve raporlama"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: İnsan Faktörü Güvenliği",
+                    "type": "quiz",
+                    "question": "Aşağıdakilerden hangisi en güçlü şifre örneğidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "123456",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "password123",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "K9#mP$2vL@8nQ",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "güvenlik2024",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "K9#mP$2vL@8nQ en güçlü şifredir çünkü 16 karakter uzunluğunda, büyük/küçük harf, sayı ve özel karakterler içerir. Diğer seçenekler çok zayıf ve kolayca tahmin edilebilir."
+        }
+      ]
+    },
+    {
+      "id": "2_4",
+            "title": "4. Temel Güvenlik Önlemleri",
+            "duration": "20 dk",
+            "color": "#27ae60",
+            "documents": 8,
+      "isCompleted": false,
+      "isActive": false,
+            "description": "Temel güvenlik önlemlerini öğren, sistemleri koruma yöntemlerini keşfet.",
+      "pages": [
+        {
+          "id": "1",
+                    "title": "Güvenlik Katmanları ve Savunma Derinliği",
+                    "content": "Güvenlik, tek bir önlemle sağlanmaz! Savunma derinliği (Defense in Depth) stratejisi, birden fazla güvenlik katmanı kullanarak sistemleri korur. Bir katman başarısız olsa bile diğer katmanlar saldırıyı durdurur.\r\n\r\nGüvenlik katmanları:\r\n• Fiziksel güvenlik: Bina, oda, cihaz güvenliği\r\n• Ağ güvenliği: Firewall, IDS/IPS, VPN\r\n• Sistem güvenliği: İşletim sistemi güvenliği\r\n• Uygulama güvenliği: Yazılım güvenliği\r\n• Veri güvenliği: Şifreleme, yedekleme\r\n• Kullanıcı güvenliği: Eğitim, farkındalık\r\n\r\nSavunma derinliği prensipleri:\r\n• Çoklu koruma katmanları\r\n• Farklı güvenlik teknolojileri\r\n• Sürekli izleme ve denetim\r\n• Olay müdahale planları\r\n• Düzenli güvenlik testleri\r\n• Güvenlik güncellemeleri\r\n\r\nGüvenlik katmanı örnekleri:\r\n• Dış güvenlik: Çit, güvenlik kameraları\r\n• Bina güvenliği: Kartlı geçiş, güvenlik personeli\r\n• Ağ güvenliği: Firewall, antivirüs\r\n• Uygulama güvenliği: Güvenli kodlama, test\r\n• Veri güvenliği: Şifreleme, erişim kontrolü"
+        },
+        {
+          "id": "2",
+                    "title": "Güvenlik Duvarı (Firewall) ve Ağ Güvenliği",
+                    "content": "Güvenlik duvarı, ağ trafiğini kontrol eden ve zararlı trafiği engelleyen güvenlik cihazıdır. Ağ güvenliğinin temel taşıdır.\r\n\r\nGüvenlik duvarı türleri:\r\n• Paket filtreleme: IP adresi ve port bazlı filtreleme\r\n• Stateful inspection: Bağlantı durumunu takip eder\r\n• Proxy firewall: Uygulama seviyesinde kontrol\r\n• Next-generation firewall: Derin paket inceleme\r\n• Web application firewall: Web uygulamalarını korur\r\n\r\nGüvenlik duvarı kuralları:\r\n• Allow (İzin ver): Güvenli trafiğe izin ver\r\n• Deny (Reddet): Zararlı trafiği engelle\r\n• Drop (Düşür): Trafiği sessizce engelle\r\n• Log (Kaydet): Trafiği kaydet ve izle\r\n\r\nAğ güvenliği önlemleri:\r\n• Segmentasyon: Ağları bölümlere ayırma\r\n• VLAN kullanımı: Sanal ağ segmentasyonu\r\n• IDS/IPS: Saldırı tespit ve önleme sistemleri\r\n• VPN: Güvenli uzaktan erişim\r\n• Network monitoring: Ağ izleme ve analiz\r\n• Access control: Erişim kontrolü ve kimlik doğrulama"
+        },
+        {
+          "id": "3",
+                    "title": "Antivirüs ve Zararlı Yazılım Koruması",
+                    "content": "Antivirüs yazılımları, bilgisayarları zararlı yazılımlara karşı koruyan temel güvenlik araçlarıdır. Güncel ve güçlü antivirüs yazılımları kullanmak kritiktir.\r\n\r\nAntivirüs özellikleri:\r\n• Gerçek zamanlı koruma: Sürekli izleme\r\n• Tarama motoru: Dosya ve sistem tarama\r\n• Güncelleme sistemi: Yeni tehditlere karşı koruma\r\n• Karantina: Şüpheli dosyaları izole etme\r\n• Raporlama: Güvenlik durumu raporları\r\n• Web koruması: İnternet güvenliği\r\n\r\nZararlı yazılım koruma stratejileri:\r\n• Çoklu katman koruma: Birden fazla güvenlik yazılımı\r\n• Davranış tabanlı koruma: Şüpheli davranışları tespit\r\n• Sandboxing: Şüpheli dosyaları izole çalıştırma\r\n• Whitelisting: Sadece güvenli uygulamalara izin\r\n• EDR (Endpoint Detection and Response): Gelişmiş tehdit tespiti\r\n\r\nAntivirüs seçim kriterleri:\r\n• Tespit oranı ve yanlış pozitif oranı\r\n• Sistem performansına etkisi\r\n• Güncelleme sıklığı ve kolaylığı\r\n• Kullanıcı arayüzü ve yapılandırma\r\n• Teknik destek ve dokümantasyon\r\n• Fiyat ve lisanslama"
+        },
+        {
+          "id": "4",
+                    "title": "Şifreleme ve Veri Güvenliği",
+                    "content": "Şifreleme, verileri yetkisiz erişimden korumak için kullanılan en güçlü güvenlik yöntemlerinden biridir. Veri güvenliğinin temelidir.\r\n\r\nŞifreleme türleri:\r\n• Simetrik şifreleme: Aynı anahtar ile şifreleme/çözme\r\n• Asimetrik şifreleme: Açık ve gizli anahtar çifti\r\n• Hash fonksiyonları: Tek yönlü şifreleme\r\n• Dijital imza: Kimlik doğrulama ve bütünlük\r\n• SSL/TLS: Güvenli iletişim protokolleri\r\n\r\nŞifreleme algoritmaları:\r\n• AES (Advanced Encryption Standard): En güvenli simetrik algoritma\r\n• RSA: Popüler asimetrik algoritma\r\n• SHA-256: Güvenli hash algoritması\r\n• ECC (Elliptic Curve Cryptography): Verimli asimetrik şifreleme\r\n• ChaCha20: Modern simetrik algoritma\r\n\r\nVeri güvenliği uygulamaları:\r\n• Disk şifreleme: BitLocker, FileVault, LUKS\r\n• Dosya şifreleme: 7-Zip, VeraCrypt\r\n• E-posta şifreleme: PGP/GPG\r\n• Mesajlaşma şifreleme: Signal, WhatsApp\r\n• Web şifreleme: HTTPS, SSL sertifikaları\r\n• Veritabanı şifreleme: Transparent Data Encryption\r\n\r\nŞifreleme anahtarı yönetimi:\r\n• Güçlü anahtar oluşturma\r\n• Güvenli anahtar saklama\r\n• Anahtar rotasyonu\r\n• Anahtar yedekleme\r\n• Anahtar imha prosedürleri"
+                },
+                {
+                    "id": "5",
+                    "title": "Güvenlik Güncellemeleri ve Yama Yönetimi",
+                    "content": "Güvenlik güncellemeleri, bilinen güvenlik açıklarını kapatmak için kritiktir. Düzenli güncelleme yönetimi, sistem güvenliğinin temelidir.\r\n\r\nGüvenlik güncellemeleri türleri:\r\n• İşletim sistemi güncellemeleri: Windows, Linux, macOS\r\n• Uygulama güncellemeleri: Web tarayıcıları, ofis yazılımları\r\n• Firmware güncellemeleri: BIOS, UEFI, cihaz yazılımları\r\n• Antivirüs güncellemeleri: Virüs tanımları ve motor güncellemeleri\r\n• Ağ cihazı güncellemeleri: Router, switch, firewall\r\n\r\nYama yönetimi süreci:\r\n• Güvenlik açığı tespiti ve değerlendirme\r\n• Yama testi ve uyumluluk kontrolü\r\n• Yama planlama ve zamanlama\r\n• Yama uygulama ve doğrulama\r\n• Yama sonrası test ve izleme\r\n• Yama raporlama ve dokümantasyon\r\n\r\nOtomatik güncelleme sistemleri:\r\n• Windows Update: Microsoft güncellemeleri\r\n• Package managers: Linux paket yöneticileri\r\n• App stores: Mobil uygulama güncellemeleri\r\n• Enterprise update servers: Kurumsal güncelleme sunucuları\r\n• Vulnerability scanners: Güvenlik açığı tarayıcıları\r\n\r\nGüncelleme güvenliği:\r\n• Güncelleme doğrulama ve imza kontrolü\r\n• Güvenli güncelleme kanalları\r\n• Yedekleme ve geri alma planları\r\n• Güncelleme test ortamları\r\n• Acil durum müdahale planları"
+                },
+                {
+                    "id": "6",
+                    "title": "Erişim Kontrolü ve Kimlik Yönetimi",
+                    "content": "Erişim kontrolü, sistemlere ve verilere kimlerin erişebileceğini belirleyen güvenlik mekanizmasıdır. Kimlik yönetimi ile birlikte çalışır.\r\n\r\nErişim kontrolü modelleri:\r\n• DAC (Discretionary Access Control): Kullanıcı tabanlı kontrol\r\n• MAC (Mandatory Access Control): Sistem tabanlı kontrol\r\n• RBAC (Role-Based Access Control): Rol tabanlı kontrol\r\n• ABAC (Attribute-Based Access Control): Özellik tabanlı kontrol\r\n• Zero Trust: Hiçbir şeye güvenme modeli\r\n\r\nKimlik doğrulama yöntemleri:\r\n• Bilgi tabanlı: Şifre, PIN, güvenlik soruları\r\n• Sahiplik tabanlı: Kart, token, cep telefonu\r\n• Biyometrik: Parmak izi, yüz tanıma, iris tarama\r\n• Davranış tabanlı: Yazma hızı, fare hareketleri\r\n• Çok faktörlü: Birden fazla yöntem kombinasyonu\r\n\r\nKimlik yönetimi sistemleri:\r\n• Active Directory: Microsoft kimlik yönetimi\r\n• LDAP: Açık dizin protokolü\r\n• SAML: Güvenlik işaretleme dili\r\n• OAuth: Yetkilendirme protokolü\r\n• OpenID Connect: Kimlik doğrulama protokolü\r\n\r\nErişim kontrolü en iyi uygulamaları:\r\n• En az ayrıcalık prensibi\r\n• Düzenli erişim gözden geçirme\r\n• Otomatik hesap devre dışı bırakma\r\n• Erişim logları ve izleme\r\n• Erişim ihlali uyarıları\r\n• Güçlü kimlik doğrulama zorunluluğu"
+                },
+                {
+                    "id": "7",
+                    "title": "Güvenlik İzleme ve Olay Müdahale",
+                    "content": "Güvenlik izleme, sistemlerdeki güvenlik olaylarını tespit etmek ve müdahale etmek için kritiktir. Sürekli izleme ve hızlı müdahale güvenliğin temelidir.\r\n\r\nGüvenlik izleme araçları:\r\n• SIEM (Security Information and Event Management): Güvenlik bilgisi yönetimi\r\n• IDS/IPS: Saldırı tespit ve önleme sistemleri\r\n• Log yönetimi: Sistem ve uygulama logları\r\n• Network monitoring: Ağ trafiği izleme\r\n• Endpoint monitoring: Uç nokta izleme\r\n• Vulnerability scanners: Güvenlik açığı tarayıcıları\r\n\r\nGüvenlik olayları türleri:\r\n• Yetkisiz erişim girişimleri\r\n• Zararlı yazılım tespiti\r\n• Ağ saldırıları ve DDoS\r\n• Veri sızıntısı ve çalınması\r\n• Sistem değişiklikleri ve yapılandırma ihlalleri\r\n• Kullanıcı davranış anormallikleri\r\n\r\nOlay müdahale süreci:\r\n• Hazırlık: Planlar, prosedürler, ekip hazırlığı\r\n• Tespit ve analiz: Olay tespiti ve değerlendirme\r\n• Müdahale: Olayı durdurma ve kontrol altına alma\r\n• Eradikasyon: Tehdidi tamamen ortadan kaldırma\r\n• Kurtarma: Sistemleri normal duruma getirme\r\n• Öğrenme: Dersler ve iyileştirmeler\r\n\r\nGüvenlik izleme en iyi uygulamaları:\r\n• 7/24 izleme ve uyarı sistemi\r\n• Otomatik olay tespiti ve sınıflandırma\r\n• Gerçek zamanlı analiz ve korelasyon\r\n• Olay önceliklendirme ve eskalasyon\r\n• Güvenlik metrikleri ve raporlama\r\n• Düzenli güvenlik değerlendirmeleri"
+                }
+            ]
+        },
+        {
+            "id": "2_5",
+            "title": "5. Test ve Değerlendirme",
+            "duration": "15 dk",
+            "color": "#f39c12",
+            "documents": 11,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Bilgisayar Güvenlik Tehditleri kategorisinin kapsamlı testi",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Test Hazırlığı",
+                    "content": "Bu test, Bilgisayar Güvenlik Tehditleri kategorisindeki tüm konuları kapsamaktadır. Test öncesi öğrendiğiniz konuları gözden geçirin ve hazır olduğunuzda teste başlayın.\r\n\r\nTest kapsamı:\r\n• Zararlı yazılım türleri ve özellikleri\r\n• Açık portlar ve servisler\r\n• İnsan hatalarından kaynaklanan güvenlik açıkları\r\n• Temel güvenlik önlemleri\r\n\r\nTest kuralları:\r\n• 5 sorudan oluşur\r\n• Her soru için sadece bir doğru cevap vardır\r\n• Testi tamamladıktan sonra sonuçlarınızı görebilirsiniz\r\n• %70 ve üzerinde başarı gerekir"
+                },
+                {
+                    "id": "2",
+                    "title": "Soru 1: Zararlı Yazılım Türleri",
+                    "type": "quiz",
+                    "question": "Hangi zararlı yazılım türü kendini kopyalayarak ağ üzerinde yayılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Virüs",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Solucan (Worm)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Trojan",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Ransomware",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Solucan (Worm), ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür."
+                },
+                {
+                    "id": "3",
+                    "title": "Soru 2: Port Güvenliği",
+                    "type": "quiz",
+                    "question": "Hangi port numarası SSH bağlantıları için standart olarak kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Port 21",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Port 22",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Port 80",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Port 443",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Port 22, SSH (Secure Shell) bağlantıları için standart olarak kullanılan port numarasıdır. SSH, güvenli uzaktan erişim sağlayan protokoldür."
+                },
+                {
+                    "id": "4",
+                    "title": "Soru 3: Sosyal Mühendislik",
+                    "type": "quiz",
+                    "question": "Hangi sosyal mühendislik tekniği sahte e-postalar ile bilgi çalmayı hedefler?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Pretexting",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Phishing",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Vishing",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Baiting",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Phishing, sahte e-postalar göndererek kullanıcıları kandırma ve kişisel bilgilerini çalma tekniğidir. En yaygın sosyal mühendislik saldırı türüdür."
+                },
+                {
+                    "id": "5",
+                    "title": "Soru 4: Güvenlik Önlemleri",
+                    "type": "quiz",
+                    "question": "Hangi güvenlik önlemi 'savunma derinliği' stratejisinin en önemli parçasıdır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sadece antivirüs yazılımı kullanmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Birden fazla güvenlik katmanı kullanmak",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece güçlü şifre kullanmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece güvenlik duvarı kullanmak",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Savunma derinliği (Defense in Depth) stratejisi, birden fazla güvenlik katmanı kullanarak sistemleri korur. Tek bir güvenlik önlemi yeterli değildir, çoklu katmanlar kullanılmalıdır."
+                },
+                {
+                    "id": "6",
+                    "title": "Soru 5: Şifreleme",
+                    "type": "quiz",
+                    "question": "Hangi şifreleme algoritması en güvenli simetrik şifreleme algoritması olarak kabul edilir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "RSA",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "AES",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "MD5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "SHA-1",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "AES (Advanced Encryption Standard), en güvenli simetrik şifreleme algoritması olarak kabul edilir. 128, 192 ve 256 bit anahtar uzunlukları destekler."
+                },
+                {
+                    "id": "7",
+                    "title": "Soru 6: Güvenlik Yazılımları",
+                    "type": "quiz",
+                    "question": "Hangi güvenlik yazılımı ağ trafiğini izleyerek saldırıları tespit eder?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Antivirüs",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Firewall",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "IDS/IPS",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "VPN",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "IDS (Intrusion Detection System) ve IPS (Intrusion Prevention System), ağ trafiğini sürekli izleyerek şüpheli aktiviteleri tespit eder ve saldırıları önler."
+                },
+                {
+                    "id": "8",
+                    "title": "Soru 7: Ransomware",
+                    "type": "quiz",
+                    "question": "Ransomware saldırılarında saldırganlar ne yapar?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sadece dosyaları siler",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Dosyaları şifreleyip fidye talep eder",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece sistemleri kapatır",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece veri çalar",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Ransomware saldırılarında saldırganlar dosyaları şifreler ve şifreleme anahtarını serbest bırakmak için fidye talep eder."
+                },
+                {
+                    "id": "9",
+                    "title": "Soru 8: Güvenlik Güncellemeleri",
+                    "type": "quiz",
+                    "question": "Güvenlik güncellemelerinin temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sistemleri yavaşlatmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Bilinen güvenlik açıklarını kapatmak",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece yeni özellikler eklemek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sistemleri yeniden başlatmak",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Güvenlik güncellemelerinin temel amacı, bilinen güvenlik açıklarını kapatmak ve sistemleri korumaktır."
+                },
+                {
+                    "id": "10",
+                    "title": "Soru 9: İki Faktörlü Doğrulama",
+                    "type": "quiz",
+                    "question": "İki faktörlü doğrulama (2FA) hangi güvenlik prensibini uygular?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Tek faktörlü doğrulama",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Çok faktörlü doğrulama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Hiç doğrulama yapmama",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece şifre kullanma",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "İki faktörlü doğrulama (2FA), çok faktörlü doğrulama prensibini uygular. Şifre ve ikinci bir faktör (SMS, e-posta, uygulama) birlikte kullanılır."
+                },
+                {
+                    "id": "11",
+                    "title": "Soru 10: Güvenlik Farkındalığı",
+                    "type": "quiz",
+                    "question": "Güvenlik farkındalığı eğitiminin en önemli amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sadece teknik bilgi vermek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Kullanıcı davranışlarını değiştirmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece politika oluşturmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece test yapmak",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Güvenlik farkındalığı eğitiminin en önemli amacı, kullanıcıların güvenlik davranışlarını değiştirmek ve güvenli alışkanlıklar kazandırmaktır."
                 }
             ]
         }
     ]
-}
+} 
