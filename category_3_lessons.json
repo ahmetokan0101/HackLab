@@ -40,7 +40,31 @@
                 {
                     "id": "6",
                     "title": "Quiz: Sosyal Mühendislik Temelleri",
-                    "content": "Sosyal mühendislik hakkında öğrendiklerini test et:\n\nSoru 1: Sosyal mühendislik saldırılarında en çok kullanılan psikolojik faktör nedir?\nA) Korku\nB) Güven ✓\nC) Öfke\nD) Üzüntü\n\nSoru 2: Kevin Mitnick hangi yıllarda sosyal mühendisliği popüler hale getirdi?\nA) 1970'ler\nB) 1980'ler\nC) 1990'lar ✓\nD) 2000'ler\n\nSoru 3: Sosyal mühendislik döngüsünün ilk adımı nedir?\nA) Hedef seçimi\nB) Bilgi toplama ✓\nC) Güven oluşturma\nD) Manipülasyon"
+                    "type": "quiz",
+                    "question": "Sosyal mühendislik saldırılarında en çok kullanılan psikolojik faktör nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Korku",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Güven",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Öfke",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Üzüntü",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Güven, sosyal mühendislik saldırılarında en çok kullanılan psikolojik faktördür. Saldırganlar hedef kişilerin güvenini kazanarak istenen bilgileri elde etmeye çalışır."
                 }
             ]
         },
@@ -92,7 +116,31 @@
                 {
                     "id": "8",
                     "title": "Quiz: Sosyal Mühendislik Teknikleri",
-                    "content": "Öğrendiğin teknikleri test et:\n\nSoru 1: Spear phishing nedir?\nA) Genel phishing saldırısı\nB) Hedefli phishing saldırısı ✓\nC) Sesli phishing saldırısı\nD) SMS phishing saldırısı\n\nSoru 2: Tailgating tekniğinde saldırgan ne yapar?\nA) E-posta gönderir\nB) Yetkili kişiyi takip eder ✓\nC) Sahte web sitesi oluşturur\nD) Telefon araması yapar\n\nSoru 3: Vishing hangi iletişim kanalını kullanır?\nA) E-posta\nB) SMS\nC) Sesli arama ✓\nD) Sosyal medya"
+                    "type": "quiz",
+                    "question": "Spear phishing nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Genel phishing saldırısı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Hedefli phishing saldırısı",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sesli phishing saldırısı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "SMS phishing saldırısı",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Spear phishing, belirli bir hedefe yönelik olarak tasarlanmış özel phishing saldırılarıdır. Hedef hakkında detaylı bilgi toplanarak kişiselleştirilir."
                 }
             ]
         },
@@ -129,7 +177,31 @@
                 {
                     "id": "5",
                     "title": "Quiz: Sosyal Mühendislik Testleri",
-                    "content": "Test konusundaki bilgilerini kontrol et:\n\nSoru 1: Sosyal mühendislik testlerinin ana amacı nedir?\nA) Sistemlere zarar vermek\nB) Güvenlik farkındalığını ölçmek ✓\nC) Veri çalmak\nD) Sistemleri kapatmak\n\nSoru 2: Test planlamasında en önemli aşama nedir?\nA) Test senaryoları\nB) Etik kuralların belirlenmesi ✓\nC) Zaman çizelgesi\nD) Test ekibi\n\nSoru 3: Test sonuçları nasıl raporlanmalıdır?\nA) Sadece başarı oranı\nB) Detaylı analiz ve öneriler ✓\nC) Sadece güvenlik açıkları\nD) Sadece kullanılan yöntemler"
+                    "type": "quiz",
+                    "question": "Sosyal mühendislik testlerinin ana amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sistemlere zarar vermek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Güvenlik farkındalığını ölçmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Veri çalmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sistemleri kapatmak",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Sosyal mühendislik testlerinin ana amacı güvenlik farkındalığını ölçmektir. Bu testler çalışanların sosyal mühendislik saldırılarına karşı ne kadar hazırlıklı olduğunu değerlendirir."
                 }
             ]
         },
@@ -176,7 +248,31 @@
                 {
                     "id": "7",
                     "title": "Quiz: Korunma Yöntemleri",
-                    "content": "Korunma yöntemleri hakkında öğrendiklerini test et:\n\nSoru 1: Güçlü şifre için minimum karakter sayısı nedir?\nA) 8 karakter\nB) 10 karakter\nC) 12 karakter ✓\nD) 6 karakter\n\nSoru 2: Sosyal medyada hangi bilgi paylaşılmamalıdır?\nA) Tatil planları ✓\nB) Profil fotoğrafı\nC) İsim\nD) Şehir\n\nSoru 3: Güvenlik olayı tespit edildiğinde ilk yapılması gereken nedir?\nA) Sistemi kapatma\nB) Olayı belgeleme ✓\nC) Şifre değiştirme\nD) Antivirüs taraması"
+                    "type": "quiz",
+                    "question": "Güçlü şifre için minimum karakter sayısı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "8 karakter",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "10 karakter",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "12 karakter",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "6 karakter",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Güçlü şifre için en az 12 karakter kullanılmalıdır. Şifre büyük/küçük harf, sayı ve sembol karışımından oluşmalıdır."
                 }
             ]
         },
@@ -218,7 +314,31 @@
                 {
                     "id": "6",
                     "title": "Quiz: Vaka Analizleri",
-                    "content": "Vaka analizleri hakkında öğrendiklerini test et:\n\nSoru 1: Target veri ihlalinde kaç kredi kartı bilgisi çalındı?\nA) 20 milyon\nB) 30 milyon\nC) 40 milyon ✓\nD) 50 milyon\n\nSoru 2: CEO dolandırıcılığında en çok kullanılan teknik nedir?\nA) Fiziksel erişim\nB) E-posta taklidi ✓\nC) Sosyal medya manipülasyonu\nD) Telefon dolandırıcılığı\n\nSoru 3: Cambridge Analytica skandalında hangi platform kullanıldı?\nA) Twitter\nB) Instagram\nC) Facebook ✓\nD) LinkedIn"
+                    "type": "quiz",
+                    "question": "Target veri ihlalinde kaç kredi kartı bilgisi çalındı?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "20 milyon",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "30 milyon",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "40 milyon",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "50 milyon",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Target veri ihlalinde 40 milyon kredi kartı bilgisi çalındı. Bu olay HVAC şirketi üzerinden gerçekleşti ve 110 milyon müşteri bilgisi etkilendi."
                 }
             ]
         },
@@ -270,7 +390,31 @@
                 {
                     "id": "8",
                     "title": "Quiz: Savunma Stratejileri",
-                    "content": "Savunma stratejileri hakkında öğrendiklerini test et:\n\nSoru 1: Savunma katmanlarından hangisi en önemlidir?\nA) Teknik önlemler\nB) Prosedürsel önlemler\nC) İnsan faktörü ✓\nD) Fiziksel önlemler\n\nSoru 2: Güvenlik farkındalık programlarında hangisi bulunmaz?\nA) Simülasyon testleri\nB) Video eğitimleri\nC) Fiziksel saldırılar ✓\nD) Quiz ve değerlendirmeler\n\nSoru 3: Olay tespitinde hangi sistem kullanılır?\nA) SIEM ✓\nB) WAF\nC) DMARC\nD) SPF"
+                    "type": "quiz",
+                    "question": "Savunma katmanlarından hangisi en önemlidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Teknik önlemler",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Prosedürsel önlemler",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "İnsan faktörü",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Fiziksel önlemler",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "İnsan faktörü en önemli savunma katmanıdır çünkü en güçlü güvenlik sistemleri bile insan hatası ile aşılabilir."
                 }
             ]
         },
