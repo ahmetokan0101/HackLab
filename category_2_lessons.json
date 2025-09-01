@@ -1,168 +1,67 @@
 {
-  "categoryId": "2",
-  "categoryTitle": "2. MAC Adresini Hackle",
-  "lessons": [
-    {
-      "id": "2_1",
-      "title": "1. MAC Adresi Temelleri",
-      "duration": "6 dk",
-      "color": "#3498DB",
-      "documents": 4,
-      "isCompleted": false,
-      "isActive": true,
-      "description": "MAC adreslerinin temel yapısı ve işleyişi",
-      "pages": [
+    "categoryId": "2",
+    "categoryTitle": "2. Bilgisayar Güvenlik Tehditleri",
+    "lessons": [
         {
-          "id": "1",
-          "title": "MAC Adresi Nedir?",
-          "content": "MAC (Media Access Control) adresi, ağ cihazlarının benzersiz kimlik numarasıdır. 48-bit uzunluğunda olup, 6 byte'lık hexadecimal formatta yazılır.",
-          "image": null
-        },
-        {
-          "id": "2",
-          "title": "MAC Adresi Formatı",
-          "content": "MAC adresleri XX:XX:XX:XX:XX:XX formatında yazılır. İlk 3 byte üretici kodunu, son 3 byte ise cihaz seri numarasını temsil eder.",
-          "image": null
-        },
-        {
-          "id": "3",
-          "title": "MAC Adresi Türleri",
-          "content": "Unicast, Multicast ve Broadcast olmak üzere üç tür MAC adresi vardır. Her birinin ağ trafiğinde farklı rolleri bulunur.",
-          "image": null
-        },
-        {
-          "id": "4",
-          "title": "MAC Adresi Güvenliği",
-          "content": "MAC adresleri ağ güvenliğinde önemli rol oynar. Ancak spoofing saldırılarına karşı savunmasızdır.",
-          "image": null
+            "id": "2_1",
+            "title": "1. Zararlı Yazılım Türleri",
+            "duration": "12",
+            "color": "#3498db",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Zararlı yazılım türlerini detaylı olarak öğren, her birinin özelliklerini ve nasıl çalıştığını keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Zararlı Yazılım Nedir?",
+                    "content": "Zararlı yazılım (Malware), bilgisayar sistemlerine, ağlara ve kullanıcılara zarar vermek amacıyla tasarlanmış kötü niyetli programlardır. Bu yazılımlar genellikle gizlice çalışır ve kullanıcının bilgisi olmadan sistemlere sızar.\r\n\r\nZararlı yazılımların temel özellikleri:\r\n• Gizli çalışma ve kendini gizleme\r\n• Sistem kaynaklarını tüketme\r\n• Veri çalma veya şifreleme\r\n• Sistemlere uzaktan erişim sağlama\r\n• Diğer sistemlere yayılma\r\n\r\nGünümüzde zararlı yazılımlar, siber suçluların en etkili silahlarından biridir ve her gün milyonlarca yeni tür ortaya çıkmaktadır."
+                },
+                {
+                    "id": "2",
+                    "title": "Virüs (Virus)",
+                    "content": "Virüs, kendini kopyalayabilen ve diğer programlara bulaşabilen zararlı yazılım türüdür. Tıpkı biyolojik virüsler gibi, bilgisayar virüsleri de konak programlara bağlanarak çoğalır.\r\n\r\nVirüslerin özellikleri:\r\n• Kendini kopyalama ve yayılma\r\n• Konak programlara bağlanma\r\n• Kullanıcı etkileşimi gerektirme\r\n• Sistem dosyalarına zarar verme\r\n• Yavaş çalışma ve çökme\r\n\r\nVirüs türleri:\r\n• Dosya virüsleri: .exe, .com dosyalarına bulaşır\r\n• Boot sektör virüsleri: Disk boot sektörüne bulaşır\r\n• Makro virüsleri: Office belgelerine bulaşır\r\n• Çok parçalı virüsler: Birden fazla hedefe saldırır\r\n\r\nKorunma yöntemleri:\r\n• Güncel antivirüs yazılımı kullanma\r\n• Şüpheli dosyaları açmama\r\n• Güvenlik güncellemelerini yükleme\r\n• E-posta eklerini dikkatli açma"
+                },
+                {
+                    "id": "3",
+                    "title": "Solucan (Worm)",
+                    "content": "Solucan, ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür. Solucanlar, ağ kaynaklarını tüketerek sistem performansını düşürür.\r\n\r\nSolucanların özellikleri:\r\n• Otomatik yayılma\r\n• Ağ kaynaklarını tüketme\r\n• Kullanıcı etkileşimi gerektirmeme\r\n• Hızlı yayılma\r\n• Sistem performansını düşürme\r\n\r\nÜnlü solucan örnekleri:\r\n• ILOVEYOU (2000): 45 milyon bilgisayara bulaştı\r\n• Code Red (2001): Web sunucularına saldırdı\r\n• Conficker (2008): 15 milyon bilgisayara yayıldı\r\n• WannaCry (2017): 300.000 bilgisayarı etkiledi\r\n\r\nKorunma yöntemleri:\r\n• Güvenlik duvarı kullanma\r\n• Ağ trafiğini izleme\r\n• Güvenlik güncellemelerini yükleme\r\n• Şüpheli bağlantıları engelleme\r\n• Ağ segmentasyonu uygulama"
+                },
+                                    {
+                        "id": "4",
+                        "title": "Trojan ve Ransomware",
+                        "content": "Trojan (Truva Atı), kendini faydalı yazılım gibi gizleyen ancak arka planda zararlı işlemler yapan yazılım türüdür. Ransomware ise dosyaları şifreleyerek fidye talep eden modern tehdit türüdür.\r\n\r\nTrojan'ların özellikleri:\r\n• Kendini gizleme ve sahte kimlik\r\n• Uzaktan erişim sağlama\r\n• Veri çalma ve izleme\r\n• Sistem kontrolünü ele geçirme\r\n• Diğer zararlı yazılımları indirme\r\n\r\nTrojan türleri:\r\n• Backdoor: Arka kapı erişimi sağlar\r\n• Keylogger: Tuş vuruşlarını kaydeder\r\n• Banker: Banka bilgilerini çalar\r\n• Downloader: Diğer zararlıları indirir\r\n• Rootkit: Sistem seviyesinde gizlenir\r\n\r\nRansomware'lerin özellikleri:\r\n• Dosya şifreleme\r\n• Fidye talep etme\r\n• Şifreleme anahtarı saklama\r\n• Hızlı yayılma\r\n• Kritik verilere erişimi engelleme\r\n\r\nÜnlü ransomware örnekleri:\r\n• WannaCry (2017): 300.000+ bilgisayar\r\n• NotPetya (2017): 10 milyar $ zarar\r\n• Ryuk (2018): Hedefli saldırılar\r\n• REvil (2021): Büyük şirketlere saldırdı\r\n\r\nKorunma yöntemleri:\r\n• Düzenli yedekleme yapma\r\n• Güvenlik yazılımları kullanma\r\n• E-posta güvenliği sağlama\r\n• Kullanıcı eğitimi verme\r\n• Güvenlik güncellemelerini yükleme"
+                    },
+                    {
+                        "id": "5",
+                        "title": "Quiz: Bilgisayar Güvenliği",
+                        "type": "quiz",
+                        "question": "Hangi zararlı yazılım türü kendini kopyalayarak ağ üzerinde yayılır?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Virüs",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Solucan (Worm)",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Trojan",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Ransomware",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Solucan (Worm), ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür."
+                    }
+            ]
         }
-      ]
-    },
-    {
-      "id": "2_2",
-      "title": "2. MAC Adresi Spoofing",
-      "duration": "8 dk",
-      "color": "#E74C3C",
-      "documents": 5,
-      "isCompleted": false,
-      "isActive": false,
-      "description": "MAC adresi değiştirme teknikleri",
-      "pages": [
-        {
-          "id": "1",
-          "title": "MAC Spoofing Nedir?",
-          "content": "MAC spoofing, bir cihazın MAC adresini başka bir cihazın MAC adresi ile değiştirme işlemidir. Bu işlem güvenlik testleri için kullanılır.",
-          "image": null
-        },
-        {
-          "id": "2",
-          "title": "Spoofing Yöntemleri",
-          "content": "Manuel MAC adresi değiştirme, otomatik araçlar kullanma, kernel seviyesinde değiştirme gibi farklı yöntemleri öğreneceğiz.",
-          "image": null
-        },
-        {
-          "id": "3",
-          "title": "Linux'ta MAC Değiştirme",
-          "content": "ifconfig ve ip komutları ile Linux sistemlerde MAC adresi değiştirme işlemlerini öğreneceğiz.",
-          "image": null
-        },
-        {
-          "id": "4",
-          "title": "Windows'ta MAC Değiştirme",
-          "content": "Windows sistemlerde registry düzenleme ve üçüncü parti araçlar kullanarak MAC adresi değiştirme işlemlerini öğreneceğiz.",
-          "image": null
-        },
-        {
-          "id": "5",
-          "title": "Otomatik Araçlar",
-          "content": "macchanger, Technitium MAC Address Changer gibi otomatik MAC değiştirme araçlarını kullanmayı öğreneceğiz.",
-          "image": null
-        }
-      ]
-    },
-    {
-      "id": "2_3",
-      "title": "3. Ağ Güvenliği",
-      "duration": "7 dk",
-      "color": "#9B59B6",
-      "documents": 6,
-      "isCompleted": false,
-      "isActive": false,
-      "description": "MAC adresi tabanlı güvenlik önlemleri",
-      "pages": [
-        {
-          "id": "1",
-          "title": "MAC Filtreleme",
-          "content": "MAC adresi filtreleme, sadece belirli MAC adreslerine sahip cihazların ağa erişmesine izin veren bir güvenlik önlemidir.",
-          "image": null
-        },
-        {
-          "id": "2",
-          "title": "Port Güvenliği",
-          "content": "Switch portlarında MAC adresi sınırlaması yaparak güvenliği artırma tekniklerini öğreneceğiz.",
-          "image": null
-        },
-        {
-          "id": "3",
-          "title": "MAC Adresi Tespiti",
-          "content": "Ağdaki MAC adreslerini tespit etme ve izleme tekniklerini öğreneceğiz.",
-          "image": null
-        },
-        {
-          "id": "4",
-          "title": "Saldırı Tespiti",
-          "content": "MAC spoofing saldırılarını tespit etme ve önleme tekniklerini öğreneceğiz.",
-          "image": null
-        },
-        {
-          "id": "5",
-          "title": "Güvenlik Politikaları",
-          "content": "MAC adresi tabanlı güvenlik politikaları oluşturma ve uygulama tekniklerini öğreneceğiz.",
-          "image": null
-        },
-        {
-          "id": "6",
-          "title": "Pratik Uygulamalar",
-          "content": "Öğrendiğimiz güvenlik tekniklerini pratik senaryolarda uygulayacağız.",
-          "image": null
-        }
-      ]
-    },
-    {
-      "id": "2_4",
-      "title": "4. Test ve Değerlendirme",
-      "duration": "5 dk",
-      "color": "#F39C12",
-      "documents": 4,
-      "isCompleted": false,
-      "isActive": false,
-      "description": "MAC adresi güvenlik testleri",
-      "pages": [
-        {
-          "id": "1",
-          "title": "Test Senaryoları",
-          "content": "MAC adresi güvenliğini test etmek için çeşitli senaryolar hazırlayacağız.",
-          "image": null
-        },
-        {
-          "id": "2",
-          "title": "Saldırı Simülasyonu",
-          "content": "MAC spoofing saldırılarını simüle ederek güvenlik önlemlerini test edeceğiz.",
-          "image": null
-        },
-        {
-          "id": "3",
-          "title": "Sonuç Analizi",
-          "content": "Test sonuçlarını analiz edecek ve güvenlik açıklarını tespit edeceğiz.",
-          "image": null
-        },
-        {
-          "id": "4",
-          "title": "Raporlama",
-          "content": "Test sonuçlarını rapor haline getirecek ve öneriler sunacağız.",
-          "image": null
-        }
-      ]
-    }
-  ]
-} 
+    ]
+}
