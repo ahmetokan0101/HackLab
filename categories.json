@@ -140,6 +140,98 @@
                 "Penetrasyon Test Uzmanı: 75,000 - 120,000 TL\r",
                 "Güvenlik Danışmanı: 90,000 - 150,000 TL"
             ]
+        },
+        {
+            "id": "4",
+            "title": "4. Kriptografi ve Şifreleme",
+            "subtitle": "Veri Güvenliği ve Şifreleme Teknikleri",
+            "icon": "lock",
+            "color": "#9b59b6",
+            "gradient": [
+                "#9b59b6",
+                "#e67e22"
+            ],
+            "description": "Kriptografi, veri güvenliğinin temelidir. Modern şifreleme algoritmalarını, hash fonksiyonlarını ve dijital imzaları öğrenerek verileri nasıl koruyacağınızı keşfedin. Bu kategoride hem teorik hem de pratik kriptografi konularını ele alacağız.",
+            "totalLessons": 5,
+            "duration": "1.5 saat",
+            "difficulty": "Orta",
+            "whatYouWillLearn": [
+                "Kriptografi temel kavramlarını ve tarihçesini anlamak\r",
+                "Modern şifreleme algoritmalarını (AES, RSA, DES) öğrenmek\r",
+                "Hash fonksiyonları ve dijital imzaları kullanmak\r",
+                "Kriptanaliz ve şifre kırma yöntemlerini anlamak\r",
+                "CrypTool ile pratik uygulamalar yapmak"
+            ],
+            "targetAudience": [
+                "Siber güvenlik alanında kariyer yapmak isteyenler\r",
+                "Sistem yöneticileri ve IT uzmanları\r",
+                "Yazılım geliştiricileri ve mühendisleri\r",
+                "Veri güvenliği konusunda çalışanlar"
+            ],
+            "benefits": [
+                "Veri güvenliği konusunda uzmanlaşma\r",
+                "Modern şifreleme algoritmalarını anlama\r",
+                "Kriptografi saldırılarına karşı korunma\r",
+                "Güvenli uygulama geliştirme becerileri"
+            ],
+            "requirements": [
+                "Temel bilgisayar bilgisi\r",
+                "Matematik temelleri\r",
+                "Programlama deneyimi (opsiyonel)\r",
+                "Kriptografi konusuna ilgi"
+            ],
+            "averageSalary": [
+                "Kriptografi Uzmanı: 85,000 - 140,000 TL\r",
+                "Güvenlik Mimarı: 95,000 - 160,000 TL\r",
+                "Kriptografi Araştırmacısı: 75,000 - 120,000 TL"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "5. Parola Saldırıları",
+            "subtitle": "Şifre Kırma Teknikleri ve Güvenlik",
+            "icon": "key",
+            "color": "#dc2626",
+            "gradient": [
+                "#dc2626",
+                "#ea580c"
+            ],
+            "description": "Parola saldırı tekniklerini öğren, şifre güvenliğini test et ve korunma yöntemlerini keşfet.",
+            "totalLessons": 6,
+            "duration": "2.5 saat",
+            "difficulty": "Orta",
+            "whatYouWillLearn": [
+                "Parola saldırı türlerini ve yöntemlerini anlamak.\r",
+                "Brute Force, Dictionary ve Rainbow Table saldırılarını öğrenmek.\r",
+                "Hash fonksiyonlarını kırma tekniklerini keşfetmek.\r",
+                "John the Ripper, Hashcat gibi araçları kullanmayı öğrenmek.\r",
+                "Parola güvenliği testleri yapmak ve korunma yöntemlerini uygulamak."
+            ],
+            "targetAudience": [
+                "Siber güvenlik uzmanları\r",
+                "Penetrasyon test uzmanları\r",
+                "Güvenlik araştırmacıları\r",
+                "Sistem yöneticileri\r",
+                "Güvenlik testleri yapmak isteyenler"
+            ],
+            "benefits": [
+                "Parola güvenliği konusunda uzmanlaşma\r",
+                "Şifre kırma tekniklerini anlama\r",
+                "Güvenlik testleri yapma becerisi\r",
+                "Korunma yöntemlerini öğrenme"
+            ],
+            "requirements": [
+                "Temel kriptografi bilgisi\r",
+                "Linux komut satırı deneyimi\r",
+                "Güvenlik araçlarına ilgi\r",
+                "Analitik düşünme becerisi"
+            ],
+            "averageSalary": [
+                "Penetrasyon Test Uzmanı: 85,000 - 145,000 TL\r",
+                "Güvenlik Analisti: 65,000 - 110,000 TL\r",
+                "Siber Güvenlik Uzmanı: 78,000 - 130,000 TL\r",
+                "Güvenlik Araştırmacısı: 75,000 - 125,000 TL"
+            ]
         }
     ]
 }
