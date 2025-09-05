@@ -214,7 +214,67 @@
             "isCompleted": false,
             "isActive": true,
             "description": "Ağ trafiği dinleme tekniklerini öğren, paket analizi yap ve güvenlik açıklarını tespit et.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Trafik Sniffing Nedir?",
+                    "content": "Trafik Sniffing, ağ üzerindeki veri paketlerini yakalama ve analiz etme işlemidir.\r\n\r\n🎯 **Temel Kavram:**\r\n• Ağ trafiğini pasif olarak dinleme\r\n• Paketleri yakalama ve inceleme\r\n• Protokol analizi yapma\r\n• Güvenlik açıklarını tespit etme\r\n\r\n⚡ **Sniffing Amacı:**\r\n• Ağ performansını analiz etme\r\n• Güvenlik açıklarını bulma\r\n• Protokol davranışlarını inceleme\r\n• Troubleshooting yapma\r\n\r\n🔍 **Nasıl Çalışır:**\r\n1. Network interface'i promiscuous mode'a alır\r\n2. Tüm ağ trafiğini yakalar\r\n3. Paketleri filtreler ve analiz eder\r\n4. Sonuçları raporlar\r\n\r\n⚠️ **Yasal Uyarı:**\r\n• Sadece kendi ağınızda kullanın\r\n• Yetkisiz erişim yasaktır\r\n• Etik hacking kurallarına uyun"
+                },
+                {
+                    "id": "2",
+                    "title": "Sniffing Türleri",
+                    "content": "Farklı sniffing türleri ve kullanım alanları:\r\n\r\n🔍 **Passive Sniffing:**\r\n• Hub tabanlı ağlarda\r\n• Tüm trafiği otomatik yakalar\r\n• Gizli dinleme\r\n• Tespit edilmesi zor\r\n\r\n⚡ **Active Sniffing:**\r\n• Switch tabanlı ağlarda\r\n• ARP spoofing ile trafiği yönlendirme\r\n• Daha agresif yöntem\r\n• Tespit edilebilir\r\n\r\n🌐 **Protocol Sniffing:**\r\n• HTTP/HTTPS trafiği\r\n• FTP, SMTP, POP3\r\n• DNS sorguları\r\n• VoIP trafiği\r\n\r\n📡 **Wireless Sniffing:**\r\n• WiFi trafiğini yakalama\r\n• Monitor mode kullanımı\r\n• Kablosuz protokoller\r\n• WEP/WPA analizi\r\n\r\n🔐 **Encrypted Traffic Sniffing:**\r\n• SSL/TLS trafiği\r\n• VPN trafiği\r\n• Şifrelenmiş protokoller\r\n• Certificate analizi"
+                },
+                {
+                    "id": "3",
+                    "title": "Sniffing Araçları",
+                    "content": "Trafik sniffing için kullanılan popüler araçlar:\r\n\r\n🛠️ **Wireshark:**\r\n• En popüler packet analyzer\r\n• GUI tabanlı\r\n• Çok sayıda protokol desteği\r\n• Filtreleme ve analiz\r\n\r\n⚡ **tcpdump:**\r\n• Komut satırı aracı\r\n• Hızlı ve etkili\r\n• Script'lerle entegrasyon\r\n• Komut: `tcpdump -i eth0 -w capture.pcap`\r\n\r\n🔍 **tshark:**\r\n• Wireshark'ın CLI versiyonu\r\n• Otomatik analiz\r\n• Batch processing\r\n• Komut: `tshark -i eth0 -f \"tcp port 80\"`\r\n\r\n📊 **Ettercap:**\r\n• MITM ve sniffing\r\n• Plugin sistemi\r\n• Real-time analysis\r\n• Komut: `ettercap -T -M arp:remote /target/`\r\n\r\n🌐 **Burp Suite:**\r\n• Web trafiği analizi\r\n• Proxy tabanlı\r\n• Vulnerability scanning\r\n• Professional tool\r\n\r\n🐍 **Scapy (Python):**\r\n• Programatik sniffing\r\n• Özelleştirilebilir\r\n• Python scriptleri\r\n• Paket manipülasyonu"
+                },
+                {
+                    "id": "4",
+                    "title": "Paket Analizi",
+                    "content": "Paket analizi teknikleri ve protokol inceleme:\r\n\r\n📊 **Paket Yapısı:**\r\n• Ethernet Frame\r\n• IP Header\r\n• TCP/UDP Header\r\n• Application Data\r\n\r\n🔍 **Protokol Analizi:**\r\n• **HTTP:** Web trafiği\r\n• **HTTPS:** Şifrelenmiş web trafiği\r\n• **DNS:** Domain name resolution\r\n• **FTP:** Dosya transferi\r\n• **SMTP:** E-posta gönderimi\r\n\r\n📈 **Analiz Teknikleri:**\r\n• Protocol hierarchy\r\n• Conversation analysis\r\n• Flow analysis\r\n• Statistical analysis\r\n\r\n🛠️ **Filtreleme:**\r\n• **BPF (Berkeley Packet Filter):**\r\n  - `host 192.168.1.1`\r\n  - `port 80`\r\n  - `tcp and port 443`\r\n  - `udp and port 53`\r\n\r\n🔐 **Şifrelenmiş Trafik:**\r\n• Certificate analizi\r\n• Handshake inceleme\r\n• Cipher suite kontrolü\r\n• Perfect Forward Secrecy"
+                },
+                {
+                    "id": "5",
+                    "title": "Sniffing Saldırısını Tespit Etme",
+                    "content": "Sniffing saldırılarını tespit etme yöntemleri:\r\n\r\n🔍 **Network Monitoring:**\r\n• Anormal ağ trafiği\r\n• Beklenmeyen paketler\r\n• ARP tablosu değişiklikleri\r\n• MAC adresi değişimleri\r\n\r\n⚠️ **Tespit İşaretleri:**\r\n• Aynı IP için farklı MAC'ler\r\n• Anormal ARP trafiği\r\n• Ağ performansında düşüş\r\n• Beklenmeyen bağlantılar\r\n\r\n🛡️ **Tespit Araçları:**\r\n• **XArp:** ARP monitoring\r\n• **Cain & Abel:** Network analyzer\r\n• **Netstat:** Connection monitoring\r\n• **Nmap:** Network discovery\r\n\r\n🔐 **Güvenlik Kontrolleri:**\r\n• Intrusion detection systems\r\n• Network monitoring tools\r\n• SIEM çözümleri\r\n• Endpoint protection\r\n\r\n📊 **Behavioral Analysis:**\r\n• Anormal trafik patterns\r\n• Suspicious connections\r\n• Unusual data transfers\r\n• Protocol violations"
+                },
+                {
+                    "id": "6",
+                    "title": "Sniffing Saldırılarından Korunma",
+                    "content": "Sniffing saldırılarından korunma yöntemleri:\r\n\r\n🔒 **Şifreleme:**\r\n• HTTPS kullanımı\r\n• VPN bağlantıları\r\n• End-to-end şifreleme\r\n• Strong encryption algorithms\r\n\r\n🛡️ **Ağ Güvenliği:**\r\n• Switch kullanımı (hub yerine)\r\n• Port security\r\n• VLAN isolation\r\n• Network segmentation\r\n\r\n🔐 **Protokol Güvenliği:**\r\n• TLS 1.3 kullanımı\r\n• Certificate pinning\r\n• HSTS (HTTP Strict Transport Security)\r\n• Perfect Forward Secrecy\r\n\r\n📡 **Kablosuz Güvenlik:**\r\n• WPA3 şifreleme\r\n• Enterprise authentication\r\n• Monitor mode detection\r\n• Rogue AP detection\r\n\r\n🌐 **Uygulama Güvenliği:**\r\n• Input validation\r\n• Secure coding practices\r\n• Session management\r\n• Authentication mechanisms\r\n\r\n📊 **İzleme ve Tespit:**\r\n• Network monitoring\r\n• Intrusion detection\r\n• Behavioral analysis\r\n• Anomaly detection"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Trafik Sniffing",
+                    "type": "quiz",
+                    "question": "Trafik Sniffing'in temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Ağ hızını artırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Ağ trafiğini yakalama ve analiz etme",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "IP adreslerini değiştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "MAC adreslerini şifrelemek",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Trafik Sniffing, ağ üzerindeki veri paketlerini yakalama, analiz etme ve protokol davranışlarını inceleme işlemidir."
+                }
+            ]
         },
         {
             "id": "7_5",
@@ -225,7 +285,303 @@
             "isCompleted": false,
             "isActive": true,
             "description": "Ağ güvenliği konusundaki bilgilerinizi test edin, kapsamlı quiz ile öğrendiklerinizi pekiştirin.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Quiz Tanıtımı",
+                    "content": "🎯 **Ağ Güvenliği Quiz Serisi**\r\n\r\nBu quiz serisinde ağ güvenliği konularında öğrendiğiniz bilgileri test edeceksiniz.\r\n\r\n📚 **Quiz Konuları:**\r\n• **Temel Ağ Kavramları** - IP, MAC, TCP/UDP, Portlar\r\n• **ARP Spoofing** - ARP saldırıları ve korunma\r\n• **MITM Saldırıları** - Man-in-the-Middle teknikleri\r\n• **Trafik Sniffing** - Paket analizi ve dinleme\r\n• **Genel Ağ Güvenliği** - Kapsamlı güvenlik testi\r\n\r\n⚡ **Quiz Kuralları:**\r\n• Her quiz 10 sorudan oluşur\r\n• Çoktan seçmeli sorular\r\n• Doğru cevap için açıklama\r\n• Zaman sınırı yok\r\n• İstediğiniz kadar tekrar edebilirsiniz\r\n\r\n🏆 **Başarı Kriterleri:**\r\n• 8/10 ve üzeri: Mükemmel\r\n• 6-7/10: İyi\r\n• 4-5/10: Orta\r\n• 3/10 ve altı: Tekrar önerilir\r\n\r\n🎓 **Hazır mısınız?**\r\nQuiz'e başlamak için sonraki sayfaya geçin!"
+                },
+                {
+                    "id": "2",
+                    "title": "Quiz: Ağ Güvenliği",
+                    "type": "quiz",
+                    "question": "IPv4 adresinde kaç bit bulunur?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "16 bit",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "32 bit",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "64 bit",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "128 bit",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "IPv4 adresleri 32 bit uzunluğundadır ve 4 oktetten (8'er bit) oluşur."
+                },
+                {
+                    "id": "3",
+                    "title": "Quiz: ARP Spoofing",
+                    "type": "quiz",
+                    "question": "ARP Spoofing saldırısının temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Ağ hızını artırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "ARP tablolarını manipüle etmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "IP adreslerini değiştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "MAC adreslerini şifrelemek",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "ARP Spoofing, saldırganın sahte ARP mesajları göndererek hedef cihazların ARP tablolarını manipüle etmesidir."
+                },
+                {
+                    "id": "4",
+                    "title": "Quiz: MITM Saldırıları",
+                    "type": "quiz",
+                    "question": "MITM saldırısının temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Ağ hızını artırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "İki taraf arasındaki iletişimi dinlemek ve manipüle etmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "IP adreslerini değiştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "MAC adreslerini şifrelemek",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "MITM saldırısı, saldırganın iki taraf arasındaki iletişimi gizlice dinlemesi ve manipüle etmesidir."
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Trafik Sniffing",
+                    "type": "quiz",
+                    "question": "Trafik Sniffing'in temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Ağ hızını artırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Ağ trafiğini yakalama ve analiz etme",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "IP adreslerini değiştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "MAC adreslerini şifrelemek",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Trafik Sniffing, ağ üzerindeki veri paketlerini yakalama ve analiz etme işlemidir."
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Port Güvenliği",
+                    "type": "quiz",
+                    "question": "Hangi port en güvenli kabul edilir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "80 (HTTP)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "443 (HTTPS)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "21 (FTP)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "23 (Telnet)",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Port 443 (HTTPS) SSL/TLS şifrelemesi kullandığı için en güvenli port kabul edilir."
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Ağ Segmentasyonu",
+                    "type": "quiz",
+                    "question": "Ağ segmentasyonu neden önemlidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Ağ hızını artırır",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Saldırı yayılımını sınırlar",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Bant genişliğini artırır",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Maliyeti düşürür",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Ağ segmentasyonu, bir saldırı durumunda zararın sadece belirli bir segment ile sınırlı kalmasını sağlar."
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Protokol Güvenliği",
+                    "type": "quiz",
+                    "question": "Hangi protokol şifrelenmemiş veri iletimi yapar?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "HTTPS",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SSH",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "HTTP",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "SFTP",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "HTTP protokolü şifrelenmemiş veri iletimi yapar, bu nedenle güvenli değildir."
+                },
+                {
+                    "id": "9",
+                    "title": "Quiz: IDS Sistemleri",
+                    "type": "quiz",
+                    "question": "Intrusion Detection System (IDS) ne yapar?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Saldırıları engeller",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Saldırıları tespit eder",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Ağ trafiğini şifreler",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Portları kapatır",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "IDS (Intrusion Detection System) ağ trafiğini izleyerek şüpheli aktiviteleri tespit eder."
+                },
+                {
+                    "id": "10",
+                    "title": "Quiz: Certificate Pinning",
+                    "type": "quiz",
+                    "question": "Certificate Pinning nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "SSL sertifikasını sabitlemek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Sertifikayı şifrelemek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sertifikayı silmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sertifikayı değiştirmek",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Certificate Pinning, uygulamanın sadece belirli bir SSL sertifikasını kabul etmesini sağlayarak MITM saldırılarını önler."
+                },
+                {
+                    "id": "11",
+                    "title": "Quiz: Defense in Depth",
+                    "type": "quiz",
+                    "question": "Ağ güvenliği için en önemli prensip nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Defense in Depth",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Single Point of Failure",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Open Access",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Minimal Security",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Defense in Depth (Derinlemesine Savunma), birden fazla güvenlik katmanı kullanarak kapsamlı koruma sağlar."
+                }
+            ]
         }
     ]
 }
