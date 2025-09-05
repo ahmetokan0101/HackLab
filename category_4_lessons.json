@@ -1,0 +1,602 @@
+{
+    "categoryId": "4",
+    "categoryTitle": "",
+    "lessons": [
+        {
+            "id": "4_1",
+            "title": "Kriptografi Nedir ? Temel Kavramlar",
+            "duration": "15",
+            "color": "#3498db",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Kriptografi ve şifreleme temellerini öğren! Veri güvenliğinin nasıl sağlandığını keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Kriptografi Tanımı",
+                    "content": "Kriptografi, veri güvenliğinin temelidir ve bilgileri yetkisiz erişimden korumak için kullanılan matematiksel tekniklerin bilimidir. Bu alan, veri şifreleme, hash fonksiyonları, dijital imzalar ve güvenli iletişim protokolleri gibi konuları kapsar.\r\n\r\nKriptografi kelimesi, Yunanca \"kryptos\" (gizli) ve \"graphein\" (yazmak) kelimelerinden türemiştir. Modern kriptografi, bilgisayar bilimi ve matematik alanlarının kesişiminde yer alır.\r\n\r\nGünümüzde kriptografi:\r\n• Online bankacılık işlemlerinde\r\n• E-posta güvenliğinde\r\n• Sosyal medya platformlarında\r\n• Mobil uygulamalarda\r\n• Bulut depolama sistemlerinde\r\n• IoT cihazlarında kullanılmaktadır"
+                },
+                {
+                    "id": "2",
+                    "title": "Kriptografi Tarihçesi",
+                    "content": "Kriptografi tarihi, antik çağlara kadar uzanır. İlk kriptografi örnekleri, MÖ 1900 yıllarında Mısır'da hiyeroglif yazılarda görülmüştür. Julius Caesar, askeri mesajları korumak için basit bir şifreleme yöntemi kullanmıştır.\r\n\r\nTarihsel Gelişim:\r\n• Antik Çağ: Basit yer değiştirme şifreleri\r\n• Orta Çağ: Polialfabetik şifreler\r\n• 20. Yüzyıl: Makine tabanlı şifreleme (Enigma)\r\n• 1970'ler: Modern kriptografi (DES, RSA)\r\n• 2000'ler: AES ve güçlü algoritmalar\r\n• Günümüz: Kuantum kriptografi araştırmaları\r\n\r\nKriptografi tarihindeki önemli isimler:\r\n• Al-Kindi (9. yüzyıl): Frekans analizi\r\n• Leon Battista Alberti (15. yüzyıl): Polialfabetik şifre\r\n• Alan Turing (20. yüzyıl): Enigma kırma\r\n• Whitfield Diffie ve Martin Hellman: Açık anahtar kriptografi"
+                },
+                {
+                    "id": "3",
+                    "title": "Temel Kriptografi Terimleri",
+                    "content": "Kriptografi alanında kullanılan temel terimleri öğrenelim:\r\n\r\nPlaintext (Açık Metin): Şifrelenmemiş orijinal veri\r\nCiphertext (Şifreli Metin): Şifrelenmiş veri\r\nEncryption (Şifreleme): Açık metni şifreli metne çevirme\r\nDecryption (Şifre Çözme): Şifreli metni açık metne çevirme\r\nKey (Anahtar): Şifreleme ve şifre çözme işlemlerinde kullanılan gizli bilgi\r\nAlgorithm (Algoritma): Şifreleme ve şifre çözme işlemlerini gerçekleştiren matematiksel yöntem\r\nHash Function (Hash Fonksiyonu): Veriyi sabit uzunlukta bir değere dönüştüren tek yönlü fonksiyon\r\nDigital Signature (Dijital İmza): Veri bütünlüğünü ve kimlik doğrulamasını sağlayan elektronik imza"
+                },
+                {
+                    "id": "4",
+                    "title": "Kriptografi Türleri",
+                    "content": "Kriptografi, kullanım amacına ve teknik özelliklerine göre farklı türlere ayrılır:\r\n\r\nSimetrik Kriptografi:\r\n• Aynı anahtar hem şifreleme hem şifre çözme için kullanılır\r\n• Hızlı ve verimli\r\n• Anahtar dağıtımı zor\r\n• AES, DES, 3DES gibi algoritmalar\r\n\r\nAsimetrik Kriptografi:\r\n• Açık anahtar ve gizli anahtar çifti kullanılır\r\n• Güvenli anahtar dağıtımı\r\n• Daha yavaş\r\n• RSA, ECC, DSA gibi algoritmalar\r\n\r\nHash Fonksiyonları:\r\n• Tek yönlü dönüşüm\r\n• Veri bütünlüğü kontrolü\r\n• Şifre çözme yok\r\n• MD5, SHA-1, SHA-256 gibi algoritmalar"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Kriptografi Temel Bilgiler",
+                    "type": "quiz",
+                    "question": "Kriptografi kelimesi hangi dillerden türemiştir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Latince ve İngilizce",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Yunanca ve Latince",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Yunanca",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Arapça",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Kriptografi kelimesi Yunanca \"kryptos\" (gizli) ve \"graphein\" (yazmak) kelimelerinden türemiştir."
+                }
+            ]
+        },
+        {
+            "id": "4_2",
+            "title": "Şifreleme Algoritmaları: AES, RSA, DES",
+            "duration": "25",
+            "color": "#e74c3c",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Modern şifreleme algoritmalarını detaylı olarak öğren! AES, RSA ve DES algoritmalarının çalışma prensiplerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "AES (Advanced Encryption Standard)",
+                    "content": "AES, 2001 yılında NIST tarafından standart olarak kabul edilen simetrik şifreleme algoritmasıdır. Günümüzde en yaygın kullanılan şifreleme standardıdır.\r\n\r\nAES Özellikleri:\r\n• 128, 192 ve 256 bit anahtar uzunlukları\r\n• 128 bit blok boyutu\r\n• 10, 12 veya 14 tur (anahtar uzunluğuna göre)\r\n• Güvenli ve hızlı\r\n• Donanım ve yazılımda verimli\r\n\r\nAES Çalışma Prensibi:\r\n• SubBytes: S-box kullanarak byte değiştirme\r\n• ShiftRows: Satırları kaydırma\r\n• MixColumns: Sütunları karıştırma\r\n• AddRoundKey: Tur anahtarı ekleme\r\n\r\nKullanım Alanları:\r\n• SSL/TLS protokolleri\r\n• VPN bağlantıları\r\n• Disk şifreleme\r\n• Dosya şifreleme\r\n• Mobil uygulamalar"
+                },
+                {
+                    "id": "2",
+                    "title": "RSA Algoritması",
+                    "content": "RSA, 1977'de Rivest, Shamir ve Adleman tarafından geliştirilen asimetrik şifreleme algoritmasıdır. Günümüzde en yaygın kullanılan açık anahtar algoritmasıdır.\r\n\r\nRSA Çalışma Prensibi:\r\n• İki büyük asal sayı seçimi (p, q)\r\n• Modül hesaplama: n = p × q\r\n• Euler totient fonksiyonu: φ(n) = (p-1)(q-1)\r\n• Açık üs seçimi: e (φ(n) ile aralarında asal)\r\n• Gizli üs hesaplama: d × e ≡ 1 (mod φ(n))\r\n\r\nRSA Şifreleme:\r\n• Açık metin: m\r\n• Şifreli metin: c = m^e mod n\r\n• Şifre çözme: m = c^d mod n\r\n\r\nRSA Güvenliği:\r\n• Faktörizasyon zorluğuna dayanır\r\n• Büyük sayıların çarpanlarına ayrılması zor\r\n• Kuantum bilgisayarlar tehdit oluşturur\r\n• Minimum 2048 bit anahtar önerilir"
+                },
+                {
+                    "id": "3",
+                    "title": "DES (Data Encryption Standard)",
+                    "content": "DES, 1977'de standart olarak kabul edilen 56 bit anahtar uzunluğuna sahip simetrik şifreleme algoritmasıdır. Günümüzde güvenli değildir.\r\n\r\nDES Özellikleri:\r\n• 56 bit anahtar uzunluğu\r\n• 64 bit blok boyutu\r\n• 16 tur işlem\r\n• Feistel ağ yapısı\r\n• 1970'lerde güvenli\r\n\r\nDES Çalışma Prensibi:\r\n• İlk permütasyon (IP)\r\n• 16 tur Feistel ağ\r\n• Son permütasyon (IP^-1)\r\n• Her turda farklı alt anahtar\r\n\r\nDES Güvenlik Sorunları:\r\n• 56 bit anahtar çok kısa\r\n• Brute force saldırılara açık\r\n• 1998'de 56 saatte kırıldı\r\n• Günümüzde saniyelerde kırılabilir\r\n\r\nKullanım Alanları:\r\n• Eski sistemler\r\n• Geriye uyumluluk\r\n• Eğitim amaçlı\r\n• Tarihi önem"
+                },
+                {
+                    "id": "4",
+                    "title": "3DES (Triple DES)",
+                    "content": "3DES, DES'in üç kez uygulanmasıyla oluşan güçlendirilmiş versiyonudur. DES'in güvenlik açıklarını kapatmak için geliştirilmiştir.\r\n\r\n3DES Çalışma Prensibi:\r\n• İlk DES: Anahtar 1 ile şifreleme\r\n• İkinci DES: Anahtar 2 ile şifre çözme\r\n• Üçüncü DES: Anahtar 3 ile şifreleme\r\n\r\n3DES Özellikleri:\r\n• 168 bit efektif anahtar uzunluğu\r\n• DES'ten 3 kat daha yavaş\r\n• Hala güvenli (2023 itibariyle)\r\n• Eski sistemlerde kullanım\r\n\r\n3DES Avantajları:\r\n• DES'ten çok daha güvenli\r\n• Mevcut DES altyapısı kullanılabilir\r\n• Geriye uyumluluk\r\n• Kanıtlanmış güvenlik\r\n\r\n3DES Dezavantajları:\r\n• Yavaş işlem hızı\r\n• 3 anahtar yönetimi\r\n• AES'e göre verimsiz\r\n• Yeni sistemlerde önerilmez"
+                },
+                {
+                    "id": "5",
+                    "title": "Algoritma Karşılaştırması",
+                    "content": "AES, RSA ve DES algoritmalarını karşılaştıralım:\r\n\r\nGüvenlik:\r\n• AES: Çok güvenli (128+ bit)\r\n• RSA: Güvenli (2048+ bit)\r\n• DES: Güvensiz (56 bit)\r\n• 3DES: Güvenli (168 bit)\r\n\r\nHız:\r\n• AES: Çok hızlı\r\n• RSA: Yavaş\r\n• DES: Hızlı\r\n• 3DES: Orta\r\n\r\nAnahtar Uzunluğu:\r\n• AES: 128, 192, 256 bit\r\n• RSA: 2048, 4096 bit\r\n• DES: 56 bit\r\n• 3DES: 168 bit\r\n\r\nKullanım Alanları:\r\n• AES: Modern sistemler\r\n• RSA: Anahtar değişimi\r\n• DES: Eski sistemler\r\n• 3DES: Geçiş dönemi"
+                },
+                {
+                    "id": "6",
+                    "title": "Pratik Uygulamalar",
+                    "content": "Bu algoritmaların pratik uygulamaları:\r\n\r\nAES Kullanımı:\r\n• HTTPS web siteleri\r\n• VPN bağlantıları\r\n• Disk şifreleme (BitLocker)\r\n• Dosya şifreleme\r\n• Mobil uygulama güvenliği\r\n\r\nRSA Kullanımı:\r\n• SSL/TLS sertifikaları\r\n• Dijital imzalar\r\n• Anahtar değişimi\r\n• E-posta güvenliği\r\n• Blockchain teknolojisi\r\n\r\nDES/3DES Kullanımı:\r\n• Eski finansal sistemler\r\n• Geriye uyumlu uygulamalar\r\n• Eğitim ve araştırma\r\n• Tarihi sistemler\r\n• Geçiş dönemi uygulamaları"
+                },
+                {
+                    "id": "7",
+                    "title": "Kriptografi Güvenlik Testleri",
+                    "content": "Şifreleme algoritmalarının güvenliğini test etmek için kullanılan yöntemler:\r\n\r\nGüvenlik Analizi Yöntemleri:\r\n• Kriptanaliz: Şifreleme algoritmalarını analiz etme\r\n• Brute Force: Tüm olası anahtarları deneme\r\n• Frequency Analysis: Frekans analizi ile şifre çözme\r\n• Differential Cryptanalysis: Fark analizi\r\n• Linear Cryptanalysis: Doğrusal analiz\r\n\r\nTest Araçları:\r\n• CrypTool: Kriptografi eğitim ve test yazılımı\r\n• John the Ripper: Şifre kırma aracı\r\n• Hashcat: Hash fonksiyonu saldırı aracı\r\n• OpenSSL: Kriptografi kütüphanesi\r\n• Wireshark: Ağ trafiği analizi\r\n\r\nGüvenlik Testleri:\r\n• Anahtar uzunluğu testleri\r\n• Rastgele sayı üreteci testleri\r\n• Çarpışma testleri (hash fonksiyonları için)\r\n• Zaman analizi saldırıları\r\n• Yan kanal saldırıları\r\n\r\nTest Senaryoları:\r\n• Farklı anahtar uzunlukları ile test\r\n• Çeşitli veri boyutları ile test\r\n• Performans testleri\r\n• Güvenlik açığı tarama\r\n• Uyumluluk testleri"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Şifreleme Algoritmaları",
+                    "type": "quiz",
+                    "question": "Hangi algoritma günümüzde en güvenli kabul edilir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "DES",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "3DES",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "AES",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "RSA",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "AES (Advanced Encryption Standard) günümüzde en güvenli simetrik şifreleme algoritması olarak kabul edilir ve 128, 192, 256 bit anahtar uzunlukları destekler."
+                }
+            ]
+        },
+        {
+            "id": "4_3",
+            "title": "Kriptanaliz ve Şifre Kırma Yöntemleri",
+            "duration": "30",
+            "color": "#9b59b6",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Şifreleme algoritmalarını nasıl kıracağını öğren! Kriptanaliz tekniklerini ve saldırı yöntemlerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Kriptanaliz Nedir?",
+                    "content": "Kriptanaliz, şifreleme algoritmalarını analiz ederek şifreli metinleri çözmeye çalışan bilim dalıdır. Bu alan, kriptografi ile birlikte kriptoloji bilimini oluşturur.\r\n\r\nKriptanaliz Amaçları:\r\n• Şifreli veriyi okunabilir hale getirme\r\n• Şifreleme algoritmasındaki zayıflıkları bulma\r\n• Güvenlik açıklarını tespit etme\r\n• Daha güvenli algoritmalar geliştirme\r\n\r\nKriptanaliz Türleri:\r\n• Saldırgan Kriptanaliz: Düşman tarafından yapılan analiz\r\n• Dost Kriptanaliz: Kendi algoritmalarımızı test etme\r\n• Akademik Kriptanaliz: Araştırma amaçlı analiz\r\n• Endüstriyel Kriptanaliz: Ticari ürünleri test etme\r\n\r\nTarihsel Önem:\r\n• II. Dünya Savaşı'nda Enigma kırma\r\n• Soğuk Savaş dönemi istihbarat\r\n• Modern siber güvenlik araştırmaları\r\n• Kuantum kriptografi geliştirme"
+                },
+                {
+                    "id": "2",
+                    "title": "Brute Force Saldırıları",
+                    "content": "Brute Force (Kaba Kuvvet) saldırısı, tüm olası anahtarları sistematik olarak deneyerek şifreyi kırma yöntemidir.\r\n\r\nBrute Force Çalışma Prensibi:\r\n• Tüm olası anahtar kombinasyonlarını dene\r\n• Her anahtarla şifre çözmeyi dene\r\n• Doğru anahtarı bulana kadar devam et\r\n• En basit ama en zaman alıcı yöntem\r\n\r\nAnahtar Uzunluğu ve Güvenlik:\r\n• 8 bit: 256 kombinasyon (saniyeler)\r\n• 16 bit: 65,536 kombinasyon (dakikalar)\r\n• 32 bit: 4,294,967,296 kombinasyon (saatler)\r\n• 64 bit: 18,446,744,073,709,551,616 (yıllar)\r\n• 128 bit: 340,282,366,920,938,463,463,374,607,431,768,211,456 (imkansız)\r\n\r\nBrute Force Araçları:\r\n• John the Ripper: Şifre kırma aracı\r\n• Hashcat: GPU tabanlı hash kırma\r\n• Aircrack-ng: WiFi şifre kırma\r\n• Hydra: Ağ servisleri saldırısı\r\n• Metasploit: Otomatik saldırı framework'ü"
+                },
+                {
+                    "id": "3",
+                    "title": "Dictionary Attack (Sözlük Saldırısı)",
+                    "content": "Dictionary Attack, yaygın kullanılan kelimeleri ve şifreleri deneyerek şifre kırma yöntemidir. Brute Force'dan çok daha hızlıdır.\r\n\r\nSözlük Saldırısı Avantajları:\r\n• Çok hızlı sonuç\r\n• Düşük işlemci gücü gereksinimi\r\n• Yaygın şifreleri kolayca bulur\r\n• Gerçekçi sonuçlar\r\n\r\nSözlük Dosyaları:\r\n• rockyou.txt: 14 milyon şifre\r\n• common_passwords.txt: Yaygın şifreler\r\n• wordlist.txt: Özel kelime listeleri\r\n• custom_dict.txt: Hedef odaklı sözlükler\r\n\r\nSaldırı Teknikleri:\r\n• Temel sözlük saldırısı\r\n• Hibrit saldırı (kelime + sayı)\r\n• Leetspeak dönüşümü (a→@, e→3)\r\n• Büyük/küçük harf varyasyonları\r\n• Özel karakter ekleme\r\n\r\nKorunma Yöntemleri:\r\n• Güçlü şifre politikası\r\n• Şifre karmaşıklığı zorunluluğu\r\n• Hesap kilitleme\r\n• İki faktörlü doğrulama\r\n• Şifre yöneticisi kullanımı"
+                },
+                {
+                    "id": "4",
+                    "title": "Rainbow Table Saldırıları",
+                    "content": "Rainbow Table, önceden hesaplanmış hash değerlerini içeren veritabanıdır. Hash fonksiyonlarını hızla kırmak için kullanılır.\r\n\r\nRainbow Table Çalışma Prensibi:\r\n• Önceden hash'lenmiş şifreler\r\n• Hash → şifre eşleştirmesi\r\n• Anında şifre bulma\r\n• Büyük depolama alanı gereksinimi\r\n\r\nRainbow Table Avantajları:\r\n• Çok hızlı hash kırma\r\n• Tek seferlik hesaplama\r\n• Çoklu hash desteği\r\n• Offline saldırı imkanı\r\n\r\nRainbow Table Dezavantajları:\r\n• Büyük disk alanı (TB seviyesi)\r\n• Uzun hazırlık süresi\r\n• Salt kullanımında etkisiz\r\n• Güncel değil\r\n\r\nKorunma Yöntemleri:\r\n• Salt kullanımı\r\n• Pepper ekleme\r\n• Çoklu hash (bcrypt, Argon2)\r\n• Yavaş hash fonksiyonları\r\n• Düzenli şifre değişimi"
+                },
+                {
+                    "id": "5",
+                    "title": "Man-in-the-Middle (MitM) Saldırıları",
+                    "content": "Man-in-the-Middle saldırısı, iki taraf arasındaki iletişimi dinleyen ve manipüle eden saldırı türüdür.\r\n\r\nMitM Saldırı Türleri:\r\n• Ağ dinleme (Sniffing)\r\n• Paket yakalama (Packet Capture)\r\n• SSL/TLS stripping\r\n• DNS poisoning\r\n• ARP spoofing\r\n\r\nMitM Saldırı Araçları:\r\n• Wireshark: Ağ trafiği analizi\r\n• Ettercap: ARP spoofing aracı\r\n• SSLstrip: SSL/TLS kaldırma\r\n• Cain & Abel: Windows tabanlı araç\r\n• Bettercap: Modern ağ saldırı aracı\r\n\r\nMitM Saldırı Senaryoları:\r\n• WiFi ağında trafik dinleme\r\n• HTTPS trafiğini HTTP'ye dönüştürme\r\n• DNS sorgularını yönlendirme\r\n• E-posta trafiğini yakalama\r\n• Bankacılık işlemlerini manipüle etme\r\n\r\nKorunma Yöntemleri:\r\n• HTTPS kullanımı\r\n• VPN bağlantısı\r\n• Güvenli WiFi ağları\r\n• Sertifika doğrulama\r\n• Şüpheli bağlantılardan kaçınma"
+                },
+                {
+                    "id": "6",
+                    "title": "Side Channel Attacks (Yan Kanal Saldırıları)",
+                    "content": "Side Channel saldırıları, şifreleme algoritmasının fiziksel özelliklerini kullanarak anahtarı elde etme yöntemidir.\r\n\r\nYan Kanal Saldırı Türleri:\r\n• Timing Attack: Zaman analizi\r\n• Power Analysis: Güç tüketimi analizi\r\n• Electromagnetic Analysis: Elektromanyetik dalga analizi\r\n• Acoustic Analysis: Ses analizi\r\n• Cache Attack: Önbellek analizi\r\n\r\nTiming Attack Örneği:\r\n• Şifre çözme süresini ölç\r\n• Farklı anahtar bitleri için süre farkı\r\n• İstatistiksel analiz ile anahtar tahmin\r\n• RSA algoritmasında yaygın\r\n\r\nPower Analysis:\r\n• Güç tüketimi dalgalanmaları\r\n• Hangi işlemlerin yapıldığını tespit\r\n• Anahtar bitlerini belirleme\r\n• Akıllı kartlarda etkili\r\n\r\nKorunma Yöntemleri:\r\n• Sabit zaman algoritmaları\r\n• Güç tüketimi maskeleme\r\n• Rastgele gecikmeler\r\n• Donanım güvenliği\r\n• Algoritma optimizasyonu"
+                },
+                {
+                    "id": "7",
+                    "title": "Kriptanaliz Araçları ve Teknikleri",
+                    "content": "Modern kriptanaliz için kullanılan profesyonel araçlar ve teknikler:\r\n\r\nKriptanaliz Yazılımları:\r\n• CrypTool: Kapsamlı kriptografi analiz aracı\r\n• SageMath: Matematiksel hesaplamalar\r\n• OpenSSL: Kriptografi kütüphanesi\r\n• GnuPG: Şifreleme ve imza\r\n• Cryptool: Online kriptografi aracı\r\n\r\nHash Kırma Araçları:\r\n• Hashcat: GPU tabanlı hash kırma\r\n• John the Ripper: Çok amaçlı şifre kırma\r\n• RainbowCrack: Rainbow table tabanlı\r\n• Cain & Abel: Windows tabanlı\r\n• Ophcrack: Windows şifre kırma\r\n\r\nAğ Analiz Araçları:\r\n• Wireshark: Protokol analizi\r\n• tcpdump: Komut satırı analiz\r\n• Netcat: Ağ bağlantı testi\r\n• Nmap: Port tarama\r\n• Metasploit: Penetrasyon testi\r\n\r\nKriptanaliz Teknikleri:\r\n• Frekans analizi\r\n• Pattern recognition\r\n• İstatistiksel analiz\r\n• Makine öğrenmesi\r\n• Kuantum algoritmaları"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Kriptanaliz ve Şifre Kırma",
+                    "type": "quiz",
+                    "question": "Hangi saldırı türü en hızlı sonuç verir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Brute Force",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Dictionary Attack",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Rainbow Table",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Side Channel",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Dictionary Attack (Sözlük Saldırısı) en hızlı sonuç verir çünkü yaygın şifreleri hemen bulur. Brute Force çok yavaş, Rainbow Table hazırlık gerektirir, Side Channel karmaşık analiz gerektirir."
+                }
+            ]
+        },
+        {
+            "id": "4_4",
+            "title": "CrypTool ile Uygulamalı Örnekler",
+            "duration": "35",
+            "color": "#f39c12",
+            "documents": 9,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "CrypTool ile kriptografi algoritmalarını pratik olarak öğren! Gerçek araçlarla şifreleme ve şifre çözme işlemlerini yap.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "CrypTool Kurulumu ve Tanıtım",
+                    "content": "CrypTool, kriptografi öğrenimi için geliştirilmiş ücretsiz bir eğitim yazılımıdır. Bu yazılım ile çeşitli kriptografi algoritmalarını uygulamalı olarak öğrenebilirsiniz.\r\n\r\nCrypTool Özellikleri:\r\n• 200'den fazla kriptografi algoritması\r\n• Görsel arayüz ve grafik gösterimler\r\n• Türkçe dil desteği\r\n• Detaylı dokümantasyon ve örnekler\r\n• Ücretsiz indirme ve kullanım\r\n• Windows, Linux ve macOS desteği\r\n\r\nKurulum Adımları:\r\n• CrypTool.org'dan indir\r\n• Sistem gereksinimlerini kontrol et\r\n• Kurulum sihirbazını çalıştır\r\n• Gerekli kütüphaneleri yükle\r\n• İlk çalıştırmayı test et\r\n\r\nArayüz Bileşenleri:\r\n• Ana menü ve araç çubuğu\r\n• Algoritma seçim paneli\r\n• Metin girişi ve çıkışı\r\n• Sonuç görüntüleme alanı\r\n• Yardım ve dokümantasyon"
+                },
+                {
+                    "id": "2",
+                    "title": "Klasik Şifreleme Yöntemleri",
+                    "content": "CrypTool ile klasik şifreleme yöntemlerini uygulamalı olarak öğrenelim:\r\n\r\nCaesar Şifresi:\r\n• Metin girişi: \"HELLO WORLD\"\r\n• Kaydırma miktarı: 3\r\n• Şifreli metin: \"KHOOR ZRUOG\"\r\n• Şifre çözme: -3 kaydırma\r\n\r\nVigenère Şifresi:\r\n• Anahtar kelime: \"SECRET\"\r\n• Metin: \"ATTACK AT DAWN\"\r\n• Şifreleme tablosu kullanımı\r\n• Anahtar tekrarı ile şifreleme\r\n\r\nSubstitution Şifresi:\r\n• Harf değiştirme tablosu\r\n• A→X, B→Y, C→Z gibi\r\n• Özel karakter desteği\r\n• Frekans analizi\r\n\r\nTransposition Şifresi:\r\n• Satır ve sütun düzenleme\r\n• Anahtar kelime ile sıralama\r\n• Çift şifreleme\r\n• Karmaşık permütasyonlar\r\n\r\nCrypTool'da Uygulama:\r\n• Algoritma seçimi\r\n• Parametre ayarlama\r\n• Metin girişi\r\n• Sonuç analizi\r\n• Şifre çözme testi"
+                },
+                {
+                    "id": "3",
+                    "title": "Modern Simetrik Şifreleme",
+                    "content": "CrypTool ile modern simetrik şifreleme algoritmalarını uygulayalım:\r\n\r\nAES (Advanced Encryption Standard):\r\n• Anahtar uzunluğu seçimi (128/192/256 bit)\r\n• Blok boyutu: 128 bit\r\n• Mod seçimi: ECB, CBC, CFB, OFB\r\n• Padding yöntemleri\r\n• IV (Initialization Vector) kullanımı\r\n\r\nDES (Data Encryption Standard):\r\n• 56 bit anahtar\r\n• 64 bit blok boyutu\r\n• 16 tur işlem\r\n• Feistel ağ yapısı\r\n• Güvenlik analizi\r\n\r\n3DES (Triple DES):\r\n• Üç DES uygulaması\r\n• 168 bit efektif anahtar\r\n• EDE (Encrypt-Decrypt-Encrypt)\r\n• Performans karşılaştırması\r\n\r\nCrypTool Uygulaması:\r\n• Algoritma parametreleri\r\n• Anahtar üretimi\r\n• Şifreleme işlemi\r\n• Şifre çözme testi\r\n• Güvenlik analizi"
+                },
+                {
+                    "id": "4",
+                    "title": "Asimetrik Şifreleme Uygulamaları",
+                    "content": "CrypTool ile asimetrik şifreleme algoritmalarını pratik olarak öğrenelim:\r\n\r\nRSA Algoritması:\r\n• Anahtar üretimi (p, q asal sayıları)\r\n• Modül hesaplama (n = p × q)\r\n• Açık anahtar (e) seçimi\r\n• Gizli anahtar (d) hesaplama\r\n• Şifreleme: c = m^e mod n\r\n• Şifre çözme: m = c^d mod n\r\n\r\nRSA Parametreleri:\r\n• Anahtar uzunluğu: 512, 1024, 2048 bit\r\n• Güvenlik seviyesi analizi\r\n• Faktörizasyon zorluğu\r\n• Kuantum tehdit değerlendirmesi\r\n\r\nECC (Elliptic Curve Cryptography):\r\n• Eliptik eğri seçimi\r\n• Nokta çarpımı işlemleri\r\n• Anahtar üretimi\r\n• Şifreleme ve çözme\r\n• RSA ile karşılaştırma\r\n\r\nCrypTool'da RSA:\r\n• Anahtar çifti oluşturma\r\n• Metin şifreleme\r\n• Şifre çözme testi\r\n• Güvenlik analizi\r\n• Performans ölçümü"
+                },
+                {
+                    "id": "5",
+                    "title": "Hash Fonksiyonları ve Dijital İmzalar",
+                    "content": "CrypTool ile hash fonksiyonlarını ve dijital imzaları uygulayalım:\r\n\r\nHash Fonksiyonları:\r\n• MD5: 128 bit hash\r\n• SHA-1: 160 bit hash\r\n• SHA-256: 256 bit hash\r\n• SHA-3: Yeni nesil hash\r\n• RIPEMD: Alternatif hash\r\n\r\nHash Özellikleri:\r\n• Deterministik çıktı\r\n• Avalanche effect\r\n• Çarpışma direnci\r\n• Tek yönlülük\r\n• Hızlı hesaplama\r\n\r\nDijital İmza Süreci:\r\n• Hash fonksiyonu ile özet\r\n• Gizli anahtar ile şifreleme\r\n• İmza oluşturma\r\n• Açık anahtar ile doğrulama\r\n• Veri bütünlüğü kontrolü\r\n\r\nCrypTool Uygulaması:\r\n• Hash hesaplama\r\n• Çarpışma testi\r\n• İmza oluşturma\r\n• İmza doğrulama\r\n• Güvenlik analizi"
+                },
+                {
+                    "id": "6",
+                    "title": "Kriptanaliz ve Saldırı Simülasyonları",
+                    "content": "CrypTool ile kriptanaliz tekniklerini ve saldırı senaryolarını simüle edelim:\r\n\r\nFrekans Analizi:\r\n• Harf frekansı hesaplama\r\n• Türkçe metin analizi\r\n• Şifreli metin frekansı\r\n• Karşılaştırmalı analiz\r\n• Pattern recognition\r\n\r\nBrute Force Simülasyonu:\r\n• Anahtar uzunluğu testi\r\n• Zaman hesaplama\r\n• Güvenlik değerlendirmesi\r\n• Paralel işlem simülasyonu\r\n• GPU hızlandırma analizi\r\n\r\nDifferential Cryptanalysis:\r\n• Fark analizi\r\n• Plaintext çiftleri\r\n• Şifreli metin farkları\r\n• Anahtar bitleri tahmin\r\n• Güvenlik açığı tespiti\r\n\r\nLinear Cryptanalysis:\r\n• Doğrusal yaklaşım\r\n• İstatistiksel analiz\r\n• Anahtar korelasyonu\r\n• Güvenlik değerlendirmesi\r\n• Algoritma zayıflıkları\r\n\r\nCrypTool Araçları:\r\n• Frekans analiz aracı\r\n• Saldırı simülatörü\r\n• Güvenlik değerlendirme\r\n• Rapor oluşturma"
+                },
+                {
+                    "id": "7",
+                    "title": "Gelişmiş Kriptografi Teknikleri",
+                    "content": "CrypTool ile gelişmiş kriptografi tekniklerini öğrenelim:\r\n\r\nSteganografi:\r\n• Gizli mesaj gizleme\r\n• Resim dosyalarında veri saklama\r\n• Ses dosyalarında veri gizleme\r\n• Video dosyalarında veri saklama\r\n• Steganaliz (gizli veri tespiti)\r\n\r\nZero-Knowledge Proofs:\r\n• Kimlik doğrulama\r\n• Gizli bilgi paylaşımı\r\n• İspat sistemleri\r\n• Güvenli protokoller\r\n• Blockchain uygulamaları\r\n\r\nHomomorphic Encryption:\r\n• Şifreli veri üzerinde işlem\r\n• Toplama ve çarpma\r\n• Bulut bilişim uygulamaları\r\n• Gizlilik korumalı analiz\r\n• Tıbbi veri analizi\r\n\r\nPost-Quantum Kriptografi:\r\n• Kuantum bilgisayar tehdidi\r\n• Lattice-based kriptografi\r\n• Hash-based imzalar\r\n• Code-based kriptografi\r\n• Gelecek güvenlik standartları\r\n\r\nCrypTool Destekleri:\r\n• Steganografi araçları\r\n• Protokol analizi\r\n• Güvenlik değerlendirme\r\n• Performans testi"
+                },
+                {
+                    "id": "8",
+                    "title": "Pratik Projeler ve Örnekler",
+                    "content": "CrypTool ile gerçek dünya projelerini uygulayalım:\r\n\r\nGüvenli Mesajlaşma Sistemi:\r\n• AES ile mesaj şifreleme\r\n• RSA ile anahtar değişimi\r\n• Hash ile bütünlük kontrolü\r\n• Dijital imza ekleme\r\n• Güvenli protokol tasarımı\r\n\r\nDosya Şifreleme Uygulaması:\r\n• Büyük dosya şifreleme\r\n• Stream cipher kullanımı\r\n• Anahtar yönetimi\r\n• Şifre çözme testi\r\n• Performans optimizasyonu\r\n\r\nŞifre Yöneticisi:\r\n• Güvenli şifre saklama\r\n• Master anahtar koruması\r\n• Otomatik şifre üretimi\r\n• Güvenlik değerlendirmesi\r\n• Backup ve senkronizasyon\r\n\r\nAğ Güvenlik Testi:\r\n• SSL/TLS analizi\r\n• Sertifika doğrulama\r\n• Protokol güvenliği\r\n• Saldırı tespiti\r\n• Güvenlik raporu\r\n\r\nProje Geliştirme:\r\n• Kod yazma\r\n• Test ve debug\r\n• Dokümantasyon\r\n• Sunum hazırlama"
+                },
+                {
+                    "id": "9",
+                    "title": "Quiz: CrypTool Uygulamaları",
+                    "type": "quiz",
+                    "question": "CrypTool'da hangi hash fonksiyonu en güvenli kabul edilir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "MD5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SHA-1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "SHA-256",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "RIPEMD",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "SHA-256 günümüzde en güvenli hash fonksiyonu olarak kabul edilir. MD5 ve SHA-1 güvenlik açıkları nedeniyle kullanılmamalıdır. SHA-256, 256 bit hash üretir ve çarpışma direnci çok yüksektir."
+                }
+            ]
+        },
+        {
+            "id": "4_5",
+            "title": "Quiz: Kriptografi Bilgisi",
+            "duration": "20",
+            "color": "#2ecc71",
+            "documents": 10,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Kriptografi bilgini test et! Tüm derslerde öğrendiğin konulardan kapsamlı quiz soruları ile öğrenmeyi pekiştir.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Quiz 1: Temel Kriptografi",
+                    "type": "quiz",
+                    "question": "Kriptografi kelimesi hangi dillerden türemiştir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Yunanca",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Latince",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Arapça",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "İngilizce",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Kriptografi kelimesi Yunanca \"kryptos\" (gizli) ve \"graphein\" (yazmak) kelimelerinden türemiştir."
+                },
+                {
+                    "id": "2",
+                    "title": "Quiz 2: Simetrik Kriptografi",
+                    "type": "quiz",
+                    "question": "Simetrik kriptografinin en büyük dezavantajı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Yavaş işlem hızı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Anahtar dağıtımı zorluğu",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Kısa anahtar uzunluğu",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Yüksek bellek kullanımı",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Simetrik kriptografinin en büyük dezavantajı anahtar dağıtımı zorluğudur. Güvenli anahtar paylaşımı karmaşık bir süreçtir."
+                },
+                {
+                    "id": "3",
+                    "title": "Quiz 3: AES Algoritması",
+                    "type": "quiz",
+                    "question": "AES algoritması hangi anahtar uzunluklarını destekler?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sadece 128 bit",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "128, 192 ve 256 bit",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece 256 bit",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "64, 128 ve 256 bit",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "AES algoritması 128, 192 ve 256 bit anahtar uzunluklarını destekler. Bu uzunluklar güvenlik seviyesini belirler."
+                },
+                {
+                    "id": "4",
+                    "title": "Quiz 4: RSA Algoritması",
+                    "type": "quiz",
+                    "question": "RSA algoritmasının güvenliği neye dayanır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Anahtar uzunluğuna",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Faktörizasyon zorluğuna",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Şifreleme hızına",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Anahtar dağıtımına",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "RSA algoritmasının güvenliği, büyük sayıların çarpanlarına ayrılmasının matematiksel zorluğuna dayanır."
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz 5: Hash Fonksiyonları",
+                    "type": "quiz",
+                    "question": "Hash fonksiyonunun temel özelliği nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Şifreleme yapabilme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Tek yönlü dönüşüm",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Anahtar üretimi",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Şifre çözme",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Hash fonksiyonunun temel özelliği tek yönlü dönüşümdür. Veriyi hash'e çevirebilirsiniz ama hash'ten orijinal veriyi elde edemezsiniz."
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz 6: Brute Force Saldırıları",
+                    "type": "quiz",
+                    "question": "128 bit anahtar için kaç farklı kombinasyon vardır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "2^64",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "2^128",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "128!",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "128^2",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "128 bit anahtar için 2^128 farklı kombinasyon vardır. Bu sayı yaklaşık 340 undekilyon'dur ve kırılması pratik olarak imkansızdır."
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz 7: Dictionary Attack",
+                    "type": "quiz",
+                    "question": "Dictionary Attack hangi tür şifreleri en hızlı kırar?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Rastgele karakterlerden oluşan şifreler",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Yaygın kullanılan kelimeler",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Uzun karmaşık şifreler",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sayısal şifreler",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Dictionary Attack, yaygın kullanılan kelimeleri (password, 123456, admin gibi) en hızlı kırar çünkü bunları sözlük dosyasında bulur."
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz 8: Man-in-the-Middle Saldırıları",
+                    "type": "quiz",
+                    "question": "MitM saldırılarından korunmak için en etkili yöntem nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Güçlü şifre kullanımı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "HTTPS kullanımı",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Antivirüs yazılımı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Güvenlik duvarı",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "HTTPS kullanımı MitM saldırılarından korunmak için en etkili yöntemdir çünkü veri şifreli olarak iletilir ve sertifika doğrulaması yapılır."
+                },
+                {
+                    "id": "9",
+                    "title": "Quiz 9: CrypTool Kullanımı",
+                    "type": "quiz",
+                    "question": "CrypTool'da Caesar şifresi ile 'HELLO' metnini 3 birim kaydırırsak ne olur?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "KHOOR",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "EBIIL",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "HELLO",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "WORLD",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Caesar şifresinde H→K, E→H, L→O, L→O, O→R olur. Bu yüzden HELLO → KHOOR olur."
+                },
+                {
+                    "id": "10",
+                    "title": "Quiz 10: Kriptografi Uygulamaları",
+                    "type": "quiz",
+                    "question": "Hangi alanda kriptografi kullanılmaz?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Online bankacılık",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "E-posta güvenliği",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sosyal medya",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Hiçbiri (hepsinde kullanılır)",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Kriptografi günümüzde online bankacılık, e-posta güvenliği ve sosyal medya dahil birçok alanda kullanılmaktadır."
+                }
+            ]
+        }
+    ]
+}
