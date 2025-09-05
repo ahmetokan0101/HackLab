@@ -1,0 +1,572 @@
+{
+    "categoryId": "5",
+    "categoryTitle": "Parola Saldırıları",
+    "lessons": [
+        {
+            "id": "5_1",
+            "title": "Parola Güvenliğinin Önemi",
+            "duration": "25",
+            "color": "#dc2626",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Parola güvenliğinin neden kritik olduğunu öğren, zayıf şifrelerin risklerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Parola Güvenliği Neden Kritik?",
+                    "content": "Parola güvenliği, dijital dünyada kimlik doğrulamanın temelidir. Zayıf şifreler, saldırganlar için açık bir kapıdır ve büyük güvenlik ihlallerine yol açabilir.\r\n\r\nParola Güvenliğinin Önemi:\r\n• Dijital kimlik koruması\r\n• Finansal güvenlik\r\n• Kişisel veri koruması\r\n• Kurumsal güvenlik\r\n• Yasal uyumluluk\r\n\r\nZayıf Şifrelerin Riskleri:\r\n• Hesap ele geçirme\r\n• Veri hırsızlığı\r\n• Finansal kayıp\r\n• Kimlik hırsızlığı\r\n• Kurumsal zarar\r\n\r\nGüçlü Şifrelerin Avantajları:\r\n• Hesap güvenliği\r\n• Veri koruması\r\n• Güvenli işlemler\r\n• Barış içi kullanım\r\n• Güven duygusu"
+                },
+                {
+                    "id": "2",
+                    "title": "Parola Güvenlik İstatistikleri",
+                    "content": "Günümüzde parola güvenliği konusunda endişe verici istatistikler bulunmaktadır:\r\n\r\nKüresel İstatistikler:\r\n• %81 kullanıcı aynı şifreyi birden fazla hesapta kullanıyor\r\n• %59 kullanıcı doğum tarihi veya isim kullanıyor\r\n• %43 kullanıcı şifresini hiç değiştirmiyor\r\n• %23 kullanıcı şifresini not alıyor\r\n• %13 kullanıcı şifresini başkalarıyla paylaşıyor\r\n\r\nSaldırı İstatistikleri:\r\n• Saniyede 2,200 parola saldırısı\r\n• Günlük 190 milyon başarısız giriş denemesi\r\n• %80 veri ihlali zayıf şifrelerden kaynaklanıyor\r\n• Ortalama şifre kırma süresi: 2.5 saat\r\n\r\nMaliyet İstatistikleri:\r\n• Veri ihlali maliyeti: 4.35 milyon dolar\r\n• Şifre sıfırlama maliyeti: 70 dolar/kullanıcı\r\n• Üretkenlik kaybı: 21 saat/kullanıcı"
+                },
+                {
+                    "id": "3",
+                    "title": "Zayıf Şifre Örnekleri",
+                    "content": "Günümüzde en yaygın kullanılan zayıf şifreler ve neden tehlikeli oldukları:\r\n\r\nEn Yaygın Zayıf Şifreler:\r\n• 123456 (0.5 saniyede kırılır)\r\n• password (0.5 saniyede kırılır)\r\n• 123456789 (0.5 saniyede kırılır)\r\n• qwerty (0.5 saniyede kırılır)\r\n• 12345678 (0.5 saniyede kırılır)\r\n• 111111 (0.5 saniyede kırılır)\r\n• 1234567890 (0.5 saniyede kırılır)\r\n• 1234567 (0.5 saniyede kırılır)\r\n• password123 (0.5 saniyede kırılır)\r\n• admin (0.5 saniyede kırılır)\r\n\r\nZayıf Şifre Türleri:\r\n• Sadece sayılar (123456)\r\n• Sadece harfler (password)\r\n• Klavye sırası (qwerty)\r\n• Doğum tarihi (1990)\r\n• İsim ve soyisim (johnsmith)\r\n• Basit kelimeler (hello)\r\n• Kısa şifreler (abc123)\r\n• Tahmin edilebilir (admin123)"
+                },
+                {
+                    "id": "4",
+                    "title": "Güçlü Şifre Oluşturma Kuralları",
+                    "content": "Güçlü ve güvenli şifreler oluşturmak için uyulması gereken kurallar:\r\n\r\nMinimum Gereksinimler:\r\n• En az 12 karakter uzunluğu\r\n• Büyük harf (A-Z)\r\n• Küçük harf (a-z)\r\n• Sayı (0-9)\r\n• Özel karakter (!@#$%^&*)\r\n\r\nGüçlü Şifre Örnekleri:\r\n• K9#mP$2vX@5nL\r\n• B7$jR#9wQ@4mK\r\n• H3#tY$6pL@1nX\r\n• F8#kM$4vR@7wQ\r\n• P2#nX$9bK@5mL\r\n\r\nŞifre Oluşturma Teknikleri:\r\n• Rastgele karakter üretimi\r\n• Anlamlı cümlelerden türetme\r\n• Şifre yöneticisi kullanımı\r\n• İki faktörlü doğrulama\r\n• Düzenli şifre değişimi\r\n\r\nKaçınılması Gerekenler:\r\n• Kişisel bilgiler\r\n• Sözlük kelimeleri\r\n• Ardışık karakterler\r\n• Tekrarlayan karakterler\r\n• Tahmin edilebilir kalıplar"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Parola Güvenliği",
+                    "type": "quiz",
+                    "question": "Güçlü bir şifre için minimum kaç karakter gerekir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "6 karakter",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "8 karakter",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "12 karakter",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "16 karakter",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Güçlü bir şifre için minimum 12 karakter gerekir. Bu uzunluk, brute force saldırılarına karşı yeterli güvenlik sağlar."
+                }
+            ]
+        },
+        {
+            "id": "5_2",
+            "title": "Brute Force ve Dictionary Saldırıları",
+            "duration": "30",
+            "color": "#ea580c",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Brute Force ve Dictionary saldırı tekniklerini öğren, şifre kırma araçlarını kullan ve güvenlik analizini yap.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Brute Force Saldırıları Nedir?",
+                    "content": "Brute Force (Kaba Kuvvet) saldırısı, tüm olası karakter kombinasyonlarını sistematik olarak deneyerek şifreyi kırma yöntemidir.\r\n\r\nBrute Force Çalışma Prensibi:\r\n• Tüm olası karakterleri dene\r\n• Sistematik olarak ilerle\r\n• Doğru şifreyi bulana kadar devam et\r\n• En basit ama en zaman alıcı yöntem\r\n\r\nBrute Force Avantajları:\r\n• %100 başarı oranı (yeterli zaman varsa)\r\n• Her türlü şifreyi kırabilir\r\n• Karmaşık algoritma gerektirmez\r\n• Otomatik olarak çalışır\r\n\r\nBrute Force Dezavantajları:\r\n• Çok yavaş (uzun şifreler için)\r\n• Yüksek işlemci gücü gerektirir\r\n• Tespit edilme riski yüksek\r\n• Maliyetli (elektrik, donanım)\r\n\r\nKullanım Alanları:\r\n• Şifre kırma\r\n• Anahtar bulma\r\n• Hash kırma\r\n• Şifreleme algoritması testi"
+                },
+                {
+                    "id": "2",
+                    "title": "Brute Force Matematiksel Analizi",
+                    "content": "Brute Force saldırılarının matematiksel temellerini ve güvenlik analizini yapalım:\r\n\r\nKarakter Seti Hesaplamaları:\r\n• Sadece sayılar (0-9): 10^n kombinasyon\r\n• Sadece harfler (a-z): 26^n kombinasyon\r\n• Büyük/küçük harf (a-z, A-Z): 52^n kombinasyon\r\n• Alfanumerik (a-z, A-Z, 0-9): 62^n kombinasyon\r\n• Tam karakter seti (a-z, A-Z, 0-9, !@#$%): 95^n kombinasyon\r\n\r\nGüvenlik Analizi:\r\n• 4 karakter sayı: 10^4 = 10,000 kombinasyon (saniyeler)\r\n• 6 karakter sayı: 10^6 = 1,000,000 kombinasyon (dakikalar)\r\n• 8 karakter alfanumerik: 62^8 = 218 trilyon (saatler)\r\n• 12 karakter tam set: 95^12 = 540 katrilyon (yıllar)\r\n• 16 karakter tam set: 95^16 = 4.4 × 10^31 (imkansız)\r\n\r\nSaldırı Hızı Faktörleri:\r\n• İşlemci hızı (CPU/GPU)\r\n• Paralel işlem sayısı\r\n• Algoritma verimliliği\r\n• Ağ gecikmesi (uzaktan saldırı)\r\n• Güvenlik önlemleri (hesap kilitleme)"
+                },
+                {
+                    "id": "3",
+                    "title": "Dictionary Attack (Sözlük Saldırısı)",
+                    "content": "Dictionary Attack, yaygın kullanılan kelimeleri ve şifreleri deneyerek şifre kırma yöntemidir.\r\n\r\nDictionary Attack Çalışma Prensibi:\r\n• Önceden hazırlanmış kelime listesi\r\n• Yaygın şifreleri sistematik olarak dene\r\n• Brute Force'dan çok daha hızlı\r\n• Gerçekçi sonuçlar\r\n\r\nSözlük Dosyaları:\r\n• rockyou.txt: 14 milyon şifre\r\n• common_passwords.txt: Yaygın şifreler\r\n• wordlist.txt: Genel kelime listeleri\r\n• custom_dict.txt: Hedef odaklı sözlükler\r\n• leaked_passwords.txt: Sızdırılmış şifreler\r\n\r\nDictionary Attack Avantajları:\r\n• Çok hızlı sonuç\r\n• Düşük işlemci gücü gereksinimi\r\n• Yaygın şifreleri kolayca bulur\r\n• Gerçekçi sonuçlar\r\n• Düşük tespit riski\r\n\r\nDictionary Attack Dezavantajları:\r\n• Karmaşık şifreleri bulamaz\r\n• Sözlük dosyasına bağımlı\r\n• Güncel olmayan sözlükler etkisiz\r\n• Özel şifreler için uygun değil"
+                },
+                {
+                    "id": "4",
+                    "title": "Gelişmiş Dictionary Attack Teknikleri",
+                    "content": "Dictionary Attack'ı güçlendirmek için kullanılan gelişmiş teknikler:\r\n\r\nHibrit Saldırı Teknikleri:\r\n• Kelime + sayı: password123, admin2023\r\n• Sayı + kelime: 123password, 2023admin\r\n• Kelime + özel karakter: password!, admin@\r\n• Özel karakter + kelime: !password, @admin\r\n\r\nLeetspeak Dönüşümleri:\r\n• a → @, 4\r\n• e → 3\r\n• i → 1, !\r\n• o → 0\r\n• s → 5, $\r\n• t → 7\r\n• Örnek: password → p@55w0rd\r\n\r\nBüyük/Küçük Harf Varyasyonları:\r\n• Password, PASSWORD, pASSWORD\r\n• PaSsWoRd, pAsSwOrD\r\n• PASSWORD, password\r\n• P@ssw0rd, P@SSW0RD\r\n\r\nÖzel Karakter Ekleme:\r\n• Başa ekleme: !password, @admin\r\n• Sona ekleme: password!, admin@\r\n• Ortaya ekleme: pass!word, ad@min\r\n• Çoklu ekleme: !@#$password, admin!@#"
+                },
+                {
+                    "id": "5",
+                    "title": "Brute Force ve Dictionary Araçları",
+                    "content": "Brute Force ve Dictionary saldırıları için kullanılan profesyonel araçlar:\r\n\r\nBrute Force Araçları:\r\n• Hydra: Ağ servisleri saldırısı\r\n• Medusa: Çoklu protokol desteği\r\n• Ncrack: Hızlı ağ kimlik doğrulama\r\n• Patator: Esnek saldırı aracı\r\n• Crowbar: RDP, VNC saldırıları\r\n\r\nDictionary Attack Araçları:\r\n• John the Ripper: Çok amaçlı şifre kırma\r\n• Hashcat: GPU tabanlı hash kırma\r\n• Cain & Abel: Windows tabanlı\r\n• Ophcrack: Windows şifre kırma\r\n• L0phtCrack: Profesyonel araç\r\n\r\nSözlük Oluşturma Araçları:\r\n• Crunch: Özel karakter setleri\r\n• Cewl: Web sitesinden kelime çıkarma\r\n• Wordlistgen: Akıllı sözlük üretimi\r\n• Mentalist: Gelişmiş sözlük oluşturma\r\n• Pydictor: Python tabanlı sözlük üretici\r\n\r\nAraç Özellikleri:\r\n• Çoklu protokol desteği\r\n• GPU hızlandırma\r\n• Paralel işlem\r\n• Otomatik saldırı\r\n• Sonuç raporlama"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Brute Force ve Dictionary",
+                    "type": "quiz",
+                    "question": "Hangi saldırı türü en hızlı sonuç verir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Brute Force",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Dictionary Attack",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Rainbow Table",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Social Engineering",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Dictionary Attack en hızlı sonuç verir çünkü yaygın şifreleri hemen bulur. Brute Force çok yavaş, Rainbow Table hazırlık gerektirir, Social Engineering farklı bir saldırı türüdür."
+                }
+            ]
+        },
+        {
+            "id": "5_3",
+            "title": "Hash Kırma: Hashcat, John the Ripper",
+            "duration": "35",
+            "color": "#f59e0b",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Hash kırma tekniklerini öğren, Hashcat ve John the Ripper araçlarını kullan ve hash güvenliğini test et.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Hash Kırma Nedir?",
+                    "content": "Hash kırma, şifrelenmiş hash değerlerini orijinal açık metne çevirme işlemidir. Bu işlem, güvenlik testleri ve şifre kurtarma için kullanılır.\r\n\r\nHash Kırma Süreci:\r\n• Hash değerini al\r\n• Olası açık metinleri dene\r\n• Hash fonksiyonunu uygula\r\n• Eşleşme bul\r\n• Orijinal metni elde et\r\n\r\nHash Kırma Türleri:\r\n• Brute Force: Tüm kombinasyonları dene\r\n• Dictionary Attack: Sözlük dosyalarını kullan\r\n• Rainbow Table: Önceden hesaplanmış tablolar\r\n• Hybrid Attack: Hibrit yöntemler\r\n• Mask Attack: Belirli kalıpları dene\r\n\r\nHash Kırma Kullanım Alanları:\r\n• Şifre kurtarma\r\n• Güvenlik testleri\r\n• Adli analiz\r\n• Penetrasyon testleri\r\n• Eğitim ve araştırma"
+                },
+                {
+                    "id": "2",
+                    "title": "Hashcat - GPU Tabanlı Hash Kırma",
+                    "content": "Hashcat, dünyanın en hızlı ve gelişmiş hash kırma aracıdır. GPU hızlandırma ile çok yüksek performans sağlar.\r\n\r\nHashcat Özellikleri:\r\n• GPU hızlandırma (NVIDIA, AMD, Intel)\r\n• 300+ hash algoritması desteği\r\n• Çoklu GPU desteği\r\n• Paralel işlem\r\n• Otomatik optimizasyon\r\n• Cross-platform (Windows, Linux, macOS)\r\n\r\nHashcat Hash Türleri:\r\n• MD5: 0 - 500\r\n• SHA1: 100 - 200\r\n• SHA256: 1400 - 1500\r\n• SHA512: 1700 - 1800\r\n• NTLM: 1000\r\n• LM: 3000\r\n• bcrypt: 3200\r\n• Argon2: 7100\r\n\r\nHashcat Komut Satırı:\r\n• hashcat -m 0 -a 0 hash.txt wordlist.txt\r\n• -m: Hash türü\r\n• -a: Saldırı modu\r\n• -o: Çıktı dosyası\r\n• -r: Kurallar dosyası"
+                },
+                {
+                    "id": "3",
+                    "title": "John the Ripper - Çok Amaçlı Şifre Kırma",
+                    "content": "John the Ripper, çok amaçlı şifre kırma aracıdır. Hem hash hem de şifreli dosyaları kırabilir.\r\n\r\nJohn the Ripper Özellikleri:\r\n• Çoklu platform desteği\r\n• 300+ hash algoritması\r\n• Otomatik hash türü tespiti\r\n• Paralel işlem\r\n• Kurallar tabanlı saldırı\r\n• Açık kaynak kod\r\n\r\nJohn the Ripper Modları:\r\n• Single Crack: Tek şifre analizi\r\n• Wordlist: Sözlük tabanlı saldırı\r\n• Incremental: Artan karakter sayısı\r\n• External: Dış modül desteği\r\n• Mask: Belirli kalıp saldırısı\r\n\r\nJohn the Ripper Komutları:\r\n• john --wordlist=wordlist.txt hash.txt\r\n• john --show hash.txt\r\n• john --format=raw-md5 hash.txt\r\n• john --rules=All hash.txt\r\n• john --incremental=Alnum hash.txt"
+                },
+                {
+                    "id": "4",
+                    "title": "Hash Kırma Saldırı Modları",
+                    "content": "Hash kırma araçlarında kullanılan farklı saldırı modları ve teknikleri:\r\n\r\nSaldırı Modları:\r\n• Attack Mode 0: Dictionary Attack\r\n• Attack Mode 1: Combination Attack\r\n• Attack Mode 3: Brute Force\r\n• Attack Mode 6: Hybrid Attack\r\n• Attack Mode 7: Mask Attack\r\n• Attack Mode 9: Association Attack\r\n\r\nHybrid Attack (Karma Saldırı):\r\n• Kelime + sayı: password123\r\n• Sayı + kelime: 123password\r\n• Kelime + özel karakter: password!\r\n• Özel karakter + kelime: !password\r\n• Çoklu kombinasyon: !@#$password123\r\n\r\nMask Attack (Kalıp Saldırısı):\r\n• ?l: Küçük harf (a-z)\r\n• ?u: Büyük harf (A-Z)\r\n• ?d: Sayı (0-9)\r\n• ?s: Özel karakter (!@#$%)\r\n• ?a: Tüm karakterler\r\n• ?b: Binary (0x00-0xff)\r\n\r\nÖrnek Mask'lar:\r\n• ?l?l?l?l?d?d?d?d: 4 harf + 4 sayı\r\n• ?u?l?l?l?d?d?s: Büyük harf + 3 küçük + 2 sayı + özel\r\n• ?d?d?d?d?d?d: 6 haneli sayı"
+                },
+                {
+                    "id": "5",
+                    "title": "Hash Kırma Kuralları ve Optimizasyon",
+                    "content": "Hash kırma işlemlerini optimize etmek için kullanılan kurallar ve teknikler:\r\n\r\nHashcat Kuralları:\r\n• : (iki nokta üst üste): Kelimeyi olduğu gibi kullan\r\n• l: Küçük harfe çevir\r\n• u: Büyük harfe çevir\r\n• c: İlk harfi büyük yap\r\n• r: Kelimeyi ters çevir\r\n• d: Kelimeyi duplikasyon yap\r\n• p: Kelimeyi palindrom yap\r\n• f: Kelimeyi fold yap\r\n\r\nJohn the Ripper Kuralları:\r\n• : (iki nokta üst üste): Kelimeyi olduğu gibi kullan\r\n• c: İlk harfi büyük yap\r\n• r: Kelimeyi ters çevir\r\n• d: Kelimeyi duplikasyon yap\r\n• p: Kelimeyi palindrom yap\r\n• f: Kelimeyi fold yap\r\n• $: Sona karakter ekle\r\n• ^: Başa karakter ekle\r\n\r\nOptimizasyon Teknikleri:\r\n• GPU bellek optimizasyonu\r\n• Paralel işlem sayısı\r\n• Workload profile seçimi\r\n• Kernel optimizasyonu\r\n• Sıcaklık kontrolü\r\n• Güç tüketimi yönetimi"
+                },
+                {
+                    "id": "6",
+                    "title": "Pratik Hash Kırma Örnekleri",
+                    "content": "Hashcat ve John the Ripper ile gerçek hash kırma örnekleri:\r\n\r\nMD5 Hash Kırma:\r\n• Hash: 5f4dcc3b5aa765d61d8327deb882cf99\r\n• Açık metin: password\r\n• Komut: hashcat -m 0 -a 0 hash.txt wordlist.txt\r\n• Süre: Saniyeler\r\n\r\nSHA1 Hash Kırma:\r\n• Hash: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8\r\n• Açık metin: password\r\n• Komut: hashcat -m 100 -a 0 hash.txt wordlist.txt\r\n• Süre: Saniyeler\r\n\r\nNTLM Hash Kırma:\r\n• Hash: 32ed87bdb5fdc5e9cba88547376818d4\r\n• Açık metin: password\r\n• Komut: hashcat -m 1000 -a 0 hash.txt wordlist.txt\r\n• Süre: Dakikalar\r\n\r\nbcrypt Hash Kırma:\r\n• Hash: $2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4tbQm5nKJi\r\n• Açık metin: password\r\n• Komut: hashcat -m 3200 -a 0 hash.txt wordlist.txt\r\n• Süre: Saatler (çok yavaş)"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Hash Kırma Araçları",
+                    "type": "quiz",
+                    "question": "Hangi hash türü en yavaş kırılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "MD5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SHA1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "bcrypt",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "NTLM",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "bcrypt en yavaş kırılır çünkü kasıtlı olarak yavaşlatılmıştır. Salt ve cost factor kullanarak hash işlemini yavaşlatır. MD5 ve SHA1 çok hızlı, NTLM orta hızda kırılır."
+                }
+            ]
+        },
+        {
+            "id": "5_4",
+            "title": "Güvenli Parola Yönetimi ve İpuçları",
+            "duration": "28",
+            "color": "#d97706",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Güvenli parola yönetimi tekniklerini öğren, şifre yöneticilerini kullan ve pratik güvenlik ipuçlarını keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Parola Yöneticisi Nedir?",
+                    "content": "Parola yöneticisi, tüm şifrelerinizi güvenli bir şekilde saklayan ve yöneten yazılım uygulamasıdır. Bu araçlar, güvenlik ve kullanım kolaylığını birleştirir.\r\n\r\nParola Yöneticisi Avantajları:\r\n• Tüm şifreleri tek yerde saklama\r\n• Güçlü ve benzersiz şifreler üretme\r\n• Otomatik form doldurma\r\n• Şifreleri şifreleyerek koruma\r\n• Çoklu cihaz senkronizasyonu\r\n• Güvenlik uyarıları\r\n• Şifre eski olma kontrolü\r\n\r\nParola Yöneticisi Türleri:\r\n• Masaüstü uygulamaları: KeePass, 1Password\r\n• Web tabanlı: LastPass, Dashlane\r\n• Mobil uygulamalar: Bitwarden, Enpass\r\n• Tarayıcı eklentileri: Chrome, Firefox\r\n• Kurumsal çözümler: Enterprise password managers\r\n\r\nGüvenlik Özellikleri:\r\n• Master şifre koruması\r\n• İki faktörlü doğrulama (2FA)\r\n• AES-256 şifreleme\r\n• Zero-knowledge mimarisi\r\n• Otomatik yedekleme\r\n• Şifre sızıntısı kontrolü"
+                },
+                {
+                    "id": "2",
+                    "title": "Popüler Parola Yöneticileri",
+                    "content": "Günümüzde en popüler ve güvenilir parola yöneticileri ve özellikleri:\r\n\r\n1Password:\r\n• Platform: Windows, macOS, Linux, iOS, Android\r\n• Fiyat: 2.99$/ay (bireysel), 4.99$/ay (aile)\r\n• Özellikler: Güçlü şifreleme, 2FA, Watchtower\r\n• Güvenlik: AES-256, PBKDF2, Secret Key\r\n• Senkronizasyon: Bulut tabanlı\r\n• Ek özellikler: Güvenli notlar, kredi kartı saklama\r\n\r\nLastPass:\r\n• Platform: Web tabanlı, tüm platformlar\r\n• Fiyat: Ücretsiz (sınırlı), 3$/ay (Premium)\r\n• Özellikler: Sınırsız şifre, paylaşım, acil erişim\r\n• Güvenlik: AES-256, PBKDF2, Master Password\r\n• Senkronizasyon: Bulut tabanlı\r\n• Ek özellikler: Şifre analizi, güvenlik raporu\r\n\r\nBitwarden:\r\n• Platform: Açık kaynak, tüm platformlar\r\n• Fiyat: Ücretsiz, 10$/yıl (Premium)\r\n• Özellikler: Sınırsız şifre, 2FA, organizasyon\r\n• Güvenlik: AES-256, PBKDF2, end-to-end şifreleme\r\n• Senkronizasyon: Kendi sunucunuz veya bulut\r\n• Ek özellikler: Güvenli dosya paylaşımı, API"
+                },
+                {
+                    "id": "3",
+                    "title": "Güvenli Şifre Oluşturma Teknikleri",
+                    "content": "Güvenli ve hatırlanabilir şifreler oluşturmak için kullanılan teknikler:\r\n\r\nDiceware Yöntemi:\r\n• 6 zar atarak rastgele kelime seç\r\n• Örnek: correct-horse-battery-staple\r\n• Avantaj: Hatırlanabilir ve güçlü\r\n• Dezavantaj: Uzun olabilir\r\n\r\nPassphrase Yöntemi:\r\n• Anlamlı cümle oluştur\r\n• Örnek: \"My favorite color is blue 2024!\"\r\n• Avantaj: Çok güçlü ve hatırlanabilir\r\n• Dezavantaj: Uzun olabilir\r\n\r\nAkronim Yöntemi:\r\n• Cümle baş harflerini al\r\n• Örnek: \"I love to travel around the world\" → Ilttatw2024!\r\n• Avantaj: Kısa ve güçlü\r\n• Dezavantaj: Tahmin edilebilir olabilir\r\n\r\nRastgele Karakter Yöntemi:\r\n• 16+ rastgele karakter\r\n• Örnek: K9#mP$2vX@5nL8qR\r\n• Avantaj: Çok güçlü\r\n• Dezavantaj: Hatırlanamaz\r\n\r\nŞifre Oluşturucu Araçlar:\r\n• Parola yöneticileri\r\n• Online şifre üreticileri\r\n• Komut satırı araçları\r\n• Mobil uygulamalar"
+                },
+                {
+                    "id": "4",
+                    "title": "İki Faktörlü Doğrulama (2FA)",
+                    "content": "İki faktörlü doğrulama, hesap güvenliğini artırmak için kullanılan ek güvenlik katmanıdır.\r\n\r\n2FA Çalışma Prensibi:\r\n• Birinci faktör: Şifre (bildiğin)\r\n• İkinci faktör: Fiziksel cihaz (sahip olduğun)\r\n• Her iki faktör de gerekli\r\n• Şifre çalınsa bile hesap güvenli\r\n\r\n2FA Türleri:\r\n• SMS/Telefon: Kod gönderimi\r\n• Authenticator App: TOTP (Time-based One-Time Password)\r\n• Hardware Token: Fiziksel anahtar (YubiKey)\r\n• Biometric: Parmak izi, yüz tanıma\r\n• Backup Codes: Yedek kodlar\r\n\r\nAuthenticator Uygulamaları:\r\n• Google Authenticator\r\n• Microsoft Authenticator\r\n• Authy\r\n• 1Password\r\n• Bitwarden\r\n\r\n2FA Kurulum Adımları:\r\n• Hesap ayarlarına git\r\n• 2FA'yı etkinleştir\r\n• QR kodu tarayıcı uygulamada tara\r\n• Doğrulama kodunu gir\r\n• Yedek kodları kaydet\r\n• Test et"
+                },
+                {
+                    "id": "5",
+                    "title": "Güvenlik İpuçları ve En İyi Uygulamalar",
+                    "content": "Günlük hayatta kullanabileceğin pratik güvenlik ipuçları:\r\n\r\nGenel Güvenlik Kuralları:\r\n• Her hesap için farklı şifre kullan\r\n• Şifreleri düzenli olarak değiştir (3-6 ay)\r\n• Şüpheli e-postaları açma\r\n• Bilinmeyen linklere tıklama\r\n• Halka açık WiFi'de hassas işlem yapma\r\n• Şifreleri not alma veya paylaşma\r\n\r\nŞifre Güvenliği:\r\n• Minimum 12 karakter\r\n• Karmaşık karakter seti\r\n• Kişisel bilgi kullanma\r\n• Sözlük kelimeleri kullanma\r\n• Ardışık karakterler kullanma\r\n• Tahmin edilebilir kalıplar\r\n\r\nHesap Güvenliği:\r\n• 2FA kullan\r\n• Güvenlik sorularını güçlü yap\r\n• E-posta güvenliğini artır\r\n• Düzenli güvenlik kontrolü yap\r\n• Şüpheli aktiviteleri raporla\r\n• Güvenlik uyarılarını takip et\r\n\r\nCihaz Güvenliği:\r\n• Ekran kilidi kullan\r\n• Güncel yazılım kullan\r\n• Antivirüs yazılımı kur\r\n• Güvenlik duvarı etkinleştir\r\n• Düzenli yedekleme yap"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Parola Yönetimi",
+                    "type": "quiz",
+                    "question": "Hangi 2FA yöntemi en güvenlidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "SMS kodları",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Authenticator uygulaması",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "E-posta doğrulama",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Güvenlik soruları",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Authenticator uygulaması (TOTP) en güvenli 2FA yöntemidir çünkü offline çalışır ve SIM swap saldırılarına karşı korumalıdır. SMS kodları SIM swap saldırılarına açık, e-posta ve güvenlik soruları daha az güvenlidir."
+                }
+            ]
+        },
+        {
+            "id": "5_5",
+            "title": "Quiz: Parola Güvenliği",
+            "duration": "20",
+            "color": "#b45309",
+            "documents": 1,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Parola güvenliği konusunda öğrendiğin tüm bilgileri test et, kendini değerlendir ve eksiklerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Quiz: Parola Güvenliği",
+                    "type": "quiz",
+                    "question": "Hangi parola en güvenlidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "123456789",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "password123",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "K9#mP$2vX@5nL",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "qwertyuiop",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "K9#mP$2vX@5nL en güvenli paroladır çünkü 16 karakter uzunluğunda, büyük/küçük harf, sayı ve özel karakter içeriyor. Diğerleri çok zayıf ve kolayca kırılabilir."
+                },
+                {
+                    "id": "2",
+                    "title": "Quiz: Brute Force Saldırıları",
+                    "type": "quiz",
+                    "question": "8 karakterlik alfanumerik bir şifre kaç kombinasyona sahiptir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "62^8 = 218 trilyon",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "26^8 = 208 milyar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "10^8 = 100 milyon",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "95^8 = 6.6 katrilyon",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "8 karakterlik alfanumerik şifre 62^8 = 218 trilyon kombinasyona sahiptir. 62 = 26 küçük harf + 26 büyük harf + 10 sayı. Bu şifre brute force ile saatler sürebilir."
+                },
+                {
+                    "id": "3",
+                    "title": "Quiz: Dictionary Attack",
+                    "type": "quiz",
+                    "question": "Hangi sözlük dosyası en büyük şifre listesine sahiptir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "common_passwords.txt",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "rockyou.txt",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "wordlist.txt",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "custom_dict.txt",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "rockyou.txt en büyük sözlük dosyasıdır ve 14 milyon şifre içerir. Bu dosya 2009 yılında RockYou veri ihlalinden elde edilen gerçek şifrelerden oluşur."
+                },
+                {
+                    "id": "4",
+                    "title": "Quiz: Hash Kırma",
+                    "type": "quiz",
+                    "question": "Hashcat'te MD5 hash türü için hangi kod kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "100",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "0",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "500",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "1000",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Hashcat'te MD5 hash türü için kod 0 kullanılır. SHA1 için 100, SHA256 için 1400, NTLM için 1000, bcrypt için 3200 kodları kullanılır."
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Parola Yöneticileri",
+                    "type": "quiz",
+                    "question": "Hangi parola yöneticisi açık kaynak kodludur?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "1Password",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "LastPass",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Bitwarden",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Dashlane",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Bitwarden tek açık kaynak parola yöneticisidir. Diğerleri kapalı kaynak ticari yazılımlardır. Bitwarden ücretsiz versiyonu da mevcuttur."
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: 2FA Güvenliği",
+                    "type": "quiz",
+                    "question": "SIM swap saldırılarına karşı en güvenli 2FA yöntemi hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "SMS kodları",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "E-posta doğrulama",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Hardware token (YubiKey)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Güvenlik soruları",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Hardware token (YubiKey) SIM swap saldırılarına karşı en güvenli yöntemdir çünkü fiziksel cihaz gerektirir ve ağ bağımlılığı yoktur. SMS ve e-posta ağ saldırılarına açıktır."
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Güvenlik İstatistikleri",
+                    "type": "quiz",
+                    "question": "Günümüzde kaç kullanıcı aynı şifreyi birden fazla hesapta kullanıyor?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "%45",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "%67",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "%81",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "%92",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "%81 kullanıcı aynı şifreyi birden fazla hesapta kullanıyor. Bu çok tehlikeli bir alışkanlıktır çünkü bir hesap ele geçirildiğinde diğer hesaplar da risk altına girer."
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Şifre Oluşturma Teknikleri",
+                    "type": "quiz",
+                    "question": "Diceware yöntemi ile kaç zar atarak şifre oluşturulur?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "4 zar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "5 zar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "6 zar",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "8 zar",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Diceware yönteminde 6 zar atılarak rastgele kelimeler seçilir. Örnek: correct-horse-battery-staple. Bu yöntem hem güçlü hem de hatırlanabilir şifreler oluşturur."
+                },
+                {
+                    "id": "9",
+                    "title": "Quiz: Hash Güvenliği",
+                    "type": "quiz",
+                    "question": "Hangi hash algoritması kasıtlı olarak yavaşlatılmıştır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "MD5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SHA1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "bcrypt",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "NTLM",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "bcrypt kasıtlı olarak yavaşlatılmıştır. Salt ve cost factor kullanarak hash işlemini yavaşlatır. Bu sayede brute force saldırılarına karşı koruma sağlar."
+                },
+                {
+                    "id": "10",
+                    "title": "Quiz: Final Test",
+                    "type": "quiz",
+                    "question": "Parola güvenliği için en önemli kural nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Kısa şifre kullanmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Her hesap için farklı şifre kullanmak",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Şifreyi not almak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Doğum tarihi kullanmak",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Her hesap için farklı şifre kullanmak en önemli kuraldır. Bu sayede bir hesap ele geçirilse bile diğer hesaplar güvende kalır. Şifre yöneticisi kullanarak bu kuralı kolayca uygulayabilirsin."
+                }
+            ]
+        }
+    ]
+}
