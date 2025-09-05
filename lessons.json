@@ -749,44 +749,39 @@
                 ]
             },
             {
-                "id": "2_1",
-                "title": "1. Zararlı Yazılım Türleri",
-                "duration": "12",
+                "id": "4_1",
+                "title": "Kriptografi Nedir ? Temel Kavramlar",
+                "duration": "15",
                 "color": "#3498db",
-                "documents": 5,
+                "documents": 6,
                 "isCompleted": false,
                 "isActive": true,
-                "description": "Zararlı yazılım türlerini detaylı olarak öğren, her birinin özelliklerini ve nasıl çalıştığını keşfet.",
+                "description": "Kriptografi ve şifreleme temellerini öğren! Veri güvenliğinin nasıl sağlandığını keşfet.",
                 "pages": [
                     {
                         "id": "1",
-                        "title": "",
-                        "content": "Zararlı yazılım (Malware), bilgisayar sistemlerine, ağlara ve kullanıcılara zarar vermek amacıyla tasarlanmış kötü niyetli programlardır. Bu yazılımlar genellikle gizlice çalışır ve kullanıcının bilgisi olmadan sistemlere sızar.\r\n\r\nZararlı yazılımların temel özellikleri:\r\n• Gizli çalışma ve kendini gizleme\r\n• Sistem kaynaklarını tüketme\r\n• Veri çalma veya şifreleme\r\n• Sistemlere uzaktan erişim sağlama\r\n• Diğer sistemlere yayılma\r\n\r\nGünümüzde zararlı yazılımlar, siber suçluların en etkili silahlarından biridir ve her gün milyonlarca yeni tür ortaya çıkmaktadır."
+                        "title": "Kriptografi Tanımı",
+                        "content": "Kriptografi, veri güvenliğinin temelidir ve bilgileri yetkisiz erişimden korumak için kullanılan matematiksel tekniklerin bilimidir. Bu alan, veri şifreleme, hash fonksiyonları, dijital imzalar ve güvenli iletişim protokolleri gibi konuları kapsar.\r\n\r\nKriptografi kelimesi, Yunanca \"kryptos\" (gizli) ve \"graphein\" (yazmak) kelimelerinden türemiştir. Modern kriptografi, bilgisayar bilimi ve matematik alanlarının kesişiminde yer alır.\r\n\r\nGünümüzde kriptografi:\r\n• Online bankacılık işlemlerinde\r\n• E-posta güvenliğinde\r\n• Sosyal medya platformlarında\r\n• Mobil uygulamalarda\r\n• Bulut depolama sistemlerinde\r\n• IoT cihazlarında kullanılmaktadır"
                     },
                     {
                         "id": "2",
-                        "title": "",
-                        "content": "Virüs, kendini kopyalayabilen ve diğer programlara bulaşabilen zararlı yazılım türüdür. Tıpkı biyolojik virüsler gibi, bilgisayar virüsleri de konak programlara bağlanarak çoğalır.\r\n\r\nVirüslerin özellikleri:\r\n• Kendini kopyalama ve yayılma\r\n• Konak programlara bağlanma\r\n• Kullanıcı etkileşimi gerektirme\r\n• Sistem dosyalarına zarar verme\r\n• Yavaş çalışma ve çökme\r\n\r\nVirüs türleri:\r\n• Dosya virüsleri: .exe, .com dosyalarına bulaşır\r\n• Boot sektör virüsleri: Disk boot sektörüne bulaşır\r\n• Makro virüsleri: Office belgelerine bulaşır\r\n• Çok parçalı virüsler: Birden fazla hedefe saldırır\r\n\r\nKorunma yöntemleri:\r\n• Güncel antivirüs yazılımı kullanma\r\n• Şüpheli dosyaları açmama\r\n• Güvenlik güncellemelerini yükleme\r\n• E-posta eklerini dikkatli açma"
+                        "title": "Kriptografi Tarihçesi",
+                        "content": "Kriptografi tarihi, antik çağlara kadar uzanır. İlk kriptografi örnekleri, MÖ 1900 yıllarında Mısır'da hiyeroglif yazılarda görülmüştür. Julius Caesar, askeri mesajları korumak için basit bir şifreleme yöntemi kullanmıştır.\r\n\r\nTarihsel Gelişim:\r\n• Antik Çağ: Basit yer değiştirme şifreleri\r\n• Orta Çağ: Polialfabetik şifreler\r\n• 20. Yüzyıl: Makine tabanlı şifreleme (Enigma)\r\n• 1970'ler: Modern kriptografi (DES, RSA)\r\n• 2000'ler: AES ve güçlü algoritmalar\r\n• Günümüz: Kuantum kriptografi araştırmaları\r\n\r\nKriptografi tarihindeki önemli isimler:\r\n• Al-Kindi (9. yüzyıl): Frekans analizi\r\n• Leon Battista Alberti (15. yüzyıl): Polialfabetik şifre\r\n• Alan Turing (20. yüzyıl): Enigma kırma\r\n• Whitfield Diffie ve Martin Hellman: Açık anahtar kriptografi"
                     },
                     {
                         "id": "3",
-                        "title": "",
-                        "content": "Solucan, ağ üzerinde kendini kopyalayarak yayılan ve genellikle kullanıcı etkileşimi gerektirmeyen zararlı yazılım türüdür. Solucanlar, ağ kaynaklarını tüketerek sistem performansını düşürür.\r\n\r\nSolucanların özellikleri:\r\n• Otomatik yayılma\r\n• Ağ kaynaklarını tüketme\r\n• Kullanıcı etkileşimi gerektirmeme\r\n• Hızlı yayılma\r\n• Sistem performansını düşürme\r\n\r\nÜnlü solucan örnekleri:\r\n• ILOVEYOU (2000): 45 milyon bilgisayara bulaştı\r\n• Code Red (2001): Web sunucularına saldırdı\r\n• Conficker (2008): 15 milyon bilgisayara yayıldı\r\n• WannaCry (2017): 300.000 bilgisayarı etkiledi\r\n\r\nKorunma yöntemleri:\r\n• Güvenlik duvarı kullanma\r\n• Ağ trafiğini izleme\r\n• Güvenlik güncellemelerini yükleme\r\n• Şüpheli bağlantıları engelleme\r\n• Ağ segmentasyonu uygulama"
+                        "title": "Temel Kriptografi Terimleri",
+                        "content": "Kriptografi alanında kullanılan temel terimleri öğrenelim:\r\n\r\nPlaintext (Açık Metin): Şifrelenmemiş orijinal veri\r\nCiphertext (Şifreli Metin): Şifrelenmiş veri\r\nEncryption (Şifreleme): Açık metni şifreli metne çevirme\r\nDecryption (Şifre Çözme): Şifreli metni açık metne çevirme\r\nKey (Anahtar): Şifreleme ve şifre çözme işlemlerinde kullanılan gizli bilgi\r\nAlgorithm (Algoritma): Şifreleme ve şifre çözme işlemlerini gerçekleştiren matematiksel yöntem\r\nHash Function (Hash Fonksiyonu): Veriyi sabit uzunlukta bir değere dönüştüren tek yönlü fonksiyon\r\nDigital Signature (Dijital İmza): Veri bütünlüğünü ve kimlik doğrulamasını sağlayan elektronik imza"
                     },
                     {
                         "id": "4",
-                        "title": "",
-                        "content": "Trojan (Truva Atı), kendini faydalı yazılım gibi gizleyen ancak arka planda zararlı işlemler yapan yazılım türüdür. Ransomware ise dosyaları şifreleyerek fidye talep eden modern tehdit türüdür.\r\n\r\nTrojan'ların özellikleri:\r\n• Kendini gizleme ve sahte kimlik\r\n• Uzaktan erişim sağlama\r\n• Veri çalma ve izleme\r\n• Sistem kontrolünü ele geçirme\r\n• Diğer zararlı yazılımları indirme\r\n\r\nTrojan türleri:\r\n• Backdoor: Arka kapı erişimi sağlar\r\n• Keylogger: Tuş vuruşlarını kaydeder\r\n• Banker: Banka bilgilerini çalar\r\n• Downloader: Diğer zararlıları indirir\r\n• Rootkit: Sistem seviyesinde gizlenir\r\n\r\nRansomware'lerin özellikleri:\r\n• Dosya şifreleme\r\n• Fidye talep etme\r\n• Şifreleme anahtarı saklama\r\n• Hızlı yayılma\r\n• Kritik verilere erişimi engelleme\r\n\r\nÜnlü ransomware örnekleri:\r\n• WannaCry (2017): 300.000+ bilgisayar\r\n• NotPetya (2017): 10 milyar $ zarar\r\n• Ryuk (2018): Hedefli saldırılar\r\n• REvil (2021): Büyük şirketlere saldırdı\r\n\r\nKorunma yöntemleri:\r\n• Düzenli yedekleme yapma\r\n• Güvenlik yazılımları kullanma\r\n• E-posta güvenliği sağlama\r\n• Kullanıcı eğitimi verme\r\n• Güvenlik güncellemelerini yükleme"
-                    },
-                    {
-                        "id": "5",
-                        "title": "Bilgisayar Güvenliği",
-                        "content": "[Quiz Sayfası: Quiz: Bilgisayar Güvenliği]"
+                        "title": "Kriptografi Türleri",
+                        "content": "Kriptografi, kullanım amacına ve teknik özelliklerine göre farklı türlere ayrılır:\r\n\r\nSimetrik Kriptografi:\r\n• Aynı anahtar hem şifreleme hem şifre çözme için kullanılır\r\n• Hızlı ve verimli\r\n• Anahtar dağıtımı zor\r\n• AES, DES, 3DES gibi algoritmalar\r\n\r\nAsimetrik Kriptografi:\r\n• Açık anahtar ve gizli anahtar çifti kullanılır\r\n• Güvenli anahtar dağıtımı\r\n• Daha yavaş\r\n• RSA, ECC, DSA gibi algoritmalar\r\n\r\nHash Fonksiyonları:\r\n• Tek yönlü dönüşüm\r\n• Veri bütünlüğü kontrolü\r\n• Şifre çözme yok\r\n• MD5, SHA-1, SHA-256 gibi algoritmalar"
                     }
                 ]
             }
         ],
-                "2": [
+        "2": [
             {
                 "id": "2_1",
                 "title": "1. Zararlı Yazılım Türleri",
@@ -919,6 +914,181 @@
                 "isCompleted": false,
                 "isActive": false,
                 "description": "Sosyal Mühendislik kategorisinin kapsamlı testi",
+                "pages": []
+            }
+        ],
+        "4": [
+            {
+                "id": "4_1",
+                "title": "Kriptografi Nedir ? Temel Kavramlar",
+                "duration": "15",
+                "color": "#3498db",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Kriptografi ve şifreleme temellerini öğren! Veri güvenliğinin nasıl sağlandığını keşfet.",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Kriptografi Tanımı",
+                        "content": "Kriptografi, veri güvenliğinin temelidir ve bilgileri yetkisiz erişimden korumak için kullanılan matematiksel tekniklerin bilimidir. Bu alan, veri şifreleme, hash fonksiyonları, dijital imzalar ve güvenli iletişim protokolleri gibi konuları kapsar.\r\n\r\nKriptografi kelimesi, Yunanca \"kryptos\" (gizli) ve \"graphein\" (yazmak) kelimelerinden türemiştir. Modern kriptografi, bilgisayar bilimi ve matematik alanlarının kesişiminde yer alır.\r\n\r\nGünümüzde kriptografi:\r\n• Online bankacılık işlemlerinde\r\n• E-posta güvenliğinde\r\n• Sosyal medya platformlarında\r\n• Mobil uygulamalarda\r\n• Bulut depolama sistemlerinde\r\n• IoT cihazlarında kullanılmaktadır"
+                    },
+                    {
+                        "id": "2",
+                        "title": "Kriptografi Tarihçesi",
+                        "content": "Kriptografi tarihi, antik çağlara kadar uzanır. İlk kriptografi örnekleri, MÖ 1900 yıllarında Mısır'da hiyeroglif yazılarda görülmüştür. Julius Caesar, askeri mesajları korumak için basit bir şifreleme yöntemi kullanmıştır.\r\n\r\nTarihsel Gelişim:\r\n• Antik Çağ: Basit yer değiştirme şifreleri\r\n• Orta Çağ: Polialfabetik şifreler\r\n• 20. Yüzyıl: Makine tabanlı şifreleme (Enigma)\r\n• 1970'ler: Modern kriptografi (DES, RSA)\r\n• 2000'ler: AES ve güçlü algoritmalar\r\n• Günümüz: Kuantum kriptografi araştırmaları\r\n\r\nKriptografi tarihindeki önemli isimler:\r\n• Al-Kindi (9. yüzyıl): Frekans analizi\r\n• Leon Battista Alberti (15. yüzyıl): Polialfabetik şifre\r\n• Alan Turing (20. yüzyıl): Enigma kırma\r\n• Whitfield Diffie ve Martin Hellman: Açık anahtar kriptografi"
+                    },
+                    {
+                        "id": "3",
+                        "title": "Temel Kriptografi Terimleri",
+                        "content": "Kriptografi alanında kullanılan temel terimleri öğrenelim:\r\n\r\nPlaintext (Açık Metin): Şifrelenmemiş orijinal veri\r\nCiphertext (Şifreli Metin): Şifrelenmiş veri\r\nEncryption (Şifreleme): Açık metni şifreli metne çevirme\r\nDecryption (Şifre Çözme): Şifreli metni açık metne çevirme\r\nKey (Anahtar): Şifreleme ve şifre çözme işlemlerinde kullanılan gizli bilgi\r\nAlgorithm (Algoritma): Şifreleme ve şifre çözme işlemlerini gerçekleştiren matematiksel yöntem\r\nHash Function (Hash Fonksiyonu): Veriyi sabit uzunlukta bir değere dönüştüren tek yönlü fonksiyon\r\nDigital Signature (Dijital İmza): Veri bütünlüğünü ve kimlik doğrulamasını sağlayan elektronik imza"
+                    },
+                    {
+                        "id": "4",
+                        "title": "Kriptografi Türleri",
+                        "content": "Kriptografi, kullanım amacına ve teknik özelliklerine göre farklı türlere ayrılır:\r\n\r\nSimetrik Kriptografi:\r\n• Aynı anahtar hem şifreleme hem şifre çözme için kullanılır\r\n• Hızlı ve verimli\r\n• Anahtar dağıtımı zor\r\n• AES, DES, 3DES gibi algoritmalar\r\n\r\nAsimetrik Kriptografi:\r\n• Açık anahtar ve gizli anahtar çifti kullanılır\r\n• Güvenli anahtar dağıtımı\r\n• Daha yavaş\r\n• RSA, ECC, DSA gibi algoritmalar\r\n\r\nHash Fonksiyonları:\r\n• Tek yönlü dönüşüm\r\n• Veri bütünlüğü kontrolü\r\n• Şifre çözme yok\r\n• MD5, SHA-1, SHA-256 gibi algoritmalar"
+                    },
+                    {
+                        "id": "5",
+                        "title": "Quiz: Kriptografi Temel Bilgiler",
+                        "type": "quiz",
+                        "question": "Kriptografi kelimesi hangi dillerden türemiştir?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Latince ve İngilizce",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Yunanca ve Latince",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Yunanca",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "D",
+                                "text": "Arapça",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Kriptografi kelimesi Yunanca \"kryptos\" (gizli) ve \"graphein\" (yazmak) kelimelerinden türemiştir."
+                    }
+                ]
+            },
+            {
+                "id": "4_2",
+                "title": "Şifreleme Algoritmaları: AES, RSA, DES",
+                "duration": "25",
+                "color": "#e74c3c",
+                "documents": 8,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Modern şifreleme algoritmalarını detaylı olarak öğren! AES, RSA ve DES algoritmalarının çalışma prensiplerini keşfet.",
+                "pages": []
+            },
+            {
+                "id": "4_3",
+                "title": "Kriptanaliz ve Şifre Kırma Yöntemleri",
+                "duration": "30",
+                "color": "#9b59b6",
+                "documents": 8,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Şifreleme algoritmalarını nasıl kıracağını öğren! Kriptanaliz tekniklerini ve saldırı yöntemlerini keşfet.",
+                "pages": []
+            },
+            {
+                "id": "4_4",
+                "title": "CrypTool ile Uygulamalı Örnekler",
+                "duration": "35",
+                "color": "#f39c12",
+                "documents": 9,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "CrypTool ile kriptografi algoritmalarını pratik olarak öğren! Gerçek araçlarla şifreleme ve şifre çözme işlemlerini yap.",
+                "pages": []
+            },
+            {
+                "id": "4_5",
+                "title": "Quiz: Kriptografi Bilgisi",
+                "duration": "20",
+                "color": "#2ecc71",
+                "documents": 10,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Kriptografi bilgini test et! Tüm derslerde öğrendiğin konulardan kapsamlı quiz soruları ile öğrenmeyi pekiştir.",
+                "pages": []
+            }
+        ],
+        "5": [
+            {
+                "id": "5_1",
+                "title": "Parola Saldırılarına Giriş",
+                "duration": "25",
+                "color": "#dc2626",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Parola saldırılarının temellerini öğren, şifre güvenliğinin önemini keşfet.",
+                "pages": []
+            },
+            {
+                "id": "5_2",
+                "title": "Brute Force Saldırıları",
+                "duration": "30",
+                "color": "#ea580c",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Brute Force saldırı tekniklerini öğren, anahtar uzunluğu ve güvenlik analizini yap.",
+                "pages": []
+            },
+            {
+                "id": "5_3",
+                "title": "Dictionary Attack Teknikleri",
+                "duration": "28",
+                "color": "#f59e0b",
+                "documents": 7,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Dictionary Attack yöntemlerini öğren, sözlük dosyaları ve saldırı tekniklerini keşfet.",
+                "pages": []
+            },
+            {
+                "id": "5_4",
+                "title": "Rainbow Table Saldırıları",
+                "duration": "22",
+                "color": "#d97706",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Rainbow Table saldırılarını öğren, hash kırma tekniklerini ve korunma yöntemlerini keşfet.",
+                "pages": []
+            },
+            {
+                "id": "5_5",
+                "title": "John the Ripper ve Hashcat",
+                "duration": "35",
+                "color": "#b45309",
+                "documents": 8,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Profesyonel şifre kırma araçlarını öğren, John the Ripper ve Hashcat ile pratik yap.",
+                "pages": []
+            },
+            {
+                "id": "5_6",
+                "title": "Parola Güvenliği ve Korunma",
+                "duration": "20",
+                "color": "#92400e",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Parola güvenliği testleri yap, korunma yöntemlerini öğren ve güvenlik politikaları oluştur.",
                 "pages": []
             }
         ]
