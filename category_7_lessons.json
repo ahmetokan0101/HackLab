@@ -1,0 +1,231 @@
+{
+    "categoryId": "7",
+    "categoryTitle": "Ağ Güvenliği",
+    "lessons": [
+        {
+            "id": "7_1",
+            "title": "Temel Ağ Kavramları",
+            "duration": "25",
+            "color": "#3b82f6",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "IP, MAC, TCP/UDP, Port kavramlarını öğren, ağ protokollerini ve temel ağ yapısını keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "IP Adresleri ve Alt Ağlar",
+                    "content": "IP (Internet Protocol) adresleri, ağdaki her cihazın benzersiz kimliğidir. İnternet'in temel yapı taşlarıdır.\r\n\r\n🌐 **IP Adres Türleri:**\r\n\r\n**1. IPv4 (Internet Protocol Version 4):**\r\n• 32 bit uzunluğunda\r\n• 4 oktetten oluşur (örn: 192.168.1.1)\r\n• Toplam 4.3 milyar adres\r\n• Örnek: 192.168.1.100\r\n\r\n**2. IPv6 (Internet Protocol Version 6):**\r\n• 128 bit uzunluğunda\r\n• 8 heksadesimal gruptan oluşur\r\n• Çok daha fazla adres kapasitesi\r\n• Örnek: 2001:0db8:85a3:0000:0000:8a2e:0370:7334\r\n\r\n📊 **IP Adres Sınıfları:**\r\n\r\n**Class A (1.0.0.0 - 126.255.255.255):**\r\n• İlk oktet: 1-126\r\n• Ağ ID: İlk oktet\r\n• Host ID: Son 3 oktet\r\n• Örnek: 10.0.0.1 (10.0.0.0 ağı)\r\n• 16.7 milyon host\r\n\r\n**Class B (128.0.0.0 - 191.255.255.255):**\r\n• İlk oktet: 128-191\r\n• Ağ ID: İlk 2 oktet\r\n• Host ID: Son 2 oktet\r\n• Örnek: 172.16.0.1 (172.16.0.0 ağı)\r\n• 65,534 host\r\n\r\n**Class C (192.0.0.0 - 223.255.255.255):**\r\n• İlk oktet: 192-223\r\n• Ağ ID: İlk 3 oktet\r\n• Host ID: Son oktet\r\n• Örnek: 192.168.1.1 (192.168.1.0 ağı)\r\n• 254 host\r\n\r\n🔧 **Özel IP Adresleri:**\r\n\r\n**Private IP Ranges:**\r\n• 10.0.0.0 - 10.255.255.255 (Class A)\r\n• 172.16.0.0 - 172.31.255.255 (Class B)\r\n• 192.168.0.0 - 192.168.255.255 (Class C)\r\n\r\n**Loopback:**\r\n• 127.0.0.1 (localhost)\r\n• Kendi makinenizi test etmek için\r\n\r\n**APIPA (Automatic Private IP Addressing):**\r\n• 169.254.0.0 - 169.254.255.255\r\n• DHCP çalışmadığında otomatik atanan\r\n\r\n📐 **Subnet Mask (Alt Ağ Maskesi):**\r\n\r\n**CIDR Notation:**\r\n• /24 = 255.255.255.0\r\n• /16 = 255.255.0.0\r\n• /8 = 255.0.0.0\r\n\r\n**Örnekler:**\r\n• 192.168.1.0/24 → 192.168.1.1-254\r\n• 10.0.0.0/8 → 10.0.0.1-10.255.255.254\r\n• 172.16.0.0/16 → 172.16.0.1-172.16.255.254\r\n\r\n🎯 **Pratik Örnekler:**\r\n\r\n**Ev Ağı:**\r\n• Router IP: 192.168.1.1\r\n• Bilgisayar: 192.168.1.100\r\n• Telefon: 192.168.1.101\r\n• Subnet: 192.168.1.0/24\r\n\r\n**Ofis Ağı:**\r\n• Server: 10.0.1.10\r\n• Workstation: 10.0.1.50\r\n• Printer: 10.0.1.100\r\n• Subnet: 10.0.1.0/24"
+                },
+                {
+                    "id": "2",
+                    "title": "MAC Adresleri ve ARP Protokolü",
+                    "content": "MAC (Media Access Control) adresi, ağ kartının fiziksel kimliğidir. Her ağ cihazının benzersiz MAC adresi vardır.\r\n\r\n🔧 **MAC Adres Yapısı:**\r\n\r\n**Format:**\r\n• 48 bit (6 byte) uzunluğunda\r\n• 12 heksadesimal karakter\r\n• İki nokta veya tire ile ayrılır\r\n• Örnek: 00:1A:2B:3C:4D:5E\r\n\r\n**Bileşenler:**\r\n• İlk 3 byte: OUI (Organizationally Unique Identifier)\r\n• Son 3 byte: Cihaz seri numarası\r\n• Örnek: 00:1A:2B (Üretici) : 3C:4D:5E (Seri)\r\n\r\n📡 **MAC Adres Türleri:**\r\n\r\n**Unicast (Tek Nokta):**\r\n• Tek bir cihaza gönderilen\r\n• Normal MAC adresleri\r\n• Örnek: 00:1A:2B:3C:4D:5E\r\n\r\n**Multicast (Çok Nokta):**\r\n• Belirli bir gruba gönderilen\r\n• İlk byte'ın ikinci biti 1\r\n• Örnek: 01:00:5E:XX:XX:XX\r\n\r\n**Broadcast (Yayın):**\r\n• Tüm cihazlara gönderilen\r\n• FF:FF:FF:FF:FF:FF\r\n• Ağdaki herkese ulaşır\r\n\r\n🔄 **ARP (Address Resolution Protocol):**\r\n\r\n**ARP'nin Amacı:**\r\n• IP adresini MAC adresine çevirir\r\n• Layer 2 (Data Link) ile Layer 3 (Network) arasında köprü\r\n• Yerel ağda cihazları bulur\r\n\r\n**ARP İşleyişi:**\r\n1. **ARP Request:** \"192.168.1.100'ün MAC adresi nedir?\"\r\n2. **ARP Reply:** \"192.168.1.100'ün MAC adresi 00:1A:2B:3C:4D:5E\"\r\n3. **ARP Cache:** Sonuç bellekte saklanır\r\n\r\n**ARP Cache Örnekleri:**\r\n```\r\nInternet Address      Physical Address      Type\r\n192.168.1.1          00:1A:2B:3C:4D:5E     dynamic\r\n192.168.1.100        00:1A:2B:3C:4D:5F     dynamic\r\n192.168.1.254        00:1A:2B:3C:4D:60     static\r\n```\r\n\r\n🛠️ **ARP Komutları:**\r\n\r\n**Windows:**\r\n• `arp -a` → ARP tablosunu göster\r\n• `arp -d *` → Tüm ARP girişlerini sil\r\n• `arp -s 192.168.1.1 00:1A:2B:3C:4D:5E` → Statik ARP ekle\r\n\r\n**Linux:**\r\n• `arp -a` → ARP tablosunu göster\r\n• `arp -d 192.168.1.1` → Belirli girişi sil\r\n• `arp -s 192.168.1.1 00:1A:2B:3C:4D:5E` → Statik ARP ekle\r\n\r\n⚠️ **ARP Güvenlik Sorunları:**\r\n\r\n**ARP Spoofing:**\r\n• Sahte ARP mesajları gönderme\r\n• IP-MAC eşleştirmesini değiştirme\r\n• Man-in-the-Middle saldırıları\r\n\r\n**ARP Poisoning:**\r\n• ARP cache'i zehirleme\r\n• Trafiği yönlendirme\r\n• Veri çalma\r\n\r\n🔍 **MAC Adres Bulma:**\r\n\r\n**Windows:**\r\n• `ipconfig /all` → Tüm ağ bağdaştırıcıları\r\n• `getmac` → MAC adresleri listesi\r\n\r\n**Linux:**\r\n• `ifconfig` → Ağ arayüzleri\r\n• `ip link show` → MAC adresleri\r\n\r\n**Örnek Çıktı:**\r\n```\r\nEthernet adapter Local Area Connection:\r\n   Physical Address. . . . . . . . . : 00-1A-2B-3C-4D-5E\r\n   IPv4 Address. . . . . . . . . . . : 192.168.1.100\r\n   Subnet Mask . . . . . . . . . . . : 255.255.255.0\r\n   Default Gateway . . . . . . . . . : 192.168.1.1\r\n```"
+                },
+                {
+                    "id": "3",
+                    "title": "TCP ve UDP Protokolleri",
+                    "content": "TCP (Transmission Control Protocol) ve UDP (User Datagram Protocol), veri iletimi için kullanılan temel protokollerdir.\r\n\r\n🔗 **TCP (Transmission Control Protocol):**\r\n\r\n**Özellikler:**\r\n• Bağlantılı (Connection-oriented)\r\n• Güvenilir veri iletimi\r\n• Hata kontrolü ve düzeltme\r\n• Sıralı veri teslimi\r\n• Akış kontrolü\r\n• Duplex iletişim\r\n\r\n**TCP Bağlantı Süreci (3-Way Handshake):**\r\n1. **SYN:** İstemci sunucuya bağlantı isteği gönderir\r\n2. **SYN-ACK:** Sunucu isteği kabul eder ve yanıtlar\r\n3. **ACK:** İstemci onay gönderir, bağlantı kurulur\r\n\r\n**TCP Bağlantı Sonlandırma (4-Way Handshake):**\r\n1. **FIN:** Bir taraf bağlantıyı sonlandırmak ister\r\n2. **ACK:** Diğer taraf onaylar\r\n3. **FIN:** Diğer taraf da sonlandırma isteği gönderir\r\n4. **ACK:** İlk taraf son onayı gönderir\r\n\r\n📊 **TCP Header Yapısı:**\r\n• Source Port (16 bit)\r\n• Destination Port (16 bit)\r\n• Sequence Number (32 bit)\r\n• Acknowledgment Number (32 bit)\r\n• Flags (SYN, ACK, FIN, RST, PSH, URG)\r\n• Window Size (16 bit)\r\n• Checksum (16 bit)\r\n\r\n🚀 **UDP (User Datagram Protocol):**\r\n\r\n**Özellikler:**\r\n• Bağlantısız (Connectionless)\r\n• Hızlı veri iletimi\r\n• Minimum overhead\r\n• Hata kontrolü yok\r\n• Sıralama garantisi yok\r\n• Best-effort delivery\r\n\r\n**UDP Header Yapısı:**\r\n• Source Port (16 bit)\r\n• Destination Port (16 bit)\r\n• Length (16 bit)\r\n• Checksum (16 bit)\r\n• Data (Variable length)\r\n\r\n⚖️ **TCP vs UDP Karşılaştırması:**\r\n\r\n| Özellik | TCP | UDP |\r\n|---------|-----|-----|\r\n| Bağlantı | Bağlantılı | Bağlantısız |\r\n| Güvenilirlik | Yüksek | Düşük |\r\n| Hız | Yavaş | Hızlı |\r\n| Overhead | Yüksek | Düşük |\r\n| Hata Kontrolü | Var | Yok |\r\n| Sıralama | Var | Yok |\r\n| Akış Kontrolü | Var | Yok |\r\n\r\n🎯 **Kullanım Alanları:**\r\n\r\n**TCP Kullanılan Servisler:**\r\n• HTTP/HTTPS (Web)\r\n• FTP (Dosya transferi)\r\n• SMTP (E-posta gönderimi)\r\n• SSH (Güvenli shell)\r\n• Telnet (Uzaktan erişim)\r\n• POP3/IMAP (E-posta alma)\r\n\r\n**UDP Kullanılan Servisler:**\r\n• DNS (Domain Name System)\r\n• DHCP (IP adresi atama)\r\n• SNMP (Ağ yönetimi)\r\n• TFTP (Basit dosya transferi)\r\n• NTP (Zaman senkronizasyonu)\r\n• Streaming (Video/ses)\r\n• Online oyunlar\r\n\r\n🔧 **Port Kavramı:**\r\n\r\n**Port Türleri:**\r\n• **Well-known ports (0-1023):** Sistem servisleri\r\n• **Registered ports (1024-49151):** Kayıtlı uygulamalar\r\n• **Dynamic/Private ports (49152-65535):** Geçici bağlantılar\r\n\r\n**Önemli Portlar:**\r\n• 20/21: FTP\r\n• 22: SSH\r\n• 23: Telnet\r\n• 25: SMTP\r\n• 53: DNS\r\n• 80: HTTP\r\n• 110: POP3\r\n• 143: IMAP\r\n• 443: HTTPS\r\n• 993: IMAPS\r\n• 995: POP3S\r\n\r\n🛠️ **Pratik Örnekler:**\r\n\r\n**TCP Bağlantı Testi:**\r\n```bash\r\ntelnet google.com 80\r\nnc -v google.com 80\r\ntest-netconnection google.com -port 80\r\n```\r\n\r\n**UDP Bağlantı Testi:**\r\n```bash\r\nnc -u google.com 53\r\ntest-netconnection google.com -port 53 -udp\r\n```\r\n\r\n**Port Tarama:**\r\n```bash\r\nnmap -sT target.com    # TCP SYN scan\r\nnmap -sU target.com    # UDP scan\r\nnmap -p 1-1000 target.com  # Port range\r\n```"
+                },
+                {
+                    "id": "4",
+                    "title": "Port Kavramı ve Servisler",
+                    "content": "Portlar, ağ servislerinin kapılarıdır. Her servis belirli bir port üzerinden çalışır ve dinler.\r\n\r\n🚪 **Port Nedir?**\r\n\r\n**Tanım:**\r\n• 0-65535 arası sayısal değer\r\n• 16 bit uzunluğunda\r\n• IP adresi + Port = Socket\r\n• Örnek: 192.168.1.100:80\r\n\r\n**Port Türleri:**\r\n• **Source Port:** Gönderen uygulamanın portu\r\n• **Destination Port:** Hedef servisin portu\r\n• **Ephemeral Port:** Geçici, dinamik port\r\n\r\n📊 **Port Kategorileri:**\r\n\r\n**Well-Known Ports (0-1023):**\r\n• Sistem servisleri için ayrılmış\r\n• Root yetkisi gerektirir\r\n• Standart servisler\r\n• Örnek: 80 (HTTP), 443 (HTTPS)\r\n\r\n**Registered Ports (1024-49151):**\r\n• Kayıtlı uygulamalar için\r\n• IANA tarafından atanır\r\n• Ticari yazılımlar\r\n• Örnek: 3306 (MySQL), 5432 (PostgreSQL)\r\n\r\n**Dynamic/Private Ports (49152-65535):**\r\n• Geçici bağlantılar için\r\n• İstemci tarafından kullanılır\r\n• Otomatik atanır\r\n• Örnek: 50000-50010\r\n\r\n🌐 **Önemli Portlar ve Servisler:**\r\n\r\n**Web Servisleri:**\r\n• **80/TCP:** HTTP (Hypertext Transfer Protocol)\r\n• **443/TCP:** HTTPS (HTTP Secure)\r\n• **8080/TCP:** HTTP alternatif port\r\n• **8443/TCP:** HTTPS alternatif port\r\n\r\n**E-posta Servisleri:**\r\n• **25/TCP:** SMTP (Simple Mail Transfer Protocol)\r\n• **110/TCP:** POP3 (Post Office Protocol v3)\r\n• **143/TCP:** IMAP (Internet Message Access Protocol)\r\n• **993/TCP:** IMAPS (IMAP over SSL)\r\n• **995/TCP:** POP3S (POP3 over SSL)\r\n• **587/TCP:** SMTP Submission\r\n\r\n**Dosya Transferi:**\r\n• **20/TCP:** FTP Data\r\n• **21/TCP:** FTP Control\r\n• **22/TCP:** SFTP (SSH File Transfer Protocol)\r\n• **69/UDP:** TFTP (Trivial File Transfer Protocol)\r\n\r\n**Uzaktan Erişim:**\r\n• **22/TCP:** SSH (Secure Shell)\r\n• **23/TCP:** Telnet\r\n• **3389/TCP:** RDP (Remote Desktop Protocol)\r\n• **5900/TCP:** VNC (Virtual Network Computing)\r\n\r\n**Veritabanı Servisleri:**\r\n• **1433/TCP:** Microsoft SQL Server\r\n• **3306/TCP:** MySQL\r\n• **5432/TCP:** PostgreSQL\r\n• **1521/TCP:** Oracle Database\r\n• **27017/TCP:** MongoDB\r\n\r\n**Ağ Servisleri:**\r\n• **53/TCP,UDP:** DNS (Domain Name System)\r\n• **67/UDP:** DHCP Server\r\n• **68/UDP:** DHCP Client\r\n• **69/UDP:** TFTP\r\n• **123/UDP:** NTP (Network Time Protocol)\r\n• **161/UDP:** SNMP (Simple Network Management Protocol)\r\n• **162/UDP:** SNMP Trap\r\n\r\n🔍 **Port Tarama ve Keşif:**\r\n\r\n**Nmap Komutları:**\r\n```bash\r\n# Temel port tarama\r\nnmap target.com\r\n\r\n# Belirli portları tara\r\nnmap -p 80,443,22 target.com\r\n\r\n# Port aralığı tara\r\nnmap -p 1-1000 target.com\r\n\r\n# Hızlı tarama\r\nnmap -F target.com\r\n\r\n# Servis versiyonlarını öğren\r\nnmap -sV target.com\r\n\r\n# OS tespiti\r\nnmap -O target.com\r\n\r\n# UDP portları tara\r\nnmap -sU target.com\r\n```\r\n\r\n**Netcat (nc) Komutları:**\r\n```bash\r\n# Port dinleme\r\nnc -l -p 8080\r\n\r\n# Port bağlantısı testi\r\nnc -v target.com 80\r\n\r\n# UDP bağlantısı\r\nnc -u target.com 53\r\n\r\n# Port tarama\r\nnc -z -v target.com 1-1000\r\n```\r\n\r\n**Windows Komutları:**\r\n```cmd\r\n# Port durumu kontrol\r\nnetstat -an\r\n\r\n# Aktif bağlantılar\r\nnetstat -an | findstr ESTABLISHED\r\n\r\n# Belirli port kontrol\r\ntelnet target.com 80\r\n\r\n# PowerShell ile test\r\ntest-netconnection target.com -port 80\r\n```\r\n\r\n🛡️ **Port Güvenliği:**\r\n\r\n**Güvenlik Önlemleri:**\r\n• Gereksiz portları kapat\r\n• Firewall kuralları uygula\r\n• Port forwarding kontrol et\r\n• Servis versiyonlarını güncelle\r\n• Intrusion detection kullan\r\n\r\n**Tehlikeli Portlar:**\r\n• **23/TCP:** Telnet (şifrelenmemiş)\r\n• **21/TCP:** FTP (şifrelenmemiş)\r\n• **135/TCP:** RPC (Remote Procedure Call)\r\n• **139/TCP:** NetBIOS\r\n• **445/TCP:** SMB (Server Message Block)\r\n• **1433/TCP:** SQL Server (varsayılan)\r\n• **3389/TCP:** RDP (uzaktan masaüstü)\r\n\r\n📈 **Port İstatistikleri:**\r\n• En çok kullanılan port: 80 (HTTP)\r\n• En güvenli port: 443 (HTTPS)\r\n• En tehlikeli port: 23 (Telnet)\r\n• En yaygın saldırı portu: 22 (SSH brute force)"
+                },
+                {
+                    "id": "5",
+                    "title": "Ağ Protokolleri ve OSI Modeli",
+                    "content": "OSI (Open Systems Interconnection) modeli, ağ iletişimini 7 katmanda açıklar. Her katmanın kendine özgü görevleri vardır.\r\n\r\n🏗️ **OSI Modeli (7 Katman):**\r\n\r\n**7. Application Layer (Uygulama Katmanı):**\r\n• Kullanıcı uygulamaları\r\n• HTTP, FTP, SMTP, DNS\r\n• Örnek: Web tarayıcısı, e-posta istemcisi\r\n\r\n**6. Presentation Layer (Sunum Katmanı):**\r\n• Veri formatı dönüşümü\r\n• Şifreleme/şifre çözme\r\n• Sıkıştırma\r\n• Örnek: SSL/TLS, JPEG, MPEG\r\n\r\n**5. Session Layer (Oturum Katmanı):**\r\n• Oturum yönetimi\r\n• Bağlantı kurma/sonlandırma\r\n• Örnek: NetBIOS, RPC\r\n\r\n**4. Transport Layer (Taşıma Katmanı):**\r\n• Veri bütünlüğü\r\n• Hata kontrolü\r\n• TCP, UDP\r\n• Örnek: Port numaraları\r\n\r\n**3. Network Layer (Ağ Katmanı):**\r\n• Yönlendirme\r\n• IP adresleme\r\n• IP, ICMP, ARP\r\n• Örnek: Router'lar\r\n\r\n**2. Data Link Layer (Veri Bağlantı Katmanı):**\r\n• Fiziksel adresleme\r\n• Hata tespiti\r\n• Ethernet, Wi-Fi\r\n• Örnek: Switch'ler, MAC adresleri\r\n\r\n**1. Physical Layer (Fiziksel Katman):**\r\n• Fiziksel bağlantı\r\n• Elektriksel sinyaller\r\n• Kablolar, hub'lar\r\n• Örnek: Ethernet kablosu\r\n\r\n📡 **TCP/IP Modeli (4 Katman):**\r\n\r\n**4. Application Layer:**\r\n• HTTP, FTP, SMTP, DNS, SSH\r\n• Kullanıcı uygulamaları\r\n\r\n**3. Transport Layer:**\r\n• TCP, UDP\r\n• Port numaraları\r\n\r\n**2. Internet Layer:**\r\n• IP, ICMP, ARP\r\n• IP adresleme\r\n\r\n**1. Network Access Layer:**\r\n• Ethernet, Wi-Fi\r\n• Fiziksel bağlantı\r\n\r\n🔄 **Veri Akışı:**\r\n\r\n**Gönderim (Encapsulation):**\r\n1. Application → Data\r\n2. Transport → Segment (TCP) / Datagram (UDP)\r\n3. Network → Packet\r\n4. Data Link → Frame\r\n5. Physical → Bits\r\n\r\n**Alım (Decapsulation):**\r\n1. Physical → Bits\r\n2. Data Link → Frame\r\n3. Network → Packet\r\n4. Transport → Segment/Datagram\r\n5. Application → Data\r\n\r\n🌐 **Önemli Protokoller:**\r\n\r\n**Application Layer:**\r\n• **HTTP/HTTPS:** Web iletişimi\r\n• **FTP:** Dosya transferi\r\n• **SMTP:** E-posta gönderimi\r\n• **POP3/IMAP:** E-posta alma\r\n• **DNS:** Domain name resolution\r\n• **SSH:** Güvenli shell\r\n• **Telnet:** Uzaktan erişim\r\n\r\n**Transport Layer:**\r\n• **TCP:** Güvenilir veri iletimi\r\n• **UDP:** Hızlı veri iletimi\r\n\r\n**Network Layer:**\r\n• **IP:** Internet Protocol\r\n• **ICMP:** Internet Control Message Protocol\r\n• **ARP:** Address Resolution Protocol\r\n• **RARP:** Reverse ARP\r\n\r\n**Data Link Layer:**\r\n• **Ethernet:** Yerel ağ protokolü\r\n• **Wi-Fi:** Kablosuz ağ\r\n• **PPP:** Point-to-Point Protocol\r\n• **HDLC:** High-Level Data Link Control\r\n\r\n🔧 **Pratik Örnekler:**\r\n\r\n**HTTP İsteği:**\r\n```\r\nGET /index.html HTTP/1.1\r\nHost: www.example.com\r\nUser-Agent: Mozilla/5.0\r\nAccept: text/html\r\n\r\n```\r\n\r\n**DNS Sorgusu:**\r\n```\r\nQuery: www.google.com\r\nType: A\r\nResponse: 142.250.191.14\r\n```\r\n\r\n**ARP Sorgusu:**\r\n```\r\nWho has 192.168.1.1? Tell 192.168.1.100\r\n192.168.1.1 is at 00:1A:2B:3C:4D:5E\r\n```\r\n\r\n🛠️ **Ağ Araçları:**\r\n\r\n**Packet Capture:**\r\n• **Wireshark:** GUI tabanlı paket analizi\r\n• **tcpdump:** Komut satırı paket yakalama\r\n• **tshark:** Wireshark komut satırı versiyonu\r\n\r\n**Network Discovery:**\r\n• **nmap:** Port tarama ve servis keşfi\r\n• **netdiscover:** Ağ keşfi\r\n• **arp-scan:** ARP tarama\r\n\r\n**Connectivity Testing:**\r\n• **ping:** ICMP echo test\r\n• **traceroute:** Yol takibi\r\n• **netcat:** Port testi\r\n• **telnet:** Port bağlantı testi\r\n\r\n📊 **Protokol Örnekleri:**\r\n\r\n**Ethernet Frame:**\r\n```\r\nDestination MAC: 00:1A:2B:3C:4D:5E\r\nSource MAC: 00:1A:2B:3C:4D:5F\r\nType: 0x0800 (IPv4)\r\nData: IP Packet\r\nCRC: Frame Check Sequence\r\n```\r\n\r\n**IP Packet:**\r\n```\r\nVersion: 4\r\nHeader Length: 20\r\nTotal Length: 64\r\nProtocol: 6 (TCP)\r\nSource IP: 192.168.1.100\r\nDestination IP: 192.168.1.1\r\nData: TCP Segment\r\n```\r\n\r\n**TCP Segment:**\r\n```\r\nSource Port: 12345\r\nDestination Port: 80\r\nSequence Number: 1000\r\nAcknowledgment Number: 2000\r\nFlags: SYN, ACK\r\nData: HTTP Request\r\n```"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Temel Ağ Kavramları",
+                    "type": "quiz",
+                    "question": "IPv4 adresinde kaç bit bulunur?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "16 bit",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "32 bit",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "64 bit",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "128 bit",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "IPv4 adresleri 32 bit uzunluğundadır ve 4 oktetten (8'er bit) oluşur. Örnek: 192.168.1.1"
+                }
+            ]
+        },
+        {
+            "id": "7_2",
+            "title": "ARP Spoofing / Poisoning",
+            "duration": "30",
+            "color": "#2563eb",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "ARP spoofing saldırılarını öğren, ARP poisoning tekniklerini uygula ve korunma yöntemlerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "ARP Spoofing Nedir?",
+                    "content": "ARP Spoofing, saldırganın sahte ARP mesajları göndererek ağdaki cihazların ARP tablolarını manipüle etmesidir.\r\n\r\n🎯 **Temel Kavram:**\r\n• IP adresini MAC adresine çeviren ARP protokolünü kötüye kullanma\r\n• Hedef cihazın ARP cache'ini zehirleme\r\n• Trafiği kendi üzerinden yönlendirme\r\n\r\n⚡ **Saldırı Amacı:**\r\n• Man-in-the-Middle saldırıları\r\n• Ağ trafiğini dinleme\r\n• Veri çalma\r\n• Oturum ele geçirme\r\n\r\n🔍 **Nasıl Çalışır:**\r\n1. Saldırgan hedef cihaza sahte ARP reply gönderir\r\n2. \"Ben gateway'im\" der\r\n3. Hedef cihaz trafiği saldırgana yönlendirir\r\n4. Saldırgan trafiği dinler ve gerçek gateway'e iletir"
+                },
+                {
+                    "id": "2",
+                    "title": "ARP Saldırı Türleri",
+                    "content": "ARP saldırılarının farklı türleri ve kullanım alanları:\r\n\r\n🎯 **Host-to-Host ARP Spoofing:**\r\n• İki cihaz arasında saldırı\r\n• Trafiği kendi üzerinden yönlendirme\r\n• Örnek: Bilgisayar ↔ Router arası\r\n\r\n🌐 **Gateway ARP Spoofing:**\r\n• Tüm ağ trafiğini ele geçirme\r\n• Router'ı taklit etme\r\n• En yaygın saldırı türü\r\n\r\n🔄 **Bidirectional ARP Spoofing:**\r\n• Çift yönlü saldırı\r\n• Her iki cihazı da kandırma\r\n• Tam kontrol sağlama\r\n\r\n⚡ **Saldırı Senaryoları:**\r\n• **Eavesdropping:** Trafik dinleme\r\n• **Session Hijacking:** Oturum ele geçirme\r\n• **Data Modification:** Veri değiştirme\r\n• **Denial of Service:** Hizmet engelleme"
+                },
+                {
+                    "id": "3",
+                    "title": "ARP Spoofing Araçları",
+                    "content": "ARP saldırıları için kullanılan popüler araçlar:\r\n\r\n🛠️ **Ettercap:**\r\n• En popüler ARP spoofing aracı\r\n• GUI ve CLI desteği\r\n• Plugin sistemi\r\n• Komut: `ettercap -T -M arp:remote /target/ /gateway/`\r\n\r\n⚡ **arpspoof (dsniff):**\r\n• Basit ve etkili\r\n• Komut satırı aracı\r\n• Komut: `arpspoof -i eth0 -t target_ip gateway_ip`\r\n\r\n🔍 **Bettercap:**\r\n• Modern ağ saldırı framework'ü\r\n• Modüler yapı\r\n• Real-time monitoring\r\n• Komut: `bettercap -iface eth0`\r\n\r\n📊 **Cain & Abel:**\r\n• Windows tabanlı\r\n• GUI arayüzü\r\n• Password cracking\r\n• ARP poisoning modülü\r\n\r\n🐍 **Scapy (Python):**\r\n• Programatik saldırı\r\n• Özelleştirilebilir\r\n• Python scriptleri"
+                },
+                {
+                    "id": "4",
+                    "title": "ARP Saldırısını Tespit Etme",
+                    "content": "ARP saldırılarını tespit etme yöntemleri:\r\n\r\n🔍 **ARP Tablosu Kontrolü:**\r\n• Aynı IP için farklı MAC adresleri\r\n• Sürekli değişen ARP girişleri\r\n• Şüpheli MAC adresleri\r\n\r\n📊 **Ağ İzleme Araçları:**\r\n• **Wireshark:** ARP paketlerini analiz\r\n• **arpwatch:** ARP değişikliklerini izleme\r\n• **XArp:** Gerçek zamanlı ARP monitoring\r\n\r\n⚠️ **Tespit İşaretleri:**\r\n• Aynı IP için birden fazla MAC\r\n• ARP reply'lerde farklı MAC'ler\r\n• Anormal ARP trafiği\r\n• Ağ performansında düşüş\r\n\r\n🛡️ **Otomatik Tespit:**\r\n• IDS/IPS sistemleri\r\n• Network monitoring tools\r\n• SIEM çözümleri\r\n• Endpoint protection"
+                },
+                {
+                    "id": "5",
+                    "title": "ARP Saldırılarından Korunma",
+                    "content": "ARP saldırılarından korunma yöntemleri:\r\n\r\n🔒 **Statik ARP Tablosu:**\r\n• Kritik cihazlar için statik ARP\r\n• Değişmez IP-MAC eşleştirmesi\r\n• Komut: `arp -s ip_address mac_address`\r\n\r\n🛡️ **Port Security:**\r\n• Switch portlarında MAC binding\r\n• Yabancı MAC adreslerini engelleme\r\n• VLAN isolation\r\n\r\n🔐 **ARP Inspection:**\r\n• DHCP Snooping ile birlikte\r\n• Sahte ARP paketlerini engelleme\r\n• Cisco DAI (Dynamic ARP Inspection)\r\n\r\n🌐 **Ağ Segmentasyonu:**\r\n• VLAN'lar ile ağ ayırma\r\n• Mikro-segmentasyon\r\n• Zero Trust mimarisi\r\n\r\n📡 **Güvenli Protokoller:**\r\n• HTTPS kullanımı\r\n• VPN bağlantıları\r\n• End-to-end şifreleme\r\n• Certificate pinning"
+                },
+                {
+                    "id": "6",
+                    "title": "Pratik ARP Spoofing",
+                    "content": "ARP spoofing saldırısının pratik uygulaması:\r\n\r\n🎯 **Saldırı Adımları:**\r\n1. Hedef ağı keşfet\r\n2. Gateway IP'sini bul\r\n3. Hedef cihazları belirle\r\n4. ARP spoofing aracını çalıştır\r\n5. Trafiği dinle ve analiz et\r\n\r\n🛠️ **Ettercap ile Saldırı:**\r\n```bash\r\n# Hedef ağı tarama\r\nnmap -sn 192.168.1.0/24\r\n\r\n# ARP spoofing başlat\r\nettercap -T -M arp:remote /192.168.1.100/ /192.168.1.1/\r\n\r\n# Trafiği dinle\r\ntcpdump -i eth0 -w capture.pcap\r\n```\r\n\r\n🔍 **Trafik Analizi:**\r\n• HTTP trafiğini yakala\r\n• Form verilerini çıkar\r\n• Session cookie'lerini al\r\n• Şifreleri görüntüle\r\n\r\n⚠️ **Yasal Uyarı:**\r\n• Sadece kendi ağınızda test edin\r\n• Yetkisiz erişim yasaktır\r\n• Etik hacking kurallarına uyun\r\n• Penetration testing izni alın"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: ARP Spoofing",
+                    "type": "quiz",
+                    "question": "ARP Spoofing saldırısının temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Ağ hızını artırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "ARP tablolarını manipüle etmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "IP adreslerini değiştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "MAC adreslerini şifrelemek",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "ARP Spoofing, saldırganın sahte ARP mesajları göndererek hedef cihazların ARP tablolarını manipüle etmesi ve trafiği kendi üzerinden yönlendirmesidir."
+                }
+            ]
+        },
+        {
+            "id": "7_3",
+            "title": "Man-in-the-Middle (MITM) Saldırıları",
+            "duration": "25",
+            "color": "#1d4ed8",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "MITM saldırı türlerini öğren, saldırı tekniklerini uygula ve savunma stratejilerini geliştir.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "MITM Saldırısı Nedir?",
+                    "content": "Man-in-the-Middle (MITM) saldırısı, saldırganın iki taraf arasındaki iletişimi gizlice dinlemesi ve manipüle etmesidir.\r\n\r\n🎯 **Temel Kavram:**\r\n• İki taraf arasındaki iletişime araya girme\r\n• Trafiği kendi üzerinden yönlendirme\r\n• Verileri dinleme, değiştirme veya çalma\r\n• Taraflar saldırganın varlığından habersiz\r\n\r\n⚡ **Saldırı Amacı:**\r\n• Hassas verileri çalma\r\n• Oturum bilgilerini ele geçirme\r\n• Verileri değiştirme\r\n• Kimlik doğrulama bilgilerini çalma\r\n\r\n🔍 **Nasıl Çalışır:**\r\n1. Saldırgan ağ trafiğini ele geçirir\r\n2. İki taraf arasındaki bağlantıyı keser\r\n3. Kendi üzerinden yeni bağlantılar kurar\r\n4. Trafiği dinler ve manipüle eder"
+                },
+                {
+                    "id": "2",
+                    "title": "MITM Saldırı Türleri",
+                    "content": "Farklı MITM saldırı türleri ve kullanım alanları:\r\n\r\n🌐 **ARP Spoofing MITM:**\r\n• ARP tablolarını manipüle etme\r\n• Yerel ağda en yaygın yöntem\r\n• Gateway'i taklit etme\r\n• Tüm trafiği ele geçirme\r\n\r\n📡 **DNS Spoofing MITM:**\r\n• DNS sorgularını yönlendirme\r\n• Sahte web sitelerine yönlendirme\r\n• SSL sertifika sorunları\r\n• Phishing saldırıları\r\n\r\n🔐 **SSL/TLS MITM:**\r\n• HTTPS bağlantılarını hedefleme\r\n• Sertifika manipülasyonu\r\n• Proxy kullanımı\r\n• Self-signed sertifikalar\r\n\r\n📶 **WiFi MITM:**\r\n• Sahte access point'ler\r\n• Evil Twin saldırıları\r\n• Kablosuz ağ taklit etme\r\n• Public WiFi'de yaygın\r\n\r\n🔄 **Session Hijacking:**\r\n• Aktif oturumları ele geçirme\r\n• Cookie çalma\r\n• Token manipülasyonu\r\n• Cross-site scripting"
+                },
+                {
+                    "id": "3",
+                    "title": "MITM Saldırı Araçları",
+                    "content": "MITM saldırıları için kullanılan popüler araçlar:\r\n\r\n🛠️ **Ettercap:**\r\n• En popüler MITM aracı\r\n• ARP spoofing, DNS spoofing\r\n• Plugin sistemi\r\n• Komut: `ettercap -T -M arp:remote /target/ /gateway/`\r\n\r\n🔍 **Bettercap:**\r\n• Modern MITM framework'ü\r\n• Modüler yapı\r\n• Real-time monitoring\r\n• Komut: `bettercap -iface eth0`\r\n\r\n📊 **Burp Suite:**\r\n• Web uygulama güvenliği\r\n• Proxy tabanlı MITM\r\n• Professional ve Community edition\r\n• Web trafiğini analiz\r\n\r\n🌐 **OWASP ZAP:**\r\n• Açık kaynak web güvenlik aracı\r\n• Proxy ve scanner\r\n• API güvenlik testleri\r\n• Otomatik vulnerability scanning\r\n\r\n📡 **WiFi Pineapple:**\r\n• Kablosuz ağ saldırıları\r\n• Evil Twin saldırıları\r\n• Karma saldırıları\r\n• Portatif cihaz\r\n\r\n🐍 **Scapy (Python):**\r\n• Programatik MITM saldırıları\r\n• Özelleştirilebilir\r\n• Python scriptleri\r\n• Paket manipülasyonu"
+                },
+                {
+                    "id": "4",
+                    "title": "MITM Saldırısını Tespit Etme",
+                    "content": "MITM saldırılarını tespit etme yöntemleri:\r\n\r\n🔍 **Ağ İzleme:**\r\n• ARP tablosu değişiklikleri\r\n• Beklenmeyen MAC adresleri\r\n• Anormal ağ trafiği\r\n• Bağlantı gecikmeleri\r\n\r\n📊 **SSL/TLS Kontrolü:**\r\n• Sertifika doğrulama\r\n• Certificate pinning\r\n• SSL/TLS uyarıları\r\n• HSTS kontrolü\r\n\r\n⚠️ **Tespit İşaretleri:**\r\n• Aynı IP için farklı MAC'ler\r\n• SSL sertifika uyarıları\r\n• Beklenmeyen proxy ayarları\r\n• Ağ performansında düşüş\r\n\r\n🛡️ **Otomatik Tespit Araçları:**\r\n• **XArp:** ARP monitoring\r\n• **Cain & Abel:** Network analyzer\r\n• **Wireshark:** Packet analysis\r\n• **Netstat:** Connection monitoring\r\n\r\n🔐 **Güvenlik Kontrolleri:**\r\n• Certificate transparency\r\n• DNS over HTTPS\r\n• VPN kullanımı\r\n• Endpoint protection"
+                },
+                {
+                    "id": "5",
+                    "title": "MITM Saldırılarından Korunma",
+                    "content": "MITM saldırılarından korunma yöntemleri:\r\n\r\n🔒 **Güvenli Protokoller:**\r\n• HTTPS kullanımı\r\n• VPN bağlantıları\r\n• SSH tunneling\r\n• End-to-end şifreleme\r\n\r\n🛡️ **Sertifika Güvenliği:**\r\n• Certificate pinning\r\n• HSTS (HTTP Strict Transport Security)\r\n• Certificate transparency\r\n• Public key pinning\r\n\r\n🌐 **Ağ Güvenliği:**\r\n• Statik ARP tabloları\r\n• Port security\r\n• VLAN isolation\r\n• Network segmentation\r\n\r\n📡 **Kablosuz Güvenlik:**\r\n• WPA3 şifreleme\r\n• Enterprise authentication\r\n• Sahte access point tespiti\r\n• Public WiFi'den kaçınma\r\n\r\n🔐 **Uygulama Güvenliği:**\r\n• Two-factor authentication\r\n• Session management\r\n• Secure coding practices\r\n• Input validation\r\n\r\n📊 **İzleme ve Tespit:**\r\n• Network monitoring\r\n• Intrusion detection\r\n• SIEM çözümleri\r\n• Behavioral analysis"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: MITM Saldırıları",
+                    "type": "quiz",
+                    "question": "MITM saldırısının temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Ağ hızını artırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "İki taraf arasındaki iletişimi dinlemek ve manipüle etmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "IP adreslerini değiştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "MAC adreslerini şifrelemek",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "MITM saldırısı, saldırganın iki taraf arasındaki iletişimi gizlice dinlemesi, manipüle etmesi veya verileri çalmasıdır."
+                }
+            ]
+        },
+        {
+            "id": "7_4",
+            "title": "Trafik Sniffing ve Analiz Yöntemleri",
+            "duration": "30",
+            "color": "#1e40af",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Ağ trafiği dinleme tekniklerini öğren, paket analizi yap ve güvenlik açıklarını tespit et.",
+            "pages": []
+        },
+        {
+            "id": "7_5",
+            "title": "Quiz: Ağ Güvenliği",
+            "duration": "20",
+            "color": "#1e3a8a",
+            "documents": 1,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Ağ güvenliği konusundaki bilgilerinizi test edin, kapsamlı quiz ile öğrendiklerinizi pekiştirin.",
+            "pages": []
+        }
+    ]
+}
