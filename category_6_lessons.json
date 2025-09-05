@@ -1,0 +1,607 @@
+{
+    "categoryId": "6",
+    "categoryTitle": "Zararlı Yazılımlar",
+    "lessons": [
+        {
+            "id": "6_1",
+            "title": "Virüs, Solucan, Trojan, Spyware ve Ransomware Türleri",
+            "duration": "30",
+            "color": "#ef4444",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Zararlı yazılım türlerini detaylı örneklerle öğren, her türün özelliklerini ve nasıl çalıştığını keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Malware Nedir? Temel Kavramlar",
+                    "content": "Malware (Malicious Software), kötü niyetli yazılım anlamına gelir. Bilgisayar sistemlerine zarar vermek, veri çalmak veya sistemleri ele geçirmek için tasarlanmış yazılımlardır.\r\n\r\n🔍 **Malware'nin Temel Özellikleri:**\r\n• Kendini gizleme yeteneği\r\n• Sistem kaynaklarını kullanma\r\n• Veri manipülasyonu\r\n• Ağ üzerinden yayılma\r\n• Kullanıcı izni olmadan çalışma\r\n\r\n📊 **Malware İstatistikleri (2024):**\r\n• Günlük 560,000 yeni malware türü tespit ediliyor\r\n• Yıllık 1.8 milyar malware saldırısı gerçekleşiyor\r\n• %94'ü e-posta ile yayılıyor\r\n• Ortalama veri ihlali maliyeti: 4.45 milyon dolar\r\n• %67'si küçük ve orta ölçekli işletmelere yönelik\r\n\r\n🎯 **Malware'nin Ana Amaçları:**\r\n• Finansal kazanç (fidye, kripto para madenciliği)\r\n• Veri hırsızlığı (kişisel bilgiler, kredi kartları)\r\n• Sistem kontrolü (botnet oluşturma)\r\n• Bilgi toplama (casusluk, rekabet analizi)\r\n• Sistem bozma (sabotaj, intikam)\r\n• Kimlik hırsızlığı (sahte kimlik oluşturma)\r\n\r\n⚠️ **Malware'nin Yaygın Hedefleri:**\r\n• Kişisel bilgisayarlar\r\n• Kurumsal ağlar\r\n• Mobil cihazlar\r\n• IoT cihazları\r\n• Web sunucuları\r\n• Veritabanları"
+                },
+                {
+                    "id": "2",
+                    "title": "Virüs (Virus) Türleri ve Örnekleri",
+                    "content": "Virüsler, kendilerini diğer dosyalara kopyalayarak yayılan zararlı yazılımlardır. En eski malware türlerinden biridir.\r\n\r\n🦠 **Virüs Türleri:**\r\n\r\n**1. Dosya Virüsleri:**\r\n• .exe, .com, .dll dosyalarına bulaşır\r\n• En yaygın virüs türüdür\r\n• Örnek: CIH (Chernobyl) - 1998, BIOS'u bozdu\r\n\r\n**2. Boot Sektör Virüsleri:**\r\n• Sistem başlatma bölümüne bulaşır\r\n• Bilgisayar açılırken çalışır\r\n• Örnek: Stoned - 1987, ilk boot virüsü\r\n\r\n**3. Makro Virüsleri:**\r\n• Word, Excel, PowerPoint dosyalarına bulaşır\r\n• Office makrolarını kullanır\r\n• Örnek: Melissa - 1999, e-posta ile yayıldı\r\n\r\n**4. Çok Parçalı Virüsler:**\r\n• Hem dosya hem boot sektörüne bulaşır\r\n• En tehlikeli virüs türüdür\r\n• Örnek: Tequila - 1991, çoklu bulaşma\r\n\r\n**5. Polymorphic Virüsler:**\r\n• Kendilerini sürekli değiştirir\r\n• Tespit edilmeyi zorlaştırır\r\n• Örnek: 1260 - 1990, ilk polymorphic virüs\r\n\r\n**6. Metamorphic Virüsler:**\r\n• Tamamen yeniden yazılır\r\n• En gelişmiş virüs türüdür\r\n• Örnek: Zmist - 2000, kendini yeniden yazar\r\n\r\n💥 **Ünlü Virüs Örnekleri:**\r\n• **ILOVEYOU (2000):** 10 milyar dolar zarar, 50 milyon bilgisayara bulaştı\r\n• **Code Red (2001):** Web sunucularına saldırı, 2.6 milyar dolar zarar\r\n• **Slammer (2003):** En hızlı yayılan virüs, 15 dakikada dünya çapında yayıldı\r\n• **Conficker (2008):** 15 milyon bilgisayara bulaştı, botnet oluşturdu\r\n• **Stuxnet (2010):** Endüstriyel sistemlere saldırı, İran'ın nükleer tesislerini hedef aldı"
+                },
+                {
+                    "id": "3",
+                    "title": "Solucan (Worm) Türleri ve Örnekleri",
+                    "content": "Solucanlar, ağ üzerinden kendilerini kopyalayarak yayılan zararlı yazılımlardır. Dosya gerektirmezler.\r\n\r\n🐛 **Solucan Türleri:**\r\n\r\n**1. E-posta Solucanları:**\r\n• E-posta ekleri ile yayılır\r\n• Otomatik e-posta gönderir\r\n• Örnek: Love Bug - 2000, \"I Love You\" konulu e-posta\r\n\r\n**2. Ağ Solucanları:**\r\n• Ağ açıklıklarını kullanır\r\n• Port taraması yapar\r\n• Örnek: Blaster - 2003, Windows RPC açığını kullandı\r\n\r\n**3. IM Solucanları:**\r\n• Anlık mesajlaşma ile yayılır\r\n• MSN, Yahoo Messenger kullanır\r\n• Örnek: Choke - 2001, ICQ ile yayıldı\r\n\r\n**4. P2P Solucanları:**\r\n• Dosya paylaşım ağlarında yayılır\r\n• Kazaa, eMule kullanır\r\n• Örnek: Phatbot - 2004, P2P ağlarında yayıldı\r\n\r\n**5. USB Solucanları:**\r\n• USB cihazlar ile yayılır\r\n• Autorun.inf dosyası kullanır\r\n• Örnek: Conficker - 2008, USB ile yayıldı\r\n\r\n**6. Web Solucanları:**\r\n• Web siteleri üzerinden yayılır\r\n• SQL injection kullanır\r\n• Örnek: Santy - 2004, Google'da arama yaparak yayıldı\r\n\r\n💥 **Ünlü Solucan Örnekleri:**\r\n• **Morris Worm (1988):** İlk büyük solucan, internetin %10'unu etkiledi\r\n• **Melissa (1999):** E-posta ile yayılan ilk büyük solucan\r\n• **ILOVEYOU (2000):** 50 milyon bilgisayara bulaştı\r\n• **Code Red (2001):** Web sunucularına saldırı\r\n• **Slammer (2003):** 15 dakikada dünya çapında yayıldı\r\n• **Conficker (2008):** 15 milyon bilgisayara bulaştı\r\n• **Stuxnet (2010):** Endüstriyel sistemlere saldırı\r\n• **WannaCry (2017):** 300,000 bilgisayara bulaştı, hastaneleri etkiledi\r\n\r\n🔄 **Solucan vs Virüs Farkları:**\r\n• **Solucan:** Ağ üzerinden yayılır, dosya gerektirmez, bağımsız çalışır\r\n• **Virüs:** Dosya gerektirir, ağ olmadan da yayılabilir, konak dosyaya ihtiyaç duyar"
+                },
+                {
+                    "id": "4",
+                    "title": "Trojan (Truva Atı) Türleri ve Örnekleri",
+                    "content": "Trojanlar, kendilerini yararlı yazılım gibi göstererek sisteme giren zararlı yazılımlardır. Truva Atı efsanesinden esinlenmiştir.\r\n\r\n🐴 **Trojan Türleri:**\r\n\r\n**1. Backdoor Trojan:**\r\n• Uzaktan erişim sağlar\r\n• Sistem kontrolü verir\r\n• Örnek: SubSeven - 1999, popüler backdoor\r\n\r\n**2. Banker Trojan:**\r\n• Bankacılık bilgilerini çalar\r\n• Online banking'i hedefler\r\n• Örnek: Zeus - 2007, 100 milyon dolar çaldı\r\n\r\n**3. Downloader Trojan:**\r\n• Diğer malware'leri indirir\r\n• Sistem güvenliğini zayıflatır\r\n• Örnek: Downloader.gen - 2008, çoklu malware indirir\r\n\r\n**4. Dropper Trojan:**\r\n• Zararlı dosyaları sisteme bırakır\r\n• Gizli kurulum yapar\r\n• Örnek: Dropper.Agent - 2009, rootkit bırakır\r\n\r\n**5. Fake AV Trojan:**\r\n• Sahte antivirüs yazılımı\r\n• Kullanıcıyı kandırır\r\n• Örnek: FakeAV - 2010, sahte uyarılar gösterir\r\n\r\n**6. Game Thief Trojan:**\r\n• Oyun hesaplarını çalar\r\n• Oyun içi eşyaları çalar\r\n• Örnek: PWS-Gamania - 2011, oyun hesaplarını hedefler\r\n\r\n**7. IM Trojan:**\r\n• Anlık mesajlaşma bilgilerini çalar\r\n• Chat loglarını toplar\r\n• Örnek: Qbot - 2008, klavye dinleme\r\n\r\n**8. Ransom Trojan:**\r\n• Dosyaları şifreler\r\n• Fidye talep eder\r\n• Örnek: CryptoLocker - 2013, 27 milyon dolar topladı\r\n\r\n💥 **Ünlü Trojan Örnekleri:**\r\n• **Zeus (2007):** Bankacılık bilgilerini çaldı, 100 milyon dolar zarar\r\n• **Emotet (2014):** E-posta ile yayılan trojan, 2 milyar dolar zarar\r\n• **Trickbot (2016):** Bankacılık ve kripto para çaldı\r\n• **Qbot (2008):** Klavye dinleme trojanı\r\n• **CryptoLocker (2013):** 27 milyon dolar fidye topladı\r\n• **Dridex (2014):** Bankacılık bilgilerini çaldı\r\n• **Trojanspy (2015):** Casusluk yazılımı\r\n• **Banker (2016):** Online banking'i hedefledi\r\n\r\n🎭 **Trojan'ın Özellikleri:**\r\n• Kendini gizleme (yararlı yazılım gibi görünme)\r\n• Uzaktan kontrol\r\n• Veri çalma\r\n• Sistem bozma\r\n• Diğer malware indirme\r\n• Kullanıcı etkileşimi gerektirme"
+                },
+                {
+                    "id": "5",
+                    "title": "Spyware (Casus Yazılım) Türleri ve Örnekleri",
+                    "content": "Spyware, kullanıcının bilgisi olmadan kişisel bilgileri toplayan ve üçüncü taraflara gönderen zararlı yazılımlardır.\r\n\r\n🕵️ **Spyware Türleri:**\r\n\r\n**1. Keylogger:**\r\n• Tuş vuruşlarını kaydeder\r\n• Şifreleri çalar\r\n• Örnek: Perfect Keylogger - 2005, tuş vuruşlarını kaydetti\r\n\r\n**2. Screen Capture:**\r\n• Ekran görüntülerini alır\r\n• Gizli ekran kaydı yapar\r\n• Örnek: ScreenSpy - 2006, ekran görüntülerini çaldı\r\n\r\n**3. Webcam Spy:**\r\n• Webcam'i uzaktan kontrol eder\r\n• Gizli video kaydı yapar\r\n• Örnek: WebcamSpy - 2007, webcam'i ele geçirdi\r\n\r\n**4. Browser Hijacker:**\r\n• Tarayıcı ayarlarını değiştirir\r\n• Ana sayfayı değiştirir\r\n• Örnek: CoolWebSearch - 2003, tarayıcıyı ele geçirdi\r\n\r\n**5. Adware:**\r\n• İstenmeyen reklamlar gösterir\r\n• Pop-up'lar açar\r\n• Örnek: Gator - 2002, reklam gösterdi\r\n\r\n**6. System Monitor:**\r\n• Sistem aktivitelerini izler\r\n• Program kullanımını takip eder\r\n• Örnek: PC Activity Monitor - 2004, sistem aktivitelerini izledi\r\n\r\n**7. Password Stealer:**\r\n• Kayıtlı şifreleri çalar\r\n• Browser şifrelerini alır\r\n• Örnek: PWS-Generic - 2008, şifreleri çaldı\r\n\r\n**8. Banking Spyware:**\r\n• Bankacılık bilgilerini çalar\r\n• Online banking'i hedefler\r\n• Örnek: SpyEye - 2009, bankacılık bilgilerini çaldı\r\n\r\n💥 **Ünlü Spyware Örnekleri:**\r\n• **CoolWebSearch (2003):** Tarayıcıyı ele geçirdi, ana sayfayı değiştirdi\r\n• **Gator (2002):** Reklam gösterdi, pop-up'lar açtı\r\n• **Perfect Keylogger (2005):** Tuş vuruşlarını kaydetti\r\n• **SpyEye (2009):** Bankacılık bilgilerini çaldı\r\n• **Zeus (2007):** Bankacılık bilgilerini çaldı\r\n• **Carberp (2010):** Bankacılık bilgilerini çaldı\r\n• **Shylock (2011):** Bankacılık bilgilerini çaldı\r\n• **Tinba (2012):** Bankacılık bilgilerini çaldı\r\n\r\n🔍 **Spyware'in Özellikleri:**\r\n• Gizli bilgi toplama\r\n• Kullanıcı bilgisi olmadan çalışma\r\n• Üçüncü taraflara veri gönderme\r\n• Sistem performansını düşürme\r\n• Güvenlik açıkları oluşturma\r\n• Kişisel gizliliği ihlal etme"
+                },
+                {
+                    "id": "6",
+                    "title": "Ransomware (Fidye Yazılımı) Türleri ve Örnekleri",
+                    "content": "Ransomware, dosyaları şifreleyerek kullanıcıdan fidye talep eden zararlı yazılımlardır. En tehlikeli malware türlerinden biridir.\r\n\r\n💰 **Ransomware Türleri:**\r\n\r\n**1. Crypto Ransomware:**\r\n• Dosyaları şifreler\r\n• Fidye talep eder\r\n• Örnek: CryptoLocker - 2013, 27 milyon dolar topladı\r\n\r\n**2. Locker Ransomware:**\r\n• Sistemi kilitle\r\n• Ekrana uyarı mesajı gösterir\r\n• Örnek: Winlock - 2010, sistemi kilitledi\r\n\r\n**3. Scareware:**\r\n• Sahte uyarılar gösterir\r\n• Kullanıcıyı korkutur\r\n• Örnek: FakeAV - 2010, sahte antivirüs uyarıları\r\n\r\n**4. Doxware:**\r\n• Kişisel bilgileri tehdit eder\r\n• Veri sızdırma tehdidi\r\n• Örnek: Maze - 2019, veri sızdırma tehdidi\r\n\r\n**5. Mobile Ransomware:**\r\n• Mobil cihazlara saldırır\r\n• Android ve iOS'u hedefler\r\n• Örnek: Android.Lockscreen - 2014, Android'i kilitledi\r\n\r\n**6. RaaS (Ransomware as a Service):**\r\n• Hizmet olarak ransomware\r\n• Affiliate programları\r\n• Örnek: REvil - 2020, RaaS modeli kullandı\r\n\r\n💥 **Ünlü Ransomware Örnekleri:**\r\n• **WannaCry (2017):** 300,000 bilgisayara bulaştı, hastaneleri etkiledi\r\n• **Petya/NotPetya (2017):** 10 milyar dolar zarar, Ukrayna'da başladı\r\n• **Ryuk (2018):** Kurumsal hedefler, yüksek fidye talepleri\r\n• **Maze (2019):** Veri sızdırma tehdidi, double extortion\r\n• **REvil (2020):** Yüksek fidye talepleri, RaaS modeli\r\n• **Conti (2020):** Kurumsal hedefler, hızlı yayılma\r\n• **LockBit (2020):** Otomatik yayılma, kurumsal hedefler\r\n• **BlackCat (2021):** Rust programlama dili ile yazıldı\r\n\r\n📊 **Ransomware İstatistikleri (2024):**\r\n• Yıllık 623 milyon dolar fidye ödendi\r\n• %75'i kurumsal hedefler\r\n• %25'i kişisel kullanıcılar\r\n• Ortalama fidye: 1.5 milyon dolar\r\n• %40'ı ödeme yapıyor\r\n• %60'ı veri kurtarılamıyor\r\n\r\n🎯 **Ransomware'in Hedefleri:**\r\n• Hastaneler ve sağlık kuruluşları\r\n• Eğitim kurumları\r\n• Devlet kurumları\r\n• Finansal kurumlar\r\n• Üretim şirketleri\r\n• Küçük ve orta ölçekli işletmeler"
+                },
+                {
+                    "id": "7",
+                    "title": "Malware Türleri Karşılaştırması",
+                    "content": "Farklı malware türlerini karşılaştırarak özelliklerini ve farklarını anlayalım.\r\n\r\n📊 **Malware Türleri Karşılaştırma Tablosu:**\r\n\r\n| Özellik | Virüs | Solucan | Trojan | Spyware | Ransomware |\r\n|--------|-------|---------|--------|---------|------------|\r\n| **Yayılma** | Dosya gerektirir | Ağ üzerinden | Kullanıcı etkileşimi | Gizli kurulum | Çoklu yöntem |\r\n| **Gizlilik** | Orta | Düşük | Yüksek | Çok Yüksek | Orta |\r\n| **Zarar** | Dosya bozma | Ağ tıkanması | Sistem kontrolü | Veri çalma | Dosya şifreleme |\r\n| **Tespit** | Kolay | Kolay | Zor | Çok Zor | Orta |\r\n| **Temizleme** | Kolay | Kolay | Zor | Çok Zor | Zor |\r\n| **Amaç** | Bozma | Yayılma | Kontrol | Casusluk | Fidye |\r\n\r\n🔄 **Yayılma Yöntemleri:**\r\n• **Virüs:** Dosya kopyalama, e-posta ekleri\r\n• **Solucan:** Ağ açıklıkları, e-posta, USB\r\n• **Trojan:** Sahte yazılımlar, e-posta, web\r\n• **Spyware:** Gizli kurulum, bundle yazılımlar\r\n• **Ransomware:** E-posta, RDP, ağ açıklıkları\r\n\r\n🎯 **Hedef Türleri:**\r\n• **Virüs:** Genel kullanıcılar, dosya sistemleri\r\n• **Solucan:** Ağlar, sunucular, genel sistemler\r\n• **Trojan:** Özel hedefler, bankacılık\r\n• **Spyware:** Kişisel bilgiler, şifreler\r\n• **Ransomware:** Kurumsal hedefler, kritik sistemler\r\n\r\n💡 **Korunma Zorlukları:**\r\n• **Virüs:** Antivirüs ile kolay korunma\r\n• **Solucan:** Ağ güvenliği gerekli\r\n• **Trojan:** Kullanıcı eğitimi kritik\r\n• **Spyware:** Gelişmiş tespit gerekli\r\n• **Ransomware:** Çoklu koruma katmanı gerekli\r\n\r\n📈 **Tehdit Seviyeleri:**\r\n• **Düşük:** Virüs, Solucan\r\n• **Orta:** Trojan, Spyware\r\n• **Yüksek:** Ransomware\r\n• **Kritik:** APT (Advanced Persistent Threat)"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Malware Türleri",
+                    "type": "quiz",
+                    "question": "Hangi malware türü kendini diğer dosyalara kopyalayarak yayılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Solucan (Worm)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Virüs (Virus)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Trojan",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Spyware",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Virüsler, kendilerini diğer dosyalara kopyalayarak yayılan zararlı yazılımlardır. Solucanlar ağ üzerinden, Trojanlar kendilerini yararlı yazılım gibi göstererek, Spyware ise gizlice bilgi toplayarak yayılır."
+                }
+            ]
+        },
+        {
+            "id": "6_2",
+            "title": "Malware Dağıtım Yöntemleri",
+            "duration": "25",
+            "color": "#dc2626",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Malware'nin nasıl dağıtıldığını öğren, saldırı vektörlerini ve yayılma yöntemlerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "E-posta ile Malware Dağıtımı",
+                    "content": "E-posta, malware dağıtımının en yaygın ve etkili yöntemlerinden biridir. Saldırganlar, kullanıcıları kandırmak için çeşitli teknikler kullanır.\r\n\r\n📧 **E-posta Saldırı Türleri:**\r\n\r\n**1. Phishing E-postaları:**\r\n• Sahte e-postalar gönderir\r\n• Güvenilir kaynakları taklit eder\r\n• Örnek: \"Banka hesabınızı doğrulayın\" e-postaları\r\n\r\n**2. Malicious Attachments:**\r\n• Zararlı dosya ekleri\r\n• .exe, .zip, .pdf dosyaları\r\n• Örnek: \"Fatura.pdf.exe\" gibi sahte dosyalar\r\n\r\n**3. Malicious Links:**\r\n• Zararlı web sitelerine yönlendirme\r\n• Kısaltılmış URL'ler\r\n• Örnek: bit.ly, tinyurl.com linkleri\r\n\r\n**4. Spear Phishing:**\r\n• Hedefli saldırılar\r\n• Kişisel bilgiler kullanır\r\n• Örnek: \"Merhaba [İsim], projeniz hakkında...\"\r\n\r\n**5. Whaling:**\r\n• Üst düzey yöneticilere saldırı\r\n• CEO, CFO gibi hedefler\r\n• Örnek: \"Acil: Finansal rapor\" e-postaları\r\n\r\n**6. Business Email Compromise (BEC):**\r\n• İş e-postası sahteciliği\r\n• Finansal işlemleri hedefler\r\n• Örnek: \"Acil ödeme yapın\" e-postaları\r\n\r\n🎯 **E-posta Saldırı Teknikleri:**\r\n• **Sosyal mühendislik:** Kullanıcıyı manipüle etme\r\n• **Aciliyet yaratma:** \"Acil\", \"Hemen\" gibi kelimeler\r\n• **Yetkili kişi taklit etme:** CEO, IT departmanı\r\n• **Güvenilir kaynak görünme:** Banka, devlet kurumu\r\n• **Merak uyandırma:** \"Bu videoyu izleyin\"\r\n• **Korku yaratma:** \"Hesabınız kapatılacak\"\r\n\r\n📊 **E-posta Saldırı İstatistikleri (2024):**\r\n• %91 saldırı e-posta ile başlıyor\r\n• %30 kullanıcı şüpheli e-postaları açıyor\r\n• %12 zararlı bağlantılara tıklıyor\r\n• %8 zararlı ekleri açıyor\r\n• Ortalama maliyet: 1.6 milyon dolar\r\n• Günlük 3.4 milyar sahte e-posta gönderiliyor\r\n\r\n🛡️ **Korunma Yöntemleri:**\r\n• E-posta filtreleme yazılımları\r\n• Antivirüs taraması\r\n• Kullanıcı eğitimi\r\n• Şüpheli e-postaları doğrulama\r\n• Güvenli e-posta protokolleri (SPF, DKIM, DMARC)\r\n• İki faktörlü doğrulama\r\n• Düzenli güvenlik güncellemeleri"
+                },
+                {
+                    "id": "2",
+                    "title": "Web Tabanlı Saldırılar",
+                    "content": "Web siteleri, malware dağıtımı için yaygın kullanılan platformlardır. Saldırganlar, kullanıcıları zararlı web sitelerine yönlendirir.\r\n\r\n🌐 **Web Saldırı Türleri:**\r\n\r\n**1. Drive-by Downloads:**\r\n• Otomatik indirme\r\n• Kullanıcı etkileşimi gerektirmez\r\n• Örnek: Zararlı reklamlar, iframe injection\r\n\r\n**2. Malicious Ads (Malvertising):**\r\n• Zararlı reklamlar\r\n• Güvenilir web sitelerinde görünür\r\n• Örnek: Google Ads, Facebook reklamları\r\n\r\n**3. Watering Hole Attacks:**\r\n• Hedefli web siteleri\r\n• Belirli grupları hedefler\r\n• Örnek: Teknoloji blogları, haber siteleri\r\n\r\n**4. SEO Poisoning:**\r\n• Arama sonuçlarını manipüle etme\r\n• Popüler arama terimlerini kullanma\r\n• Örnek: \"Ücretsiz yazılım indir\" aramaları\r\n\r\n**5. Social Engineering:**\r\n• Kullanıcıyı kandırma\r\n• Sahte web siteleri\r\n• Örnek: \"Kazandınız!\" pop-up'ları\r\n\r\n**6. Zero-day Exploits:**\r\n• Bilinmeyen açıklıklar\r\n• Hızlı yayılma\r\n• Örnek: Browser açıklıkları, Flash Player\r\n\r\n🔧 **Web Saldırı Teknikleri:**\r\n• **Iframe Injection:** Gizli iframe ekleme\r\n• **JavaScript Obfuscation:** Kod gizleme\r\n• **Redirect Chains:** Yönlendirme zincirleri\r\n• **Exploit Kits:** Otomatik saldırı araçları\r\n• **Cross-Site Scripting (XSS):** Zararlı kod enjeksiyonu\r\n• **SQL Injection:** Veritabanı saldırıları\r\n\r\n💥 **Ünlü Web Saldırı Örnekleri:**\r\n• **Blackhole Exploit Kit (2010-2013):** En popüler exploit kit\r\n• **Angler Exploit Kit (2013-2016):** Crypto-ransomware dağıttı\r\n• **Rig Exploit Kit (2014-2019):** Banking trojanları dağıttı\r\n• **Fallout Exploit Kit (2018-2020):** Ransomware dağıttı\r\n• **GandCrab (2018-2019):** Ransomware dağıttı\r\n• **Maze (2019-2020):** Ransomware dağıttı\r\n\r\n📊 **Web Saldırı İstatistikleri (2024):**\r\n• %34 saldırı web üzerinden gerçekleşiyor\r\n• %67 web sitesi güvenlik açığı içeriyor\r\n• %23 zararlı reklam içeriyor\r\n• %45 JavaScript tabanlı saldırı\r\n• %12 iframe injection saldırısı\r\n• %8 drive-by download saldırısı\r\n\r\n🛡️ **Korunma Yöntemleri:**\r\n• Web filtreleme yazılımları\r\n• Ad blocker kullanımı\r\n• Güncel tarayıcı\r\n• JavaScript kontrolü\r\n• Güvenli web siteleri\r\n• Antivirüs yazılımı\r\n• Firewall kullanımı\r\n• Düzenli güvenlik güncellemeleri"
+                },
+                {
+                    "id": "3",
+                    "title": "USB ve Çıkarılabilir Medya",
+                    "content": "USB cihazlar ve çıkarılabilir medya, malware yayılımının fiziksel yöntemleridir. Saldırganlar, kullanıcıların merakını kullanır.\r\n\r\n💾 **USB Saldırı Türleri:**\r\n\r\n**1. Autorun Malware:**\r\n• Otomatik çalışma\r\n• Autorun.inf dosyası kullanır\r\n• Örnek: USB takıldığında otomatik çalışır\r\n\r\n**2. USB Drop Attacks:**\r\n• USB bırakma saldırıları\r\n• Sosyal mühendislik\r\n• Örnek: \"Şirket bilgileri\" etiketli USB\r\n\r\n**3. BadUSB:**\r\n• Firmware seviyesinde saldırı\r\n• Donanım seviyesinde değişiklik\r\n• Örnek: Klavye, mouse olarak tanınır\r\n\r\n**4. USB Killer:**\r\n• Donanım zararı\r\n• Fiziksel hasar verir\r\n• Örnek: Yüksek voltaj gönderir\r\n\r\n**5. Rubber Ducky:**\r\n• Klavye taklit etme\r\n• Otomatik tuş vuruşları\r\n• Örnek: \"Hacked by Rubber Ducky\"\r\n\r\n**6. USB HID Attacks:**\r\n• Human Interface Device saldırıları\r\n• Klavye, mouse olarak tanınır\r\n• Örnek: Otomatik komut çalıştırma\r\n\r\n🔧 **USB Saldırı Teknikleri:**\r\n• **Autorun.inf dosyası:** Otomatik çalışma\r\n• **Gizli dosyalar:** Sistem dosyaları gibi görünme\r\n• **Shortcut dosyaları:** .lnk dosyaları\r\n• **Fake folder icons:** Klasör simgesi taklit etme\r\n• **Executable files:** .exe dosyaları\r\n• **Script files:** .bat, .vbs dosyaları\r\n\r\n💥 **Ünlü USB Saldırı Örnekleri:**\r\n• **Stuxnet (2010):** USB ile yayıldı, İran'ın nükleer tesislerini hedef aldı\r\n• **Conficker (2008):** USB otomatik çalışma ile yayıldı\r\n• **Flame (2012):** USB aracılığıyla yayıldı\r\n• **USB Drop Attacks:** Sosyal mühendislik saldırıları\r\n• **BadUSB (2014):** Firmware seviyesinde saldırı\r\n• **USB Killer (2015):** Donanım zararı verdi\r\n\r\n📊 **USB Saldırı İstatistikleri (2024):**\r\n• %15 saldırı USB ile gerçekleşiyor\r\n• %45 kullanıcı bulduğu USB'yi kullanıyor\r\n• %23 USB'de malware bulunuyor\r\n• %67 USB güvenlik açığı içeriyor\r\n• %12 USB drop attack başarılı\r\n• %8 BadUSB saldırısı\r\n\r\n🛡️ **Korunma Yöntemleri:**\r\n• Autorun devre dışı bırakma\r\n• USB taraması\r\n• Güvenilir kaynaklardan USB kullanma\r\n• USB güvenlik yazılımları\r\n• Fiziksel güvenlik önlemleri\r\n• USB port kilitleme\r\n• Düzenli güvenlik güncellemeleri\r\n• Kullanıcı eğitimi"
+                },
+                {
+                    "id": "4",
+                    "title": "Sosyal Mühendislik ve İnsan Faktörü",
+                    "content": "Sosyal mühendislik, insan psikolojisini kullanarak malware yayılımını sağlar. En etkili saldırı yöntemlerinden biridir.\r\n\r\n🧠 **Sosyal Mühendislik Teknikleri:**\r\n\r\n**1. Pretexting:**\r\n• Sahte kimlik kullanma\r\n• Güvenilir kişi taklit etme\r\n• Örnek: \"IT departmanından arıyorum\"\r\n\r\n**2. Baiting:**\r\n• Yem bırakma\r\n• Merak uyandırma\r\n• Örnek: \"Ücretsiz yazılım\" USB'leri\r\n\r\n**3. Tailgating:**\r\n• Fiziksel takip\r\n• Güvenli alanlara girme\r\n• Örnek: \"Kapıyı tutar mısınız?\"\r\n\r\n**4. Quid Pro Quo:**\r\n• Karşılıklı fayda\r\n• Hizmet karşılığı bilgi\r\n• Örnek: \"Ücretsiz güvenlik taraması\"\r\n\r\n**5. Authority:**\r\n• Yetki kullanma\r\n• Üst düzey kişi taklit etme\r\n• Örnek: \"CEO'den gelen talimat\"\r\n\r\n**6. Scarcity:**\r\n• Kıtlık yaratma\r\n• Aciliyet hissi\r\n• Örnek: \"Sadece bugün geçerli\"\r\n\r\n**7. Urgency:**\r\n• Aciliyet yaratma\r\n• Hızlı karar verme\r\n• Örnek: \"Hemen yapmanız gerekiyor\"\r\n\r\n**8. Social Proof:**\r\n• Sosyal kanıt\r\n• Başkalarının yaptığını gösterme\r\n• Örnek: \"Binlerce kişi indirdi\"\r\n\r\n🎯 **İnsan Faktörü:**\r\n• **Merak:** Bilinmeyen şeylere ilgi\r\n• **Korku:** Tehdit algısı\r\n• **Açgözlülük:** Para kazanma isteği\r\n• **Yardım etme isteği:** İyi niyet\r\n• **Yetki saygısı:** Üst düzey kişilere saygı\r\n• **Sosyal kanıt:** Başkalarının yaptığını takip etme\r\n• **Aciliyet:** Hızlı karar verme\r\n• **Güven:** Tanıdık kaynaklara güvenme\r\n\r\n💥 **Ünlü Sosyal Mühendislik Saldırıları:**\r\n• **Kevin Mitnick (1990'lar):** En ünlü sosyal mühendis\r\n• **Target Breach (2013):** HVAC şirketi üzerinden saldırı\r\n• **Sony Pictures Hack (2014):** E-posta ile yayıldı\r\n• **Twitter Bitcoin Scam (2020):** Ünlü hesapları ele geçirdi\r\n• **Colonial Pipeline (2021):** Ransomware saldırısı\r\n• **Kaseya (2021):** Supply chain saldırısı\r\n• **SolarWinds (2020):** Devlet kurumlarını hedef aldı\r\n• **Microsoft Exchange (2021):** E-posta sunucularını hedef aldı\r\n\r\n📊 **Sosyal Mühendislik İstatistikleri (2024):**\r\n• %98 saldırı sosyal mühendislik içeriyor\r\n• %85 kullanıcı sosyal mühendislik kurbanı\r\n• %67 saldırı e-posta ile başlıyor\r\n• %45 telefon ile gerçekleşiyor\r\n• %23 fiziksel erişim ile\r\n• %12 sosyal medya üzerinden\r\n• %8 SMS ile\r\n\r\n🛡️ **Korunma Yöntemleri:**\r\n• Güvenlik eğitimi\r\n• Şüpheci yaklaşım\r\n• Doğrulama prosedürleri\r\n• Güvenlik politikaları\r\n• Incident response planı\r\n• Düzenli güvenlik testleri\r\n• Kullanıcı farkındalığı\r\n• Güvenlik kültürü oluşturma"
+                },
+                {
+                    "id": "5",
+                    "title": "Mobil Cihazlar ve IoT",
+                    "content": "Mobil cihazlar ve IoT cihazları, malware dağıtımının yeni hedefleridir. Saldırganlar, bu cihazların güvenlik açıklarını kullanır.\r\n\r\n📱 **Mobil Saldırı Türleri:**\r\n\r\n**1. Malicious Apps:**\r\n• Zararlı uygulamalar\r\n• Sahte uygulamalar\r\n• Örnek: \"Ücretsiz antivirüs\" uygulamaları\r\n\r\n**2. SMS Phishing (Smishing):**\r\n• SMS ile phishing\r\n• Kısa mesaj saldırıları\r\n• Örnek: \"Hesabınızı doğrulayın\" mesajları\r\n\r\n**3. QR Code Attacks:**\r\n• QR kod saldırıları\r\n• Zararlı web sitelerine yönlendirme\r\n• Örnek: \"Ücretsiz WiFi\" QR kodları\r\n\r\n**4. Bluetooth Attacks:**\r\n• Bluetooth açıklıkları\r\n• Yakın mesafe saldırıları\r\n• Örnek: BlueBorne saldırısı\r\n\r\n**5. WiFi Attacks:**\r\n• Sahte WiFi ağları\r\n• Man-in-the-middle saldırıları\r\n• Örnek: \"Free WiFi\" ağları\r\n\r\n**6. Mobile Ransomware:**\r\n• Mobil cihazları kilitleme\r\n• Fidye talep etme\r\n• Örnek: Android.Lockscreen\r\n\r\n🏠 **IoT Saldırı Türleri:**\r\n\r\n**1. Default Credentials:**\r\n• Varsayılan şifreler\r\n• Güvenlik ayarları\r\n• Örnek: admin/admin şifreleri\r\n\r\n**2. Firmware Attacks:**\r\n• Firmware seviyesinde saldırı\r\n• Donanım seviyesinde değişiklik\r\n• Örnek: Router firmware saldırıları\r\n\r\n**3. Botnet Recruitment:**\r\n• Botnet oluşturma\r\n• DDoS saldırıları\r\n• Örnek: Mirai botnet\r\n\r\n**4. Data Exfiltration:**\r\n• Veri çalma\r\n• Gizlilik ihlali\r\n• Örnek: Akıllı ev cihazları\r\n\r\n**5. Physical Attacks:**\r\n• Fiziksel erişim\r\n• Donanım manipülasyonu\r\n• Örnek: USB port saldırıları\r\n\r\n💥 **Ünlü Mobil ve IoT Saldırıları:**\r\n• **Mirai Botnet (2016):** IoT cihazlarını ele geçirdi\r\n• **WannaCry (2017):** Mobil cihazları da etkiledi\r\n• **BlueBorne (2017):** Bluetooth açığını kullandı\r\n• **KRACK (2017):** WiFi güvenlik açığı\r\n• **Spectre/Meltdown (2018):** CPU güvenlik açıkları\r\n• **EternalBlue (2017):** Windows SMB açığı\r\n• **Zerologon (2020):** Active Directory açığı\r\n• **Log4j (2021):** Java kütüphanesi açığı\r\n\r\n📊 **Mobil ve IoT Saldırı İstatistikleri (2024):**\r\n• %67 mobil cihaz güvenlik açığı\r\n• %45 IoT cihaz güvenlik açığı\r\n• %23 mobil uygulama güvenlik açığı\r\n• %34 IoT cihaz varsayılan şifre\r\n• %56 mobil cihaz güvenlik yazılımı yok\r\n• %78 IoT cihaz güvenlik yazılımı yok\r\n• %12 mobil cihaz root/jailbreak\r\n• %8 IoT cihaz güvenlik güncellemesi\r\n\r\n🛡️ **Korunma Yöntemleri:**\r\n• Güvenilir uygulama mağazaları\r\n• Güvenlik yazılımları\r\n• Düzenli güvenlik güncellemeleri\r\n• Güçlü şifreler\r\n• İki faktörlü doğrulama\r\n• Güvenli WiFi ağları\r\n• Bluetooth güvenliği\r\n• IoT cihaz güvenliği\r\n• Kullanıcı eğitimi\r\n• Güvenlik politikaları"
+                },
+                {
+                    "id": "6",
+                    "title": "Supply Chain ve Third-Party Saldırıları",
+                    "content": "Supply chain ve third-party saldırıları, güvenilir kaynaklar üzerinden malware dağıtımını hedefler. En tehlikeli saldırı türlerinden biridir.\r\n\r\n🔗 **Supply Chain Saldırı Türleri:**\r\n\r\n**1. Software Supply Chain:**\r\n• Yazılım tedarik zinciri\r\n• Güvenilir yazılımlara zararlı kod ekleme\r\n• Örnek: SolarWinds saldırısı\r\n\r\n**2. Hardware Supply Chain:**\r\n• Donanım tedarik zinciri\r\n• Üretim sürecinde zararlı kod ekleme\r\n• Örnek: Supermicro saldırısı\r\n\r\n**3. Third-Party Vendors:**\r\n• Üçüncü taraf tedarikçiler\r\n• Güvenilir şirketler üzerinden saldırı\r\n• Örnek: Target saldırısı\r\n\r\n**4. Open Source Libraries:**\r\n• Açık kaynak kütüphaneler\r\n• Popüler kütüphanelere zararlı kod ekleme\r\n• Örnek: Log4j saldırısı\r\n\r\n**5. Cloud Services:**\r\n• Bulut hizmetleri\r\n• SaaS uygulamaları\r\n• Örnek: Microsoft 365 saldırıları\r\n\r\n**6. Managed Service Providers (MSP):**\r\n• Yönetilen hizmet sağlayıcıları\r\n• IT hizmet sağlayıcıları\r\n• Örnek: Kaseya saldırısı\r\n\r\n🎯 **Third-Party Saldırı Türleri:**\r\n\r\n**1. Vendor Compromise:**\r\n• Tedarikçi hesabı ele geçirme\r\n• Güvenilir kaynak taklit etme\r\n• Örnek: E-posta sahteciliği\r\n\r\n**2. Partner Network:**\r\n• İş ortağı ağı\r\n• Güvenilir bağlantılar\r\n• Örnek: B2B saldırıları\r\n\r\n**3. Customer Data:**\r\n• Müşteri verileri\r\n• Veri ihlali\r\n• Örnek: Veri tabanı saldırıları\r\n\r\n**4. API Attacks:**\r\n• API güvenlik açıkları\r\n• Üçüncü taraf entegrasyonları\r\n• Örnek: OAuth saldırıları\r\n\r\n**5. Social Engineering:**\r\n• Sosyal mühendislik\r\n• Güvenilir kişi taklit etme\r\n• Örnek: CEO sahteciliği\r\n\r\n💥 **Ünlü Supply Chain Saldırıları:**\r\n• **SolarWinds (2020):** Devlet kurumlarını hedef aldı\r\n• **Kaseya (2021):** MSP'leri hedef aldı\r\n• **Log4j (2021):** Java kütüphanesi açığı\r\n• **Target (2013):** HVAC şirketi üzerinden saldırı\r\n• **Home Depot (2014):** POS sistemi saldırısı\r\n• **Equifax (2017):** Veri ihlali\r\n• **Marriott (2018):** Veri ihlali\r\n• **Capital One (2019):** Bulut güvenlik açığı\r\n\r\n📊 **Supply Chain Saldırı İstatistikleri (2024):**\r\n• %62 saldırı supply chain üzerinden\r\n• %45 third-party güvenlik açığı\r\n• %34 yazılım tedarik zinciri saldırısı\r\n• %23 donanım tedarik zinciri saldırısı\r\n• %56 açık kaynak kütüphanesi açığı\r\n• %78 üçüncü taraf güvenlik açığı\r\n• %12 MSP güvenlik açığı\r\n• %8 bulut hizmeti güvenlik açığı\r\n\r\n🛡️ **Korunma Yöntemleri:**\r\n• Vendor risk değerlendirmesi\r\n• Güvenlik gereksinimleri\r\n• Düzenli güvenlik denetimleri\r\n• Güvenlik sözleşmeleri\r\n• Incident response planı\r\n• Güvenlik eğitimi\r\n• Güvenlik izleme\r\n• Güvenlik politikaları\r\n• Güvenlik standartları\r\n• Güvenlik sertifikaları"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Malware Dağıtım Yöntemleri",
+                    "type": "quiz",
+                    "question": "Hangi yöntem malware dağıtımında en yaygın kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "USB cihazlar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "E-posta",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Web siteleri",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sosyal medya",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "E-posta, malware dağıtımının en yaygın yöntemidir. %91 saldırı e-posta ile başlar. Phishing, zararlı ekler ve zararlı bağlantılar en yaygın e-posta saldırı türleridir."
+                }
+            ]
+        },
+        {
+            "id": "6_3",
+            "title": "Malware Tespiti ve Temizleme",
+            "duration": "30",
+            "color": "#b91c1c",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Malware tespit yöntemlerini öğren, temizleme tekniklerini uygula ve sistem güvenliğini sağla.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Malware Tespit Yöntemleri",
+                    "content": "Malware tespiti, güvenlik açısından kritik bir süreçtir. Farklı tespit yöntemleri kullanılarak zararlı yazılımlar belirlenir.\r\n\r\n🔍 **Tespit Yöntemleri:**\r\n\r\n**1. Signature-based Detection:**\r\n• İmza tabanlı tespit\r\n• Bilinen malware imzalarını kullanır\r\n• Hızlı ve güvenilir\r\n• Örnek: Antivirüs yazılımları\r\n\r\n**2. Heuristic Analysis:**\r\n• Sezgisel analiz\r\n• Şüpheli davranışları tespit eder\r\n• Bilinmeyen malware'leri yakalar\r\n• Örnek: Davranış analizi\r\n\r\n**3. Behavior-based Detection:**\r\n• Davranış tabanlı tespit\r\n• Anormal sistem davranışlarını izler\r\n• Gerçek zamanlı koruma\r\n• Örnek: EDR çözümleri\r\n\r\n**4. Sandbox Analysis:**\r\n• Sandbox analizi\r\n• İzole ortamda test eder\r\n• Güvenli analiz ortamı\r\n• Örnek: Cuckoo Sandbox\r\n\r\n**5. Machine Learning:**\r\n• Makine öğrenmesi\r\n• Yapay zeka tabanlı tespit\r\n• Sürekli öğrenme\r\n• Örnek: AI tabanlı antivirüs\r\n\r\n**6. Cloud-based Detection:**\r\n• Bulut tabanlı tespit\r\n• Merkezi analiz\r\n• Güncel veritabanı\r\n• Örnek: Cloud antivirüs\r\n\r\n📊 **Tespit İndikatörleri:**\r\n• Anormal ağ trafiği\r\n• Beklenmeyen dosya değişiklikleri\r\n• Sistem performans düşüşü\r\n• Şüpheli işlemler\r\n• Registry değişiklikleri\r\n• Process anomalies\r\n• Memory usage spikes\r\n• CPU usage anomalies\r\n\r\n⚠️ **Tespit Zorlukları:**\r\n• Zero-day malware\r\n• Polymorphic malware\r\n• Encrypted malware\r\n• Fileless malware\r\n• Living off the land\r\n• Advanced Persistent Threats (APT)\r\n• Rootkit malware\r\n• Steganography"
+                },
+                {
+                    "id": "2",
+                    "title": "Antivirüs Yazılımları ve Araçları",
+                    "content": "Antivirüs yazılımları, malware tespiti ve temizlemesi için temel araçlardır. Farklı türleri ve özellikleri vardır.\r\n\r\n🛡️ **Antivirüs Türleri:**\r\n\r\n**1. Real-time Protection:**\r\n• Gerçek zamanlı koruma\r\n• Sürekli sistem izleme\r\n• Anında tespit ve engelleme\r\n• Örnek: Windows Defender\r\n\r\n**2. On-demand Scanning:**\r\n• İsteğe bağlı tarama\r\n• Manuel tarama\r\n• Detaylı analiz\r\n• Örnek: Malwarebytes\r\n\r\n**3. Cloud-based:**\r\n• Bulut tabanlı\r\n• Merkezi veritabanı\r\n• Güncel imzalar\r\n• Örnek: Panda Cloud\r\n\r\n**4. Machine Learning:**\r\n• Makine öğrenmesi\r\n• AI tabanlı tespit\r\n• Sürekli öğrenme\r\n• Örnek: Cylance\r\n\r\n**5. Behavioral Analysis:**\r\n• Davranış analizi\r\n• Anormal davranış tespiti\r\n• Gerçek zamanlı izleme\r\n• Örnek: CrowdStrike\r\n\r\n💻 **Popüler Antivirüs Yazılımları:**\r\n\r\n**Ücretsiz:**\r\n• Windows Defender (Microsoft)\r\n• Avast Free\r\n• AVG Free\r\n• Bitdefender Free\r\n• Kaspersky Free\r\n\r\n**Ücretli:**\r\n• Norton (Symantec)\r\n• McAfee (Intel)\r\n• Kaspersky Total Security\r\n• Bitdefender Total Security\r\n• Trend Micro\r\n• ESET NOD32\r\n• Malwarebytes Premium\r\n\r\n🔧 **Antivirüs Özellikleri:**\r\n• Real-time scanning\r\n• Scheduled scans\r\n• Quarantine\r\n• Automatic updates\r\n• Web protection\r\n• Email protection\r\n• Firewall integration\r\n• Parental controls\r\n• Password manager\r\n• VPN integration\r\n\r\n📈 **Antivirüs Sınırlamaları:**\r\n• Zero-day threats\r\n• False positives\r\n• Performance impact\r\n• Evasion techniques\r\n• Rootkit detection\r\n• Encrypted malware\r\n• Fileless malware\r\n• Advanced threats"
+                },
+                {
+                    "id": "3",
+                    "title": "Malware Analiz Araçları",
+                    "content": "Malware analizi için özel araçlar kullanılır. Bu araçlar, zararlı yazılımları detaylı olarak analiz eder.\r\n\r\n🔬 **Statik Analiz Araçları:**\r\n\r\n**1. IDA Pro:**\r\n• Profesyonel disassembler\r\n• Hex editör\r\n• Debugger\r\n• Örnek: Reverse engineering\r\n\r\n**2. Ghidra:**\r\n• NSA'nın ücretsiz aracı\r\n• Açık kaynak\r\n• Disassembler\r\n• Örnek: Malware analizi\r\n\r\n**3. Radare2:**\r\n• Açık kaynak analiz\r\n• Komut satırı aracı\r\n• Scripting desteği\r\n• Örnek: Otomatik analiz\r\n\r\n**4. PEiD:**\r\n• PE dosya analizi\r\n• Packer tespiti\r\n• Compiler tespiti\r\n• Örnek: Windows executable analizi\r\n\r\n**5. Strings:**\r\n• String extraction\r\n• Metin çıkarma\r\n• Komut satırı aracı\r\n• Örnek: Şüpheli stringler\r\n\r\n**6. Hex Editors:**\r\n• HxD\r\n• 010 Editor\r\n• Hex Workshop\r\n• Örnek: Binary analiz\r\n\r\n⚡ **Dinamik Analiz Araçları:**\r\n\r\n**1. Cuckoo Sandbox:**\r\n• Otomatik analiz\r\n• Açık kaynak\r\n• Detaylı raporlar\r\n• Örnek: Malware analizi\r\n\r\n**2. Any.run:**\r\n• Online sandbox\r\n• Gerçek zamanlı analiz\r\n• Web tabanlı\r\n• Örnek: Hızlı analiz\r\n\r\n**3. Joe Sandbox:**\r\n• Bulut tabanlı analiz\r\n• Profesyonel raporlar\r\n• API desteği\r\n• Örnek: Kurumsal analiz\r\n\r\n**4. Hybrid Analysis:**\r\n• Hibrit analiz\r\n• Statik + dinamik\r\n• Ücretsiz\r\n• Örnek: Kapsamlı analiz\r\n\r\n**5. VirusTotal:**\r\n• Dosya analizi\r\n• Çoklu motor\r\n• Ücretsiz\r\n• Örnek: Hızlı tespit\r\n\r\n🌐 **Network Analiz Araçları:**\r\n• Wireshark: Ağ trafiği analizi\r\n• tcpdump: Komut satırı analiz\r\n• Netstat: Ağ bağlantıları\r\n• Fiddler: HTTP analizi\r\n• Burp Suite: Web güvenlik testi\r\n\r\n💻 **Sistem Analiz Araçları:**\r\n• Process Explorer: İşlem yöneticisi\r\n• Autoruns: Otomatik başlatma\r\n• Regedit: Registry düzenleyici\r\n• Event Viewer: Olay görüntüleyici\r\n• Task Manager: Görev yöneticisi"
+                },
+                {
+                    "id": "4",
+                    "title": "Malware Temizleme Süreci",
+                    "content": "Malware temizleme, sistematik bir yaklaşım gerektirir. Doğru adımlar izlenerek etkili temizleme yapılabilir.\r\n\r\n🔄 **Temizleme Adımları:**\r\n\r\n**1. Sistemi İzole Etme:**\r\n• Ağ bağlantısını kesme\r\n• İnternet erişimini engelleme\r\n• Diğer sistemlerle iletişimi kesme\r\n• Örnek: Ethernet kablosunu çıkarma\r\n\r\n**2. Malware Türünü Belirleme:**\r\n• Hangi tür malware olduğunu tespit etme\r\n• Davranış analizi yapma\r\n• Etkilenen dosyaları belirleme\r\n• Örnek: Virüs, trojan, ransomware\r\n\r\n**3. Temizleme Planı Oluşturma:**\r\n• Hangi araçları kullanacağını belirleme\r\n• Temizleme sırasını planlama\r\n• Yedekleme stratejisi\r\n• Örnek: Önce antivirüs, sonra manuel temizlik\r\n\r\n**4. Yedekleme Yapma:**\r\n• Önemli dosyaları yedekleme\r\n• Sistem durumunu kaydetme\r\n• Registry yedeği\r\n• Örnek: Kritik verileri USB'ye kopyalama\r\n\r\n**5. Temizleme İşlemi:**\r\n• Antivirüs taraması\r\n• Manuel temizlik\r\n• Registry temizliği\r\n• Örnek: Quarantine'den silme\r\n\r\n**6. Sistem Doğrulama:**\r\n• Temizleme sonrası kontrol\r\n• Performans testi\r\n• Güvenlik taraması\r\n• Örnek: İkinci tarama\r\n\r\n**7. Güvenlik Güncellemeleri:**\r\n• İşletim sistemi güncellemeleri\r\n• Antivirüs güncellemeleri\r\n• Güvenlik yamaları\r\n• Örnek: Windows Update\r\n\r\n**8. Monitoring:**\r\n• Sürekli izleme\r\n• Anormal davranış kontrolü\r\n• Log analizi\r\n• Örnek: 24 saat izleme\r\n\r\n🛠️ **Temizleme Yöntemleri:**\r\n\r\n**Otomatik Temizleme:**\r\n• Antivirüs yazılımları\r\n• Otomatik temizleme araçları\r\n• Hızlı ve kolay\r\n• Örnek: Windows Defender\r\n\r\n**Manuel Temizleme:**\r\n• Registry düzenleme\r\n• Dosya silme\r\n• Servis durdurma\r\n• Örnek: Advanced users\r\n\r\n**Sistem Geri Yükleme:**\r\n• System Restore\r\n• Backup'tan geri yükleme\r\n• Temiz kurulum\r\n• Örnek: Windows System Restore\r\n\r\n**Tam Format:**\r\n• Disk formatlama\r\n• İşletim sistemi yeniden kurulum\r\n• En etkili yöntem\r\n• Örnek: Clean install\r\n\r\n**Live CD Kullanımı:**\r\n• Bootable antivirüs\r\n• İşletim sistemi dışında tarama\r\n• Etkili temizleme\r\n• Örnek: Kaspersky Rescue Disk"
+                },
+                {
+                    "id": "5",
+                    "title": "Temizleme Araçları ve Teknikleri",
+                    "content": "Malware temizleme için özel araçlar ve teknikler kullanılır. Bu araçlar, farklı malware türlerini etkili şekilde temizler.\r\n\r\n🔧 **Temizleme Araçları:**\r\n\r\n**1. Malwarebytes:**\r\n• Premium malware temizleme\r\n• Real-time protection\r\n• Ransomware koruması\r\n• Örnek: Malwarebytes Premium\r\n\r\n**2. AdwCleaner:**\r\n• Adware temizleme\r\n• Browser hijacker temizleme\r\n• Ücretsiz\r\n• Örnek: Malwarebytes AdwCleaner\r\n\r\n**3. RKill:**\r\n• Malware işlemlerini durdurma\r\n• Temizleme öncesi hazırlık\r\n• Ücretsiz\r\n• Örnek: RKill.exe\r\n\r\n**4. TDSSKiller:**\r\n• Rootkit temizleme\r\n• Kaspersky aracı\r\n• Ücretsiz\r\n• Örnek: TDSSKiller\r\n\r\n**5. ComboFix:**\r\n• Gelişmiş temizleme\r\n• Otomatik temizlik\r\n• Ücretsiz\r\n• Örnek: ComboFix\r\n\r\n**6. HitmanPro:**\r\n• Cloud tabanlı temizleme\r\n• Hızlı tarama\r\n• Ücretsiz deneme\r\n• Örnek: HitmanPro\r\n\r\n**7. ESET Online Scanner:**\r\n• Online tarama\r\n• Ücretsiz\r\n• Web tabanlı\r\n• Örnek: ESET Online Scanner\r\n\r\n**8. Windows Defender Offline:**\r\n• Offline tarama\r\n• Bootable\r\n• Ücretsiz\r\n• Örnek: Windows Defender Offline\r\n\r\n⚙️ **Temizleme Teknikleri:**\r\n\r\n**1. Safe Mode Temizleme:**\r\n• Güvenli modda başlatma\r\n• Minimal servisler\r\n• Etkili temizleme\r\n• Örnek: F8 tuşu ile güvenli mod\r\n\r\n**2. Registry Temizleme:**\r\n• Registry düzenleme\r\n• Zararlı kayıtları silme\r\n• Dikkatli olunmalı\r\n• Örnek: Regedit kullanımı\r\n\r\n**3. Dosya Temizleme:**\r\n• Zararlı dosyaları silme\r\n• Sistem dosyalarını koruma\r\n• Yedekleme önemli\r\n• Örnek: Temp klasörü temizliği\r\n\r\n**4. Servis Temizleme:**\r\n• Zararlı servisleri durdurma\r\n• Otomatik başlatmayı engelleme\r\n• Sistem servislerini koruma\r\n• Örnek: Services.msc\r\n\r\n**5. Startup Temizleme:**\r\n• Otomatik başlatmayı engelleme\r\n• Startup klasörü temizliği\r\n• Registry startup temizliği\r\n• Örnek: MSConfig\r\n\r\n**6. Browser Temizleme:**\r\n• Browser hijacker temizleme\r\n• Extension temizleme\r\n• Homepage düzeltme\r\n• Örnek: Chrome reset\r\n\r\n📋 **Temizleme Sonrası:**\r\n• Sistem taraması\r\n• Güvenlik güncellemeleri\r\n• Şifre değişikliği\r\n• Güvenlik yazılımı kurulumu\r\n• Backup kontrolü\r\n• Monitoring kurulumu\r\n• Güvenlik politikaları\r\n• Kullanıcı eğitimi"
+                },
+                {
+                    "id": "6",
+                    "title": "Incident Response ve Forensic",
+                    "content": "Malware saldırılarına karşı hızlı ve etkili müdahale gereklidir. Incident response ve forensic analiz kritik öneme sahiptir.\r\n\r\n🚨 **Incident Response Adımları:**\r\n\r\n**1. Preparation (Hazırlık):**\r\n• Response planı hazırlama\r\n• Ekip oluşturma\r\n• Araçları hazırlama\r\n• Örnek: Incident response planı\r\n\r\n**2. Identification (Tespit):**\r\n• Saldırıyı tespit etme\r\n• Etki alanını belirleme\r\n• Öncelik sıralaması\r\n• Örnek: SIEM uyarıları\r\n\r\n**3. Containment (İzolasyon):**\r\n• Saldırıyı izole etme\r\n• Yayılmayı engelleme\r\n• Sistemleri ayırma\r\n• Örnek: Ağ segmentasyonu\r\n\r\n**4. Eradication (Temizleme):**\r\n• Malware'i temizleme\r\n• Açıklıkları kapatma\r\n• Sistemleri güvenli hale getirme\r\n• Örnek: Antivirüs taraması\r\n\r\n**5. Recovery (Kurtarma):**\r\n• Sistemleri geri yükleme\r\n• Hizmetleri başlatma\r\n• Monitoring kurma\r\n• Örnek: Backup'tan geri yükleme\r\n\r\n**6. Lessons Learned (Dersler):**\r\n• Analiz yapma\r\n• İyileştirmeler\r\n• Plan güncelleme\r\n• Örnek: Post-incident review\r\n\r\n👥 **Response Ekibi:**\r\n• Incident Commander\r\n• Technical Lead\r\n• Communications Lead\r\n• Legal Counsel\r\n• Management\r\n• External Experts\r\n\r\n🔍 **Forensic Analiz:**\r\n\r\n**1. Digital Forensics:**\r\n• Dijital adli analiz\r\n• Kanıt toplama\r\n• Analiz yapma\r\n• Örnek: Disk imajı alma\r\n\r\n**2. Network Forensics:**\r\n• Ağ adli analiz\r\n• Trafik analizi\r\n• Log analizi\r\n• Örnek: Wireshark analizi\r\n\r\n**3. Memory Forensics:**\r\n• Bellek adli analiz\r\n• RAM analizi\r\n• Process analizi\r\n• Örnek: Volatility kullanımı\r\n\r\n**4. Mobile Forensics:**\r\n• Mobil adli analiz\r\n• Telefon analizi\r\n• App analizi\r\n• Örnek: Cellebrite\r\n\r\n**5. Cloud Forensics:**\r\n• Bulut adli analiz\r\n• SaaS analizi\r\n• API analizi\r\n• Örnek: AWS CloudTrail\r\n\r\n🛠️ **Forensic Araçları:**\r\n• Volatility: Bellek analizi\r\n• Autopsy: Dijital adli analiz\r\n• FTK: Forensic Toolkit\r\n• EnCase: Adli analiz\r\n• X-Ways Forensics\r\n• Sleuth Kit\r\n• Plaso: Timeline analizi\r\n\r\n📊 **Forensic Kanıtları:**\r\n• File system artifacts\r\n• Registry entries\r\n• Network logs\r\n• Memory dumps\r\n• Browser history\r\n• Email headers\r\n• Application logs\r\n• System logs\r\n\r\n⚠️ **Forensic Zorlukları:**\r\n• Encryption\r\n• Anti-forensics\r\n• Cloud storage\r\n• Mobile devices\r\n• Legal requirements\r\n• Chain of custody\r\n• Evidence preservation\r\n• Time synchronization"
+                },
+                {
+                    "id": "7",
+                    "title": "Korunma ve Önleme Stratejileri",
+                    "content": "Malware saldırılarından korunmak için kapsamlı stratejiler uygulanmalıdır. Önleme, tedaviden daha etkilidir.\r\n\r\n🛡️ **Korunma Stratejileri:**\r\n\r\n**1. Defense in Depth:**\r\n• Çoklu güvenlik katmanları\r\n• Fiziksel güvenlik\r\n• Ağ güvenliği\r\n• Sistem güvenliği\r\n• Uygulama güvenliği\r\n• Veri güvenliği\r\n• Kullanıcı güvenliği\r\n\r\n**2. Zero Trust Model:**\r\n• Hiçbir şeye güvenme\r\n• Her şeyi doğrulama\r\n• Minimum ayrıcalık\r\n• Sürekli izleme\r\n• Örnek: Microsoft Zero Trust\r\n\r\n**3. Least Privilege:**\r\n• Minimum ayrıcalık\r\n• Sadece gerekli izinler\r\n• Düzenli izin gözden geçirme\r\n• Örnek: User Access Review\r\n\r\n**4. Network Segmentation:**\r\n• Ağ segmentasyonu\r\n• Güvenlik bölgeleri\r\n• Firewall kuralları\r\n• Örnek: DMZ oluşturma\r\n\r\n**5. Endpoint Protection:**\r\n• Endpoint güvenliği\r\n• EDR çözümleri\r\n• Antivirüs yazılımları\r\n• Örnek: CrowdStrike Falcon\r\n\r\n**6. Email Security:**\r\n• E-posta güvenliği\r\n• Spam filtreleme\r\n• Phishing koruması\r\n• Örnek: Proofpoint\r\n\r\n**7. Web Security:**\r\n• Web güvenliği\r\n• URL filtreleme\r\n• Malware koruması\r\n• Örnek: Cisco Umbrella\r\n\r\n**8. Backup and Recovery:**\r\n• Yedekleme\r\n• Disaster recovery\r\n• Business continuity\r\n• Örnek: Veeam Backup\r\n\r\n📚 **Kullanıcı Eğitimi:**\r\n\r\n**1. Security Awareness:**\r\n• Güvenlik farkındalığı\r\n• Düzenli eğitimler\r\n• Simulated attacks\r\n• Örnek: Phishing simulations\r\n\r\n**2. Best Practices:**\r\n• En iyi uygulamalar\r\n• Güvenlik politikaları\r\n• Prosedürler\r\n• Örnek: Password policy\r\n\r\n**3. Incident Reporting:**\r\n• Olay bildirimi\r\n• Hızlı müdahale\r\n• Communication\r\n• Örnek: Security hotline\r\n\r\n**4. Regular Updates:**\r\n• Düzenli güncellemeler\r\n• Security patches\r\n• Software updates\r\n• Örnek: Patch Tuesday\r\n\r\n🔧 **Teknik Kontroller:**\r\n\r\n**1. Antivirus Software:**\r\n• Gerçek zamanlı koruma\r\n• Otomatik güncellemeler\r\n• Centralized management\r\n• Örnek: Symantec Endpoint\r\n\r\n**2. Firewalls:**\r\n• Network firewalls\r\n• Host firewalls\r\n• Application firewalls\r\n• Örnek: Palo Alto Networks\r\n\r\n**3. Intrusion Detection:**\r\n• IDS/IPS\r\n• Network monitoring\r\n• Anomaly detection\r\n• Örnek: Snort\r\n\r\n**4. SIEM:**\r\n• Security Information and Event Management\r\n• Log aggregation\r\n• Event correlation\r\n• Örnek: Splunk\r\n\r\n**5. Vulnerability Management:**\r\n• Vulnerability scanning\r\n• Patch management\r\n• Risk assessment\r\n• Örnek: Qualys VMDR\r\n\r\n**6. Access Control:**\r\n• Identity and Access Management\r\n• Multi-factor authentication\r\n• Single sign-on\r\n• Örnek: Okta\r\n\r\n📊 **Monitoring ve Analytics:**\r\n• Continuous monitoring\r\n• Threat intelligence\r\n• Behavioral analytics\r\n• Machine learning\r\n• Real-time alerts\r\n• Incident correlation\r\n• Risk assessment\r\n• Compliance monitoring"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Malware Tespiti ve Temizleme",
+                    "type": "quiz",
+                    "question": "Hangi yöntem malware tespitinde en etkilidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sadece signature-based detection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Sadece behavior-based detection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Hibrit yaklaşım (çoklu yöntem)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece machine learning",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Hibrit yaklaşım en etkilidir çünkü farklı tespit yöntemlerinin güçlü yanlarını birleştirir. Signature-based, behavior-based, heuristic ve machine learning yöntemlerini birlikte kullanarak daha kapsamlı koruma sağlar."
+                }
+            ]
+        },
+        {
+            "id": "6_4",
+            "title": "Zararlı Yazılımlardan Korunma Stratejileri",
+            "duration": "25",
+            "color": "#991b1b",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Malware'den korunma stratejilerini öğren, güvenlik önlemlerini uygula ve savunma katmanları oluştur.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Defense in Depth (Derinlemesine Savunma)",
+                    "content": "Defense in Depth, çoklu güvenlik katmanları kullanarak korunma stratejisidir. Tek bir güvenlik önlemi yeterli değildir.\r\n\r\n🛡️ **Savunma Katmanları:**\r\n\r\n**1. Physical Security (Fiziksel Güvenlik):**\r\n• Access control systems\r\n• CCTV monitoring\r\n• Biometric authentication\r\n• Secure disposal\r\n• Environmental controls\r\n• Badge systems\r\n• Visitor management\r\n• Perimeter security\r\n\r\n**2. Network Security (Ağ Güvenliği):**\r\n• Firewalls (Next-generation)\r\n• Intrusion Detection Systems (IDS)\r\n• Intrusion Prevention Systems (IPS)\r\n• Network segmentation\r\n• VPN (Virtual Private Network)\r\n• Network monitoring\r\n• DDoS protection\r\n• Network access control\r\n\r\n**3. Host Security (Sistem Güvenliği):**\r\n• Antivirus software\r\n• Endpoint protection\r\n• Patch management\r\n• Configuration management\r\n• Log monitoring\r\n• Backup systems\r\n• System hardening\r\n• Application whitelisting\r\n\r\n**4. Application Security (Uygulama Güvenliği):**\r\n• Secure coding practices\r\n• Application firewalls\r\n• Code review\r\n• Penetration testing\r\n• Vulnerability scanning\r\n• Runtime protection\r\n• API security\r\n• Input validation\r\n\r\n**5. Data Security (Veri Güvenliği):**\r\n• Encryption (at rest and in transit)\r\n• Data classification\r\n• Access controls\r\n• Data loss prevention (DLP)\r\n• Backup and recovery\r\n• Data masking\r\n• Tokenization\r\n• Data governance\r\n\r\n**6. User Security (Kullanıcı Güvenliği):**\r\n• Security awareness training\r\n• Multi-factor authentication\r\n• Password policies\r\n• User access reviews\r\n• Privileged access management\r\n• Social engineering awareness\r\n• Incident reporting\r\n• Security culture\r\n\r\n🎯 **Defense in Depth Avantajları:**\r\n• Tek nokta arızasına karşı koruma\r\n• Çoklu saldırı vektörlerine karşı savunma\r\n• Risk azaltma\r\n• Compliance sağlama\r\n• Güven artırma\r\n• Esneklik\r\n• Ölçeklenebilirlik\r\n• Sürekli iyileştirme\r\n\r\n📊 **Katman Etkinliği:**\r\n• Fiziksel güvenlik: %95\r\n• Ağ güvenliği: %90\r\n• Sistem güvenliği: %85\r\n• Uygulama güvenliği: %80\r\n• Veri güvenliği: %90\r\n• Kullanıcı güvenliği: %70\r\n• Kombine etkinlik: %99.9"
+                },
+                {
+                    "id": "2",
+                    "title": "Zero Trust Model ve Güvenlik Mimarisi",
+                    "content": "Zero Trust Model, \"hiçbir şeye güvenme, her şeyi doğrula\" prensibine dayanan güvenlik yaklaşımıdır.\r\n\r\n🔒 **Zero Trust Prensipleri:**\r\n\r\n**1. Never Trust, Always Verify:**\r\n• Hiçbir şeye güvenme\r\n• Her şeyi doğrula\r\n• Sürekli doğrulama\r\n• Örnek: Her erişimde kimlik doğrulama\r\n\r\n**2. Least Privilege Access:**\r\n• Minimum ayrıcalık\r\n• Sadece gerekli izinler\r\n• Zaman sınırlı erişim\r\n• Örnek: Just-in-time access\r\n\r\n**3. Assume Breach:**\r\n• İhlal olduğunu varsay\r\n• Savunma hazırlığı\r\n• Hızlı tespit\r\n• Örnek: Continuous monitoring\r\n\r\n**4. Micro-segmentation:**\r\n• Mikro segmentasyon\r\n• Ağ bölümleme\r\n• İzole edilmiş erişim\r\n• Örnek: Software-defined perimeters\r\n\r\n**5. Continuous Monitoring:**\r\n• Sürekli izleme\r\n• Gerçek zamanlı analiz\r\n• Anormal davranış tespiti\r\n• Örnek: SIEM systems\r\n\r\n🏗️ **Zero Trust Mimarisi:**\r\n\r\n**1. Identity and Access Management (IAM):**\r\n• Multi-factor authentication\r\n• Single sign-on (SSO)\r\n• Privileged access management\r\n• Identity governance\r\n• Örnek: Okta, Azure AD\r\n\r\n**2. Device Security:**\r\n• Device compliance\r\n• Mobile device management\r\n• Endpoint detection and response\r\n• Device encryption\r\n• Örnek: Microsoft Intune\r\n\r\n**3. Network Security:**\r\n• Software-defined perimeters\r\n• Network segmentation\r\n• Zero trust network access\r\n• Micro-segmentation\r\n• Örnek: Zscaler, Cloudflare\r\n\r\n**4. Application Security:**\r\n• Application-level controls\r\n• API security\r\n• Runtime protection\r\n• Secure development\r\n• Örnek: OWASP guidelines\r\n\r\n**5. Data Security:**\r\n• Data classification\r\n• Encryption\r\n• Data loss prevention\r\n• Rights management\r\n• Örnek: Microsoft Purview\r\n\r\n**6. Security Operations:**\r\n• Security information and event management\r\n• Threat intelligence\r\n• Incident response\r\n• Security orchestration\r\n• Örnek: Splunk, IBM QRadar\r\n\r\n💡 **Zero Trust Avantajları:**\r\n• Gelişmiş güvenlik\r\n• Risk azaltma\r\n• Compliance\r\n• Esneklik\r\n• Ölçeklenebilirlik\r\n• Cloud-ready\r\n• Remote work support\r\n• Cost optimization\r\n\r\n📈 **Zero Trust Uygulama Adımları:**\r\n1. Mevcut durumu değerlendirme\r\n2. Zero trust stratejisi oluşturma\r\n3. Pilot proje başlatma\r\n4. Teknoloji seçimi\r\n5. Kademeli uygulama\r\n6. Eğitim ve farkındalık\r\n7. Sürekli iyileştirme\r\n8. Metrik ve raporlama"
+                },
+                {
+                    "id": "3",
+                    "title": "Güvenlik Yazılımları ve Araçları",
+                    "content": "Güvenlik yazılımları, malware korumasının temel bileşenleridir. Farklı türleri ve özellikleri vardır.\r\n\r\n🛡️ **Endpoint Protection:**\r\n\r\n**1. Antivirus Software:**\r\n• Real-time protection\r\n• Scheduled scanning\r\n• Quarantine management\r\n• Automatic updates\r\n• Web protection\r\n• Email scanning\r\n• Örnek: Windows Defender, Norton\r\n\r\n**2. Endpoint Detection and Response (EDR):**\r\n• Advanced threat detection\r\n• Behavioral analysis\r\n• Incident response\r\n• Forensic capabilities\r\n• Threat hunting\r\n• Örnek: CrowdStrike Falcon, SentinelOne\r\n\r\n**3. Extended Detection and Response (XDR):**\r\n• Cross-platform detection\r\n• Unified security platform\r\n• Advanced analytics\r\n• Automated response\r\n• Threat intelligence\r\n• Örnek: Microsoft Defender XDR\r\n\r\n**4. Application Control:**\r\n• Application whitelisting\r\n• Software restriction policies\r\n• Code signing verification\r\n• Runtime protection\r\n• Örnek: AppLocker, Software Restriction Policies\r\n\r\n**5. Device Control:**\r\n• USB device control\r\n• Removable media protection\r\n• Peripheral device management\r\n• Data loss prevention\r\n• Örnek: DeviceLock, Endpoint Protector\r\n\r\n🌐 **Network Security:**\r\n\r\n**1. Next-generation Firewalls:**\r\n• Application awareness\r\n• Intrusion prevention\r\n• Advanced threat protection\r\n• SSL inspection\r\n• User identification\r\n• Örnek: Palo Alto Networks, Fortinet\r\n\r\n**2. Unified Threat Management (UTM):**\r\n• All-in-one security\r\n• Firewall + antivirus + IPS\r\n• Web filtering\r\n• Email security\r\n• VPN\r\n• Örnek: SonicWall, WatchGuard\r\n\r\n**3. Web Application Firewalls (WAF):**\r\n• Application-layer protection\r\n• OWASP Top 10 protection\r\n• DDoS mitigation\r\n• Bot protection\r\n• API security\r\n• Örnek: Cloudflare, Imperva\r\n\r\n**4. Email Security Gateways:**\r\n• Spam filtering\r\n• Phishing protection\r\n• Malware scanning\r\n• Data loss prevention\r\n• Encryption\r\n• Örnek: Proofpoint, Mimecast\r\n\r\n**5. DNS Filtering:**\r\n• Web content filtering\r\n• Malware blocking\r\n• Phishing protection\r\n• Botnet protection\r\n• Örnek: Cisco Umbrella, OpenDNS\r\n\r\n**6. Network Access Control (NAC):**\r\n• Device compliance\r\n• Network segmentation\r\n• Guest access management\r\n• Endpoint security\r\n• Örnek: Cisco ISE, Aruba ClearPass\r\n\r\n📊 **Security Information and Event Management (SIEM):**\r\n• Log aggregation\r\n• Event correlation\r\n• Threat detection\r\n• Incident response\r\n• Compliance reporting\r\n• Forensic analysis\r\n• Real-time monitoring\r\n• Örnek: Splunk, IBM QRadar, LogRhythm\r\n\r\n🔄 **Backup and Recovery:**\r\n• Automated backups\r\n• Offsite storage\r\n• Version control\r\n• Disaster recovery\r\n• Business continuity\r\n• Ransomware protection\r\n• Cloud backup\r\n• Örnek: Veeam, Acronis, Commvault\r\n\r\n🔐 **Identity and Access Management (IAM):**\r\n• Multi-factor authentication\r\n• Single sign-on\r\n• Privileged access management\r\n• Identity governance\r\n• Role-based access control\r\n• Örnek: Okta, Azure AD, CyberArk\r\n\r\n📱 **Mobile Security:**\r\n• Mobile device management\r\n• Mobile application management\r\n• Mobile threat defense\r\n• Containerization\r\n• App wrapping\r\n• Örnek: Microsoft Intune, VMware Workspace ONE"
+                },
+                {
+                    "id": "4",
+                    "title": "Kullanıcı Eğitimi ve Farkındalık",
+                    "content": "Kullanıcı eğitimi, güvenlik açıklarının en önemli faktörüdür. İnsan faktörü, güvenlik zincirinin en zayıf halkasıdır.\r\n\r\n📚 **Eğitim Konuları:**\r\n\r\n**1. Phishing Awareness:**\r\n• Phishing türleri\r\n• Tespit yöntemleri\r\n• Güvenli e-posta kullanımı\r\n• Şüpheli bağlantılar\r\n• Örnek: Simulated phishing attacks\r\n\r\n**2. Password Security:**\r\n• Güçlü şifre oluşturma\r\n• Şifre yöneticisi kullanımı\r\n• İki faktörlü doğrulama\r\n• Şifre paylaşımı\r\n• Örnek: Password policy training\r\n\r\n**3. Social Engineering:**\r\n• Sosyal mühendislik teknikleri\r\n• Pretexting\r\n• Baiting\r\n• Authority\r\n• Örnek: Social engineering simulations\r\n\r\n**4. Safe Browsing:**\r\n• Güvenli web siteleri\r\n• HTTPS kullanımı\r\n• Pop-up'lar\r\n• Download güvenliği\r\n• Örnek: Web security training\r\n\r\n**5. Email Security:**\r\n• Güvenli e-posta kullanımı\r\n• Ek güvenliği\r\n• Spam filtreleme\r\n• E-posta doğrulama\r\n• Örnek: Email security best practices\r\n\r\n**6. Mobile Security:**\r\n• Mobil cihaz güvenliği\r\n• App güvenliği\r\n• WiFi güvenliği\r\n• Bluetooth güvenliği\r\n• Örnek: Mobile security guidelines\r\n\r\n**7. Incident Reporting:**\r\n• Güvenlik olayı bildirimi\r\n• Hızlı müdahale\r\n• İletişim protokolleri\r\n• Escalation procedures\r\n• Örnek: Incident response training\r\n\r\n**8. Data Protection:**\r\n• Veri sınıflandırması\r\n• Veri paylaşımı\r\n• Yedekleme\r\n• Şifreleme\r\n• Örnek: Data protection policies\r\n\r\n🎓 **Eğitim Yöntemleri:**\r\n\r\n**1. Online Training Modules:**\r\n• E-öğrenme modülleri\r\n• İnteraktif içerik\r\n• Video eğitimler\r\n• Quiz ve testler\r\n• Örnek: Security awareness platform\r\n\r\n**2. Simulated Phishing Attacks:**\r\n• Sahte phishing e-postaları\r\n• Gerçek zamanlı test\r\n• Anında geri bildirim\r\n• İyileştirme önerileri\r\n• Örnek: KnowBe4, Proofpoint\r\n\r\n**3. Security Awareness Campaigns:**\r\n• Güvenlik farkındalık kampanyaları\r\n• Poster ve broşürler\r\n• E-posta bültenleri\r\n• Güvenlik ipuçları\r\n• Örnek: Security awareness month\r\n\r\n**4. Regular Updates:**\r\n• Düzenli güncellemeler\r\n• Yeni tehditler\r\n• Güncel prosedürler\r\n• Politika değişiklikleri\r\n• Örnek: Monthly security updates\r\n\r\n**5. Interactive Workshops:**\r\n• Etkileşimli atölyeler\r\n• Grup çalışmaları\r\n• Senaryo tabanlı eğitim\r\n• Uygulamalı örnekler\r\n• Örnek: Security workshop sessions\r\n\r\n**6. Gamification:**\r\n• Oyunlaştırma\r\n• Puan sistemi\r\n• Rozet ve ödüller\r\n• Liderlik tabloları\r\n• Örnek: Security awareness games\r\n\r\n📊 **Eğitim Metrikleri:**\r\n• Training completion rates\r\n• Phishing simulation results\r\n• Incident reporting rates\r\n• Security quiz scores\r\n• Policy compliance\r\n• User feedback\r\n• Knowledge retention\r\n• Behavior change\r\n\r\n🔄 **Sürekli Eğitim:**\r\n• New threat awareness\r\n• Updated procedures\r\n• Technology changes\r\n• Policy updates\r\n• Lessons learned\r\n• Industry trends\r\n• Best practices\r\n• Case studies\r\n\r\n💡 **Eğitim Başarı Faktörleri:**\r\n• Üst yönetim desteği\r\n• Düzenli tekrarlar\r\n• Pratik uygulamalar\r\n• Geri bildirim\r\n• Ödül sistemi\r\n• Kişiselleştirme\r\n• Erişilebilirlik\r\n• Sürekli güncelleme"
+                },
+                {
+                    "id": "5",
+                    "title": "Güvenlik Politikaları ve Prosedürler",
+                    "content": "Güvenlik politikaları, organizasyonel güvenliğin temelini oluşturur. Net ve uygulanabilir politikalar gereklidir.\r\n\r\n📋 **Politika Türleri:**\r\n\r\n**1. Information Security Policy:**\r\n• Genel güvenlik politikası\r\n• Güvenlik hedefleri\r\n• Sorumluluklar\r\n• Uygulama yöntemleri\r\n• Örnek: ISO 27001 uyumlu politika\r\n\r\n**2. Acceptable Use Policy (AUP):**\r\n• Kabul edilebilir kullanım\r\n• Sistem kullanım kuralları\r\n• Yasak aktiviteler\r\n• İhlal sonuçları\r\n• Örnek: IT kaynakları kullanım politikası\r\n\r\n**3. Password Policy:**\r\n• Şifre gereksinimleri\r\n• Şifre oluşturma kuralları\r\n• Şifre değiştirme\r\n• Şifre paylaşımı\r\n• Örnek: Güçlü şifre politikası\r\n\r\n**4. Email Security Policy:**\r\n• E-posta güvenliği\r\n• E-posta kullanım kuralları\r\n• Ek güvenliği\r\n• Spam koruması\r\n• Örnek: Kurumsal e-posta politikası\r\n\r\n**5. Internet Usage Policy:**\r\n• İnternet kullanım kuralları\r\n• Web filtreleme\r\n• Sosyal medya kullanımı\r\n• Kişisel kullanım\r\n• Örnek: İnternet erişim politikası\r\n\r\n**6. Mobile Device Policy:**\r\n• Mobil cihaz güvenliği\r\n• BYOD politikası\r\n• Mobil uygulama güvenliği\r\n• Cihaz yönetimi\r\n• Örnek: Mobil cihaz politikası\r\n\r\n**7. Incident Response Policy:**\r\n• Olay müdahale prosedürleri\r\n• Sorumluluklar\r\n• İletişim protokolleri\r\n• Escalation procedures\r\n• Örnek: Güvenlik olayı müdahale politikası\r\n\r\n**8. Backup and Recovery Policy:**\r\n• Yedekleme prosedürleri\r\n• Kurtarma planları\r\n• Yedekleme sıklığı\r\n• Test prosedürleri\r\n• Örnek: Veri yedekleme politikası\r\n\r\n📝 **Politika Bileşenleri:**\r\n\r\n**1. Purpose and Scope:**\r\n• Amaç ve kapsam\r\n• Hedef kitle\r\n• Uygulama alanı\r\n• Örnek: Politika amacı tanımı\r\n\r\n**2. Roles and Responsibilities:**\r\n• Roller ve sorumluluklar\r\n• Yetki seviyeleri\r\n• Hesap verebilirlik\r\n• Örnek: Güvenlik ekibi rolleri\r\n\r\n**3. Security Requirements:**\r\n• Güvenlik gereksinimleri\r\n• Teknik kontroller\r\n• Yönetimsel kontroller\r\n• Örnek: Minimum güvenlik standartları\r\n\r\n**4. Compliance Requirements:**\r\n• Uyumluluk gereksinimleri\r\n• Yasal zorunluluklar\r\n• Endüstri standartları\r\n• Örnek: GDPR, SOX uyumluluğu\r\n\r\n**5. Enforcement Measures:**\r\n• Uygulama önlemleri\r\n• İhlal sonuçları\r\n• Disiplin prosedürleri\r\n• Örnek: Politika ihlali sonuçları\r\n\r\n**6. Review Procedures:**\r\n• Gözden geçirme prosedürleri\r\n• Güncelleme süreci\r\n• Onay prosedürleri\r\n• Örnek: Yıllık politika gözden geçirme\r\n\r\n**7. Update Mechanisms:**\r\n• Güncelleme mekanizmaları\r\n• Değişiklik yönetimi\r\n• Versiyon kontrolü\r\n• Örnek: Politika güncelleme süreci\r\n\r\n🔄 **Politika Yönetimi:**\r\n• Regular reviews\r\n• Stakeholder involvement\r\n• Legal compliance\r\n• Industry standards\r\n• Risk assessment\r\n• Continuous improvement\r\n• Change management\r\n• Communication\r\n\r\n✅ **Politika Uygulama:**\r\n• Training and awareness\r\n• Technical controls\r\n• Monitoring and auditing\r\n• Enforcement actions\r\n• Performance metrics\r\n• Feedback mechanisms\r\n• Regular updates\r\n• Compliance monitoring"
+                },
+                {
+                    "id": "6",
+                    "title": "Risk Yönetimi ve Değerlendirme",
+                    "content": "Risk yönetimi, güvenlik stratejilerinin temelini oluşturur. Sistematik risk değerlendirmesi kritik öneme sahiptir.\r\n\r\n🎯 **Risk Yönetimi Süreci:**\r\n\r\n**1. Risk Identification (Risk Tespiti):**\r\n• Varlık envanteri\r\n• Tehdit analizi\r\n• Güvenlik açığı değerlendirmesi\r\n• Risk kaynakları\r\n• Örnek: Asset inventory, threat modeling\r\n\r\n**2. Risk Assessment (Risk Değerlendirmesi):**\r\n• Etki analizi\r\n• Olasılık değerlendirmesi\r\n• Risk hesaplama\r\n• Risk sıralaması\r\n• Örnek: Risk matrix, risk scoring\r\n\r\n**3. Risk Treatment (Risk İşleme):**\r\n• Risk azaltma\r\n• Risk transferi\r\n• Risk kabulü\r\n• Riskten kaçınma\r\n• Örnek: Security controls implementation\r\n\r\n**4. Risk Monitoring (Risk İzleme):**\r\n• Sürekli izleme\r\n• Risk metrikleri\r\n• Trend analizi\r\n• Raporlama\r\n• Örnek: Risk dashboard, KPI tracking\r\n\r\n**5. Risk Review (Risk Gözden Geçirme):**\r\n• Düzenli gözden geçirme\r\n• Risk değerlendirme güncelleme\r\n• Strateji güncelleme\r\n• İyileştirme\r\n• Örnek: Quarterly risk review\r\n\r\n📊 **Risk Türleri:**\r\n\r\n**1. Technical Risks:**\r\n• Sistem güvenlik açıkları\r\n• Yazılım hataları\r\n• Donanım arızaları\r\n• Ağ güvenlik açıkları\r\n• Örnek: Zero-day vulnerabilities\r\n\r\n**2. Operational Risks:**\r\n• İnsan hataları\r\n• Proses hataları\r\n• Sistem arızaları\r\n• Tedarikçi riskleri\r\n• Örnek: Human error, process failure\r\n\r\n**3. Legal Risks:**\r\n• Yasal uyumsuzluk\r\n• Düzenleyici riskler\r\n• Sözleşme riskleri\r\n• Fikri mülkiyet riskleri\r\n• Örnek: GDPR violations, compliance failures\r\n\r\n**4. Reputational Risks:**\r\n• Marka zararı\r\n• Müşteri güven kaybı\r\n• Medya etkisi\r\n• Sosyal medya riskleri\r\n• Örnek: Data breach publicity\r\n\r\n**5. Financial Risks:**\r\n• Mali kayıplar\r\n• Operasyonel kesinti\r\n• Yasal cezalar\r\n• Sigorta maliyetleri\r\n• Örnek: Ransomware payments, fines\r\n\r\n**6. Compliance Risks:**\r\n• Düzenleyici uyumsuzluk\r\n• Sertifika kaybı\r\n• Denetim başarısızlığı\r\n• Yasal yaptırımlar\r\n• Örnek: ISO 27001 certification loss\r\n\r\n🔍 **Risk Değerlendirme:**\r\n\r\n**1. Asset Identification:**\r\n• Varlık envanteri\r\n• Varlık sınıflandırması\r\n• Varlık değerlendirmesi\r\n• Varlık sahipliği\r\n• Örnek: IT asset inventory\r\n\r\n**2. Threat Analysis:**\r\n• Tehdit türleri\r\n• Tehdit kaynakları\r\n• Tehdit olasılığı\r\n• Tehdit etkisi\r\n• Örnek: Threat intelligence, threat modeling\r\n\r\n**3. Vulnerability Assessment:**\r\n• Güvenlik açığı taraması\r\n• Güvenlik açığı analizi\r\n• Güvenlik açığı sınıflandırması\r\n• Güvenlik açığı önceliklendirme\r\n• Örnek: Vulnerability scanning, penetration testing\r\n\r\n**4. Impact Analysis:**\r\n• Etki değerlendirmesi\r\n• İş sürekliliği etkisi\r\n• Mali etki\r\n• Operasyonel etki\r\n• Örnek: Business impact analysis\r\n\r\n**5. Likelihood Assessment:**\r\n• Olasılık değerlendirmesi\r\n• Tarihsel veriler\r\n• Trend analizi\r\n• Uzman görüşü\r\n• Örnek: Historical incident data\r\n\r\n**6. Risk Calculation:**\r\n• Risk skorlama\r\n• Risk formülü\r\n• Risk matrisi\r\n• Risk sıralaması\r\n• Örnek: Risk = Impact × Likelihood\r\n\r\n⚖️ **Risk İşleme Stratejileri:**\r\n\r\n**1. Risk Avoidance (Riskten Kaçınma):**\r\n• Riskli aktivitelerden kaçınma\r\n• Alternatif çözümler\r\n• Risk eliminasyonu\r\n• Örnek: Tehlikeli yazılım kullanmama\r\n\r\n**2. Risk Mitigation (Risk Azaltma):**\r\n• Güvenlik kontrolleri\r\n• Risk azaltma önlemleri\r\n• Güvenlik yatırımları\r\n• Örnek: Antivirus, firewall kurulumu\r\n\r\n**3. Risk Transfer (Risk Transferi):**\r\n• Sigorta\r\n• Üçüncü taraf hizmetleri\r\n• Risk paylaşımı\r\n• Örnek: Cyber insurance, managed security services\r\n\r\n**4. Risk Acceptance (Risk Kabulü):**\r\n• Risk kabul etme\r\n• Risk toleransı\r\n• Alternatif maliyet analizi\r\n• Örnek: Düşük riskli, yüksek maliyetli kontroller\r\n\r\n📈 **Risk Metrikleri:**\r\n• Risk score\r\n• Risk trend\r\n• Control effectiveness\r\n• Incident frequency\r\n• Impact severity\r\n• Recovery time\r\n• Cost per incident\r\n• Risk reduction percentage"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Korunma Stratejileri",
+                    "type": "quiz",
+                    "question": "Defense in Depth stratejisinin temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sadece tek bir güvenlik katmanı kullanmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Çoklu güvenlik katmanları ile korunma",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece teknolojik çözümler kullanmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece kullanıcı eğitimi yapmak",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Defense in Depth stratejisi, çoklu güvenlik katmanları kullanarak korunma sağlar. Fiziksel güvenlik, ağ güvenliği, sistem güvenliği, uygulama güvenliği, veri güvenliği ve kullanıcı güvenliği katmanlarını içerir."
+                }
+            ]
+        },
+        {
+            "id": "6_5",
+            "title": "Quiz: Malware Bilgisi",
+            "duration": "20",
+            "color": "#7f1d1d",
+            "documents": 11,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Malware konusundaki bilgilerinizi test edin, kapsamlı quiz ile öğrendiklerinizi pekiştirin.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Quiz Tanıtımı ve Kurallar",
+                    "content": "🎯 **Malware Bilgisi Quiz'i**\r\n\r\nBu quiz, 6. kategori \"Zararlı Yazılımlar\" konusundaki bilgilerinizi test etmek için hazırlanmıştır.\r\n\r\n📚 **Quiz Kapsamı:**\r\n• Malware türleri (Virüs, Solucan, Trojan, Spyware, Ransomware)\r\n• Malware dağıtım yöntemleri\r\n• Malware tespiti ve temizleme teknikleri\r\n• Korunma stratejileri ve güvenlik önlemleri\r\n• Defense in Depth ve Zero Trust modelleri\r\n• Güvenlik araçları ve yazılımları\r\n• Risk yönetimi ve politika yönetimi\r\n\r\n🎮 **Quiz Kuralları:**\r\n• Toplam 10 soru\r\n• Her soru 4 seçenekli\r\n• Sadece 1 doğru cevap\r\n• Süre sınırı yok\r\n• Geri dönüş yapabilirsiniz\r\n• Sonuçları görebilirsiniz\r\n\r\n📊 **Değerlendirme:**\r\n• 9-10 doğru: Mükemmel! 🏆\r\n• 7-8 doğru: Çok iyi!\r\n• 5-6 doğru: İyi!\r\n• 3-4 doğru: Orta\r\n• 0-2 doğru: Tekrar çalışın\r\n\r\n💡 **İpuçları:**\r\n• Soruları dikkatli okuyun\r\n• Tüm seçenekleri değerlendirin\r\n• Bilmediğiniz sorularda tahmin yapın\r\n• Öğrendiklerinizi pekiştirin\r\n\r\n🚀 **Hazır mısınız?**\r\nQuiz'e başlamak için \"Sonraki Sayfa\" butonuna tıklayın!\r\n\r\n**Başarılar!** 🎉"
+                },
+                {
+                    "id": "2",
+                    "title": "Soru 1: Malware Türleri",
+                    "type": "quiz",
+                    "question": "Aşağıdakilerden hangisi kendini kopyalayarak ağ üzerinde yayılan malware türüdür?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Virüs",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Solucan (Worm)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Trojan",
+                            "isCorrect": false
+                        },
+ {
+                            "id": "D",
+                            "text": "Spyware",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Solucan (Worm), kendini kopyalayarak ağ üzerinde yayılan malware türüdür. Virüslerden farklı olarak, solucanlar başka bir programa ihtiyaç duymaz ve kendi başlarına çalışabilirler."
+                },
+                {
+                    "id": "3",
+                    "title": "Soru 2: Ransomware",
+                    "type": "quiz",
+                    "question": "Ransomware saldırılarında en yaygın kullanılan şifreleme türü hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "AES-256",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "MD5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "SHA-1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "DES",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Ransomware saldırılarında en yaygın kullanılan şifreleme türü AES-256'dır. Bu güçlü şifreleme algoritması, dosyaları şifreleyerek kullanıcıların erişimini engeller."
+                },
+                {
+                    "id": "4",
+                    "title": "Soru 3: Malware Dağıtım",
+                    "type": "quiz",
+                    "question": "Malware'nin en yaygın dağıtım yöntemi hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "USB bellekler",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "E-posta ekleri",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sosyal medya",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Mobil uygulamalar",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "E-posta ekleri, malware'nin en yaygın dağıtım yöntemidir. Saldırganlar, sahte e-postalar ve zararlı ekler kullanarak kullanıcıları kandırmaya çalışırlar."
+                },
+                {
+                    "id": "5",
+                    "title": "Soru 4: Tespit Yöntemleri",
+                    "type": "quiz",
+                    "question": "Hangi tespit yöntemi, malware'nin davranışını analiz ederek tespit eder?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Signature-based detection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Behavior-based detection",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Heuristic detection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Cloud-based detection",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Behavior-based detection (Davranış tabanlı tespit), malware'nin sistem üzerindeki davranışını analiz ederek tespit eder. Bu yöntem, bilinmeyen malware türlerini de tespit edebilir."
+                },
+                {
+                    "id": "6",
+                    "title": "Soru 5: Defense in Depth",
+                    "type": "quiz",
+                    "question": "Defense in Depth stratejisinde kaç katman bulunur?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "4 katman",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "5 katman",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "6 katman",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "7 katman",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Defense in Depth stratejisinde 6 katman bulunur: Fiziksel güvenlik, ağ güvenliği, sistem güvenliği, uygulama güvenliği, veri güvenliği ve kullanıcı güvenliği."
+                },
+                {
+                    "id": "7",
+                    "title": "Soru 6: Zero Trust",
+                    "type": "quiz",
+                    "question": "Zero Trust modelinin temel prensibi nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Her şeye güven",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Hiçbir şeye güvenme, her şeyi doğrula",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece iç ağa güven",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece dış ağa güven",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Zero Trust modelinin temel prensibi \"Never Trust, Always Verify\" (Hiçbir şeye güvenme, her şeyi doğrula) dir. Bu model, tüm erişimleri doğrulamayı gerektirir."
+                },
+                {
+                    "id": "8",
+                    "title": "Soru 7: Güvenlik Araçları",
+                    "type": "quiz",
+                    "question": "EDR (Endpoint Detection and Response) aracının temel özelliği nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sadece antivirus koruması",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Gelişmiş tehdit tespiti ve davranış analizi",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece firewall koruması",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece spam filtreleme",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "EDR (Endpoint Detection and Response) aracının temel özelliği, gelişmiş tehdit tespiti ve davranış analizi yapmasıdır. Bu araçlar, endpoint'lerdeki anormal davranışları tespit eder ve müdahale eder."
+                },
+                {
+                    "id": "9",
+                    "title": "Soru 8: Risk Yönetimi",
+                    "type": "quiz",
+                    "question": "Risk hesaplama formülü nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Risk = Tehdit × Güvenlik Açığı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Risk = Etki × Olasılık",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Risk = Maliyet × Zaman",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Risk = Hız × Mesafe",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Risk hesaplama formülü: Risk = Etki × Olasılık. Bu formül, bir olayın etkisini ve gerçekleşme olasılığını çarparak risk seviyesini belirler."
+                },
+                {
+                    "id": "10",
+                    "title": "Soru 9: Kullanıcı Eğitimi",
+                    "type": "quiz",
+                    "question": "Kullanıcı eğitiminde en etkili yöntem hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sadece teorik eğitim",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Simulated phishing attacks",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece video eğitimleri",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece yazılı materyaller",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Simulated phishing attacks (Simüle edilmiş phishing saldırıları), kullanıcı eğitiminde en etkili yöntemdir. Bu yöntem, kullanıcıları gerçek durumlarda test eder ve anında geri bildirim sağlar."
+                },
+                {
+                    "id": "11",
+                    "title": "Soru 10: Malware Temizleme",
+                    "type": "quiz",
+                    "question": "Malware temizleme sürecinde ilk adım nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sistemi yeniden başlatmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Sistemi ağdan ayırmak",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Antivirus yazılımı çalıştırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Dosyaları silmek",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Malware temizleme sürecinde ilk adım, sistemi ağdan ayırmaktır. Bu, malware'nin diğer sistemlere yayılmasını önler ve temizleme işlemini güvenli hale getirir."
+                }
+            ]
+        }
+    ]
+}
