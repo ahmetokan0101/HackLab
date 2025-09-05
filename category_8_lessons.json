@@ -1,0 +1,198 @@
+{
+    "categoryId": "8",
+    "categoryTitle": "Kablosuz Ağlar",
+    "lessons": [
+        {
+            "id": "8_1",
+            "title": "Kablosuz Ağ Protokolleri ve Şifreleme",
+            "duration": "30",
+            "color": "#8b5cf6",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Kablosuz ağ protokollerini öğren, WEP, WPA, WPA2, WPA3 şifreleme standartlarını keşfet ve güvenlik farklarını anla.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Kablosuz Ağ Temelleri",
+                    "content": "Kablosuz ağlar, radyo dalgaları kullanarak veri iletimi sağlayan teknolojilerdir.\r\n\r\n📡 **Kablosuz Ağ Türleri:**\r\n• **WiFi (802.11):** Yerel ağ bağlantısı\r\n• **Bluetooth:** Kısa mesafe bağlantı\r\n• **Cellular:** Mobil ağ bağlantısı\r\n• **Satellite:** Uydu bağlantısı\r\n\r\n🔧 **WiFi Standartları:**\r\n• **802.11a:** 5 GHz, 54 Mbps\r\n• **802.11b:** 2.4 GHz, 11 Mbps\r\n• **802.11g:** 2.4 GHz, 54 Mbps\r\n• **802.11n:** 2.4/5 GHz, 600 Mbps\r\n• **802.11ac:** 5 GHz, 1.3 Gbps\r\n• **802.11ax (WiFi 6):** 2.4/5/6 GHz, 9.6 Gbps\r\n\r\n⚡ **Temel Bileşenler:**\r\n• **Access Point (AP):** Kablosuz ağ erişim noktası\r\n• **Client:** Bağlanan cihazlar\r\n• **SSID:** Ağ adı\r\n• **BSSID:** AP'nin MAC adresi\r\n• **Channel:** Frekans kanalı\r\n\r\n🔐 **Güvenlik Katmanları:**\r\n• **Authentication:** Kimlik doğrulama\r\n• **Encryption:** Veri şifreleme\r\n• **Access Control:** Erişim kontrolü\r\n• **Monitoring:** Ağ izleme"
+                },
+                {
+                    "id": "2",
+                    "title": "WEP (Wired Equivalent Privacy)",
+                    "content": "WEP, ilk WiFi güvenlik standardıdır ancak ciddi güvenlik açıkları içerir.\r\n\r\n🔓 **WEP Özellikleri:**\r\n• 64-bit ve 128-bit şifreleme\r\n• RC4 stream cipher kullanımı\r\n• Static key yapısı\r\n• 1997'de tanıtıldı\r\n\r\n⚠️ **WEP Güvenlik Açıkları:**\r\n• **IV (Initialization Vector) Zayıflığı:**\r\n  - 24-bit IV çok kısa\r\n  - IV tekrarı kolay\r\n  - 5000 paket ile kırılabilir\r\n\r\n• **Key Management:**\r\n  - Manuel key dağıtımı\r\n  - Key değişimi zor\r\n  - Shared key authentication\r\n\r\n• **Cryptographic Weaknesses:**\r\n  - RC4 algoritma zayıflığı\r\n  - Key stream tahmin edilebilir\r\n  - Statistical attacks mümkün\r\n\r\n🛠️ **WEP Kırma Araçları:**\r\n• **Aircrack-ng:** WEP key kırma\r\n• **Wireshark:** Paket analizi\r\n• **Kismet:** Ağ keşfi\r\n• **Fern WiFi Cracker:** GUI aracı\r\n\r\n📊 **WEP Kırma Süreci:**\r\n1. Ağ keşfi ve monitoring\r\n2. IV'leri toplama\r\n3. Statistical analiz\r\n4. Key recovery\r\n5. Network access\r\n\r\n❌ **WEP Durumu:**\r\n• 2003'te güvensiz ilan edildi\r\n• Modern cihazlarda desteklenmiyor\r\n• Sadece eski sistemlerde bulunuyor\r\n• Kullanımı önerilmiyor"
+                },
+                {
+                    "id": "3",
+                    "title": "WPA (WiFi Protected Access)",
+                    "content": "WPA, WEP'in güvenlik açıklarını gidermek için geliştirilmiştir.\r\n\r\n🔐 **WPA Özellikleri:**\r\n• TKIP (Temporal Key Integrity Protocol)\r\n• 128-bit şifreleme\r\n• Dynamic key management\r\n• 2003'te tanıtıldı\r\n\r\n🛡️ **WPA Güvenlik İyileştirmeleri:**\r\n• **TKIP:**\r\n  - Per-packet key mixing\r\n  - Message integrity check\r\n  - IV sequence counter\r\n  - Replay protection\r\n\r\n• **Key Management:**\r\n  - 4-way handshake\r\n  - Dynamic key generation\r\n  - Key rotation\r\n  - Mutual authentication\r\n\r\n• **Authentication:**\r\n  - PSK (Pre-Shared Key)\r\n  - 802.1X/EAP\r\n  - Enterprise authentication\r\n\r\n⚠️ **WPA Güvenlik Açıkları:**\r\n• **TKIP Zayıflıkları:**\r\n  - RC4 tabanlı\r\n  - Key mixing attacks\r\n  - 1 milyon paket ile kırılabilir\r\n\r\n• **PSK Vulnerabilities:**\r\n  - Dictionary attacks\r\n  - Brute force attacks\r\n  - Rainbow table attacks\r\n  - Weak passphrase\r\n\r\n🛠️ **WPA Saldırı Yöntemleri:**\r\n• **Handshake Capture:**\r\n  - 4-way handshake yakalama\r\n  - Deauth attack\r\n  - Client reconnection\r\n\r\n• **Offline Attacks:**\r\n  - Hashcat kullanımı\r\n  - John the Ripper\r\n  - GPU acceleration\r\n\r\n📈 **WPA Durumu:**\r\n• WPA2'ye geçiş yapıldı\r\n• Hala bazı eski cihazlarda kullanılıyor\r\n• Güvenlik açıkları mevcut\r\n• WPA2 öneriliyor"
+                },
+                {
+                    "id": "4",
+                    "title": "WPA2 (WiFi Protected Access 2)",
+                    "content": "WPA2, günümüzde en yaygın kullanılan WiFi güvenlik standardıdır.\r\n\r\n🔒 **WPA2 Özellikleri:**\r\n• AES (Advanced Encryption Standard)\r\n• CCMP (Counter Mode with CBC-MAC)\r\n• 128-bit şifreleme\r\n• 2004'te tanıtıldı\r\n\r\n🛡️ **WPA2 Güvenlik Katmanları:**\r\n• **AES Encryption:**\r\n  - Block cipher\r\n  - 128-bit key\r\n  - Strong encryption\r\n  - Government approved\r\n\r\n• **CCMP Protocol:**\r\n  - Counter mode\r\n  - CBC-MAC authentication\r\n  - Data integrity\r\n  - Replay protection\r\n\r\n• **Key Management:**\r\n  - 4-way handshake\r\n  - PMK (Pairwise Master Key)\r\n  - PTK (Pairwise Transient Key)\r\n  - GTK (Group Temporal Key)\r\n\r\n🔐 **WPA2 Authentication:**\r\n• **WPA2-PSK:**\r\n  - Pre-shared key\r\n  - Home networks\r\n  - Simple setup\r\n  - Passphrase based\r\n\r\n• **WPA2-Enterprise:**\r\n  - 802.1X authentication\r\n  - RADIUS server\r\n  - Certificate based\r\n  - Corporate networks\r\n\r\n⚠️ **WPA2 Güvenlik Açıkları:**\r\n• **KRACK Attack (2017):**\r\n  - Key reinstallation attack\r\n  - 4-way handshake exploit\r\n  - Client-side vulnerability\r\n  - Patched in updates\r\n\r\n• **PSK Vulnerabilities:**\r\n  - Weak passphrases\r\n  - Dictionary attacks\r\n  - Brute force attacks\r\n  - Social engineering\r\n\r\n🛠️ **WPA2 Saldırı Araçları:**\r\n• **Aircrack-ng:** Handshake capture\r\n• **Hashcat:** Password cracking\r\n• **John the Ripper:** Dictionary attacks\r\n• **Reaver:** WPS attacks\r\n\r\n📊 **WPA2 Durumu:**\r\n• En yaygın kullanılan standard\r\n• Güvenli kabul ediliyor\r\n• WPA3'e geçiş başladı\r\n• Hala aktif kullanımda"
+                },
+                {
+                    "id": "5",
+                    "title": "WPA3 (WiFi Protected Access 3)",
+                    "content": "WPA3, en yeni WiFi güvenlik standardıdır ve gelişmiş güvenlik özellikleri sunar.\r\n\r\n🚀 **WPA3 Özellikleri:**\r\n• SAE (Simultaneous Authentication of Equals)\r\n• 192-bit güvenlik\r\n• Enhanced Open\r\n• 2018'de tanıtıldı\r\n\r\n🛡️ **WPA3 Güvenlik İyileştirmeleri:**\r\n• **SAE (Dragonfly):**\r\n  - Password-based authentication\r\n  - Forward secrecy\r\n  - Brute force protection\r\n  - Dictionary attack resistance\r\n\r\n• **192-bit Security:**\r\n  - Suite B cryptography\r\n  - Government grade\r\n  - AES-256 encryption\r\n  - SHA-384 hashing\r\n\r\n• **Enhanced Open:**\r\n  - Opportunistic Wireless Encryption\r\n  - Unencrypted network protection\r\n  - Individual data encryption\r\n  - Privacy protection\r\n\r\n🔐 **WPA3 Authentication Modes:**\r\n• **WPA3-Personal:**\r\n  - SAE authentication\r\n  - Home networks\r\n  - Strong passphrase\r\n  - Brute force resistant\r\n\r\n• **WPA3-Enterprise:**\r\n  - 192-bit security\r\n  - Suite B algorithms\r\n  - Government networks\r\n  - High security requirements\r\n\r\n• **WPA3-Enhanced Open:**\r\n  - Public networks\r\n  - Individual encryption\r\n  - No password required\r\n  - Privacy protection\r\n\r\n⚡ **WPA3 Avantajları:**\r\n• Forward secrecy\r\n• Brute force protection\r\n• Dictionary attack resistance\r\n• Enhanced privacy\r\n• Government grade security\r\n• Backward compatibility\r\n\r\n📈 **WPA3 Durumu:**\r\n• Yeni standard\r\n• Yavaş yavaş yaygınlaşıyor\r\n• Backward compatibility\r\n• Future-proof security\r\n• Recommended for new deployments"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Kablosuz Protokoller",
+                    "type": "quiz",
+                    "question": "WPA3'ün en önemli güvenlik özelliği nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "RC4 şifreleme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SAE (Simultaneous Authentication of Equals)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "TKIP protokolü",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "WEP şifreleme",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "WPA3'ün en önemli güvenlik özelliği SAE (Simultaneous Authentication of Equals) protokolüdür. Bu protokol brute force saldırılarına karşı koruma sağlar ve forward secrecy özelliği sunar."
+                }
+            ]
+        },
+        {
+            "id": "8_2",
+            "title": "Wi-Fi Saldırıları: WPA/WPA2 Kırma",
+            "duration": "35",
+            "color": "#7c3aed",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "WPA/WPA2 şifreleme kırma tekniklerini öğren, handshake yakalama, dictionary attack ve brute force saldırılarını keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "WPA/WPA2 Handshake Yakalama",
+                    "content": "WPA/WPA2 handshake yakalama, şifre kırma sürecinin ilk ve en kritik adımıdır.\r\n\r\n🤝 **4-Way Handshake Süreci:**\r\n1. **Message 1:** AP → Client (ANonce)\r\n2. **Message 2:** Client → AP (SNonce + MIC)\r\n3. **Message 3:** AP → Client (GTK + MIC)\r\n4. **Message 4:** Client → AP (MIC)\r\n\r\n🎯 **Handshake Yakalama Yöntemleri:**\r\n• **Passive Monitoring:**\r\n  - Ağ trafiğini dinleme\r\n  - Client bağlantısını bekleme\r\n  - Handshake'i yakalama\r\n  - En güvenli yöntem\r\n\r\n• **Active Deauth Attack:**\r\n  - Client'i ağdan atma\r\n  - Yeniden bağlanmasını bekleme\r\n  - Handshake'i yakalama\r\n  - Daha hızlı sonuç\r\n\r\n🛠️ **Handshake Yakalama Araçları:**\r\n• **Airodump-ng:**\r\n  - Passive monitoring\r\n  - Handshake capture\r\n  - Multiple target support\r\n  - Real-time display\r\n\r\n• **Wireshark:**\r\n  - Packet analysis\r\n  - Handshake filtering\r\n  - Detailed inspection\r\n  - Export capabilities\r\n\r\n📊 **Handshake Yakalama Komutları:**\r\n```bash\r\n# Airodump ile handshake yakalama\r\nairodump-ng -c 6 -w capture wlan0\r\n\r\n# Belirli hedef için\r\nairodump-ng -c 6 -w capture --bssid AA:BB:CC:DD:EE:FF wlan0\r\n\r\n# Wireshark ile analiz\r\nwireshark capture-01.cap\r\n```\r\n\r\n⚠️ **Handshake Yakalama Zorlukları:**\r\n• Client'in aktif olması gerekir\r\n• Yeterli trafik olmalı\r\n• Signal gücü yeterli olmalı\r\n• Timing kritik önemde\r\n\r\n🔍 **Handshake Doğrulama:**\r\n• 4 mesajın tamamı yakalanmalı\r\n• MIC (Message Integrity Check) kontrolü\r\n• EAPOL frame'lerin varlığı\r\n• Aircrack-ng ile doğrulama"
+                },
+                {
+                    "id": "2",
+                    "title": "Deauthentication Saldırıları",
+                    "content": "Deauthentication saldırıları, client'ları ağdan atarak handshake yakalamayı kolaylaştırır.\r\n\r\n⚡ **Deauth Attack Nedir?**\r\n• Client'i ağdan zorla çıkarma\r\n• Sahte deauth frame'leri gönderme\r\n• Yeniden bağlanma sürecini tetikleme\r\n• Handshake yakalama fırsatı yaratma\r\n\r\n🎯 **Deauth Attack Türleri:**\r\n• **Broadcast Deauth:**\r\n  - Tüm client'ları hedefleme\r\n  - Geniş etki alanı\r\n  - Daha agresif\r\n  - Tespit edilmesi kolay\r\n\r\n• **Targeted Deauth:**\r\n  - Belirli client'ı hedefleme\r\n  - Daha az dikkat çekici\r\n  - Daha etkili\r\n  - Stealth approach\r\n\r\n🛠️ **Deauth Attack Araçları:**\r\n• **Aireplay-ng:**\r\n  - Deauth frame gönderme\r\n  - Continuous attack\r\n  - Customizable parameters\r\n  - Aircrack-ng suite\r\n\r\n• **mdk3:**\r\n  - Multiple attack modes\r\n  - High-speed attacks\r\n  - Advanced features\r\n  - Professional tool\r\n\r\n📊 **Deauth Attack Komutları:**\r\n```bash\r\n# Belirli client'a deauth\r\naireplay-ng -0 5 -a AA:BB:CC:DD:EE:FF -c 11:22:33:44:55:66 wlan0\r\n\r\n# Sürekli deauth\r\naireplay-ng -0 0 -a AA:BB:CC:DD:EE:FF wlan0\r\n\r\n# mdk3 ile deauth\r\nmdk3 wlan0 d -a AA:BB:CC:DD:EE:FF\r\n```\r\n\r\n⚠️ **Deauth Attack Etkileri:**\r\n• Network disruption\r\n• Service interruption\r\n• User experience degradation\r\n• Potential legal issues\r\n\r\n🛡️ **Deauth Attack Koruması:**\r\n• 802.11w (Protected Management Frames)\r\n• WPA3 Enhanced Open\r\n• AP-side protection\r\n• Client-side detection\r\n\r\n🔍 **Deauth Attack Tespiti:**\r\n• Anormal deauth frame'ler\r\n• Network monitoring tools\r\n• IDS/IPS systems\r\n• Behavioral analysis"
+                },
+                {
+                    "id": "3",
+                    "title": "Dictionary Attack Yöntemleri",
+                    "content": "Dictionary attack, yaygın şifrelerin listesini kullanarak WPA/WPA2 şifrelerini kırmaya çalışır.\r\n\r\n📚 **Dictionary Attack Nedir?**\r\n• Yaygın şifrelerin listesi\r\n• Sistematik şifre deneme\r\n• Hızlı ve etkili yöntem\r\n• İnsan davranışına dayalı\r\n\r\n🎯 **Dictionary Attack Türleri:**\r\n• **Wordlist Attack:**\r\n  - Hazır şifre listeleri\r\n  - RockYou.txt, SecLists\r\n  - Yaygın şifreler\r\n  - Hızlı sonuç\r\n\r\n• **Rule-based Attack:**\r\n  - Şifre varyasyonları\r\n  - Capitalization, numbers\r\n  - Special characters\r\n  - Custom rules\r\n\r\n• **Hybrid Attack:**\r\n  - Wordlist + rules\r\n  - Kombinasyon yöntemi\r\n  - Daha kapsamlı\r\n  - Yüksek başarı oranı\r\n\r\n🛠️ **Dictionary Attack Araçları:**\r\n• **Hashcat:**\r\n  - GPU acceleration\r\n  - Multiple algorithms\r\n  - Rule-based attacks\r\n  - High performance\r\n\r\n• **John the Ripper:**\r\n  - CPU-based cracking\r\n  - Multiple formats\r\n  - Wordlist support\r\n  - Cross-platform\r\n\r\n• **Aircrack-ng:**\r\n  - WiFi-specific\r\n  - Handshake analysis\r\n  - Built-in wordlists\r\n  - Simple interface\r\n\r\n📊 **Dictionary Attack Komutları:**\r\n```bash\r\n# Hashcat ile WPA2 kırma\r\nhashcat -m 2500 -a 0 capture.hccapx wordlist.txt\r\n\r\n# John the Ripper ile\r\njohn --wordlist=wordlist.txt capture.cap\r\n\r\n# Aircrack-ng ile\r\naircrack-ng -w wordlist.txt capture.cap\r\n```\r\n\r\n📈 **Wordlist Kaynakları:**\r\n• **RockYou.txt:** 14 milyon şifre\r\n• **SecLists:** Güvenlik test listeleri\r\n• **CrackStation:** Hash kırma listeleri\r\n• **Custom wordlists:** Hedef odaklı\r\n\r\n⚡ **Dictionary Attack Optimizasyonu:**\r\n• GPU kullanımı\r\n• Wordlist sıralaması\r\n• Rule-based variations\r\n• Targeted wordlists\r\n\r\n📊 **Başarı Faktörleri:**\r\n• Şifre karmaşıklığı\r\n• Wordlist kalitesi\r\n• Hardware gücü\r\n• Attack süresi"
+                },
+                {
+                    "id": "4",
+                    "title": "Brute Force Saldırıları",
+                    "content": "Brute force saldırıları, tüm olası şifre kombinasyonlarını deneyerek WPA/WPA2 şifrelerini kırmaya çalışır.\r\n\r\n💪 **Brute Force Attack Nedir?**\r\n• Tüm olası kombinasyonları deneme\r\n• Sistematik şifre üretimi\r\n• Kapsamlı ama yavaş yöntem\r\n• Son çare olarak kullanılır\r\n\r\n🎯 **Brute Force Attack Türleri:**\r\n• **Pure Brute Force:**\r\n  - Tüm karakter kombinasyonları\r\n  - a, aa, aaa, aaaa...\r\n  - En kapsamlı yöntem\r\n  - Çok yavaş\r\n\r\n• **Mask Attack:**\r\n  - Belirli pattern'ler\r\n  - ?d?d?d?d (4 digit)\r\n  - ?l?l?l?l (4 lowercase)\r\n  - Daha hızlı\r\n\r\n• **Incremental Attack:**\r\n  - Uzunluk artırma\r\n  - 1, 2, 3, 4... karakter\r\n  - Progressive approach\r\n  - Balanced speed\r\n\r\n🛠️ **Brute Force Araçları:**\r\n• **Hashcat:**\r\n  - GPU acceleration\r\n  - Mask attacks\r\n  - Incremental mode\r\n  - High performance\r\n\r\n• **Crunch:**\r\n  - Wordlist generation\r\n  - Custom patterns\r\n  - Character sets\r\n  - Length control\r\n\r\n📊 **Brute Force Komutları:**\r\n```bash\r\n# Hashcat mask attack\r\nhashcat -m 2500 -a 3 capture.hccapx ?d?d?d?d?d?d?d?d\r\n\r\n# Crunch ile wordlist\r\ncrunch 8 8 0123456789 -o numbers.txt\r\n\r\n# Incremental attack\r\nhashcat -m 2500 -a 1 capture.hccapx wordlist1.txt wordlist2.txt\r\n```\r\n\r\n⏱️ **Brute Force Süre Hesaplama:**\r\n• **8 karakter (0-9):** 10^8 = 100 milyon\r\n• **8 karakter (a-z):** 26^8 = 208 milyar\r\n• **8 karakter (a-z,0-9):** 36^8 = 2.8 trilyon\r\n• **GPU hızı:** ~100,000 H/s\r\n\r\n💡 **Brute Force Optimizasyonu:**\r\n• GPU kullanımı\r\n• Mask attack\r\n• Character set reduction\r\n• Length limitation\r\n• Distributed computing\r\n\r\n⚠️ **Brute Force Sınırlamaları:**\r\n• Çok uzun süre\r\n• Yüksek kaynak kullanımı\r\n• Düşük başarı oranı\r\n• Tespit edilme riski\r\n\r\n🎯 **Brute Force Kullanım Senaryoları:**\r\n• Kısa şifreler\r\n• Sayısal şifreler\r\n• Basit pattern'ler\r\n• Son çare yöntemi"
+                },
+                {
+                    "id": "5",
+                    "title": "WPS Saldırıları",
+                    "content": "WPS (WiFi Protected Setup) saldırıları, PIN tabanlı güvenlik açığını kullanarak ağa erişim sağlar.\r\n\r\n🔌 **WPS Nedir?**\r\n• WiFi Protected Setup\r\n• Kolay ağ kurulumu\r\n• PIN tabanlı authentication\r\n• 8 haneli PIN kodu\r\n\r\n⚠️ **WPS Güvenlik Açığı:**\r\n• **PIN Brute Force:**\r\n  - 8 haneli PIN\r\n  - 11,000 kombinasyon\r\n  - Hızlı kırılabilir\r\n  - 4-10 saat süre\r\n\r\n• **PIN Yapısı:**\r\n  - İlk 4 hane: Rastgele\r\n  - Son 4 hane: Checksum\r\n  - 10,000 + 1,000 = 11,000\r\n  - Brute force mümkün\r\n\r\n🛠️ **WPS Saldırı Araçları:**\r\n• **Reaver:**\r\n  - WPS PIN kırma\r\n  - Automatic attack\r\n  - Progress tracking\r\n  - Most popular tool\r\n\r\n• **Bully:**\r\n  - Reaver alternatifi\r\n  - Faster execution\r\n  - Better error handling\r\n  - Advanced features\r\n\r\n• **PixieWPS:**\r\n  - Offline PIN attack\r\n  - PKE, PKR, E-Hash1, E-Hash2\r\n  - Instant cracking\r\n  - Advanced technique\r\n\r\n📊 **WPS Saldırı Komutları:**\r\n```bash\r\n# Reaver ile WPS kırma\r\nreaver -i wlan0 -b AA:BB:CC:DD:EE:FF -vv\r\n\r\n# Bully ile\r\nbully wlan0 -b AA:BB:CC:DD:EE:FF -v 3\r\n\r\n# PixieWPS ile\r\npixiewps -e E-Hash1 -r E-Hash2 -s E-Nonce -z E-S1 -a E-S2 -n PKE -m PKR\r\n```\r\n\r\n🎯 **WPS Saldırı Süreci:**\r\n1. WPS destekli AP tespiti\r\n2. WPS PIN brute force\r\n3. PIN doğrulama\r\n4. WPA key elde etme\r\n5. Network access\r\n\r\n📈 **WPS Saldırı Başarı Faktörleri:**\r\n• WPS aktif olmalı\r\n• Signal gücü yeterli\r\n• AP lockout yok\r\n• PIN değiştirilmemiş\r\n\r\n🛡️ **WPS Koruması:**\r\n• WPS'i devre dışı bırak\r\n• PIN değiştir\r\n• AP lockout aktif et\r\n• WPS monitoring\r\n\r\n⚠️ **WPS Durumu:**\r\n• Güvenlik açığı mevcut\r\n• Çoğu AP'de varsayılan aktif\r\n• Kullanımı önerilmiyor\r\n• WPS2 geliştiriliyor"
+                },
+                {
+                    "id": "6",
+                    "title": "WPA/WPA2 Saldırı Araçları",
+                    "content": "WPA/WPA2 saldırıları için kullanılan profesyonel araçlar ve teknikler.\r\n\r\n🛠️ **Aircrack-ng Suite:**\r\n• **Airodump-ng:**\r\n  - Network discovery\r\n  - Handshake capture\r\n  - Real-time monitoring\r\n  - Multiple target support\r\n\r\n• **Aireplay-ng:**\r\n  - Deauth attacks\r\n  - Fake authentication\r\n  - Packet injection\r\n  - Traffic generation\r\n\r\n• **Aircrack-ng:**\r\n  - WEP/WPA cracking\r\n  - Dictionary attacks\r\n  - Handshake analysis\r\n  - Key recovery\r\n\r\n🔧 **Hashcat:**\r\n• GPU-accelerated cracking\r\n• Multiple hash types\r\n• Rule-based attacks\r\n• Distributed computing\r\n• High performance\r\n\r\n📊 **Hashcat Komutları:**\r\n```bash\r\n# WPA2 handshake\r\nhashcat -m 2500 -a 0 capture.hccapx wordlist.txt\r\n\r\n# Mask attack\r\nhashcat -m 2500 -a 3 capture.hccapx ?d?d?d?d?d?d?d?d\r\n\r\n# Rule-based attack\r\nhashcat -m 2500 -a 0 capture.hccapx wordlist.txt -r rules/best64.rule\r\n```\r\n\r\n🌐 **Wireshark:**\r\n• Packet analysis\r\n• Handshake inspection\r\n• Protocol analysis\r\n• Export capabilities\r\n• Professional tool\r\n\r\n⚡ **John the Ripper:**\r\n• CPU-based cracking\r\n• Multiple formats\r\n• Wordlist support\r\n• Cross-platform\r\n• Free and open source\r\n\r\n🎯 **Kismet:**\r\n• Network discovery\r\n• Hidden SSID detection\r\n• Client monitoring\r\n• Logging capabilities\r\n• Stealth operation\r\n\r\n📱 **Mobile Tools:**\r\n• **WiFi WPS WPA Tester:**\r\n  - Android app\r\n  - WPS testing\r\n  - Network scanning\r\n  - User-friendly\r\n\r\n• **WiFi Analyzer:**\r\n  - Signal analysis\r\n  - Channel optimization\r\n  - Network discovery\r\n  - Professional tool\r\n\r\n⚠️ **Araç Kullanım Uyarıları:**\r\n• Sadece kendi ağınızda test edin\r\n• Yetkisiz erişim yasaktır\r\n• Etik hacking kurallarına uyun\r\n• Penetration testing izni alın\r\n\r\n🔍 **Araç Seçimi Kriterleri:**\r\n• Saldırı türü\r\n• Hedef sistem\r\n• Hardware capabilities\r\n• Time constraints\r\n• Stealth requirements"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: WPA/WPA2 Saldırıları",
+                    "type": "quiz",
+                    "question": "WPA/WPA2 handshake yakalama için en etkili yöntem nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Passive monitoring",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Deauthentication attack",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Brute force attack",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Dictionary attack",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Deauthentication attack, client'ları ağdan atarak yeniden bağlanma sürecini tetikler ve handshake yakalamayı kolaylaştırır. Bu yöntem passive monitoring'den daha hızlı ve etkilidir."
+                }
+            ]
+        },
+        {
+            "id": "8_3",
+            "title": "Rogue Access Point ve Saldırı Yöntemleri",
+            "duration": "40",
+            "color": "#6d28d9",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Rogue AP saldırılarını öğren, Evil Twin, Karma saldırıları ve kablosuz ağ manipülasyon tekniklerini keşfet.",
+            "pages": []
+        },
+        {
+            "id": "8_4",
+            "title": "Bluetooth ve IoT Cihaz Güvenliği",
+            "duration": "30",
+            "color": "#5b21b6",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Bluetooth güvenliğini öğren, IoT cihaz saldırıları, BLE güvenlik açıkları ve akıllı cihaz koruma yöntemlerini keşfet.",
+            "pages": []
+        },
+        {
+            "id": "8_5",
+            "title": "WiFi Güvenlik Testleri ve Araçları",
+            "duration": "35",
+            "color": "#4c1d95",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "WiFi güvenlik test araçlarını öğren, Aircrack-ng, Wireshark, Kismet kullanımı ve kablosuz ağ penetration testing tekniklerini keşfet.",
+            "pages": []
+        },
+        {
+            "id": "8_6",
+            "title": "Kablosuz Ağ Koruması ve Savunma",
+            "duration": "25",
+            "color": "#3c1361",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Kablosuz ağ koruma yöntemlerini öğren, WPA3 güvenliği, enterprise authentication, WiFi monitoring ve güvenlik best practices keşfet.",
+            "pages": []
+        },
+        {
+            "id": "8_7",
+            "title": "Quiz: Kablosuz Ağ Güvenliği",
+            "duration": "20",
+            "color": "#2d1b69",
+            "documents": 1,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Kablosuz ağ güvenliği konusundaki bilgilerinizi test edin, kapsamlı quiz ile öğrendiklerinizi pekiştirin.",
+            "pages": []
+        }
+    ]
+}
