@@ -148,7 +148,72 @@
             "isCompleted": false,
             "isActive": true,
             "description": "Rogue AP saldırılarını öğren, Evil Twin, Karma saldırıları ve kablosuz ağ manipülasyon tekniklerini keşfet.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Rogue Access Point Temelleri",
+                    "content": "Rogue Access Point (AP), yetkisiz kişiler tarafından kurulan sahte kablosuz ağ erişim noktalarıdır.\r\n\r\n🎭 **Rogue AP Nedir?**\r\n• Yetkisiz kablosuz ağ noktası\r\n• Sahte veya kötü niyetli AP\r\n• Güvenlik açığı yaratma\r\n• Man-in-the-Middle saldırıları\r\n\r\n🎯 **Rogue AP Türleri:**\r\n• **Evil Twin:** Meşru AP'yi taklit etme\r\n• **Honeypot AP:** Çekici SSID kullanma\r\n• **Karma AP:** Karma saldırıları\r\n\r\n⚠️ **Rogue AP Tehditleri:**\r\n• Data Interception\r\n• Malware Distribution\r\n• Network Infiltration\r\n\r\n🛠️ **Rogue AP Oluşturma:**\r\n• Software-based (Hostapd, Airbase-ng)\r\n• Hardware-based (WiFi Pineapple)\r\n• Custom tools"
+                },
+                {
+                    "id": "2",
+                    "title": "Evil Twin Saldırıları",
+                    "content": "Evil Twin saldırıları, meşru bir WiFi ağını taklit ederek kullanıcıları kandıran saldırı türüdür.\r\n\r\n👥 **Evil Twin Nedir?**\r\n• Meşru AP'yi taklit etme\r\n• Aynı SSID kullanma\r\n• Daha güçlü sinyal yayma\r\n• Client'ları kandırma\r\n\r\n🎯 **Saldırı Süreci:**\r\n1. Reconnaissance\r\n2. AP Setup\r\n3. Client Deception\r\n4. Data Interception\r\n\r\n🛠️ **Araçlar:**\r\n• Hostapd\r\n• Airbase-ng\r\n• WiFi Pineapple\r\n\r\n⚠️ **Tespit Yöntemleri:**\r\n• Signal Analysis\r\n• Network Behavior\r\n• Technical Indicators"
+                },
+                {
+                    "id": "3",
+                    "title": "Karma Saldırıları",
+                    "content": "Karma saldırıları, kullanıcıların daha önce bağlandığı ağları otomatik olarak taklit eden gelişmiş tekniklerdir.\r\n\r\n🔄 **Karma Attack Nedir?**\r\n• Profiled network taklit etme\r\n• Otomatik bağlantı exploit\r\n• Client behavior analizi\r\n• Advanced Evil Twin\r\n\r\n🎯 **Saldırı Süreci:**\r\n1. Network Profiling\r\n2. Profile Creation\r\n3. AP Deployment\r\n4. Client Exploitation\r\n\r\n🛠️ **Araçlar:**\r\n• WiFi Pineapple Karma\r\n• Hostapd + Scripts\r\n• Custom Tools\r\n\r\n⚡ **Avantajları:**\r\n• High Success Rate\r\n• Multiple Targets\r\n• Stealth Operation"
+                },
+                {
+                    "id": "4",
+                    "title": "Honeypot AP Saldırıları",
+                    "content": "Honeypot AP saldırıları, çekici isimlerle kullanıcıları kandırarak sahte ağlara bağlanmalarını sağlar.\r\n\r\n🍯 **Honeypot AP Nedir?**\r\n• Çekici SSID isimleri\r\n• Kullanıcıları cezbetme\r\n• Veri toplama\r\n• Social engineering\r\n\r\n🎯 **Honeypot Türleri:**\r\n• Free WiFi Honeypots\r\n• Branded Honeypots\r\n• Social Engineering Honeypots\r\n\r\n🎭 **Taktikler:**\r\n• Psychological Triggers\r\n• Location-based\r\n• Urgency-based\r\n\r\n⚠️ **Tehditler:**\r\n• Credential Theft\r\n• Malware Distribution\r\n• Data Interception"
+                },
+                {
+                    "id": "5",
+                    "title": "Rogue AP Oluşturma Araçları",
+                    "content": "Rogue AP oluşturmak için kullanılan profesyonel araçlar ve teknikler.\r\n\r\n🛠️ **Software Araçları:**\r\n• Hostapd\r\n• Airbase-ng\r\n• Create_ap\r\n\r\n🔧 **Hardware Araçları:**\r\n• WiFi Pineapple\r\n• Raspberry Pi\r\n• Custom Hardware\r\n\r\n📊 **Kurulum Komutları:**\r\n```bash\r\n# Hostapd ile AP\r\nhostapd /etc/hostapd/hostapd.conf\r\n\r\n# Airbase-ng ile\r\nairbase-ng -e \"Evil Twin\" -c 6 wlan0\r\n\r\n# Create_ap ile\r\ncreate_ap wlan0 eth0 \"Free WiFi\"\r\n```\r\n\r\n🎯 **Modüller:**\r\n• Karma Module\r\n• Honeypot Module\r\n• Evil Twin Module"
+                },
+                {
+                    "id": "6",
+                    "title": "Rogue AP Tespit Yöntemleri",
+                    "content": "Rogue AP'leri tespit etmek için kullanılan teknikler ve araçlar.\r\n\r\n🔍 **Tespit Yöntemleri:**\r\n• Signal Analysis\r\n• Network Behavior\r\n• Technical Indicators\r\n\r\n🛠️ **Tespit Araçları:**\r\n• Kismet\r\n• Airodump-ng\r\n• Wireshark\r\n\r\n🎯 **Tespit Kriterleri:**\r\n• SSID Analysis\r\n• BSSID Analysis\r\n• Signal Analysis\r\n\r\n⚠️ **Tespit Zorlukları:**\r\n• Stealth Techniques\r\n• Legitimate Confusion\r\n• Technical Limitations"
+                },
+                {
+                    "id": "7",
+                    "title": "Rogue AP Savunma Stratejileri",
+                    "content": "Rogue AP saldırılarına karşı savunma yöntemleri ve korunma stratejileri.\r\n\r\n🛡️ **Savunma Katmanları:**\r\n• Prevention\r\n• Detection\r\n• Response\r\n\r\n🎯 **Client-side Koruması:**\r\n• User Education\r\n• Technical Controls\r\n• Device Configuration\r\n\r\n🔧 **Network-side Koruması:**\r\n• Rogue AP Detection\r\n• Access Control\r\n• Monitoring Systems\r\n\r\n📊 **Savunma Araçları:**\r\n• Enterprise Solutions\r\n• Open Source Tools\r\n• Commercial Tools\r\n\r\n📈 **Savunma Etkinliği:**\r\n• %95 prevention rate\r\n• %90 detection rate\r\n• %85 response rate"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Rogue Access Point",
+                    "type": "quiz",
+                    "question": "Evil Twin saldırısının temel özelliği nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Çekici SSID isimleri kullanma",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Meşru AP'yi taklit etme",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Otomatik bağlantı exploit etme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Karma saldırıları yapma",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Evil Twin saldırısının temel özelliği, meşru bir WiFi ağını taklit ederek aynı SSID kullanması ve daha güçlü sinyal yayarak kullanıcıları kandırmasıdır."
+                }
+            ]
         },
         {
             "id": "8_4",
