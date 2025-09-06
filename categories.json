@@ -197,7 +197,7 @@
                 "#ea580c"
             ],
             "description": "Parola saldırı tekniklerini öğren, şifre güvenliğini test et ve korunma yöntemlerini keşfet.",
-            "totalLessons": 6,
+            "totalLessons": 5,
             "duration": "2.5 saat",
             "difficulty": "Orta",
             "whatYouWillLearn": [
@@ -231,6 +231,150 @@
                 "Güvenlik Analisti: 65,000 - 110,000 TL\r",
                 "Siber Güvenlik Uzmanı: 78,000 - 130,000 TL\r",
                 "Güvenlik Araştırmacısı: 75,000 - 125,000 TL"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "6. Zararlı Yazılımlar",
+            "subtitle": "Malware Türleri ve Korunma Stratejileri",
+            "icon": "bug_report",
+            "color": "#ef4444",
+            "gradient": [
+                "#ef4444",
+                "#dc2626"
+            ],
+            "description": "Zararlı yazılım türlerini öğren, malware dağıtım yöntemlerini keşfet ve korunma stratejilerini uygula.",
+            "totalLessons": 5,
+            "duration": "2 saat",
+            "difficulty": "Orta",
+            "whatYouWillLearn": [
+                "Virüs, solucan, Trojan, spyware ve ransomware türlerini tanıma\r",
+                "Malware dağıtım yöntemlerini anlama\r",
+                "Zararlı yazılım tespiti ve temizleme teknikleri\r",
+                "Korunma stratejileri ve güvenlik önlemleri\r",
+                "Malware analizi ve araştırma becerileri"
+            ],
+            "targetAudience": [
+                "Siber güvenlik uzmanları\r",
+                "Sistem yöneticileri\r",
+                "IT güvenlik analistleri\r",
+                "Malware araştırmacıları\r",
+                "Güvenlik test uzmanları"
+            ],
+            "benefits": [
+                "Malware türlerini tanıma ve analiz etme\r",
+                "Zararlı yazılımlardan korunma becerileri\r",
+                "Güvenlik önlemleri uygulama\r",
+                "Malware araştırma ve analiz deneyimi"
+            ],
+            "requirements": [
+                "Temel bilgisayar bilgisi\r",
+                "İşletim sistemi temelleri\r",
+                "Ağ güvenliği bilgisi\r",
+                "Güvenlik araçlarına ilgi"
+            ],
+            "averageSalary": [
+                "Malware Analisti: 70,000 - 120,000 TL\r",
+                "Siber Güvenlik Uzmanı: 75,000 - 130,000 TL\r",
+                "Güvenlik Araştırmacısı: 80,000 - 140,000 TL\r",
+                "Incident Response Uzmanı: 85,000 - 145,000 TL"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "7. Ağ Güvenliği",
+            "subtitle": "Network Security ve Ağ Koruması",
+            "icon": "network_check",
+            "color": "#3b82f6",
+            "gradient": [
+                "#3b82f6",
+                "#1d4ed8"
+            ],
+            "description": "Ağ güvenliği temellerini öğren, ARP spoofing, MITM saldırıları ve trafik analizi tekniklerini keşfet.",
+            "totalLessons": 5,
+            "duration": "2 saat",
+            "difficulty": "Orta",
+            "whatYouWillLearn": [
+                "Temel ağ kavramları: IP, MAC, TCP/UDP, Port\r",
+                "ARP spoofing ve poisoning saldırıları\r",
+                "Man-in-the-Middle (MITM) saldırı teknikleri\r",
+                "Trafik sniffing ve paket analizi\r",
+                "Ağ güvenliği testleri ve korunma yöntemleri"
+            ],
+            "targetAudience": [
+                "Ağ yöneticileri ve mühendisleri\r",
+                "Siber güvenlik uzmanları\r",
+                "Sistem yöneticileri\r",
+                "IT güvenlik analistleri\r",
+                "Network security uzmanları"
+            ],
+            "benefits": [
+                "Ağ güvenliği konusunda uzmanlaşma\r",
+                "Firewall ve IDS/IPS yönetimi\r",
+                "Ağ koruma stratejileri geliştirme\r",
+                "Ağ saldırılarına karşı savunma\r",
+                "Güvenli ağ mimarisi tasarlama"
+            ],
+            "requirements": [
+                "Temel ağ bilgisi\r",
+                "TCP/IP protokol bilgisi\r",
+                "İşletim sistemi temelleri\r",
+                "Güvenlik araçlarına ilgi"
+            ],
+            "averageSalary": [
+                "Network Security Uzmanı: 80,000 - 135,000 TL\r",
+                "Ağ Güvenlik Mimarı: 95,000 - 155,000 TL\r",
+                "Firewall Uzmanı: 70,000 - 120,000 TL\r",
+                "Ağ Yöneticisi: 65,000 - 110,000 TL"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "8. Kablosuz Ağlar",
+            "subtitle": "Wireless Security ve WiFi Güvenliği",
+            "icon": "wifi",
+            "color": "#8b5cf6",
+            "gradient": [
+                "#8b5cf6",
+                "#7c3aed"
+            ],
+            "description": "Kablosuz ağ güvenliğini öğren, WiFi saldırıları, WPA/WPA2/WPA3 şifreleme ve kablosuz ağ koruma tekniklerini keşfet.",
+            "totalLessons": 7,
+            "duration": "2.5 saat",
+            "difficulty": "Orta",
+            "whatYouWillLearn": [
+                "WiFi protokolleri ve şifreleme standartları\r",
+                "WEP, WPA, WPA2, WPA3 güvenlik analizi\r",
+                "Kablosuz ağ saldırı teknikleri\r",
+                "Evil Twin ve Rogue AP saldırıları\r",
+                "WiFi güvenlik testleri ve korunma yöntemleri\r",
+                "Kablosuz ağ monitoring ve tespit"
+            ],
+            "targetAudience": [
+                "Ağ güvenlik uzmanları\r",
+                "Siber güvenlik analistleri\r",
+                "IT yöneticileri\r",
+                "Penetrasyon test uzmanları\r",
+                "Kablosuz ağ yöneticileri"
+            ],
+            "benefits": [
+                "Kablosuz ağ güvenliği uzmanlaşması\r",
+                "WiFi saldırılarını anlama ve savunma\r",
+                "Kablosuz ağ güvenlik testleri\r",
+                "Enterprise WiFi güvenliği\r",
+                "Kablosuz ağ monitoring ve analiz"
+            ],
+            "requirements": [
+                "Temel ağ bilgisi\r",
+                "WiFi teknolojisi temelleri\r",
+                "Güvenlik araçları bilgisi\r",
+                "Linux komut satırı deneyimi"
+            ],
+            "averageSalary": [
+                "Wireless Security Uzmanı: 85,000 - 140,000 TL\r",
+                "WiFi Güvenlik Mimarı: 95,000 - 160,000 TL\r",
+                "Kablosuz Ağ Uzmanı: 75,000 - 125,000 TL\r",
+                "Network Security Analisti: 70,000 - 120,000 TL"
             ]
         }
     ]
