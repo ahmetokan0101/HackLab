@@ -1091,6 +1091,120 @@
                 "description": "Parola güvenliği testleri yap, korunma yöntemlerini öğren ve güvenlik politikaları oluştur.",
                 "pages": []
             }
+        ],
+        "6": [
+            {
+                "id": "6_1",
+                "title": "Malware Türleri: Virüs, Solucan, Trojan",
+                "duration": "25",
+                "color": "#ef4444",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Zararlı yazılım türlerini öğren, virüs, solucan ve Trojan'ların özelliklerini keşfet.",
+                "pages": []
+            },
+            {
+                "id": "6_2",
+                "title": "Malware Dağıtım Yöntemleri",
+                "duration": "20",
+                "color": "#dc2626",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Malware'nin nasıl dağıtıldığını öğren, saldırı vektörlerini ve yayılma yöntemlerini keşfet.",
+                "pages": []
+            },
+            {
+                "id": "6_3",
+                "title": "Malware Tespiti ve Temizleme",
+                "duration": "30",
+                "color": "#b91c1c",
+                "documents": 7,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Malware tespit yöntemlerini öğren, temizleme tekniklerini uygula ve sistem güvenliğini sağla.",
+                "pages": []
+            },
+            {
+                "id": "6_4",
+                "title": "Zararlı Yazılımlardan Korunma Stratejileri",
+                "duration": "25",
+                "color": "#991b1b",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Malware'den korunma stratejilerini öğren, güvenlik önlemlerini uygula ve savunma katmanları oluştur.",
+                "pages": []
+            },
+            {
+                "id": "6_5",
+                "title": "Quiz: Malware Bilgisi",
+                "duration": "20",
+                "color": "#7f1d1d",
+                "documents": 1,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Malware konusundaki bilgilerinizi test edin, kapsamlı quiz ile öğrendiklerinizi pekiştirin.",
+                "pages": []
+            }
+        ],
+        "7": [
+            {
+                "id": "7_1",
+                "title": "Temel Ağ Kavramları",
+                "duration": "25",
+                "color": "#3b82f6",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "IP, MAC, TCP/UDP, Port kavramlarını öğren, ağ protokollerini ve temel ağ yapısını keşfet.",
+                "pages": []
+            },
+            {
+                "id": "7_2",
+                "title": "ARP Spoofing / Poisoning",
+                "duration": "30",
+                "color": "#2563eb",
+                "documents": 7,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "ARP spoofing saldırılarını öğren, ARP poisoning tekniklerini uygula ve korunma yöntemlerini keşfet.",
+                "pages": []
+            },
+            {
+                "id": "7_3",
+                "title": "Man-in-the-Middle (MITM) Saldırıları",
+                "duration": "25",
+                "color": "#1d4ed8",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "MITM saldırı türlerini öğren, saldırı tekniklerini uygula ve savunma stratejilerini geliştir.",
+                "pages": []
+            },
+            {
+                "id": "7_4",
+                "title": "Trafik Sniffing ve Analiz Yöntemleri",
+                "duration": "30",
+                "color": "#1e40af",
+                "documents": 7,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Ağ trafiği dinleme tekniklerini öğren, paket analizi yap ve güvenlik açıklarını tespit et.",
+                "pages": []
+            },
+            {
+                "id": "7_5",
+                "title": "Quiz: Ağ Güvenliği",
+                "duration": "20",
+                "color": "#1e3a8a",
+                "documents": 1,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Ağ güvenliği konusundaki bilgilerinizi test edin, kapsamlı quiz ile öğrendiklerinizi pekiştirin.",
+                "pages": []
+            }
         ]
     }
 }
