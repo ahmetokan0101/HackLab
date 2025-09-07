@@ -1,0 +1,587 @@
+{
+    "categoryId": "10",
+    "categoryTitle": "Dijital Adli Tıp",
+    "lessons": [
+        {
+            "id": "10_1",
+            "title": "Dijital Adli Tıp Nedir, Tarihçesi",
+            "duration": "30",
+            "color": "#dc2626",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Dijital adli tıp kavramlarını öğren, tarihçesini keşfet ve siber suç araştırmalarındaki rolünü anla.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Dijital Adli Tıp Nedir?",
+                    "content": "Dijital adli tıp, dijital cihazlardan ve sistemlerden elde edilen verilerin bilimsel yöntemlerle analiz edilmesi ve hukuki süreçlerde delil olarak kullanılmasıdır.\r\n\r\n🔍 **Dijital Adli Tıp Tanımı:**\r\n• Dijital cihazlardan veri çıkarma\r\n• Siber suçları araştırma\r\n• Dijital delilleri analiz etme\r\n• Hukuki süreçlerde uzmanlık\r\n\r\n🎯 **Dijital Adli Tıpın Amacı:**\r\n• Siber suçları ortaya çıkarma\r\n• Dijital delilleri koruma\r\n• Suçluları tespit etme\r\n• Adli süreçlere katkı sağlama\r\n• Dijital güvenliği artırma\r\n\r\n📱 **Analiz Edilen Cihazlar:**\r\n• Bilgisayarlar (PC, Laptop)\r\n• Mobil cihazlar (Telefon, Tablet)\r\n• Sunucular ve network cihazları\r\n• IoT cihazları\r\n• Oyun konsolları\r\n• GPS cihazları\r\n• Dijital kameralar\r\n\r\n⚖️ **Hukuki Boyut:**\r\n• Delil bütünlüğü\r\n• Zincir of custody\r\n• Mahkeme süreçleri\r\n• Uzman raporları\r\n• Yasal gereklilikler"
+                },
+                {
+                    "id": "2",
+                    "title": "Dijital Adli Tıpın Tarihçesi",
+                    "content": "Dijital adli tıp, bilgisayar teknolojisinin gelişimiyle birlikte ortaya çıkmış ve sürekli gelişen bir alandır.\r\n\r\n📅 **Tarihsel Gelişim:**\r\n• **1970'ler:** İlk bilgisayar suçları\r\n• **1980'ler:** FBI'ın bilgisayar suçları birimi\r\n• **1990'lar:** İlk adli tıp yazılımları\r\n• **2000'ler:** Internet suçlarının artması\r\n• **2010'lar:** Mobil cihaz forensics\r\n• **2020'ler:** AI ve machine learning\r\n\r\n🌍 **Önemli Gelişmeler:**\r\n• **1984:** Computer Fraud and Abuse Act (ABD)\r\n• **1990:** Computer Evidence Recovery (CER)\r\n• **1995:** EnCase yazılımının geliştirilmesi\r\n• **2001:** 9/11 sonrası güvenlik artışı\r\n• **2008:** iPhone forensics\r\n• **2013:** Snowden olayları\r\n• **2020:** COVID-19 ve uzaktan çalışma\r\n\r\n👥 **Öncü İsimler:**\r\n• **Cliff Stoll:** İlk siber casusluk vakası\r\n• **Kevin Mitnick:** Ünlü hacker ve güvenlik uzmanı\r\n• **Dan Farmer:** Security scanning araçları\r\n• **Brian Carrier:** Sleuth Kit geliştiricisi\r\n• **Simson Garfinkel:** Adli tıp araştırmacısı\r\n\r\n🔬 **Teknolojik Gelişmeler:**\r\n• Disk imajlama teknikleri\r\n• Bellek analizi araçları\r\n• Network forensics\r\n• Mobile device forensics\r\n• Cloud forensics\r\n• IoT forensics"
+                },
+                {
+                    "id": "3",
+                    "title": "Siber Suç Türleri ve Örnekleri",
+                    "content": "Dijital adli tıp, çeşitli siber suç türlerini araştırmak için kullanılır.\r\n\r\n🔴 **Siber Suç Kategorileri:**\r\n• **Finansal Suçlar:**\r\n  - Kredi kartı dolandırıcılığı\r\n  - Banka hesaplarına yetkisiz erişim\r\n  - Kripto para dolandırıcılığı\r\n  - Online alışveriş dolandırıcılığı\r\n\r\n• **Kişisel Veri Suçları:**\r\n  - Kimlik hırsızlığı\r\n  - Kişisel veri sızıntısı\r\n  - Sosyal medya hesaplarının ele geçirilmesi\r\n  - Phishing saldırıları\r\n\r\n• **Kurumsal Suçlar:**\r\n  - Ticari sır hırsızlığı\r\n  - Endüstriyel casusluk\r\n  - Ransomware saldırıları\r\n  - APT (Advanced Persistent Threat)\r\n\r\n• **Devlet Suçları:**\r\n  - Devlet sırlarının çalınması\r\n  - Siber savaş\r\n  - Terörizm\r\n  - Propaganda ve dezenformasyon\r\n\r\n🌐 **Ünlü Siber Suç Vakaları:**\r\n• **Stuxnet (2010):** İran nükleer tesislerine saldırı\r\n• **Target (2013):** 40 milyon kredi kartı verisi çalındı\r\n• **Yahoo (2014):** 3 milyar hesap etkilendi\r\n• **WannaCry (2017):** Küresel ransomware saldırısı\r\n• **SolarWinds (2020):** Supply chain saldırısı\r\n\r\n📊 **Siber Suç İstatistikleri:**\r\n• Her 39 saniyede bir siber saldırı\r\n• 2023'te 4.5 milyar dolar zarar\r\n• %95'i insan hatasından kaynaklanıyor\r\n• Ortalama tespit süresi: 287 gün"
+                },
+                {
+                    "id": "4",
+                    "title": "Dijital Adli Tıp Süreci",
+                    "content": "Dijital adli tıp araştırmaları belirli aşamalardan oluşan sistematik bir süreçtir.\r\n\r\n🔄 **Adli Tıp Süreci Aşamaları:**\r\n• **1. Hazırlık ve Planlama:**\r\n  - Olay yerini güvence altına alma\r\n  - Ekip oluşturma\r\n  - Araç ve ekipman hazırlığı\r\n  - Yasal izinlerin alınması\r\n\r\n• **2. Delil Toplama:**\r\n  - Cihazların güvenli şekilde toplanması\r\n  - Fotoğraf ve video çekimi\r\n  - Delil etiketleme\r\n  - Zincir of custody başlatma\r\n\r\n• **3. İmajlama ve Koruma:**\r\n  - Disk imajlama\r\n  - Hash değeri hesaplama\r\n  - Güvenli depolama\r\n  - Yedekleme\r\n\r\n• **4. Analiz:**\r\n  - Veri çıkarma\r\n  - Dosya sistemi analizi\r\n  - Silinmiş veri kurtarma\r\n  - Timeline oluşturma\r\n\r\n• **5. Raporlama:**\r\n  - Bulguların dokümantasyonu\r\n  - Uzman raporu hazırlama\r\n  - Mahkeme sunumu\r\n  - Delil sunumu\r\n\r\n⚖️ **Yasal Gereklilikler:**\r\n• **Zincir of Custody:** Delil bütünlüğü\r\n• **Hash Değerleri:** Veri bütünlüğü\r\n• **Uzman Raporları:** Bilimsel analiz\r\n• **Mahkeme Tanıklığı:** Uzman görüşü\r\n• **Delil Sunumu:** Hukuki süreç"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Dijital Adli Tıp Temelleri",
+                    "type": "quiz",
+                    "question": "Dijital adli tıpın ana amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Siber güvenlik yazılımları geliştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Dijital cihazlardan delil çıkarmak ve analiz etmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Network güvenliğini sağlamak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Malware geliştirmek",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Dijital adli tıpın ana amacı dijital cihazlardan delil çıkarmak, analiz etmek ve hukuki süreçlerde kullanmaktır."
+                }
+            ]
+        },
+        {
+            "id": "10_2",
+            "title": "Disk ve Bellek Analizi",
+            "duration": "40",
+            "color": "#b91c1c",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Disk imajlama tekniklerini öğren, bellek analizi yap ve silinmiş verileri kurtarma yöntemlerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Disk İmajlama Temelleri",
+                    "content": "Disk imajlama, dijital adli tıpın en kritik aşamalarından biridir ve delil bütünlüğünü sağlar.\r\n\r\n💾 **Disk İmajlama Nedir?**\r\n• Fiziksel disk'in bit-by-bit kopyası\r\n• Orijinal veriyi koruma\r\n• Adli analiz için güvenli kopya\r\n• Hash değeri ile doğrulama\r\n\r\n🔧 **İmajlama Türleri:**\r\n• **Raw Image (.dd):** Ham veri kopyası\r\n• **E01 Image:** EnCase formatı\r\n• **AFF Image:** Advanced Forensic Format\r\n• **VMDK:** VMware disk formatı\r\n• **VHD/VHDX:** Microsoft formatı\r\n\r\n⚡ **İmajlama Yöntemleri:**\r\n• **Live Imaging:** Çalışan sistemden\r\n• **Dead Imaging:** Kapatılmış sistemden\r\n• **Hot Imaging:** Açık sistemden\r\n• **Cold Imaging:** Kapalı sistemden\r\n\r\n🛠️ **Kullanılan Araçlar:**\r\n• **dd:** Linux/Unix komut satırı\r\n• **FTK Imager:** AccessData\r\n• **EnCase:** Guidance Software\r\n• **X-Ways Forensics:** X-Ways\r\n• **Autopsy:** Open source\r\n• **dc3dd:** Enhanced dd\r\n\r\n📊 **Hash Değerleri:**\r\n• **MD5:** 128-bit hash\r\n• **SHA-1:** 160-bit hash\r\n• **SHA-256:** 256-bit hash\r\n• **SHA-512:** 512-bit hash\r\n• **CRC32:** 32-bit checksum"
+                },
+                {
+                    "id": "2",
+                    "title": "Dosya Sistemi Analizi",
+                    "content": "Dosya sistemlerini analiz etmek, silinmiş dosyaları kurtarmak ve veri yapılarını anlamak için kritik öneme sahiptir.\r\n\r\n📁 **Dosya Sistemi Türleri:**\r\n• **NTFS (Windows):**\r\n  - Master File Table (MFT)\r\n  - Alternate Data Streams\r\n  - File timestamps\r\n  - Deleted file recovery\r\n\r\n• **FAT32/ExFAT:**\r\n  - File Allocation Table\r\n  - Directory entries\r\n  - Cluster allocation\r\n  - Simple structure\r\n\r\n• **ext3/ext4 (Linux):**\r\n  - Inode structure\r\n  - Journaling\r\n  - Directory structure\r\n  - Extended attributes\r\n\r\n• **HFS+/APFS (macOS):**\r\n  - B-tree structure\r\n  - Metadata\r\n  - Snapshots\r\n  - File system journal\r\n\r\n🔍 **Analiz Teknikleri:**\r\n• **File Carving:** Silinmiş dosya kurtarma\r\n• **Timeline Analysis:** Zaman çizelgesi\r\n• **Keyword Search:** Anahtar kelime arama\r\n• **Hash Analysis:** Dosya hash karşılaştırması\r\n• **Registry Analysis:** Windows kayıt defteri\r\n• **Log Analysis:** Sistem logları\r\n\r\n📅 **Timeline Analizi:**\r\n• **MAC Times:**\r\n  - M: Modified (Değiştirilme)\r\n  - A: Accessed (Erişim)\r\n  - C: Created (Oluşturulma)\r\n• **File System Timestamps**\r\n• **Registry Timestamps**\r\n• **Event Log Timestamps**\r\n• **Browser History Timestamps**"
+                },
+                {
+                    "id": "3",
+                    "title": "Bellek Analizi (Memory Forensics)",
+                    "content": "Bellek analizi, çalışan sistemlerin RAM'inden veri çıkarma ve analiz etme sürecidir.\r\n\r\n🧠 **Bellek Analizi Nedir?**\r\n• RAM'den veri çıkarma\r\n• Çalışan süreçleri analiz etme\r\n• Malware tespiti\r\n• Şifreli veri kurtarma\r\n• Network bağlantıları\r\n\r\n💾 **Bellek Türleri:**\r\n• **Physical Memory:** Fiziksel RAM\r\n• **Virtual Memory:** Sanal bellek\r\n• **Swap Space:** Takas alanı\r\n• **Hibernation File:** Uyku modu dosyası\r\n• **Crash Dump:** Sistem çökme dosyası\r\n\r\n🛠️ **Bellek Çıkarma Araçları:**\r\n• **Volatility:** Python tabanlı\r\n• **Rekall:** Volatility fork\r\n• **WinPmem:** Windows için\r\n• **LiME:** Linux için\r\n• **OSXPMem:** macOS için\r\n• **DumpIt:** Windows için\r\n• **FTK Imager:** Commercial\r\n\r\n🔍 **Analiz Teknikleri:**\r\n• **Process Analysis:** Süreç analizi\r\n• **Network Analysis:** Ağ analizi\r\n• **File System Analysis:** Dosya sistemi\r\n• **Registry Analysis:** Kayıt defteri\r\n• **Malware Analysis:** Zararlı yazılım\r\n• **Password Extraction:** Şifre çıkarma\r\n• **Browser Analysis:** Tarayıcı analizi\r\n\r\n📊 **Volatility Komutları:**\r\n• `volatility -f memory.dump imageinfo`\r\n• `volatility -f memory.dump pslist`\r\n• `volatility -f memory.dump pstree`\r\n• `volatility -f memory.dump netscan`\r\n• `volatility -f memory.dump filescan`\r\n• `volatility -f memory.dump cmdline`"
+                },
+                {
+                    "id": "4",
+                    "title": "Silinmiş Veri Kurtarma",
+                    "content": "Silinmiş verileri kurtarmak, dijital adli tıpın en önemli yeteneklerinden biridir.\r\n\r\n🗑️ **Veri Silme Süreçleri:**\r\n• **Logical Deletion:** Mantıksal silme\r\n• **Physical Deletion:** Fiziksel silme\r\n• **Secure Deletion:** Güvenli silme\r\n• **Overwriting:** Üzerine yazma\r\n• **Degaussing:** Manyetik silme\r\n\r\n🔧 **Kurtarma Teknikleri:**\r\n• **File Carving:** Dosya parçalarını birleştirme\r\n• **Signature Analysis:** Dosya imzası analizi\r\n• **Header/Footer Analysis:** Başlık/sonuç analizi\r\n• **Slack Space Analysis:** Boş alan analizi\r\n• **Unallocated Space:** Ayrılmamış alan\r\n• **File System Metadata:** Dosya sistemi meta verisi\r\n\r\n📁 **Kurtarılabilir Dosya Türleri:**\r\n• **Images:** JPEG, PNG, GIF, BMP\r\n• **Documents:** PDF, DOC, XLS, PPT\r\n• **Videos:** MP4, AVI, MOV, WMV\r\n• **Audio:** MP3, WAV, AAC\r\n• **Archives:** ZIP, RAR, 7Z\r\n• **Databases:** SQLite, Access\r\n• **Emails:** PST, OST, EML\r\n\r\n🛠️ **Kurtarma Araçları:**\r\n• **PhotoRec:** Open source\r\n• **TestDisk:** Disk kurtarma\r\n• **R-Studio:** Commercial\r\n• **GetDataBack:** NTFS kurtarma\r\n• **Recuva:** Windows için\r\n• **Foremost:** Command line\r\n• **Scalpel:** File carver\r\n• **Autopsy:** GUI tabanlı\r\n\r\n⚠️ **Kurtarma Zorlukları:**\r\n• **Overwritten Data:** Üzerine yazılmış veri\r\n• **Fragmented Files:** Parçalanmış dosyalar\r\n• **Encrypted Data:** Şifrelenmiş veri\r\n• **Corrupted File System:** Bozuk dosya sistemi\r\n• **SSD TRIM:** SSD'lerde otomatik silme"
+                },
+                {
+                    "id": "5",
+                    "title": "Disk Analizi Araçları",
+                    "content": "Disk analizi için kullanılan profesyonel araçlar ve teknikler.\r\n\r\n🛠️ **Commercial Araçlar:**\r\n• **EnCase:**\r\n  - Guidance Software\r\n  - Industry standard\r\n  - Comprehensive analysis\r\n  - Court-accepted\r\n  - Expensive license\r\n\r\n• **FTK (Forensic Toolkit):**\r\n  - AccessData\r\n  - User-friendly interface\r\n  - Powerful search\r\n  - Hash database\r\n  - Email analysis\r\n\r\n• **X-Ways Forensics:**\r\n  - X-Ways Software\r\n  - Fast processing\r\n  - Advanced features\r\n  - Disk editor\r\n  - Hex viewer\r\n\r\n• **Cellebrite UFED:**\r\n  - Mobile forensics\r\n  - Physical extraction\r\n  - Logical extraction\r\n  - Password bypass\r\n  - Cloud extraction\r\n\r\n🔓 **Open Source Araçlar:**\r\n• **Autopsy:**\r\n  - Free and open source\r\n  - GUI interface\r\n  - Sleuth Kit backend\r\n  - Plugin support\r\n  - Community driven\r\n\r\n• **Sleuth Kit:**\r\n  - Command line tools\r\n  - File system analysis\r\n  - Timeline generation\r\n  - Autopsy backend\r\n  - Cross-platform\r\n\r\n• **Volatility:**\r\n  - Memory forensics\r\n  - Python based\r\n  - Plugin architecture\r\n  - Active development\r\n  - Free and open\r\n\r\n• **RegRipper:**\r\n  - Registry analysis\r\n  - Plugin based\r\n  - Windows focused\r\n  - Free tool\r\n  - Command line\r\n\r\n📊 **Araç Karşılaştırması:**\r\n• **Hız:** X-Ways > EnCase > FTK > Autopsy\r\n• **Maliyet:** EnCase > FTK > X-Ways > Autopsy (Free)\r\n• **Öğrenme Eğrisi:** Autopsy < FTK < EnCase < X-Ways\r\n• **Özellikler:** EnCase > FTK > X-Ways > Autopsy"
+                },
+                {
+                    "id": "6",
+                    "title": "Pratik Uygulamalar",
+                    "content": "Disk ve bellek analizi için pratik uygulama örnekleri ve senaryolar.\r\n\r\n🎯 **Pratik Senaryolar:**\r\n• **Malware Analizi:**\r\n  - Memory dump analizi\r\n  - Process injection tespiti\r\n  - Network connections\r\n  - File system changes\r\n  - Registry modifications\r\n\r\n• **Data Theft Investigation:**\r\n  - File access timestamps\r\n  - USB device usage\r\n  - Email exfiltration\r\n  - Cloud storage access\r\n  - Browser history\r\n\r\n• **Insider Threat:**\r\n  - User activity analysis\r\n  - File access patterns\r\n  - Email communications\r\n  - Network traffic\r\n  - Application usage\r\n\r\n• **Incident Response:**\r\n  - System compromise\r\n  - Attack timeline\r\n  - Data exfiltration\r\n  - Lateral movement\r\n  - Persistence mechanisms\r\n\r\n🔧 **Hands-on Lab Örnekleri:**\r\n• **Disk Imaging:**\r\n  - dd komutu ile imajlama\r\n  - Hash değeri hesaplama\r\n  - Write blocker kullanımı\r\n  - Chain of custody\r\n\r\n• **File Recovery:**\r\n  - PhotoRec ile kurtarma\r\n  - File carving teknikleri\r\n  - Signature analysis\r\n  - Metadata extraction\r\n\r\n• **Memory Analysis:**\r\n  - Volatility ile analiz\r\n  - Process enumeration\r\n  - Network connections\r\n  - Malware detection\r\n\r\n• **Timeline Creation:**\r\n  - Sleuth Kit ile timeline\r\n  - Event correlation\r\n  - Timeline visualization\r\n  - Evidence presentation"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Disk ve Bellek Analizi",
+                    "type": "quiz",
+                    "question": "Disk imajlama sırasında delil bütünlüğünü sağlamak için hangi yöntem kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Hash değeri hesaplama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Dosya boyutunu kontrol etme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sadece imajlama yapma",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Zaman damgası ekleme",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Hash değeri hesaplama, disk imajlama sırasında delil bütünlüğünü sağlamak için kullanılan temel yöntemdir. MD5, SHA-1, SHA-256 gibi hash algoritmaları kullanılır."
+                }
+            ]
+        },
+        {
+            "id": "10_3",
+            "title": "Log Analizi ve Delil Toplama",
+            "duration": "35",
+            "color": "#991b1b",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Log dosyalarını analiz et, dijital delilleri toplama tekniklerini öğren ve delil bütünlüğünü koruma yöntemlerini keşfet.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Log Analizi Temelleri",
+                    "content": "Log analizi, sistem aktivitelerini izlemek ve güvenlik olaylarını tespit etmek için kritik öneme sahiptir.\r\n\r\n📊 **Log Nedir?**\r\n• Sistem aktivitelerinin kaydı\r\n• Zaman damgalı olaylar\r\n• Güvenlik olaylarının izi\r\n• Adli tıp için delil\r\n\r\n🔍 **Log Türleri:**\r\n• **System Logs:** Sistem logları\r\n• **Application Logs:** Uygulama logları\r\n• **Security Logs:** Güvenlik logları\r\n• **Network Logs:** Ağ logları\r\n• **Database Logs:** Veritabanı logları\r\n• **Web Server Logs:** Web sunucu logları\r\n• **Firewall Logs:** Güvenlik duvarı logları\r\n• **DNS Logs:** DNS sunucu logları\r\n\r\n📅 **Log Formatları:**\r\n• **Syslog:** Standard log formatı\r\n• **Windows Event Log:** Windows olay logları\r\n• **Apache Log:** Web sunucu logları\r\n• **IIS Log:** Microsoft web sunucu\r\n• **JSON Logs:** Yapılandırılmış loglar\r\n• **CSV Logs:** Virgülle ayrılmış\r\n• **XML Logs:** XML formatında\r\n• **Binary Logs:** İkili format\r\n\r\n🛠️ **Log Analizi Araçları:**\r\n• **Splunk:** Enterprise log analysis\r\n• **ELK Stack:** Elasticsearch, Logstash, Kibana\r\n• **Graylog:** Open source\r\n• **LogRhythm:** SIEM platform\r\n• **QRadar:** IBM SIEM\r\n• **ArcSight:** HP SIEM\r\n• **Wazuh:** Open source SIEM\r\n• **OSSEC:** Host-based IDS"
+                },
+                {
+                    "id": "2",
+                    "title": "Windows Event Log Analizi",
+                    "content": "Windows sistemlerinde olay loglarını analiz etmek, güvenlik olaylarını tespit etmek için önemlidir.\r\n\r\n🪟 **Windows Event Log Türleri:**\r\n• **Application Log:** Uygulama hataları\r\n• **System Log:** Sistem olayları\r\n• **Security Log:** Güvenlik olayları\r\n• **Setup Log:** Kurulum olayları\r\n• **Forwarded Events:** Yönlendirilmiş olaylar\r\n\r\n🔐 **Security Log Event ID'leri:**\r\n• **4624:** Başarılı giriş\r\n• **4625:** Başarısız giriş\r\n• **4634:** Çıkış yapıldı\r\n• **4648:** Explicit credentials kullanıldı\r\n• **4672:** Yönetici hakları verildi\r\n• **4720:** Kullanıcı hesabı oluşturuldu\r\n• **4722:** Kullanıcı hesabı etkinleştirildi\r\n• **4724:** Şifre sıfırlama girişimi\r\n• **4732:** Yerel grup üyeliği değişti\r\n• **4740:** Kullanıcı hesabı kilitlendi\r\n\r\n🛠️ **Windows Log Analizi Araçları:**\r\n• **Event Viewer:** Windows yerleşik\r\n• **PowerShell:** Get-WinEvent cmdlet\r\n• **LogParser:** Microsoft aracı\r\n• **Event Log Explorer:** Third-party\r\n• **Windows Event Collector:** WEC\r\n• **Sysmon:** System Monitor\r\n• **Procmon:** Process Monitor\r\n• **Regmon:** Registry Monitor\r\n\r\n📊 **Analiz Teknikleri:**\r\n• **Timeline Analysis:** Zaman çizelgesi\r\n• **Correlation Analysis:** Korelasyon analizi\r\n• **Anomaly Detection:** Anomali tespiti\r\n• **Pattern Recognition:** Desen tanıma\r\n• **Statistical Analysis:** İstatistiksel analiz\r\n• **Machine Learning:** Makine öğrenmesi\r\n\r\n🔍 **Önemli Event Patterns:**\r\n• **Lateral Movement:** Yanal hareket\r\n• **Privilege Escalation:** Yetki yükseltme\r\n• **Persistence:** Kalıcılık\r\n• **Data Exfiltration:** Veri sızıntısı\r\n• **Malware Execution:** Zararlı yazılım çalıştırma"
+                },
+                {
+                    "id": "3",
+                    "title": "Network Log Analizi",
+                    "content": "Ağ loglarını analiz etmek, network tabanlı saldırıları tespit etmek için kritik öneme sahiptir.\r\n\r\n🌐 **Network Log Türleri:**\r\n• **Firewall Logs:** Güvenlik duvarı logları\r\n• **Proxy Logs:** Vekil sunucu logları\r\n• **DNS Logs:** DNS sorgu logları\r\n• **DHCP Logs:** IP adresi atama logları\r\n• **VPN Logs:** Sanal özel ağ logları\r\n• **IDS/IPS Logs:** Saldırı tespit logları\r\n• **Router Logs:** Yönlendirici logları\r\n• **Switch Logs:** Anahtar logları\r\n\r\n🔍 **Analiz Edilen Veriler:**\r\n• **Source IP:** Kaynak IP adresi\r\n• **Destination IP:** Hedef IP adresi\r\n• **Port Numbers:** Port numaraları\r\n• **Protocols:** Protokol türleri\r\n• **Timestamps:** Zaman damgaları\r\n• **Bytes Transferred:** Transfer edilen veri\r\n• **Connection Duration:** Bağlantı süresi\r\n• **User Agents:** Kullanıcı ajanları\r\n\r\n🛠️ **Network Log Analizi Araçları:**\r\n• **Wireshark:** Paket analizi\r\n• **Tcpdump:** Komut satırı analizi\r\n• **Netflow Analyzer:** Akış analizi\r\n• **Bro/Zeek:** Network monitoring\r\n• **Suricata:** IDS/IPS\r\n• **Snort:** Open source IDS\r\n• **pfSense:** Firewall platform\r\n• **SonicWall:** UTM platform\r\n\r\n📊 **Analiz Teknikleri:**\r\n• **Flow Analysis:** Akış analizi\r\n• **Traffic Pattern Analysis:** Trafik desen analizi\r\n• **Bandwidth Analysis:** Bant genişliği analizi\r\n• **Protocol Analysis:** Protokol analizi\r\n• **Geographic Analysis:** Coğrafi analiz\r\n• **Time-based Analysis:** Zaman tabanlı analiz\r\n\r\n🚨 **Tespit Edilen Tehditler:**\r\n• **DDoS Attacks:** Dağıtık hizmet dışı bırakma\r\n• **Port Scanning:** Port tarama\r\n• **Brute Force:** Kaba kuvvet saldırıları\r\n• **Malware Communication:** Zararlı yazılım iletişimi\r\n• **Data Exfiltration:** Veri sızıntısı\r\n• **Command & Control:** Komut ve kontrol sunucuları"
+                },
+                {
+                    "id": "4",
+                    "title": "Dijital Delil Toplama",
+                    "content": "Dijital delilleri toplamak, adli tıp sürecinin en kritik aşamalarından biridir.\r\n\r\n⚖️ **Delil Toplama Prensipleri:**\r\n• **Chain of Custody:** Delil zinciri\r\n• **Integrity:** Bütünlük\r\n• **Authenticity:** Orijinallik\r\n• **Completeness:** Tamlık\r\n• **Admissibility:** Kabul edilebilirlik\r\n\r\n🔍 **Delil Türleri:**\r\n• **Volatile Evidence:** Uçucu deliller\r\n  - RAM içeriği\r\n  - Çalışan süreçler\r\n  - Ağ bağlantıları\r\n  - Açık dosyalar\r\n\r\n• **Non-Volatile Evidence:** Kalıcı deliller\r\n  - Disk verileri\r\n  - Dosya sistemi\r\n  - Kayıt defteri\r\n  - Log dosyaları\r\n\r\n📱 **Delil Kaynakları:**\r\n• **Computers:** Bilgisayarlar\r\n• **Mobile Devices:** Mobil cihazlar\r\n• **Servers:** Sunucular\r\n• **Network Devices:** Ağ cihazları\r\n• **Storage Media:** Depolama ortamları\r\n• **Cloud Services:** Bulut hizmetleri\r\n• **IoT Devices:** Nesnelerin interneti\r\n• **Gaming Consoles:** Oyun konsolları\r\n\r\n🛠️ **Delil Toplama Araçları:**\r\n• **Write Blockers:** Yazma engelleyiciler\r\n• **Imaging Tools:** İmajlama araçları\r\n• **Memory Dump Tools:** Bellek döküm araçları\r\n• **Network Capture Tools:** Ağ yakalama araçları\r\n• **Mobile Extraction Tools:** Mobil çıkarma araçları\r\n• **Cloud Collection Tools:** Bulut toplama araçları\r\n\r\n📋 **Delil Toplama Süreci:**\r\n1. **Scene Documentation:** Olay yeri dokümantasyonu\r\n2. **Evidence Identification:** Delil tespiti\r\n3. **Collection:** Toplama\r\n4. **Preservation:** Koruma\r\n5. **Transportation:** Taşıma\r\n6. **Storage:** Depolama\r\n7. **Analysis:** Analiz\r\n8. **Reporting:** Raporlama"
+                },
+                {
+                    "id": "5",
+                    "title": "Delil Bütünlüğü ve Koruma",
+                    "content": "Delil bütünlüğünü korumak, adli tıp sürecinin temel gereksinimidir.\r\n\r\n🔒 **Bütünlük Koruma Yöntemleri:**\r\n• **Hash Values:** Hash değerleri\r\n  - MD5, SHA-1, SHA-256\r\n  - Dosya bütünlüğü\r\n  - Değişiklik tespiti\r\n  - Mahkeme kanıtı\r\n\r\n• **Digital Signatures:** Dijital imzalar\r\n  - PKI tabanlı\r\n  - Kimlik doğrulama\r\n  - Bütünlük garantisi\r\n  - Zaman damgası\r\n\r\n• **Write Protection:** Yazma koruması\r\n  - Hardware write blockers\r\n  - Software write protection\r\n  - Read-only access\r\n  - Tamper detection\r\n\r\n📊 **Hash Hesaplama Araçları:**\r\n• **md5sum:** Linux/Unix\r\n• **certutil:** Windows\r\n• **HashCalc:** Windows GUI\r\n• **HashMyFiles:** Windows utility\r\n• **HashTab:** Windows shell extension\r\n• **Hashcat:** Advanced hash tool\r\n• **John the Ripper:** Hash cracking\r\n• **HashKeeper:** Hash database\r\n\r\n⚖️ **Yasal Gereklilikler:**\r\n• **Chain of Custody:** Delil zinciri\r\n• **Documentation:** Dokümantasyon\r\n• **Witness Testimony:** Tanık ifadesi\r\n• **Expert Opinion:** Uzman görüşü\r\n• **Court Admissibility:** Mahkeme kabulü\r\n\r\n🔍 **Bütünlük Doğrulama:**\r\n• **Initial Hash:** İlk hash hesaplama\r\n• **Periodic Verification:** Periyodik doğrulama\r\n• **Final Verification:** Son doğrulama\r\n• **Change Detection:** Değişiklik tespiti\r\n• **Integrity Reporting:** Bütünlük raporlama"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Log Analizi ve Delil Toplama",
+                    "type": "quiz",
+                    "question": "Windows Security Log'da başarısız giriş denemelerini tespit etmek için hangi Event ID kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "4624",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "4625",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "4634",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "4648",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Windows Security Log'da Event ID 4625 başarısız giriş denemelerini gösterir. Event ID 4624 başarılı girişleri, 4634 çıkışları, 4648 ise explicit credentials kullanımını gösterir."
+                }
+            ]
+        },
+        {
+            "id": "10_4",
+            "title": "Adli Araçlar: Autopsy, Volatility",
+            "duration": "45",
+            "color": "#7f1d1d",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Autopsy ve Volatility gibi profesyonel adli tıp araçlarını öğren, kullanım tekniklerini keşfet ve pratik uygulamalar yap.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Autopsy Nedir?",
+                    "content": "Autopsy, dijital adli tıp için geliştirilmiş ücretsiz ve açık kaynak kodlu bir analiz platformudur.\r\n\r\n🔍 **Autopsy Özellikleri:**\r\n• **Open Source:** Ücretsiz ve açık kaynak\r\n• **GUI Interface:** Grafik kullanıcı arayüzü\r\n• **Sleuth Kit Backend:** Sleuth Kit altyapısı\r\n• **Plugin Support:** Eklenti desteği\r\n• **Multi-Platform:** Çoklu platform desteği\r\n• **Community Driven:** Topluluk destekli\r\n\r\n🛠️ **Autopsy Bileşenleri:**\r\n• **Sleuth Kit:** Komut satırı araçları\r\n• **Autopsy GUI:** Grafik arayüz\r\n• **Plugins:** Eklentiler\r\n• **Hash Databases:** Hash veritabanları\r\n• **Keyword Lists:** Anahtar kelime listeleri\r\n• **File Type Detection:** Dosya türü tespiti\r\n\r\n📊 **Desteklenen Formatlar:**\r\n• **Disk Images:** .dd, .img, .raw\r\n• **EnCase Images:** .e01, .e02\r\n• **AFF Images:** .aff, .afd\r\n• **VMware Images:** .vmdk\r\n• **VirtualBox Images:** .vdi\r\n• **QEMU Images:** .qcow2\r\n• **VHD Images:** .vhd, .vhdx"
+                },
+                {
+                    "id": "2",
+                    "title": "Autopsy Kullanımı",
+                    "content": "Autopsy ile dijital adli tıp analizi yapmak için adım adım süreç.\r\n\r\n🚀 **Autopsy Başlatma:**\r\n1. **New Case:** Yeni vaka oluştur\r\n2. **Case Information:** Vaka bilgilerini gir\r\n3. **Add Data Source:** Veri kaynağı ekle\r\n4. **Configure Ingest:** Analiz modüllerini seç\r\n5. **Start Analysis:** Analizi başlat\r\n\r\n📁 **Case Management:**\r\n• **Case Name:** Vaka adı\r\n• **Case Number:** Vaka numarası\r\n• **Examiner:** İnceleyici adı\r\n• **Description:** Açıklama\r\n• **Case Directory:** Vaka klasörü\r\n• **Time Zone:** Zaman dilimi\r\n\r\n🔍 **Data Source Types:**\r\n• **Disk Image:** Disk imajı\r\n• **Local Disk:** Yerel disk\r\n• **Logical Files:** Mantıksal dosyalar\r\n• **Unallocated Space:** Ayrılmamış alan\r\n• **VMware Image:** VMware imajı\r\n• **VirtualBox Image:** VirtualBox imajı"
+                },
+                {
+                    "id": "3",
+                    "title": "Volatility Nedir?",
+                    "content": "Volatility, bellek forensics için geliştirilmiş güçlü bir Python tabanlı açık kaynak araçtır.\r\n\r\n🧠 **Volatility Özellikleri:**\r\n• **Memory Forensics:** Bellek adli tıpı\r\n• **Python Based:** Python tabanlı\r\n• **Plugin Architecture:** Eklenti mimarisi\r\n• **Cross-Platform:** Çoklu platform\r\n• **Active Development:** Aktif geliştirme\r\n• **Free and Open:** Ücretsiz ve açık\r\n\r\n💾 **Desteklenen Formatlar:**\r\n• **Windows Memory:** Windows bellek dökümleri\r\n• **Linux Memory:** Linux bellek dökümleri\r\n• **macOS Memory:** macOS bellek dökümleri\r\n• **VMware Memory:** VMware bellek dökümleri\r\n• **VirtualBox Memory:** VirtualBox bellek dökümleri\r\n• **Hibernation Files:** Uyku modu dosyaları\r\n• **Crash Dumps:** Çökme dökümleri\r\n• **Raw Memory:** Ham bellek dökümleri"
+                },
+                {
+                    "id": "4",
+                    "title": "Volatility Kullanımı",
+                    "content": "Volatility ile bellek analizi yapmak için temel komutlar ve teknikler.\r\n\r\n🚀 **Temel Komutlar:**\r\n• **Image Information:**\r\n  `volatility -f memory.dump imageinfo`\r\n  `volatility3 -f memory.dump windows.info`\r\n\r\n• **Process Analysis:**\r\n  `volatility -f memory.dump pslist`\r\n  `volatility -f memory.dump pstree`\r\n  `volatility -f memory.dump psscan`\r\n\r\n• **Network Analysis:**\r\n  `volatility -f memory.dump netscan`\r\n  `volatility -f memory.dump netstat`\r\n  `volatility -f memory.dump connections`\r\n\r\n• **File System Analysis:**\r\n  `volatility -f memory.dump filescan`\r\n  `volatility -f memory.dump mftparser`\r\n  `volatility -f memory.dump mbrparser`"
+                },
+                {
+                    "id": "5",
+                    "title": "Pratik Uygulamalar",
+                    "content": "Autopsy ve Volatility ile pratik adli tıp analizi örnekleri.\r\n\r\n🎯 **Autopsy Pratik Örnekleri:**\r\n• **Disk Image Analysis:**\r\n  - Disk imajı yükleme\r\n  - Dosya sistemi analizi\r\n  - Silinmiş dosya kurtarma\r\n  - Timeline oluşturma\r\n  - Hash analizi\r\n\r\n• **Keyword Search:**\r\n  - Anahtar kelime tanımlama\r\n  - Regex pattern kullanımı\r\n  - Case-sensitive arama\r\n  - Unicode desteği\r\n  - Sonuç filtreleme\r\n\r\n🧠 **Volatility Pratik Örnekleri:**\r\n• **Malware Detection:**\r\n  - Process injection tespiti\r\n  - API hooking analizi\r\n  - Code injection\r\n  - Rootkit tespiti\r\n  - Persistence mechanisms\r\n\r\n• **Incident Response:**\r\n  - Attack timeline\r\n  - Lateral movement\r\n  - Data exfiltration\r\n  - Command & control\r\n  - Persistence analysis"
+                },
+                {
+                    "id": "6",
+                    "title": "Raporlama ve Dokümantasyon",
+                    "content": "Adli tıp analizi sonuçlarını raporlama ve dokümantasyon süreçleri.\r\n\r\n📋 **Rapor Türleri:**\r\n• **Technical Report:** Teknik rapor\r\n• **Executive Summary:** Yönetici özeti\r\n• **Court Report:** Mahkeme raporu\r\n• **Incident Report:** Olay raporu\r\n• **Expert Opinion:** Uzman görüşü\r\n• **Chain of Custody:** Delil zinciri\r\n\r\n📊 **Rapor İçeriği:**\r\n• **Executive Summary:** Özet\r\n• **Methodology:** Metodoloji\r\n• **Findings:** Bulgular\r\n• **Evidence:** Deliller\r\n• **Timeline:** Zaman çizelgesi\r\n• **Conclusion:** Sonuç\r\n• **Recommendations:** Öneriler\r\n• **Appendices:** Ekler"
+                },
+                {
+                    "id": "7",
+                    "title": "Gelişmiş Teknikler",
+                    "content": "Autopsy ve Volatility ile gelişmiş adli tıp analizi teknikleri.\r\n\r\n🔧 **Autopsy Gelişmiş Özellikler:**\r\n• **Plugin Development:** Eklenti geliştirme\r\n• **Custom Modules:** Özel modüller\r\n• **API Integration:** API entegrasyonu\r\n• **Database Queries:** Veritabanı sorguları\r\n• **Scripting:** Betik yazma\r\n• **Automation:** Otomasyon\r\n\r\n🧠 **Volatility Gelişmiş Teknikler:**\r\n• **Plugin Development:** Eklenti geliştirme\r\n• **Custom Profiles:** Özel profiller\r\n• **Symbol Files:** Sembol dosyaları\r\n• **Memory Patching:** Bellek yamalama\r\n• **Advanced Analysis:** Gelişmiş analiz\r\n• **Machine Learning:** Makine öğrenmesi"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Adli Araçlar",
+                    "type": "quiz",
+                    "question": "Volatility ile bellek analizi yaparken hangi komut süreç listesini gösterir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "volatility -f memory.dump imageinfo",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "volatility -f memory.dump netscan",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "volatility -f memory.dump pslist",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "volatility -f memory.dump filescan",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Volatility ile 'pslist' komutu süreç listesini gösterir. 'imageinfo' imaj bilgilerini, 'netscan' ağ bağlantılarını, 'filescan' ise dosya listesini gösterir."
+                }
+            ]
+        },
+        {
+            "id": "10_5",
+            "title": "Quiz: Dijital Adli Tıp",
+            "duration": "20",
+            "color": "#1f2937",
+            "documents": 1,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Dijital adli tıp konusundaki bilgilerinizi test edin, kapsamlı quiz ile öğrendiklerinizi pekiştirin.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Quiz Girişi",
+                    "content": "Dijital Adli Tıp kategorisinin kapsamlı quiz'ine hoş geldiniz! Bu quiz, tüm derslerde öğrendiğiniz konuları test edecek.\r\n\r\n📋 **Quiz Kuralları:**\r\n• 10 soru bulunmaktadır\r\n• Her soru için sadece bir doğru cevap vardır\r\n• %70 ve üzeri başarı gerekir\r\n• Quiz'i tamamladıktan sonra sonuçlarınızı görebilirsiniz\r\n\r\n🎯 **Quiz Konuları:**\r\n• Dijital adli tıp temelleri\r\n• Disk ve bellek analizi\r\n• Log analizi ve delil toplama\r\n• Adli araçlar (Autopsy, Volatility)\r\n• Delil bütünlüğü ve koruma\r\n• Raporlama ve dokümantasyon\r\n• Dosya kurtarma teknikleri\r\n\r\n⚡ **Hazır mısınız?**\r\nQuiz'e başlamak için aşağıdaki soruları cevaplayın!"
+                },
+                {
+                    "id": "2",
+                    "title": "Soru 1: Dijital Adli Tıp Temelleri",
+                    "type": "quiz",
+                    "question": "Dijital adli tıpın ana amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Siber güvenlik yazılımları geliştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Network güvenliğini sağlamak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Malware geliştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Dijital cihazlardan delil çıkarmak ve analiz etmek",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Dijital adli tıpın ana amacı dijital cihazlardan delil çıkarmak, analiz etmek ve hukuki süreçlerde kullanmaktır."
+                },
+                {
+                    "id": "3",
+                    "title": "Soru 2: Disk İmajlama",
+                    "type": "quiz",
+                    "question": "Disk imajlama sırasında delil bütünlüğünü sağlamak için hangi yöntem kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Dosya boyutunu kontrol etme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Sadece imajlama yapma",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Zaman damgası ekleme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Hash değeri hesaplama",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Hash değeri hesaplama, disk imajlama sırasında delil bütünlüğünü sağlamak için kullanılan temel yöntemdir."
+                },
+                {
+                    "id": "4",
+                    "title": "Soru 3: Windows Event Log",
+                    "type": "quiz",
+                    "question": "Windows Security Log'da başarısız giriş denemelerini tespit etmek için hangi Event ID kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "4624",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "4634",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "4648",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "4625",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Windows Security Log'da Event ID 4625 başarısız giriş denemelerini gösterir."
+                },
+                {
+                    "id": "5",
+                    "title": "Soru 4: Volatility Komutları",
+                    "type": "quiz",
+                    "question": "Volatility ile bellek analizi yaparken hangi komut süreç listesini gösterir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "volatility -f memory.dump imageinfo",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "volatility -f memory.dump netscan",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "volatility -f memory.dump filescan",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "volatility -f memory.dump pslist",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Volatility ile 'pslist' komutu süreç listesini gösterir."
+                },
+                {
+                    "id": "6",
+                    "title": "Soru 5: Delil Bütünlüğü",
+                    "type": "quiz",
+                    "question": "Delil bütünlüğünü korumak için en yaygın kullanılan hash algoritması hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "MD5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SHA-1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "CRC32",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "SHA-256",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "SHA-256, delil bütünlüğünü korumak için en yaygın kullanılan hash algoritmasıdır."
+                },
+                {
+                    "id": "7",
+                    "title": "Soru 6: Autopsy Özellikleri",
+                    "type": "quiz",
+                    "question": "Autopsy hangi tür bir yazılımdır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Commercial software",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Freeware",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Shareware",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Open source software",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Autopsy, ücretsiz ve açık kaynak kodlu bir dijital adli tıp yazılımıdır."
+                },
+                {
+                    "id": "8",
+                    "title": "Soru 7: Log Analizi",
+                    "type": "quiz",
+                    "question": "Log analizi için en yaygın kullanılan açık kaynak araç hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Splunk",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "QRadar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "ArcSight",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "ELK Stack",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "ELK Stack (Elasticsearch, Logstash, Kibana) log analizi için en yaygın kullanılan açık kaynak araçtır."
+                },
+                {
+                    "id": "9",
+                    "title": "Soru 8: Adli Tıp Süreci",
+                    "type": "quiz",
+                    "question": "Dijital adli tıp sürecinde delil bütünlüğünü sağlamak için hangi prensip uygulanır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Data Encryption",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Access Control",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Backup Strategy",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Chain of Custody",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Chain of Custody (Delil Zinciri), dijital adli tıp sürecinde delil bütünlüğünü sağlamak için uygulanan temel prensiptir."
+                },
+                {
+                    "id": "10",
+                    "title": "Soru 9: Bellek Analizi",
+                    "type": "quiz",
+                    "question": "Bellek analizi için en yaygın kullanılan açık kaynak araç hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "EnCase",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "FTK",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "X-Ways",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Volatility",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Volatility, bellek analizi için en yaygın kullanılan açık kaynak araçtır."
+                },
+                {
+                    "id": "11",
+                    "title": "Soru 10: Dosya Kurtarma",
+                    "type": "quiz",
+                    "question": "Silinmiş dosyaları kurtarmak için hangi teknik kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Disk Defragmentation",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "File Compression",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Data Encryption",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "File Carving",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "File Carving, silinmiş dosyaları kurtarmak için kullanılan temel tekniktir."
+                }
+            ]
+        }
+    ]
+}
