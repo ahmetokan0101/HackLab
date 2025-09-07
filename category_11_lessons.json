@@ -1,0 +1,147 @@
+{
+    "lessons": [
+        {
+            "id": "11_1",
+            "title": "1. Sızma Testi Temelleri ve Metodolojiler",
+            "duration": "35",
+            "color": "#ff6b00",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Sızma testi kavramlarını öğren, metodolojileri keşfet ve profesyonel sızma testi süreçlerini anla.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Sızma Testi Nedir?",
+                    "content": "Sızma testi (Penetration Testing), sistemlerin güvenlik açıklarını tespit etmek için yapılan kontrollü saldırı simülasyonlarıdır.\r\n\r\n🎯 **Sızma Testinin Amacı:**\r\n• Güvenlik açıklarını proaktif olarak tespit etmek\r\n• Sistemlerin gerçek saldırılara karşı direncini test etmek\r\n• Güvenlik önlemlerinin etkinliğini değerlendirmek\r\n• Yasal ve etik kurallar çerçevesinde güvenlik testleri yapmak\r\n• Güvenlik raporları hazırlayarak iyileştirme önerileri sunmak\r\n\r\n🔍 **Sızma Testi Türleri:**\r\n• **Black Box Testing:** Dışarıdan saldırı simülasyonu\r\n• **White Box Testing:** İç bilgilerle tam erişim testi\r\n• **Gray Box Testing:** Sınırlı bilgiyle hibrit test\r\n• **External Testing:** Dış ağdan saldırı testi\r\n• **Internal Testing:** İç ağdan saldırı testi\r\n• **Web Application Testing:** Web uygulama güvenlik testi\r\n• **Mobile Application Testing:** Mobil uygulama testi\r\n• **Social Engineering Testing:** Sosyal mühendislik testi\r\n\r\n⚖️ **Yasal ve Etik Kurallar:**\r\n• Yazılı izin alınması zorunludur\r\n• Test kapsamı ve sınırları belirlenmelidir\r\n• Gizlilik anlaşması imzalanmalıdır\r\n• Test sonuçları güvenli şekilde saklanmalıdır\r\n• Etik kurallara uygun davranılmalıdır"
+                },
+                {
+                    "id": "2",
+                    "title": "Sızma Testi Metodolojileri",
+                    "content": "Profesyonel sızma testleri, standart metodolojiler kullanılarak yapılır.\r\n\r\n📋 **OWASP Testing Guide:**\r\n• Web uygulama güvenlik testleri için\r\n• 4 ana aşama: Planning, Discovery, Testing, Reporting\r\n• Detaylı test prosedürleri\r\n• Güvenlik açığı kategorileri\r\n\r\n🔧 **PTES (Penetration Testing Execution Standard):**\r\n• 7 ana aşama:\r\n  1. Pre-engagement Interactions\r\n  2. Intelligence Gathering\r\n  3. Threat Modeling\r\n  4. Vulnerability Assessment\r\n  5. Exploitation\r\n  6. Post Exploitation\r\n  7. Reporting\r\n\r\n🛡️ **NIST SP 800-115:**\r\n• Federal bilgi sistemleri için\r\n• 4 aşama: Planning, Discovery, Attack, Reporting\r\n• Risk değerlendirme odaklı\r\n• Compliance gereksinimleri\r\n\r\n🎯 **OSSTMM (Open Source Security Testing Methodology Manual):**\r\n• Açık kaynak metodoloji\r\n• 5 ana alan: Human, Physical, Wireless, Telecommunications, Data Networks\r\n• Operasyonel güvenlik testleri\r\n• Metrik tabanlı değerlendirme\r\n\r\n⚡ **PTES vs OWASP Karşılaştırması:**\r\n• PTES: Genel sızma testleri\r\n• OWASP: Web uygulama odaklı\r\n• Her ikisi de profesyonel standartlar\r\n• Proje türüne göre seçim yapılır"
+                },
+                {
+                    "id": "3",
+                    "title": "Sızma Testi Aşamaları",
+                    "content": "Profesyonel bir sızma testi, sistematik aşamalardan oluşur.\r\n\r\n📝 **1. Pre-engagement (Ön Hazırlık):**\r\n• Test kapsamının belirlenmesi\r\n• Yasal izinlerin alınması\r\n• Test ekibinin oluşturulması\r\n• Test ortamının hazırlanması\r\n• Gizlilik anlaşmalarının imzalanması\r\n• Test zamanlamasının planlanması\r\n\r\n🔍 **2. Reconnaissance (Keşif):**\r\n• Passive information gathering\r\n• Active information gathering\r\n• Network discovery\r\n• Service enumeration\r\n• Technology stack identification\r\n• Vulnerability research\r\n\r\n🎯 **3. Vulnerability Assessment:**\r\n• Automated vulnerability scanning\r\n• Manual vulnerability testing\r\n• Configuration review\r\n• Security control assessment\r\n• Risk prioritization\r\n• False positive elimination\r\n\r\n⚔️ **4. Exploitation:**\r\n• Vulnerability exploitation\r\n• Privilege escalation\r\n• Lateral movement\r\n• Data exfiltration\r\n• Persistence establishment\r\n• Impact assessment\r\n\r\n📊 **5. Post-Exploitation:**\r\n• System access maintenance\r\n• Additional system discovery\r\n• Data collection\r\n• Evidence gathering\r\n• Cleanup operations\r\n• Impact documentation\r\n\r\n📋 **6. Reporting:**\r\n• Executive summary\r\n• Technical findings\r\n• Risk assessment\r\n• Remediation recommendations\r\n• Timeline and effort estimates\r\n• Follow-up procedures"
+                },
+                {
+                    "id": "4",
+                    "title": "Sızma Testi Araçları ve Framework'leri",
+                    "content": "Sızma testi uzmanları, çeşitli araçlar ve framework'ler kullanır.\r\n\r\n🛠️ **Reconnaissance Araçları:**\r\n• **Nmap:** Network discovery ve port scanning\r\n• **Recon-ng:** Web reconnaissance framework\r\n• **theHarvester:** Email ve subdomain discovery\r\n• **Sublist3r:** Subdomain enumeration\r\n• **Shodan:** Internet-connected device search\r\n• **Censys:** Internet scanning platform\r\n\r\n🔍 **Vulnerability Scanners:**\r\n• **Nessus:** Commercial vulnerability scanner\r\n• **OpenVAS:** Open source vulnerability scanner\r\n• **Nexpose:** Rapid7 vulnerability management\r\n• **Qualys VMDR:** Cloud-based vulnerability management\r\n• **Burp Suite:** Web application security testing\r\n• **OWASP ZAP:** Free web application scanner\r\n\r\n⚔️ **Exploitation Frameworks:**\r\n• **Metasploit:** Penetration testing framework\r\n• **Cobalt Strike:** Red team operations platform\r\n• **Empire:** PowerShell post-exploitation framework\r\n• **Impacket:** Network protocol library\r\n• **PowerSploit:** PowerShell exploitation toolkit\r\n• **BloodHound:** Active Directory attack path analysis\r\n\r\n🌐 **Web Application Testing:**\r\n• **Burp Suite Professional:** Comprehensive web testing\r\n• **OWASP ZAP:** Free web application scanner\r\n• **SQLMap:** SQL injection testing\r\n• **XSSer:** Cross-site scripting testing\r\n• **Wfuzz:** Web application fuzzer\r\n• **Nikto:** Web server scanner\r\n\r\n📱 **Mobile Testing:**\r\n• **MobSF:** Mobile security framework\r\n• **Frida:** Dynamic instrumentation toolkit\r\n• **Objection:** Runtime mobile exploration\r\n• **APKTool:** Android reverse engineering\r\n• **ClassyShark:** Android APK analyzer\r\n• **Drozer:** Android security assessment\r\n\r\n🔧 **Network Testing:**\r\n• **Wireshark:** Network protocol analyzer\r\n• **tcpdump:** Command-line packet analyzer\r\n• **Ettercap:** Network security tool\r\n• **Responder:** LLMNR/NBT-NS poisoner\r\n• **Impacket:** Network protocol library\r\n• **CrackMapExec:** Active Directory testing"
+                },
+                {
+                    "id": "5",
+                    "title": "Sızma Testi Raporlama",
+                    "content": "Sızma testi raporu, testin en kritik aşamasıdır.\r\n\r\n📋 **Rapor Yapısı:**\r\n• **Executive Summary:** Yöneticiler için özet\r\n• **Technical Summary:** Teknik detaylar\r\n• **Methodology:** Kullanılan metodoloji\r\n• **Findings:** Bulunan güvenlik açıkları\r\n• **Risk Assessment:** Risk değerlendirmesi\r\n• **Recommendations:** Öneriler ve çözümler\r\n• **Appendices:** Teknik detaylar ve loglar\r\n\r\n🎯 **Executive Summary İçeriği:**\r\n• Test kapsamı ve hedefleri\r\n• Genel güvenlik durumu\r\n• Kritik bulgular\r\n• Risk seviyeleri\r\n• Acil aksiyon gereken konular\r\n• Genel değerlendirme\r\n\r\n🔍 **Technical Findings Formatı:**\r\n• **Vulnerability Title:** Açık başlığı\r\n• **Risk Level:** Kritik/Yüksek/Orta/Düşük\r\n• **CVSS Score:** Common Vulnerability Scoring System\r\n• **Description:** Açığın açıklaması\r\n• **Impact:** Etki analizi\r\n• **Proof of Concept:** İspat kodu/komutları\r\n• **Remediation:** Çözüm önerileri\r\n• **References:** Kaynaklar ve referanslar\r\n\r\n📊 **Risk Assessment Kriterleri:**\r\n• **Likelihood:** Olasılık (Yüksek/Orta/Düşük)\r\n• **Impact:** Etki (Yüksek/Orta/Düşük)\r\n• **Business Risk:** İş riski değerlendirmesi\r\n• **Compliance Impact:** Uyumluluk etkisi\r\n• **Remediation Effort:** Çözüm çabası\r\n\r\n💡 **Etkili Raporlama İpuçları:**\r\n• Açık ve anlaşılır dil kullanın\r\n• Görsel öğeler ekleyin (screenshots, diyagramlar)\r\n• Öncelik sıralaması yapın\r\n• Somut çözüm önerileri sunun\r\n• Teknik ve yönetici seviyesi için ayrı bölümler\r\n• Follow-up planı hazırlayın"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Sızma Testi Temelleri",
+                    "type": "quiz",
+                    "question": "Sızma testi metodolojilerinden hangisi web uygulama güvenlik testleri için özellikle tasarlanmıştır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "PTES (Penetration Testing Execution Standard)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "OWASP Testing Guide",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "NIST SP 800-115",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "OSSTMM",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "OWASP Testing Guide, web uygulama güvenlik testleri için özellikle tasarlanmış bir metodolojidir. Web uygulamalarındaki güvenlik açıklarını tespit etmek için detaylı prosedürler ve test teknikleri sunar."
+                }
+            ]
+        },
+        {
+            "id": "11_2",
+            "title": "2. Reconnaissance ve Bilgi Toplama",
+            "duration": "40",
+            "color": "#ff8c00",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Reconnaissance tekniklerini öğren, passive ve active bilgi toplama yöntemlerini keşfet.",
+            "pages": []
+        },
+        {
+            "id": "11_3",
+            "title": "3. Vulnerability Assessment ve Exploitation",
+            "duration": "45",
+            "color": "#ff9500",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Güvenlik açıklarını tespit et ve exploit et, Metasploit framework'ünü kullan.",
+            "pages": []
+        },
+        {
+            "id": "11_4",
+            "title": "4. Web Application Penetration Testing",
+            "duration": "50",
+            "color": "#ffa500",
+            "documents": 9,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Web uygulamalarını test et, OWASP Top 10 açıklarını keşfet ve güvenlik testleri yap.",
+            "pages": []
+        },
+        {
+            "id": "11_5",
+            "title": "5. Network Penetration Testing",
+            "duration": "45",
+            "color": "#ffad33",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Ağ altyapısını test et, network güvenlik açıklarını tespit et ve ağ saldırılarını simüle et.",
+            "pages": []
+        },
+        {
+            "id": "11_6",
+            "title": "6. Post-Exploitation ve Persistence",
+            "duration": "35",
+            "color": "#ffb84d",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Sistem erişimini sürdür, lateral movement yap ve persistence tekniklerini öğren.",
+            "pages": []
+        },
+        {
+            "id": "11_7",
+            "title": "7. Social Engineering ve Physical Security Testing",
+            "duration": "40",
+            "color": "#ffc266",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Sosyal mühendislik testleri yap, fiziksel güvenlik açıklarını tespit et.",
+            "pages": []
+        },
+        {
+            "id": "11_8",
+            "title": "8. Sızma Testi Raporlama ve Sunum",
+            "duration": "30",
+            "color": "#ffcc80",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Profesyonel sızma testi raporları hazırla, sunum tekniklerini öğren ve müşteri iletişimi yap.",
+            "pages": []
+        }
+    ]
+}
