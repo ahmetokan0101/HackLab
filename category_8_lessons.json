@@ -224,7 +224,62 @@
             "isCompleted": false,
             "isActive": true,
             "description": "Bluetooth güvenliğini öğren, IoT cihaz saldırıları, BLE güvenlik açıkları ve akıllı cihaz koruma yöntemlerini keşfet.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Bluetooth Temelleri ve Güvenlik",
+                    "content": "Bluetooth, kısa mesafe kablosuz iletişim protokolüdür ve güvenlik açıkları içerebilir.\r\n\r\n📡 **Bluetooth Versiyonları:**\r\n• **Bluetooth 1.x:** 1 Mbps, güvenlik zayıf\r\n• **Bluetooth 2.0:** 3 Mbps, EDR desteği\r\n• **Bluetooth 3.0:** 24 Mbps, AMP teknolojisi\r\n• **Bluetooth 4.0:** BLE (Bluetooth Low Energy)\r\n• **Bluetooth 5.0:** 2 Mbps, 4x menzil\r\n• **Bluetooth 5.1:** Direction finding\r\n• **Bluetooth 5.2:** LE Audio\r\n\r\n🔐 **Bluetooth Güvenlik Katmanları:**\r\n• **Authentication:** Kimlik doğrulama\r\n• **Authorization:** Yetkilendirme\r\n• **Encryption:** Veri şifreleme\r\n• **Key Management:** Anahtar yönetimi\r\n\r\n⚠️ **Bluetooth Güvenlik Açıkları:**\r\n• **BlueBorne:** Uzaktan kod çalıştırma\r\n• **Bluejacking:** Spam mesaj gönderme\r\n• **Bluesnarfing:** Veri çalma\r\n• **Bluebugging:** Cihaz kontrolü\r\n• **Car Whisperer:** Araç sistemlerine erişim\r\n\r\n🛡️ **Bluetooth Güvenlik Önlemleri:**\r\n• Görünürlüğü kapat\r\n• Güçlü PIN kullan\r\n• Düzenli güncelleme yap\r\n• Bilinmeyen cihazlara bağlanma\r\n• Güvenlik modunu aktif et"
+                },
+                {
+                    "id": "2",
+                    "title": "BLE (Bluetooth Low Energy) Güvenliği",
+                    "content": "BLE, düşük güç tüketimi için tasarlanmış Bluetooth teknolojisidir ancak güvenlik açıkları içerir.\r\n\r\n⚡ **BLE Özellikleri:**\r\n• Düşük güç tüketimi\r\n• Hızlı bağlantı kurma\r\n• Kısa mesafe iletişimi\r\n• IoT cihazları için ideal\r\n\r\n🎯 **BLE Güvenlik Açıkları:**\r\n• **BLE Spoofing:** Sahte cihaz taklit etme\r\n• **BLE Sniffing:** Veri dinleme\r\n• **BLE Injection:** Sahte veri gönderme\r\n• **BLE DoS:** Hizmet dışı bırakma\r\n• **BLE Man-in-the-Middle:** Araya girme\r\n\r\n🛠️ **BLE Saldırı Araçları:**\r\n• **nRF Connect:** BLE cihaz keşfi\r\n• **Bluetooth LE Explorer:** Cihaz analizi\r\n• **GATT Browser:** Servis keşfi\r\n• **BLE Scanner:** Güvenlik testleri\r\n• **Ubertooth One:** BLE sniffing\r\n\r\n📊 **BLE Saldırı Senaryoları:**\r\n• **Fitness Tracker Saldırıları:**\r\n  - Kişisel veri çalma\r\n  - Konum takibi\r\n  - Sağlık bilgileri\r\n\r\n• **Smart Lock Saldırıları:**\r\n  - Kilit açma\r\n  - Yetkisiz erişim\r\n  - Güvenlik bypass\r\n\r\n• **Medical Device Saldırıları:**\r\n  - Tıbbi cihaz manipülasyonu\r\n  - Veri değiştirme\r\n  - Hasta güvenliği\r\n\r\n🛡️ **BLE Güvenlik Önlemleri:**\r\n• Güçlü şifreleme kullan\r\n• Düzenli güncelleme yap\r\n• Güvenlik testleri yap\r\n• Network segmentation\r\n• Monitoring ve logging"
+                },
+                {
+                    "id": "3",
+                    "title": "IoT Cihaz Güvenlik Açıkları",
+                    "content": "IoT cihazları, güvenlik açıkları nedeniyle siber saldırıların hedefi olabilir.\r\n\r\n🏠 **IoT Cihaz Kategorileri:**\r\n• **Smart Home:** Akıllı ev cihazları\r\n• **Wearables:** Giyilebilir teknolojiler\r\n• **Industrial IoT:** Endüstriyel cihazlar\r\n• **Medical IoT:** Tıbbi cihazlar\r\n• **Automotive IoT:** Araç sistemleri\r\n\r\n⚠️ **IoT Güvenlik Açıkları:**\r\n• **Default Credentials:** Varsayılan şifreler\r\n• **Unencrypted Communication:** Şifrelenmemiş iletişim\r\n• **Weak Authentication:** Zayıf kimlik doğrulama\r\n• **No Security Updates:** Güvenlik güncellemeleri yok\r\n• **Hardcoded Secrets:** Sabit kodlanmış gizlilikler\r\n• **Insecure APIs:** Güvensiz API'ler\r\n• **Physical Tampering:** Fiziksel müdahale\r\n\r\n🎯 **IoT Saldırı Türleri:**\r\n• **Botnet Attacks:** Mirai, Reaper\r\n• **Data Exfiltration:** Veri çalma\r\n• **Device Hijacking:** Cihaz ele geçirme\r\n• **Privacy Violations:** Gizlilik ihlali\r\n• **Physical Safety:** Fiziksel güvenlik\r\n\r\n🛠️ **IoT Güvenlik Test Araçları:**\r\n• **Shodan:** IoT cihaz keşfi\r\n• **Nmap:** Port tarama\r\n• **OWASP ZAP:** Web güvenlik testi\r\n• **Burp Suite:** API güvenlik testi\r\n• **Firmware Analysis Tools:** Firmware analizi\r\n\r\n📊 **IoT Saldırı Örnekleri:**\r\n• **Mirai Botnet:** 600,000 IoT cihaz\r\n• **Stuxnet:** Endüstriyel sistemler\r\n• **Triton:** Güvenlik sistemleri\r\n• **VPNFilter:** Router saldırıları\r\n• **EternalBlue:** Windows sistemleri"
+                },
+                {
+                    "id": "4",
+                    "title": "Akıllı Cihaz Koruma Yöntemleri",
+                    "content": "Akıllı cihazları korumak için kapsamlı güvenlik stratejileri uygulanmalıdır.\r\n\r\n🛡️ **Cihaz Seviyesi Koruması:**\r\n• **Strong Authentication:**\r\n  - Güçlü şifreler\r\n  - İki faktörlü kimlik doğrulama\r\n  - Biometric authentication\r\n  - Certificate-based auth\r\n\r\n• **Encryption:**\r\n  - End-to-end encryption\r\n  - Data at rest encryption\r\n  - Transport layer security\r\n  - Key management\r\n\r\n• **Access Control:**\r\n  - Role-based access\r\n  - Principle of least privilege\r\n  - Device isolation\r\n  - Network segmentation\r\n\r\n🔧 **Network Seviyesi Koruması:**\r\n• **Firewall Rules:**\r\n  - Inbound/outbound filtering\r\n  - Port blocking\r\n  - Protocol restrictions\r\n  - IP whitelisting\r\n\r\n• **Network Monitoring:**\r\n  - Traffic analysis\r\n  - Anomaly detection\r\n  - Intrusion detection\r\n  - Behavioral analysis\r\n\r\n• **VPN and Tunneling:**\r\n  - Secure communication\r\n  - Remote access\r\n  - Site-to-site connections\r\n  - Mobile device management\r\n\r\n📱 **Mobile Device Security:**\r\n• **Device Management:**\r\n  - MDM (Mobile Device Management)\r\n  - Remote wipe capabilities\r\n  - App whitelisting\r\n  - Jailbreak detection\r\n\r\n• **App Security:**\r\n  - Code signing\r\n  - Runtime protection\r\n  - API security\r\n  - Data protection\r\n\r\n🏭 **Industrial IoT Security:**\r\n• **OT/IT Convergence:**\r\n  - Operational technology\r\n  - Information technology\r\n  - Security integration\r\n  - Risk management\r\n\r\n• **Safety Systems:**\r\n  - Fail-safe mechanisms\r\n  - Redundancy\r\n  - Emergency shutdown\r\n  - Physical security\r\n\r\n📊 **Security Monitoring:**\r\n• **SIEM Integration:**\r\n  - Centralized logging\r\n  - Event correlation\r\n  - Threat intelligence\r\n  - Incident response\r\n\r\n• **Continuous Monitoring:**\r\n  - 24/7 surveillance\r\n  - Real-time alerts\r\n  - Automated response\r\n  - Forensic capabilities"
+                },
+                {
+                    "id": "5",
+                    "title": "Bluetooth ve IoT Saldırı Araçları",
+                    "content": "Bluetooth ve IoT güvenlik testleri için kullanılan profesyonel araçlar.\r\n\r\n🔧 **Bluetooth Test Araçları:**\r\n• **Bluetooth Scanner:**\r\n  - Cihaz keşfi\r\n  - Servis analizi\r\n  - Güvenlik testleri\r\n  - Vulnerability assessment\r\n\r\n• **Ubertooth One:**\r\n  - Bluetooth sniffing\r\n  - Frequency hopping\r\n  - Packet analysis\r\n  - Security research\r\n\r\n• **BlueZ Tools:**\r\n  - Linux Bluetooth stack\r\n  - Command line tools\r\n  - Service discovery\r\n  - Pairing management\r\n\r\n• **Btscanner:**\r\n  - Bluetooth enumeration\r\n  - Service scanning\r\n  - Security assessment\r\n  - Report generation\r\n\r\n🛠️ **IoT Test Araçları:**\r\n• **Shodan:**\r\n  - IoT device discovery\r\n  - Vulnerability scanning\r\n  - Geographic mapping\r\n  - Service enumeration\r\n\r\n• **Censys:**\r\n  - Internet-wide scanning\r\n  - Certificate analysis\r\n  - Service discovery\r\n  - Security research\r\n\r\n• **Firmware Analysis:**\r\n  - Binwalk: Firmware extraction\r\n  - Firmadyne: Emulation\r\n  - Firmware mod kit\r\n  - Vulnerability research\r\n\r\n📊 **Test Komutları:**\r\n```bash\r\n# Bluetooth cihaz tarama\r\nhcitool scan\r\n\r\n# BLE servis keşfi\r\ngatttool -b AA:BB:CC:DD:EE:FF --primary\r\n\r\n# IoT cihaz tarama\r\nnmap -sS -O target_ip\r\n\r\n# Firmware analizi\r\nbinwalk firmware.bin\r\n```\r\n\r\n🎯 **Test Senaryoları:**\r\n• **Bluetooth Security Testing:**\r\n  - Pairing vulnerabilities\r\n  - Service enumeration\r\n  - Data interception\r\n  - Authentication bypass\r\n\r\n• **IoT Security Testing:**\r\n  - Default credentials\r\n  - Unencrypted services\r\n  - API vulnerabilities\r\n  - Firmware analysis\r\n\r\n⚠️ **Test Uyarıları:**\r\n• Sadece kendi cihazlarınızda test edin\r\n• Yetkisiz erişim yasaktır\r\n• Etik hacking kurallarına uyun\r\n• Penetration testing izni alın"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Bluetooth ve IoT Güvenliği",
+                    "type": "quiz",
+                    "question": "BLE (Bluetooth Low Energy) saldırılarında en yaygın güvenlik açığı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Şifreleme eksikliği",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Zayıf kimlik doğrulama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Fiziksel müdahale",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Ağ protokolü hataları",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "BLE saldırılarında en yaygın güvenlik açığı zayıf kimlik doğrulama mekanizmalarıdır. Çoğu BLE cihazı basit PIN kodları veya hiç kimlik doğrulama kullanmaz, bu da saldırganların kolayca erişim sağlamasına neden olur."
+                }
+            ]
         },
         {
             "id": "8_5",
@@ -235,7 +290,67 @@
             "isCompleted": false,
             "isActive": true,
             "description": "WiFi güvenlik test araçlarını öğren, Aircrack-ng, Wireshark, Kismet kullanımı ve kablosuz ağ penetration testing tekniklerini keşfet.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Aircrack-ng Suite Kullanımı",
+                    "content": "Aircrack-ng, WiFi güvenlik testlerinin en popüler araç setidir.\r\n\r\n🛠️ **Aircrack-ng Bileşenleri:**\r\n• **Airodump-ng:** Ağ keşfi ve handshake yakalama\r\n• **Aireplay-ng:** Paket enjeksiyonu ve saldırılar\r\n• **Aircrack-ng:** WEP/WPA şifre kırma\r\n• **Airdecap-ng:** Şifrelenmiş paketleri çözme\r\n• **Airmon-ng:** Monitor modu yönetimi\r\n• **Airodump-ng-oui-update:** OUI veritabanı güncelleme\r\n\r\n📊 **Temel Komutlar:**\r\n```bash\r\n# Monitor modu aktif etme\r\nairmon-ng start wlan0\r\n\r\n# Ağ keşfi\r\nairodump-ng wlan0mon\r\n\r\n# Handshake yakalama\r\nairodump-ng -c 6 -w capture --bssid AA:BB:CC:DD:EE:FF wlan0mon\r\n\r\n# Deauth saldırısı\r\naireplay-ng -0 5 -a AA:BB:CC:DD:EE:FF wlan0mon\r\n\r\n# WPA kırma\r\naircrack-ng -w wordlist.txt capture-01.cap\r\n```\r\n\r\n🎯 **Aircrack-ng Avantajları:**\r\n• Ücretsiz ve açık kaynak\r\n• Kapsamlı araç seti\r\n• Linux/Windows desteği\r\n• Aktif topluluk\r\n• Düzenli güncellemeler\r\n\r\n⚠️ **Kullanım Uyarıları:**\r\n• Sadece kendi ağınızda test edin\r\n• Yetkisiz erişim yasaktır\r\n• Etik hacking kurallarına uyun\r\n• Penetration testing izni alın"
+                },
+                {
+                    "id": "2",
+                    "title": "Wireshark ile Paket Analizi",
+                    "content": "Wireshark, ağ trafiğini analiz etmek için kullanılan profesyonel bir araçtır.\r\n\r\n🔍 **Wireshark Özellikleri:**\r\n• Gerçek zamanlı paket yakalama\r\n• 1000+ protokol desteği\r\n• Güçlü filtreleme sistemi\r\n• Detaylı protokol analizi\r\n• Export ve raporlama\r\n\r\n📡 **WiFi Paket Analizi:**\r\n• **802.11 Frame Types:**\r\n  - Management frames\r\n  - Control frames\r\n  - Data frames\r\n\r\n• **Authentication Process:**\r\n  - Open system authentication\r\n  - Shared key authentication\r\n  - 802.1X authentication\r\n\r\n• **Association Process:**\r\n  - Association request/response\r\n  - Reassociation\r\n  - Disassociation\r\n\r\n🔧 **Wireshark Filtreleri:**\r\n```bash\r\n# WiFi trafiği\r\nwlan\r\n\r\n# Belirli BSSID\r\nwlan.bssid == AA:BB:CC:DD:EE:FF\r\n\r\n# EAPOL frames\r\neapol\r\n\r\n# Deauth frames\r\nwlan.fc.type_subtype == 0x000c\r\n\r\n# Beacon frames\r\nwlan.fc.type_subtype == 0x0008\r\n```\r\n\r\n📊 **Analiz Teknikleri:**\r\n• **Handshake Analysis:**\r\n  - 4-way handshake yakalama\r\n  - MIC kontrolü\r\n  - Key derivation\r\n\r\n• **Traffic Analysis:**\r\n  - Data flow analizi\r\n  - Protocol distribution\r\n  - Performance metrics\r\n\r\n• **Security Analysis:**\r\n  - Encryption detection\r\n  - Authentication methods\r\n  - Vulnerability assessment\r\n\r\n🎯 **Wireshark Kullanım Senaryoları:**\r\n• Network troubleshooting\r\n• Security incident response\r\n• Protocol analysis\r\n• Performance monitoring\r\n• Penetration testing"
+                },
+                {
+                    "id": "3",
+                    "title": "Kismet ile Ağ Keşfi",
+                    "content": "Kismet, kablosuz ağ keşfi ve analizi için geliştirilmiş güçlü bir araçtır.\r\n\r\n🎯 **Kismet Özellikleri:**\r\n• Passive network discovery\r\n• Hidden SSID detection\r\n• Client monitoring\r\n• GPS integration\r\n• Logging capabilities\r\n• Web interface\r\n\r\n📡 **Kismet Bileşenleri:**\r\n• **Kismet Server:** Veri toplama ve analiz\r\n• **Kismet Client:** Arayüz ve kontrol\r\n• **Kismet Drone:** Uzaktan sensör\r\n• **Kismet Logs:** Veri saklama\r\n\r\n🔧 **Kismet Kurulum ve Kullanım:**\r\n```bash\r\n# Kismet kurulumu\r\napt-get install kismet\r\n\r\n# Kismet konfigürasyonu\r\nkismet_install_setuid\r\n\r\n# Kismet başlatma\r\nkismet -c wlan0\r\n\r\n# Web arayüzü\r\nhttp://localhost:2501\r\n```\r\n\r\n📊 **Kismet Çıktı Formatları:**\r\n• **NetXML:** Ağ bilgileri\r\n• **Pcapdump:** Paket yakalama\r\n• **GpsXML:** GPS koordinatları\r\n• **AlertXML:** Güvenlik uyarıları\r\n• **LogKismet:** Detaylı loglar\r\n\r\n🎯 **Kismet Kullanım Senaryoları:**\r\n• **Network Discovery:**\r\n  - Açık ağların tespiti\r\n  - Hidden SSID keşfi\r\n  - Client enumeration\r\n\r\n• **Security Assessment:**\r\n  - Rogue AP detection\r\n  - Weak encryption\r\n  - Open networks\r\n\r\n• **War Driving:**\r\n  - Geographic mapping\r\n  - Signal strength analysis\r\n  - Network density\r\n\r\n⚠️ **Kismet Kullanım Uyarıları:**\r\n• Passive monitoring aracı\r\n• Yasal kısıtlamalara dikkat\r\n• Privacy considerations\r\n• Ethical usage only"
+                },
+                {
+                    "id": "4",
+                    "title": "Hashcat ile Şifre Kırma",
+                    "content": "Hashcat, GPU hızlandırmalı şifre kırma aracıdır ve WiFi güvenlik testlerinde kritik rol oynar.\r\n\r\n⚡ **Hashcat Özellikleri:**\r\n• GPU acceleration (NVIDIA, AMD, Intel)\r\n• 300+ hash türü desteği\r\n• Rule-based attacks\r\n• Mask attacks\r\n• Distributed computing\r\n• High performance\r\n\r\n🔐 **WiFi Hash Türleri:**\r\n• **Hash Mode 2500:** WPA/WPA2 handshake\r\n• **Hash Mode 2501:** WPA/WPA2 PMKID\r\n• **Hash Mode 22000:** WPA-PBKDF2-PMKID+EAPOL\r\n• **Hash Mode 22001:** WPA-PMKID-PBKDF2\r\n\r\n🛠️ **Hashcat Komutları:**\r\n```bash\r\n# WPA2 handshake kırma\r\nhashcat -m 2500 -a 0 capture.hccapx wordlist.txt\r\n\r\n# GPU kullanımı\r\nhashcat -m 2500 -a 0 -d 1 capture.hccapx wordlist.txt\r\n\r\n# Mask attack\r\nhashcat -m 2500 -a 3 capture.hccapx ?d?d?d?d?d?d?d?d\r\n\r\n# Rule-based attack\r\nhashcat -m 2500 -a 0 capture.hccapx wordlist.txt -r rules/best64.rule\r\n\r\n# Hybrid attack\r\nhashcat -m 2500 -a 6 capture.hccapx wordlist.txt ?d?d?d?d\r\n```\r\n\r\n📊 **Performance Optimizasyonu:**\r\n• **GPU Selection:**\r\n  - NVIDIA RTX serisi\r\n  - AMD RX serisi\r\n  - Multiple GPU setup\r\n\r\n• **Wordlist Optimization:**\r\n  - Sıralama ve filtreleme\r\n  - Custom wordlists\r\n  - Targeted attacks\r\n\r\n• **Rule-based Attacks:**\r\n  - Best64.rule\r\n  - Custom rules\r\n  - Hybrid rules\r\n\r\n🎯 **Hashcat Kullanım Senaryoları:**\r\n• **Dictionary Attacks:**\r\n  - Common passwords\r\n  - Company-specific\r\n  - Location-based\r\n\r\n• **Brute Force Attacks:**\r\n  - Short passwords\r\n  - Numeric passwords\r\n  - Pattern-based\r\n\r\n• **Hybrid Attacks:**\r\n  - Wordlist + rules\r\n  - Wordlist + masks\r\n  - Multiple techniques\r\n\r\n⚠️ **Hashcat Kullanım Uyarıları:**\r\n• Yüksek kaynak kullanımı\r\n• GPU sıcaklık kontrolü\r\n• Yasal kısıtlamalar\r\n• Ethical usage only"
+                },
+                {
+                    "id": "5",
+                    "title": "John the Ripper ile Şifre Kırma",
+                    "content": "John the Ripper, CPU tabanlı şifre kırma aracıdır ve WiFi güvenlik testlerinde alternatif olarak kullanılır.\r\n\r\n🔧 **John the Ripper Özellikleri:**\r\n• CPU-based cracking\r\n• Multiple hash formats\r\n• Wordlist support\r\n• Rule-based attacks\r\n• Cross-platform\r\n• Free and open source\r\n\r\n📊 **John the Ripper Modları:**\r\n• **Single Crack Mode:** Kullanıcı adı tabanlı\r\n• **Wordlist Mode:** Hazır şifre listeleri\r\n• **Incremental Mode:** Brute force\r\n• **External Mode:** Custom scripts\r\n\r\n🛠️ **John the Ripper Komutları:**\r\n```bash\r\n# WPA handshake kırma\r\njohn --wordlist=wordlist.txt capture.cap\r\n\r\n# Single crack mode\r\njohn --single capture.cap\r\n\r\n# Incremental mode\r\njohn --incremental capture.cap\r\n\r\n# Rule-based attack\r\njohn --wordlist=wordlist.txt --rules capture.cap\r\n\r\n# Custom rules\r\njohn --wordlist=wordlist.txt --rules=custom.rule capture.cap\r\n```\r\n\r\n📈 **John the Ripper Avantajları:**\r\n• Ücretsiz ve açık kaynak\r\n• Düşük sistem gereksinimleri\r\n• Geniş format desteği\r\n• Aktif topluluk\r\n• Kolay kullanım\r\n\r\n⚠️ **John the Ripper Sınırlamaları:**\r\n• CPU tabanlı (yavaş)\r\n• GPU desteği yok\r\n• Sınırlı performans\r\n• Büyük wordlist'ler için yavaş\r\n\r\n🎯 **John the Ripper Kullanım Senaryoları:**\r\n• **Low-resource Systems:**\r\n  - Eski bilgisayarlar\r\n  - VPS'ler\r\n  - Embedded systems\r\n\r\n• **Format Support:**\r\n  - Eski hash formatları\r\n  - Custom formats\r\n  - Legacy systems\r\n\r\n• **Educational Purposes:**\r\n  - Öğrenme amaçlı\r\n  - Prototype testing\r\n  - Small-scale tests"
+                },
+                {
+                    "id": "6",
+                    "title": "WiFi Penetration Testing Metodolojisi",
+                    "content": "WiFi penetration testing, sistematik bir yaklaşımla kablosuz ağ güvenliğini test etme sürecidir.\r\n\r\n📋 **Penetration Testing Aşamaları:**\r\n• **1. Planning & Reconnaissance:**\r\n  - Test kapsamı belirleme\r\n  - Yasal izinler alma\r\n  - Hedef bilgi toplama\r\n  - Araç seçimi\r\n\r\n• **2. Scanning & Enumeration:**\r\n  - Ağ keşfi\r\n  - AP enumeration\r\n  - Client discovery\r\n  - Service identification\r\n\r\n• **3. Vulnerability Assessment:**\r\n  - Güvenlik açığı tarama\r\n  - Configuration analysis\r\n  - Weak encryption detection\r\n  - Authentication bypass\r\n\r\n• **4. Exploitation:**\r\n  - Handshake capture\r\n  - Password cracking\r\n  - Rogue AP deployment\r\n  - Client attacks\r\n\r\n• **5. Post-Exploitation:**\r\n  - Network access\r\n  - Data exfiltration\r\n  - Lateral movement\r\n  - Persistence\r\n\r\n• **6. Reporting:**\r\n  - Vulnerability documentation\r\n  - Risk assessment\r\n  - Remediation recommendations\r\n  - Executive summary\r\n\r\n🎯 **Test Senaryoları:**\r\n• **External Testing:**\r\n  - Dışarıdan erişim\r\n  - Public network testing\r\n  - War driving\r\n  - Social engineering\r\n\r\n• **Internal Testing:**\r\n  - İç ağ testleri\r\n  - Employee network\r\n  - Guest network\r\n  - BYOD testing\r\n\r\n• **Physical Testing:**\r\n  - Fiziksel erişim\r\n  - Device placement\r\n  - Signal analysis\r\n  - Environmental factors\r\n\r\n📊 **Test Araçları Seçimi:**\r\n• **Discovery:** Airodump-ng, Kismet\r\n• **Analysis:** Wireshark, Aircrack-ng\r\n• **Cracking:** Hashcat, John the Ripper\r\n• **Exploitation:** Metasploit, Custom tools\r\n• **Reporting:** Dradis, Custom templates\r\n\r\n⚠️ **Test Uyarıları:**\r\n• Yasal izinler gerekli\r\n• Etik kurallara uygun\r\n• Veri koruma yasaları\r\n• İş sürekliliği\r\n• Güvenlik protokolleri"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: WiFi Güvenlik Testleri",
+                    "type": "quiz",
+                    "question": "Aircrack-ng suite'inde handshake yakalama için kullanılan araç hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Aireplay-ng",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Airodump-ng",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Airmon-ng",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Airdecap-ng",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Airodump-ng, Aircrack-ng suite'inde ağ keşfi ve handshake yakalama için kullanılan ana araçtır. Bu araç ile WPA/WPA2 handshake'lerini yakalayabilir ve daha sonra Aircrack-ng ile kırabilirsiniz."
+                }
+            ]
         },
         {
             "id": "8_6",
@@ -246,7 +361,57 @@
             "isCompleted": false,
             "isActive": true,
             "description": "Kablosuz ağ koruma yöntemlerini öğren, WPA3 güvenliği, enterprise authentication, WiFi monitoring ve güvenlik best practices keşfet.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "WPA3 Güvenliği ve Özellikleri",
+                    "content": "WPA3, en yeni WiFi güvenlik standardıdır ve gelişmiş güvenlik özellikleri sunar.\r\n\r\n🔒 **WPA3 Güvenlik İyileştirmeleri:**\r\n• **SAE (Simultaneous Authentication of Equals):**\r\n  - Dragonfly key exchange\r\n  - Forward secrecy\r\n  - Brute force protection\r\n  - Dictionary attack resistance\r\n\r\n• **192-bit Security Mode:**\r\n  - Suite B cryptography\r\n  - AES-256 encryption\r\n  - SHA-384 hashing\r\n  - Government grade security\r\n\r\n• **Enhanced Open:**\r\n  - Opportunistic Wireless Encryption (OWE)\r\n  - Individual data encryption\r\n  - Privacy protection\r\n  - No password required\r\n\r\n🛡️ **WPA3 Koruması:**\r\n• **Personal Mode (WPA3-Personal):**\r\n  - SAE authentication\r\n  - Strong passphrase\r\n  - Brute force resistant\r\n  - Home networks\r\n\r\n• **Enterprise Mode (WPA3-Enterprise):**\r\n  - 192-bit security\r\n  - Suite B algorithms\r\n  - Government networks\r\n  - High security requirements\r\n\r\n• **Enhanced Open Mode:**\r\n  - Public networks\r\n  - Individual encryption\r\n  - Privacy protection\r\n  - No authentication\r\n\r\n📊 **WPA3 Avantajları:**\r\n• Forward secrecy\r\n• Brute force protection\r\n• Dictionary attack resistance\r\n• Enhanced privacy\r\n• Government grade security\r\n• Backward compatibility\r\n\r\n⚠️ **WPA3 Sınırlamaları:**\r\n• Yeni standard (yavaş yaygınlaşma)\r\n• Hardware gereksinimleri\r\n• Compatibility issues\r\n• Limited device support\r\n\r\n🔧 **WPA3 Kurulum:**\r\n• Compatible hardware gerekli\r\n• Firmware güncellemesi\r\n• Configuration changes\r\n• Testing required"
+                },
+                {
+                    "id": "2",
+                    "title": "Enterprise Authentication ve RADIUS",
+                    "content": "Enterprise authentication, büyük organizasyonlar için güçlü kimlik doğrulama sistemidir.\r\n\r\n🏢 **Enterprise Authentication Bileşenleri:**\r\n• **802.1X Protocol:**\r\n  - Port-based authentication\r\n  - Extensible Authentication Protocol (EAP)\r\n  - Network access control\r\n  - Dynamic VLAN assignment\r\n\r\n• **RADIUS Server:**\r\n  - Remote Authentication Dial-In User Service\r\n  - Centralized authentication\r\n  - Authorization policies\r\n  - Accounting and logging\r\n\r\n• **EAP Methods:**\r\n  - EAP-TLS: Certificate-based\r\n  - EAP-TTLS: Tunneled TLS\r\n  - PEAP: Protected EAP\r\n  - EAP-FAST: Flexible Authentication\r\n\r\n🔐 **EAP Authentication Türleri:**\r\n• **EAP-TLS (Transport Layer Security):**\r\n  - Mutual certificate authentication\r\n  - Strongest security\r\n  - Client and server certificates\r\n  - No password required\r\n\r\n• **EAP-TTLS (Tunneled Transport Layer Security):**\r\n  - Outer and inner authentication\r\n  - Password-based inner auth\r\n  - Certificate-based outer auth\r\n  - Flexible authentication\r\n\r\n• **PEAP (Protected Extensible Authentication Protocol):**\r\n  - Microsoft implementation\r\n  - Password-based authentication\r\n  - TLS tunnel protection\r\n  - Windows integration\r\n\r\n🛠️ **RADIUS Server Kurulumu:**\r\n• **FreeRADIUS:**\r\n  - Open source solution\r\n  - Linux/Unix support\r\n  - Extensive configuration\r\n  - Community support\r\n\r\n• **Microsoft NPS:**\r\n  - Windows Server integration\r\n  - Active Directory integration\r\n  - GUI management\r\n  - Enterprise features\r\n\r\n• **Cisco ISE:**\r\n  - Enterprise solution\r\n  - Advanced features\r\n  - Policy management\r\n  - Compliance reporting\r\n\r\n📊 **Enterprise Security Avantajları:**\r\n• Centralized authentication\r\n• User-based access control\r\n• Dynamic policy enforcement\r\n• Comprehensive logging\r\n• Integration with existing systems\r\n• Scalability\r\n\r\n⚠️ **Enterprise Security Zorlukları:**\r\n• Complex setup\r\n• Certificate management\r\n• User training required\r\n• Infrastructure costs\r\n• Maintenance overhead"
+                },
+                {
+                    "id": "3",
+                    "title": "WiFi Monitoring ve Tespit Sistemleri",
+                    "content": "WiFi monitoring, kablosuz ağ güvenliğini sürekli izleme ve tehditleri tespit etme sürecidir.\r\n\r\n📡 **WiFi Monitoring Bileşenleri:**\r\n• **Wireless Intrusion Detection System (WIDS):**\r\n  - Rogue AP detection\r\n  - Unauthorized client detection\r\n  - Attack pattern recognition\r\n  - Real-time alerts\r\n\r\n• **Wireless Intrusion Prevention System (WIPS):**\r\n  - Active threat prevention\r\n  - Automatic countermeasures\r\n  - Policy enforcement\r\n  - Threat mitigation\r\n\r\n• **Network Access Control (NAC):**\r\n  - Device compliance checking\r\n  - Endpoint security validation\r\n  - Access policy enforcement\r\n  - Quarantine capabilities\r\n\r\n🔍 **Monitoring Teknikleri:**\r\n• **Passive Monitoring:**\r\n  - Traffic analysis\r\n  - Protocol inspection\r\n  - Behavioral analysis\r\n  - Stealth operation\r\n\r\n• **Active Monitoring:**\r\n  - Proactive scanning\r\n  - Vulnerability assessment\r\n  - Performance testing\r\n  - Health checks\r\n\r\n• **Hybrid Monitoring:**\r\n  - Combined approach\r\n  - Comprehensive coverage\r\n  - Reduced false positives\r\n  - Enhanced detection\r\n\r\n🛠️ **Monitoring Araçları:**\r\n• **Enterprise Solutions:**\r\n  - Cisco Prime Infrastructure\r\n  - Aruba AirWave\r\n  - Ruckus SmartZone\r\n  - Extreme Networks XIQ\r\n\r\n• **Open Source Tools:**\r\n  - Kismet\r\n  - Airodump-ng\r\n  - Wireshark\r\n  - Custom scripts\r\n\r\n• **Commercial Tools:**\r\n  - AirMagnet Enterprise\r\n  - Fluke Networks\r\n  - Ekahau\r\n  - NetSpot\r\n\r\n📊 **Tespit Edilen Tehditler:**\r\n• **Rogue Access Points:**\r\n  - Unauthorized APs\r\n  - Evil Twin attacks\r\n  - Honeypot APs\r\n  - Misconfigured devices\r\n\r\n• **Unauthorized Clients:**\r\n  - Unmanaged devices\r\n  - Malicious clients\r\n  - Policy violations\r\n  - Security risks\r\n\r\n• **Attack Patterns:**\r\n  - Deauth attacks\r\n  - Man-in-the-middle\r\n  - Packet injection\r\n  - Protocol anomalies\r\n\r\n⚠️ **Monitoring Zorlukları:**\r\n• False positives\r\n• Performance impact\r\n• Privacy concerns\r\n• Configuration complexity\r\n• Maintenance overhead"
+                },
+                {
+                    "id": "4",
+                    "title": "Güvenlik Best Practices",
+                    "content": "Kablosuz ağ güvenliği için uygulanması gereken en iyi uygulamalar ve standartlar.\r\n\r\n🛡️ **Temel Güvenlik Önlemleri:**\r\n• **Strong Authentication:**\r\n  - WPA3 kullanımı\r\n  - Güçlü şifreler (12+ karakter)\r\n  - İki faktörlü kimlik doğrulama\r\n  - Certificate-based authentication\r\n\r\n• **Encryption Standards:**\r\n  - AES-256 encryption\r\n  - End-to-end encryption\r\n  - Perfect Forward Secrecy\r\n  - Strong key management\r\n\r\n• **Access Control:**\r\n  - Role-based access\r\n  - Principle of least privilege\r\n  - Network segmentation\r\n  - VLAN isolation\r\n\r\n🔧 **Network Configuration:**\r\n• **SSID Management:**\r\n  - Unique SSID names\r\n  - Disable SSID broadcast\r\n  - Separate guest networks\r\n  - Regular SSID changes\r\n\r\n• **Channel Management:**\r\n  - Non-overlapping channels\r\n  - Channel bonding\r\n  - DFS channel usage\r\n  - Interference avoidance\r\n\r\n• **Power Management:**\r\n  - Appropriate power levels\r\n  - Coverage optimization\r\n  - Signal containment\r\n  - Energy efficiency\r\n\r\n📊 **Security Policies:**\r\n• **Device Management:**\r\n  - Device registration\r\n  - Compliance checking\r\n  - Regular updates\r\n  - Endpoint protection\r\n\r\n• **User Education:**\r\n  - Security awareness training\r\n  - Policy communication\r\n  - Incident reporting\r\n  - Best practice sharing\r\n\r\n• **Incident Response:**\r\n  - Response procedures\r\n  - Escalation paths\r\n  - Recovery plans\r\n  - Lessons learned\r\n\r\n🏢 **Enterprise Best Practices:**\r\n• **Network Architecture:**\r\n  - Layered security\r\n  - Defense in depth\r\n  - Redundancy\r\n  - Failover mechanisms\r\n\r\n• **Compliance:**\r\n  - Regulatory requirements\r\n  - Industry standards\r\n  - Audit procedures\r\n  - Documentation\r\n\r\n• **Vendor Management:**\r\n  - Security requirements\r\n  - Regular assessments\r\n  - Contract terms\r\n  - Performance monitoring\r\n\r\n📈 **Continuous Improvement:**\r\n• Regular security assessments\r\n• Penetration testing\r\n• Vulnerability management\r\n• Security training updates\r\n• Policy reviews\r\n• Technology updates"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Kablosuz Ağ Koruması",
+                    "type": "quiz",
+                    "question": "WPA3'ün en önemli güvenlik özelliği nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "AES-128 şifreleme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SAE (Simultaneous Authentication of Equals)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "TKIP protokolü",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "WEP şifreleme",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "WPA3'ün en önemli güvenlik özelliği SAE (Simultaneous Authentication of Equals) protokolüdür. Bu protokol brute force saldırılarına karşı koruma sağlar, forward secrecy özelliği sunar ve dictionary attack'lara karşı dirençlidir."
+                }
+            ]
         },
         {
             "id": "8_7",
@@ -257,7 +422,303 @@
             "isCompleted": false,
             "isActive": true,
             "description": "Kablosuz ağ güvenliği konusundaki bilgilerinizi test edin, kapsamlı quiz ile öğrendiklerinizi pekiştirin.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Quiz Tanıtımı",
+                    "content": "🎯 **Kablosuz Ağ Güvenliği Quiz'i**\r\n\r\nBu quiz, 8. kategoride öğrendiğiniz tüm kablosuz ağ güvenliği konularını kapsar. Toplam 10 soru ile bilginizi test edeceksiniz.\r\n\r\n📚 **Quiz Kapsamı:**\r\n• Kablosuz Ağ Protokolleri ve Şifreleme\r\n• Wi-Fi Saldırıları: WPA/WPA2 Kırma\r\n• Rogue Access Point ve Saldırı Yöntemleri\r\n• Bluetooth ve IoT Cihaz Güvenliği\r\n• WiFi Güvenlik Testleri ve Araçları\r\n• Kablosuz Ağ Koruması ve Savunma\r\n\r\n⏱️ **Quiz Süresi:** 20 dakika\r\n📊 **Soru Sayısı:** 10 soru\r\n🎯 **Geçme Notu:** %70 (7/10)\r\n\r\n💡 **Quiz İpuçları:**\r\n• Her soruyu dikkatli okuyun\r\n• Tüm seçenekleri değerlendirin\r\n• Zamanınızı iyi kullanın\r\n• Bilmediğiniz soruları atlayabilirsiniz\r\n\r\n🚀 **Başarılar!**\r\n\r\nQuiz'i tamamladıktan sonra detaylı açıklamalar ile öğrendiklerinizi pekiştirebilirsiniz."
+                },
+                {
+                    "id": "2",
+                    "title": "Soru 1: WEP Güvenliği",
+                    "type": "quiz",
+                    "question": "WEP (Wired Equivalent Privacy) protokolünün en büyük güvenlik açığı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Zayıf şifreleme algoritması",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Manuel anahtar dağıtımı",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "24-bit IV (Initialization Vector) zayıflığı",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Statik anahtar yapısı",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "WEP'in en büyük güvenlik açığı 24-bit IV (Initialization Vector) zayıflığıdır. Bu kısa IV, tekrar kullanılabilir ve 5000 paket ile kırılabilir hale gelir."
+                },
+                {
+                    "id": "3",
+                    "title": "Soru 2: WPA3 Özellikleri",
+                    "type": "quiz",
+                    "question": "WPA3'ün en önemli güvenlik özelliği nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "SAE (Simultaneous Authentication of Equals)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "AES-256 şifreleme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Enhanced Open",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "192-bit güvenlik",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "WPA3'ün en önemli güvenlik özelliği SAE (Simultaneous Authentication of Equals) protokolüdür. Bu protokol brute force saldırılarına karşı koruma sağlar ve forward secrecy özelliği sunar."
+                },
+                {
+                    "id": "4",
+                    "title": "Soru 3: Handshake Yakalama",
+                    "type": "quiz",
+                    "question": "WPA/WPA2 handshake yakalama için en etkili yöntem nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Passive monitoring",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Deauthentication attack",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Brute force attack",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Dictionary attack",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Deauthentication attack, client'ları ağdan atarak yeniden bağlanma sürecini tetikler ve handshake yakalamayı kolaylaştırır. Bu yöntem passive monitoring'den daha hızlı ve etkilidir."
+                },
+                {
+                    "id": "5",
+                    "title": "Soru 4: Evil Twin Saldırısı",
+                    "type": "quiz",
+                    "question": "Evil Twin saldırısının temel özelliği nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Çekici SSID isimleri kullanma",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Otomatik bağlantı exploit etme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Meşru AP'yi taklit etme",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Karma saldırıları yapma",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Evil Twin saldırısının temel özelliği, meşru bir WiFi ağını taklit ederek aynı SSID kullanması ve daha güçlü sinyal yayarak kullanıcıları kandırmasıdır."
+                },
+                {
+                    "id": "6",
+                    "title": "Soru 5: BLE Güvenlik Açığı",
+                    "type": "quiz",
+                    "question": "BLE (Bluetooth Low Energy) saldırılarında en yaygın güvenlik açığı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Zayıf kimlik doğrulama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Şifreleme eksikliği",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Fiziksel müdahale",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Ağ protokolü hataları",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "BLE saldırılarında en yaygın güvenlik açığı zayıf kimlik doğrulama mekanizmalarıdır. Çoğu BLE cihazı basit PIN kodları veya hiç kimlik doğrulama kullanmaz."
+                },
+                {
+                    "id": "7",
+                    "title": "Soru 6: Aircrack-ng Araçları",
+                    "type": "quiz",
+                    "question": "Aircrack-ng suite'inde handshake yakalama için kullanılan araç hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Aireplay-ng",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Airmon-ng",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Airodump-ng",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Airdecap-ng",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Airodump-ng, Aircrack-ng suite'inde ağ keşfi ve handshake yakalama için kullanılan ana araçtır. Bu araç ile WPA/WPA2 handshake'lerini yakalayabilirsiniz."
+                },
+                {
+                    "id": "8",
+                    "title": "Soru 7: Hashcat Hash Modları",
+                    "type": "quiz",
+                    "question": "Hashcat'te WPA/WPA2 handshake için kullanılan hash modu nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Hash Mode 1000",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Hash Mode 2500",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Hash Mode 3000",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Hash Mode 4000",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Hashcat'te WPA/WPA2 handshake için Hash Mode 2500 kullanılır. Bu mod, WPA/WPA2 handshake dosyalarını (.hccapx) kırmak için tasarlanmıştır."
+                },
+                {
+                    "id": "9",
+                    "title": "Soru 8: Enterprise Authentication",
+                    "type": "quiz",
+                    "question": "Enterprise WiFi ağlarında en güçlü kimlik doğrulama yöntemi nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "EAP-TTLS",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "PEAP",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "EAP-TLS",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "EAP-FAST",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "EAP-TLS, enterprise WiFi ağlarında en güçlü kimlik doğrulama yöntemidir. Mutual certificate authentication kullanır ve hem client hem de server sertifikası gerektirir."
+                },
+                {
+                    "id": "10",
+                    "title": "Soru 9: WIDS Sistemleri",
+                    "type": "quiz",
+                    "question": "WIDS (Wireless Intrusion Detection System) sistemlerinin temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Ağ performansını artırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Şifreleri kırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Ağ hızını ölçmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Rogue AP'leri tespit etmek",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "WIDS sistemlerinin temel amacı, yetkisiz erişim noktalarını (Rogue AP) tespit etmek, saldırı desenlerini tanımak ve güvenlik tehditlerini gerçek zamanlı olarak tespit etmektir."
+                },
+                {
+                    "id": "11",
+                    "title": "Soru 10: IoT Güvenlik Açığı",
+                    "type": "quiz",
+                    "question": "IoT cihazlarında en yaygın güvenlik açığı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Şifrelenmemiş iletişim",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Varsayılan şifreler",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Zayıf kimlik doğrulama",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Güvenlik güncellemeleri yok",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "IoT cihazlarında en yaygın güvenlik açığı varsayılan şifrelerdir. Çoğu IoT cihazı 'admin/admin', '1234' gibi varsayılan şifrelerle gelir ve kullanıcılar bunları değiştirmez."
+                }
+            ]
         }
     ]
 }
