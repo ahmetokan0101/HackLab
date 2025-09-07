@@ -75,62 +75,372 @@
             "isCompleted": false,
             "isActive": true,
             "description": "Reconnaissance tekniklerini öğren, passive ve active bilgi toplama yöntemlerini keşfet.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Reconnaissance Nedir? Temel Kavramlar",
+                    "content": "Reconnaissance (Keşif), sızma testinin ilk ve en kritik aşamasıdır. Bu aşamada hedef hakkında mümkün olduğunca çok bilgi toplanır.\r\n\r\n🎯 **Reconnaissance'ın Amacı:**\r\n• Hedef organizasyon hakkında detaylı bilgi toplama\r\n• Saldırı yüzeyini belirleme\r\n• Potansiyel güvenlik açıklarını tespit etme\r\n• Sosyal mühendislik için bilgi edinme\r\n• Test stratejisi oluşturma\r\n\r\n📊 **İstatistikler:**\r\n• Reconnaissance, sızma testinin %80'ini oluşturur\r\n• İyi yapılmış keşif, test başarısını %70 artırır\r\n• Profesyonel saldırganlar ortalama 206 gün keşif yapar\r\n• OSINT kaynakları %90 oranında faydalı bilgi sağlar\r\n\r\n⚖️ **Yasal ve Etik Kurallar:**\r\n• Yazılı izin kapsamında kalınmalıdır\r\n• Aggressive scanning yapmaktan kaçınılmalıdır\r\n• Üçüncü taraf sistemlere saldırılmamalıdır\r\n• Toplanan bilgiler gizli tutulmalıdır\r\n• Reconnaissance sınırları belirlenmeli\r\n\r\n🔍 **Reconnaissance Türleri:**\r\n• **Passive Reconnaissance:** Hedef sistemle doğrudan iletişim kurulmaz\r\n• **Active Reconnaissance:** Hedef sistemle doğrudan iletişim kurulur\r\n• **Physical Reconnaissance:** Fiziksel lokasyon keşfi\r\n• **Social Reconnaissance:** İnsan faktörü keşfi"
+                },
+                {
+                    "id": "2",
+                    "title": "Passive Reconnaissance Teknikleri",
+                    "content": "Passive Reconnaissance, hedef sistemle doğrudan temas kurmadan bilgi toplama sürecidir.\r\n\r\n🌐 **OSINT (Open Source Intelligence):**\r\n• **Arama Motorları:**\r\n  - Google Dorking teknikleri\r\n  - Bing, DuckDuckGo, Yandex\r\n  - Shodan, Censys, ZoomEye\r\n  - Archive.org (Wayback Machine)\r\n\r\n• **Sosyal Medya İstihbaratı:**\r\n  - LinkedIn (çalışan profilleri)\r\n  - Facebook, Twitter, Instagram\r\n  - Professional networks\r\n  - Company pages ve posts\r\n\r\n• **DNS Bilgi Toplama:**\r\n  - Whois kayıtları\r\n  - DNS zone transfers\r\n  - Subdomain enumeration\r\n  - Reverse DNS lookups\r\n\r\n📋 **Pasif Bilgi Kaynakları:**\r\n• **Şirket Web Siteleri:**\r\n  - Çalışan bilgileri\r\n  - Organizasyon şeması\r\n  - Kullanılan teknolojiler\r\n  - İletişim bilgileri\r\n  - İş ilanları (teknoloji stack)\r\n\r\n• **Haber ve Basın:**\r\n  - Şirket haberleri\r\n  - Teknoloji değişimleri\r\n  - Proje duyuruları\r\n  - Executive interviews\r\n\r\n🛠️ **Passive Reconnaissance Araçları:**\r\n• **theHarvester:** Email, domain, IP bilgileri\r\n• **Recon-ng:** Comprehensive OSINT framework\r\n• **Maltego:** Visual link analysis\r\n• **SpiderFoot:** Automated OSINT collection\r\n• **Shodan:** Internet-connected device search\r\n• **Censys:** Internet scan data\r\n• **Google Dorking:** Advanced search operators"
+                },
+                {
+                    "id": "3",
+                    "title": "Active Reconnaissance Teknikleri",
+                    "content": "Active Reconnaissance, hedef sistemle doğrudan iletişim kurarak bilgi toplama sürecidir.\r\n\r\n🔍 **Network Discovery:**\r\n• **Host Discovery:**\r\n  - ICMP ping sweep\r\n  - TCP SYN ping\r\n  - UDP ping\r\n  - ARP ping (local network)\r\n\r\n• **Port Scanning:**\r\n  - TCP Connect scan\r\n  - TCP SYN scan (stealth)\r\n  - UDP scan\r\n  - FIN, NULL, Xmas scans\r\n  - ACK scan (firewall evasion)\r\n\r\n• **Service Enumeration:**\r\n  - Banner grabbing\r\n  - Version detection\r\n  - OS fingerprinting\r\n  - Service-specific probes\r\n\r\n🛠️ **Active Reconnaissance Araçları:**\r\n• **Nmap:** Network discovery ve port scanning\r\n• **Masscan:** High-speed port scanner\r\n• **Zmap:** Internet-wide scanning\r\n• **Unicornscan:** Distributed port scanner\r\n• **Hping3:** Custom packet crafting\r\n• **Netcat:** Network Swiss Army knife\r\n• **Telnet:** Banner grabbing\r\n• **Netdiscover:** ARP reconnaissance\r\n\r\n📊 **Service Enumeration Teknikleri:**\r\n• **HTTP/HTTPS (80,443):**\r\n  - Web server fingerprinting\r\n  - Directory brute forcing\r\n  - Technology stack detection\r\n  - SSL certificate analysis\r\n\r\n• **DNS (53):**\r\n  - Zone transfer attempts\r\n  - DNS brute forcing\r\n  - Reverse lookups\r\n  - DNS cache snooping\r\n\r\n⚠️ **Active Keşif Riskleri:**\r\n• IDS/IPS sistemleri tarafından tespit\r\n• Log kayıtlarında iz bırakma\r\n• Network traffic artışı\r\n• Service disruption riski\r\n• Legal implications"
+                },
+                {
+                    "id": "4",
+                    "title": "Web Application Reconnaissance",
+                    "content": "Web uygulamaları için özel reconnaissance teknikleri ve metodolojileri.\r\n\r\n🌐 **Web Application Discovery:**\r\n• **Technology Stack Identification:**\r\n  - Web server detection (Apache, Nginx, IIS)\r\n  - Framework identification (Laravel, Django, React)\r\n  - Programming language detection\r\n  - Database system analysis\r\n  - Third-party integrations\r\n\r\n• **Content Discovery:**\r\n  - Directory brute forcing\r\n  - File extension analysis\r\n  - Hidden parameter discovery\r\n  - API endpoint enumeration\r\n  - Admin panel detection\r\n\r\n🛠️ **Web Reconnaissance Araçları:**\r\n• **Burp Suite:**\r\n  - Proxy ve intercept\r\n  - Spider/crawler\r\n  - Content discovery\r\n  - Parameter analysis\r\n\r\n• **OWASP ZAP:**\r\n  - Automated spidering\r\n  - Passive scanning\r\n  - Fuzzing capabilities\r\n  - API testing\r\n\r\n• **Dirb/Dirbuster:**\r\n  - Directory brute forcing\r\n  - File discovery\r\n  - Extension testing\r\n  - Custom wordlists\r\n\r\n• **Gobuster:**\r\n  - Fast directory brute forcing\r\n  - DNS subdomain brute forcing\r\n  - VHOST discovery\r\n  - Multi-threaded scanning\r\n\r\n📋 **Web Reconnaissance Checklist:**\r\n• **Initial Assessment:**\r\n  - Site map creation\r\n  - Technology identification\r\n  - SSL/TLS configuration\r\n  - Security headers analysis\r\n\r\n• **Content Analysis:**\r\n  - robots.txt examination\r\n  - sitemap.xml analysis\r\n  - Source code review\r\n  - Comment analysis\r\n  - Meta tag inspection"
+                },
+                {
+                    "id": "5",
+                    "title": "Social Engineering Reconnaissance",
+                    "content": "İnsan faktörü üzerinden bilgi toplama teknikleri ve sosyal mühendislik keşfi.\r\n\r\n👥 **Personel Bilgi Toplama:**\r\n• **LinkedIn Intelligence:**\r\n  - Organizational chart mapping\r\n  - Employee role analysis\r\n  - Technology skills identification\r\n  - Professional connections\r\n  - Recent job changes\r\n\r\n• **Social Media Analysis:**\r\n  - Personal information gathering\r\n  - Family and friend connections\r\n  - Lifestyle and interests\r\n  - Location and travel patterns\r\n  - Security awareness level\r\n\r\n🏢 **Organizational Intelligence:**\r\n• **Company Structure:**\r\n  - Management hierarchy\r\n  - Department organization\r\n  - Reporting relationships\r\n  - Decision makers identification\r\n  - Key personnel roles\r\n\r\n• **Business Intelligence:**\r\n  - Business partners\r\n  - Vendor relationships\r\n  - Client information\r\n  - Project details\r\n  - Financial information\r\n\r\n🛠️ **Social Reconnaissance Araçları:**\r\n• **theHarvester:**\r\n  - Email address collection\r\n  - Social media profiles\r\n  - Employee enumeration\r\n  - Contact information\r\n\r\n• **Maltego:**\r\n  - Relationship mapping\r\n  - Social network analysis\r\n  - Visual intelligence\r\n  - Data correlation\r\n\r\n• **Sherlock:**\r\n  - Username enumeration\r\n  - Social media presence\r\n  - Account discovery\r\n  - Platform analysis"
+                },
+                {
+                    "id": "6",
+                    "title": "Physical Reconnaissance",
+                    "content": "Fiziksel güvenlik ve lokasyon keşfi teknikleri.\r\n\r\n🏢 **Physical Location Assessment:**\r\n• **Building Assessment:**\r\n  - Entry/exit points mapping\r\n  - Security camera locations\r\n  - Guard post identification\r\n  - Visitor procedures analysis\r\n  - Badge/access card systems\r\n\r\n• **Perimeter Security:**\r\n  - Fence and barrier analysis\r\n  - Lighting assessment\r\n  - Motion sensors detection\r\n  - Alarm systems observation\r\n  - Vehicle access points\r\n\r\n📷 **Surveillance Techniques:**\r\n• **Visual Surveillance:**\r\n  - Direct observation\r\n  - Photography (legal areas)\r\n  - Video recording\r\n  - Timing analysis\r\n  - Pattern identification\r\n\r\n• **Technology Assessment:**\r\n  - WiFi network discovery\r\n  - Bluetooth device enumeration\r\n  - RFID/NFC detection\r\n  - Physical ports access\r\n  - Network infrastructure visibility\r\n\r\n🎯 **Information Gathering:**\r\n• **Security Measures:**\r\n  - Guard schedules\r\n  - Patrol routes\r\n  - Response procedures\r\n  - Equipment types\r\n  - Blind spots identification\r\n\r\n• **Operational Information:**\r\n  - Business hours\r\n  - Peak activity times\r\n  - Delivery schedules\r\n  - Maintenance windows\r\n  - Special events\r\n\r\n⚖️ **Legal ve Ethical Boundaries:**\r\n• **Legal Activities:**\r\n  - Public area observation\r\n  - Publicly available information\r\n  - Legal photography\r\n  - Open source intelligence\r\n\r\n• **Illegal Activities:**\r\n  - Trespassing on private property\r\n  - Unauthorized access attempts\r\n  - Privacy violations\r\n  - Stalking or harassment\r\n  - Equipment tampering"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Reconnaissance ve Bilgi Toplama",
+                    "type": "quiz",
+                    "question": "Passive Reconnaissance'ın temel avantajı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Daha hızlı sonuç verir",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Daha detaylı bilgi toplar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Tespit edilme riski minimum",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Daha az kaynak gerektirir",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Passive Reconnaissance'ın en büyük avantajı, hedef sistemle doğrudan temas kurulmadığı için tespit edilme riskinin minimum olmasıdır. Bu sayede gizli kalarak güvenli bir şekilde bilgi toplanabilir."
+                }
+            ]
         },
         {
             "id": "11_3",
             "title": "3. Vulnerability Assessment ve Exploitation",
             "duration": "45",
             "color": "#ff9500",
-            "documents": 8,
+            "documents": 5,
             "isCompleted": false,
             "isActive": true,
             "description": "Güvenlik açıklarını tespit et ve exploit et, Metasploit framework'ünü kullan.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Vulnerability Assessment Nedir?",
+                    "content": "Vulnerability Assessment, sistemlerdeki güvenlik açıklarını tespit etme ve değerlendirme sürecidir.\r\n\r\n🎯 Vulnerability Assessment Amaçları:\r\n• Bilinen güvenlik açıklarını tespit etme\r\n• Risk seviyelerini belirleme\r\n• Güvenlik duruşunu değerlendirme\r\n• Compliance gereksinimlerini karşılama\r\n• Remediation önceliklerini belirleme\r\n\r\n📊 Güvenlik Açığı Türleri:\r\n• Configuration Vulnerabilities:\r\n  - Default passwords\r\n  - Unnecessary services\r\n  - Weak encryption settings\r\n  - Missing security patches\r\n\r\n• Software Vulnerabilities:\r\n  - Buffer overflows\r\n  - SQL injection\r\n  - Cross-site scripting (XSS)\r\n  - Remote code execution\r\n\r\n• Network Vulnerabilities:\r\n  - Open ports\r\n  - Weak protocols\r\n  - Network segmentation issues\r\n  - Firewall misconfigurations\r\n\r\n🔍 Assessment Metodolojileri:\r\n• OWASP Testing Guide:\r\n  - Web application focus\r\n  - Systematic approach\r\n  - Detailed test cases\r\n  - Risk rating system\r\n\r\n• NIST SP 800-115:\r\n  - Federal guidelines\r\n  - Risk-based approach\r\n  - Comprehensive coverage\r\n  - Documentation standards\r\n\r\n⚖️ Assessment Sınırları:\r\n• Yasal Sınırlar:\r\n  - Yetkili test kapsamı\r\n  - Kapsam kısıtlamaları\r\n  - Zaman sınırlamaları\r\n  - Delil yönetim kuralları\r\n\r\n• Teknik Sınırlar:\r\n  - False positive sonuçlar\r\n  - Anlık durum tespiti\r\n  - Araç kısıtlamaları\r\n  - Erişim kısıtlamaları"
+                },
+                {
+                    "id": "2",
+                    "title": "Automated Vulnerability Scanning",
+                    "content": "Otomatik güvenlik açığı taraması, sistemleri hızlı ve kapsamlı şekilde değerlendirme yöntemidir.\r\n\r\n🔍 Scanner Türleri:\r\n• Network Vulnerability Scanners:\r\n  - Nessus (Tenable)\r\n  - OpenVAS (Açık kaynak)\r\n  - Qualys VMDR\r\n  - Rapid7 Nexpose\r\n  - Nmap NSE scripts\r\n\r\n• Web Application Scanners:\r\n  - Burp Suite Professional\r\n  - OWASP ZAP\r\n  - Acunetix\r\n  - Nikto\r\n  - W3AF\r\n\r\n• Database Scanners:\r\n  - SQLMap\r\n  - DBProtect\r\n  - AppDetectivePRO\r\n  - NGSSQuirreL\r\n\r\n📈 Tarama Stratejileri:\r\n• Comprehensive Scanning:\r\n  - Tüm portları tarama\r\n  - Detaylı service detection\r\n  - Yoğun güvenlik testleri\r\n  - Uzun süre alır\r\n\r\n• Targeted Scanning:\r\n  - Belirli servislere odaklanma\r\n  - Bilinen port aralıkları\r\n  - Hızlı değerlendirme\r\n  - Kritik sistemler öncelikli\r\n\r\n• Authenticated vs Unauthenticated:\r\n  - Authenticated: Sistem içi erişim\r\n  - Unauthenticated: Dışarıdan görünüm\r\n  - Hibrit yaklaşım öneriliyor\r\n\r\n⚠️ Tarama Riskleri ve Önlemler:\r\n• Sistem Performansı:\r\n  - CPU ve network yükü\r\n  - Service interruption riski\r\n  - Business hours dışında tarama\r\n  - Throttling kullanımı\r\n\r\n• False Positives:\r\n  - Yanlış pozitif sonuçlar\r\n  - Manual doğrulama gerekli\r\n  - Filtreleme ve tuning\r\n  - Baseline oluşturma\r\n\r\n🛠️ Tarama Süreci:\r\n1. Scope belirleme ve planlama\r\n2. Tarama araçlarının konfigürasyonu\r\n3. İlk tarama ve sonuç toplama\r\n4. False positive elimination\r\n5. Risk prioritization\r\n6. Detailed manual verification\r\n7. Remediation recommendations"
+                },
+                {
+                    "id": "3",
+                    "title": "Exploitation Temelleri",
+                    "content": "Exploitation, tespit edilen güvenlik açıklarını kullanarak sistem erişimi sağlama sürecidir.\r\n\r\n🎯 Exploitation Amaçları:\r\n• Proof of Concept oluşturma\r\n• Impact assessment yapma\r\n• Risk seviyesini belirleme\r\n• Business risk analizi\r\n• Remediation önceliklerini belirleme\r\n\r\n⚔️ Exploitation Türleri:\r\n• Remote Code Execution (RCE):\r\n  - Command injection\r\n  - File upload vulnerabilities\r\n  - Deserialization attacks\r\n  - Template injection\r\n\r\n• Privilege Escalation:\r\n  - Local privilege escalation\r\n  - Kernel exploits\r\n  - Service misconfigurations\r\n  - SUID binary exploits\r\n\r\n• Memory Corruption:\r\n  - Buffer overflow\r\n  - Stack overflow\r\n  - Heap overflow\r\n  - Use-after-free\r\n\r\n🛡️ Exploit Development Süreci:\r\n1. Vulnerability Analysis:\r\n   - Root cause analysis\r\n   - Attack vector identification\r\n   - Exploitation feasibility\r\n   - Environment constraints\r\n\r\n2. Proof of Concept Development:\r\n   - Minimal working exploit\r\n   - Reliability testing\r\n   - Cross-platform compatibility\r\n   - Payload customization\r\n\r\n3. Weaponization:\r\n   - Stealth techniques\r\n   - Anti-forensics measures\r\n   - Persistence mechanisms\r\n   - Evasion techniques\r\n\r\n🔍 Exploitation Araçları:\r\n• Framework'ler:\r\n  - Metasploit Framework\r\n  - Cobalt Strike\r\n  - Empire Framework\r\n  - PoshC2\r\n\r\n• Custom Tools:\r\n  - Python exploit scripts\r\n  - C/C++ exploits\r\n  - PowerShell payloads\r\n  - Shellcode generators\r\n\r\n⚠️ Exploitation Riskleri:\r\n• System Stability:\r\n  - Crash riski\r\n  - Data corruption\r\n  - Service disruption\r\n  - Performance degradation\r\n\r\n• Detection Risk:\r\n  - IDS/IPS alarms\r\n  - Log analysis\r\n  - Behavior monitoring\r\n  - Forensic analysis"
+                },
+                {
+                    "id": "4",
+                    "title": "Metasploit Framework",
+                    "content": "Metasploit, sızma testi uzmanlarının en çok kullandığı exploitation framework'üdür.\r\n\r\n🚀 Metasploit Bileşenleri:\r\n• Exploits:\r\n  - Bilinen güvenlik açıklarını kullanan kodlar\r\n  - Platform-specific implementations\r\n  - Reliability rankings\r\n  - Target compatibility\r\n\r\n• Payloads:\r\n  - Exploit başarılı olduktan sonra çalışan kod\r\n  - Meterpreter sessions\r\n  - Reverse/bind shells\r\n  - Custom payloads\r\n\r\n• Auxiliary Modules:\r\n  - Scanners ve fuzzers\r\n  - Information gathering\r\n  - DoS testing\r\n  - Protocol testing\r\n\r\n• Encoders:\r\n  - Payload encoding\r\n  - AV evasion\r\n  - Character filtering\r\n  - Format conversion\r\n\r\n🔧 Metasploit Kullanımı:\r\n• Temel Komutlar:\r\n  - msfconsole: Ana interface\r\n  - search: Exploit arama\r\n  - use: Modül seçimi\r\n  - set: Parameter belirleme\r\n  - exploit: Saldırıyı başlatma\r\n\r\n• Target Discovery:\r\n  - db_nmap: Nmap integration\r\n  - hosts: Host listesi\r\n  - services: Service enumeration\r\n  - vulns: Vulnerability tracking\r\n\r\n• Session Management:\r\n  - sessions -l: Aktif sessionlar\r\n  - sessions -i: Session etkileşimi\r\n  - background: Session arka plana\r\n  - kill: Session sonlandırma\r\n\r\n🎯 Meterpreter Shell:\r\n• Advanced Features:\r\n  - File system navigation\r\n  - Process manipulation\r\n  - Network pivoting\r\n  - Screenshot capture\r\n  - Keylogger functionality\r\n\r\n• Post-Exploitation:\r\n  - hashdump: Password hashes\r\n  - getsystem: Privilege escalation\r\n  - migrate: Process migration\r\n  - portfwd: Port forwarding\r\n\r\n🛠️ Metasploit Best Practices:\r\n• Database Usage:\r\n  - PostgreSQL backend\r\n  - Workspace organization\r\n  - Data persistence\r\n  - Report generation\r\n\r\n• Stealth Operations:\r\n  - Payload encoding\r\n  - Traffic encryption\r\n  - Process injection\r\n  - Memory-only payloads"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Vulnerability Assessment ve Exploitation",
+                    "type": "quiz",
+                    "question": "Metasploit Framework'ünde exploit başarılı olduktan sonra çalışan kod bileşenine ne denir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Auxiliary",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Encoder",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Payload",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Module",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Payload, Metasploit Framework'ünde exploit başarılı olduktan sonra hedef sistemde çalışan kod bileşenidir. Meterpreter sessions, reverse shells ve diğer post-exploitation kodları payload kategorisine girer."
+                }
+            ]
         },
         {
             "id": "11_4",
             "title": "4. Web Application Penetration Testing",
             "duration": "50",
             "color": "#ffa500",
-            "documents": 9,
+            "documents": 5,
             "isCompleted": false,
             "isActive": true,
             "description": "Web uygulamalarını test et, OWASP Top 10 açıklarını keşfet ve güvenlik testleri yap.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Web Application Penetration Testing Giriş",
+                    "content": "Web uygulama sızma testleri, web tabanlı sistemlerin güvenlik açıklarını tespit etmeye odaklanır.\r\n\r\n🌐 Web Application Testing Kapsamı:\r\n• Frontend güvenlik testleri\r\n• Backend API testleri\r\n• Database güvenlik değerlendirmesi\r\n• Third-party integrations\r\n• Mobile web interfaces\r\n• Single Page Applications (SPA)\r\n\r\n🎯 Test Amaçları:\r\n• OWASP Top 10 açıklarını tespit etme\r\n• Business logic flaws\r\n• Input validation issues\r\n• Authentication/Authorization flaws\r\n• Session management problems\r\n• Data exposure risks\r\n\r\n📊 Web App Testing Methodologies:\r\n• OWASP Testing Guide (WSTG):\r\n  - 12 kategori, 91 test case\r\n  - Sistematik yaklaşım\r\n  - Risk-based prioritization\r\n  - Detailed remediation guidance\r\n\r\n• NIST SP 800-115:\r\n  - Federal guidelines\r\n  - Risk-based approach\r\n  - Documentation standards\r\n  - Compliance focus\r\n\r\n🛠️ Test Araçları Kategorileri:\r\n• Proxy Tools:\r\n  - Burp Suite Professional\r\n  - OWASP ZAP\r\n  - Fiddler\r\n  - Charles Proxy\r\n\r\n• Automated Scanners:\r\n  - Acunetix\r\n  - Netsparker\r\n  - AppScan\r\n  - Veracode"
+                },
+                {
+                    "id": "2",
+                    "title": "OWASP Top 10 ve Yaygın Web Açıkları",
+                    "content": "OWASP Top 10, web uygulamalarında en sık karşılaşılan güvenlik açıklarını listeler.\r\n\r\n🔴 A01:2021 - Broken Access Control:\r\n• Vertical privilege escalation\r\n• Horizontal privilege escalation\r\n• Direct object references\r\n• Missing function level access control\r\n• Metadata manipulation\r\n• CORS misconfiguration\r\n\r\nTest Teknikleri:\r\n  - URL manipulation\r\n  - Parameter tampering\r\n  - Token manipulation\r\n  - Role-based testing\r\n\r\n🔴 A02:2021 - Cryptographic Failures:\r\n• Weak encryption algorithms\r\n• Hardcoded credentials\r\n• Insecure key management\r\n• Weak random number generation\r\n• Missing encryption for sensitive data\r\n\r\nTest Teknikleri:\r\n  - Traffic analysis\r\n  - Certificate validation\r\n  - Crypto implementation review\r\n  - Key strength analysis\r\n\r\n🔴 A03:2021 - Injection:\r\n• SQL Injection:\r\n  - Union-based injection\r\n  - Boolean-based blind\r\n  - Time-based blind\r\n  - Error-based injection\r\n\r\n• NoSQL Injection\r\n• Command Injection\r\n• LDAP Injection\r\n• XPath Injection\r\n\r\nTest Teknikleri:\r\n  - Automated payload injection\r\n  - Manual crafted payloads\r\n  - Blind injection techniques\r\n  - Out-of-band exploitation\r\n\r\n🔴 A04:2021 - Insecure Design:\r\n• Insufficient threat modeling\r\n• Insecure design patterns\r\n• Missing security controls\r\n• Business logic flaws"
+                },
+                {
+                    "id": "3",
+                    "title": "SQL Injection Testing",
+                    "content": "SQL Injection, web uygulamalarında en yaygın ve tehlikeli güvenlik açıklarından biridir.\r\n\r\n🎯 SQL Injection Türleri:\r\n• In-band SQL Injection:\r\n  - Union-based injection\r\n  - Error-based injection\r\n  - Direct output injection\r\n\r\n• Blind SQL Injection:\r\n  - Boolean-based blind\r\n  - Time-based blind\r\n  - Statistical analysis\r\n\r\n• Out-of-band SQL Injection:\r\n  - DNS exfiltration\r\n  - HTTP requests\r\n  - File system operations\r\n\r\n🔍 Detection Techniques:\r\n• Single Quote Testing:\r\n  - Error message analysis\r\n  - Response time analysis\r\n  - Content length differences\r\n\r\n• Boolean-based Testing:\r\n  - True/false conditions\r\n  - Response comparison\r\n  - Logic-based inference\r\n\r\n• Time-based Testing:\r\n  - Sleep functions\r\n  - Heavy queries\r\n  - Response time measurement\r\n\r\n⚔️ Exploitation Techniques:\r\n• Database Enumeration:\r\n  - Version identification\r\n  - Schema discovery\r\n  - Table/column enumeration\r\n  - User privilege assessment\r\n\r\n🛠️ SQL Injection Tools:\r\n• SQLMap:\r\n  - Automated detection\r\n  - Multi-database support\r\n  - Advanced exploitation\r\n  - Tamper scripts\r\n\r\n• Manual Testing:\r\n  - Burp Suite Intruder\r\n  - Custom payloads\r\n  - Browser developer tools\r\n  - Command line tools"
+                },
+                {
+                    "id": "4",
+                    "title": "Cross-Site Scripting (XSS) Testing",
+                    "content": "Cross-Site Scripting, kullanıcı tarayıcılarında zararlı script çalıştırma açığıdır.\r\n\r\n🎯 XSS Türleri:\r\n• Stored XSS (Persistent):\r\n  - Veritabanında saklanır\r\n  - Her erişimde çalışır\r\n  - Yüksek impact\r\n  - Geniş etki alanı\r\n  - Blog yorumları, forum mesajları\r\n\r\n• Reflected XSS (Non-Persistent):\r\n  - URL parametrelerinde\r\n  - Form inputlarında\r\n  - HTTP headers'da\r\n  - Sosyal mühendislik gerekli\r\n  - Tek seferlik etki\r\n\r\n• DOM-based XSS:\r\n  - Client-side DOM manipulation\r\n  - JavaScript execution context\r\n  - Dynamic content generation\r\n  - Advanced exploitation\r\n  - Browser-side vulnerability\r\n\r\n🔍 Detection Techniques:\r\n• Basic Payload Testing:\r\n  - <script>alert(1)</script>\r\n  - <img src=x onerror=alert(1)>\r\n  - javascript:alert(1)\r\n  - <svg onload=alert(1)>\r\n  - <iframe src=\"javascript:alert(1)\"></iframe>\r\n\r\n• Context-Aware Testing:\r\n  - HTML context: <script>alert(1)</script>\r\n  - Attribute context: \" onmouseover=alert(1) //\r\n  - JavaScript context: ';alert(1);//\r\n  - CSS context: </style><script>alert(1)</script>\r\n\r\n• Advanced Payloads:\r\n  - Polyglot payloads\r\n  - WAF bypass techniques\r\n  - Encoding variations (URL, HTML, JavaScript)\r\n  - Event handler exploitation\r\n\r\n⚔️ Exploitation Scenarios:\r\n• Session Hijacking:\r\n  - document.cookie theft\r\n  - XMLHttpRequest ile cookie gönderimi\r\n  - Session token extraction\r\n  - Account takeover\r\n\r\n• Credential Harvesting:\r\n  - Fake login forms injection\r\n  - Keylogger implementation\r\n  - Form data interception\r\n  - Password field manipulation\r\n\r\n• Content Manipulation:\r\n  - Page defacement\r\n  - Malicious redirects\r\n  - Fake notifications\r\n  - Social engineering campaigns\r\n\r\n🛠️ XSS Testing Tools:\r\n• Automated Tools:\r\n  - XSSer: Comprehensive XSS framework\r\n  - XSStrike: Advanced XSS detection\r\n  - Dalfox: Parameter-based XSS scanner\r\n  - BruteXSS: Brute force XSS detection\r\n\r\n• Manual Testing:\r\n  - Burp Suite XSS checks\r\n  - Browser developer tools\r\n  - Custom payload lists\r\n  - Context analysis tools\r\n\r\n🛡️ Prevention Testing:\r\n• Input Validation Testing\r\n• Output Encoding Verification\r\n• Content Security Policy (CSP) Testing\r\n• HTTPOnly Cookie Testing\r\n• X-XSS-Protection Header Analysis\r\n• SameSite Cookie Attribute Testing"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Web Application Penetration Testing",
+                    "type": "quiz",
+                    "question": "OWASP Top 10 2021'de en kritik web güvenlik açığı hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Injection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Broken Access Control",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Security Misconfiguration",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Cryptographic Failures",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "OWASP Top 10 2021 listesinde A01:2021 - Broken Access Control en kritik güvenlik açığı olarak yer almaktadır. Bu açık, kullanıcıların yetkilerini aşarak yetkisiz kaynaklara erişim sağlamasına neden olur."
+                }
+            ]
         },
         {
             "id": "11_5",
             "title": "5. Network Penetration Testing",
             "duration": "45",
             "color": "#ffad33",
-            "documents": 8,
+            "documents": 5,
             "isCompleted": false,
             "isActive": true,
             "description": "Ağ altyapısını test et, network güvenlik açıklarını tespit et ve ağ saldırılarını simüle et.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Network Penetration Testing Temelleri",
+                    "content": "Network sızma testleri, ağ altyapısının güvenlik açıklarını tespit etmeye odaklanır.\r\n\r\n🌐 Network Testing Kapsamı:\r\n• External network testing\r\n• Internal network testing\r\n• Wireless network assessment\r\n• Network device testing\r\n• Network segmentation testing\r\n• VPN security assessment\r\n\r\n🎯 Test Amaçları:\r\n• Network topology mapping\r\n• Service enumeration\r\n• Vulnerability identification\r\n• Configuration assessment\r\n• Access control testing\r\n• Data flow analysis\r\n\r\n📊 Network Testing Phases:\r\n• Planning and Preparation:\r\n  - Scope definition\r\n  - Rules of engagement\r\n  - Testing schedule\r\n  - Resource allocation\r\n\r\n• Information Gathering:\r\n  - Network discovery\r\n  - Port scanning\r\n  - Service identification\r\n  - OS fingerprinting\r\n\r\n• Vulnerability Assessment:\r\n  - Automated scanning\r\n  - Manual verification\r\n  - Configuration review\r\n  - Risk assessment\r\n\r\n• Exploitation:\r\n  - Proof of concept\r\n  - Impact demonstration\r\n  - Lateral movement\r\n  - Privilege escalation\r\n\r\n🛠️ Network Testing Tools:\r\n• Network Discovery:\r\n  - Nmap\r\n  - Masscan\r\n  - Zmap\r\n  - Angry IP Scanner\r\n\r\n• Protocol Analysis:\r\n  - Wireshark\r\n  - tcpdump\r\n  - Ettercap\r\n  - NetworkMiner\r\n\r\n• Vulnerability Scanners:\r\n  - Nessus\r\n  - OpenVAS\r\n  - Qualys VMDR\r\n  - Rapid7 Nexpose"
+                },
+                {
+                    "id": "2",
+                    "title": "Network Discovery ve Port Scanning",
+                    "content": "Network keşfi ve port taraması, ağ sızma testinin temel aşamalarıdır.\r\n\r\n🔍 Network Discovery Teknikleri:\r\n• Host Discovery:\r\n  - ICMP Echo Request (ping)\r\n  - TCP SYN ping\r\n  - TCP ACK ping\r\n  - UDP ping\r\n  - ARP ping (local network)\r\n\r\n• Network Range Scanning:\r\n  - Subnet scanning\r\n  - CIDR block analysis\r\n  - Network topology mapping\r\n  - Gateway identification\r\n\r\n⚡ Port Scanning Teknikleri:\r\n• TCP Scanning:\r\n  - TCP Connect scan (-sT)\r\n  - TCP SYN scan (-sS)\r\n  - TCP FIN scan (-sF)\r\n  - TCP NULL scan (-sN)\r\n  - TCP Xmas scan (-sX)\r\n  - TCP ACK scan (-sA)\r\n  - TCP Window scan (-sW)\r\n\r\n• UDP Scanning:\r\n  - UDP scan (-sU)\r\n  - UDP service detection\r\n  - ICMP unreachable analysis\r\n  - DNS enumeration\r\n\r\n🛠️ Nmap Advanced Techniques:\r\n• Timing and Performance:\r\n  - T0 (Paranoid) - T5 (Insane)\r\n  - Custom timing controls\r\n  - Packet rate limiting\r\n  - Parallel host scanning\r\n\r\n• Evasion Techniques:\r\n  - Fragmented packets (-f)\r\n  - Decoy scanning (-D)\r\n  - Source port manipulation\r\n  - MAC address spoofing\r\n  - Idle scan (-sI)\r\n\r\n• Service Detection:\r\n  - Version detection (-sV)\r\n  - OS fingerprinting (-O)\r\n  - NSE script scanning (-sC)\r\n  - Aggressive detection (-A)\r\n\r\n📊 Scan Result Analysis:\r\n• Port States:\r\n  - Open: Service actively listening\r\n  - Closed: Port accessible but no service\r\n  - Filtered: Firewall/filter blocking\r\n  - Unfiltered: Accessible but state unknown\r\n  - Open/Filtered: Cannot determine state\r\n\r\n• Output Formats:\r\n  - Normal output (-oN)\r\n  - XML output (-oX)\r\n  - Grepable output (-oG)\r\n  - All formats (-oA)"
+                },
+                {
+                    "id": "3",
+                    "title": "Network Vulnerability Assessment",
+                    "content": "Network vulnerability assessment, ağ altyapısındaki güvenlik açıklarını sistematik olarak tespit eder.\r\n\r\n🔍 Assessment Kapsamı:\r\n• Network Infrastructure:\r\n  - Router ve switch'ler\r\n  - Firewall konfigürasyonları\r\n  - Load balancer'lar\r\n  - VPN gateway'ler\r\n  - Network access control (NAC)\r\n\r\n• Network Services:\r\n  - DNS services\r\n  - DHCP services\r\n  - Mail services (SMTP, POP3, IMAP)\r\n  - Web services (HTTP/HTTPS)\r\n  - File services (FTP, SMB, NFS)\r\n  - Directory services (LDAP, Active Directory)\r\n\r\n🛠️ Vulnerability Scanning Tools:\r\n• Network Scanners:\r\n  - Nessus: Comprehensive vulnerability scanning\r\n  - OpenVAS: Open source vulnerability assessment\r\n  - Qualys VMDR: Cloud-based scanning\r\n  - Rapid7 Nexpose: Enterprise vulnerability management\r\n  - Nmap NSE: Scripted vulnerability detection\r\n\r\n• Specialized Tools:\r\n  - SSL/TLS: SSLScan, SSLyze, testssl.sh\r\n  - SNMP: SNMPwalk, onesixtyone\r\n  - DNS: DNSRecon, fierce, dnsmap\r\n  - SMB: enum4linux, smbclient, CrackMapExec\r\n\r\n📊 Vulnerability Categories:\r\n• Configuration Issues:\r\n  - Default credentials\r\n  - Unnecessary services\r\n  - Weak encryption settings\r\n  - Missing security patches\r\n  - Improper access controls\r\n\r\n• Protocol Vulnerabilities:\r\n  - SSL/TLS weaknesses\r\n  - SNMP community strings\r\n  - Weak authentication mechanisms\r\n  - Unencrypted protocols\r\n\r\n• Network Architecture Issues:\r\n  - Network segmentation problems\r\n  - DMZ misconfigurations\r\n  - VLAN hopping possibilities\r\n  - Routing table exposures\r\n\r\n⚠️ Common Vulnerabilities:\r\n• Missing Security Updates\r\n• Weak SSL/TLS Configurations\r\n• Default SNMP Community Strings\r\n• Open Administrative Ports\r\n• Unfiltered Network Traffic\r\n• Weak Network Device Passwords\r\n• Information Disclosure via Banners\r\n• Unnecessary Network Services\r\n\r\n📋 Assessment Methodology:\r\n1. Network Discovery ve Mapping\r\n2. Port ve Service Enumeration\r\n3. Vulnerability Identification\r\n4. Risk Assessment ve Prioritization\r\n5. False Positive Elimination\r\n6. Remediation Recommendations"
+                },
+                {
+                    "id": "4",
+                    "title": "Wireless Network Testing",
+                    "content": "Wireless network testing, kablosuz ağ altyapısının güvenlik açıklarını değerlendirir.\r\n\r\n📶 Wireless Security Protocols:\r\n• WEP (Wired Equivalent Privacy):\r\n  - Deprecated ve güvensiz\r\n  - 64-bit ve 128-bit keys\r\n  - RC4 stream cipher\r\n  - IV collision attacks\r\n  - Easily crackable\r\n\r\n• WPA/WPA2 (Wi-Fi Protected Access):\r\n  - TKIP (WPA) ve AES (WPA2)\r\n  - PSK (Personal) ve Enterprise modes\r\n  - 4-way handshake\r\n  - Dictionary attacks possible\r\n  - WPS vulnerabilities\r\n\r\n• WPA3 (Latest Standard):\r\n  - Enhanced security\r\n  - SAE (Simultaneous Authentication of Equals)\r\n  - Forward secrecy\r\n  - Protection against offline attacks\r\n\r\n🔍 Wireless Testing Phases:\r\n• Reconnaissance:\r\n  - Access point discovery\r\n  - Channel analysis\r\n  - SSID enumeration\r\n  - Client device identification\r\n  - Signal strength measurement\r\n\r\n• Traffic Analysis:\r\n  - Packet capture\r\n  - Protocol analysis\r\n  - Handshake capture\r\n  - Data exfiltration\r\n  - Management frame analysis\r\n\r\n🛠️ Wireless Testing Tools:\r\n• Discovery Tools:\r\n  - Airodump-ng: Network discovery\r\n  - Kismet: Wireless detector\r\n  - inSSIDer: WiFi analyzer\r\n  - WiFi Explorer: macOS tool\r\n\r\n• Attack Tools:\r\n  - Aircrack-ng: WEP/WPA cracking\r\n  - Hashcat: Advanced password cracking\r\n  - John the Ripper: Password cracking\r\n  - Reaver: WPS attack tool\r\n  - Bully: WPS brute force\r\n\r\n• Packet Analysis:\r\n  - Wireshark: Network protocol analyzer\r\n  - tshark: Command-line Wireshark\r\n  - tcpdump: Packet capture\r\n  - NetworkMiner: Network forensics\r\n\r\n⚔️ Wireless Attack Techniques:\r\n• WEP Cracking:\r\n  - IV collision attacks\r\n  - Statistical attacks\r\n  - Packet injection\r\n  - Fast cracking methods\r\n\r\n• WPA/WPA2 Attacks:\r\n  - Dictionary attacks\r\n  - Brute force attacks\r\n  - Evil twin attacks\r\n  - Deauthentication attacks\r\n  - PMKID attacks\r\n\r\n• WPS Attacks:\r\n  - PIN brute forcing\r\n  - Pixie dust attack\r\n  - Offline PIN attacks\r\n  - Implementation flaws"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Network Penetration Testing",
+                    "type": "quiz",
+                    "question": "Nmap'te TCP SYN scan yapmak için hangi parametre kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "-sT",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "-sS",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "-sU",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "-sF",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Nmap'te TCP SYN scan yapmak için -sS parametresi kullanılır. Bu stealth scan olarak da bilinir çünkü tam TCP bağlantısı kurulmaz, sadece SYN paketi gönderilir."
+                }
+            ]
         },
         {
             "id": "11_6",
             "title": "6. Post-Exploitation ve Persistence",
             "duration": "35",
             "color": "#ffb84d",
-            "documents": 6,
+            "documents": 5,
             "isCompleted": false,
             "isActive": true,
             "description": "Sistem erişimini sürdür, lateral movement yap ve persistence tekniklerini öğren.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Post-Exploitation Temelleri",
+                    "content": "Post-exploitation, sistem erişimi sağlandıktan sonraki faaliyetleri kapsar.\r\n\r\n🎯 Post-Exploitation Amaçları:\r\n• Sistem keşfi ve enumeration\r\n• Privilege escalation\r\n• Lateral movement\r\n• Data collection ve exfiltration\r\n• Persistence establishment\r\n• Impact assessment\r\n• Evidence collection\r\n\r\n📊 System Enumeration:\r\n• Operating System Information:\r\n  - OS version ve build\r\n  - Architecture (x86/x64)\r\n  - Installed software listesi\r\n  - Running processes\r\n  - System services\r\n  - Patch level assessment\r\n\r\n• Network Information:\r\n  - IP configuration\r\n  - Routing tables\r\n  - Active network connections\r\n  - Firewall configuration\r\n  - Network shares\r\n  - VPN connections\r\n\r\n• User Information:\r\n  - Current user context\r\n  - User privileges\r\n  - Local users ve groups\r\n  - Domain membership\r\n  - Login history\r\n  - Password policies\r\n\r\n🔍 Information Gathering Tools:\r\n• Windows Commands:\r\n  - whoami /all\r\n  - systeminfo\r\n  - net user\r\n  - net localgroup\r\n  - ipconfig /all\r\n  - route print\r\n  - netstat -ano\r\n  - tasklist /svc\r\n\r\n• Linux Commands:\r\n  - id\r\n  - uname -a\r\n  - ps aux\r\n  - netstat -tulpn\r\n  - cat /etc/passwd\r\n  - cat /etc/group\r\n  - ifconfig -a\r\n  - route -n\r\n\r\n• PowerShell Commands:\r\n  - Get-ComputerInfo\r\n  - Get-Process\r\n  - Get-Service\r\n  - Get-NetIPConfiguration\r\n  - Get-LocalUser\r\n  - Get-LocalGroup"
+                },
+                {
+                    "id": "2",
+                    "title": "Privilege Escalation Teknikleri",
+                    "content": "Privilege escalation, düşük yetkili erişimden yüksek yetkili erişime geçiş sürecidir.\r\n\r\n⬆️ Windows Privilege Escalation:\r\n• Token Manipulation:\r\n  - Token impersonation\r\n  - Token duplication\r\n  - SeImpersonatePrivilege abuse\r\n  - SeDebugPrivilege exploitation\r\n\r\n• Service Exploitation:\r\n  - Unquoted service paths\r\n  - Weak service permissions\r\n  - Service binary hijacking\r\n  - DLL hijacking\r\n\r\n• Registry Exploitation:\r\n  - AlwaysInstallElevated\r\n  - AutoRun programs\r\n  - Registry key permissions\r\n  - Stored credentials\r\n\r\n• UAC Bypass:\r\n  - UAC bypass techniques\r\n  - High integrity processes\r\n  - COM interface exploitation\r\n  - DLL injection\r\n\r\n🐧 Linux Privilege Escalation:\r\n• SUID/SGID Binaries:\r\n  - find / -perm -u=s 2>/dev/null\r\n  - SUID binary exploitation\r\n  - Custom SUID programs\r\n  - GTFOBins techniques\r\n\r\n• Kernel Exploits:\r\n  - Kernel version identification\r\n  - Known kernel vulnerabilities\r\n  - Local privilege escalation exploits\r\n  - Dirty COW, Dirty Pipe gibi\r\n\r\n• Sudo Misconfigurations:\r\n  - sudo -l enumeration\r\n  - NOPASSWD entries\r\n  - Wildcards in sudo rules\r\n  - Environment variables\r\n\r\n• Cron Jobs:\r\n  - Writable cron jobs\r\n  - PATH manipulation\r\n  - Wildcard injections\r\n  - Script modifications\r\n\r\n🛠️ Privilege Escalation Tools:\r\n• Windows Tools:\r\n  - WinPEAS\r\n  - PowerUp\r\n  - PrivescCheck\r\n  - Watson\r\n  - SharpUp\r\n\r\n• Linux Tools:\r\n  - LinPEAS\r\n  - LinEnum\r\n  - Linux Exploit Suggester\r\n  - Unix-privesc-check\r\n  - GTFOBins"
+                },
+                {
+                    "id": "3",
+                    "title": "Lateral Movement Teknikleri",
+                    "content": "Lateral movement, bir sistemden diğerine geçerek ağ içinde hareket etme sürecidir.\r\n\r\n🔄 Lateral Movement Amaçları:\r\n• Network keşfi ve mapping\r\n• Additional system compromise\r\n• Privilege escalation\r\n• Critical asset identification\r\n• Domain controller erişimi\r\n• Data discovery ve access\r\n\r\n🎯 Movement Techniques:\r\n• Credential Harvesting:\r\n  - Memory credential extraction\r\n  - Registry credential mining\r\n  - Browser password extraction\r\n  - Cached credential abuse\r\n  - LSA secrets extraction\r\n\r\n• Pass-the-Hash Attacks:\r\n  - NTLM hash usage without cracking\r\n  - Authentication with hash values\r\n  - Psexec with hash authentication\r\n  - WMI execution with credentials\r\n  - SMB share access\r\n\r\n• Kerberos Attacks:\r\n  - Golden ticket attacks\r\n  - Silver ticket attacks\r\n  - Kerberoasting\r\n  - ASREPRoasting\r\n  - Ticket passing\r\n\r\n🛠️ Lateral Movement Tools:\r\n• Windows Tools:\r\n  - PsExec: Remote command execution\r\n  - WMI: Windows Management Instrumentation\r\n  - PowerShell Remoting\r\n  - RDP (Remote Desktop Protocol)\r\n  - WinRM (Windows Remote Management)\r\n\r\n• Post-Exploitation Frameworks:\r\n  - Cobalt Strike: Advanced threat emulation\r\n  - Empire: PowerShell post-exploitation\r\n  - Metasploit: Multi-exploit framework\r\n  - BloodHound: AD attack path analysis\r\n\r\n• Credential Tools:\r\n  - Mimikatz: Credential extraction\r\n  - LaZagne: Multi-platform passwords\r\n  - Hashcat: Advanced cracking\r\n  - John the Ripper: Password cracking\r\n\r\n🌐 Network Pivoting:\r\n• Port Forwarding:\r\n  - Local port forwarding\r\n  - Remote port forwarding\r\n  - Dynamic port forwarding\r\n  - SSH tunneling\r\n\r\n• SOCKS Proxy:\r\n  - SOCKS4/SOCKS5 setup\r\n  - Proxy chain creation\r\n  - Traffic routing\r\n  - Multi-hop pivoting\r\n\r\n• DNS Tunneling:\r\n  - DNS exfiltration channels\r\n  - Command and control\r\n  - Firewall bypass\r\n  - Covert channels\r\n\r\n⚠️ Detection Evasion:\r\n• Living off the Land:\r\n  - Built-in Windows tools\r\n  - PowerShell obfuscation\r\n  - WMI event subscriptions\r\n  - Scheduled task abuse\r\n\r\n• Anti-Forensics:\r\n  - Log cleaning\r\n  - Timestamp manipulation\r\n  - Process injection\r\n  - Memory-only payloads"
+                },
+                {
+                    "id": "4",
+                    "title": "Data Exfiltration ve Persistence",
+                    "content": "Data exfiltration ve persistence, saldırının kalıcılığını ve veri çalma sürecini kapsar.\r\n\r\n📁 Data Exfiltration:\r\n• Data Discovery:\r\n  - File system enumeration\r\n  - Database discovery\r\n  - Email system access\r\n  - Cloud storage identification\r\n  - Network share exploration\r\n  - Application data stores\r\n\r\n• Data Classification:\r\n  - Sensitive data identification\r\n  - Personal information (PII)\r\n  - Financial data\r\n  - Intellectual property\r\n  - Business secrets\r\n  - Customer databases\r\n\r\n• Exfiltration Methods:\r\n  - HTTP/HTTPS channels\r\n  - DNS tunneling\r\n  - ICMP tunneling\r\n  - FTP/SFTP transfers\r\n  - Email attachments\r\n  - Cloud storage uploads\r\n  - USB device copying\r\n\r\n🛠️ Exfiltration Tools:\r\n• Network Tools:\r\n  - Netcat: Network Swiss Army knife\r\n  - Socat: Advanced networking tool\r\n  - Wget/cURL: HTTP transfers\r\n  - SCP/SFTP: Secure file transfer\r\n\r\n• Covert Channels:\r\n  - DNSExfiltrator: DNS-based data theft\r\n  - ICMP tunneling tools\r\n  - Steganography tools\r\n  - Base64 encoding utilities\r\n\r\n🔒 Persistence Techniques:\r\n• Windows Persistence:\r\n  - Registry run keys\r\n  - Scheduled tasks\r\n  - Service installation\r\n  - WMI event subscriptions\r\n  - DLL hijacking\r\n  - COM hijacking\r\n  - Startup folder entries\r\n\r\n• Linux Persistence:\r\n  - Cron jobs\r\n  - Init scripts (/etc/init.d/)\r\n  - Systemd services\r\n  - SSH key installation\r\n  - .bashrc modifications\r\n  - Library preloading (LD_PRELOAD)\r\n  - Kernel module insertion\r\n\r\n• Advanced Persistence:\r\n  - BIOS/UEFI rootkits\r\n  - Hypervisor-level persistence\r\n  - Application backdoors\r\n  - Configuration file modifications\r\n  - Database triggers\r\n\r\n🛡️ Anti-Forensics Techniques:\r\n• Log Manipulation:\r\n  - Windows Event Log clearing\r\n  - Linux log file deletion\r\n  - Log rotation manipulation\r\n  - Selective log entry removal\r\n\r\n• Artifact Cleanup:\r\n  - Temporary file removal\r\n  - Browser history cleaning\r\n  - Recent document clearing\r\n  - Registry cleanup\r\n  - Memory dumps clearing\r\n\r\n• Stealth Operations:\r\n  - Process name spoofing\r\n  - Service masquerading\r\n  - File attribute manipulation\r\n  - Timestamp modification\r\n  - Hidden file creation"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Post-Exploitation ve Persistence",
+                    "type": "quiz",
+                    "question": "Windows'ta SUID benzeri yetki yükseltme için hangi privilege kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "SeDebugPrivilege",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SeImpersonatePrivilege",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "SeBackupPrivilege",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "SeRestorePrivilege",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "SeImpersonatePrivilege, Windows'ta token impersonation yaparak yetki yükseltmesi sağlar. Bu privilege özellikle service account'larda bulunur ve JuicyPotato, PrintSpoofer gibi araçlarla exploit edilebilir."
+                }
+            ]
         },
         {
             "id": "11_7",
             "title": "7. Social Engineering ve Physical Security Testing",
             "duration": "40",
             "color": "#ffc266",
-            "documents": 7,
+            "documents": 5,
             "isCompleted": false,
             "isActive": true,
             "description": "Sosyal mühendislik testleri yap, fiziksel güvenlik açıklarını tespit et.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Social Engineering Testing Temelleri",
+                    "content": "Social engineering, insanların güvenlik zafiyetlerini kullanarak bilgi ve erişim elde etme sanatıdır.\r\n\r\n🎭 Social Engineering Türleri:\r\n• Phishing Attacks:\r\n  - Email phishing\r\n  - Spear phishing\r\n  - Whaling (CEO phishing)\r\n  - SMS phishing (smishing)\r\n  - Voice phishing (vishing)\r\n\r\n• Pretexting:\r\n  - False identity creation\r\n  - Authority impersonation\r\n  - Trust building scenarios\r\n  - Information elicitation\r\n\r\n• Baiting:\r\n  - USB drop attacks\r\n  - Malicious downloads\r\n  - Physical media traps\r\n  - Curiosity exploitation\r\n\r\n• Tailgating/Piggybacking:\r\n  - Physical access following\r\n  - Badge sharing\r\n  - Door holding exploitation\r\n  - Courtesy abuse\r\n\r\n📊 Testing Metodolojileri:\r\n• Open Source Intelligence (OSINT):\r\n  - Target research\r\n  - Employee enumeration\r\n  - Organization structure\r\n  - Public information gathering\r\n  - Social media analysis\r\n\r\n• Pretext Development:\r\n  - Scenario creation\r\n  - Character development\r\n  - Story consistency\r\n  - Credibility building\r\n\r\n• Attack Vector Selection:\r\n  - Email campaigns\r\n  - Phone calls\r\n  - Physical visits\r\n  - Social media approaches\r\n\r\n🛠️ Social Engineering Tools:\r\n• Email Testing:\r\n  - GoPhish\r\n  - King Phisher\r\n  - Social-Engineer Toolkit (SET)\r\n  - Lucy Security\r\n\r\n• SMS/Voice Testing:\r\n  - SpoofCard\r\n  - Asterisk PBX\r\n  - FreePBX\r\n  - Custom scripts\r\n\r\n• Information Gathering:\r\n  - theHarvester\r\n  - Maltego\r\n  - Recon-ng\r\n  - SpiderFoot\r\n  - Sherlock"
+                },
+                {
+                    "id": "2",
+                    "title": "Physical Security Testing",
+                    "content": "Physical security testing, organizasyonların fiziksel güvenlik kontrollerini değerlendirir.\r\n\r\n🏢 Physical Security Assessment:\r\n• Perimeter Security:\r\n  - Fence ve barrier analysis\r\n  - Gate ve entry point security\r\n  - Lighting assessment\r\n  - Motion sensors detection\r\n  - CCTV coverage analysis\r\n  - Alarm system evaluation\r\n\r\n• Building Security:\r\n  - Entry/exit point mapping\r\n  - Badge access systems\r\n  - Visitor management procedures\r\n  - Security guard protocols\r\n  - Elevator security controls\r\n  - Emergency exit procedures\r\n\r\n• Office Security:\r\n  - Desk security (clean desk policy)\r\n  - Computer screen locks\r\n  - Document storage security\r\n  - USB port controls\r\n  - Network outlet accessibility\r\n  - Server room physical security\r\n\r\n🔍 Physical Testing Techniques:\r\n• Tailgating/Piggybacking:\r\n  - Following authorized personnel\r\n  - Badge sharing exploitation\r\n  - Courtesy door holding\r\n  - Delivery person impersonation\r\n  - Maintenance worker disguise\r\n\r\n• Lock Picking:\r\n  - Pin tumbler locks\r\n  - Wafer locks\r\n  - Disc detainer locks\r\n  - Electronic locks\r\n  - Master key systems\r\n  - Lock bumping techniques\r\n\r\n• Badge Cloning:\r\n  - RFID card analysis\r\n  - Magnetic stripe duplication\r\n  - Proximity card cloning\r\n  - Smart card attacks\r\n  - Badge reader exploitation\r\n\r\n🛠️ Physical Security Tools:\r\n• Lock Picking Tools:\r\n  - Pick sets\r\n  - Tension wrenches\r\n  - Bump keys\r\n  - Electronic pick guns\r\n  - Bypass tools\r\n\r\n• RFID/Badge Tools:\r\n  - Proxmark3: RFID research tool\r\n  - Chameleon Mini: RFID emulator\r\n  - RFID readers/writers\r\n  - Card cloning devices\r\n  - Badge duplication tools\r\n\r\n• Surveillance Tools:\r\n  - Hidden cameras\r\n  - Audio recording devices\r\n  - Network packet capture\r\n  - WiFi pineapple\r\n  - Bluetooth sniffing\r\n\r\n📊 Information Gathering:\r\n• Reconnaissance Methods:\r\n  - Google Earth analysis\r\n  - Street view examination\r\n  - Social media location tags\r\n  - Employee movement patterns\r\n  - Business hour observations\r\n  - Delivery schedules\r\n\r\n• Dumpster Diving:\r\n  - Document disposal analysis\r\n  - Hardware disposal review\r\n  - Password recovery attempts\r\n  - Network diagram discoveries\r\n  - Employee information gathering\r\n\r\n⚖️ Legal ve Ethical Considerations:\r\n• Legal Activities:\r\n  - Public area observation\r\n  - Authorized access testing\r\n  - Documented permission\r\n  - Safety protocols\r\n\r\n• Prohibited Activities:\r\n  - Trespassing\r\n  - Property damage\r\n  - Theft or removal\r\n  - Privacy violations\r\n  - Safety hazard creation"
+                },
+                {
+                    "id": "3",
+                    "title": "Advanced Social Engineering Campaigns",
+                    "content": "Advanced social engineering, sofistike psikolojik manipülasyon teknikleri kullanır.\r\n\r\n🎭 Advanced Campaign Types:\r\n• Business Email Compromise (BEC):\r\n  - CEO fraud attacks\r\n  - Invoice manipulation\r\n  - Wire transfer fraud\r\n  - Account takeover\r\n  - Vendor email compromise\r\n\r\n• Spear Phishing Campaigns:\r\n  - Highly targeted emails\r\n  - Personalized content\r\n  - Executive impersonation\r\n  - Contextual relevance\r\n  - Multi-stage attacks\r\n\r\n• Water Hole Attacks:\r\n  - Website compromise\r\n  - Targeted audience\r\n  - Drive-by downloads\r\n  - Supply chain attacks\r\n  - Industry-specific sites\r\n\r\n📱 Multi-Channel Attacks:\r\n• Omnichannel Approaches:\r\n  - Email + phone combination\r\n  - SMS + social media\r\n  - Physical + digital integration\r\n  - Multi-touchpoint campaigns\r\n  - Cross-platform consistency\r\n\r\n• Technology Integration:\r\n  - Deepfake voice calls\r\n  - AI-generated content\r\n  - Automated response systems\r\n  - Machine learning targeting\r\n  - Behavioral analysis\r\n\r\n🧠 Psychological Manipulation:\r\n• Authority Principle:\r\n  - Executive impersonation\r\n  - Government agency spoofing\r\n  - Expert opinion abuse\r\n  - Official document forgery\r\n  - Uniform/badge exploitation\r\n\r\n• Urgency and Scarcity:\r\n  - Time-limited offers\r\n  - Emergency scenarios\r\n  - Limited availability\r\n  - Deadline pressure\r\n  - Crisis situations\r\n\r\n• Social Proof:\r\n  - Peer pressure tactics\r\n  - Fake testimonials\r\n  - Group conformity\r\n  - Bandwagon effect\r\n  - FOMO (Fear of Missing Out)\r\n\r\n🛠️ Campaign Management Tools:\r\n• Email Platforms:\r\n  - GoPhish: Open source phishing\r\n  - King Phisher: Social engineering toolkit\r\n  - Lucy Security: Awareness training\r\n  - MailSniper: Email reconnaissance\r\n\r\n• Infrastructure Tools:\r\n  - Domain fronting\r\n  - CDN abuse\r\n  - SSL certificate spoofing\r\n  - URL shortening services\r\n  - Redirector services\r\n\r\n📊 Campaign Metrics:\r\n• Success Indicators:\r\n  - Email open rates\r\n  - Link click rates\r\n  - Credential submission\r\n  - Attachment downloads\r\n  - Phone callback rates\r\n\r\n• Behavioral Analysis:\r\n  - Response time patterns\r\n  - Device/browser analysis\r\n  - Geographic distribution\r\n  - Department vulnerability\r\n  - Role-based targeting\r\n\r\n🛡️ Defense Evasion:\r\n• Email Security Bypass:\r\n  - SPF/DKIM/DMARC evasion\r\n  - Content filtering bypass\r\n  - Sandbox evasion\r\n  - URL reputation bypass\r\n  - Attachment obfuscation"
+                },
+                {
+                    "id": "4",
+                    "title": "Security Awareness ve Defense",
+                    "content": "Security awareness, sosyal mühendislik saldırılarına karşı savunma stratejileri geliştirir.\r\n\r\n🛡️ Defense Strategies:\r\n• Technical Controls:\r\n  - Email security gateways\r\n  - Advanced threat protection\r\n  - URL filtering systems\r\n  - Endpoint detection response (EDR)\r\n  - Multi-factor authentication\r\n  - Zero-trust architecture\r\n\r\n• Process Controls:\r\n  - Verification procedures\r\n  - Escalation protocols\r\n  - Incident response plans\r\n  - Change management\r\n  - Access control policies\r\n  - Document classification\r\n\r\n📚 Awareness Training:\r\n• Training Components:\r\n  - Phishing recognition\r\n  - Social engineering tactics\r\n  - Password security\r\n  - Physical security awareness\r\n  - Incident reporting procedures\r\n  - Policy compliance\r\n\r\n• Training Methods:\r\n  - Interactive workshops\r\n  - Simulated phishing campaigns\r\n  - Computer-based training\r\n  - Lunch and learn sessions\r\n  - Security newsletters\r\n  - Awareness posters\r\n\r\n• Training Metrics:\r\n  - Completion rates\r\n  - Knowledge retention\r\n  - Behavior change\r\n  - Incident reduction\r\n  - Reporting increases\r\n  - Policy adherence\r\n\r\n🚨 Incident Response:\r\n• Incident Categories:\r\n  - Successful phishing\r\n  - Credential compromise\r\n  - Data exfiltration\r\n  - System compromise\r\n  - Physical security breach\r\n\r\n• Response Procedures:\r\n  - Immediate containment\r\n  - Threat assessment\r\n  - Communication protocols\r\n  - Evidence preservation\r\n  - Recovery procedures\r\n  - Lessons learned\r\n\r\n📊 Awareness Program Management:\r\n• Program Development:\r\n  - Baseline assessment\r\n  - Risk-based training\r\n  - Role-specific content\r\n  - Regular updates\r\n  - Continuous improvement\r\n\r\n• Effectiveness Measurement:\r\n  - Simulated attack results\r\n  - Behavioral observations\r\n  - Self-assessment surveys\r\n  - Incident trend analysis\r\n  - Compliance audits\r\n\r\n🎯 Targeted Training:\r\n• High-Risk Groups:\r\n  - Executive management\r\n  - Finance department\r\n  - HR personnel\r\n  - IT administrators\r\n  - Customer service\r\n\r\n• Customized Content:\r\n  - Industry-specific scenarios\r\n  - Role-based examples\r\n  - Local threat landscape\r\n  - Regulatory requirements\r\n  - Cultural considerations\r\n\r\n🔄 Continuous Improvement:\r\n• Program Evolution:\r\n  - Threat landscape updates\r\n  - Technology adaptations\r\n  - Feedback integration\r\n  - Best practice adoption\r\n  - Vendor partnerships\r\n\r\n• Success Indicators:\r\n  - Reduced successful attacks\r\n  - Increased reporting\r\n  - Faster incident detection\r\n  - Better risk decisions\r\n  - Cultural change"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Social Engineering ve Physical Security Testing",
+                    "type": "quiz",
+                    "question": "CEO'ları hedef alan özel phishing saldırısına ne denir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Spear Phishing",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Whaling",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Vishing",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Smishing",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Whaling, CEO ve üst düzey yöneticileri hedef alan özel phishing saldırılarına verilen isimdir. Bu saldırılar genellikle yüksek değerli hedefler olduğu için 'balina avı' olarak adlandırılır."
+                }
+            ]
         },
         {
             "id": "11_8",
@@ -141,7 +451,384 @@
             "isCompleted": false,
             "isActive": true,
             "description": "Profesyonel sızma testi raporları hazırla, sunum tekniklerini öğren ve müşteri iletişimi yap.",
-            "pages": []
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Penetration Test Raporlama",
+                    "content": "Sızma testi raporu, test sürecinin en kritik çıktısıdır ve tüm bulguları kapsamlı şekilde dokumenter.\r\n\r\n📋 Rapor Yapısı:\r\n• Executive Summary:\r\n  - Yönetici özeti\r\n  - Test kapsamı ve hedefleri\r\n  - Ana bulgular özeti\r\n  - Risk değerlendirmesi\r\n  - Acil aksiyon önerileri\r\n  - Genel güvenlik durumu\r\n\r\n• Technical Summary:\r\n  - Metodoloji açıklaması\r\n  - Test prosedürleri\r\n  - Kullanılan araçlar\r\n  - Test sınırları\r\n  - Assumptions ve kısıtlar\r\n\r\n• Detailed Findings:\r\n  - Vulnerability detayları\r\n  - Risk seviyesi (Critical/High/Medium/Low)\r\n  - CVSS skorları\r\n  - Proof of concept\r\n  - Impact analizi\r\n  - Remediation önerileri\r\n\r\n🎯 Executive Summary İçeriği:\r\n• Business Impact Focus:\r\n  - İş süreçlerine etki\r\n  - Financial risk assessment\r\n  - Reputation risk\r\n  - Compliance implications\r\n  - Strategic recommendations\r\n\r\n• Risk Matrix:\r\n  - Likelihood vs Impact\r\n  - Risk prioritization\r\n  - Risk appetite alignment\r\n  - Business context\r\n\r\n🔍 Technical Findings Format:\r\n• Vulnerability Title\r\n• Risk Rating (Critical/High/Medium/Low/Info)\r\n• CVSS v3.1 Score\r\n• CWE/CVE References\r\n• Affected Systems/Components\r\n• Description\r\n• Impact Assessment\r\n• Proof of Concept\r\n• Remediation Steps\r\n• References\r\n\r\n📊 Risk Assessment Kriterleri:\r\n• Likelihood Factors:\r\n  - Exploit availability\r\n  - Attack complexity\r\n  - Access requirements\r\n  - Detection difficulty\r\n\r\n• Impact Factors:\r\n  - Data confidentiality\r\n  - System availability\r\n  - Data integrity\r\n  - Business operations\r\n  - Compliance violations"
+                },
+                {
+                    "id": "2",
+                    "title": "Report Writing Best Practices",
+                    "content": "Profesyonel raporlama, sızma testi bulgularının etkili bir şekilde iletilmesini sağlar.\r\n\r\n📝 Writing Guidelines:\r\n• Language ve Style:\r\n  - Clear ve concise writing\r\n  - Technical jargon minimization\r\n  - Active voice usage\r\n  - Professional tone\r\n  - Consistent terminology\r\n  - Grammar ve spell checking\r\n\r\n• Structure ve Flow:\r\n  - Logical information progression\r\n  - Executive summary first\r\n  - Technical details follow\r\n  - Consistent formatting\r\n  - Clear section headers\r\n  - Table of contents\r\n\r\n• Visual Elements:\r\n  - Screenshots ve evidence\r\n  - Network diagrams\r\n  - Risk matrices\r\n  - Charts ve graphs\r\n  - Code snippets\r\n  - Proof of concept images\r\n\r\n🎯 Audience Considerations:\r\n• Executive Audience:\r\n  - Business impact focus\r\n  - High-level summaries\r\n  - Financial implications\r\n  - Strategic recommendations\r\n  - Timeline expectations\r\n  - Resource requirements\r\n\r\n• Technical Audience:\r\n  - Detailed vulnerability descriptions\r\n  - Step-by-step reproduction\r\n  - Technical remediation steps\r\n  - Code examples\r\n  - Configuration recommendations\r\n  - Testing methodologies\r\n\r\n• Management Audience:\r\n  - Risk prioritization\r\n  - Resource allocation needs\r\n  - Implementation timelines\r\n  - Process improvements\r\n  - Policy recommendations\r\n  - Training requirements\r\n\r\n📊 Evidence Documentation:\r\n• Screenshot Guidelines:\r\n  - High resolution images\r\n  - Clear annotations\r\n  - Sensitive data redaction\r\n  - Timestamp inclusion\r\n  - Context provision\r\n  - Professional presentation\r\n\r\n• Code ve Command Evidence:\r\n  - Syntax highlighting\r\n  - Input/output separation\r\n  - Command explanations\r\n  - Error message inclusion\r\n  - Environment details\r\n  - Safety warnings\r\n\r\n🔒 Confidentiality ve Security:\r\n• Information Handling:\r\n  - Data classification\r\n  - Sensitive information redaction\r\n  - Secure document storage\r\n  - Access controls\r\n  - Retention policies\r\n  - Disposal procedures\r\n\r\n• Legal Considerations:\r\n  - Client confidentiality\r\n  - Non-disclosure agreements\r\n  - Evidence preservation\r\n  - Regulatory compliance\r\n  - Liability limitations\r\n  - Professional standards\r\n\r\n📋 Quality Assurance:\r\n• Review Process:\r\n  - Peer review\r\n  - Technical accuracy check\r\n  - Grammar ve style review\r\n  - Client name verification\r\n  - Evidence validation\r\n  - Final approval process\r\n\r\n• Common Mistakes:\r\n  - Incomplete evidence\r\n  - Technical inaccuracies\r\n  - Poor risk assessment\r\n  - Missing recommendations\r\n  - Inconsistent formatting\r\n  - Confidentiality breaches"
+                },
+                {
+                    "id": "3",
+                    "title": "Client Communication ve Presentation",
+                    "content": "Etkili müşteri iletişimi, test bulgularının kabul edilmesi ve uygulanması için kritiktir.\r\n\r\n🗣️ Communication Strategies:\r\n• Pre-Test Communication:\r\n  - Expectation setting\r\n  - Scope clarification\r\n  - Timeline confirmation\r\n  - Contact procedures\r\n  - Emergency protocols\r\n  - Progress reporting\r\n\r\n• During-Test Updates:\r\n  - Critical finding alerts\r\n  - Progress milestones\r\n  - Scope adjustments\r\n  - Issue resolution\r\n  - Timeline updates\r\n  - Status meetings\r\n\r\n• Post-Test Delivery:\r\n  - Report presentation\r\n  - Finding explanations\r\n  - Remediation guidance\r\n  - Follow-up planning\r\n  - Question handling\r\n  - Support availability\r\n\r\n📊 Presentation Techniques:\r\n• Executive Presentations:\r\n  - High-level overview\r\n  - Business risk focus\r\n  - Visual dashboards\r\n  - Key metrics highlighting\r\n  - Action plan emphasis\r\n  - Time-boxed delivery\r\n\r\n• Technical Deep Dives:\r\n  - Detailed findings review\r\n  - Proof of concept demos\r\n  - Technical Q&A sessions\r\n  - Remediation workshops\r\n  - Tool demonstrations\r\n  - Best practices sharing\r\n\r\n• Mixed Audience Sessions:\r\n  - Layered information delivery\r\n  - Role-based breakouts\r\n  - Interactive discussions\r\n  - Collaborative planning\r\n  - Consensus building\r\n  - Action item assignment\r\n\r\n🎯 Meeting Management:\r\n• Preparation:\r\n  - Agenda creation\r\n  - Attendee identification\r\n  - Material preparation\r\n  - Technology testing\r\n  - Backup plans\r\n  - Time allocation\r\n\r\n• Facilitation:\r\n  - Meeting objectives\r\n  - Time management\r\n  - Participation encouragement\r\n  - Note taking\r\n  - Action item tracking\r\n  - Follow-up scheduling\r\n\r\n💡 Difficult Conversations:\r\n• Resistance Management:\r\n  - Finding disputes\r\n  - Priority disagreements\r\n  - Resource constraints\r\n  - Timeline pressures\r\n  - Compliance conflicts\r\n  - Technical debates\r\n\r\n• Conflict Resolution:\r\n  - Active listening\r\n  - Evidence-based arguments\r\n  - Compromise solutions\r\n  - Escalation procedures\r\n  - Documentation requirements\r\n  - Relationship preservation\r\n\r\n📞 Communication Channels:\r\n• Formal Channels:\r\n  - Written reports\r\n  - Official presentations\r\n  - Email communications\r\n  - Meeting minutes\r\n  - Project status updates\r\n  - Contract modifications\r\n\r\n• Informal Channels:\r\n  - Phone conversations\r\n  - Instant messaging\r\n  - Hallway discussions\r\n  - Coffee meetings\r\n  - Social interactions\r\n  - Professional networks\r\n\r\n🔄 Follow-up ve Support:\r\n• Post-Delivery Support:\r\n  - Question answering\r\n  - Clarification requests\r\n  - Implementation guidance\r\n  - Tool recommendations\r\n  - Vendor introductions\r\n  - Training provision\r\n\r\n• Long-term Relationships:\r\n  - Regular check-ins\r\n  - Industry updates\r\n  - Best practice sharing\r\n  - Referral opportunities\r\n  - Continuous improvement\r\n  - Partnership development"
+                },
+                {
+                    "id": "4",
+                    "title": "Executive Dashboard ve Metrics",
+                    "content": "Executive dashboard'lar, üst yönetim için görsel ve anlaşılır risk sunumu sağlar.\r\n\r\n📊 Dashboard Components:\r\n• Risk Overview:\r\n  - Overall risk score\r\n  - Risk trend analysis\r\n  - Category breakdown\r\n  - Severity distribution\r\n  - Impact assessment\r\n  - Compliance status\r\n\r\n• Key Performance Indicators:\r\n  - Critical findings count\r\n  - Average resolution time\r\n  - Remediation progress\r\n  - Cost avoidance\r\n  - Security posture improvement\r\n  - Benchmark comparisons\r\n\r\n• Visual Elements:\r\n  - Traffic light systems\r\n  - Risk heat maps\r\n  - Progress bars\r\n  - Trend charts\r\n  - Pie charts\r\n  - Comparative graphs\r\n\r\n📈 Metrics ve Measurements:\r\n• Vulnerability Metrics:\r\n  - Total vulnerability count\r\n  - Severity distribution\r\n  - Age of vulnerabilities\r\n  - Recurrence rates\r\n  - False positive rates\r\n  - Time to discovery\r\n\r\n• Remediation Metrics:\r\n  - Mean time to remediation\r\n  - Resolution rates by priority\r\n  - Remediation effectiveness\r\n  - Cost per fix\r\n  - Resource utilization\r\n  - SLA compliance\r\n\r\n• Business Impact Metrics:\r\n  - Potential financial loss\r\n  - Reputation risk score\r\n  - Compliance violation risk\r\n  - Operational disruption potential\r\n  - Customer impact assessment\r\n  - Regulatory penalty exposure\r\n\r\n🎯 Executive Reporting:\r\n• Strategic Recommendations:\r\n  - Security investment priorities\r\n  - Resource allocation guidance\r\n  - Technology roadmap alignment\r\n  - Policy enhancement needs\r\n  - Training program requirements\r\n  - Vendor relationship management\r\n\r\n• Risk Communication:\r\n  - Business context provision\r\n  - Industry comparisons\r\n  - Regulatory implications\r\n  - Competitive advantages\r\n  - Market positioning\r\n  - Stakeholder considerations\r\n\r\n🔍 Benchmarking ve Comparisons:\r\n• Industry Standards:\r\n  - Peer organization comparisons\r\n  - Industry average baselines\r\n  - Best practice alignment\r\n  - Maturity model positioning\r\n  - Regulatory compliance levels\r\n  - Framework adherence\r\n\r\n• Historical Trends:\r\n  - Year-over-year improvements\r\n  - Quarterly progress tracking\r\n  - Seasonal variations\r\n  - Incident correlation\r\n  - Investment ROI measurement\r\n  - Program effectiveness\r\n\r\n🛡️ Strategic Planning:\r\n• Risk Appetite Alignment:\r\n  - Acceptable risk levels\r\n  - Risk tolerance boundaries\r\n  - Business objective alignment\r\n  - Competitive positioning\r\n  - Market requirements\r\n  - Stakeholder expectations\r\n\r\n• Investment Justification:\r\n  - Cost-benefit analysis\r\n  - ROI calculations\r\n  - Risk reduction quantification\r\n  - Business case development\r\n  - Budget allocation guidance\r\n  - Priority ranking systems"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Sızma Testi Raporlama ve Sunum",
+                    "type": "quiz",
+                    "question": "Sızma testi raporunun hangi bölümü yöneticiler için hazırlanır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Technical Summary",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Detailed Findings",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Executive Summary",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Appendices",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Executive Summary, üst düzey yöneticiler için hazırlanan bölümdür. Bu bölümde teknik detaylara girilmez, iş etkisi ve strateik öneriler üzerine odaklanılır."
+                }
+            ]
+        },
+        {
+            "id": "11_9",
+            "title": "9. Kapsamlı Test: Sızma Testi (Penetration Testing)",
+            "duration": "45",
+            "color": "#ffd199",
+            "documents": 13,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Sızma Testi kategorisindeki tüm konulardan kapsamlı quiz testi. 10 soru ile bilgilerinizi test edin.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Sızma Testi Kapsamlı Testi",
+                    "content": "Bu kapsamlı test, Sızma Testi (Penetration Testing) kategorisinde öğrendiğiniz tüm konuları kapsar. Test sızma testi metodolojileri, reconnaissance teknikleri, vulnerability assessment, exploitation, web application testing, network testing, post-exploitation, social engineering ve raporlama konularından 10 soru içermektedir."
+                },
+                {
+                    "id": "2",
+                    "title": "Test Kuralları",
+                    "content": "Test 10 sorudan oluşmaktadır. Her soru için sadece bir doğru cevap vardır. Test kategorisindeki tüm konuları kapsamaktadır. Testi tamamladıktan sonra sonuçlarınızı görebilir ve eksik konularınızı tekrar çalışabilirsiniz."
+                },
+                {
+                    "id": "3",
+                    "title": "Kategori Tamamlama",
+                    "content": "Bu testi başarıyla tamamladığınızda, Sızma Testi (Penetration Testing) kategorisini tamamlamış olacaksınız. Test sonucunuz %70 ve üzerinde olmalıdır."
+                },
+                {
+                    "id": "4",
+                    "title": "Soru 1: Sızma Testi Metodolojileri",
+                    "content": "[Quiz Sayfası: Soru 1: Sızma Testi Metodolojileri]",
+                    "type": "quiz",
+                    "question": "PTES metodolojisinin kaç aşaması vardır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "5 aşama",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "6 aşama",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "7 aşama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "8 aşama",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "PTES (Penetration Testing Execution Standard) metodolojisi 7 ana aşamadan oluşur: Pre-engagement, Intelligence Gathering, Threat Modeling, Vulnerability Assessment, Exploitation, Post Exploitation ve Reporting."
+                },
+                {
+                    "id": "5",
+                    "title": "Soru 2: Reconnaissance Teknikleri",
+                    "content": "[Quiz Sayfası: Soru 2: Reconnaissance Teknikleri]",
+                    "type": "quiz",
+                    "question": "Passive reconnaissance'ın temel avantajı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Daha hızlı sonuç verir",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Tespit edilme riski minimum",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Daha detaylı bilgi toplar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Daha az kaynak gerektirir",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Passive reconnaissance'ın en büyük avantajı, hedef sistemle doğrudan temas kurulmadığı için tespit edilme riskinin minimum olmasıdır."
+                },
+                {
+                    "id": "6",
+                    "title": "Soru 3: Vulnerability Assessment",
+                    "content": "[Quiz Sayfası: Soru 3: Vulnerability Assessment]",
+                    "type": "quiz",
+                    "question": "Hangi araç SQL injection testleri için özel olarak tasarlanmıştır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Nmap",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SQLMap",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Metasploit",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Wireshark",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "SQLMap, SQL injection açıklarını tespit etmek ve sömürmek için özel olarak tasarlanmış otomatik bir araçtır."
+                },
+                {
+                    "id": "7",
+                    "title": "Soru 4: OWASP Top 10",
+                    "content": "[Quiz Sayfası: Soru 4: OWASP Top 10]",
+                    "type": "quiz",
+                    "question": "OWASP Top 10 2021'de en kritik web güvenlik açığı hangisidir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Injection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Broken Access Control",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Security Misconfiguration",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Cryptographic Failures",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "OWASP Top 10 2021 listesinde A01:2021 - Broken Access Control en kritik güvenlik açığı olarak yer almaktadır."
+                },
+                {
+                    "id": "8",
+                    "title": "Soru 5: Network Penetration Testing",
+                    "content": "[Quiz Sayfası: Soru 5: Network Penetration Testing]",
+                    "type": "quiz",
+                    "question": "Nmap'te TCP SYN scan yapmak için hangi parametre kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "-sT",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "-sS",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "-sU",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "-sF",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Nmap'te TCP SYN scan yapmak için -sS parametresi kullanılır. Bu stealth scan olarak da bilinir."
+                },
+                {
+                    "id": "9",
+                    "title": "Soru 6: Metasploit Framework",
+                    "content": "[Quiz Sayfası: Soru 6: Metasploit Framework]",
+                    "type": "quiz",
+                    "question": "Metasploit Framework'ünde exploit başarılı olduktan sonra çalışan kod bileşenine ne denir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Auxiliary",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Payload",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Encoder",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Module",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Payload, Metasploit Framework'ünde exploit başarılı olduktan sonra hedef sistemde çalışan kod bileşenidir."
+                },
+                {
+                    "id": "10",
+                    "title": "Soru 7: Privilege Escalation",
+                    "content": "[Quiz Sayfası: Soru 7: Privilege Escalation]",
+                    "type": "quiz",
+                    "question": "Windows'ta SUID benzeri yetki yükseltme için hangi privilege kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "SeDebugPrivilege",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "SeImpersonatePrivilege",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "SeBackupPrivilege",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "SeRestorePrivilege",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "SeImpersonatePrivilege, Windows'ta token impersonation yaparak yetki yükseltmesi sağlar."
+                },
+                {
+                    "id": "11",
+                    "title": "Soru 8: Social Engineering",
+                    "content": "[Quiz Sayfası: Soru 8: Social Engineering]",
+                    "type": "quiz",
+                    "question": "CEO'ları hedef alan özel phishing saldırısına ne denir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Spear Phishing",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Whaling",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Vishing",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Smishing",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Whaling, CEO ve üst düzey yöneticileri hedef alan özel phishing saldırılarına verilen isimdir."
+                },
+                {
+                    "id": "12",
+                    "title": "Soru 9: Wireless Security",
+                    "content": "[Quiz Sayfası: Soru 9: Wireless Security]",
+                    "type": "quiz",
+                    "question": "WEP protokolünün ana zayıflığı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Güçlü şifreleme algoritması",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "IV collision saldırılarına açık",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Çok yavaş çalışması",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Karmaşık konfigürasyonu",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "WEP protokolü IV (Initialization Vector) collision saldırılarına açık olduğu için kolayca kırılabilir."
+                },
+                {
+                    "id": "13",
+                    "title": "Soru 10: Penetration Test Raporlama",
+                    "content": "[Quiz Sayfası: Soru 10: Penetration Test Raporlama]",
+                    "type": "quiz",
+                    "question": "Sızma testi raporunun hangi bölümü yöneticiler için hazırlanır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Technical Summary",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Executive Summary",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Detailed Findings",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Appendices",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Executive Summary, üst düzey yöneticiler için hazırlanan bölümdür. Bu bölümde teknik detaylara girilmez, iş etkisi ve stratejik öneriler üzerine odaklanılır."
+                }
+            ]
         }
     ]
 }
