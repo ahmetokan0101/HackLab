@@ -376,6 +376,156 @@
                 "Kablosuz Ağ Uzmanı: 75,000 - 125,000 TL\r",
                 "Network Security Analisti: 70,000 - 120,000 TL"
             ]
+        },
+        {
+            "id": "9",
+            "title": "9. Web Güvenliği",
+            "subtitle": "Web Application Security ve Güvenlik Açıkları",
+            "icon": "web",
+            "color": "#10b981",
+            "gradient": [
+                "#10b981",
+                "#059669"
+            ],
+            "description": "Web uygulama güvenliğini öğren, SQL Injection, XSS, CSRF gibi yaygın web güvenlik açıklarını keşfet ve korunma yöntemlerini uygula.",
+            "totalLessons": 5,
+            "duration": "2.5 saat",
+            "difficulty": "Orta",
+            "whatYouWillLearn": [
+                "Web uygulama güvenliği temellerini anlama\r",
+                "SQL Injection saldırıları ve önleme yöntemleri\r",
+                "XSS (Stored, Reflected, DOM) saldırı teknikleri\r",
+                "CSRF ve diğer web güvenlik açıkları\r",
+                "Web güvenlik testleri ve korunma stratejileri"
+            ],
+            "targetAudience": [
+                "Web geliştiricileri\r",
+                "Siber güvenlik uzmanları\r",
+                "Penetrasyon test uzmanları\r",
+                "Web uygulama güvenlik analistleri\r",
+                "Full-stack geliştiriciler"
+            ],
+            "benefits": [
+                "Web güvenlik açıklarını tanıma ve analiz etme\r",
+                "Güvenli web uygulaması geliştirme becerileri\r",
+                "Web güvenlik testleri yapma\r",
+                "OWASP Top 10 güvenlik açıklarını anlama\r",
+                "Web güvenlik araçlarını kullanma"
+            ],
+            "requirements": [
+                "Temel web geliştirme bilgisi\r",
+                "HTML, CSS, JavaScript temelleri\r",
+                "Veritabanı kavramları\r",
+                "HTTP protokolü bilgisi\r",
+                "Güvenlik konusuna ilgi"
+            ],
+            "averageSalary": [
+                "Web Güvenlik Uzmanı: 80,000 - 135,000 TL\r",
+                "Penetrasyon Test Uzmanı: 85,000 - 145,000 TL\r",
+                "Web Uygulama Güvenlik Analisti: 75,000 - 125,000 TL\r",
+                "Güvenlik Mimarı: 95,000 - 160,000 TL"
+            ]
+        },
+        {
+            "id": "10",
+            "title": "10. Dijital Adli Tıp",
+            "subtitle": "Digital Forensics ve Siber Suç Araştırmaları",
+            "icon": "forensics",
+            "color": "#dc2626",
+            "gradient": [
+                "#dc2626",
+                "#991b1b"
+            ],
+            "description": "Dijital adli tıp tekniklerini öğren, siber suçları araştır, dijital delilleri topla ve analiz et. Hukuki süreçlerde uzmanlaş.",
+            "totalLessons": 5,
+            "duration": "2.5 saat",
+            "difficulty": "İleri",
+            "whatYouWillLearn": [
+                "Dijital adli tıp temellerini anlama\r",
+                "Siber suç araştırma teknikleri\r",
+                "Dijital delil toplama ve koruma\r",
+                "Disk imajlama ve analiz\r",
+                "Network forensics ve log analizi\r",
+                "Mobile device forensics\r",
+                "Memory forensics ve malware analizi\r",
+                "Hukuki süreçler ve raporlama\r",
+                "Adli tıp araçları ve yazılımları\r",
+                "Siber suç türleri ve örnekleri"
+            ],
+            "targetAudience": [
+                "Siber güvenlik uzmanları",
+                "Adli tıp uzmanları",
+                "Hukuk profesyonelleri",
+                "IT güvenlik ekipleri",
+                "Güvenlik konusuna ilgi"
+            ],
+            "averageSalary": [
+                "Dijital Adli Tıp Uzmanı: 90,000 - 150,000 TL\r",
+                "Siber Suç Araştırmacısı: 85,000 - 140,000 TL\r",
+                "Forensic Analist: 80,000 - 130,000 TL\r",
+                "Adli Tıp Teknisyeni: 70,000 - 120,000 TL"
+            ]
+        },
+        {
+            "id": "11",
+            "title": "11. Sızma Testi",
+            "subtitle": "Penetration Testing ve Güvenlik Testleri",
+            "icon": "security",
+            "color": "#ff6b00",
+            "gradient": [
+                "#ff6b00",
+                "#ff8c00"
+            ],
+            "description": "Profesyonel sızma testi tekniklerini öğren, güvenlik açıklarını tespit et ve kapsamlı güvenlik raporları hazırla. Gerçek dünya senaryolarında uzmanlaş.",
+            "totalLessons": 9,
+            "duration": "4 saat",
+            "difficulty": "İleri",
+            "whatYouWillLearn": [
+                "Sızma testi metodolojilerini ve standartlarını öğrenmek\r",
+                "Reconnaissance ve bilgi toplama teknikleri\r",
+                "Vulnerability assessment ve exploitation\r",
+                "Post-exploitation ve persistence teknikleri\r",
+                "Network, web ve mobile penetration testing\r",
+                "Social engineering ve physical security testing\r",
+                "Raporlama ve sunum becerileri\r",
+                "Sızma testi araçları ve framework'leri\r",
+                "Yasal ve etik kurallar\r",
+                "Red team ve blue team operasyonları"
+            ],
+            "targetAudience": [
+                "Siber güvenlik uzmanları\r",
+                "Penetrasyon test uzmanları\r",
+                "Güvenlik analistleri\r",
+                "Red team operatörleri\r",
+                "Güvenlik danışmanları\r",
+                "Siber güvenlik eğitmenleri\r",
+                "Güvenlik araştırmacıları"
+            ],
+            "benefits": [
+                "Profesyonel sızma testi becerileri\r",
+                "Güvenlik açıklarını tespit etme yeteneği\r",
+                "Kapsamlı güvenlik raporları hazırlama\r",
+                "Red team operasyonları yapabilme\r",
+                "Güvenlik danışmanlığı hizmetleri\r",
+                "Yüksek maaşlı kariyer fırsatları\r",
+                "Sertifikasyon hazırlığı"
+            ],
+            "requirements": [
+                "Temel siber güvenlik bilgisi\r",
+                "Linux ve Windows sistem bilgisi\r",
+                "Ağ protokolleri ve güvenlik bilgisi\r",
+                "Programlama temelleri\r",
+                "Analitik düşünme becerisi\r",
+                "Etik kurallara uygun çalışma\r",
+                "Raporlama ve sunum becerileri"
+            ],
+            "averageSalary": [
+                "Penetrasyon Test Uzmanı: 95,000 - 160,000 TL\r",
+                "Red Team Uzmanı: 110,000 - 180,000 TL\r",
+                "Güvenlik Danışmanı: 100,000 - 170,000 TL\r",
+                "Siber Güvenlik Mimarı: 120,000 - 200,000 TL\r",
+                "Güvenlik Araştırmacısı: 90,000 - 150,000 TL"
+            ]
         }
     ]
 }
