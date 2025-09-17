@@ -1,0 +1,72 @@
+{
+    "categoryId": "8",
+    "categoryTitle": "8. Cloud Security",
+    "lessons": [
+        {
+            "id": "8_1",
+            "title": "1. Cloud Security Fundamentals",
+            "duration": "30 min",
+            "color": "#3498db",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Learn about cloud security challenges and best practices",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Cloud Security Overview",
+                    "content": "Cloud security involves protecting data, applications, and infrastructure in cloud environments. It requires understanding the shared responsibility model and implementing appropriate security controls.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/CloudSecurity.png",
+                        "title": "Cloud Security"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Shared Responsibility Model",
+                    "content": "The shared responsibility model defines security responsibilities between cloud providers and customers. Providers secure the cloud infrastructure, while customers secure their data and applications."
+                },
+                {
+                    "id": "3",
+                    "title": "Cloud Security Challenges",
+                    "content": "Common cloud security challenges include data breaches, misconfigurations, insecure APIs, account hijacking, and insider threats. Understanding these challenges is crucial for effective cloud security."
+                },
+                {
+                    "id": "4",
+                    "title": "Cloud Security Best Practices",
+                    "content": "Best practices include implementing strong access controls, encrypting data, monitoring cloud environments, regular security assessments, and following the principle of least privilege."
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Cloud Security",
+                    "type": "quiz",
+                    "question": "Who is responsible for securing customer data in the cloud?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Cloud provider only",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Customer only",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Both cloud provider and customer",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Third-party security company",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "In the shared responsibility model, both the cloud provider and customer share responsibility for security, with specific areas of responsibility defined by the service model."
+                }
+            ]
+        }
+    ]
+}

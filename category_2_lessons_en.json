@@ -1,0 +1,143 @@
+{
+    "categoryId": "2",
+    "categoryTitle": "2. Web Application Security",
+    "lessons": [
+        {
+            "id": "2_1",
+            "title": "1. Web Application Security Fundamentals",
+            "duration": "20 min",
+            "color": "#4A90E2",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Learn the basics of web application security and common vulnerabilities",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Web Application Security Overview",
+                    "content": "Web application security is the process of protecting websites and web applications from various security threats. It involves identifying, preventing, and responding to security vulnerabilities in web applications.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/WebSecurity.png",
+                        "title": "Web Application Security"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Common Web Vulnerabilities",
+                    "content": "The most common web vulnerabilities include SQL Injection, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and Insecure Direct Object References. Understanding these vulnerabilities is crucial for web security."
+                },
+                {
+                    "id": "3",
+                    "title": "OWASP Top 10",
+                    "content": "The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications."
+                },
+                {
+                    "id": "4",
+                    "title": "Security Testing Methods",
+                    "content": "Web application security testing includes static analysis, dynamic analysis, penetration testing, and code review. Each method has its own advantages and should be used in combination."
+                },
+                {
+                    "id": "5",
+                    "title": "Secure Development Lifecycle",
+                    "content": "Integrating security into the software development lifecycle helps prevent vulnerabilities from being introduced into applications. This includes security requirements, secure coding practices, and regular security testing."
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Web Security Fundamentals",
+                    "type": "quiz",
+                    "question": "What does OWASP stand for?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Open Web Application Security Project",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Online Web Application Security Protocol",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Open Web Application Security Protocol",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Online Web Application Security Project",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "OWASP stands for Open Web Application Security Project, a nonprofit foundation that works to improve software security."
+                }
+            ]
+        },
+        {
+            "id": "2_2",
+            "title": "2. SQL Injection Attacks",
+            "duration": "25 min",
+            "color": "#7B68EE",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Learn about SQL injection attacks and how to prevent them",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "What is SQL Injection?",
+                    "content": "SQL Injection is a code injection technique used to attack data-driven applications. It involves inserting malicious SQL statements into an entry field for execution.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/SQLInjection.png",
+                        "title": "SQL Injection Attack"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Types of SQL Injection",
+                    "content": "There are several types of SQL injection attacks including Union-based, Boolean-based blind, Time-based blind, and Error-based SQL injection. Each type has different characteristics and detection methods."
+                },
+                {
+                    "id": "3",
+                    "title": "SQL Injection Prevention",
+                    "content": "Preventing SQL injection involves using parameterized queries, input validation, stored procedures, and proper error handling. These techniques help protect applications from SQL injection attacks."
+                },
+                {
+                    "id": "4",
+                    "title": "Testing for SQL Injection",
+                    "content": "Testing for SQL injection vulnerabilities involves using automated tools, manual testing techniques, and code review. It's important to test all input fields and parameters."
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: SQL Injection",
+                    "type": "quiz",
+                    "question": "What is the most effective way to prevent SQL injection?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Input validation only",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Parameterized queries",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Error handling",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Firewall configuration",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Parameterized queries are the most effective way to prevent SQL injection as they separate SQL code from data."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,894 @@
+{
+    "lessons": {
+        "1": [
+            {
+                "id": "1_1",
+                "title": "1. What is Ethical Hacking",
+                "duration": "12 min",
+                "color": "#ff6b35",
+                "documents": 4,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Learn the concept of ethical hacking and its basic principles",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "What is Ethical Hacking?",
+                        "content": "Ethical hacking is the legal and ethical hacking activities conducted to identify security vulnerabilities in systems and enhance security. Ethical hackers help protect systems by learning the techniques used by malicious attackers.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabEthickHacking.png",
+                            "title": "Ethical Hacking"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Purpose of Ethical Hacking",
+                        "content": "The main purpose of ethical hacking is to proactively identify security vulnerabilities in systems and close these vulnerabilities. This way, security measures can be taken before real attackers can harm the systems."
+                    },
+                    {
+                        "id": "3",
+                        "title": "Ethical Hacking Process",
+                        "content": "The ethical hacking process consists of the following stages: Planning and Authorization, Reconnaissance and Information Gathering, Vulnerability Analysis, Penetration Testing, Reporting and Recommendations."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Quiz: Ethical Hacking Basics",
+                        "type": "quiz",
+                        "question": "What is the main purpose of ethical hacking?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Identifying security vulnerabilities",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "B",
+                                "text": "Damaging systems",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Stealing data",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Shutting down systems",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The main purpose of ethical hacking is to proactively identify security vulnerabilities in systems and close these vulnerabilities."
+                    }
+                ]
+            },
+            {
+                "id": "1_2",
+                "title": "2. Types of Hacking",
+                "duration": "15 min",
+                "color": "#f7931e",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Learn different types of hacking and their characteristics",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Types of Hacking",
+                        "content": "Hacking is divided into various types according to different purposes and motivations. Each type has its own unique characteristics and risks.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabHacking.png",
+                            "title": "Types of Ethical Hacking"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Black Hat Hacking",
+                        "content": "Black hat hackers cause damage by gaining unauthorized access to systems. This type of hacking is illegal and is done with malicious intent. It includes activities such as data theft, system shutdown, and financial damage.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabSiyah.png",
+                            "title": "Black Hat Hacker"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "title": "White Hat Hacking",
+                        "content": "White hat hackers are security experts who perform ethical hacking. They work with legal permissions to test system security. They help protect systems by identifying security vulnerabilities.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabWhite.png",
+                            "title": "White Hat Hacker"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "title": "Gray Hat Hacking",
+                        "content": "Gray hat hackers sometimes engage in legal and sometimes illegal activities. They may gain unauthorized access to systems but generally do not intend to cause harm. When they find security vulnerabilities, they report them to system administrators.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabGri.png",
+                            "title": "Gray Hat Hacker"
+                        }
+                    },
+                    {
+                        "id": "5",
+                        "title": "Quiz: Types of Hacking",
+                        "type": "quiz",
+                        "question": "Which type of hacking is illegal?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "White hat hacking",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Gray hat hacking",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Black hat hacking",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "D",
+                                "text": "None of them",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Black hat hacking is illegal and is done with malicious intent. It includes activities such as damaging systems and stealing data."
+                    }
+                ]
+            },
+            {
+                "id": "1_3",
+                "title": "3. Types of Hackers",
+                "duration": "10 min",
+                "color": "#8b5cf6",
+                "documents": 4,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Identify different types of hackers and their characteristics",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Types of Hackers",
+                        "content": "Hackers are divided into different categories according to their motivations, skills, and goals. Each type has its own unique characteristics and behavior patterns.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabTurler.png",
+                            "title": "Types of Hacking"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Script Kiddie",
+                        "content": "Script kiddies are people who perform hacking using ready-made tools and scripts. They do not have deep technical knowledge and usually engage in activities for entertainment purposes. They may organize attacks to gain fame on social media."
+                    },
+                    {
+                        "id": "3",
+                        "title": "Professional Hacker",
+                        "content": "Professional hackers are experts with high technical skills. They work in security companies, government agencies, or independently. They perform ethical hacking, penetration testing, and security research."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Quiz: Types of Hackers",
+                        "content": "[Quiz Page: Quiz: Types of Hackers]",
+                        "type": "quiz",
+                        "question": "What is the characteristic of script kiddies?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "High technical skill",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Professional work",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Deep knowledge",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Using ready-made tools",
+                                "isCorrect": true
+                            }
+                        ],
+                        "explanation": "Script kiddies perform hacking using ready-made tools and scripts. They do not have deep technical knowledge."
+                    }
+                ]
+            },
+            {
+                "id": "1_4",
+                "title": "4. Advantages and Disadvantages of Hacking",
+                "duration": "8 min",
+                "color": "#00ff88",
+                "documents": 4,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Analyze the positive and negative aspects of hacking",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Advantages of Hacking",
+                        "content": "Ethical hacking increases system security, identifies vulnerabilities, and protects organizations. It helps security experts develop their skills and offers career opportunities in the cybersecurity field.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Disadvantages of Hacking",
+                        "content": "Malicious hacking damages systems, causes data loss, and leads to legal problems. It can result in theft of personal information, financial losses, and reputation damage."
+                    },
+                    {
+                        "id": "3",
+                        "title": "Ethical Rules",
+                        "content": "When performing ethical hacking, legal permissions must be obtained, privacy rules must be followed, and there should be no intent to cause harm. All activities must be transparent and accountable."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Quiz: Advantages and Disadvantages of Hacking",
+                        "content": "[Quiz Page: Quiz: Advantages and Disadvantages of Hacking]",
+                        "type": "quiz",
+                        "question": "What is the most important advantage of ethical hacking?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Damaging systems",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Stealing data",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Identifying security vulnerabilities",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "D",
+                                "text": "Shutting down systems",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The most important advantage of ethical hacking is to increase security by identifying vulnerabilities in systems."
+                    }
+                ]
+            },
+            {
+                "id": "1_5",
+                "title": "5. Test Preparation",
+                "duration": "18 min",
+                "color": "#e74c3c",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Comprehensive test for Introduction to Ethical Hacking category",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Test Preparation",
+                        "content": "This test covers all topics in the Introduction to Ethical Hacking category. Review the topics you have learned before the test and start the test when you are ready.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabTest.png",
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Test Rules",
+                        "content": "The test consists of 10 questions. There is only one correct answer for each question. After completing the test, you can see your results and review the topics you missed."
+                    },
+                    {
+                        "id": "3",
+                        "title": "Category Completion",
+                        "content": "When you successfully complete this test, you will have completed the Introduction to Ethical Hacking category. Your test result should be 70% or above."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Comprehensive Test: Introduction to Ethical Hacking",
+                        "content": "[Quiz Page: Comprehensive Test: Introduction to Ethical Hacking]",
+                        "type": "quiz",
+                        "question": "What is the first stage of the ethical hacking process?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Penetration testing",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Information gathering",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Planning and authorization",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "D",
+                                "text": "Reporting",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The first stage of the ethical hacking process is planning and authorization. No security testing can be performed without legal permissions."
+                    }
+                ]
+            },
+            {
+                "id": "1_6",
+                "title": "6. Famous Ethical Hacking Events in History",
+                "duration": "14 min",
+                "color": "#3498db",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Learn about famous ethical hacking events in history and their impacts",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Famous Ethical Hacking Events in History",
+                        "content": "Throughout history, many important ethical hacking events have occurred. These events have contributed to the development of the cybersecurity field and the establishment of security standards. In this lesson, we will examine the most important ethical hacking events."
+                    },
+                    {
+                        "id": "2",
+                        "title": "Kevin Mitnick - The Most Famous Hacker",
+                        "content": "Kevin Mitnick was the world's most wanted hacker in the 1990s. He was able to make free calls by hacking phone systems. After being caught in 1995, he completed his sentence and specialized in ethical hacking. Today he works as a security consultant.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabKevin.png",
+                            "title": "Kevin Mitnick"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "title": "Anonymous - Hacktivist Group",
+                        "content": "Anonymous is a hacktivist group founded in 2003. It works to support WikiLeaks, protest censorship, and fight for social justice. It has organized attacks against major companies like Sony, MasterCard, and Visa. The group has opened up the debate about the line between ethical hacking and hacktivism.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabAnonymous.png",
+                            "title": "Anonymous"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "title": "Stuxnet - Cyber Weapon",
+                        "content": "Stuxnet was a cyber weapon that targeted Iran's nuclear facilities in 2010. It went down in history as the first malware to target industrial control systems. This event demonstrated the reality of cyber warfare and the security vulnerabilities of critical infrastructure.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/Stuxnet.jpg",
+                            "title": "STUXnet"
+                        }
+                    },
+                    {
+                        "id": "5",
+                        "title": "WannaCry - Global Attack",
+                        "content": "In 2017, the WannaCry ransomware attack affected more than 300,000 computers in over 150 countries. Many institutions, including the NHS (British Health System), were affected. This attack demonstrated the importance of security updates and the value of ethical hackers.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabWannaCry.jpeg",
+                            "title": "WannaCry"
+                        }
+                    },
+                    {
+                        "id": "6",
+                        "title": "Quiz: Famous Hacking Events in History",
+                        "content": "[Quiz Page: Quiz: Famous Hacking Events in History]",
+                        "type": "quiz",
+                        "question": "Which event is known as the first cyber weapon to target industrial control systems?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "WannaCry",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Anonymous attacks",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Kevin Mitnick events",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Stuxnet",
+                                "isCorrect": true
+                            }
+                        ],
+                        "explanation": "Stuxnet went down in history in 2010 as the first cyber weapon to target Iran's nuclear facilities and affect industrial control systems."
+                    }
+                ]
+            },
+            {
+                "id": "1_7",
+                "title": "7. Test and Evaluation",
+                "duration": "15 min",
+                "color": "#ff6b35",
+                "documents": 13,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Comprehensive test for Introduction to Ethical Hacking category",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Test Preparation",
+                        "content": "This test covers all topics in the Introduction to Ethical Hacking category. Review the topics you have learned before the test and start the test when you are ready.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabTest.png",
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Test Rules",
+                        "content": "The test consists of 10 questions. There is only one correct answer for each question. It covers all topics in the test category. After completing the test, you can see your results and review the topics you missed."
+                    },
+                    {
+                        "id": "3",
+                        "title": "Category Completion",
+                        "content": "When you successfully complete this test, you will have completed the Introduction to Ethical Hacking category. Your test result should be 70% or above."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Comprehensive Test: Introduction to Ethical Hacking",
+                        "content": "[Quiz Page: Comprehensive Test: Introduction to Ethical Hacking]",
+                        "type": "quiz",
+                        "question": "What is the first stage of the ethical hacking process?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Penetration testing",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Planning and authorization",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Information gathering",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Reporting",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The first stage of the ethical hacking process is planning and authorization. No security testing can be performed without legal permissions."
+                    },
+                    {
+                        "id": "5",
+                        "title": "Question 2: Types of Hacking",
+                        "content": "[Quiz Page: Question 2: Types of Hacking]",
+                        "type": "quiz",
+                        "question": "Which type of hacking is legally and ethically accepted?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Black hat hacking",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "White hat hacking",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Gray hat hacking",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "None of them",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "White hat hacking is a type of ethical hacking performed with legal permissions. It works by obtaining legal authorization for security tests."
+                    },
+                    {
+                        "id": "6",
+                        "title": "Question 3: Types of Hackers",
+                        "content": "[Quiz Page: Question 3: Types of Hackers]",
+                        "type": "quiz",
+                        "question": "What is the basic characteristic of script kiddies?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "High technical skill",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Using ready-made tools",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Professional work",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Deep knowledge",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Script kiddies perform hacking using ready-made tools and scripts. They do not have deep technical knowledge."
+                    },
+                    {
+                        "id": "7",
+                        "title": "Question 4: Ethical Rules",
+                        "content": "[Quiz Page: Question 4: Ethical Rules]",
+                        "type": "quiz",
+                        "question": "What is the most important rule when performing ethical hacking?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Being fast",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Obtaining legal permissions",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Staying hidden",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Damaging systems",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The most important rule when performing ethical hacking is to obtain legal permissions. Performing unauthorized security testing is illegal."
+                    },
+                    {
+                        "id": "8",
+                        "title": "Question 5: Historical Events",
+                        "content": "[Quiz Page: Question 5: Historical Events]",
+                        "type": "quiz",
+                        "question": "Which event is known as the first cyber weapon to target industrial control systems?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "WannaCry",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Stuxnet",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Anonymous attacks",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Kevin Mitnick events",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Stuxnet went down in history in 2010 as the first cyber weapon to target Iran's nuclear facilities and affect industrial control systems."
+                    },
+                    {
+                        "id": "9",
+                        "title": "Question 6: Ethical Hacker Responsibilities",
+                        "content": "[Quiz Page: Question 6: Ethical Hacker Responsibilities]",
+                        "type": "quiz",
+                        "question": "What is the basic duty of an ethical hacker?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Damaging systems",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Protecting systems",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Stealing data",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Shutting down systems",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The basic duty of an ethical hacker is to protect systems. They make systems secure by identifying security vulnerabilities."
+                    },
+                    {
+                        "id": "10",
+                        "title": "Question 7: Hacking Advantages",
+                        "content": "[Quiz Page: Question 7: Hacking Advantages]",
+                        "type": "quiz",
+                        "question": "What is the biggest advantage of ethical hacking?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Damaging systems",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Increasing security",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Stealing data",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Shutting down systems",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The biggest advantage of ethical hacking is to increase system security. It protects systems by identifying security vulnerabilities."
+                    },
+                    {
+                        "id": "11",
+                        "title": "Question 8: Professional Development",
+                        "content": "[Quiz Page: Question 8: Professional Development]",
+                        "type": "quiz",
+                        "question": "Why should ethical hackers continuously develop themselves?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "To make money",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Because the cybersecurity field is constantly changing",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "To gain fame",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "For competition",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Because the cybersecurity field is constantly changing, ethical hackers must stay current. New threats and techniques are constantly emerging."
+                    },
+                    {
+                        "id": "12",
+                        "title": "Question 9: Kevin Mitnick",
+                        "content": "[Quiz Page: Question 9: Kevin Mitnick]",
+                        "type": "quiz",
+                        "question": "What does Kevin Mitnick do today?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "He still continues to hack",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "He works as a security consultant",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "In prison",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Retired",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "After completing his sentence, Kevin Mitnick specialized in ethical hacking and today works as a security consultant."
+                    },
+                    {
+                        "id": "13",
+                        "title": "Question 10: WannaCry",
+                        "content": "[Quiz Page: Question 10: WannaCry]",
+                        "type": "quiz",
+                        "question": "In which year did the WannaCry attack occur?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "2015",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "2016",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "2017",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "D",
+                                "text": "2018",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The WannaCry ransomware attack occurred in 2017 and affected more than 300,000 computers in over 150 countries."
+                    }
+                ]
+            }
+        ],
+        "2": [
+            {
+                "id": "2_1",
+                "title": "1. Web Application Security Fundamentals",
+                "duration": "20 min",
+                "color": "#4A90E2",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Learn the basics of web application security and common vulnerabilities",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Web Application Security Overview",
+                        "content": "Web application security is the process of protecting websites and web applications from various security threats. It involves identifying, preventing, and responding to security vulnerabilities in web applications.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/WebSecurity.png",
+                            "title": "Web Application Security"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Common Web Vulnerabilities",
+                        "content": "The most common web vulnerabilities include SQL Injection, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and Insecure Direct Object References. Understanding these vulnerabilities is crucial for web security."
+                    },
+                    {
+                        "id": "3",
+                        "title": "OWASP Top 10",
+                        "content": "The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Security Testing Methods",
+                        "content": "Web application security testing includes static analysis, dynamic analysis, penetration testing, and code review. Each method has its own advantages and should be used in combination."
+                    },
+                    {
+                        "id": "5",
+                        "title": "Secure Development Lifecycle",
+                        "content": "Integrating security into the software development lifecycle helps prevent vulnerabilities from being introduced into applications. This includes security requirements, secure coding practices, and regular security testing."
+                    },
+                    {
+                        "id": "6",
+                        "title": "Quiz: Web Security Fundamentals",
+                        "type": "quiz",
+                        "question": "What does OWASP stand for?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Open Web Application Security Project",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "B",
+                                "text": "Online Web Application Security Protocol",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Open Web Application Security Protocol",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Online Web Application Security Project",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "OWASP stands for Open Web Application Security Project, a nonprofit foundation that works to improve software security."
+                    }
+                ]
+            }
+        ],
+        "3": [
+            {
+                "id": "3_1",
+                "title": "1. Network Security Fundamentals",
+                "duration": "25 min",
+                "color": "#00FF88",
+                "documents": 5,
+                "isCompleted": false,
+                "isActive": true,
+                "description": "Learn the basics of network security and protection mechanisms",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Network Security Overview",
+                        "content": "Network security involves the policies and practices adopted to prevent and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/NetworkSecurity.png",
+                            "title": "Network Security"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Network Security Threats",
+                        "content": "Common network security threats include malware, phishing, DDoS attacks, man-in-the-middle attacks, and unauthorized access. Understanding these threats is essential for effective network protection."
+                    },
+                    {
+                        "id": "3",
+                        "title": "Firewall Configuration",
+                        "content": "Firewalls are network security devices that monitor and control incoming and outgoing network traffic based on predetermined security rules. Proper firewall configuration is crucial for network protection."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Intrusion Detection Systems",
+                        "content": "Intrusion Detection Systems (IDS) monitor network traffic for suspicious activity and issue alerts when such activity is discovered. They are essential for detecting potential security breaches."
+                    },
+                    {
+                        "id": "5",
+                        "title": "Quiz: Network Security Basics",
+                        "type": "quiz",
+                        "question": "What is the primary purpose of a firewall?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "To increase network speed",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "To monitor and control network traffic",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "To store network data",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "To create network connections",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The primary purpose of a firewall is to monitor and control incoming and outgoing network traffic based on predetermined security rules."
+                    }
+                ]
+            }
+        ]
+    }
+}

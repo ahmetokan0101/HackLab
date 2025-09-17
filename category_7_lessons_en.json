@@ -1,0 +1,77 @@
+{
+    "categoryId": "7",
+    "categoryTitle": "7. Incident Response",
+    "lessons": [
+        {
+            "id": "7_1",
+            "title": "1. Incident Response Fundamentals",
+            "duration": "25 min",
+            "color": "#9b59b6",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Learn about incident response procedures and crisis management",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "What is Incident Response?",
+                    "content": "Incident response is a systematic approach to handling and managing security incidents. It involves preparation, detection, analysis, containment, eradication, and recovery phases.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/IncidentResponse.png",
+                        "title": "Incident Response"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Incident Response Lifecycle",
+                    "content": "The incident response lifecycle includes preparation, identification, containment, eradication, recovery, and lessons learned. Each phase is crucial for effective incident handling."
+                },
+                {
+                    "id": "3",
+                    "title": "Incident Response Team",
+                    "content": "An effective incident response team includes incident managers, security analysts, forensic specialists, communications specialists, and legal advisors. Each role has specific responsibilities."
+                },
+                {
+                    "id": "4",
+                    "title": "Digital Forensics",
+                    "content": "Digital forensics involves collecting, preserving, and analyzing digital evidence. It's essential for understanding what happened during a security incident and supporting legal proceedings."
+                },
+                {
+                    "id": "5",
+                    "title": "Crisis Communication",
+                    "content": "Effective crisis communication is crucial during security incidents. It involves internal communication, external communication, stakeholder management, and reputation protection."
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Incident Response",
+                    "type": "quiz",
+                    "question": "What is the first phase of the incident response lifecycle?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Detection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Preparation",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Containment",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Recovery",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Preparation is the first phase of the incident response lifecycle, involving planning, training, and setting up necessary tools and procedures."
+                }
+            ]
+        }
+    ]
+}

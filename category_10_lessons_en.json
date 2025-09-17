@@ -1,0 +1,62 @@
+{
+    "categoryId": "10",
+    "categoryTitle": "10. IoT Security",
+    "lessons": [
+        {
+            "id": "10_1",
+            "title": "1. IoT Security Fundamentals",
+            "duration": "20 min",
+            "color": "#e67e22",
+            "documents": 3,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Learn about IoT security challenges and protection strategies",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "IoT Security Overview",
+                    "content": "IoT security involves protecting Internet of Things devices and networks from cyber threats. It's challenging due to the diversity of devices, limited resources, and lack of security standards.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/IoTSecurity.png",
+                        "title": "IoT Security"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "IoT Security Challenges",
+                    "content": "Common IoT security challenges include weak authentication, insecure communications, lack of updates, default passwords, and limited processing power for security measures."
+                },
+                {
+                    "id": "3",
+                    "title": "Quiz: IoT Security",
+                    "type": "quiz",
+                    "question": "What is the biggest challenge in IoT security?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "High cost of security",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Diversity of devices and lack of standards",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Lack of security tools",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Government regulations",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "The diversity of IoT devices and lack of unified security standards make IoT security particularly challenging, as each device may have different security requirements and capabilities."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,509 @@
+{
+    "categories": [
+        {
+            "id": "1",
+            "title": "1. Introduction to Ethical Hacking",
+            "subtitle": "Fundamentals of Cybersecurity",
+            "icon": "security",
+            "color": "#ff6b35",
+            "gradient": [
+                "#ff6b35",
+                "#f7931e"
+            ],
+            "description": "Learn the basic concepts of ethical hacking and cybersecurity, discover how to protect systems.",
+            "totalLessons": 7,
+            "duration": "1.5 hours",
+            "difficulty": "Beginner",
+            "whatYouWillLearn": [
+                "Understanding the basic concepts of ethical hacking and cybersecurity.\r",
+                "Learning types of hacking and ethical rules.\r",
+                "Getting to know the cybersecurity ecosystem.\r",
+                "Learning to use basic security tools.\r",
+                "Preparing for security tests."
+            ],
+            "targetAudience": [
+                "Those new to cybersecurity\r",
+                "IT students and graduates\r",
+                "Anyone interested in security\r",
+                "Those wanting to change careers"
+            ],
+            "benefits": [
+                "Solid foundation in cybersecurity\r",
+                "Understanding ethical hacking concepts\r",
+                "Getting to know security tools\r",
+                "Preparation for cybersecurity career"
+            ],
+            "requirements": [
+                "Basic computer knowledge\r",
+                "Internet usage experience\r",
+                "Being open to learning\r",
+                "Interest in security"
+            ],
+            "averageSalary": [
+                "Cybersecurity Specialist: $15,000 - $25,000\r",
+                "Security Analyst: $10,000 - $18,000\r",
+                "Penetration Testing Specialist: $14,000 - $23,000\r",
+                "Security Consultant: $18,000 - $30,000"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "2. Web Application Security",
+            "subtitle": "Protecting Web Applications",
+            "icon": "web",
+            "color": "#4A90E2",
+            "gradient": [
+                "#4A90E2",
+                "#7B68EE"
+            ],
+            "description": "Learn web application security vulnerabilities and protection methods.",
+            "totalLessons": 8,
+            "duration": "2 hours",
+            "difficulty": "Intermediate",
+            "whatYouWillLearn": [
+                "Understanding OWASP Top 10 vulnerabilities\r",
+                "Learning SQL injection and XSS attacks\r",
+                "Web application security testing\r",
+                "Secure coding practices\r",
+                "Web security tools usage"
+            ],
+            "targetAudience": [
+                "Web developers\r",
+                "Security professionals\r",
+                "IT students\r",
+                "System administrators"
+            ],
+            "benefits": [
+                "Web security expertise\r",
+                "Vulnerability assessment skills\r",
+                "Secure development knowledge\r",
+                "Career advancement opportunities"
+            ],
+            "requirements": [
+                "Basic web development knowledge\r",
+                "Understanding of HTTP protocol\r",
+                "Basic programming skills\r",
+                "Interest in web security"
+            ],
+            "averageSalary": [
+                "Web Security Specialist: $16,000 - $26,000\r",
+                "Application Security Engineer: $18,000 - $28,000\r",
+                "Security Consultant: $20,000 - $32,000\r",
+                "Penetration Tester: $15,000 - $25,000"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "3. Network Security",
+            "subtitle": "Network Protection and Monitoring",
+            "icon": "network",
+            "color": "#00FF88",
+            "gradient": [
+                "#00FF88",
+                "#00D4FF"
+            ],
+            "description": "Learn network security fundamentals, monitoring, and protection techniques.",
+            "totalLessons": 6,
+            "duration": "1.8 hours",
+            "difficulty": "Intermediate",
+            "whatYouWillLearn": [
+                "Network security fundamentals\r",
+                "Firewall configuration and management\r",
+                "Intrusion detection systems\r",
+                "Network monitoring techniques\r",
+                "VPN and secure communications"
+            ],
+            "targetAudience": [
+                "Network administrators\r",
+                "Security professionals\r",
+                "IT engineers\r",
+                "System administrators"
+            ],
+            "benefits": [
+                "Network security expertise\r",
+                "Advanced monitoring skills\r",
+                "Infrastructure protection knowledge\r",
+                "High-demand career opportunities"
+            ],
+            "requirements": [
+                "Basic networking knowledge\r",
+                "Understanding of TCP/IP\r",
+                "Basic Linux/Windows skills\r",
+                "Interest in network security"
+            ],
+            "averageSalary": [
+                "Network Security Engineer: $17,000 - $27,000\r",
+                "Security Administrator: $15,000 - $24,000\r",
+                "Network Analyst: $13,000 - $21,000\r",
+                "Security Consultant: $19,000 - $30,000"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "4. Cryptography",
+            "subtitle": "Data Protection and Encryption",
+            "icon": "lock",
+            "color": "#8b5cf6",
+            "gradient": [
+                "#8b5cf6",
+                "#a855f7"
+            ],
+            "description": "Learn cryptography fundamentals, encryption algorithms, and data protection methods.",
+            "totalLessons": 5,
+            "duration": "1.2 hours",
+            "difficulty": "Advanced",
+            "whatYouWillLearn": [
+                "Cryptography fundamentals\r",
+                "Symmetric and asymmetric encryption\r",
+                "Hash functions and digital signatures\r",
+                "Public key infrastructure (PKI)\r",
+                "Cryptographic protocols"
+            ],
+            "targetAudience": [
+                "Security professionals\r",
+                "Software developers\r",
+                "IT engineers\r",
+                "Cryptography enthusiasts"
+            ],
+            "benefits": [
+                "Advanced cryptography knowledge\r",
+                "Data protection expertise\r",
+                "Security protocol understanding\r",
+                "High-value career skills"
+            ],
+            "requirements": [
+                "Strong mathematical background\r",
+                "Programming knowledge\r",
+                "Understanding of algorithms\r",
+                "Interest in mathematics"
+            ],
+            "averageSalary": [
+                "Cryptography Specialist: $20,000 - $32,000\r",
+                "Security Architect: $22,000 - $35,000\r",
+                "Cryptographic Engineer: $18,000 - $28,000\r",
+                "Security Consultant: $21,000 - $33,000"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "5. Malware Analysis",
+            "subtitle": "Understanding and Fighting Malware",
+            "icon": "bug_report",
+            "color": "#e74c3c",
+            "gradient": [
+                "#e74c3c",
+                "#c0392b"
+            ],
+            "description": "Learn malware analysis techniques, reverse engineering, and threat hunting.",
+            "totalLessons": 7,
+            "duration": "2.2 hours",
+            "difficulty": "Advanced",
+            "whatYouWillLearn": [
+                "Malware analysis fundamentals\r",
+                "Static and dynamic analysis\r",
+                "Reverse engineering techniques\r",
+                "Threat hunting methodologies\r",
+                "Incident response procedures"
+            ],
+            "targetAudience": [
+                "Security analysts\r",
+                "Incident response teams\r",
+                "Malware researchers\r",
+                "Advanced security professionals"
+            ],
+            "benefits": [
+                "Advanced threat analysis skills\r",
+                "Incident response expertise\r",
+                "Malware research capabilities\r",
+                "High-demand specialized skills"
+            ],
+            "requirements": [
+                "Advanced programming skills\r",
+                "Understanding of operating systems\r",
+                "Assembly language knowledge\r",
+                "Strong analytical thinking"
+            ],
+            "averageSalary": [
+                "Malware Analyst: $18,000 - $28,000\r",
+                "Threat Hunter: $20,000 - $32,000\r",
+                "Incident Response Specialist: $19,000 - $30,000\r",
+                "Security Researcher: $22,000 - $35,000"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "6. Social Engineering",
+            "subtitle": "Human Factor in Security",
+            "icon": "psychology",
+            "color": "#f39c12",
+            "gradient": [
+                "#f39c12",
+                "#e67e22"
+            ],
+            "description": "Learn social engineering techniques, human psychology, and defense strategies.",
+            "totalLessons": 4,
+            "duration": "1 hour",
+            "difficulty": "Intermediate",
+            "whatYouWillLearn": [
+                "Social engineering fundamentals\r",
+                "Human psychology in security\r",
+                "Phishing and pretexting techniques\r",
+                "Defense strategies and awareness\r",
+                "Social engineering testing"
+            ],
+            "targetAudience": [
+                "Security awareness trainers\r",
+                "HR professionals\r",
+                "Security consultants\r",
+                "General security professionals"
+            ],
+            "benefits": [
+                "Understanding human vulnerabilities\r",
+                "Security awareness expertise\r",
+                "Training and education skills\r",
+                "Comprehensive security knowledge"
+            ],
+            "requirements": [
+                "Basic psychology knowledge\r",
+                "Communication skills\r",
+                "Interest in human behavior\r",
+                "Security awareness"
+            ],
+            "averageSalary": [
+                "Security Awareness Trainer: $12,000 - $20,000\r",
+                "Social Engineering Consultant: $16,000 - $25,000\r",
+                "Security Awareness Manager: $15,000 - $24,000\r",
+                "Security Consultant: $18,000 - $28,000"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "7. Incident Response",
+            "subtitle": "Security Incident Management",
+            "icon": "security",
+            "color": "#9b59b6",
+            "gradient": [
+                "#9b59b6",
+                "#8e44ad"
+            ],
+            "description": "Learn incident response procedures, forensics, and crisis management.",
+            "totalLessons": 6,
+            "duration": "1.5 hours",
+            "difficulty": "Advanced",
+            "whatYouWillLearn": [
+                "Incident response fundamentals\r",
+                "Digital forensics basics\r",
+                "Crisis management procedures\r",
+                "Evidence collection and preservation\r",
+                "Recovery and lessons learned"
+            ],
+            "targetAudience": [
+                "Incident response teams\r",
+                "Security analysts\r",
+                "Forensics specialists\r",
+                "Security managers"
+            ],
+            "benefits": [
+                "Crisis management expertise\r",
+                "Forensics knowledge\r",
+                "Incident handling skills\r",
+                "Leadership in security incidents"
+            ],
+            "requirements": [
+                "Security background\r",
+                "Analytical thinking\r",
+                "Stress management skills\r",
+                "Teamwork abilities"
+            ],
+            "averageSalary": [
+                "Incident Response Specialist: $18,000 - $28,000\r",
+                "Digital Forensics Analyst: $16,000 - $26,000\r",
+                "Security Manager: $20,000 - $32,000\r",
+                "Crisis Management Specialist: $17,000 - $27,000"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "8. Cloud Security",
+            "subtitle": "Securing Cloud Environments",
+            "icon": "cloud",
+            "color": "#3498db",
+            "gradient": [
+                "#3498db",
+                "#2980b9"
+            ],
+            "description": "Learn cloud security fundamentals, shared responsibility model, and best practices.",
+            "totalLessons": 5,
+            "duration": "1.3 hours",
+            "difficulty": "Intermediate",
+            "whatYouWillLearn": [
+                "Cloud security fundamentals\r",
+                "Shared responsibility model\r",
+                "Cloud service provider security\r",
+                "Identity and access management\r",
+                "Cloud monitoring and logging"
+            ],
+            "targetAudience": [
+                "Cloud architects\r",
+                "DevOps engineers\r",
+                "Security professionals\r",
+                "System administrators"
+            ],
+            "benefits": [
+                "Cloud security expertise\r",
+                "Modern infrastructure knowledge\r",
+                "Scalable security solutions\r",
+                "High-demand cloud skills"
+            ],
+            "requirements": [
+                "Basic cloud knowledge\r",
+                "Understanding of virtualization\r",
+                "Security fundamentals\r",
+                "Interest in cloud technologies"
+            ],
+            "averageSalary": [
+                "Cloud Security Engineer: $19,000 - $30,000\r",
+                "Cloud Security Architect: $22,000 - $35,000\r",
+                "DevSecOps Engineer: $18,000 - $28,000\r",
+                "Cloud Security Consultant: $20,000 - $32,000"
+            ]
+        },
+        {
+            "id": "9",
+            "title": "9. Mobile Security",
+            "subtitle": "Securing Mobile Applications",
+            "icon": "phone_android",
+            "color": "#2ecc71",
+            "gradient": [
+                "#2ecc71",
+                "#27ae60"
+            ],
+            "description": "Learn mobile application security, device management, and mobile threat landscape.",
+            "totalLessons": 4,
+            "duration": "1.1 hours",
+            "difficulty": "Intermediate",
+            "whatYouWillLearn": [
+                "Mobile security fundamentals\r",
+                "iOS and Android security\r",
+                "Mobile application testing\r",
+                "Device management and MDM\r",
+                "Mobile threat landscape"
+            ],
+            "targetAudience": [
+                "Mobile developers\r",
+                "Security professionals\r",
+                "IT administrators\r",
+                "Mobile security enthusiasts"
+            ],
+            "benefits": [
+                "Mobile security expertise\r",
+                "App security testing skills\r",
+                "Device management knowledge\r",
+                "Growing field opportunities"
+            ],
+            "requirements": [
+                "Basic mobile development knowledge\r",
+                "Understanding of mobile platforms\r",
+                "Security fundamentals\r",
+                "Interest in mobile technologies"
+            ],
+            "averageSalary": [
+                "Mobile Security Engineer: $17,000 - $27,000\r",
+                "Mobile Security Analyst: $15,000 - $24,000\r",
+                "Mobile App Security Tester: $14,000 - $22,000\r",
+                "Mobile Security Consultant: $18,000 - $28,000"
+            ]
+        },
+        {
+            "id": "10",
+            "title": "10. IoT Security",
+            "subtitle": "Securing Internet of Things",
+            "icon": "devices",
+            "color": "#e67e22",
+            "gradient": [
+                "#e67e22",
+                "#d35400"
+            ],
+            "description": "Learn IoT security challenges, device vulnerabilities, and protection strategies.",
+            "totalLessons": 3,
+            "duration": "0.8 hours",
+            "difficulty": "Advanced",
+            "whatYouWillLearn": [
+                "IoT security challenges\r",
+                "Device vulnerability assessment\r",
+                "Network security for IoT\r",
+                "IoT security frameworks\r",
+                "Emerging threat landscape"
+            ],
+            "targetAudience": [
+                "IoT developers\r",
+                "Security professionals\r",
+                "Embedded systems engineers\r",
+                "Technology enthusiasts"
+            ],
+            "benefits": [
+                "IoT security expertise\r",
+                "Emerging technology knowledge\r",
+                "Device security skills\r",
+                "Future-focused career path"
+            ],
+            "requirements": [
+                "Basic IoT knowledge\r",
+                "Understanding of embedded systems\r",
+                "Network security fundamentals\r",
+                "Interest in emerging technologies"
+            ],
+            "averageSalary": [
+                "IoT Security Specialist: $18,000 - $28,000\r",
+                "IoT Security Architect: $20,000 - $32,000\r",
+                "Embedded Security Engineer: $16,000 - $26,000\r",
+                "IoT Security Consultant: $19,000 - $30,000"
+            ]
+        },
+        {
+            "id": "11",
+            "title": "11. Certificate",
+            "subtitle": "HackLab Completion Certificate",
+            "icon": "verified",
+            "color": "#f1c40f",
+            "gradient": [
+                "#f1c40f",
+                "#f39c12"
+            ],
+            "description": "Earn your HackLab completion certificate by finishing all courses.",
+            "totalLessons": 0,
+            "duration": "0 hours",
+            "difficulty": "All Levels",
+            "whatYouWillLearn": [
+                "Complete cybersecurity knowledge\r",
+                "Professional certification\r",
+                "Career advancement opportunities\r",
+                "Industry recognition"
+            ],
+            "targetAudience": [
+                "All course completers\r",
+                "Career changers\r",
+                "Professional developers\r",
+                "Security enthusiasts"
+            ],
+            "benefits": [
+                "Professional certification\r",
+                "Career advancement\r",
+                "Industry recognition\r",
+                "Comprehensive skill validation"
+            ],
+            "requirements": [
+                "Complete all 10 courses\r",
+                "Pass all assessments\r",
+                "Demonstrate practical skills\r",
+                "Show continuous learning"
+            ],
+            "averageSalary": [
+                "Certified Security Professional: $20,000 - $35,000\r",
+                "Senior Security Analyst: $22,000 - $38,000\r",
+                "Security Manager: $25,000 - $42,000\r",
+                "Chief Information Security Officer: $35,000 - $60,000"
+            ]
+        }
+    ]
+}

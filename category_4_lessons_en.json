@@ -1,0 +1,77 @@
+{
+    "categoryId": "4",
+    "categoryTitle": "4. Cryptography",
+    "lessons": [
+        {
+            "id": "4_1",
+            "title": "1. Cryptography Fundamentals",
+            "duration": "30 min",
+            "color": "#8b5cf6",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Learn the basics of cryptography and encryption methods",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Introduction to Cryptography",
+                    "content": "Cryptography is the practice and study of techniques for secure communication in the presence of third parties. It involves creating and analyzing protocols that prevent third parties from reading private messages.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/Cryptography.png",
+                        "title": "Cryptography"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Symmetric Encryption",
+                    "content": "Symmetric encryption uses the same key for both encryption and decryption. It's fast and efficient but requires secure key distribution. Examples include AES, DES, and 3DES."
+                },
+                {
+                    "id": "3",
+                    "title": "Asymmetric Encryption",
+                    "content": "Asymmetric encryption uses a pair of keys - public and private. Data encrypted with the public key can only be decrypted with the private key. Examples include RSA and ECC."
+                },
+                {
+                    "id": "4",
+                    "title": "Hash Functions",
+                    "content": "Hash functions take input data and produce a fixed-size output called a hash. They are one-way functions used for data integrity verification. Examples include SHA-256 and MD5."
+                },
+                {
+                    "id": "5",
+                    "title": "Digital Signatures",
+                    "content": "Digital signatures provide authentication, non-repudiation, and integrity. They use asymmetric cryptography to verify the authenticity of digital messages or documents."
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Cryptography Basics",
+                    "type": "quiz",
+                    "question": "What is the main advantage of asymmetric encryption over symmetric encryption?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "It's faster",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "It doesn't require secure key distribution",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "It uses less memory",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "It's easier to implement",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Asymmetric encryption doesn't require secure key distribution because the public key can be shared openly, while the private key remains secret."
+                }
+            ]
+        }
+    ]
+}

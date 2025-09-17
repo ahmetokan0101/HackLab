@@ -1,0 +1,82 @@
+{
+    "categoryId": "5",
+    "categoryTitle": "5. Malware Analysis",
+    "lessons": [
+        {
+            "id": "5_1",
+            "title": "1. Malware Analysis Fundamentals",
+            "duration": "35 min",
+            "color": "#e74c3c",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Learn the basics of malware analysis and reverse engineering",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Introduction to Malware Analysis",
+                    "content": "Malware analysis is the process of understanding the behavior and purpose of malicious software. It involves both static and dynamic analysis techniques to understand how malware works.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/MalwareAnalysis.png",
+                        "title": "Malware Analysis"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Types of Malware",
+                    "content": "Common types of malware include viruses, worms, trojans, ransomware, spyware, and rootkits. Each type has different characteristics and requires different analysis approaches."
+                },
+                {
+                    "id": "3",
+                    "title": "Static Analysis",
+                    "content": "Static analysis involves examining malware without executing it. This includes analyzing file structure, strings, imports, and disassembled code to understand its functionality."
+                },
+                {
+                    "id": "4",
+                    "title": "Dynamic Analysis",
+                    "content": "Dynamic analysis involves running malware in a controlled environment to observe its behavior. This includes monitoring system calls, network activity, and file modifications."
+                },
+                {
+                    "id": "5",
+                    "title": "Analysis Tools",
+                    "content": "Common malware analysis tools include IDA Pro, Ghidra, Wireshark, Process Monitor, and various sandbox environments. Each tool serves specific analysis purposes."
+                },
+                {
+                    "id": "6",
+                    "title": "Reverse Engineering",
+                    "content": "Reverse engineering involves analyzing compiled code to understand its original source code and functionality. It's a crucial skill for malware analysts and security researchers."
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Malware Analysis",
+                    "type": "quiz",
+                    "question": "What is the main difference between static and dynamic analysis?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Static analysis is faster",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Static analysis doesn't execute the malware",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Dynamic analysis is more accurate",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "There's no difference",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Static analysis examines malware without executing it, while dynamic analysis runs the malware in a controlled environment to observe its behavior."
+                }
+            ]
+        }
+    ]
+}

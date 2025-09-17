@@ -1,0 +1,67 @@
+{
+    "categoryId": "9",
+    "categoryTitle": "9. Mobile Security",
+    "lessons": [
+        {
+            "id": "9_1",
+            "title": "1. Mobile Security Fundamentals",
+            "duration": "25 min",
+            "color": "#2ecc71",
+            "documents": 4,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Learn about mobile security challenges and protection strategies",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Mobile Security Overview",
+                    "content": "Mobile security involves protecting smartphones, tablets, and other mobile devices from various threats. It includes securing mobile applications, data, and network communications.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/MobileSecurity.png",
+                        "title": "Mobile Security"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Mobile Security Threats",
+                    "content": "Common mobile security threats include malware, phishing, data leakage, insecure Wi-Fi, and device theft. Understanding these threats is essential for effective mobile security."
+                },
+                {
+                    "id": "3",
+                    "title": "Mobile App Security",
+                    "content": "Mobile app security involves secure coding practices, proper authentication, data encryption, and regular security testing. It's crucial for protecting user data and preventing attacks."
+                },
+                {
+                    "id": "4",
+                    "title": "Quiz: Mobile Security",
+                    "type": "quiz",
+                    "question": "What is the most common mobile security threat?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Hardware vulnerabilities",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Malware",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Network attacks",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Physical theft",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Malware is one of the most common mobile security threats, targeting mobile devices through malicious apps, phishing, and other attack vectors."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "categoryId": "6",
+    "categoryTitle": "6. Social Engineering",
+    "lessons": [
+        {
+            "id": "6_1",
+            "title": "1. Social Engineering Fundamentals",
+            "duration": "20 min",
+            "color": "#f39c12",
+            "documents": 4,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Learn about social engineering attacks and human psychology in security",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "What is Social Engineering?",
+                    "content": "Social engineering is the psychological manipulation of people into performing actions or divulging confidential information. It exploits human psychology rather than technical vulnerabilities.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/SocialEngineering.png",
+                        "title": "Social Engineering"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Common Social Engineering Techniques",
+                    "content": "Common techniques include phishing, pretexting, baiting, quid pro quo, and tailgating. Each technique targets different human vulnerabilities and psychological triggers."
+                },
+                {
+                    "id": "3",
+                    "title": "Human Psychology in Security",
+                    "content": "Understanding human psychology is crucial for both attackers and defenders. People often make security mistakes due to trust, authority, urgency, and social proof principles."
+                },
+                {
+                    "id": "4",
+                    "title": "Quiz: Social Engineering",
+                    "type": "quiz",
+                    "question": "What is the primary target of social engineering attacks?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Computer systems",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Human psychology",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Network infrastructure",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Software vulnerabilities",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Social engineering primarily targets human psychology rather than technical systems, exploiting human vulnerabilities and psychological triggers."
+                }
+            ]
+        }
+    ]
+}

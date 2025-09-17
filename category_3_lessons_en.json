@@ -1,0 +1,133 @@
+{
+    "categoryId": "3",
+    "categoryTitle": "3. Network Security",
+    "lessons": [
+        {
+            "id": "3_1",
+            "title": "1. Network Security Fundamentals",
+            "duration": "25 min",
+            "color": "#00FF88",
+            "documents": 5,
+            "isCompleted": false,
+            "isActive": true,
+            "description": "Learn the basics of network security and protection mechanisms",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Network Security Overview",
+                    "content": "Network security involves the policies and practices adopted to prevent and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/NetworkSecurity.png",
+                        "title": "Network Security"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Network Security Threats",
+                    "content": "Common network security threats include malware, phishing, DDoS attacks, man-in-the-middle attacks, and unauthorized access. Understanding these threats is essential for effective network protection."
+                },
+                {
+                    "id": "3",
+                    "title": "Firewall Configuration",
+                    "content": "Firewalls are network security devices that monitor and control incoming and outgoing network traffic based on predetermined security rules. Proper firewall configuration is crucial for network protection."
+                },
+                {
+                    "id": "4",
+                    "title": "Intrusion Detection Systems",
+                    "content": "Intrusion Detection Systems (IDS) monitor network traffic for suspicious activity and issue alerts when such activity is discovered. They are essential for detecting potential security breaches."
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Network Security Basics",
+                    "type": "quiz",
+                    "question": "What is the primary purpose of a firewall?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "To increase network speed",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "To monitor and control network traffic",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "To store network data",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "To create network connections",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "The primary purpose of a firewall is to monitor and control incoming and outgoing network traffic based on predetermined security rules."
+                }
+            ]
+        },
+        {
+            "id": "3_2",
+            "title": "2. Network Monitoring and Analysis",
+            "duration": "30 min",
+            "color": "#00D4FF",
+            "documents": 4,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Learn about network monitoring tools and traffic analysis",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Network Monitoring Tools",
+                    "content": "Network monitoring tools help administrators track network performance, identify issues, and ensure security. Popular tools include Wireshark, Nagios, and SolarWinds.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/NetworkMonitoring.png",
+                        "title": "Network Monitoring"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Traffic Analysis",
+                    "content": "Traffic analysis involves examining network traffic patterns to identify anomalies, security threats, and performance issues. It's a crucial skill for network security professionals."
+                },
+                {
+                    "id": "3",
+                    "title": "Log Management",
+                    "content": "Effective log management involves collecting, storing, and analyzing log data from various network devices and applications. This helps in incident response and compliance."
+                },
+                {
+                    "id": "4",
+                    "title": "Quiz: Network Monitoring",
+                    "type": "quiz",
+                    "question": "What is the primary purpose of network monitoring?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "To increase network speed",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "To track performance and identify issues",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "To store network data",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "To create network connections",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "The primary purpose of network monitoring is to track network performance and identify issues or anomalies."
+                }
+            ]
+        }
+    ]
+}

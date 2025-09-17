@@ -1,225 +1,225 @@
 {
     "categoryId": "1",
-    "categoryTitle": "1. Etik Hacking'e Giriş",
+    "categoryTitle": "1. Introduction to Ethical Hacking",
     "lessons": [
         {
             "id": "1_1",
-            "title": "1. Etik Hacking Nedir",
-            "duration": "12 dk",
+            "title": "1. What is Ethical Hacking",
+            "duration": "12 min",
             "color": "#ff6b35",
             "documents": 4,
             "isCompleted": false,
             "isActive": true,
-            "description": "Etik hacking kavramını ve temel prensiplerini öğren",
+            "description": "Learn the concept of ethical hacking and its basic principles",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Etik Hacking Nedir?",
-                    "content": "Etik hacking, sistemlerin güvenlik açıklarını tespit etmek ve güvenliği artırmak amacıyla yapılan yasal ve etik hacking faaliyetleridir. Etik hackerlar, kötü niyetli saldırganların kullandığı teknikleri öğrenerek sistemleri korumaya yardımcı olur.",
+                    "title": "What is Ethical Hacking?",
+                    "content": "Ethical hacking is the legal and ethical hacking activities conducted to identify security vulnerabilities in systems and enhance security. Ethical hackers help protect systems by learning the techniques used by malicious attackers.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabEthickHacking.png",
-                        "title": "Etik Hacking"
+                        "title": "Ethical Hacking"
                     }
                 },
                 {
                     "id": "2",
-                    "title": "Etik Hacking'in Amacı",
-                    "content": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır. Bu sayede gerçek saldırganlar sistemlere zarar vermeden önce güvenlik önlemleri alınabilir."
+                    "title": "Purpose of Ethical Hacking",
+                    "content": "The main purpose of ethical hacking is to proactively identify security vulnerabilities in systems and close these vulnerabilities. This way, security measures can be taken before real attackers can harm the systems."
                 },
                 {
                     "id": "3",
-                    "title": "Etik Hacking Süreci",
-                    "content": "Etik hacking süreci şu aşamalardan oluşur: Planlama ve İzin Alma, Keşif ve Bilgi Toplama, Güvenlik Açığı Analizi, Penetrasyon Testi, Raporlama ve Öneriler."
+                    "title": "Ethical Hacking Process",
+                    "content": "The ethical hacking process consists of the following stages: Planning and Authorization, Reconnaissance and Information Gathering, Vulnerability Analysis, Penetration Testing, Reporting and Recommendations."
                 },
                 {
                     "id": "4",
-                    "title": "Quiz: Etik Hacking Temel Bilgiler",
+                    "title": "Quiz: Ethical Hacking Basics",
                     "type": "quiz",
-                    "question": "Etik hacking'in temel amacı nedir?",
+                    "question": "What is the main purpose of ethical hacking?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Güvenlik açıklarını tespit etmek",
+                            "text": "Identifying security vulnerabilities",
                             "isCorrect": true
                         },
                         {
                             "id": "B",
-                            "text": "Sistemlere zarar vermek",
+                            "text": "Damaging systems",
                             "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Veri çalmak",
+                            "text": "Stealing data",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Sistemleri kapatmak",
+                            "text": "Shutting down systems",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır."
+                    "explanation": "The main purpose of ethical hacking is to proactively identify security vulnerabilities in systems and close these vulnerabilities."
                 }
             ]
         },
         {
             "id": "1_2",
-            "title": "2. Hacking Türleri",
-            "duration": "15 dk",
+            "title": "2. Types of Hacking",
+            "duration": "15 min",
             "color": "#f7931e",
             "documents": 5,
             "isCompleted": false,
             "isActive": false,
-            "description": "Farklı hacking türlerini ve özelliklerini öğren",
+            "description": "Learn different types of hacking and their characteristics",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Hacking Türleri",
-                    "content": "Hacking, farklı amaçlara ve motivasyonlara göre çeşitli türlere ayrılır. Her türün kendine özgü özellikleri ve riskleri vardır.",
+                    "title": "Types of Hacking",
+                    "content": "Hacking is divided into various types according to different purposes and motivations. Each type has its own unique characteristics and risks.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabHacking.png",
-                        "title": "Etik Hacking Türleri"
+                        "title": "Types of Ethical Hacking"
                     }
                 },
                 {
                     "id": "2",
-                    "title": "Siyah Şapka Hacking",
-                    "content": "Siyah şapka hackerlar, sistemlere izinsiz erişim sağlayarak zarar verir. Bu tür hacking yasa dışıdır ve kötü niyetli amaçlarla yapılır. Veri çalma, sistem kapatma ve finansal zarar verme gibi faaliyetler içerir.",
+                    "title": "Black Hat Hacking",
+                    "content": "Black hat hackers cause damage by gaining unauthorized access to systems. This type of hacking is illegal and is done with malicious intent. It includes activities such as data theft, system shutdown, and financial damage.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabSiyah.png",
-                        "title": "Siyah Şapkalı Hacker"
+                        "title": "Black Hat Hacker"
                     }
                 },
                 {
                     "id": "3",
-                    "title": "Beyaz Şapka Hacking",
-                    "content": "Beyaz şapka hackerlar, etik hacking yapan güvenlik uzmanlarıdır. Sistemlerin güvenliğini test etmek için yasal izinlerle çalışırlar. Güvenlik açıklarını tespit ederek sistemleri korumaya yardımcı olurlar.",
+                    "title": "White Hat Hacking",
+                    "content": "White hat hackers are security experts who perform ethical hacking. They work with legal permissions to test system security. They help protect systems by identifying security vulnerabilities.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabWhite.png",
-                        "title": "Beyaz Şapkalı Hacker"
+                        "title": "White Hat Hacker"
                     }
                 },
                 {
                     "id": "4",
-                    "title": "Gri Şapka Hacking",
-                    "content": "Gri şapka hackerlar, bazen yasal bazen yasa dışı faaliyetlerde bulunur. Sistemlere izinsiz erişim sağlayabilir ancak genellikle zarar verme amacı gütmez. Güvenlik açıklarını bulduklarında sistem yöneticilerine bildirirler.",
+                    "title": "Gray Hat Hacking",
+                    "content": "Gray hat hackers sometimes engage in legal and sometimes illegal activities. They may gain unauthorized access to systems but generally do not intend to cause harm. When they find security vulnerabilities, they report them to system administrators.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabGri.png",
-                        "title": "Gri Şapkalı Hacker"
+                        "title": "Gray Hat Hacker"
                     }
                 },
                 {
                     "id": "5",
-                    "title": "Quiz: Hacking Türleri",
+                    "title": "Quiz: Types of Hacking",
                     "type": "quiz",
-                    "question": "Hangi hacking türü yasa dışıdır?",
+                    "question": "Which type of hacking is illegal?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Beyaz şapka hacking",
+                            "text": "White hat hacking",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Gri şapka hacking",
+                            "text": "Gray hat hacking",
                             "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Siyah şapka hacking",
+                            "text": "Black hat hacking",
                             "isCorrect": true
                         },
                         {
                             "id": "D",
-                            "text": "Hiçbiri",
+                            "text": "None of them",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Siyah şapka hacking yasa dışıdır ve kötü niyetli amaçlarla yapılır. Sistemlere zarar verme, veri çalma gibi faaliyetler içerir."
+                    "explanation": "Black hat hacking is illegal and is done with malicious intent. It includes activities such as damaging systems and stealing data."
                 }
             ]
         },
         {
             "id": "1_3",
-            "title": "3. Hacker Türleri",
-            "duration": "10 dk",
+            "title": "3. Types of Hackers",
+            "duration": "10 min",
             "color": "#8b5cf6",
             "documents": 4,
             "isCompleted": false,
             "isActive": false,
-            "description": "Farklı hacker türlerini ve özelliklerini tanı",
+            "description": "Identify different types of hackers and their characteristics",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Hacker Türleri",
-                    "content": "Hackerlar, motivasyonlarına, becerilerine ve amaçlarına göre farklı kategorilere ayrılır. Her türün kendine özgü özellikleri ve davranış kalıpları vardır.",
+                    "title": "Types of Hackers",
+                    "content": "Hackers are divided into different categories according to their motivations, skills, and goals. Each type has its own unique characteristics and behavior patterns.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabTurler.png",
-                        "title": "Hacking Türleri"
+                        "title": "Types of Hacking"
                     }
                 },
                 {
                     "id": "2",
                     "title": "Script Kiddie",
-                    "content": "Script kiddie'ler, hazır araçları ve scriptleri kullanarak hacking yapan kişilerdir. Derin teknik bilgiye sahip değillerdir ve genellikle eğlence amaçlı faaliyet gösterirler. Sosyal medyada ün kazanmak için saldırılar düzenleyebilirler."
+                    "content": "Script kiddies are people who perform hacking using ready-made tools and scripts. They do not have deep technical knowledge and usually engage in activities for entertainment purposes. They may organize attacks to gain fame on social media."
                 },
                 {
                     "id": "3",
-                    "title": "Profesyonel Hacker",
-                    "content": "Profesyonel hackerlar, yüksek teknik beceriye sahip uzmanlardır. Güvenlik şirketlerinde, devlet kurumlarında veya bağımsız olarak çalışırlar. Etik hacking, penetrasyon testi ve güvenlik araştırmaları yaparlar."
+                    "title": "Professional Hacker",
+                    "content": "Professional hackers are experts with high technical skills. They work in security companies, government agencies, or independently. They perform ethical hacking, penetration testing, and security research."
                 },
                 {
                     "id": "4",
-                    "title": "Quiz: Hacker Türleri",
-                    "content": "[Quiz Sayfası: Quiz: Hacker Türleri]",
+                    "title": "Quiz: Types of Hackers",
+                    "content": "[Quiz Page: Quiz: Types of Hackers]",
                     "type": "quiz",
-                    "question": "Script kiddie'lerin özelliği nedir?",
+                    "question": "What is the characteristic of script kiddies?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Yüksek teknik beceri",
+                            "text": "High technical skill",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Profesyonel çalışma",
+                            "text": "Professional work",
                             "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Derin bilgi",
+                            "text": "Deep knowledge",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Hazır araçları kullanma",
+                            "text": "Using ready-made tools",
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar. Derin teknik bilgiye sahip değillerdir."
+                    "explanation": "Script kiddies perform hacking using ready-made tools and scripts. They do not have deep technical knowledge."
                 }
             ]
         },
         {
             "id": "1_4",
-            "title": "4. Hacking'in Avantajları ve Dezavantajları",
-            "duration": "8 dk",
+            "title": "4. Advantages and Disadvantages of Hacking",
+            "duration": "8 min",
             "color": "#00ff88",
             "documents": 4,
             "isCompleted": false,
             "isActive": false,
-            "description": "Hacking'in olumlu ve olumsuz yönlerini analiz et",
+            "description": "Analyze the positive and negative aspects of hacking",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Hacking'in Avantajları",
-                    "content": "Etik hacking, sistem güvenliğini artırır, güvenlik açıklarını tespit eder ve organizasyonları korur. Güvenlik uzmanlarının becerilerini geliştirmesine yardımcı olur ve siber güvenlik alanında kariyer fırsatları sunar.",
+                    "title": "Advantages of Hacking",
+                    "content": "Ethical hacking increases system security, identifies vulnerabilities, and protects organizations. It helps security experts develop their skills and offers career opportunities in the cybersecurity field.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
@@ -228,60 +228,60 @@
                 },
                 {
                     "id": "2",
-                    "title": "Hacking'in Dezavantajları",
-                    "content": "Kötü niyetli hacking, sistemlere zarar verir, veri kaybına neden olur ve yasal sorunlara yol açar. Kişisel bilgilerin çalınmasına, finansal zararlara ve itibar kaybına neden olabilir."
+                    "title": "Disadvantages of Hacking",
+                    "content": "Malicious hacking damages systems, causes data loss, and leads to legal problems. It can result in theft of personal information, financial losses, and reputation damage."
                 },
                 {
                     "id": "3",
-                    "title": "Etik Kurallar",
-                    "content": "Etik hacking yaparken mutlaka yasal izinler alınmalı, gizlilik kurallarına uyulmalı ve zarar verme amacı güdülmemelidir. Tüm faaliyetler şeffaf ve hesap verebilir olmalıdır."
+                    "title": "Ethical Rules",
+                    "content": "When performing ethical hacking, legal permissions must be obtained, privacy rules must be followed, and there should be no intent to cause harm. All activities must be transparent and accountable."
                 },
                 {
                     "id": "4",
-                    "title": "Quiz: Hacking Avantaj ve Dezavantajları",
-                    "content": "[Quiz Sayfası: Quiz: Hacking Avantaj ve Dezavantajları]",
+                    "title": "Quiz: Advantages and Disadvantages of Hacking",
+                    "content": "[Quiz Page: Quiz: Advantages and Disadvantages of Hacking]",
                     "type": "quiz",
-                    "question": "Etik hacking'in en önemli avantajı nedir?",
+                    "question": "What is the most important advantage of ethical hacking?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Sistemlere zarar vermek",
+                            "text": "Damaging systems",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Veri çalmak",
+                            "text": "Stealing data",
                             "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Güvenlik açıklarını tespit etmek",
+                            "text": "Identifying security vulnerabilities",
                             "isCorrect": true
                         },
                         {
                             "id": "D",
-                            "text": "Sistemleri kapatmak",
+                            "text": "Shutting down systems",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking'in en önemli avantajı, sistemlerdeki güvenlik açıklarını tespit ederek güvenliği artırmaktır."
+                    "explanation": "The most important advantage of ethical hacking is to increase security by identifying vulnerabilities in systems."
                 }
             ]
         },
         {
             "id": "1_5",
-            "title": "5. Tarihte Ünlü Etik Hacking Olayları",
-            "duration": "18 dk",
+            "title": "5. Test Preparation",
+            "duration": "18 min",
             "color": "#e74c3c",
             "documents": 6,
             "isCompleted": false,
             "isActive": false,
-            "description": "Tarihte önemli etik hacking olaylarını ve etkilerini öğren",
+            "description": "Comprehensive test for Introduction to Ethical Hacking category",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Test Hazırlığı",
-                    "content": "Bu test, Etik Hacking'e Giriş kategorisindeki tüm konuları kapsamaktadır. Test öncesi öğrendiğiniz konuları gözden geçirin ve hazır olduğunuzda teste başlayın.",
+                    "title": "Test Preparation",
+                    "content": "This test covers all topics in the Introduction to Ethical Hacking category. Review the topics you have learned before the test and start the test when you are ready.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabTest.png",
@@ -290,65 +290,65 @@
                 },
                 {
                     "id": "2",
-                    "title": "Test Kuralları",
-                    "content": "Test 10 sorudan oluşmaktadır. Her soru için sadece bir doğru cevap vardır. Testi tamamladıktan sonra sonuçlarınızı görebilir ve eksik konularınızı tekrar çalışabilirsiniz."
+                    "title": "Test Rules",
+                    "content": "The test consists of 10 questions. There is only one correct answer for each question. After completing the test, you can see your results and review the topics you missed."
                 },
                 {
                     "id": "3",
-                    "title": "Kategori Tamamlama",
-                    "content": "Bu testi başarıyla tamamladığınızda, Etik Hacking'e Giriş kategorisini tamamlamış olacaksınız. Test sonucunuz %70 ve üzerinde olmalıdır."
+                    "title": "Category Completion",
+                    "content": "When you successfully complete this test, you will have completed the Introduction to Ethical Hacking category. Your test result should be 70% or above."
                 },
                 {
                     "id": "4",
-                    "title": "Kapsamlı Test: Etik Hacking'e Giriş",
-                    "content": "[Quiz Sayfası: Kapsamlı Test: Etik Hacking'e Giriş]",
+                    "title": "Comprehensive Test: Introduction to Ethical Hacking",
+                    "content": "[Quiz Page: Comprehensive Test: Introduction to Ethical Hacking]",
                     "type": "quiz",
-                    "question": "Etik hacking sürecinin ilk aşaması nedir?",
+                    "question": "What is the first stage of the ethical hacking process?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Penetrasyon testi",
+                            "text": "Penetration testing",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Bilgi toplama",
+                            "text": "Information gathering",
                             "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Planlama ve izin alma",
+                            "text": "Planning and authorization",
                             "isCorrect": true
                         },
                         {
                             "id": "D",
-                            "text": "Raporlama",
+                            "text": "Reporting",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking sürecinin ilk aşaması planlama ve izin almaktır. Yasal izinler olmadan hiçbir güvenlik testi yapılamaz."
+                    "explanation": "The first stage of the ethical hacking process is planning and authorization. No security testing can be performed without legal permissions."
                 }
             ]
         },
         {
             "id": "1_6",
-            "title": "6. Etik Hackerın Rolü ve Sorumlulukları",
-            "duration": "14 dk",
+            "title": "6. Famous Ethical Hacking Events in History",
+            "duration": "14 min",
             "color": "#3498db",
             "documents": 5,
             "isCompleted": false,
             "isActive": false,
-            "description": "Etik hackerın görevleri, sorumlulukları ve etik kurallarını öğren",
+            "description": "Learn about famous ethical hacking events in history and their impacts",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Tarihte Ünlü Etik Hacking Olayları",
-                    "content": "Tarih boyunca birçok önemli etik hacking olayı yaşanmıştır. Bu olaylar, siber güvenlik alanının gelişmesine ve güvenlik standartlarının oluşmasına katkıda bulunmuştur. Bu dersimizde en önemli etik hacking olaylarını inceleyeceğiz."
+                    "title": "Famous Ethical Hacking Events in History",
+                    "content": "Throughout history, many important ethical hacking events have occurred. These events have contributed to the development of the cybersecurity field and the establishment of security standards. In this lesson, we will examine the most important ethical hacking events."
                 },
                 {
                     "id": "2",
-                    "title": "Kevin Mitnick - En Ünlü Hacker",
-                    "content": "Kevin Mitnick, 1990'larda dünyanın en çok aranan hackerıydı. Telefon sistemlerini hackleyerek ücretsiz arama yapabiliyordu. 1995'te yakalandıktan sonra, cezasını tamamladı ve etik hacking alanında uzmanlaştı. Bugün güvenlik danışmanı olarak çalışmaktadır.",
+                    "title": "Kevin Mitnick - The Most Famous Hacker",
+                    "content": "Kevin Mitnick was the world's most wanted hacker in the 1990s. He was able to make free calls by hacking phone systems. After being caught in 1995, he completed his sentence and specialized in ethical hacking. Today he works as a security consultant.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabKevin.png",
@@ -357,8 +357,8 @@
                 },
                 {
                     "id": "3",
-                    "title": "Anonymous - Hacktivist Grup",
-                    "content": "Anonymous, 2003'te kurulan hacktivist bir gruptur. WikiLeaks'i desteklemek, sansürü protesto etmek ve sosyal adalet için çalışmaktadır. Sony, MasterCard ve Visa gibi büyük şirketlere saldırılar düzenlemiştir. Grup, etik hacking ve hacktivizm arasındaki çizgiyi tartışmaya açmıştır.",
+                    "title": "Anonymous - Hacktivist Group",
+                    "content": "Anonymous is a hacktivist group founded in 2003. It works to support WikiLeaks, protest censorship, and fight for social justice. It has organized attacks against major companies like Sony, MasterCard, and Visa. The group has opened up the debate about the line between ethical hacking and hacktivism.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabAnonymous.png",
@@ -367,8 +367,8 @@
                 },
                 {
                     "id": "4",
-                    "title": "Stuxnet - Siber Silah",
-                    "content": "Stuxnet, 2010'da İran'ın nükleer tesislerini hedef alan bir siber silahtı. İlk kez endüstriyel kontrol sistemlerini hedef alan malware olarak tarihe geçti. Bu olay, siber savaşın gerçekliğini ve kritik altyapıların güvenlik açıklarını gösterdi.",
+                    "title": "Stuxnet - Cyber Weapon",
+                    "content": "Stuxnet was a cyber weapon that targeted Iran's nuclear facilities in 2010. It went down in history as the first malware to target industrial control systems. This event demonstrated the reality of cyber warfare and the security vulnerabilities of critical infrastructure.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/Stuxnet.jpg",
@@ -377,8 +377,8 @@
                 },
                 {
                     "id": "5",
-                    "title": "WannaCry - Küresel Saldırı",
-                    "content": "2017'de WannaCry ransomware saldırısı, 150'den fazla ülkede 300.000'den fazla bilgisayarı etkiledi. NHS (İngiliz Sağlık Sistemi) dahil birçok kurum etkilendi. Bu saldırı, güvenlik güncellemelerinin önemini ve etik hackerların değerini gösterdi.",
+                    "title": "WannaCry - Global Attack",
+                    "content": "In 2017, the WannaCry ransomware attack affected more than 300,000 computers in over 150 countries. Many institutions, including the NHS (British Health System), were affected. This attack demonstrated the importance of security updates and the value of ethical hackers.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabWannaCry.jpeg",
@@ -387,10 +387,10 @@
                 },
                 {
                     "id": "6",
-                    "title": "Quiz: Tarihte Ünlü Hacking Olayları",
-                    "content": "[Quiz Sayfası: Quiz: Tarihte Ünlü Hacking Olayları]",
+                    "title": "Quiz: Famous Hacking Events in History",
+                    "content": "[Quiz Page: Quiz: Famous Hacking Events in History]",
                     "type": "quiz",
-                    "question": "Hangi olay endüstriyel kontrol sistemlerini hedef alan ilk siber silah olarak bilinir?",
+                    "question": "Which event is known as the first cyber weapon to target industrial control systems?",
                     "options": [
                         {
                             "id": "A",
@@ -399,12 +399,12 @@
                         },
                         {
                             "id": "B",
-                            "text": "Anonymous saldırıları",
+                            "text": "Anonymous attacks",
                             "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Kevin Mitnick olayları",
+                            "text": "Kevin Mitnick events",
                             "isCorrect": false
                         },
                         {
@@ -413,19 +413,19 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Stuxnet, 2010'da İran'ın nükleer tesislerini hedef alan ve endüstriyel kontrol sistemlerini etkileyen ilk siber silah olarak tarihe geçmiştir."
+                    "explanation": "Stuxnet went down in history in 2010 as the first cyber weapon to target Iran's nuclear facilities and affect industrial control systems."
                 }
             ]
         },
         {
             "id": "1_7",
-            "title": "7. Test ve Değerlendirme",
-            "duration": "15 dk",
+            "title": "7. Test and Evaluation",
+            "duration": "15 min",
             "color": "#ff6b35",
             "documents": 13,
             "isCompleted": false,
             "isActive": false,
-            "description": "Etik Hacking'e Giriş kategorisinin kapsamlı testi",
+            "description": "Comprehensive test for Introduction to Ethical Hacking category",
             "pages": [
                 {
                     "id": "1",
@@ -440,137 +440,137 @@
                 {
                     "id": "2",
                     "title": "Test Kuralları",
-                    "content": "Test 10 sorudan oluşmaktadır. Her soru için sadece bir doğru cevap vardır. Test kategorisindeki tüm konuları kapsamaktadır. Testi tamamladıktan sonra sonuçlarınızı görebilir ve eksik konularınızı tekrar çalışabilirsiniz."
+                    "content": "The test consists of 10 questions. There is only one correct answer for each question. It covers all topics in the test category. After completing the test, you can see your results and review the topics you missed."
                 },
                 {
                     "id": "3",
-                    "title": "Kategori Tamamlama",
-                    "content": "Bu testi başarıyla tamamladığınızda, Etik Hacking'e Giriş kategorisini tamamlamış olacaksınız. Test sonucunuz %70 ve üzerinde olmalıdır."
+                    "title": "Category Completion",
+                    "content": "When you successfully complete this test, you will have completed the Introduction to Ethical Hacking category. Your test result should be 70% or above."
                 },
                 {
                     "id": "4",
-                    "title": "Kapsamlı Test: Etik Hacking'e Giriş",
-                    "content": "[Quiz Sayfası: Kapsamlı Test: Etik Hacking'e Giriş]",
+                    "title": "Comprehensive Test: Introduction to Ethical Hacking",
+                    "content": "[Quiz Page: Comprehensive Test: Introduction to Ethical Hacking]",
                     "type": "quiz",
-                    "question": "Etik hacking sürecinin ilk aşaması nedir?",
+                    "question": "What is the first stage of the ethical hacking process?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Penetrasyon testi",
+                            "text": "Penetration testing",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Planlama ve izin alma",
+                            "text": "Planning and authorization",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Bilgi toplama",
+                            "text": "Information gathering",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Raporlama",
+                            "text": "Reporting",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking sürecinin ilk aşaması planlama ve izin almaktır. Yasal izinler olmadan hiçbir güvenlik testi yapılamaz."
+                    "explanation": "The first stage of the ethical hacking process is planning and authorization. No security testing can be performed without legal permissions."
                 },
                 {
                     "id": "5",
-                    "title": "Soru 2: Hacking Türleri",
-                    "content": "[Quiz Sayfası: Soru 2: Hacking Türleri]",
+                    "title": "Question 2: Types of Hacking",
+                    "content": "[Quiz Page: Question 2: Types of Hacking]",
                     "type": "quiz",
-                    "question": "Hangi hacking türü yasal ve etik olarak kabul edilir?",
+                    "question": "Which type of hacking is legally and ethically accepted?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Siyah şapka hacking",
+                            "text": "Black hat hacking",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Beyaz şapka hacking",
+                            "text": "White hat hacking",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Gri şapka hacking",
+                            "text": "Gray hat hacking",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Hiçbiri",
+                            "text": "None of them",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Beyaz şapka hacking yasal izinlerle yapılan etik hacking türüdür. Güvenlik testleri için yasal yetki alınarak çalışır."
+                    "explanation": "White hat hacking is a type of ethical hacking performed with legal permissions. It works by obtaining legal authorization for security tests."
                 },
                 {
                     "id": "6",
-                    "title": "Soru 3: Hacker Türleri",
-                    "content": "[Quiz Sayfası: Soru 3: Hacker Türleri]",
+                    "title": "Question 3: Types of Hackers",
+                    "content": "[Quiz Page: Question 3: Types of Hackers]",
                     "type": "quiz",
-                    "question": "Script kiddie'lerin temel özelliği nedir?",
+                    "question": "What is the basic characteristic of script kiddies?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Yüksek teknik beceri",
+                            "text": "High technical skill",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Hazır araçları kullanma",
+                            "text": "Using ready-made tools",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Profesyonel çalışma",
+                            "text": "Professional work",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Derin bilgi",
+                            "text": "Deep knowledge",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar. Derin teknik bilgiye sahip değillerdir."
+                    "explanation": "Script kiddies perform hacking using ready-made tools and scripts. They do not have deep technical knowledge."
                 },
                 {
                     "id": "7",
-                    "title": "Soru 4: Etik Kurallar",
-                    "content": "[Quiz Sayfası: Soru 4: Etik Kurallar]",
+                    "title": "Question 4: Ethical Rules",
+                    "content": "[Quiz Page: Question 4: Ethical Rules]",
                     "type": "quiz",
-                    "question": "Etik hacking yaparken en önemli kural nedir?",
+                    "question": "What is the most important rule when performing ethical hacking?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Hızlı olmak",
+                            "text": "Being fast",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Yasal izinler almak",
+                            "text": "Obtaining legal permissions",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Gizli kalmak",
+                            "text": "Staying hidden",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Sistemlere zarar vermek",
+                            "text": "Damaging systems",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking yaparken en önemli kural yasal izinler almaktır. İzinsiz güvenlik testi yapmak yasa dışıdır."
+                    "explanation": "The most important rule when performing ethical hacking is to obtain legal permissions. Performing unauthorized security testing is illegal."
                 },
                 {
                     "id": "8",
-                    "title": "Soru 5: Tarihi Olaylar",
-                    "content": "[Quiz Sayfası: Soru 5: Tarihi Olaylar]",
+                    "title": "Question 5: Historical Events",
+                    "content": "[Quiz Page: Question 5: Historical Events]",
                     "type": "quiz",
                     "question": "Hangi olay endüstriyel kontrol sistemlerini hedef alan ilk siber silah olarak bilinir?",
                     "options": [
@@ -586,143 +586,143 @@
                         },
                         {
                             "id": "C",
-                            "text": "Anonymous saldırıları",
+                            "text": "Anonymous attacks",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Kevin Mitnick olayları",
+                            "text": "Kevin Mitnick events",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Stuxnet, 2010'da İran'ın nükleer tesislerini hedef alan ve endüstriyel kontrol sistemlerini etkileyen ilk siber silah olarak tarihe geçmiştir."
+                    "explanation": "Stuxnet went down in history in 2010 as the first cyber weapon to target Iran's nuclear facilities and affect industrial control systems."
                 },
                 {
                     "id": "9",
-                    "title": "Soru 6: Etik Hacker Sorumlulukları",
-                    "content": "[Quiz Sayfası: Soru 6: Etik Hacker Sorumlulukları]",
+                    "title": "Question 6: Ethical Hacker Responsibilities",
+                    "content": "[Quiz Page: Question 6: Ethical Hacker Responsibilities]",
                     "type": "quiz",
-                    "question": "Etik hackerın temel görevi nedir?",
+                    "question": "What is the basic duty of an ethical hacker?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Sistemlere zarar vermek",
+                            "text": "Damaging systems",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Sistemleri korumak",
+                            "text": "Protecting systems",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Veri çalmak",
+                            "text": "Stealing data",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Sistemleri kapatmak",
+                            "text": "Shutting down systems",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hackerın temel görevi sistemleri korumaktır. Güvenlik açıklarını tespit ederek sistemleri güvenli hale getirir."
+                    "explanation": "The basic duty of an ethical hacker is to protect systems. They make systems secure by identifying security vulnerabilities."
                 },
                 {
                     "id": "10",
-                    "title": "Soru 7: Hacking Avantajları",
-                    "content": "[Quiz Sayfası: Soru 7: Hacking Avantajları]",
+                    "title": "Question 7: Hacking Advantages",
+                    "content": "[Quiz Page: Question 7: Hacking Advantages]",
                     "type": "quiz",
-                    "question": "Etik hacking'in en büyük avantajı nedir?",
+                    "question": "What is the biggest advantage of ethical hacking?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Sistemlere zarar vermek",
+                            "text": "Damaging systems",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Güvenliği artırmak",
+                            "text": "Increasing security",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Veri çalmak",
+                            "text": "Stealing data",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Sistemleri kapatmak",
+                            "text": "Shutting down systems",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking'in en büyük avantajı sistem güvenliğini artırmaktır. Güvenlik açıklarını tespit ederek sistemleri korur."
+                    "explanation": "The biggest advantage of ethical hacking is to increase system security. It protects systems by identifying security vulnerabilities."
                 },
                 {
                     "id": "11",
-                    "title": "Soru 8: Mesleki Gelişim",
-                    "content": "[Quiz Sayfası: Soru 8: Mesleki Gelişim]",
+                    "title": "Question 8: Professional Development",
+                    "content": "[Quiz Page: Question 8: Professional Development]",
                     "type": "quiz",
-                    "question": "Etik hackerlar neden sürekli kendilerini geliştirmelidir?",
+                    "question": "Why should ethical hackers continuously develop themselves?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Para kazanmak için",
+                            "text": "To make money",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Siber güvenlik alanı sürekli değiştiği için",
+                            "text": "Because the cybersecurity field is constantly changing",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Ün kazanmak için",
+                            "text": "To gain fame",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Rekabet için",
+                            "text": "For competition",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Siber güvenlik alanı sürekli değiştiği için etik hackerlar güncel kalmak zorundadır. Yeni tehditler ve teknikler sürekli ortaya çıkar."
+                    "explanation": "Because the cybersecurity field is constantly changing, ethical hackers must stay current. New threats and techniques are constantly emerging."
                 },
                 {
                     "id": "12",
-                    "title": "Soru 9: Kevin Mitnick",
-                    "content": "[Quiz Sayfası: Soru 9: Kevin Mitnick]",
+                    "title": "Question 9: Kevin Mitnick",
+                    "content": "[Quiz Page: Question 9: Kevin Mitnick]",
                     "type": "quiz",
-                    "question": "Kevin Mitnick bugün ne yapmaktadır?",
+                    "question": "What does Kevin Mitnick do today?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Hala hack yapmaya devam ediyor",
+                            "text": "He still continues to hack",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Güvenlik danışmanı olarak çalışıyor",
+                            "text": "He works as a security consultant",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Hapiste",
+                            "text": "In prison",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Emekli",
+                            "text": "Retired",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Kevin Mitnick cezasını tamamladıktan sonra etik hacking alanında uzmanlaştı ve bugün güvenlik danışmanı olarak çalışmaktadır."
+                    "explanation": "After completing his sentence, Kevin Mitnick specialized in ethical hacking and today works as a security consultant."
                 },
                 {
                     "id": "13",
-                    "title": "Soru 10: WannaCry",
-                    "content": "[Quiz Sayfası: Soru 10: WannaCry]",
+                    "title": "Question 10: WannaCry",
+                    "content": "[Quiz Page: Question 10: WannaCry]",
                     "type": "quiz",
-                    "question": "WannaCry saldırısı hangi yılda gerçekleşti?",
+                    "question": "In which year did the WannaCry attack occur?",
                     "options": [
                         {
                             "id": "A",
@@ -745,7 +745,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "WannaCry ransomware saldırısı 2017 yılında gerçekleşti ve 150'den fazla ülkede 300.000'den fazla bilgisayarı etkiledi."
+                    "explanation": "The WannaCry ransomware attack occurred in 2017 and affected more than 300,000 computers in over 150 countries."
                 }
             ]
         }
