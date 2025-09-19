@@ -20,7 +20,12 @@
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabEthickHacking.png",
                         "title": "Etik Hacking"
-                    }
+                    },
+                    "learning_objectives": [
+                        "Etik hacking kavramını anlama",
+                        "Etik hackerların rolünü kavrama",
+                        "Yasal ve etik sınırları öğrenme"
+                    ]
                 },
                 {
                     "id": "2",
@@ -59,7 +64,19 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır."
+                    "explanation": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır.",
+                    "difficulty": "easy",
+                    "points": 10
+                },
+                {
+                    "id": "5",
+                    "title": "Hacking Türleri Özeti",
+                    "content": "Hacking türlerini özetleyelim:\n\n• Beyaz Şapka Hacking: Yasal ve etik hacking. Güvenlik testleri için yasal izinlerle çalışır.\n\n• Siyah Şapka Hacking: Yasa dışı ve zararlı hacking. Sistemlere izinsiz erişim sağlar ve zarar verir.\n\n• Gri Şapka Hacking: Belirsiz durum. Bazen yasal bazen yasa dışı faaliyetlerde bulunur.\n\nBu türler arasındaki temel fark, yasal izinlerin varlığı ve amaçların etik olup olmamasıdır.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabHacking.png",
+                        "title": "Hacking Türleri Özeti"
+                    }
                 }
             ]
         },
@@ -238,6 +255,24 @@
                 },
                 {
                     "id": "4",
+                    "title": "Vaka Analizi: Sony PlayStation Saldırısı",
+                    "type": "case_study",
+                    "content": "2011 yılında Sony'nin PlayStation Network'una yapılan saldırı, 77 milyon kullanıcının kişisel bilgilerinin çalınmasına neden oldu. Bu olay, etik hacking ve kötü niyetli hacking arasındaki farkı net bir şekilde gösterir.",
+                    "case_details": {
+                        "date": "2011",
+                        "target": "Sony PlayStation Network",
+                        "impact": "77 milyon kullanıcı etkilendi",
+                        "damage": "1.2 milyar dolar zarar",
+                        "lesson": "Güvenlik önlemlerinin önemi"
+                    },
+                    "learning_objectives": [
+                        "Sosyal mühendislik tekniklerini anlama",
+                        "Kurumsal güvenlik açıklarını tespit etme",
+                        "Saldırı sonrası müdahale süreçlerini öğrenme"
+                    ]
+                },
+                {
+                    "id": "5",
                     "title": "Quiz: Hacking Avantaj ve Dezavantajları",
                     "content": "[Quiz Sayfası: Quiz: Hacking Avantaj ve Dezavantajları]",
                     "type": "quiz",
@@ -342,87 +377,273 @@
             "pages": [
                 {
                     "id": "1",
-                    "title": "Tarihte Ünlü Etik Hacking Olayları",
-                    "content": "Tarih boyunca birçok önemli etik hacking olayı yaşanmıştır. Bu olaylar, siber güvenlik alanının gelişmesine ve güvenlik standartlarının oluşmasına katkıda bulunmuştur. Bu dersimizde en önemli etik hacking olaylarını inceleyeceğiz."
+                    "title": "Etik Hackerın Temel Rolleri",
+                    "content": "Etik hackerlar, organizasyonların siber güvenlik durumunu değerlendiren profesyonellerdir. Sistemlerin güvenlik açıklarını tespit eder, penetrasyon testleri yapar ve güvenlik önerileri sunarlar. Amaçları sistemleri korumak ve güvenliği artırmaktır.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabEthicHacker.png",
+                        "title": "Etik Hacker Rolleri"
+                    }
                 },
                 {
                     "id": "2",
-                    "title": "Kevin Mitnick - En Ünlü Hacker",
-                    "content": "Kevin Mitnick, 1990'larda dünyanın en çok aranan hackerıydı. Telefon sistemlerini hackleyerek ücretsiz arama yapabiliyordu. 1995'te yakalandıktan sonra, cezasını tamamladı ve etik hacking alanında uzmanlaştı. Bugün güvenlik danışmanı olarak çalışmaktadır.",
+                    "title": "Etik Hackerın Sorumlulukları",
+                    "content": "Etik hackerların temel sorumlulukları: Yasal izinlerle çalışmak, gizlilik kurallarına uymak, buldukları açıkları sorumlu bir şekilde bildirmek, zarar verme amacı gütmemek ve tüm faaliyetlerini şeffaf bir şekilde raporlamaktır.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabKevin.png",
-                        "title": "Kevin Mitnick"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabResponsibility.png",
+                        "title": "Etik Sorumluluklar"
                     }
                 },
                 {
                     "id": "3",
-                    "title": "Anonymous - Hacktivist Grup",
-                    "content": "Anonymous, 2003'te kurulan hacktivist bir gruptur. WikiLeaks'i desteklemek, sansürü protesto etmek ve sosyal adalet için çalışmaktadır. Sony, MasterCard ve Visa gibi büyük şirketlere saldırılar düzenlemiştir. Grup, etik hacking ve hacktivizm arasındaki çizgiyi tartışmaya açmıştır.",
+                    "title": "Etik Kurallar ve Prensipler",
+                    "content": "Etik hackerlar şu prensiplere uymalıdır: Yasal yetki almadan test yapmamak, buldukları açıkları kötüye kullanmamak, müşteri bilgilerini korumak, sürekli kendilerini geliştirmek ve mesleki etik kurallara uymak.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabAnonymous.png",
-                        "title": "Anonymous"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabEthics.png",
+                        "title": "Etik Prensipler"
                     }
                 },
                 {
                     "id": "4",
-                    "title": "Stuxnet - Siber Silah",
-                    "content": "Stuxnet, 2010'da İran'ın nükleer tesislerini hedef alan bir siber silahtı. İlk kez endüstriyel kontrol sistemlerini hedef alan malware olarak tarihe geçti. Bu olay, siber savaşın gerçekliğini ve kritik altyapıların güvenlik açıklarını gösterdi.",
+                    "title": "Mesleki Gelişim ve Sertifikasyon",
+                    "content": "Etik hackerlar sürekli kendilerini geliştirmelidir. CEH, OSCP, CISSP gibi sertifikalar alabilirler. Yeni teknolojileri öğrenmeli, konferanslara katılmalı ve meslektaşlarıyla bilgi paylaşımında bulunmalıdırlar.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/Stuxnet.jpg",
-                        "title": "STUXnet"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabCertification.png",
+                        "title": "Sertifikasyon"
                     }
                 },
                 {
                     "id": "5",
-                    "title": "WannaCry - Küresel Saldırı",
-                    "content": "2017'de WannaCry ransomware saldırısı, 150'den fazla ülkede 300.000'den fazla bilgisayarı etkiledi. NHS (İngiliz Sağlık Sistemi) dahil birçok kurum etkilendi. Bu saldırı, güvenlik güncellemelerinin önemini ve etik hackerların değerini gösterdi.",
-                    "media": {
-                        "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabWannaCry.jpeg",
-                        "title": "WannaCry"
-                    }
-                },
-                {
-                    "id": "6",
-                    "title": "Quiz: Tarihte Ünlü Hacking Olayları",
-                    "content": "[Quiz Sayfası: Quiz: Tarihte Ünlü Hacking Olayları]",
+                    "title": "Quiz: Etik Hacker Sorumlulukları",
                     "type": "quiz",
-                    "question": "Hangi olay endüstriyel kontrol sistemlerini hedef alan ilk siber silah olarak bilinir?",
+                    "question": "Etik hackerın en önemli sorumluluğu nedir?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "WannaCry",
+                            "text": "Sistemlere zarar vermek",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Anonymous saldırıları",
-                            "isCorrect": false
+                            "text": "Yasal izinlerle çalışmak",
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Kevin Mitnick olayları",
+                            "text": "Veri çalmak",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Stuxnet",
-                            "isCorrect": true
+                            "text": "Gizli kalmak",
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "Stuxnet, 2010'da İran'ın nükleer tesislerini hedef alan ve endüstriyel kontrol sistemlerini etkileyen ilk siber silah olarak tarihe geçmiştir."
+                    "explanation": "Etik hackerın en önemli sorumluluğu yasal izinlerle çalışmaktır. İzinsiz güvenlik testi yapmak yasa dışıdır."
                 }
             ]
         },
         {
             "id": "1_7",
-            "title": "7. Test ve Değerlendirme",
+            "title": "7. Etik Hacking Araçları ve Teknolojileri",
+            "duration": "20 dk",
+            "color": "#9b59b6",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Etik hacking için kullanılan temel araçları ve teknolojileri tanı",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Kali Linux ve Temel Araçlar",
+                    "content": "Kali Linux, etik hacking için özel olarak tasarlanmış bir Linux dağıtımıdır. 600'den fazla penetrasyon testi aracı içerir. Nmap, Wireshark, Metasploit, Burp Suite gibi popüler araçlar önceden yüklenmiş olarak gelir.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabKali.png",
+                        "title": "Kali Linux"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Nmap ve Port Tarama",
+                    "content": "Nmap (Network Mapper), ağ keşfi ve güvenlik taraması için kullanılan güçlü bir araçtır. Hedef sistemlerin açık portlarını, çalışan servisleri ve işletim sistemlerini tespit eder. Etik hacking sürecinin vazgeçilmez aracıdır.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabNmap.png",
+                        "title": "Nmap"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Wireshark ve Ağ Analizi",
+                    "content": "Wireshark, ağ trafiğini gerçek zamanlı olarak analiz eden bir protokol analizörüdür. Paket yakalama, filtreleme ve analiz özellikleri ile ağ güvenliği testlerinde kritik rol oynar.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabWireshark.png",
+                        "title": "Wireshark"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Metasploit Framework",
+                    "content": "Metasploit, penetrasyon testleri için kullanılan en popüler framework'tür. Exploit geliştirme, payload oluşturma ve post-exploitation aşamalarında kullanılır. Hem komut satırı hem de grafik arayüzü sunar.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabMetasploit.png",
+                        "title": "Metasploit"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Burp Suite ve Web Güvenliği",
+                    "content": "Burp Suite, web uygulama güvenlik testleri için kullanılan profesyonel bir araçtır. Proxy, scanner, intruder ve repeater modülleri ile web uygulamalarındaki güvenlik açıklarını tespit eder.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabBurp.png",
+                        "title": "Burp Suite"
+                    }
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Etik Hacking Araçları",
+                    "type": "quiz",
+                    "question": "Hangi araç ağ trafiğini analiz etmek için kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Nmap",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Wireshark",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Metasploit",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Burp Suite",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Wireshark, ağ trafiğini gerçek zamanlı olarak analiz eden bir protokol analizörüdür."
+                }
+            ]
+        },
+        {
+            "id": "1_8",
+            "title": "8. Pratik Uygulama: Temel Güvenlik Testi",
+            "duration": "25 dk",
+            "color": "#e67e22",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Güvenli bir ortamda temel güvenlik testi yapma",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Lab Ortamı Hazırlığı",
+                    "content": "Güvenli test ortamı kurmak için VirtualBox veya VMware kullanarak sanal makineler oluşturuyoruz. Metasploitable, DVWA (Damn Vulnerable Web Application) gibi özel olarak güvenlik açıkları içeren sistemler kullanırız.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabLab.png",
+                        "title": "Lab Ortamı"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Hedef Keşfi ve Bilgi Toplama",
+                    "content": "İlk adım olarak hedef sistem hakkında bilgi topluyoruz. Google dorking, sosyal medya araştırması, whois sorguları ve DNS kayıtları gibi pasif bilgi toplama tekniklerini kullanırız.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabRecon.png",
+                        "title": "Bilgi Toplama"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Port Tarama ve Servis Keşfi",
+                    "content": "Nmap ile hedef sistemin açık portlarını ve çalışan servislerini tespit ediyoruz. TCP SYN scan, UDP scan ve servis versiyon tespiti gibi farklı tarama tekniklerini uyguluyoruz.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabScan.png",
+                        "title": "Port Tarama"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Güvenlik Açığı Tespiti",
+                    "content": "Nessus, OpenVAS veya Nikto gibi araçlarla hedef sistemdeki güvenlik açıklarını tespit ediyoruz. CVE veritabanından bilinen açıkları kontrol ediyor ve risk seviyelerini değerlendiriyoruz.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabVuln.png",
+                        "title": "Güvenlik Açığı Tespiti"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Exploit Geliştirme ve Test",
+                    "content": "Tespit edilen güvenlik açıklarını exploit etmek için Metasploit kullanıyoruz. Payload oluşturuyor, reverse shell bağlantıları kuruyor ve sistem erişimi sağlıyoruz. Tüm işlemler güvenli lab ortamında yapılır.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabExploit.png",
+                        "title": "Exploit Testi"
+                    }
+                },
+                {
+                    "id": "6",
+                    "title": "Raporlama ve Öneriler",
+                    "content": "Test sonuçlarını detaylı bir rapor halinde sunuyoruz. Bulunan açıkları, risk seviyelerini, exploit edilebilirlik durumunu ve çözüm önerilerini içeren profesyonel bir rapor hazırlıyoruz.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabReport.png",
+                        "title": "Raporlama"
+                    }
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Pratik Uygulama",
+                    "type": "quiz",
+                    "question": "Güvenlik testi yaparken ilk adım nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Exploit geliştirme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Bilgi toplama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Port tarama",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Raporlama",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Güvenlik testinin ilk adımı bilgi toplamadır. Hedef hakkında mümkün olduğunca çok bilgi toplamak başarılı bir test için kritiktir."
+                }
+            ]
+        },
+        {
+            "id": "1_9",
+            "title": "9. Test ve Değerlendirme",
             "duration": "15 dk",
             "color": "#ff6b35",
-            "documents": 13,
+            "documents": 15,
             "isCompleted": false,
             "isActive": false,
             "description": "Etik Hacking'e Giriş kategorisinin kapsamlı testi",
@@ -746,6 +967,66 @@
                         }
                     ],
                     "explanation": "WannaCry ransomware saldırısı 2017 yılında gerçekleşti ve 150'den fazla ülkede 300.000'den fazla bilgisayarı etkiledi."
+                },
+                {
+                    "id": "14",
+                    "title": "Soru 11: Etik Hacking Araçları",
+                    "content": "[Quiz Sayfası: Soru 11: Etik Hacking Araçları]",
+                    "type": "quiz",
+                    "question": "Hangi araç ağ trafiğini analiz etmek için kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Nmap",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Wireshark",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Metasploit",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Burp Suite",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Wireshark, ağ trafiğini gerçek zamanlı olarak analiz eden bir protokol analizörüdür."
+                },
+                {
+                    "id": "15",
+                    "title": "Soru 12: Pratik Uygulama",
+                    "content": "[Quiz Sayfası: Soru 12: Pratik Uygulama]",
+                    "type": "quiz",
+                    "question": "Güvenlik testi yaparken ilk adım nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Exploit geliştirme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Bilgi toplama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Port tarama",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Raporlama",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Güvenlik testinin ilk adımı bilgi toplamadır. Hedef hakkında mümkün olduğunca çok bilgi toplamak başarılı bir test için kritiktir."
                 }
             ]
         }
