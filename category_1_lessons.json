@@ -7,7 +7,7 @@
             "title": "1. Etik Hacking Nedir",
             "duration": "12 dk",
             "color": "#ff6b35",
-            "documents": 4,
+            "documents": 5,
             "isCompleted": false,
             "isActive": true,
             "description": "Etik hacking kavramını ve temel prensiplerini öğren",
@@ -15,31 +15,27 @@
                 {
                     "id": "1",
                     "title": "Etik Hacking Nedir?",
-                    "content": "Etik hacking, sistemlerin güvenlik açıklarını tespit etmek ve güvenliği artırmak amacıyla yapılan yasal ve etik hacking faaliyetleridir. Etik hackerlar, kötü niyetli saldırganların kullandığı teknikleri öğrenerek sistemleri korumaya yardımcı olur.",
+                    "content": "Etik hacking, bir sistemin güvenlik açıklarını tespit ederek güvenliği artırmak için yapılan yasal ve etik çalışmalar bütünüdür.\r\nEtik hacker’lar, kötü niyetli saldırganların kullandığı yöntemleri öğrenip aynı teknikleri savunma amaçlı kullanarak sistemleri korumaya yardımcı olurlar.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabEthickHacking.png",
                         "title": "Etik Hacking"
-                    },
-                    "learning_objectives": [
-                        "Etik hacking kavramını anlama",
-                        "Etik hackerların rolünü kavrama",
-                        "Yasal ve etik sınırları öğrenme"
-                    ]
+                    }
                 },
                 {
                     "id": "2",
                     "title": "Etik Hacking'in Amacı",
-                    "content": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır. Bu sayede gerçek saldırganlar sistemlere zarar vermeden önce güvenlik önlemleri alınabilir."
+                    "content": "Etik hacking’in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve kapatmaktır.\r\nBöylece, kötü niyetli saldırganlar sisteme zarar vermeden önce gerekli önlemler alınabilir."
                 },
                 {
                     "id": "3",
                     "title": "Etik Hacking Süreci",
-                    "content": "Etik hacking süreci şu aşamalardan oluşur: Planlama ve İzin Alma, Keşif ve Bilgi Toplama, Güvenlik Açığı Analizi, Penetrasyon Testi, Raporlama ve Öneriler."
+                    "content": "Etik hacking süreci genellikle şu aşamalardan oluşur:\r\n\r\n1.Planlama ve İzin Alma – Testler için gerekli izinlerin alınması\r\n\r\n2.Keşif ve Bilgi Toplama – Sistem hakkında bilgi edinme\r\n\r\n3.Güvenlik Açığı Analizi – Açıkların belirlenmesi\r\n\r\n4.Penetrasyon Testi – Açıkların istismar edilerek test edilmesi\r\n\r\n5.Raporlama ve Öneriler – Bulguların raporlanması ve çözüm önerilerinin sunulması"
                 },
                 {
                     "id": "4",
                     "title": "Quiz: Etik Hacking Temel Bilgiler",
+                    "content": "Etik hacking'in temel amacı nedir?",
                     "type": "quiz",
                     "question": "Etik hacking'in temel amacı nedir?",
                     "options": [
@@ -64,14 +60,12 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır.",
-                    "difficulty": "easy",
-                    "points": 10
+                    "explanation": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır."
                 },
                 {
                     "id": "5",
                     "title": "Hacking Türleri Özeti",
-                    "content": "Hacking türlerini özetleyelim:\n\n• Beyaz Şapka Hacking: Yasal ve etik hacking. Güvenlik testleri için yasal izinlerle çalışır.\n\n• Siyah Şapka Hacking: Yasa dışı ve zararlı hacking. Sistemlere izinsiz erişim sağlar ve zarar verir.\n\n• Gri Şapka Hacking: Belirsiz durum. Bazen yasal bazen yasa dışı faaliyetlerde bulunur.\n\nBu türler arasındaki temel fark, yasal izinlerin varlığı ve amaçların etik olup olmamasıdır.",
+                    "content": "Hacking türlerini özetleyelim:\r\n\r\nBeyaz Şapka (White Hat): Yasal ve etik hacking. Güvenlik testleri için izin alınarak yapılır.\r\n\r\nSiyah Şapka (Black Hat): Yasa dışı ve zararlı hacking. Sistemlere izinsiz giriş yapılır, zarar verilir.\r\n\r\nGri Şapka (Grey Hat): Arada kalan durum. Bazı eylemler yasal olabilirken bazıları yasa dışıdır.\r\n\r\n👉 Bu türler arasındaki en büyük fark, yasal izinlerin varlığı ve amacın etik olup olmamasıdır.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabHacking.png",
@@ -228,7 +222,7 @@
             "title": "4. Hacking'in Avantajları ve Dezavantajları",
             "duration": "8 dk",
             "color": "#00ff88",
-            "documents": 4,
+            "documents": 5,
             "isCompleted": false,
             "isActive": false,
             "description": "Hacking'in olumlu ve olumsuz yönlerini analiz et",
