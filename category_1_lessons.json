@@ -87,7 +87,7 @@
                 {
                     "id": "1",
                     "title": "Hacking Türleri",
-                    "content": "Hacking, farklı amaçlara ve motivasyonlara göre çeşitli türlere ayrılır. Her türün kendine özgü özellikleri ve riskleri vardır.",
+                    "content": "Hacking, amaç ve motivasyona göre farklı türlere ayrılır.\r\nHer türün kendine özgü yöntemleri, avantajları ve riskleri vardır.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabHacking.png",
@@ -97,7 +97,7 @@
                 {
                     "id": "2",
                     "title": "Siyah Şapka Hacking",
-                    "content": "Siyah şapka hackerlar, sistemlere izinsiz erişim sağlayarak zarar verir. Bu tür hacking yasa dışıdır ve kötü niyetli amaçlarla yapılır. Veri çalma, sistem kapatma ve finansal zarar verme gibi faaliyetler içerir.",
+                    "content": "Siyah şapka hacker'lar, sistemlere izinsiz erişim sağlayarak zarar verirler.\r\nBu tür hacking tamamen yasa dışıdır ve kötü niyetli amaçlarla yapılır.\r\n👉 Örnek faaliyetler: veri çalmak, sistemleri kapatmak, finansal zarara yol açmak.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabSiyah.png",
@@ -107,7 +107,7 @@
                 {
                     "id": "3",
                     "title": "Beyaz Şapka Hacking",
-                    "content": "Beyaz şapka hackerlar, etik hacking yapan güvenlik uzmanlarıdır. Sistemlerin güvenliğini test etmek için yasal izinlerle çalışırlar. Güvenlik açıklarını tespit ederek sistemleri korumaya yardımcı olurlar.",
+                    "content": "Beyaz şapka hacker'lar, etik hacking yapan güvenlik uzmanlarıdır.\r\nYasal izinlerle çalışarak sistemlerin güvenliğini test ederler.\r\nAmaçları, güvenlik açıklarını tespit edip sistemi korumaktır.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabWhite.png",
@@ -117,7 +117,7 @@
                 {
                     "id": "4",
                     "title": "Gri Şapka Hacking",
-                    "content": "Gri şapka hackerlar, bazen yasal bazen yasa dışı faaliyetlerde bulunur. Sistemlere izinsiz erişim sağlayabilir ancak genellikle zarar verme amacı gütmez. Güvenlik açıklarını bulduklarında sistem yöneticilerine bildirirler.",
+                    "content": "Gri şapka hacker'lar, bazen yasal, bazen yasa dışı faaliyetlerde bulunabilirler.\r\nSistemlere izinsiz erişim sağlayabilirler ama genellikle zarar verme niyetinde olmazlar.\r\nÇoğu zaman buldukları açıkları sistem sahiplerine bildirirler.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabGri.png",
@@ -127,6 +127,7 @@
                 {
                     "id": "5",
                     "title": "Quiz: Hacking Türleri",
+                    "content": "Soru: Hangi hacking türü yasa dışıdır?",
                     "type": "quiz",
                     "question": "Hangi hacking türü yasa dışıdır?",
                     "options": [
@@ -151,7 +152,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Siyah şapka hacking yasa dışıdır ve kötü niyetli amaçlarla yapılır. Sistemlere zarar verme, veri çalma gibi faaliyetler içerir."
+                    "explanation": "Siyah şapka hacking yasa dışıdır ve kötü niyetli amaçlarla yapılır.\r\nÖrnek: sistemlere zarar vermek, veri çalmak, finansal kayıp oluşturmak."
                 }
             ]
         },
@@ -160,7 +161,7 @@
             "title": "3. Hacker Türleri",
             "duration": "10 dk",
             "color": "#8b5cf6",
-            "documents": 4,
+            "documents": 6,
             "isCompleted": false,
             "isActive": false,
             "description": "Farklı hacker türlerini ve özelliklerini tanı",
@@ -168,7 +169,7 @@
                 {
                     "id": "1",
                     "title": "Hacker Türleri",
-                    "content": "Hackerlar, motivasyonlarına, becerilerine ve amaçlarına göre farklı kategorilere ayrılır. Her türün kendine özgü özellikleri ve davranış kalıpları vardır.",
+                    "content": "Hackerlar, motivasyonları, becerileri ve hedeflerine göre çeşitli kategorilere ayrılır.\r\nHer hacker türünün kendine özgü davranış kalıpları, yöntemleri ve niyetleri vardır.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabTurler.png",
@@ -178,19 +179,29 @@
                 {
                     "id": "2",
                     "title": "Script Kiddie",
-                    "content": "Script kiddie'ler, hazır araçları ve scriptleri kullanarak hacking yapan kişilerdir. Derin teknik bilgiye sahip değillerdir ve genellikle eğlence amaçlı faaliyet gösterirler. Sosyal medyada ün kazanmak için saldırılar düzenleyebilirler."
+                    "content": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar.\r\nDerin teknik bilgiye sahip değillerdir.\r\nGenellikle eğlence, merak veya sosyal medyada dikkat çekmek için saldırılar düzenlerler.\r\nÇoğu zaman gösteriş için hareket ederler, ciddi zarar verme niyetinde değillerdir."
                 },
                 {
                     "id": "3",
                     "title": "Profesyonel Hacker",
-                    "content": "Profesyonel hackerlar, yüksek teknik beceriye sahip uzmanlardır. Güvenlik şirketlerinde, devlet kurumlarında veya bağımsız olarak çalışırlar. Etik hacking, penetrasyon testi ve güvenlik araştırmaları yaparlar."
+                    "content": "Profesyonel hackerlar yüksek teknik beceriye sahip uzman kişilerdir.\r\nGüvenlik şirketlerinde, devlet kurumlarında veya bağımsız olarak çalışabilirler.\r\nEtik hacking, penetrasyon testi, güvenlik araştırması ve savunma odaklı faaliyetler yürütürler.\r\nSistemleri daha güvenli hale getirmek için çalışırlar."
                 },
                 {
                     "id": "4",
+                    "title": "Hacktivist",
+                    "content": "Hacktivistler siyasi, ideolojik veya sosyal bir amaç için hacking yapan kişilerdir.\r\nGenellikle devlet kurumları, büyük şirketler veya kamuoyunun dikkatini çeken organizasyonları hedef alırlar.\r\nHedefleri genellikle mesaj iletmek, farkındalık yaratmak veya protesto etmektir."
+                },
+                {
+                    "id": "5",
+                    "title": "İçeriden Tehdit (Insider)",
+                    "content": "İçeriden hackerler çalıştıkları kurumun sistemlerine zarar veren veya bilgi sızdıran kişilerdir.\r\nYetkilerini kötüye kullanarak sisteme erişim sağlarlar.\r\nMotivasyonları maddi kazanç, intikam veya kişisel çıkar olabilir."
+                },
+                {
+                    "id": "6",
                     "title": "Quiz: Hacker Türleri",
-                    "content": "[Quiz Sayfası: Quiz: Hacker Türleri]",
+                    "content": "Soru: Script kiddie'lerin temel özelliği nedir?",
                     "type": "quiz",
-                    "question": "Script kiddie'lerin özelliği nedir?",
+                    "question": "Script kiddie'lerin temel özelliği nedir?",
                     "options": [
                         {
                             "id": "A",
@@ -213,7 +224,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar. Derin teknik bilgiye sahip değillerdir."
+                    "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar.\r\nDerin teknik bilgiye sahip değillerdir."
                 }
             ]
         },
@@ -222,7 +233,7 @@
             "title": "4. Hacking'in Avantajları ve Dezavantajları",
             "duration": "8 dk",
             "color": "#00ff88",
-            "documents": 5,
+            "documents": 8,
             "isCompleted": false,
             "isActive": false,
             "description": "Hacking'in olumlu ve olumsuz yönlerini analiz et",
@@ -230,7 +241,7 @@
                 {
                     "id": "1",
                     "title": "Hacking'in Avantajları",
-                    "content": "Etik hacking, sistem güvenliğini artırır, güvenlik açıklarını tespit eder ve organizasyonları korur. Güvenlik uzmanlarının becerilerini geliştirmesine yardımcı olur ve siber güvenlik alanında kariyer fırsatları sunar.",
+                    "content": "• Etik hacking sistem güvenliğini artırır.\r\n• Güvenlik açıklarını tespit ederek organizasyonları korur.\r\n• Güvenlik uzmanlarının becerilerini geliştirmesine yardımcı olur.\r\n• Siber güvenlik alanında kariyer fırsatları sunar.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
@@ -240,35 +251,37 @@
                 {
                     "id": "2",
                     "title": "Hacking'in Dezavantajları",
-                    "content": "Kötü niyetli hacking, sistemlere zarar verir, veri kaybına neden olur ve yasal sorunlara yol açar. Kişisel bilgilerin çalınmasına, finansal zararlara ve itibar kaybına neden olabilir."
+                    "content": "• Kötü niyetli hacking sistemlere zarar verir.\r\n• Veri kaybına ve bilgi hırsızlığına yol açar.\r\n• Finansal zarar ve itibar kaybına neden olabilir.\r\n• Yasal sorunlara yol açar."
                 },
                 {
                     "id": "3",
                     "title": "Etik Kurallar",
-                    "content": "Etik hacking yaparken mutlaka yasal izinler alınmalı, gizlilik kurallarına uyulmalı ve zarar verme amacı güdülmemelidir. Tüm faaliyetler şeffaf ve hesap verebilir olmalıdır."
+                    "content": "Etik hacking yaparken dikkat edilmesi gerekenler:\r\n• Mutlaka yasal izin alınmalıdır.\r\n• Gizlilik kurallarına uyulmalıdır.\r\n• Zarar verme amacı güdülmemelidir.\r\n• Tüm faaliyetler şeffaf ve hesap verebilir olmalıdır."
                 },
                 {
                     "id": "4",
-                    "title": "Vaka Analizi: Sony PlayStation Saldırısı",
-                    "type": "case_study",
-                    "content": "2011 yılında Sony'nin PlayStation Network'una yapılan saldırı, 77 milyon kullanıcının kişisel bilgilerinin çalınmasına neden oldu. Bu olay, etik hacking ve kötü niyetli hacking arasındaki farkı net bir şekilde gösterir.",
-                    "case_details": {
-                        "date": "2011",
-                        "target": "Sony PlayStation Network",
-                        "impact": "77 milyon kullanıcı etkilendi",
-                        "damage": "1.2 milyar dolar zarar",
-                        "lesson": "Güvenlik önlemlerinin önemi"
-                    },
-                    "learning_objectives": [
-                        "Sosyal mühendislik tekniklerini anlama",
-                        "Kurumsal güvenlik açıklarını tespit etme",
-                        "Saldırı sonrası müdahale süreçlerini öğrenme"
-                    ]
+                    "title": "Avantaj - Güvenlik Geliştirme",
+                    "content": "Etik hackerların çalışmaları sayesinde şirketler daha güçlü firewall'lar ve koruma sistemleri geliştirir. Bu sayede saldırılar önceden engellenebilir."
                 },
                 {
                     "id": "5",
+                    "title": "Dezavantaj - Suistimal Riski",
+                    "content": "Hacking bilgisi yanlış ellere geçtiğinde ciddi tehdit oluşturur. Profesyonel hackerların teknik bilgileri kötü niyetli kişiler tarafından kopyalanabilir."
+                },
+                {
+                    "id": "6",
+                    "title": "Vaka Analizi - Sony PlayStation Saldırısı (2011)",
+                    "content": "• 77 milyon kullanıcının kişisel bilgileri çalındı.\r\n• Sistem haftalarca çevrimdışı kaldı.\r\n• Sony milyonlarca dolar zarar gördü.\r\n• Bu olay etik hacking ile kötü niyetli hacking arasındaki farkı net bir şekilde gösterir."
+                },
+                {
+                    "id": "7",
+                    "title": "Vaka Analizi - Yahoo Veri İhlali (2013-2014)",
+                    "content": "• 3 milyardan fazla kullanıcı hesabı etkilendi.\r\n• Kullanıcıların e-postaları ve şifreleri ele geçirildi.\r\n• Tarihteki en büyük veri ihlallerinden biri olarak kayıtlara geçti."
+                },
+                {
+                    "id": "8",
                     "title": "Quiz: Hacking Avantaj ve Dezavantajları",
-                    "content": "[Quiz Sayfası: Quiz: Hacking Avantaj ve Dezavantajları]",
+                    "content": "Soru: Etik hacking'in en önemli avantajı nedir?",
                     "type": "quiz",
                     "question": "Etik hacking'in en önemli avantajı nedir?",
                     "options": [
@@ -293,7 +306,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking'in en önemli avantajı, sistemlerdeki güvenlik açıklarını tespit ederek güvenliği artırmaktır."
+                    "explanation": "Etik hacking'in en büyük avantajı güvenlik açıklarını tespit edip kapatarak sistemi daha güvenli hale getirmektir."
                 }
             ]
         },
@@ -302,7 +315,7 @@
             "title": "5. Tarihte Ünlü Etik Hacking Olayları",
             "duration": "18 dk",
             "color": "#e74c3c",
-            "documents": 6,
+            "documents": 8,
             "isCompleted": false,
             "isActive": false,
             "description": "Tarihte önemli etik hacking olaylarını ve etkilerini öğren",
