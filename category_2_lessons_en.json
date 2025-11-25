@@ -1,75 +1,65 @@
 {
     "categoryId": "2",
-    "categoryTitle": "2. Web Application Security",
+    "categoryTitle": "2. Computer Security Threats",
     "lessons": [
         {
             "id": "2_1",
-            "title": "1. Web Application Security Fundamentals",
-            "duration": "20 min",
-            "color": "#4A90E2",
-            "documents": 6,
+            "title": "1. Types of Malware",
+            "duration": "12 min",
+            "color": "#3498db",
+            "documents": 5,
             "isCompleted": false,
             "isActive": true,
-            "description": "Learn the basics of web application security and common vulnerabilities",
+            "description": "Learn about different types of malware in detail, discover their characteristics and how they work",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Web Application Security Overview",
-                    "content": "Web application security is the process of protecting websites and web applications from various security threats. It involves identifying, preventing, and responding to security vulnerabilities in web applications.",
-                    "media": {
-                        "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/WebSecurity.png",
-                        "title": "Web Application Security"
-                    }
+                    "title": "What is Malware?",
+                    "content": "Malware is software designed to harm computer systems, networks, and users, gain unauthorized access, or steal data.\r\n\r\nBasic Features:\r\n• Operates covertly to avoid detection\r\n• Replicates and spreads itself\r\n• Damages systems and data\r\n• Provides remote access\r\n• Encrypts, corrupts, or steals data\r\n\r\nCurrently, millions of new malware variants are created daily, making them one of the most effective weapons for cybercriminals."
                 },
                 {
                     "id": "2",
-                    "title": "Common Web Vulnerabilities",
-                    "content": "The most common web vulnerabilities include SQL Injection, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and Insecure Direct Object References. Understanding these vulnerabilities is crucial for web security."
+                    "title": "Virus",
+                    "content": "Viruses are malicious software that can copy themselves and infect other programs or documents, spreading like biological viruses.\r\n\r\nFeatures:\r\n• Self-replication and spreading\r\n• Infection of programs/files\r\n• System damage\r\n• Often hidden by file extensions\r\n\r\nTypes:\r\n• File viruses (.exe, .com)\r\n• Boot sector viruses (infects during computer startup)\r\n• Macro viruses (infects Word/Excel documents)\r\n• Multipartite viruses (multiple entry points)\r\n\r\nProtection:\r\n• Using antivirus software\r\n• Installing updates\r\n• Avoiding opening suspicious email attachments"
                 },
                 {
                     "id": "3",
-                    "title": "OWASP Top 10",
-                    "content": "The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications."
+                    "title": "Worm",
+                    "content": "Worms are malicious software that spreads across networks without user intervention, typically consuming system resources or causing severe damage.\r\n\r\nFeatures:\r\n• Self-replication and spreading\r\n• Consumption of network resources\r\n• Spreading via email and messages\r\n• Rapid infection\r\n\r\nFamous Examples:\r\n• Morris Worm (1988) - Infected 60,000 computers\r\n• MyDoom (2004) - Sent 1.9 billion emails\r\n• Conficker (2008) - Affected 15 million computers\r\n• WannaCry (2017) - Hit 200,000 systems in 150 countries\r\n\r\nProtection:\r\n• Security software\r\n• Network segmentation\r\n• Up-to-date patches"
                 },
                 {
                     "id": "4",
-                    "title": "Security Testing Methods",
-                    "content": "Web application security testing includes static analysis, dynamic analysis, penetration testing, and code review. Each method has its own advantages and should be used in combination."
+                    "title": "Trojan Horse and Ransomware",
+                    "content": "Trojan Horse is software that appears useful but performs malicious tasks in the background. Ransomware is a special type of Trojan Horse that encrypts user files and demands a ransom.\r\n\r\nTrojan Horse Features:\r\n• Appearing as useful\r\n• Stealing data by working secretly\r\n• Providing remote access\r\n• Installing other malware\r\n\r\nTypes:\r\n• Remote access\r\n• Encryption\r\n• Banking\r\n• Keylogger\r\n• Privacy violation\r\n\r\nRansomware Features:\r\n• Encrypting files\r\n• Demanding ransom\r\n• Selling decryption keys\r\n• Threatening the user\r\n\r\nProtection:\r\n• Antivirus software\r\n• Regular backups\r\n• Using up-to-date software"
                 },
                 {
                     "id": "5",
-                    "title": "Secure Development Lifecycle",
-                    "content": "Integrating security into the software development lifecycle helps prevent vulnerabilities from being introduced into applications. This includes security requirements, secure coding practices, and regular security testing."
-                },
-                {
-                    "id": "6",
-                    "title": "Quiz: Web Security Fundamentals",
+                    "title": "Quiz: Computer Security",
                     "type": "quiz",
-                    "question": "What does OWASP stand for?",
+                    "question": "Which type of malware spreads itself by copying itself over a network?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Open Web Application Security Project",
-                            "isCorrect": true
+                            "text": "Trojan Horse",
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Online Web Application Security Protocol",
+                            "text": "Virus",
                             "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Open Web Application Security Protocol",
-                            "isCorrect": false
+                            "text": "Worm",
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
-                            "text": "Online Web Application Security Project",
+                            "text": "Ransomware",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "OWASP stands for Open Web Application Security Project, a nonprofit foundation that works to improve software security."
+                    "explanation": "Worms spread over a network without user intervention and infect systems."
                 }
             ]
         },

@@ -10,12 +10,12 @@
             "documents": 5,
             "isCompleted": false,
             "isActive": true,
-            "description": "Etik hacking kavramını ve temel prensiplerini öğren",
+            "description": "Etik hacking'in amacı, süreci ve türlerini keşfet",
             "pages": [
                 {
                     "id": "1",
                     "title": "Etik Hacking Nedir?",
-                    "content": "Etik hacking, bir sistemin güvenlik açıklarını tespit ederek güvenliği artırmak için yapılan yasal ve etik çalışmalar bütünüdür.\r\nEtik hacker’lar, kötü niyetli saldırganların kullandığı yöntemleri öğrenip aynı teknikleri savunma amaçlı kullanarak sistemleri korumaya yardımcı olurlar.",
+                    "content": "Etik hacking, bir bilgisayar sisteminin, ağın veya uygulamanın güvenlik açıklarını tespit etmek ve bu açıkların kötü niyetli kişiler tarafından kullanılmasını engellemek amacıyla yapılan yasal ve kontrollü sızma testleri bütünüdür.\r\n\r\nBir etik hacker'ın temel görevi, kurumların dijital varlıklarını korumak için bir saldırgan gibi düşünmek, saldırganların kullandığı yöntemleri analiz etmek ve aynı teknikleri savunma amaçlı uygulamaktır. Böylece sistemi zayıf noktalar ortaya konur ve gerekli önlemler alınarak güvenlik seviyesi yükseltilir.\r\n\r\nEtik hacking faaliyetleri tamamen:\r\n\r\n✔ Yasal izinlerle,\r\n\r\n✔ Belirlenmiş kapsam içinde,\r\n\r\n✔ Belirli kurallara bağlı kalarak,\r\n\r\n✔ Profesyonel bir raporlama süreciyle\r\n\r\ngerçekleştirilir.\r\n\r\nBu süreç, kurumların siber tehditlere karşı daha dirençli olmasını sağlar ve güvenlik açıkları kötü niyetli saldırganlar tarafından keşfedilmeden önce tespit edilmesini mümkün kılar.\r\n\r\n💡 Gerçek Dünya Örneği:\r\nBir e-ticaret sitesi, etik hacker'lardan web sitesini test etmelerini ister. Etik hacker'lar güvenlik açıkları bulur, raporlar ve site bu açıkları kapatır. Sonuç: Müşteri verileri korunur ve site daha güvenli hale gelir. Bu sayede binlerce kullanıcının kişisel bilgileri ve kredi kartı verileri güvende kalır.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabEthickHacking.png",
@@ -25,52 +25,57 @@
                 {
                     "id": "2",
                     "title": "Etik Hacking'in Amacı",
-                    "content": "Etik hacking’in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve kapatmaktır.\r\nBöylece, kötü niyetli saldırganlar sisteme zarar vermeden önce gerekli önlemler alınabilir."
+                    "content": "Etik hacking’in temel amacı, kurumların bilgi sistemlerinde bulunan güvenlik açıklarını saldırganlardan önce keşfetmek ve bu açıkların istismar edilmesini engelleyecek çözümleri üretmektir. Bu yaklaşım, modern siber güvenlik stratejilerinin en kritik parçalarından biridir.\r\n\r\nBir etik hacker’ın çalışmaları sayesinde sistemlerde:\r\n\r\n🔹 Zayıf noktalar erken aşamada tespit edilir\r\n\r\nSistem mimarisi, yazılım bileşenleri ve ağ yapısı derinlemesine analiz edilerek gizli kalmış güvenlik açıkları ortaya çıkarılır.\r\n\r\nÖrnek: 2023'te bir banka, etik hacker'lar sayesinde kredi kartı bilgilerinin çalınmasını önledi. Açık tespit edildi ve kapatıldı, böylece binlerce müşterinin finansal verileri korundu.\r\n\r\n🔹 Açıkların oluşturacağı riskler değerlendirilir\r\n\r\nBu açıklardan yararlanılması durumunda oluşabilecek veri kaybı, yetki ele geçirme, servis dışı kalma gibi tehditler uzman bakış açısıyla incelenir.\r\n\r\nÖrnek: Bir e-ticaret sitesinde bulunan SQL Injection açığı, etik hacker tarafından tespit edildi. Risk analizi sonucu, bu açığın tüm müşteri veritabanına erişim sağlayabileceği belirlendi ve acil önlem alındı.\r\n\r\n🔹 Uygulanabilir çözümler geliştirilir\r\n\r\nTespit edilen her zafiyet için teknik iyileştirmeler, konfigürasyon düzenlemeleri veya güvenlik politikaları oluşturulur.\r\n\r\nÖrnek: Admin panelinde tespit edilen zayıf şifre sorunu için etik hacker, iki faktörlü doğrulama (2FA) ve güçlü şifre politikaları önerdi. Bu öneriler uygulandı ve güvenlik seviyesi %300 arttı.\r\n\r\n🔹 Kurumun güvenlik seviyesi yükseltilir\r\n\r\nAçıklar kapatıldıktan sonra sistem daha dayanıklı hâle gelir ve saldırganların başarı şansı büyük ölçüde azalır.\r\n\r\nÖrnek: Bir teknoloji şirketi, etik hacking testleri sonrası 15 kritik açık kapatıldı. Sonuç olarak, siber saldırılara karşı direnç %85 arttı ve şirket milyonlarca dolarlık potansiyel zarardan korundu.\r\n\r\nKısacası etik hacking, saldırı tekniklerini savunma amaçlı kullanarak kurumları siber tehditlere karşı bir adım öne geçirir."
                 },
                 {
                     "id": "3",
                     "title": "Etik Hacking Süreci",
-                    "content": "Etik hacking süreci genellikle şu aşamalardan oluşur:\r\n\r\n1.Planlama ve İzin Alma – Testler için gerekli izinlerin alınması\r\n\r\n2.Keşif ve Bilgi Toplama – Sistem hakkında bilgi edinme\r\n\r\n3.Güvenlik Açığı Analizi – Açıkların belirlenmesi\r\n\r\n4.Penetrasyon Testi – Açıkların istismar edilerek test edilmesi\r\n\r\n5.Raporlama ve Öneriler – Bulguların raporlanması ve çözüm önerilerinin sunulması"
+                    "content": "1. Planlama (1-2 hafta)\r\n\r\nTestin kapsamı, süresi, yöntemleri ve yasal sınırlar belirlenir. Tüm çalışmalar resmi izinler çerçevesinde yapılmalıdır.\r\n\r\nÖrnekler:\r\n• Şirketten yazılı \"penetrasyon testi izin belgesi\" alınması\r\n• Test edilecek sistemlerin (web sitesi, API, şirket ağı vb.) net şekilde belirlenmesi\r\n\r\n2. Keşif (1-3 gün)\r\n\r\nHedef sistem hakkında pasif ve aktif keşif yapılır. Bu bilgiler zafiyet analizi için temel oluşturur.\r\n\r\nÖrnekler:\r\n• WHOIS sorgusu ile domain sahibi bilgilerini öğrenmek\r\n• Nmap ile sunucuda 80, 443, 21 veya 22 gibi portların açık olup olmadığını tespit etmek\r\n\r\n3. Analiz (2-5 gün)\r\n\r\nToplanan bilgiler doğrultusunda sistemdeki potansiyel zafiyetler belirlenir. Yazılım sürümleri, açık portlar ve bilinen zafiyetler analiz edilir.\r\n\r\nÖrnekler:\r\n• Apache 2.4.49 sürümü tespit edilirse CVE‑2021‑41773 açığını test etmek\r\n• Varsayılan şifrelerle çalışan sistemleri tespit etmek\r\n\r\n4. Test (3-7 gün)\r\n\r\nBulunan açıklar kontrollü bir şekilde istismar edilir. Amaç, açıkların gerçekten kullanılabilir olup olmadığını doğrulamaktır.\r\n\r\nÖrnekler:\r\n• SQL Injection ile veritabanındaki kullanıcı bilgilerine ulaşmak\r\n• Admin panelini brute‑force saldırısıyla ele geçirmek\r\n• Reverse shell açarak sunucuda komut çalıştırmak\r\n\r\n5. Rapor (1 hafta)\r\n\r\nTespit edilen tüm açıklar profesyonel bir rapora aktarılır. Her açık için çözüm önerileri sunulur ve risk seviyeleri belirlenir.\r\n\r\nÖrnekler:\r\n• Admin paneli brute‑force saldırısına karşı savunmasız, 2FA eklenmeli.\r\n• SQL Injection açığı var; parametrik sorgular kullanılmalı.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://sibertim.com/wp-content/uploads/2024/04/1669263859932.jpeg",
+                        "title": "Etik Hacking Süreci"
+                    }
                 },
                 {
                     "id": "4",
-                    "title": "Quiz: Etik Hacking Temel Bilgiler",
-                    "content": "Etik hacking'in temel amacı nedir?",
-                    "type": "quiz",
-                    "question": "Etik hacking'in temel amacı nedir?",
-                    "options": [
-                        {
-                            "id": "A",
-                            "text": "Güvenlik açıklarını tespit etmek",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "B",
-                            "text": "Sistemlere zarar vermek",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "C",
-                            "text": "Veri çalmak",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "D",
-                            "text": "Sistemleri kapatmak",
-                            "isCorrect": false
-                        }
-                    ],
-                    "explanation": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatmaktır."
-                },
-                {
-                    "id": "5",
-                    "title": "Hacking Türleri Özeti",
-                    "content": "Hacking türlerini özetleyelim:\r\n\r\nBeyaz Şapka (White Hat): Yasal ve etik hacking. Güvenlik testleri için izin alınarak yapılır.\r\n\r\nSiyah Şapka (Black Hat): Yasa dışı ve zararlı hacking. Sistemlere izinsiz giriş yapılır, zarar verilir.\r\n\r\nGri Şapka (Grey Hat): Arada kalan durum. Bazı eylemler yasal olabilirken bazıları yasa dışıdır.\r\n\r\n👉 Bu türler arasındaki en büyük fark, yasal izinlerin varlığı ve amacın etik olup olmamasıdır.",
+                    "title": "Hacking Türleri",
+                    "content": "🔹 Beyaz Şapka Hacker (White Hat)\r\nBu uzmanlar tamamen yasal izinlerle çalışan, kurumların güvenliğini güçlendirmek için sızma testleri gerçekleştiren profesyonellerdir.\r\nGörevleri; güvenlik açıklarını bulmak, raporlamak ve çözüm önerileri sunmaktır.\r\nBir bakıma \"siber dünyanın güvenlik müfettişleri\"dir.\r\n\r\nÖrnek: Google'ın bug bounty programında çalışan güvenlik araştırmacıları. Sistemdeki açıkları bulup bildirerek ödül kazanırlar ve Google'ı korurlar. 2023'te Google, etik hacker'lara 12 milyon dolar ödül dağıttı.\r\n\r\n🔹 Siyah Şapka Hacker (Black Hat)\r\nYasa dışı yöntemlerle sistemlere izinsiz giriş yapan, verileri çalan veya zarar veren kişilerdir.\r\nAmaçları genellikle çıkar, zarar verme, kimlik bilgisi çalma, veri sızdırma veya para kazanmadır.\r\nBu grup, siber tehditlerin en tehlikeli tarafını oluşturur.\r\n\r\nÖrnek: 2017'de WannaCry ransomware saldırısını gerçekleştiren hacker'lar. 300.000'den fazla bilgisayarı etkiledi ve milyonlarca dolar fidye talep etti. Bu tür saldırılar siber suç kapsamındadır.\r\n\r\n🔹 Gri Şapka Hacker (Grey Hat)\r\nEtik ve etik dışı davranışlar arasında gidip gelebilen hacker'lardır.\r\nHer zaman kötü niyetli değildirler; ancak sistemlere izin almadan girmeleri onları yasal olarak riskli konuma sokar.\r\nBazıları açıkları keşfeder, şirkete bildirir; bazıları ise bunu kendi çıkarı için kullanabilir.\r\n\r\nÖrnek: Bir güvenlik araştırmacısı, bir şirketin web sitesinde açık bulur ama izin almadan test eder. Sonra açığı şirkete bildirir ve düzeltilmesini sağlar. Ancak izinsiz giriş yaptığı için yasal olarak risk altındadır.\r\n\r\n👉 Temel Ayrım Noktası\r\n\r\nBu üç hacker türünü birbirinden ayıran en kritik fark:\r\nEylemlerin yasal olup olmaması, etik kurallara uyulup uyulmaması ve amaçlarının ne olduğudur.\r\n\r\nBeyaz şapka korur, siyah şapka saldırır, gri şapka ise aradaki gri bölgede hareket eder.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabHacking.png",
                         "title": "Hacking Türleri Özeti"
                     }
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Etik Hacking Temel Bilgiler",
+                    "content": "Aşağıdaki soruyu cevaplayarak etik hacking sürecindeki keşif aşaması hakkındaki bilginizi test edin.",
+                    "type": "quiz",
+                    "question": "Keşif aşamasında hedef sistemi analiz ederken kullanılan iki yöntemden biri olan pasif keşif sırasında, domain sahibi bilgilerini öğrenmek için hangi yöntem kullanılır?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Ping Sweeping",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "WHOIS sorgusu",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "SQL Injection testi",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Port Tarama",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "WHOIS sorgusu, pasif keşif yöntemlerinden biridir ve domain sahibi, kayıt tarihi, son güncelleme tarihi gibi bilgileri öğrenmek için kullanılır. Bu yöntem, hedef sistemle doğrudan iletişim kurmadan bilgi toplamak için idealdir."
                 }
             ]
         },
@@ -87,7 +92,7 @@
                 {
                     "id": "1",
                     "title": "Hacking Türleri",
-                    "content": "Hacking, amaç ve motivasyona göre farklı türlere ayrılır.\r\nHer türün kendine özgü yöntemleri, avantajları ve riskleri vardır.",
+                    "content": "Hacking, amaç ve motivasyona göre farklı türlere ayrılır. Her türün kendine özgü yöntemleri, avantajları ve riskleri vardır.\r\n\r\nSiber güvenlik dünyasında, hacker'lar genellikle \"şapka\" renkleriyle kategorize edilir. Bu kategorizasyon, hacker'ların motivasyonlarını, yasal durumlarını ve etik yaklaşımlarını anlamamıza yardımcı olur.\r\n\r\n🔹 Beyaz Şapka Hacker (White Hat)\r\nYasal izinlerle çalışan, sistemleri korumak için güvenlik testleri yapan profesyonellerdir.\r\n\r\n🔹 Siyah Şapka Hacker (Black Hat)\r\nYasa dışı yöntemlerle sistemlere zarar veren, kötü niyetli saldırganlardır.\r\n\r\n🔹 Gri Şapka Hacker (Grey Hat)\r\nYasal ve yasa dışı faaliyetler arasında gidip gelen, belirsiz bir konumda olan hacker'lardır.\r\n\r\nBu üç kategori, siber güvenlik ekosisteminin farklı yönlerini temsil eder ve her birinin kendine özgü özellikleri, riskleri ve sonuçları vardır. Bu ders boyunca, her hacking türünü detaylı olarak inceleyeceğiz.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabHacking.png",
@@ -97,7 +102,7 @@
                 {
                     "id": "2",
                     "title": "Siyah Şapka Hacking",
-                    "content": "Siyah şapka hacker'lar, sistemlere izinsiz erişim sağlayarak zarar verirler.\r\nBu tür hacking tamamen yasa dışıdır ve kötü niyetli amaçlarla yapılır.\r\n👉 Örnek faaliyetler: veri çalmak, sistemleri kapatmak, finansal zarara yol açmak.",
+                    "content": "Siyah şapka hacker'lar, sistemlere izinsiz erişim sağlayarak zarar verirler. Bu tür hacking tamamen yasa dışıdır ve kötü niyetli amaçlarla yapılır.\r\n\r\nSiyah şapka hacker'ların temel özellikleri:\r\n\r\n🔹 Yasa Dışı Faaliyetler\r\nSistemlere izin almadan girerler, veri çalarlar veya sistemleri bozarlar.\r\n\r\n🔹 Kötü Niyetli Amaçlar\r\nAmaçları genellikle finansal kazanç, zarar verme, kimlik bilgisi çalma veya veri sızdırmadır.\r\n\r\n🔹 Yasal Sonuçlar\r\nBu tür faaliyetler siber suç kapsamındadır ve ciddi cezai yaptırımları vardır.\r\n\r\n👉 Örnek Faaliyetler:\r\n• Veri çalmak ve satmak\r\n• Sistemleri kapatmak (DDoS saldırıları)\r\n• Ransomware saldırıları düzenlemek\r\n• Finansal zarara yol açmak\r\n• Kimlik bilgilerini çalmak\r\n\r\n💡 Gerçek Dünya Örneği:\r\n2017'de WannaCry ransomware saldırısı, siyah şapka hacker'lar tarafından gerçekleştirildi. 300.000'den fazla bilgisayarı etkiledi ve milyonlarca dolar fidye talep edildi. Bu saldırı, dünya çapında hastaneler, şirketler ve devlet kurumlarını etkiledi. Saldırganlar, Windows sistemlerindeki bir güvenlik açığını kullanarak bilgisayarları şifrelediler ve kullanıcılardan Bitcoin ile fidye talep ettiler. Bu olay, siyah şapka hacking'in ne kadar yıkıcı olabileceğini gösterdi.\r\n\r\n⚠️ Yasal Uyarı:\r\nSiyah şapka hacking faaliyetleri, tüm dünyada ciddi suçlardır. Bu tür faaliyetlere karışan kişiler, uzun hapis cezaları ve ağır para cezalarıyla karşılaşabilirler.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabSiyah.png",
@@ -107,7 +112,7 @@
                 {
                     "id": "3",
                     "title": "Beyaz Şapka Hacking",
-                    "content": "Beyaz şapka hacker'lar, etik hacking yapan güvenlik uzmanlarıdır.\r\nYasal izinlerle çalışarak sistemlerin güvenliğini test ederler.\r\nAmaçları, güvenlik açıklarını tespit edip sistemi korumaktır.",
+                    "content": "Beyaz şapka hacker'lar, etik hacking yapan güvenlik uzmanlarıdır. Yasal izinlerle çalışarak sistemlerin güvenliğini test ederler. Amaçları, güvenlik açıklarını tespit edip sistemi korumaktır.\r\n\r\nBeyaz şapka hacker'ların temel özellikleri:\r\n\r\n🔹 Yasal ve Etik Çalışma\r\nTüm faaliyetleri yasal izinler çerçevesinde, belirlenmiş kapsam içinde gerçekleştirirler.\r\n\r\n🔹 Güvenlik Odaklı\r\nSistemleri korumak ve güvenlik açıklarını kapatmak için çalışırlar.\r\n\r\n🔹 Profesyonel Raporlama\r\nBuldukları açıkları detaylı raporlar halinde sunar ve çözüm önerileri getirirler.\r\n\r\n🔹 Kariyer Fırsatları\r\nSiber güvenlik alanında yüksek maaşlı işler ve kariyer fırsatları sunar.\r\n\r\n👉 Beyaz Şapka Hacker'ların Görevleri:\r\n• Penetrasyon testleri yapmak\r\n• Güvenlik açıklarını tespit etmek\r\n• Güvenlik raporları hazırlamak\r\n• Güvenlik politikaları geliştirmek\r\n• Güvenlik eğitimleri vermek\r\n\r\n💡 Gerçek Dünya Örneği:\r\nGoogle'ın bug bounty programı, beyaz şapka hacker'lar için en büyük ödül programlarından biridir. 2023 yılında Google, etik hacker'lara toplam 12 milyon dolar ödül dağıttı. Bu program sayesinde, Google'ın sistemlerinde binlerce güvenlik açığı tespit edildi ve kapatıldı. Örneğin, bir güvenlik araştırmacısı, Android işletim sistemindeki kritik bir açığı buldu ve bildirdi. Google bu açığı hızla kapattı ve araştırmacıya 100.000 dolar ödül verdi. Bu tür programlar, beyaz şapka hacker'ların hem kazanç sağlamasına hem de siber güvenliğe katkıda bulunmasına olanak tanır.\r\n\r\n✅ Kariyer Fırsatları:\r\nBeyaz şapka hacker'lar, siber güvenlik alanında çeşitli kariyer fırsatlarına sahiptir:\r\n• Penetrasyon Test Uzmanı\r\n• Güvenlik Analisti\r\n• Bug Bounty Araştırmacısı\r\n• Güvenlik Danışmanı\r\n• Güvenlik Mimarı",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabWhite.png",
@@ -117,7 +122,7 @@
                 {
                     "id": "4",
                     "title": "Gri Şapka Hacking",
-                    "content": "Gri şapka hacker'lar, bazen yasal, bazen yasa dışı faaliyetlerde bulunabilirler.\r\nSistemlere izinsiz erişim sağlayabilirler ama genellikle zarar verme niyetinde olmazlar.\r\nÇoğu zaman buldukları açıkları sistem sahiplerine bildirirler.",
+                    "content": "Gri şapka hacker'lar, bazen yasal, bazen yasa dışı faaliyetlerde bulunabilirler. Sistemlere izinsiz erişim sağlayabilirler ama genellikle zarar verme niyetinde olmazlar. Çoğu zaman buldukları açıkları sistem sahiplerine bildirirler.\r\n\r\nGri şapka hacker'ların temel özellikleri:\r\n\r\n🔹 Belirsiz Yasal Durum\r\nFaaliyetleri bazen yasal, bazen yasa dışı olabilir. İzin almadan sistemlere girerler ancak genellikle zarar vermezler.\r\n\r\n🔹 İyi Niyetli Olabilirler\r\nÇoğu zaman buldukları açıkları sistem sahiplerine bildirirler, ancak izinsiz giriş yaptıkları için yasal risk altındadırlar.\r\n\r\n🔹 Yasal Belirsizlik\r\nBu tür faaliyetler, yasal olarak gri bir bölgede yer alır ve sonuçları belirsizdir.\r\n\r\n👉 Gri Şapka Hacker'ların Davranışları:\r\n• Sistemlere izin almadan girebilirler\r\n• Buldukları açıkları bildirebilirler\r\n• Bazen açıkları kendi çıkarları için kullanabilirler\r\n• Yasal sonuçları belirsizdir\r\n\r\n💡 Gerçek Dünya Örneği:\r\n2013 yılında, bir güvenlik araştırmacısı, bir büyük e-ticaret sitesinde kritik bir güvenlik açığı buldu. Ancak izin almadan bu açığı test etti ve sistem sahibine bildirdi. Şirket, araştırmacıya teşekkür etti ve açığı kapattı, ancak izinsiz giriş yaptığı için yasal işlem başlatma hakkını saklı tuttu. Bu durum, gri şapka hacker'ların karşılaştığı tipik bir senaryodur: İyi niyetli olsalar bile, izinsiz giriş yaptıkları için yasal risk altındadırlar.\r\n\r\n⚠️ Yasal Riskler:\r\nGri şapka hacker'lar, iyi niyetli olsalar bile şu risklerle karşılaşabilirler:\r\n• Siber suç kapsamında yargılanma\r\n• Hapis cezası\r\n• Para cezası\r\n• İtibar kaybı\r\n• Kariyer fırsatlarının kaybı\r\n\r\n✅ Öneri:\r\nGri şapka hacker'lar, beyaz şapka hacker olmaya geçiş yaparak yasal ve etik bir kariyer kurabilirler. Bug bounty programlarına katılarak veya güvenlik şirketlerinde çalışarak hem yasal hem de kazançlı bir yol izleyebilirler.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabGri.png",
@@ -152,7 +157,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Siyah şapka hacking yasa dışıdır ve kötü niyetli amaçlarla yapılır.\r\nÖrnek: sistemlere zarar vermek, veri çalmak, finansal kayıp oluşturmak."
+                    "explanation": "Siyah şapka hacking yasa dışıdır ve kötü niyetli amaçlarla yapılır. Bu tür hacker'lar, sistemlere izin almadan girerler, veri çalarlar, sistemlere zarar verirler ve finansal kayıplara yol açarlar. Örnek olaylar: WannaCry ransomware saldırısı (2017), NotPetya saldırısı (2017) gibi büyük çaplı siber saldırılar siyah şapka hacker'lar tarafından gerçekleştirilmiştir. Bu tür faaliyetler, tüm dünyada ciddi suçlardır ve uzun hapis cezaları ile sonuçlanabilir."
                 }
             ]
         },
@@ -169,7 +174,7 @@
                 {
                     "id": "1",
                     "title": "Hacker Türleri",
-                    "content": "Hackerlar, motivasyonları, becerileri ve hedeflerine göre çeşitli kategorilere ayrılır.\r\nHer hacker türünün kendine özgü davranış kalıpları, yöntemleri ve niyetleri vardır.",
+                    "content": "Hackerlar, motivasyonları, becerileri ve hedeflerine göre çeşitli kategorilere ayrılır. Her hacker türünün kendine özgü davranış kalıpları, yöntemleri ve niyetleri vardır.\r\n\r\nSiber güvenlik dünyasında, hacker'lar sadece \"şapka renkleri\" ile değil, aynı zamanda beceri seviyeleri, motivasyonları ve hedefleri ile de kategorize edilir. Bu kategorizasyon, hacker'ların kim olduklarını, ne yaptıklarını ve neden yaptıklarını anlamamıza yardımcı olur.\r\n\r\n🔹 Script Kiddie\r\nHazır araçları kullanan, teknik bilgisi sınırlı olan amatör hacker'lardır.\r\n\r\n🔹 Profesyonel Hacker\r\nYüksek teknik beceriye sahip, güvenlik alanında uzmanlaşmış profesyonellerdir.\r\n\r\n🔹 Hacktivist\r\nSiyasi, ideolojik veya sosyal amaçlar için hacking yapan kişilerdir.\r\n\r\n🔹 İçeriden Tehdit (Insider)\r\nKurum içinden sistemlere zarar veren veya bilgi sızdıran kişilerdir.\r\n\r\nBu ders boyunca, her hacker türünü detaylı olarak inceleyecek, özelliklerini, motivasyonlarını ve gerçek dünya örneklerini öğreneceğiz.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabTurler.png",
@@ -179,22 +184,42 @@
                 {
                     "id": "2",
                     "title": "Script Kiddie",
-                    "content": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar.\r\nDerin teknik bilgiye sahip değillerdir.\r\nGenellikle eğlence, merak veya sosyal medyada dikkat çekmek için saldırılar düzenlerler.\r\nÇoğu zaman gösteriş için hareket ederler, ciddi zarar verme niyetinde değillerdir."
+                    "content": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar. Derin teknik bilgiye sahip değillerdir. Genellikle eğlence, merak veya sosyal medyada dikkat çekmek için saldırılar düzenlerler. Çoğu zaman gösteriş için hareket ederler, ciddi zarar verme niyetinde değillerdir.\r\n\r\nScript Kiddie'lerin temel özellikleri:\r\n\r\n🔹 Sınırlı Teknik Bilgi\r\nKendi araçlarını geliştiremezler, başkalarının yazdığı hazır scriptleri ve araçları kullanırlar.\r\n\r\n🔹 Amatör Seviye\r\nGenellikle genç yaşta, öğrenme aşamasında olan kişilerdir.\r\n\r\n🔹 Gösteriş Odaklı\r\nÇoğu zaman sosyal medyada dikkat çekmek veya arkadaşlarına gösteriş yapmak için saldırılar düzenlerler.\r\n\r\n🔹 Düşük Risk\r\nTeknik bilgileri sınırlı olduğu için genellikle ciddi zararlar veremezler, ancak yine de yasal sorunlara yol açabilirler.\r\n\r\n👉 Script Kiddie'lerin Kullandığı Araçlar:\r\n• DDoS araçları (LOIC, HOIC)\r\n• Exploit framework'leri (Metasploit)\r\n• SQL Injection araçları\r\n• Brute-force araçları\r\n\r\n💡 Gerçek Dünya Örneği:\r\n2016 yılında, bir grup script kiddie, Mirai botnet'in kaynak kodunu kullanarak büyük çaplı DDoS saldırıları düzenledi. Bu saldırılar, Dyn DNS servisini etkileyerek Twitter, Netflix, Reddit gibi büyük sitelerin saatlerce erişilemez olmasına neden oldu. Saldırganlar, hazır bir botnet aracını kullanarak, teknik bilgileri olmadan bile büyük zararlar verebileceklerini gösterdiler. Bu olay, script kiddie'lerin bile ne kadar tehlikeli olabileceğini kanıtladı.\r\n\r\n⚠️ Riskler ve Tehlikeler:\r\nScript kiddie'ler, teknik bilgileri sınırlı olsa bile şu riskleri oluşturabilirler:\r\n• Küçük ve orta ölçekli şirketlere zarar verebilirler\r\n• Kişisel bilgileri çalabilirler\r\n• Web sitelerini deface edebilirler\r\n• Yasal sorunlara yol açabilirler\r\n\r\n✅ Nasıl Korunulur:\r\n• Güçlü şifreler kullanın\r\n• Sistemlerinizi güncel tutun\r\n• Güvenlik duvarları ve DDoS koruması kullanın\r\n• Eğitim ve farkındalık programları düzenleyin",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabTurler.png",
+                        "title": "Script Kiddie"
+                    }
                 },
                 {
                     "id": "3",
                     "title": "Profesyonel Hacker",
-                    "content": "Profesyonel hackerlar yüksek teknik beceriye sahip uzman kişilerdir.\r\nGüvenlik şirketlerinde, devlet kurumlarında veya bağımsız olarak çalışabilirler.\r\nEtik hacking, penetrasyon testi, güvenlik araştırması ve savunma odaklı faaliyetler yürütürler.\r\nSistemleri daha güvenli hale getirmek için çalışırlar."
+                    "content": "Profesyonel hackerlar yüksek teknik beceriye sahip uzman kişilerdir. Güvenlik şirketlerinde, devlet kurumlarında veya bağımsız olarak çalışabilirler. Etik hacking, penetrasyon testi, güvenlik araştırması ve savunma odaklı faaliyetler yürütürler. Sistemleri daha güvenli hale getirmek için çalışırlar.\r\n\r\nProfesyonel Hacker'ların temel özellikleri:\r\n\r\n🔹 Yüksek Teknik Beceri\r\nProgramlama, ağ güvenliği, kriptografi ve sistem mimarisi konularında derin bilgiye sahiptirler.\r\n\r\n🔹 Sertifikasyonlar\r\nCEH, OSCP, CISSP gibi profesyonel sertifikalara sahiptirler.\r\n\r\n🔹 Etik Çalışma\r\nTüm faaliyetleri yasal izinler çerçevesinde, belirlenmiş kapsam içinde gerçekleştirirler.\r\n\r\n🔹 Sürekli Öğrenme\r\nSiber güvenlik alanındaki gelişmeleri takip eder ve kendilerini sürekli geliştirirler.\r\n\r\n👉 Profesyonel Hacker'ların Çalışma Alanları:\r\n• Penetrasyon testleri\r\n• Güvenlik danışmanlığı\r\n• Güvenlik araştırması\r\n• Incident response\r\n• Güvenlik eğitimi\r\n• Bug bounty programları\r\n\r\n💡 Gerçek Dünya Örneği:\r\nKevin Mitnick, dünyanın en ünlü güvenlik uzmanlarından biridir. Geçmişte siyah şapka hacker olarak bilinen Mitnick, hapisten çıktıktan sonra beyaz şapka hacker'a dönüştü ve güvenlik danışmanlığı şirketi kurdu. Mitnick Security adlı şirketi, Fortune 500 şirketlerine güvenlik danışmanlığı hizmeti veriyor. Mitnick'in hikayesi, profesyonel hacker'ların kariyer yolunu ve siber güvenlik alanındaki önemini gösterir. Bugün, profesyonel hacker'lar yıllık 100.000-200.000 dolar arasında maaş alabilirler ve siber güvenlik alanında en çok aranan mesleklerden biridir.\r\n\r\n✅ Kariyer Yolları:\r\nProfesyonel hacker'lar için çeşitli kariyer fırsatları vardır:\r\n• Penetrasyon Test Uzmanı: 80.000-150.000 TL/yıl\r\n• Güvenlik Danışmanı: 100.000-200.000 TL/yıl\r\n• Bug Bounty Araştırmacısı: Proje bazlı, yılda 50.000-500.000 dolar\r\n• Güvenlik Mimarı: 120.000-250.000 TL/yıl\r\n• CISO (Chief Information Security Officer): 200.000-500.000 TL/yıl",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabTurler.png",
+                        "title": "Profesyonel Hacker"
+                    }
                 },
                 {
                     "id": "4",
                     "title": "Hacktivist",
-                    "content": "Hacktivistler siyasi, ideolojik veya sosyal bir amaç için hacking yapan kişilerdir.\r\nGenellikle devlet kurumları, büyük şirketler veya kamuoyunun dikkatini çeken organizasyonları hedef alırlar.\r\nHedefleri genellikle mesaj iletmek, farkındalık yaratmak veya protesto etmektir."
+                    "content": "Hacktivistler siyasi, ideolojik veya sosyal bir amaç için hacking yapan kişilerdir. Genellikle devlet kurumları, büyük şirketler veya kamuoyunun dikkatini çeken organizasyonları hedef alırlar. Hedefleri genellikle mesaj iletmek, farkındalık yaratmak veya protesto etmektir.\r\n\r\nHacktivistlerin temel özellikleri:\r\n\r\n🔹 İdeolojik Motivasyon\r\nSiyasi, sosyal veya çevresel bir amaç için hareket ederler.\r\n\r\n🔹 Mesaj Odaklı\r\nSaldırılarının amacı genellikle zarar vermek değil, mesaj iletmektir.\r\n\r\n🔹 Yüksek Profil Hedefler\r\nDevlet kurumları, büyük şirketler veya medya kuruluşlarını hedef alırlar.\r\n\r\n🔹 Yasal Belirsizlik\r\nFaaliyetleri bazen yasal, bazen yasa dışı olabilir.\r\n\r\n👉 Hacktivistlerin Yöntemleri:\r\n• Web sitelerini deface etmek\r\n• DDoS saldırıları düzenlemek\r\n• Veri sızdırmak (doxing)\r\n• Sosyal medya hesaplarını ele geçirmek\r\n• Bilgi sızdırmak (whistleblowing)\r\n\r\n💡 Gerçek Dünya Örneği:\r\nAnonymous, dünyanın en ünlü hacktivist grubudur. 2003 yılında kurulan grup, çeşitli siyasi ve sosyal nedenlerle saldırılar düzenlemiştir. 2011 yılında, WikiLeaks'e destek vermek için PayPal, MasterCard ve Visa gibi şirketlere DDoS saldırıları düzenlediler. 2012 yılında, Scientology kilisesine karşı \"Project Chanology\" adlı bir kampanya başlattılar. 2015 yılında, Charlie Hebdo saldırısından sonra ISIS'e karşı \"OpISIS\" operasyonunu başlattılar. Anonymous'un faaliyetleri, hacktivizmin gücünü ve etkisini gösterir, ancak aynı zamanda yasal sonuçları da vardır. Grup üyelerinden birçoğu tutuklanmış ve hapis cezası almıştır.\r\n\r\n⚠️ Yasal Durum:\r\nHacktivistler, iyi niyetli olsalar bile şu yasal risklerle karşılaşabilirler:\r\n• Siber suç kapsamında yargılanma\r\n• Hapis cezası (5-20 yıl)\r\n• Para cezası\r\n• Uluslararası arama emri\r\n\r\n✅ Etik Hacktivizm:\r\nBazı hacktivistler, yasal yollarla mesajlarını iletmeyi tercih ederler:\r\n• Güvenli bilgi sızdırma platformları kullanmak\r\n• Yasal protesto yöntemleri\r\n• Medya ve basın özgürlüğünü kullanmak",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabTurler.png",
+                        "title": "Hacktivist"
+                    }
                 },
                 {
                     "id": "5",
                     "title": "İçeriden Tehdit (Insider)",
-                    "content": "İçeriden hackerler çalıştıkları kurumun sistemlerine zarar veren veya bilgi sızdıran kişilerdir.\r\nYetkilerini kötüye kullanarak sisteme erişim sağlarlar.\r\nMotivasyonları maddi kazanç, intikam veya kişisel çıkar olabilir."
+                    "content": "İçeriden hackerler çalıştıkları kurumun sistemlerine zarar veren veya bilgi sızdıran kişilerdir. Yetkilerini kötüye kullanarak sisteme erişim sağlarlar. Motivasyonları maddi kazanç, intikam veya kişisel çıkar olabilir.\r\n\r\nİçeriden Tehditlerin temel özellikleri:\r\n\r\n🔹 Yetkili Erişim\r\nKurum içinde çalıştıkları için sistemlere yasal erişim hakları vardır.\r\n\r\n🔹 İç Bilgi\r\nKurumun güvenlik yapısı, zayıf noktaları ve hassas bilgileri hakkında bilgi sahibidirler.\r\n\r\n🔹 Güven İstismarı\r\nKurumun kendilerine duyduğu güveni kötüye kullanırlar.\r\n\r\n🔹 Tespit Edilmesi Zor\r\nYasal erişim hakları olduğu için faaliyetlerini gizlemeleri daha kolaydır.\r\n\r\n👉 İçeriden Tehditlerin Motivasyonları:\r\n• Maddi kazanç (veri satmak, fidye talep etmek)\r\n• İntikam (işten çıkarılma, terfi alamama)\r\n• Kişisel çıkar (rakip şirkete geçiş)\r\n• İdeolojik nedenler (whistleblowing)\r\n• Kaza (yanlışlıkla veri sızdırma)\r\n\r\n💡 Gerçek Dünya Örneği:\r\n2013 yılında, Edward Snowden, NSA (Ulusal Güvenlik Ajansı) çalışanı olarak, ABD hükümetinin gizli gözetleme programlarını ifşa etti. Snowden, binlerce gizli belgeyi medyaya sızdırdı ve dünya çapında bir skandala neden oldu. Bu olay, içeriden tehditlerin ne kadar yıkıcı olabileceğini gösterdi. Snowden, ideolojik nedenlerle hareket ettiğini söyledi, ancak ABD hükümeti tarafından vatana ihanetle suçlandı ve hala Rusya'da sığınmacı olarak yaşıyor. Bu olay, kurumların içeriden tehditlere karşı ne kadar savunmasız olduğunu ve güvenlik önlemlerinin önemini gösterdi.\r\n\r\n⚠️ İçeriden Tehditlerin Neden Olduğu Zararlar:\r\n• Hassas verilerin çalınması\r\n• Finansal kayıplar\r\n• İtibar kaybı\r\n• Yasal sorunlar\r\n• Rekabet avantajının kaybı\r\n\r\n✅ Kurumların Korunma Yöntemleri:\r\n• Erişim kontrolü ve izleme (access control)\r\n• Kullanıcı davranış analizi (UBA)\r\n• Veri kaybı önleme (DLP) sistemleri\r\n• Düzenli güvenlik eğitimleri\r\n• Çalışan memnuniyeti programları\r\n• İki faktörlü doğrulama (2FA)\r\n• Privileged access management (PAM)",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabTurler.png",
+                        "title": "İçeriden Tehdit"
+                    }
                 },
                 {
                     "id": "6",
@@ -224,7 +249,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar.\r\nDerin teknik bilgiye sahip değillerdir."
+                    "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar. Derin teknik bilgiye sahip değillerdir. Bu tür hacker'lar, başkalarının yazdığı araçları kullanarak saldırılar düzenlerler. Genellikle genç yaşta, öğrenme aşamasında olan kişilerdir ve çoğu zaman sosyal medyada dikkat çekmek veya gösteriş yapmak için saldırılar düzenlerler. Teknik bilgileri sınırlı olsa bile, hazır araçları kullanarak küçük ve orta ölçekli şirketlere zarar verebilirler. Örnek: 2016 yılında Mirai botnet'in kaynak kodunu kullanan script kiddie'ler, büyük çaplı DDoS saldırıları düzenleyerek Twitter, Netflix gibi siteleri saatlerce erişilemez hale getirdiler."
                 }
             ]
         },
@@ -241,42 +266,72 @@
                 {
                     "id": "1",
                     "title": "Hacking'in Avantajları",
-                    "content": "• Etik hacking sistem güvenliğini artırır.\r\n• Güvenlik açıklarını tespit ederek organizasyonları korur.\r\n• Güvenlik uzmanlarının becerilerini geliştirmesine yardımcı olur.\r\n• Siber güvenlik alanında kariyer fırsatları sunar.",
+                    "content": "Etik hacking, siber güvenlik dünyasında kritik bir rol oynar ve birçok önemli avantaj sağlar. Bu avantajlar, hem bireyler hem de organizasyonlar için değerli fırsatlar yaratır.\r\n\r\n🔹 Sistem Güvenliğini Artırır\r\nEtik hacking, sistemlerdeki güvenlik açıklarını saldırganlardan önce tespit ederek sistemleri korur. Bu sayede, kötü niyetli saldırılar gerçekleşmeden önce önlemler alınabilir.\r\n\r\n💡 Örnek: 2020 yılında, bir finans kurumu etik hacker'lardan sistemlerini test etmelerini istedi. Etik hacker'lar, müşteri veritabanına erişim sağlayabilecek kritik bir açık buldular. Açık kapatıldı ve kurum, potansiyel olarak milyonlarca dolarlık zarardan korundu.\r\n\r\n🔹 Organizasyonları Korur\r\nGüvenlik açıklarını erken tespit ederek, organizasyonlar finansal kayıplardan, itibar kaybından ve yasal sorunlardan korunur.\r\n\r\n💡 Örnek: Bir e-ticaret şirketi, düzenli etik hacking testleri sayesinde yılda ortalama 15-20 kritik açık tespit ediyor ve kapatıyor. Bu sayede şirket, müşteri verilerini koruyor ve güvenilir bir marka imajı oluşturuyor.\r\n\r\n🔹 Beceri Geliştirme\r\nGüvenlik uzmanlarının teknik becerilerini geliştirmesine yardımcı olur. Sürekli öğrenme ve pratik yapma fırsatı sunar.\r\n\r\n💡 Örnek: Bug bounty programları, güvenlik araştırmacılarının becerilerini geliştirmeleri için mükemmel bir platform sağlar. HackerOne ve Bugcrowd gibi platformlarda, binlerce güvenlik uzmanı gerçek dünya sistemlerini test ederek deneyim kazanıyor.\r\n\r\n🔹 Kariyer Fırsatları\r\nSiber güvenlik alanında yüksek maaşlı işler ve kariyer fırsatları sunar. Etik hacker'lar, günümüzün en çok aranan profesyonellerinden biridir.\r\n\r\n💡 Örnek: 2023 yılında, siber güvenlik uzmanları için ortalama maaş %15 arttı. Penetrasyon test uzmanları, yıllık 100.000-200.000 TL arasında maaş alabiliyor. Bug bounty araştırmacıları ise yılda 50.000-500.000 dolar arasında kazanç elde edebiliyor.\r\n\r\n✅ Sonuç:\r\nEtik hacking, siber güvenlik ekosisteminin vazgeçilmez bir parçasıdır. Sistemleri korur, becerileri geliştirir ve kariyer fırsatları yaratır.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
-                        "title": ""
+                        "title": "Hacking'in Avantajları"
                     }
                 },
                 {
                     "id": "2",
                     "title": "Hacking'in Dezavantajları",
-                    "content": "• Kötü niyetli hacking sistemlere zarar verir.\r\n• Veri kaybına ve bilgi hırsızlığına yol açar.\r\n• Finansal zarar ve itibar kaybına neden olabilir.\r\n• Yasal sorunlara yol açar."
+                    "content": "Kötü niyetli hacking faaliyetleri, bireyler, organizasyonlar ve toplum için ciddi dezavantajlar ve riskler oluşturur. Bu dezavantajlar, hem finansal hem de sosyal açıdan yıkıcı sonuçlara yol açabilir.\r\n\r\n🔹 Sistemlere Zarar Verir\r\nKötü niyetli hacker'lar, sistemlere izinsiz erişim sağlayarak veri çalabilir, sistemleri bozabilir veya tamamen devre dışı bırakabilir.\r\n\r\n💡 Örnek: 2017 yılında WannaCry ransomware saldırısı, 300.000'den fazla bilgisayarı etkiledi. Hastaneler, şirketler ve devlet kurumları saatlerce hizmet veremedi. Saldırganlar, bilgisayarları şifreleyerek Bitcoin ile fidye talep ettiler.\r\n\r\n🔹 Veri Kaybı ve Bilgi Hırsızlığı\r\nHassas kişisel bilgiler, finansal veriler ve ticari sırlar çalınabilir. Bu veriler, kimlik hırsızlığı, dolandırıcılık veya rekabet avantajı için kullanılabilir.\r\n\r\n💡 Örnek: 2013-2014 yıllarında Yahoo'ya yapılan saldırıda, 3 milyardan fazla kullanıcı hesabının bilgileri çalındı. Kullanıcıların e-postaları, şifreleri ve kişisel bilgileri ele geçirildi. Bu, tarihteki en büyük veri ihlallerinden biri olarak kayıtlara geçti.\r\n\r\n🔹 Finansal Zarar ve İtibar Kaybı\r\nSiber saldırılar, organizasyonlara milyonlarca dolarlık finansal zarar verebilir. Ayrıca, müşteri güvenini kaybetmelerine ve itibar kaybına neden olabilir.\r\n\r\n💡 Örnek: 2011 yılında Sony PlayStation Network'e yapılan saldırıda, 77 milyon kullanıcının bilgileri çalındı. Sony, sistemleri haftalarca kapattı ve milyonlarca dolar zarar gördü. Şirketin itibarı ciddi şekilde zarar gördü ve müşteri güveni kayboldu.\r\n\r\n🔹 Yasal Sorunlar\r\nKötü niyetli hacking faaliyetleri, ciddi yasal sonuçlara yol açar. Saldırganlar, uzun hapis cezaları ve ağır para cezaları ile karşılaşabilir.\r\n\r\n💡 Örnek: 2015 yılında, bir grup hacker, ABD hükümetine ait sistemlere saldırdı. Saldırganlardan biri, 20 yıl hapis cezası aldı ve milyonlarca dolar para cezası ödemek zorunda kaldı.\r\n\r\n⚠️ Sonuç:\r\nKötü niyetli hacking faaliyetleri, toplum için ciddi tehditler oluşturur. Bu nedenle, etik hacking ve güvenlik önlemleri kritik öneme sahiptir.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Hacking'in Dezavantajları"
+                    }
                 },
                 {
                     "id": "3",
                     "title": "Etik Kurallar",
-                    "content": "Etik hacking yaparken dikkat edilmesi gerekenler:\r\n• Mutlaka yasal izin alınmalıdır.\r\n• Gizlilik kurallarına uyulmalıdır.\r\n• Zarar verme amacı güdülmemelidir.\r\n• Tüm faaliyetler şeffaf ve hesap verebilir olmalıdır."
+                    "content": "Etik hacking yaparken, belirli kurallara ve standartlara uymak kritik öneme sahiptir. Bu kurallar, hem yasal hem de etik açıdan güvenli bir çalışma ortamı sağlar.\r\n\r\n🔹 Yasal İzin Alınmalıdır\r\nTüm hacking faaliyetleri, mutlaka yazılı ve resmi izinler çerçevesinde yapılmalıdır. İzinsiz erişim, siber suç kapsamındadır.\r\n\r\n💡 Örnek: Bir penetrasyon testi başlamadan önce, şirketten yazılı bir \"penetrasyon testi izin belgesi\" alınmalıdır. Bu belge, testin kapsamını, süresini ve yöntemlerini açıkça belirtmelidir.\r\n\r\n🔹 Gizlilik Kurallarına Uyulmalıdır\r\nTest sırasında erişilen tüm veriler gizli tutulmalı ve sadece raporlama amaçlı kullanılmalıdır. Veriler, test sonrası güvenli bir şekilde silinmelidir.\r\n\r\n💡 Örnek: Etik hacker'lar, test sırasında eriştikleri müşteri verilerini asla kopyalamamalı veya saklamamalıdır. Sadece güvenlik açığını kanıtlamak için gerekli minimum veriyi kullanmalıdırlar.\r\n\r\n🔹 Zarar Verme Amacı Güdülmemelidir\r\nEtik hacking'in amacı, sistemleri korumak ve güvenliği artırmaktır. Sistemlere zarar vermek, veri silmek veya servisleri kesmek kesinlikle yasaktır.\r\n\r\n💡 Örnek: Bir etik hacker, bir SQL Injection açığı bulduğunda, sadece açığın varlığını kanıtlamalıdır. Veritabanındaki tüm verileri silmek veya değiştirmek kesinlikle yasaktır.\r\n\r\n🔹 Şeffaf ve Hesap Verebilir Olmalıdır\r\nTüm faaliyetler, detaylı loglar ve raporlarla belgelenmelidir. Her adım, şeffaf bir şekilde raporlanmalıdır.\r\n\r\n💡 Örnek: Etik hacker'lar, test sırasında yaptıkları her işlemi loglamalıdır. Bu loglar, hem şirket hem de yasal makamlar tarafından incelenebilir olmalıdır.\r\n\r\n✅ Ek Etik Kurallar:\r\n• Test kapsamı dışına çıkılmamalıdır\r\n• Bulunan açıklar sadece yetkili kişilere bildirilmelidir\r\n• Açıklar, sorumlu açıklama (responsible disclosure) prensiplerine uygun şekilde bildirilmelidir\r\n• Test sonrası tüm erişimler kapatılmalıdır\r\n• Müşteri bilgileri ve ticari sırlar korunmalıdır",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Etik Kurallar"
+                    }
                 },
                 {
                     "id": "4",
                     "title": "Avantaj - Güvenlik Geliştirme",
-                    "content": "Etik hackerların çalışmaları sayesinde şirketler daha güçlü firewall'lar ve koruma sistemleri geliştirir. Bu sayede saldırılar önceden engellenebilir."
+                    "content": "Etik hacker'ların çalışmaları sayesinde şirketler daha güçlü firewall'lar ve koruma sistemleri geliştirir. Bu sayede saldırılar önceden engellenebilir.\r\n\r\nEtik hacking, organizasyonların güvenlik altyapılarını sürekli olarak geliştirmelerine ve güçlendirmelerine yardımcı olur. Bu süreç, reaktif değil, proaktif bir güvenlik yaklaşımı sağlar.\r\n\r\n🔹 Güvenlik Altyapısının Geliştirilmesi\r\nEtik hacker'lar, sistemlerdeki zayıf noktaları tespit ederek, şirketlerin daha güçlü güvenlik duvarları, intrusion detection sistemleri ve diğer koruma mekanizmaları geliştirmesine yardımcı olur.\r\n\r\n🔹 Proaktif Güvenlik Yaklaşımı\r\nSaldırılar gerçekleşmeden önce güvenlik açıkları tespit edilir ve kapatılır. Bu sayede, organizasyonlar saldırılara karşı daha hazırlıklı olur.\r\n\r\n🔹 Sürekli İyileştirme\r\nDüzenli etik hacking testleri, güvenlik sistemlerinin sürekli olarak geliştirilmesini ve güncellenmesini sağlar.\r\n\r\n💡 Gerçek Dünya Örneği:\r\nMicrosoft, düzenli olarak etik hacker'lardan sistemlerini test etmelerini ister. 2023 yılında, Microsoft'un bug bounty programı sayesinde 1.000'den fazla güvenlik açığı tespit edildi ve kapatıldı. Bu açıkların kapatılması sayesinde, Microsoft'un sistemleri çok daha güvenli hale geldi. Örneğin, Windows 11 ve Azure bulut platformu, bu testler sayesinde sürekli olarak güvenlik güncellemeleri alıyor ve saldırılara karşı daha dirençli hale geliyor.\r\n\r\n✅ Sonuç:\r\nEtik hacking, organizasyonların güvenlik seviyelerini sürekli olarak artırmalarına ve saldırılara karşı daha hazırlıklı olmalarına yardımcı olur. Bu sayede, hem finansal kayıplar hem de itibar kaybı önlenir.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Güvenlik Geliştirme"
+                    }
                 },
                 {
                     "id": "5",
                     "title": "Dezavantaj - Suistimal Riski",
-                    "content": "Hacking bilgisi yanlış ellere geçtiğinde ciddi tehdit oluşturur. Profesyonel hackerların teknik bilgileri kötü niyetli kişiler tarafından kopyalanabilir."
+                    "content": "Hacking bilgisi yanlış ellere geçtiğinde ciddi tehdit oluşturur. Profesyonel hacker'ların teknik bilgileri kötü niyetli kişiler tarafından kopyalanabilir.\r\n\r\nHacking teknikleri ve bilgileri, hem savunma hem de saldırı amaçlı kullanılabilir. Bu nedenle, bu bilgilerin kötü niyetli kişilerin eline geçmesi ciddi riskler oluşturur.\r\n\r\n🔹 Bilgi Sızıntısı Riski\r\nEtik hacker'ların geliştirdiği teknikler ve bulduğu açıklar, kötü niyetli kişiler tarafından öğrenilebilir ve kötüye kullanılabilir.\r\n\r\n🔹 Araçların Kötüye Kullanımı\r\nGüvenlik araçları ve exploit'ler, siyah şapka hacker'lar tarafından saldırı amaçlı kullanılabilir.\r\n\r\n🔹 Eğitim Materyallerinin Suistimali\r\nGüvenlik eğitim materyalleri ve kaynakları, kötü niyetli kişiler tarafından saldırı öğrenmek için kullanılabilir.\r\n\r\n💡 Gerçek Dünya Örneği:\r\n2017 yılında, NSA (Ulusal Güvenlik Ajansı) tarafından geliştirilen EternalBlue exploit'i, Shadow Brokers adlı bir grup tarafından çalındı ve internete sızdırıldı. Bu exploit, daha sonra WannaCry ve NotPetya ransomware saldırılarında kullanıldı. Bu olay, güvenlik araçlarının kötü niyetli kişilerin eline geçmesinin ne kadar yıkıcı olabileceğini gösterdi. EternalBlue, milyonlarca bilgisayarı etkileyen saldırılarda kullanıldı ve dünya çapında milyarlarca dolar zarara neden oldu.\r\n\r\n⚠️ Risk Azaltma Yöntemleri:\r\n• Güvenlik araçlarının erişim kontrolü\r\n• Sorumlu açıklama (responsible disclosure) prensipleri\r\n• Güvenlik araştırmacılarının eğitimi\r\n• Etik kuralların sıkı bir şekilde uygulanması\r\n• Güvenlik açıklarının gizli tutulması (belirli bir süre)\r\n\r\n✅ Sonuç:\r\nHacking bilgilerinin kötüye kullanılmasını önlemek için, etik kurallara sıkı bir şekilde uyulmalı ve güvenlik araçları sorumlu bir şekilde kullanılmalıdır.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Suistimal Riski"
+                    }
                 },
                 {
                     "id": "6",
                     "title": "Vaka Analizi - Sony PlayStation Saldırısı (2011)",
-                    "content": "• 77 milyon kullanıcının kişisel bilgileri çalındı.\r\n• Sistem haftalarca çevrimdışı kaldı.\r\n• Sony milyonlarca dolar zarar gördü.\r\n• Bu olay etik hacking ile kötü niyetli hacking arasındaki farkı net bir şekilde gösterir."
+                    "content": "2011 yılında, Sony PlayStation Network (PSN) sistemine yapılan siber saldırı, tarihteki en büyük veri ihlallerinden biri olarak kayıtlara geçti. Bu olay, kötü niyetli hacking'in ne kadar yıkıcı olabileceğini ve etik hacking'in önemini gösterdi.\r\n\r\n📅 Olayın Detayları:\r\n\r\nNisan 2011'de, bir grup hacker, Sony PlayStation Network sistemine sızdı. Saldırganlar, sistemdeki güvenlik açıklarını kullanarak 77 milyon kullanıcının kişisel bilgilerine erişim sağladı.\r\n\r\n🔹 Çalınan Veriler:\r\n• Kullanıcı adları ve şifreler\r\n• E-posta adresleri\r\n• Kredi kartı bilgileri (şifrelenmiş)\r\n• Kişisel bilgiler (ad, adres, telefon)\r\n• PlayStation Network hesapları\r\n\r\n🔹 Saldırının Sonuçları:\r\n\r\n• Sistem 23 gün boyunca çevrimdışı kaldı\r\n• 77 milyon kullanıcı etkilendi\r\n• Sony, 171 milyon dolar zarar gördü\r\n• Şirketin itibarı ciddi şekilde zarar gördü\r\n• Müşteri güveni kayboldu\r\n• Yasal davalar açıldı\r\n\r\n💡 Öğrenilen Dersler:\r\n\r\n1. Güvenlik Açıklarının Önemi:\r\nSony, sistemlerinde bulunan güvenlik açıklarını düzenli etik hacking testleri ile tespit edebilirdi. Bu sayede, saldırı gerçekleşmeden önce açıklar kapatılabilirdi.\r\n\r\n2. Etik Hacking'in Değeri:\r\nEğer Sony, düzenli olarak etik hacker'lardan sistemlerini test etmelerini isteseydi, bu saldırı önlenebilirdi. Etik hacking, organizasyonların güvenlik açıklarını erken tespit etmesine yardımcı olur.\r\n\r\n3. Hızlı Müdahale:\r\nSony, saldırıyı tespit ettikten sonra sistemleri hemen kapatmalıydı. Ancak, saldırı günlerce fark edilmedi ve bu süre zarfında daha fazla veri çalındı.\r\n\r\n4. Şeffaflık:\r\nSony, saldırıyı kamuoyuna açıklamakta gecikti. Bu gecikme, müşteri güvenini daha da azalttı.\r\n\r\n✅ Sonuç:\r\nSony PlayStation saldırısı, kötü niyetli hacking'in ne kadar yıkıcı olabileceğini ve etik hacking'in önemini gösterdi. Bu olaydan sonra, birçok şirket güvenlik önlemlerini artırdı ve düzenli etik hacking testleri yapmaya başladı.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Sony PlayStation Saldırısı"
+                    }
                 },
                 {
                     "id": "7",
                     "title": "Vaka Analizi - Yahoo Veri İhlali (2013-2014)",
-                    "content": "• 3 milyardan fazla kullanıcı hesabı etkilendi.\r\n• Kullanıcıların e-postaları ve şifreleri ele geçirildi.\r\n• Tarihteki en büyük veri ihlallerinden biri olarak kayıtlara geçti."
+                    "content": "Yahoo'ya yapılan siber saldırı, tarihteki en büyük veri ihlallerinden biri olarak kayıtlara geçti. Bu olay, 3 milyardan fazla kullanıcı hesabını etkiledi ve şirketin değerini milyarlarca dolar azalttı.\r\n\r\n📅 Olayın Detayları:\r\n\r\n2013-2014 yıllarında, bir grup hacker Yahoo'nun sistemlerine sızdı. Saldırganlar, sistemdeki güvenlik açıklarını kullanarak tüm kullanıcı veritabanına erişim sağladı.\r\n\r\n🔹 Çalınan Veriler:\r\n• 3 milyardan fazla kullanıcı hesabı\r\n• E-posta adresleri\r\n• Şifreler (hash'lenmiş, ancak bazıları kırılabilir)\r\n• Güvenlik soruları ve cevapları\r\n• Telefon numaraları\r\n• Doğum tarihleri\r\n\r\n🔹 Saldırının Sonuçları:\r\n\r\n• 3 milyardan fazla kullanıcı etkilendi\r\n• Yahoo'nun değeri 350 milyon dolar azaldı\r\n• Verizon, Yahoo'yu satın alma fiyatını 350 milyon dolar düşürdü\r\n• Şirketin CEO'su istifa etti\r\n• Yasal davalar açıldı\r\n• Müşteri güveni tamamen kayboldu\r\n\r\n💡 Saldırının Keşfi:\r\n\r\nYahoo, saldırıyı 2016 yılında, yani saldırıdan 3 yıl sonra keşfetti. Bu gecikme, saldırganların daha fazla veri çalmasına ve zararın artmasına neden oldu.\r\n\r\n🔹 Saldırganlar:\r\n\r\n2017 yılında, ABD adalet bakanlığı, saldırıyı gerçekleştiren 4 kişiyi suçladı. Saldırganlardan ikisi Rus istihbarat servisi FSB ile bağlantılıydı.\r\n\r\n💡 Öğrenilen Dersler:\r\n\r\n1. Güvenlik İzleme:\r\nYahoo, sistemlerinde düzenli güvenlik izleme ve log analizi yapmalıydı. Bu sayede, saldırı gerçekleştiğinde hemen tespit edilebilirdi.\r\n\r\n2. Etik Hacking Testleri:\r\nDüzenli etik hacking testleri, sistemlerdeki güvenlik açıklarını tespit edebilirdi. Bu sayede, saldırganlar sistemlere sızamazdı.\r\n\r\n3. Şifre Güvenliği:\r\nYahoo, kullanıcı şifrelerini daha güçlü hash algoritmaları ile korumalıydı. Eski hash algoritmaları, saldırganlar tarafından kırılabilirdi.\r\n\r\n4. Şeffaflık:\r\nYahoo, saldırıyı keşfettiğinde hemen kamuoyuna açıklamalıydı. 3 yıllık gecikme, müşteri güvenini tamamen yok etti.\r\n\r\n5. Veri Minimizasyonu:\r\nŞirketler, sadece gerekli olan verileri saklamalıdır. Gereksiz veri toplama, saldırı durumunda daha büyük zararlara yol açar.\r\n\r\n✅ Sonuç:\r\nYahoo veri ihlali, tarihteki en büyük siber saldırılardan biri olarak kayıtlara geçti. Bu olay, güvenlik önlemlerinin, düzenli testlerin ve şeffaflığın ne kadar önemli olduğunu gösterdi. Etik hacking, bu tür saldırıları önlemek için kritik bir araçtır.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Yahoo Veri İhlali"
+                    }
                 },
                 {
                     "id": "8",
@@ -306,7 +361,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking'in en büyük avantajı güvenlik açıklarını tespit edip kapatarak sistemi daha güvenli hale getirmektir."
+                    "explanation": "Etik hacking'in en büyük avantajı güvenlik açıklarını tespit edip kapatarak sistemi daha güvenli hale getirmektir. Etik hacker'lar, sistemlerdeki zayıf noktaları saldırganlardan önce keşfederler ve bu açıkların kapatılması için çözüm önerileri sunarlar. Bu sayede, organizasyonlar finansal kayıplardan, itibar kaybından ve yasal sorunlardan korunur. Örnek: 2020 yılında bir finans kurumu, etik hacker'lar sayesinde müşteri veritabanına erişim sağlayabilecek kritik bir açığı tespit etti ve kapattı. Bu sayede, potansiyel olarak milyonlarca dolarlık zarardan korundu."
                 }
             ]
         },
@@ -322,53 +377,103 @@
             "pages": [
                 {
                     "id": "1",
-                    "title": "Test Hazırlığı",
-                    "content": "Bu test, Etik Hacking'e Giriş kategorisindeki tüm konuları kapsamaktadır. Test öncesi öğrendiğiniz konuları gözden geçirin ve hazır olduğunuzda teste başlayın.",
+                    "title": "Tarihte Etik Hacking",
+                    "content": "Etik hacking, sistem güvenliğini artırmak ve güvenlik açıklarını bulmak için yapılan yasal ve sorumlu faaliyetlerden oluşur. Tarih boyunca bazı olaylar, etik hacker'ların yardımıyla siber güvenlik standartlarının gelişmesine katkıda bulunmuştur.\r\n\r\nEtik hacking'in tarihi, 1960'lı yıllara kadar uzanır. İlk zamanlarda, \"hacker\" terimi olumlu bir anlam taşıyordu ve sistemleri daha iyi anlamak için çalışan kişileri tanımlıyordu. Ancak zamanla, kötü niyetli hacker'lar ortaya çıktı ve bu terim olumsuz bir anlam kazandı.\r\n\r\n🔹 Etik Hacking'in Evrimi\r\n\r\n1980'ler: İlk güvenlik araştırmacıları ortaya çıktı. Sistemlerdeki açıkları bulmak ve bildirmek için çalıştılar.\r\n\r\n1990'lar: Kevin Mitnick gibi ünlü hacker'lar yakalandı ve bu olaylar siber güvenlik farkındalığını artırdı.\r\n\r\n2000'ler: Bug bounty programları popüler hale geldi. Şirketler, etik hacker'lardan yardım almaya başladı.\r\n\r\n2010'lar: Etik hacking, profesyonel bir kariyer yolu haline geldi. Sertifikasyon programları ve eğitimler yaygınlaştı.\r\n\r\n2020'ler: Etik hacking, siber güvenliğin vazgeçilmez bir parçası oldu. Bug bounty programları milyonlarca dolar ödül dağıtıyor.\r\n\r\n💡 Önemli Tarihsel Dönüm Noktaları:\r\n• 1995: İlk CEH (Certified Ethical Hacker) sertifikasyonu\r\n• 2010: Google'ın bug bounty programını başlatması\r\n• 2013: HackerOne platformunun kurulması\r\n• 2020: Bug bounty ödülleri 100 milyon doları aştı\r\n\r\nBu ders boyunca, tarihte önemli etik hacking olaylarını ve bu olayların siber güvenlik dünyasına etkilerini inceleyeceğiz.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabTest.png",
-                        "title": ""
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Tarihte Etik Hacking"
                     }
                 },
                 {
                     "id": "2",
-                    "title": "Test Kuralları",
-                    "content": "Test 10 sorudan oluşmaktadır. Her soru için sadece bir doğru cevap vardır. Testi tamamladıktan sonra sonuçlarınızı görebilir ve eksik konularınızı tekrar çalışabilirsiniz."
+                    "title": "Kevin Mitnick – Sosyal Mühendislik",
+                    "content": "Kevin Mitnick, 1990'ların en ünlü hacker'larından biridir. Etik hacking faaliyetleri olmasa da, yakalanması ve rehabilitasyonu siber güvenlik farkındalığını artırmıştır. Sosyal mühendislik teknikleri günümüzde eğitimlerde sıkça kullanılmaktadır.\r\n\r\n📅 Kevin Mitnick'in Hikayesi:\r\n\r\nKevin Mitnick, 1963 yılında doğdu ve genç yaşta bilgisayar sistemlerine ilgi duymaya başladı. 1980'ler ve 1990'larda, birçok büyük şirketin sistemlerine sızdı. Mitnick'in en önemli özelliği, teknik becerilerinden çok sosyal mühendislik yetenekleriydi.\r\n\r\n🔹 Sosyal Mühendislik Teknikleri:\r\n\r\nMitnick, insanları manipüle ederek bilgi toplama konusunda uzmandı. Telefon görüşmelerinde, çalışanları ikna ederek şifreler ve hassas bilgiler alıyordu.\r\n\r\n💡 Örnek Teknikler:\r\n• Pretexting: Başka biri gibi davranmak\r\n• Phishing: Sahte e-postalar göndermek\r\n• Vishing: Telefon üzerinden bilgi toplamak\r\n• Tailgating: Fiziksel erişim sağlamak\r\n\r\n🔹 Yakalanması ve Rehabilitasyon:\r\n\r\n1995 yılında, Mitnick yakalandı ve 5 yıl hapis cezası aldı. Hapisten çıktıktan sonra, beyaz şapka hacker'a dönüştü ve güvenlik danışmanlığı şirketi kurdu.\r\n\r\n💡 Mitnick Security:\r\n\r\nMitnick, hapisten çıktıktan sonra \"Mitnick Security\" adlı bir güvenlik danışmanlığı şirketi kurdu. Şirket, Fortune 500 şirketlerine güvenlik danışmanlığı hizmeti veriyor. Mitnick, aynı zamanda \"The Art of Deception\" ve \"Ghost in the Wires\" gibi kitaplar yazarak sosyal mühendislik konusunda eğitimler veriyor.\r\n\r\n✅ Öğrenilen Dersler:\r\n\r\n1. Sosyal Mühendisliğin Gücü:\r\nMitnick'in hikayesi, teknik açıklardan çok, insan faktörünün ne kadar önemli olduğunu gösterdi. En güvenli sistemler bile, sosyal mühendislik saldırılarına karşı savunmasız olabilir.\r\n\r\n2. Etik Hacking'in Değeri:\r\nMitnick'in beyaz şapka hacker'a dönüşmesi, etik hacking'in ne kadar değerli olduğunu gösterdi. Bugün, birçok şirket sosyal mühendislik testleri yaparak çalışanlarını eğitiyor.\r\n\r\n3. Sürekli Eğitim:\r\nMitnick'in kitapları ve eğitimleri, siber güvenlik alanında önemli bir kaynak haline geldi. Bu, sürekli öğrenmenin ve bilgi paylaşımının önemini gösterir.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Kevin Mitnick"
+                    }
                 },
                 {
                     "id": "3",
-                    "title": "Kategori Tamamlama",
-                    "content": "Bu testi başarıyla tamamladığınızda, Etik Hacking'e Giriş kategorisini tamamlamış olacaksınız. Test sonucunuz %70 ve üzerinde olmalıdır."
+                    "title": "Google Bug Bounty Programı",
+                    "content": "Google, 2010 yılında bug bounty programını başlatarak, etik hacking dünyasında bir devrim yarattı. Hacker'lar, sistemdeki güvenlik açıklarını bildirerek ödül kazanmaktadır. Bu program, etik hacking'in şirketlere fayda sağladığının en iyi örneklerinden biridir.\r\n\r\n📅 Programın Başlangıcı:\r\n\r\nGoogle, 2010 yılında \"Google Vulnerability Reward Program\" (VRP) adlı bug bounty programını başlattı. Bu program, şirketlerin etik hacker'lardan yardım alması için yeni bir model oluşturdu.\r\n\r\n🔹 Programın Detayları:\r\n\r\n• Kapsam: Google'ın tüm ürünleri (Gmail, Android, Chrome, Google Cloud, vb.)\r\n• Ödül Aralığı: 100$ - 31.337$ (kritik açıklar için)\r\n• Toplam Ödül: 2023 yılında 12 milyon dolar\r\n• Katılımcı Sayısı: Binlerce güvenlik araştırmacısı\r\n\r\n💡 Başarı Hikayeleri:\r\n\r\n2023 yılında, bir güvenlik araştırmacısı Android işletim sistemindeki kritik bir açığı buldu. Google, bu açığı hızla kapattı ve araştırmacıya 100.000 dolar ödül verdi. Bu açık, milyarlarca Android kullanıcısını etkileyebilirdi.\r\n\r\n🔹 Programın Etkileri:\r\n\r\n1. Güvenlik Artışı:\r\nGoogle'ın sistemlerinde binlerce güvenlik açığı tespit edildi ve kapatıldı. Bu sayede, milyarlarca kullanıcı korundu.\r\n\r\n2. Etik Hacking Kültürü:\r\nGoogle'ın programı, diğer şirketlere örnek oldu. Bugün, yüzlerce şirket benzer programlar yürütüyor.\r\n\r\n3. Kariyer Fırsatları:\r\nBug bounty programları, güvenlik araştırmacıları için önemli bir gelir kaynağı haline geldi. Bazı araştırmacılar, yılda 500.000 doların üzerinde kazanç elde ediyor.\r\n\r\n✅ Sonuç:\r\nGoogle'ın bug bounty programı, etik hacking'in değerini ve önemini gösterdi. Bu program, hem şirketlerin güvenliğini artırdı hem de güvenlik araştırmacıları için yeni fırsatlar yarattı.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Google Bug Bounty"
+                    }
                 },
                 {
                     "id": "4",
-                    "title": "Kapsamlı Test: Etik Hacking'e Giriş",
-                    "content": "[Quiz Sayfası: Kapsamlı Test: Etik Hacking'e Giriş]",
+                    "title": "Stuxnet ve White Hat Katkısı",
+                    "content": "2010 yılında Stuxnet virüsü İran'ın nükleer tesislerini hedef aldı. White hat hacker'lar, virüsün yayılmasını ve zararını analiz ederek güvenlik önlemleri geliştirdi. Bu olay, etik hacker'ların kritik altyapılarda oynadığı rolü göstermektedir.\r\n\r\n📅 Stuxnet Virüsü:\r\n\r\nStuxnet, 2010 yılında keşfedilen, endüstriyel kontrol sistemlerini hedef alan ilk siber silah olarak kabul edilir. Virüs, İran'ın Natanz nükleer tesisindeki santrifüjleri hedef aldı ve fiziksel zarar verdi.\r\n\r\n🔹 Virüsün Özellikleri:\r\n\r\n• Zero-day açıkları kullandı (4 adet)\r\n• USB üzerinden yayıldı\r\n• Siemens SCADA sistemlerini hedef aldı\r\n• Fiziksel ekipmanlara zarar verdi\r\n• Çok sofistike ve gelişmiş bir yapıya sahipti\r\n\r\n💡 White Hat Hacker'ların Rolü:\r\n\r\nStuxnet keşfedildikten sonra, dünya çapındaki güvenlik araştırmacıları virüsü analiz etmeye başladı. Symantec, Kaspersky ve diğer güvenlik şirketleri, virüsün kodunu inceleyerek:\r\n\r\n1. Virüsün Nasıl Çalıştığını Anladılar:\r\nWhite hat hacker'lar, Stuxnet'in yapısını ve çalışma mantığını analiz ederek, benzer saldırılara karşı koruma yöntemleri geliştirdiler.\r\n\r\n2. Güvenlik Önlemleri Geliştirdiler:\r\nStuxnet'in kullandığı açıklar tespit edildi ve kapatıldı. Endüstriyel kontrol sistemleri için yeni güvenlik standartları oluşturuldu.\r\n\r\n3. Farkındalık Yaratıldı:\r\nBu olay, kritik altyapıların siber saldırılara karşı ne kadar savunmasız olduğunu gösterdi. Şirketler ve devletler, güvenlik önlemlerini artırmaya başladı.\r\n\r\n🔹 Öğrenilen Dersler:\r\n\r\n1. Kritik Altyapıların Önemi:\r\nStuxnet, kritik altyapıların siber saldırılara karşı korunması gerektiğini gösterdi. Bugün, birçok ülke kritik altyapı güvenliği için özel programlar yürütüyor.\r\n\r\n2. Etik Hacker'ların Değeri:\r\nWhite hat hacker'lar, Stuxnet'i analiz ederek dünya çapında güvenlik önlemlerinin geliştirilmesine katkıda bulundu.\r\n\r\n3. Sıfır Gün Açıkları:\r\nStuxnet, sıfır gün açıklarının ne kadar tehlikeli olabileceğini gösterdi. Bu, düzenli güvenlik güncellemelerinin önemini vurguladı.\r\n\r\n✅ Sonuç:\r\nStuxnet olayı, etik hacker'ların kritik altyapıların korunmasında ne kadar önemli bir rol oynadığını gösterdi. Bu olaydan sonra, endüstriyel kontrol sistemleri için güvenlik standartları geliştirildi.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Stuxnet"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Tesla ve Hacker Günü",
+                    "content": "Tesla, her yıl sistemlerini test etmek için hacker'ları davet etmektedir. Etik hacker'lar buldukları güvenlik açıklarını bildirir ve Tesla ödül verir. Şirket güvenliği artarken, hacker'lar deneyim kazanmaktadır.\r\n\r\n📅 Pwn2Own Etkinliği:\r\n\r\nTesla, 2019 yılından itibaren \"Pwn2Own\" adlı etkinliğe katılmaya başladı. Bu etkinlik, dünyanın en prestijli güvenlik yarışmalarından biridir. Hacker'lar, Tesla araçlarının sistemlerine saldırarak açıkları bulmaya çalışırlar.\r\n\r\n🔹 Etkinliğin Detayları:\r\n\r\n• Yer: Pwn2Own Vancouver\r\n• Hedef: Tesla Model 3 ve Model S araçları\r\n• Ödül: Her açık için 10.000$ - 250.000$ arası\r\n• Katılımcılar: Dünyanın en iyi güvenlik araştırmacıları\r\n\r\n💡 Başarı Hikayeleri:\r\n\r\n2023 yılında, bir güvenlik araştırmacısı Tesla Model 3'ün infotainment sistemindeki bir açığı buldu. Bu açık, araç kontrolüne erişim sağlayabilirdi. Tesla, açığı hızla kapattı ve araştırmacıya 100.000 dolar ödül verdi.\r\n\r\n🔹 Tesla'nın Yaklaşımı:\r\n\r\n1. Şeffaflık:\r\nTesla, bulunan açıkları hızla kapatıyor ve kamuoyuna açıklıyor. Bu yaklaşım, müşteri güvenini artırıyor.\r\n\r\n2. Sürekli İyileştirme:\r\nHer yıl yapılan testler, Tesla'nın güvenlik seviyesini sürekli olarak artırıyor.\r\n\r\n3. İşbirliği:\r\nTesla, etik hacker'larla işbirliği yaparak güvenlik ekosistemini güçlendiriyor.\r\n\r\n✅ Sonuç:\r\nTesla'nın hacker günü yaklaşımı, otomotiv endüstrisinde bir örnek oluşturdu. Bugün, birçok otomotiv şirketi benzer programlar yürütüyor. Bu, araç güvenliğinin ne kadar önemli olduğunu gösterir.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Tesla Hacker Günü"
+                    }
+                },
+                {
+                    "id": "6",
+                    "title": "Microsoft Bug Bounty Programı",
+                    "content": "Microsoft, sistemlerindeki güvenlik açıklarını bulmak için etik hacker'lar ile işbirliği yapmaktadır. Güvenlik açığı bulanlar ödüllendirilir ve güvenlik güçlendirilir. Bu yöntem, etik hacking'i teşvik eden modern uygulamalardan biridir.\r\n\r\n📅 Programın Başlangıcı:\r\n\r\nMicrosoft, 2013 yılında bug bounty programını başlattı. Program, başlangıçta sadece Windows ve Internet Explorer'ı kapsıyordu. Ancak zamanla, Azure, Office 365, Xbox ve diğer tüm Microsoft ürünlerini kapsayacak şekilde genişletildi.\r\n\r\n🔹 Programın Detayları:\r\n\r\n• Kapsam: Tüm Microsoft ürünleri ve servisleri\r\n• Ödül Aralığı: 500$ - 250.000$ (kritik açıklar için)\r\n• Toplam Ödül: 2023 yılında 13.7 milyon dolar\r\n• Tespit Edilen Açık: 1.000+ açık (2023)\r\n\r\n💡 Başarı Hikayeleri:\r\n\r\n2023 yılında, bir güvenlik araştırmacısı Azure bulut platformundaki kritik bir açığı buldu. Bu açık, müşteri verilerine erişim sağlayabilirdi. Microsoft, açığı 24 saat içinde kapattı ve araştırmacıya 200.000 dolar ödül verdi.\r\n\r\n🔹 Microsoft'un Yaklaşımı:\r\n\r\n1. Hızlı Müdahale:\r\nMicrosoft, bulunan açıkları hızla kapatıyor. Ortalama kapatma süresi 24-48 saat.\r\n\r\n2. Şeffaflık:\r\nMicrosoft, açıkları ve çözümleri düzenli olarak kamuoyuna açıklıyor.\r\n\r\n3. Sürekli İyileştirme:\r\nProgram, sürekli olarak geliştiriliyor ve genişletiliyor.\r\n\r\n✅ Sonuç:\r\nMicrosoft'un bug bounty programı, etik hacking'in değerini gösterdi. Program, hem Microsoft'un güvenliğini artırdı hem de güvenlik araştırmacıları için önemli bir gelir kaynağı oldu.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Microsoft Bug Bounty"
+                    }
+                },
+                {
+                    "id": "7",
+                    "title": "Öğrendiklerimizi Özetleyelim",
+                    "content": "Bu ders boyunca, tarihte önemli etik hacking olaylarını ve bu olayların siber güvenlik dünyasına etkilerini inceledik.\r\n\r\n🔹 Ana Öğrenmeler:\r\n\r\n1. Etik Hacking'in Tarihi:\r\nEtik hacking, 1960'lı yıllardan beri var olan bir kavramdır. Zamanla, profesyonel bir kariyer yolu haline gelmiştir.\r\n\r\n2. Önemli Kişiler:\r\nKevin Mitnick gibi ünlü hacker'lar, siber güvenlik farkındalığını artırmış ve etik hacking'in önemini göstermiştir.\r\n\r\n3. Bug Bounty Programları:\r\nGoogle, Microsoft, Tesla gibi şirketlerin bug bounty programları, etik hacking'i teşvik etmiş ve güvenlik standartlarını yükseltmiştir.\r\n\r\n4. Kritik Olaylar:\r\nStuxnet gibi olaylar, etik hacker'ların kritik altyapıların korunmasında ne kadar önemli olduğunu göstermiştir.\r\n\r\n✅ Sonuç:\r\n\r\nEtik hacking, siber güvenlik ekosisteminin vazgeçilmez bir parçasıdır. Tarihsel olaylar, etik hacking'in değerini ve önemini göstermiştir. Bug bounty programları, hem şirketlerin güvenliğini artırmış hem de güvenlik araştırmacıları için önemli fırsatlar yaratmıştır. Gelecekte, etik hacking'in önemi daha da artacak ve siber güvenlik standartları sürekli olarak gelişecektir.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Özet"
+                    }
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz – Tarihte Ünlü Etik Hacking Olayları",
+                    "content": "Soru: Google Bug Bounty programının ana amacı nedir?",
                     "type": "quiz",
-                    "question": "Etik hacking sürecinin ilk aşaması nedir?",
+                    "question": "Google Bug Bounty programının ana amacı nedir?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Penetrasyon testi",
+                            "text": "Hackerlara zarar vermek",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Bilgi toplama",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "C",
-                            "text": "Planlama ve izin alma",
+                            "text": "Sistemdeki güvenlik açıklarını bulmak",
                             "isCorrect": true
                         },
                         {
+                            "id": "C",
+                            "text": "Sistemi kapatmak",
+                            "isCorrect": false
+                        },
+                        {
                             "id": "D",
-                            "text": "Raporlama",
+                            "text": "Veri çalmak",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking sürecinin ilk aşaması planlama ve izin almaktır. Yasal izinler olmadan hiçbir güvenlik testi yapılamaz."
+                    "explanation": "Google, hacker'ları sistemdeki güvenlik açıklarını buldukları için ödüllendirerek güvenliği artırmayı amaçlamaktadır. Google'ın bug bounty programı, 2010 yılında başlatıldı ve bugüne kadar binlerce güvenlik açığı tespit edildi. 2023 yılında, Google etik hacker'lara toplam 12 milyon dolar ödül dağıttı. Bu program, hem Google'ın güvenliğini artırdı hem de güvenlik araştırmacıları için önemli bir gelir kaynağı oldu. Program, diğer şirketlere de örnek oldu ve bug bounty kültürünün yaygınlaşmasına katkıda bulundu."
                 }
             ]
         },
@@ -377,65 +482,86 @@
             "title": "6. Etik Hackerın Rolü ve Sorumlulukları",
             "duration": "14 dk",
             "color": "#3498db",
-            "documents": 5,
+            "documents": 7,
             "isCompleted": false,
             "isActive": false,
             "description": "Etik hackerın görevleri, sorumlulukları ve etik kurallarını öğren",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Etik Hackerın Temel Rolleri",
-                    "content": "Etik hackerlar, organizasyonların siber güvenlik durumunu değerlendiren profesyonellerdir. Sistemlerin güvenlik açıklarını tespit eder, penetrasyon testleri yapar ve güvenlik önerileri sunarlar. Amaçları sistemleri korumak ve güvenliği artırmaktır.",
+                    "title": "Etik Hacker Nedir?",
+                    "content": "Etik hacker, sistemlerin güvenliğini artırmak için yasal ve sorumlu bir şekilde test eden güvenlik uzmanıdır. Sistem açıklarını bulur, zararlı saldırıları önler ve kurumların güvenlik seviyesini yükseltir.\r\n\r\nEtik hacker'lar, siber güvenlik ekosisteminin vazgeçilmez bir parçasıdır. Bu profesyoneller, saldırganların kullandığı teknikleri kullanarak sistemleri test ederler, ancak tamamen yasal ve etik bir çerçevede çalışırlar.\r\n\r\n🔹 Etik Hacker'ın Temel Özellikleri:\r\n\r\n• Yasal İzin: Tüm faaliyetleri yazılı izinler çerçevesinde yapılır\r\n• Etik Yaklaşım: Zarar verme amacı güdülmez, sadece güvenlik test edilir\r\n• Profesyonellik: Tüm bulgular detaylı raporlar halinde sunulur\r\n• Sürekli Öğrenme: Siber güvenlik alanındaki gelişmeleri takip ederler\r\n\r\n🔹 Etik Hacker'ın Görevleri:\r\n\r\n• Sistem açıklarını bulmak\r\n• Güvenlik testleri yapmak\r\n• Penetrasyon testleri gerçekleştirmek\r\n• Güvenlik raporları hazırlamak\r\n• Güvenlik önerileri sunmak\r\n• Güvenlik eğitimleri vermek\r\n\r\n💡 Gerçek Dünya Örneği:\r\n\r\nBir finans kurumunda çalışan etik hacker, web uygulamasında kritik bir SQL Injection açığı buldu. Bu açık, tüm müşteri veritabanına erişim sağlayabilirdi. Etik hacker, açığı detaylı bir raporla bildirdi ve çözüm önerileri sundu. Kurum, açığı 24 saat içinde kapattı ve potansiyel olarak milyonlarca dolarlık zarardan korundu.\r\n\r\n✅ Sonuç:\r\nEtik hacker'lar, modern siber güvenlik dünyasının kahramanlarıdır. Sistemleri korur, açıkları tespit eder ve güvenliği artırırlar.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabEthicHacker.png",
-                        "title": "Etik Hacker Rolleri"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Etik Hacker"
                     }
                 },
                 {
                     "id": "2",
-                    "title": "Etik Hackerın Sorumlulukları",
-                    "content": "Etik hackerların temel sorumlulukları: Yasal izinlerle çalışmak, gizlilik kurallarına uymak, buldukları açıkları sorumlu bir şekilde bildirmek, zarar verme amacı gütmemek ve tüm faaliyetlerini şeffaf bir şekilde raporlamaktır.",
+                    "title": "Ana Sorumluluklar",
+                    "content": "Etik hacker'ların birçok önemli sorumluluğu vardır. Bu sorumluluklar, hem teknik hem de etik açıdan kritik öneme sahiptir.\r\n\r\n🔹 1. Güvenlik Açığı Analizi\r\n\r\nSistemlerdeki zayıf noktaları tespit etmek, etik hacker'ların en temel sorumluluğudur. Bu analiz, sistem mimarisi, yazılım bileşenleri, ağ yapısı ve konfigürasyonları kapsar.\r\n\r\n💡 Örnek: Bir etik hacker, bir web uygulamasında XSS (Cross-Site Scripting) açığı buldu. Bu açık, kullanıcıların oturum bilgilerinin çalınmasına neden olabilirdi.\r\n\r\n🔹 2. Penetrasyon Testi\r\n\r\nBulunan açıkların istismar edilebilirliğini test etmek, açıkların gerçekten kullanılabilir olup olmadığını doğrulamak için kritiktir.\r\n\r\n💡 Örnek: Bir etik hacker, SQL Injection açığını test ederek, veritabanından hassas veriler çekebileceğini kanıtladı. Bu test, açığın ciddiyetini gösterdi.\r\n\r\n🔹 3. Raporlama\r\n\r\nBulguları detaylı ve anlaşılır şekilde raporlamak, etik hacker'ların en önemli sorumluluklarından biridir. Raporlar, teknik detaylar, risk seviyeleri ve çözüm önerileri içermelidir.\r\n\r\n💡 Örnek: Bir etik hacker, bulduğu açıkları detaylı bir raporla sundu. Rapor, açıkların nasıl tespit edildiğini, risk seviyelerini ve çözüm önerilerini içeriyordu.\r\n\r\n🔹 4. Öneriler Sunma\r\n\r\nSistemi güçlendirecek çözümler geliştirmek, etik hacker'ların değerli bir katkısıdır. Bu öneriler, teknik iyileştirmeler, konfigürasyon düzenlemeleri ve güvenlik politikaları içerebilir.\r\n\r\n💡 Örnek: Bir etik hacker, zayıf şifre sorunu için iki faktörlü doğrulama (2FA) ve güçlü şifre politikaları önerdi. Bu öneriler uygulandı ve güvenlik seviyesi %300 arttı.\r\n\r\n✅ Sonuç:\r\nEtik hacker'ların sorumlulukları, siber güvenliğin her aşamasını kapsar. Bu sorumluluklar, sistemleri korumak ve güvenliği artırmak için kritiktir.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabResponsibility.png",
-                        "title": "Etik Sorumluluklar"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Sorumluluklar"
                     }
                 },
                 {
                     "id": "3",
-                    "title": "Etik Kurallar ve Prensipler",
-                    "content": "Etik hackerlar şu prensiplere uymalıdır: Yasal yetki almadan test yapmamak, buldukları açıkları kötüye kullanmamak, müşteri bilgilerini korumak, sürekli kendilerini geliştirmek ve mesleki etik kurallara uymak.",
+                    "title": "Etik Kurallara Uyum",
+                    "content": "Etik hacker'lar, belirli kurallara ve standartlara uymak zorundadır. Bu kurallar, hem yasal hem de etik açıdan güvenli bir çalışma ortamı sağlar.\r\n\r\n🔹 Yasal İzin Alınmalı\r\n\r\nTüm hacking faaliyetleri, mutlaka yazılı ve resmi izinler çerçevesinde yapılmalıdır. İzinsiz erişim, siber suç kapsamındadır ve ciddi yasal sonuçlara yol açabilir.\r\n\r\n💡 Örnek: Bir penetrasyon testi başlamadan önce, şirketten yazılı bir \"penetrasyon testi izin belgesi\" alınmalıdır. Bu belge, testin kapsamını, süresini ve yöntemlerini açıkça belirtmelidir.\r\n\r\n🔹 Veriler Gizli Tutulmalı\r\n\r\nTest sırasında erişilen tüm veriler gizli tutulmalı ve sadece raporlama amaçlı kullanılmalıdır. Veriler, test sonrası güvenli bir şekilde silinmelidir.\r\n\r\n💡 Örnek: Etik hacker'lar, test sırasında eriştikleri müşteri verilerini asla kopyalamamalı veya saklamamalıdır. Sadece güvenlik açığını kanıtlamak için gerekli minimum veriyi kullanmalıdırlar.\r\n\r\n🔹 Zarar Verme Amacı Olmamalı\r\n\r\nEtik hacking'in amacı, sistemleri korumak ve güvenliği artırmaktır. Sistemlere zarar vermek, veri silmek veya servisleri kesmek kesinlikle yasaktır.\r\n\r\n💡 Örnek: Bir etik hacker, bir SQL Injection açığı bulduğunda, sadece açığın varlığını kanıtlamalıdır. Veritabanındaki tüm verileri silmek veya değiştirmek kesinlikle yasaktır.\r\n\r\n🔹 Şeffaf ve Hesap Verebilir Olmalı\r\n\r\nTüm faaliyetler, detaylı loglar ve raporlarla belgelenmelidir. Her adım, şeffaf bir şekilde raporlanmalıdır.\r\n\r\n💡 Örnek: Etik hacker'lar, test sırasında yaptıkları her işlemi loglamalıdır. Bu loglar, hem şirket hem de yasal makamlar tarafından incelenebilir olmalıdır.\r\n\r\n✅ Ek Etik Kurallar:\r\n\r\n• Test kapsamı dışına çıkılmamalıdır\r\n• Bulunan açıklar sadece yetkili kişilere bildirilmelidir\r\n• Açıklar, sorumlu açıklama (responsible disclosure) prensiplerine uygun şekilde bildirilmelidir\r\n• Test sonrası tüm erişimler kapatılmalıdır\r\n• Müşteri bilgileri ve ticari sırlar korunmalıdır",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabEthics.png",
-                        "title": "Etik Prensipler"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Etik Kurallar"
                     }
                 },
                 {
                     "id": "4",
-                    "title": "Mesleki Gelişim ve Sertifikasyon",
-                    "content": "Etik hackerlar sürekli kendilerini geliştirmelidir. CEH, OSCP, CISSP gibi sertifikalar alabilirler. Yeni teknolojileri öğrenmeli, konferanslara katılmalı ve meslektaşlarıyla bilgi paylaşımında bulunmalıdırlar.",
+                    "title": "Gerçek Hayat Örneği - Bug Bounty Programları",
+                    "content": "Google, Microsoft ve Tesla gibi şirketler etik hacker'lar ile işbirliği yapar. Hacker'lar güvenlik açıklarını bildirerek ödül kazanır. Bu sayede hem hacker deneyimi artar hem de şirket güvenliği güçlenir.\r\n\r\nBug bounty programları, etik hacking'in en popüler ve etkili uygulamalarından biridir. Bu programlar, şirketlerin güvenlik açıklarını tespit etmelerine ve güvenlik araştırmacıları için gelir kaynağı oluşturmalarına yardımcı olur.\r\n\r\n🔹 Bug Bounty Programlarının Avantajları:\r\n\r\n• Şirketler için: Güvenlik açıklarını erken tespit etme\r\n• Hacker'lar için: Gelir kaynağı ve deneyim kazanma\r\n• Toplum için: Daha güvenli sistemler ve uygulamalar\r\n\r\n💡 Google Bug Bounty Programı:\r\n\r\nGoogle, 2010 yılında bug bounty programını başlattı. 2023 yılında, Google etik hacker'lara toplam 12 milyon dolar ödül dağıttı. Program sayesinde, Google'ın sistemlerinde binlerce güvenlik açığı tespit edildi ve kapatıldı.\r\n\r\n💡 Microsoft Bug Bounty Programı:\r\n\r\nMicrosoft, 2013 yılında bug bounty programını başlattı. 2023 yılında, Microsoft etik hacker'lara toplam 13.7 milyon dolar ödül dağıttı. Program, Windows, Azure, Office 365 ve diğer tüm Microsoft ürünlerini kapsar.\r\n\r\n💡 Tesla Hacker Günü:\r\n\r\nTesla, her yıl \"Pwn2Own\" etkinliğine katılarak araçlarının güvenliğini test ediyor. 2023 yılında, bir güvenlik araştırmacısı Tesla Model 3'ün infotainment sistemindeki bir açığı buldu ve 100.000 dolar ödül kazandı.\r\n\r\n✅ Sonuç:\r\nBug bounty programları, etik hacking'in değerini ve önemini gösterir. Bu programlar, hem şirketlerin güvenliğini artırır hem de güvenlik araştırmacıları için önemli fırsatlar yaratır.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabCertification.png",
-                        "title": "Sertifikasyon"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Bug Bounty"
                     }
                 },
                 {
                     "id": "5",
-                    "title": "Quiz: Etik Hacker Sorumlulukları",
+                    "title": "Etik Hacker ve Siber Güvenlik Eğitimi",
+                    "content": "Etik hacker'lar, çalışanlara ve kurumlara siber güvenlik farkındalık eğitimi verir. Sosyal mühendislik, şifre güvenliği ve veri koruma konularında rehberlik eder. Amaç, saldırılara karşı farkındalığı artırmaktır.\r\n\r\nEğitim, siber güvenliğin en önemli bileşenlerinden biridir. Etik hacker'lar, hem teknik eğitim hem de farkındalık eğitimleri vererek organizasyonların güvenlik seviyesini artırırlar.\r\n\r\n🔹 Eğitim Konuları:\r\n\r\n• Sosyal Mühendislik: Phishing, vishing, pretexting gibi saldırı türleri\r\n• Şifre Güvenliği: Güçlü şifre oluşturma, 2FA kullanımı\r\n• Veri Koruma: Hassas verilerin korunması, veri sınıflandırması\r\n• Güvenli İnternet Kullanımı: Güvenli web siteleri, şüpheli bağlantılar\r\n• Incident Response: Saldırı durumunda ne yapılmalı\r\n\r\n💡 Gerçek Dünya Örneği:\r\n\r\nBir finans kurumu, çalışanlarına sosyal mühendislik eğitimi verdi. Eğitim sonrası, çalışanlar phishing e-postalarını %85 daha iyi tespit etmeye başladı. Bu sayede, kurum sosyal mühendislik saldırılarına karşı çok daha dirençli hale geldi.\r\n\r\n🔹 Eğitim Yöntemleri:\r\n\r\n• Simülasyonlar: Gerçek saldırı senaryolarını simüle etme\r\n• Hands-on Eğitimler: Pratik uygulamalar ve laboratuvar çalışmaları\r\n• Farkındalık Kampanyaları: Düzenli hatırlatmalar ve güncellemeler\r\n• Testler: Phishing testleri ve güvenlik quizleri\r\n\r\n✅ Sonuç:\r\nEtik hacker'ların eğitim rolleri, siber güvenliğin insan faktörünü güçlendirir. Eğitimli çalışanlar, organizasyonların en güçlü güvenlik katmanıdır.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Güvenlik Eğitimi"
+                    }
+                },
+                {
+                    "id": "6",
+                    "title": "Rolün Önemi",
+                    "content": "Etik hacker'lar, siber saldırıları önleyen 'görünmez kahramanlardır'. Modern şirketler ve devlet kurumları için kritik bir güvenlik katmanı sağlarlar. Açıkları erken tespit ederek finansal kayıpları ve itibar zedelenmesini önlerler.\r\n\r\nEtik hacker'ların rolü, modern siber güvenlik ekosisteminde kritik öneme sahiptir. Bu profesyoneller, organizasyonları siber tehditlere karşı korur ve güvenlik seviyelerini sürekli olarak artırırlar.\r\n\r\n🔹 Kritik Güvenlik Katmanı\r\n\r\nEtik hacker'lar, organizasyonların güvenlik altyapısının önemli bir parçasıdır. Düzenli testler ve analizler sayesinde, sistemler sürekli olarak güçlendirilir.\r\n\r\n💡 Örnek: Bir teknoloji şirketi, düzenli etik hacking testleri sayesinde yılda ortalama 50 kritik açık tespit ediyor ve kapatıyor. Bu sayede, şirket siber saldırılara karşı çok daha dirençli hale geliyor.\r\n\r\n🔹 Finansal Kayıpları Önleme\r\n\r\nEtik hacker'lar, açıkları erken tespit ederek organizasyonları milyonlarca dolarlık zararlardan korur.\r\n\r\n💡 Örnek: Bir e-ticaret şirketi, etik hacker'lar sayesinde müşteri veritabanına erişim sağlayabilecek kritik bir açığı tespit etti. Açık kapatıldı ve şirket, potansiyel olarak 10 milyon dolar zarardan korundu.\r\n\r\n🔹 İtibar Koruma\r\n\r\nEtik hacker'lar, siber saldırıları önleyerek organizasyonların itibarını korur. Veri ihlalleri, şirketlerin itibarına ciddi zarar verebilir.\r\n\r\n💡 Örnek: Bir sağlık kurumu, etik hacker'lar sayesinde hasta verilerine erişim sağlayabilecek açıkları tespit etti ve kapattı. Bu sayede, kurumun itibarı korundu ve hasta güveni sürdü.\r\n\r\n✅ Sonuç:\r\nEtik hacker'lar, modern siber güvenlik dünyasının vazgeçilmez bir parçasıdır. Bu profesyoneller, organizasyonları korur, açıkları tespit eder ve güvenliği artırırlar.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Rolün Önemi"
+                    }
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz - Etik Hacker'ın Rolü ve Sorumlulukları",
+                    "content": "Soru: Etik hacker'ın en temel sorumluluğu nedir?",
                     "type": "quiz",
-                    "question": "Etik hackerın en önemli sorumluluğu nedir?",
+                    "question": "Etik hacker'ın en temel sorumluluğu nedir?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Sistemlere zarar vermek",
+                            "text": "Sisteme zarar vermek",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Yasal izinlerle çalışmak",
+                            "text": "Açıkları tespit etmek",
                             "isCorrect": true
                         },
                         {
@@ -445,11 +571,11 @@
                         },
                         {
                             "id": "D",
-                            "text": "Gizli kalmak",
+                            "text": "Sistemi kapatmak",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hackerın en önemli sorumluluğu yasal izinlerle çalışmaktır. İzinsiz güvenlik testi yapmak yasa dışıdır."
+                    "explanation": "Etik hacker'ın temel sorumluluğu, sistemlerdeki güvenlik açıklarını tespit etmek ve raporlayarak güvenliği artırmaktır. Etik hacker'lar, yasal izinler çerçevesinde sistemleri test ederler, açıkları bulurlar ve detaylı raporlar sunarlar. Bu sayede, organizasyonlar finansal kayıplardan, itibar kaybından ve yasal sorunlardan korunur. Örnek: Bir finans kurumunda çalışan etik hacker, web uygulamasında kritik bir SQL Injection açığı buldu. Açık kapatıldı ve kurum, potansiyel olarak milyonlarca dolarlık zarardan korundu."
                 }
             ]
         },
@@ -458,89 +584,110 @@
             "title": "7. Etik Hacking Araçları ve Teknolojileri",
             "duration": "20 dk",
             "color": "#9b59b6",
-            "documents": 6,
+            "documents": 8,
             "isCompleted": false,
             "isActive": false,
             "description": "Etik hacking için kullanılan temel araçları ve teknolojileri tanı",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Kali Linux ve Temel Araçlar",
-                    "content": "Kali Linux, etik hacking için özel olarak tasarlanmış bir Linux dağıtımıdır. 600'den fazla penetrasyon testi aracı içerir. Nmap, Wireshark, Metasploit, Burp Suite gibi popüler araçlar önceden yüklenmiş olarak gelir.",
+                    "title": "Etik Hacking Araçlarına Giriş",
+                    "content": "Etik hacker'lar, sistem güvenliğini test etmek ve açıkları tespit etmek için çeşitli yazılım ve donanım araçları kullanır. Amaç: Açıkları keşfetmek, sistemleri güçlendirmek ve saldırıları önceden simüle etmek.\r\n\r\nEtik hacking araçları, güvenlik testlerinin vazgeçilmez bir parçasıdır. Bu araçlar, etik hacker'ların sistemleri analiz etmesine, açıkları tespit etmesine ve güvenlik önerileri sunmasına yardımcı olur.\r\n\r\n🔹 Araç Kategorileri:\r\n\r\n• Ağ Tarama Araçları: Nmap, Wireshark, Netcat\r\n• Açık Tarama Araçları: Nessus, OpenVAS, Nikto\r\n• Web Uygulama Test Araçları: Burp Suite, OWASP ZAP, SQLMap\r\n• Şifre Kırma Araçları: John the Ripper, Hashcat, Hydra\r\n• Penetrasyon Test Framework'leri: Metasploit, Cobalt Strike\r\n• Güvenlik Dağıtımları: Kali Linux, Parrot Security\r\n\r\n💡 Önemli Not:\r\n\r\nBu araçlar sadece yasal izinler çerçevesinde ve etik amaçlarla kullanılmalıdır. İzinsiz kullanım, siber suç kapsamındadır ve ciddi yasal sonuçlara yol açabilir.\r\n\r\n✅ Sonuç:\r\nEtik hacking araçları, güvenlik testlerinin temelidir. Doğru kullanıldığında, sistemlerin güvenliğini artırmaya yardımcı olurlar.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabKali.png",
-                        "title": "Kali Linux"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Etik Hacking Araçları"
                     }
                 },
                 {
                     "id": "2",
-                    "title": "Nmap ve Port Tarama",
-                    "content": "Nmap (Network Mapper), ağ keşfi ve güvenlik taraması için kullanılan güçlü bir araçtır. Hedef sistemlerin açık portlarını, çalışan servisleri ve işletim sistemlerini tespit eder. Etik hacking sürecinin vazgeçilmez aracıdır.",
+                    "title": "Network Analiz Araçları",
+                    "content": "Ağ analiz araçları, etik hacker'ların ağ trafiğini incelemesine, açık portları tespit etmesine ve ağ güvenliğini değerlendirmesine yardımcı olur.\r\n\r\n🔹 Wireshark\r\n\r\nWireshark, ağ trafiğini analiz eden en popüler araçlardan biridir. Paket yakalama ve analiz özellikleri sayesinde, ağdaki güvenlik sorunlarını tespit etmeye yardımcı olur.\r\n\r\nÖzellikler:\r\n• Gerçek zamanlı paket yakalama\r\n• Protokol analizi (HTTP, HTTPS, TCP, UDP, vb.)\r\n• Güvenlik açığı tespiti\r\n• Ağ performans analizi\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, Wireshark kullanarak ağ trafiğini analiz etti ve şifrelenmemiş HTTP trafiği tespit etti. Bu, hassas verilerin açık metin olarak aktarıldığını gösterdi.\r\n\r\n🔹 Nmap (Network Mapper)\r\n\r\nNmap, sistem ve port taraması yapan güçlü bir araçtır. Hangi portların açık olduğunu, hangi servislerin çalıştığını ve işletim sistemlerini tespit eder.\r\n\r\nÖzellikler:\r\n• Port tarama (TCP, UDP)\r\n• Servis versiyonu tespiti\r\n• İşletim sistemi tespiti\r\n• Ağ haritası oluşturma\r\n• Güvenlik açığı taraması\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, Nmap kullanarak bir sunucuda 22 (SSH), 80 (HTTP) ve 443 (HTTPS) portlarının açık olduğunu tespit etti. Bu bilgi, güvenlik testlerinin odaklanacağı alanları belirledi.\r\n\r\n🔹 Netcat\r\n\r\nNetcat, \"ağın İsviçre çakısı\" olarak bilinir. Ağ bağlantıları oluşturmak, port dinlemek ve veri transferi yapmak için kullanılır.\r\n\r\nÖzellikler:\r\n• Port tarama\r\n• Port dinleme\r\n• Veri transferi\r\n• Backdoor oluşturma (test amaçlı)\r\n\r\n✅ Sonuç:\r\nAğ analiz araçları, etik hacker'ların ağ güvenliğini değerlendirmesine yardımcı olur. Bu araçlar, açık portları, çalışan servisleri ve güvenlik açıklarını tespit etmek için kritiktir.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabNmap.png",
-                        "title": "Nmap"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Network Analiz"
                     }
                 },
                 {
                     "id": "3",
-                    "title": "Wireshark ve Ağ Analizi",
-                    "content": "Wireshark, ağ trafiğini gerçek zamanlı olarak analiz eden bir protokol analizörüdür. Paket yakalama, filtreleme ve analiz özellikleri ile ağ güvenliği testlerinde kritik rol oynar.",
+                    "title": "Açık Tarama ve Güvenlik Testi Araçları",
+                    "content": "Açık tarama araçları, sistemlerdeki güvenlik açıklarını otomatik olarak tespit eder ve raporlar. Bu araçlar, etik hacker'ların kapsamlı güvenlik analizleri yapmasına yardımcı olur.\r\n\r\n🔹 OpenVAS (Open Vulnerability Assessment Scanner)\r\n\r\nOpenVAS, açık kaynaklı bir güvenlik açığı tarama aracıdır. Sistemlerdeki bilinen güvenlik açıklarını tespit eder ve detaylı raporlar sunar.\r\n\r\nÖzellikler:\r\n• 50.000+ güvenlik açığı veritabanı\r\n• Web arayüzü\r\n• Otomatik tarama\r\n• Detaylı raporlama\r\n• Ücretsiz ve açık kaynaklı\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, OpenVAS kullanarak bir web sunucusunu taradı ve Apache 2.4.49 sürümündeki CVE-2021-41773 açığını tespit etti. Bu açık, path traversal saldırılarına izin verebilirdi.\r\n\r\n🔹 Nessus\r\n\r\nNessus, kurumsal sistemlerde güvenlik taraması yapan profesyonel bir araçtır. Öncelikli riskleri listeler ve çözüm önerileri sunar.\r\n\r\nÖzellikler:\r\n• 100.000+ güvenlik açığı veritabanı\r\n• Kurumsal özellikler\r\n• Compliance taraması\r\n• Detaylı risk analizi\r\n• Ücretli (Community versiyonu ücretsiz)\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, Nessus kullanarak bir kurumsal ağı taradı ve 15 kritik, 32 yüksek ve 45 orta seviye açık tespit etti. Rapor, her açık için risk seviyesi ve çözüm önerileri içeriyordu.\r\n\r\n🔹 Nikto\r\n\r\nNikto, web sunucuları için özel olarak tasarlanmış bir güvenlik tarama aracıdır. Web sunucularındaki güvenlik açıklarını tespit eder.\r\n\r\nÖzellikler:\r\n• Web sunucu taraması\r\n• CGI açıkları tespiti\r\n• Eski yazılım versiyonları tespiti\r\n• Güvenlik yapılandırma hataları\r\n• Ücretsiz ve açık kaynaklı\r\n\r\n✅ Sonuç:\r\nAçık tarama araçları, etik hacker'ların sistemlerdeki güvenlik açıklarını hızlı ve etkili bir şekilde tespit etmesine yardımcı olur. Bu araçlar, manuel testlerin yanında otomatik taramalar yaparak kapsamlı analizler sağlar.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabWireshark.png",
-                        "title": "Wireshark"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Açık Tarama"
                     }
                 },
                 {
                     "id": "4",
-                    "title": "Metasploit Framework",
-                    "content": "Metasploit, penetrasyon testleri için kullanılan en popüler framework'tür. Exploit geliştirme, payload oluşturma ve post-exploitation aşamalarında kullanılır. Hem komut satırı hem de grafik arayüzü sunar.",
+                    "title": "Şifre Kırma ve Parola Test Araçları",
+                    "content": "Şifre kırma araçları, etik hacker'ların zayıf şifreleri tespit etmesine ve şifre güvenliğini test etmesine yardımcı olur. Bu araçlar, sadece yasal izinler çerçevesinde kullanılmalıdır.\r\n\r\n🔹 John the Ripper\r\n\r\nJohn the Ripper, şifre kırma işlemleri için kullanılan en popüler araçlardan biridir. Hash'lenmiş şifreleri kırmak için brute-force ve dictionary saldırıları yapar.\r\n\r\nÖzellikler:\r\n• Çoklu hash algoritması desteği (MD5, SHA-256, bcrypt, vb.)\r\n• Brute-force saldırıları\r\n• Dictionary saldırıları\r\n• GPU hızlandırma desteği\r\n• Ücretsiz ve açık kaynaklı\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, John the Ripper kullanarak bir sistemdeki hash'lenmiş şifreleri test etti. \"password123\" gibi zayıf şifreler 5 dakika içinde kırıldı. Bu, şifre politikalarının güçlendirilmesi gerektiğini gösterdi.\r\n\r\n🔹 Hashcat\r\n\r\nHashcat, GPU hızlandırma kullanan güçlü bir şifre kırma aracıdır. John the Ripper'dan çok daha hızlıdır.\r\n\r\nÖzellikler:\r\n• GPU hızlandırma (NVIDIA, AMD)\r\n• 200+ hash algoritması desteği\r\n• Çoklu saldırı modu\r\n• Yüksek performans\r\n• Ücretsiz ve açık kaynaklı\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, Hashcat kullanarak bir MD5 hash'ini kırmaya çalıştı. GPU hızlandırma sayesinde, 8 karakterli bir şifre 2 saat içinde kırıldı.\r\n\r\n🔹 Hydra\r\n\r\nHydra, farklı servisler (SSH, FTP, HTTP, vb.) için hızlı şifre denemeleri yapan bir araçtır. Brute-force saldırıları için kullanılır.\r\n\r\nÖzellikler:\r\n• Çoklu protokol desteği (SSH, FTP, HTTP, RDP, vb.)\r\n• Paralel saldırılar\r\n• Dictionary saldırıları\r\n• Hızlı ve etkili\r\n• Ücretsiz ve açık kaynaklı\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, Hydra kullanarak bir SSH servisine brute-force saldırısı yaptı. \"admin\" kullanıcı adı ve \"password123\" şifresi ile başarılı bir giriş yapıldı. Bu, zayıf şifre politikalarının tehlikesini gösterdi.\r\n\r\n⚠️ Önemli Uyarı:\r\nBu araçlar sadece yasal izinler çerçevesinde ve etik amaçlarla kullanılmalıdır. İzinsiz kullanım, siber suç kapsamındadır.\r\n\r\n✅ Sonuç:\r\nŞifre kırma araçları, etik hacker'ların şifre güvenliğini test etmesine yardımcı olur. Bu araçlar, zayıf şifreleri tespit ederek güvenlik politikalarının güçlendirilmesine katkıda bulunur.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabMetasploit.png",
-                        "title": "Metasploit"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Şifre Kırma"
                     }
                 },
                 {
                     "id": "5",
-                    "title": "Burp Suite ve Web Güvenliği",
-                    "content": "Burp Suite, web uygulama güvenlik testleri için kullanılan profesyonel bir araçtır. Proxy, scanner, intruder ve repeater modülleri ile web uygulamalarındaki güvenlik açıklarını tespit eder.",
+                    "title": "Web Uygulama Test Araçları",
+                    "content": "Web uygulama test araçları, etik hacker'ların web uygulamalarındaki güvenlik açıklarını tespit etmesine yardımcı olur. Bu araçlar, SQL Injection, XSS, CSRF gibi yaygın web açıklarını test eder.\r\n\r\n🔹 Burp Suite\r\n\r\nBurp Suite, web uygulamalarında açık bulmak için kullanılan en kapsamlı araçlardan biridir. Profesyonel etik hacker'ların vazgeçilmez aracıdır.\r\n\r\nÖzellikler:\r\n• Proxy özelliği (trafiği yakalama ve manipüle etme)\r\n• Spider (web sitesi haritası çıkarma)\r\n• Scanner (otomatik açık taraması)\r\n• Intruder (brute-force saldırıları)\r\n• Repeater (istekleri tekrar gönderme)\r\n• Ücretli (Community versiyonu ücretsiz, sınırlı)\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, Burp Suite kullanarak bir web uygulamasını test etti. Proxy özelliği ile login formundaki istekleri yakaladı ve SQL Injection payload'ları ekledi. Bu sayede, veritabanından hassas veriler çekebileceğini kanıtladı.\r\n\r\n🔹 OWASP ZAP (Zed Attack Proxy)\r\n\r\nOWASP ZAP, web uygulamalarını test etmek için ücretsiz ve açık kaynaklı bir araçtır. Burp Suite'e alternatif olarak kullanılabilir.\r\n\r\nÖzellikler:\r\n• Otomatik açık taraması\r\n• Manuel test desteği\r\n• API güvenlik testi\r\n• CI/CD entegrasyonu\r\n• Ücretsiz ve açık kaynaklı\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, OWASP ZAP kullanarak bir web uygulamasını otomatik olarak taradı. Araç, XSS açıkları, güvensiz cookie'ler ve eksik güvenlik başlıkları tespit etti.\r\n\r\n🔹 SQLMap\r\n\r\nSQLMap, SQL Injection açıklarını tespit etmek ve istismar etmek için özel olarak tasarlanmış bir araçtır.\r\n\r\nÖzellikler:\r\n• Otomatik SQL Injection tespiti\r\n• Veritabanı bilgisi çıkarma\r\n• Veri çekme\r\n• Shell alma\r\n• Ücretsiz ve açık kaynaklı\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, SQLMap kullanarak bir web uygulamasındaki SQL Injection açığını tespit etti. Araç, veritabanı adını, tablo isimlerini ve kullanıcı bilgilerini çıkardı.\r\n\r\n✅ Sonuç:\r\nWeb uygulama test araçları, etik hacker'ların web uygulamalarındaki güvenlik açıklarını tespit etmesine yardımcı olur. Bu araçlar, hem otomatik hem de manuel testler için kritiktir.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabBurp.png",
-                        "title": "Burp Suite"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Web Test"
                     }
                 },
                 {
                     "id": "6",
-                    "title": "Quiz: Etik Hacking Araçları",
+                    "title": "Sızma Testi ve Simülasyon Araçları",
+                    "content": "Sızma testi araçları, etik hacker'ların güvenlik açıklarını test etmesine ve sistemlerin saldırılara karşı direncini değerlendirmesine yardımcı olur.\r\n\r\n🔹 Metasploit Framework\r\n\r\nMetasploit, güvenlik açıklarını test etmek ve exploit uygulamak için kullanılan en popüler framework'tür. Binlerce hazır exploit içerir.\r\n\r\nÖzellikler:\r\n• 2.000+ hazır exploit\r\n• Payload oluşturma\r\n• Post-exploitation modülleri\r\n• Meterpreter shell\r\n• Ücretsiz ve açık kaynaklı\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, Metasploit kullanarak bir Windows sistemindeki EternalBlue açığını test etti. Exploit başarılı oldu ve sistem üzerinde Meterpreter shell elde edildi. Bu test, sistemin güncellenmesi gerektiğini gösterdi.\r\n\r\n🔹 Kali Linux\r\n\r\nKali Linux, birçok etik hacking aracını içeren popüler bir Linux dağıtımıdır. Penetrasyon testleri için özel olarak tasarlanmıştır.\r\n\r\nİçerdiği Araçlar:\r\n• 600+ güvenlik aracı\r\n• Nmap, Wireshark, Burp Suite\r\n• Metasploit, Aircrack-ng\r\n• John the Ripper, Hashcat\r\n• Ve daha fazlası...\r\n\r\n💡 Kullanım Örneği: Bir etik hacker, Kali Linux kullanarak kapsamlı bir penetrasyon testi gerçekleştirdi. Tüm gerekli araçlar tek bir sistemde toplanmıştı ve test süreci çok daha verimli hale geldi.\r\n\r\n🔹 Cobalt Strike\r\n\r\nCobalt Strike, gelişmiş penetrasyon testleri için kullanılan profesyonel bir araçtır. Red team operasyonları için idealdir.\r\n\r\nÖzellikler:\r\n• Beacon (gelişmiş backdoor)\r\n• Team server\r\n• Social engineering araçları\r\n• Post-exploitation framework\r\n• Ücretli (lisanslı)\r\n\r\n✅ Sonuç:\r\nSızma testi araçları, etik hacker'ların sistemlerin güvenlik seviyesini değerlendirmesine yardımcı olur. Bu araçlar, gerçek saldırıları simüle ederek sistemlerin direncini test eder.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Penetrasyon Testi"
+                    }
+                },
+                {
+                    "id": "7",
+                    "title": "Örnek Çalışma Senaryosu",
+                    "content": "Bu bölümde, etik hacker'ların araçları nasıl kullandığını gösteren gerçekçi bir senaryo inceleyeceğiz.\r\n\r\n📋 Senaryo: Web Uygulaması Güvenlik Testi\r\n\r\nBir e-ticaret şirketi, web sitesinin güvenliğini test etmek için bir etik hacker'dan yardım istedi.\r\n\r\n🔹 Adım 1: Hedef Sistemi Belirleme\r\n\r\nEtik hacker, Nmap kullanarak hedef sistemi analiz etti:\r\n• Port taraması: 80 (HTTP), 443 (HTTPS), 3306 (MySQL) portları açık\r\n• Servis versiyonları: Apache 2.4.49, MySQL 8.0.25\r\n• İşletim sistemi: Linux Ubuntu 20.04\r\n\r\n💡 Bulgu: Apache 2.4.49 sürümü, bilinen güvenlik açıkları içeriyor.\r\n\r\n🔹 Adım 2: Açık Tarama\r\n\r\nEtik hacker, Nessus kullanarak kapsamlı bir açık taraması yaptı:\r\n• 3 kritik açık tespit edildi\r\n• 8 yüksek seviye açık tespit edildi\r\n• 15 orta seviye açık tespit edildi\r\n\r\n💡 Bulgu: CVE-2021-41773 (Apache path traversal) açığı tespit edildi.\r\n\r\n🔹 Adım 3: Web Uygulaması Testi\r\n\r\nEtik hacker, Burp Suite kullanarak web uygulamasını test etti:\r\n• Login formunda SQL Injection açığı bulundu\r\n• Ürün arama sayfasında XSS açığı bulundu\r\n• Güvenli olmayan cookie yapılandırması tespit edildi\r\n\r\n💡 Bulgu: SQL Injection açığı, tüm müşteri veritabanına erişim sağlayabilir.\r\n\r\n🔹 Adım 4: Raporlama\r\n\r\nEtik hacker, bulunan açıkları detaylı bir raporla sundu:\r\n• Her açık için risk seviyesi belirlendi\r\n• Çözüm önerileri sunuldu\r\n• Öncelik sıralaması yapıldı\r\n\r\n✅ Sonuç:\r\n\r\nŞirket, raporu aldıktan sonra:\r\n• Apache sürümünü güncelledi\r\n• SQL Injection açığını kapattı (parametrik sorgular)\r\n• XSS açığını kapattı (input validation)\r\n• Cookie yapılandırmasını düzeltti\r\n\r\nBu test sayesinde, şirket potansiyel olarak milyonlarca dolarlık zarardan korundu.\r\n\r\n💡 Öğrenilen Dersler:\r\n\r\n1. Araçların Doğru Kullanımı: Her araç, belirli bir amaç için kullanılmalıdır.\r\n2. Kapsamlı Test: Tek bir araç yeterli değildir, birden fazla araç kullanılmalıdır.\r\n3. Detaylı Raporlama: Bulgular, anlaşılır ve uygulanabilir şekilde raporlanmalıdır.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Çalışma Senaryosu"
+                    }
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz - Etik Hacking Araçları",
+                    "content": "Soru: Wireshark ne amaçla kullanılır?",
                     "type": "quiz",
-                    "question": "Hangi araç ağ trafiğini analiz etmek için kullanılır?",
+                    "question": "Wireshark ne amaçla kullanılır?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Nmap",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "Wireshark",
+                            "text": "Ağ trafiğini analiz etmek",
                             "isCorrect": true
                         },
                         {
+                            "id": "B",
+                            "text": "Parolaları kırmak",
+                            "isCorrect": false
+                        },
+                        {
                             "id": "C",
-                            "text": "Metasploit",
+                            "text": "Sistemleri kapatmak",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Burp Suite",
+                            "text": "Veri çalmak",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Wireshark, ağ trafiğini gerçek zamanlı olarak analiz eden bir protokol analizörüdür."
+                    "explanation": "Wireshark, ağ trafiğini analiz ederek paketleri inceler ve potansiyel güvenlik risklerini tespit etmeye yardımcı olur. Wireshark, gerçek zamanlı paket yakalama ve analiz özellikleri sayesinde, ağdaki güvenlik sorunlarını tespit etmek için kritik bir araçtır. Etik hacker'lar, Wireshark kullanarak şifrelenmemiş trafiği, güvenlik açıklarını ve ağ performans sorunlarını tespit edebilirler. Örnek: Bir etik hacker, Wireshark kullanarak ağ trafiğini analiz etti ve şifrelenmemiş HTTP trafiği tespit etti. Bu, hassas verilerin açık metin olarak aktarıldığını gösterdi ve HTTPS kullanımının zorunlu hale getirilmesi gerektiğini kanıtladı."
                 }
             ]
         },
@@ -549,99 +696,110 @@
             "title": "8. Pratik Uygulama: Temel Güvenlik Testi",
             "duration": "25 dk",
             "color": "#e67e22",
-            "documents": 7,
+            "documents": 8,
             "isCompleted": false,
             "isActive": false,
             "description": "Güvenli bir ortamda temel güvenlik testi yapma",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Lab Ortamı Hazırlığı",
-                    "content": "Güvenli test ortamı kurmak için VirtualBox veya VMware kullanarak sanal makineler oluşturuyoruz. Metasploitable, DVWA (Damn Vulnerable Web Application) gibi özel olarak güvenlik açıkları içeren sistemler kullanırız.",
+                    "title": "Temel Güvenlik Testine Giriş",
+                    "content": "\"Tamam, bir sisteme girelim\" demekle iş bitmiyor. Etik hacking, her adımı planlı ve izinli olarak yürütülen bir süreçtir. Temel güvenlik testi, sistemi hacker gibi incelemek ancak zarar vermemek üzerine kuruludur.\r\n\r\nEtik hacking, sadece teknik bir süreç değil, aynı zamanda metodolojik bir yaklaşımdır. Her adım, belirli kurallar ve standartlar çerçevesinde gerçekleştirilir.\r\n\r\n🔹 Temel Güvenlik Testinin Amacı:\r\n\r\n• Açıkları bulmak ve sistemi güçlendirmek\r\n• Saldırıları önceden simüle etmek\r\n• Güvenlik seviyesini değerlendirmek\r\n• Güvenlik önerileri sunmak\r\n\r\n🔹 Test Çerçevesi:\r\n\r\n• Her zaman yetkili: Yazılı izinler alınmalıdır\r\n• Yasal: Tüm faaliyetler yasal çerçevede olmalıdır\r\n• Etik: Zarar verme amacı güdülmemelidir\r\n• Şeffaf: Tüm adımlar belgelenmelidir\r\n\r\n💡 Hacker Mantığını Anlamak:\r\n\r\nEtik hacker'lar, saldırganların düşünce yapısını anlamalıdır. Bu sayede, sistemlerdeki zayıf noktaları daha iyi tespit edebilirler. \"Saldırgan bu sisteme nasıl saldırır?\" sorusu, güvenlik testlerinin temelidir.\r\n\r\n✅ Sonuç:\r\nTemel güvenlik testi, sistematik ve metodolojik bir yaklaşımla gerçekleştirilir. Bu test, sistemlerin güvenliğini artırmak ve saldırılara karşı dirençli hale getirmek için kritiktir.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabLab.png",
-                        "title": "Lab Ortamı"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Güvenlik Testi"
                     }
                 },
                 {
                     "id": "2",
-                    "title": "Hedef Keşfi ve Bilgi Toplama",
-                    "content": "İlk adım olarak hedef sistem hakkında bilgi topluyoruz. Google dorking, sosyal medya araştırması, whois sorguları ve DNS kayıtları gibi pasif bilgi toplama tekniklerini kullanırız.",
+                    "title": "Adım 1 - Hedef Sistem Analizi",
+                    "content": "İlk adım, hedef sistem hakkında mümkün olduğunca fazla bilgi toplamaktır. Bu bilgi toplama süreci, \"reconnaissance\" (keşif) olarak adlandırılır ve güvenlik testlerinin temelidir.\r\n\r\n🔹 Bilgi Toplama Yöntemleri:\r\n\r\n• Pasif Keşif: WHOIS sorguları, DNS kayıtları, sosyal medya araştırması\r\n• Aktif Keşif: Port taraması, servis versiyonu tespiti, işletim sistemi tespiti\r\n\r\n🔹 Nmap ile Port Taraması:\r\n\r\nNmap, hedef sistemdeki açık portları ve çalışan servisleri tespit etmek için kullanılır.\r\n\r\nTemel Komutlar:\r\n• `nmap -sS target.com` - TCP SYN taraması\r\n• `nmap -sV target.com` - Servis versiyonu tespiti\r\n• `nmap -O target.com` - İşletim sistemi tespiti\r\n• `nmap -p 80,443,22 target.com` - Belirli portları tarama\r\n\r\n💡 Gerçek Dünya Örneği:\r\n\r\nBir etik hacker, Nmap kullanarak bir web sunucusunu taradı:\r\n• Port 80 (HTTP): Apache 2.4.49 açık\r\n• Port 443 (HTTPS): Apache 2.4.49 açık\r\n• Port 22 (SSH): OpenSSH 8.2 açık\r\n• Port 3306 (MySQL): MySQL 8.0.25 açık\r\n\r\nBu bilgiler, güvenlik testlerinin odaklanacağı alanları belirledi. Örneğin, Apache 2.4.49 sürümü bilinen güvenlik açıkları içeriyordu.\r\n\r\n🔹 Önemli Noktalar:\r\n\r\n• Açık portlar, saldırı için en savunmasız noktaları gösterir\r\n• Sadece tarama yapmak değil, neden açık olduklarını anlamak önemlidir\r\n• Her açık port, potansiyel bir güvenlik riski oluşturabilir\r\n• Gereksiz açık portlar kapatılmalıdır\r\n\r\n✅ Sonuç:\r\nHedef sistem analizi, güvenlik testlerinin ilk ve en önemli adımıdır. Bu analiz, test sürecinin yönünü belirler ve odaklanılacak alanları gösterir.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabRecon.png",
-                        "title": "Bilgi Toplama"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Sistem Analizi"
                     }
                 },
                 {
                     "id": "3",
-                    "title": "Port Tarama ve Servis Keşfi",
-                    "content": "Nmap ile hedef sistemin açık portlarını ve çalışan servislerini tespit ediyoruz. TCP SYN scan, UDP scan ve servis versiyon tespiti gibi farklı tarama tekniklerini uyguluyoruz.",
+                    "title": "Adım 2 - Açık Tarama",
+                    "content": "Bilgi topladıktan sonra sıradaki adım güvenlik açıklarını keşfetmektir. Bu adım, \"vulnerability assessment\" (açık değerlendirmesi) olarak adlandırılır.\r\n\r\n🔹 Açık Tarama Araçları:\r\n\r\n• OpenVAS: Açık kaynaklı, ücretsiz güvenlik tarama aracı\r\n• Nessus: Profesyonel, kurumsal güvenlik tarama aracı\r\n• Nikto: Web sunucuları için özel tarama aracı\r\n\r\n🔹 Araçların Yaptıkları:\r\n\r\n• Sistemdeki yazılım ve servisleri analiz eder\r\n• Bilinen güvenlik açıklarını (CVE) tespit eder\r\n• Eski yazılım versiyonlarını tespit eder\r\n• Güvenlik yapılandırma hatalarını bulur\r\n• Detaylı raporlar oluşturur\r\n\r\n💡 Gerçek Dünya Örneği:\r\n\r\nBir etik hacker, Nessus kullanarak bir web sunucusunu taradı:\r\n• 3 kritik açık tespit edildi (CVE-2021-41773, CVE-2021-44228)\r\n• 8 yüksek seviye açık tespit edildi\r\n• 15 orta seviye açık tespit edildi\r\n• 25 düşük seviye açık tespit edildi\r\n\r\nRapor, her açık için risk seviyesi, açıklama ve çözüm önerileri içeriyordu.\r\n\r\n🔹 Açıkları Anlamak ve Önceliklendirmek:\r\n\r\nGüvenlik testi sadece açık bulmak değil, onları anlamak ve önceliklendirmektir:\r\n\r\n• Kritik: Hemen kapatılmalı (remote code execution, SQL injection)\r\n• Yüksek: Kısa sürede kapatılmalı (privilege escalation, data exposure)\r\n• Orta: Planlı şekilde kapatılmalı (information disclosure)\r\n• Düşük: Uzun vadede ele alınabilir (best practice ihlalleri)\r\n\r\n✅ Sonuç:\r\nAçık tarama, güvenlik testlerinin kritik bir adımıdır. Bu adım, sistemlerdeki güvenlik açıklarını tespit eder ve güvenlik iyileştirmeleri için yol haritası oluşturur.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabScan.png",
-                        "title": "Port Tarama"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Açık Tarama"
                     }
                 },
                 {
                     "id": "4",
-                    "title": "Güvenlik Açığı Tespiti",
-                    "content": "Nessus, OpenVAS veya Nikto gibi araçlarla hedef sistemdeki güvenlik açıklarını tespit ediyoruz. CVE veritabanından bilinen açıkları kontrol ediyor ve risk seviyelerini değerlendiriyoruz.",
+                    "title": "Adım 3 - Web Uygulama Testi",
+                    "content": "Web uygulamaları çok kritiktir çünkü kullanıcı verileri orada saklanır. Web uygulama güvenlik testleri, modern siber güvenliğin en önemli alanlarından biridir.\r\n\r\n🔹 Web Uygulama Test Araçları:\r\n\r\n• Burp Suite: Profesyonel web uygulama test aracı\r\n• OWASP ZAP: Ücretsiz, açık kaynaklı web test aracı\r\n• SQLMap: SQL Injection açıklarını tespit etmek için özel araç\r\n\r\n🔹 Test Edilen Açıklar:\r\n\r\n• SQL Injection: Veritabanı sorgularını manipüle etme\r\n• XSS (Cross-Site Scripting): Kötü amaçlı script enjeksiyonu\r\n• CSRF (Cross-Site Request Forgery): Yetkisiz işlem yapma\r\n• Authentication Bypass: Kimlik doğrulama atlatma\r\n• Authorization Issues: Yetkilendirme sorunları\r\n• File Upload Vulnerabilities: Dosya yükleme açıkları\r\n\r\n💡 Gerçek Dünya Örneği:\r\n\r\nBir etik hacker, Burp Suite kullanarak bir e-ticaret sitesini test etti:\r\n\r\n1. Proxy ile login formunu yakaladı\r\n2. SQL Injection payload'ları ekledi: `admin' OR '1'='1`\r\n3. Başarılı bir şekilde admin paneline erişim sağladı\r\n4. Bu açık, tüm müşteri veritabanına erişim sağlayabilirdi\r\n\r\nAçık kapatıldı ve site güvenli hale getirildi.\r\n\r\n🔹 Test Mantığı:\r\n\r\nWeb formları ve veri akışlarını simüle ederek saldırılara karşı savunmayı test eder. Hacker basit bir formla veri çalabilir, ancak etik hacker bunu yetkili ve etik şekilde test eder.\r\n\r\n✅ Sonuç:\r\nWeb uygulama testleri, modern siber güvenliğin kritik bir parçasıdır. Bu testler, kullanıcı verilerini korur ve web uygulamalarının güvenliğini artırır.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabVuln.png",
-                        "title": "Güvenlik Açığı Tespiti"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Web Test"
                     }
                 },
                 {
                     "id": "5",
-                    "title": "Exploit Geliştirme ve Test",
-                    "content": "Tespit edilen güvenlik açıklarını exploit etmek için Metasploit kullanıyoruz. Payload oluşturuyor, reverse shell bağlantıları kuruyor ve sistem erişimi sağlıyoruz. Tüm işlemler güvenli lab ortamında yapılır.",
+                    "title": "Adım 4 - Parola Güvenliği Testi",
+                    "content": "Parolalar sistemin en zayıf halkası olabilir. Zayıf parolalar, siber saldırıların en yaygın hedefidir. Parola güvenliği testleri, sistemlerin güvenliğini artırmak için kritiktir.\r\n\r\n🔹 Parola Test Araçları:\r\n\r\n• John the Ripper: Hash'lenmiş parolaları kırma\r\n• Hashcat: GPU hızlandırmalı parola kırma\r\n• Hydra: Çevrimiçi parola deneme (brute-force)\r\n• Medusa: Çoklu protokol parola deneme\r\n\r\n🔹 Test Yöntemleri:\r\n\r\n• Dictionary Attack: Yaygın parolalar listesi kullanma\r\n• Brute-Force Attack: Tüm olası kombinasyonları deneme\r\n• Hybrid Attack: Dictionary + brute-force kombinasyonu\r\n• Rainbow Table: Önceden hesaplanmış hash'ler\r\n\r\n💡 Gerçek Dünya Örneği:\r\n\r\nBir etik hacker, John the Ripper kullanarak bir sistemdeki hash'lenmiş parolaları test etti:\r\n\r\n• \"password123\" - 2 dakikada kırıldı\r\n• \"admin\" - 30 saniyede kırıldı\r\n• \"123456\" - 10 saniyede kırıldı\r\n• \"P@ssw0rd!\" - 5 saatte kırıldı\r\n• \"Tr0ub4dor&3\" - Kırılamadı (güçlü parola)\r\n\r\nBu test, zayıf parola politikalarının tehlikesini gösterdi. Şirket, güçlü parola politikaları uyguladı ve 2FA zorunlu hale getirdi.\r\n\r\n🔹 Güçlü Parola Kriterleri:\r\n\r\n• En az 12 karakter\r\n• Büyük ve küçük harf\r\n• Rakam ve özel karakter\r\n• Sözlük kelimeleri kullanmama\r\n• Kişisel bilgiler kullanmama\r\n\r\n💡 İpucu:\r\nGüçlü parola = güçlü savunma. Bu adım kullanıcı güvenliği için kritiktir. Kullanıcılar, güçlü parolalar kullanmalı ve 2FA'yı aktif etmelidir.\r\n\r\n✅ Sonuç:\r\nParola güvenliği testleri, sistemlerin en zayıf noktalarını tespit eder. Bu testler, güçlü parola politikalarının uygulanmasına ve kullanıcı farkındalığının artırılmasına yardımcı olur.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabExploit.png",
-                        "title": "Exploit Testi"
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Parola Testi"
                     }
                 },
                 {
                     "id": "6",
-                    "title": "Raporlama ve Öneriler",
-                    "content": "Test sonuçlarını detaylı bir rapor halinde sunuyoruz. Bulunan açıkları, risk seviyelerini, exploit edilebilirlik durumunu ve çözüm önerilerini içeren profesyonel bir rapor hazırlıyoruz.",
+                    "title": "Adım 5 - Raporlama",
+                    "content": "Her test bittikten sonra raporlama çok önemlidir. Raporlama, güvenlik testlerinin en kritik adımlarından biridir. İyi bir rapor, bulguları anlaşılır ve uygulanabilir şekilde sunar.\r\n\r\n🔹 Rapor İçeriği:\r\n\r\n• Executive Summary: Yöneticiler için özet\r\n• Test Metodolojisi: Kullanılan yöntemler ve araçlar\r\n• Bulunan Açıklar: Detaylı açıklama ve risk seviyeleri\r\n• Çözüm Önerileri: Her açık için uygulanabilir çözümler\r\n• Öncelik Sıralaması: Hangi açıklar önce kapatılmalı\r\n• Ekran Görüntüleri: Kanıt ve görsel materyaller\r\n\r\n🔹 Rapor Formatı:\r\n\r\nHer açık için şu bilgiler bulunmalıdır:\r\n• Açık Adı: Kısa ve açıklayıcı başlık\r\n• Risk Seviyesi: Kritik, Yüksek, Orta, Düşük\r\n• Açıklama: Açığın nasıl tespit edildiği\r\n• Etki: Açığın neden olabileceği zararlar\r\n• Çözüm: Açığın nasıl kapatılacağı\r\n• Referans: CVE numarası veya kaynak\r\n\r\n💡 Gerçek Dünya Örneği:\r\n\r\nBir etik hacker, bir web uygulaması testi sonrası detaylı bir rapor hazırladı:\r\n\r\n**Kritik Açık: SQL Injection**\r\n• Risk: Tüm veritabanına erişim\r\n• Etki: Müşteri verilerinin çalınması\r\n• Çözüm: Parametrik sorgular kullanılmalı\r\n• Öncelik: Hemen kapatılmalı\r\n\r\nRapor, teknik ekip ve yöneticiler için rehber görevi gördü. Açıklar, raporun öncelik sırasına göre kapatıldı.\r\n\r\n🔹 Öneriler:\r\n\r\n• Açıkları kapat: Her açık için çözüm uygulanmalı\r\n• Sistem yapılandırmasını güçlendir: Güvenlik politikaları güncellenmeli\r\n• Kullanıcıları eğit: Güvenlik farkındalık eğitimleri verilmeli\r\n• Düzenli testler: Güvenlik testleri düzenli olarak yapılmalı\r\n\r\n💡 Düşün:\r\nTestin değeri sadece açık bulmak değil, önleme ve çözüm önerileri sunmaktır. İyi bir rapor, organizasyonların güvenlik seviyesini artırmasına yardımcı olur.\r\n\r\n✅ Sonuç:\r\nRaporlama, güvenlik testlerinin vazgeçilmez bir parçasıdır. Detaylı ve uygulanabilir raporlar, organizasyonların güvenlik seviyesini artırmasına yardımcı olur.",
                     "media": {
                         "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/HackLabReport.png",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
                         "title": "Raporlama"
                     }
                 },
                 {
                     "id": "7",
-                    "title": "Quiz: Pratik Uygulama",
+                    "title": "Örnek Senaryo",
+                    "content": "Bu bölümde, gerçek bir güvenlik testi senaryosunu adım adım inceleyeceğiz. Bu senaryo, etik hacking sürecinin nasıl işlediğini gösterir.\r\n\r\n📋 Senaryo: E-Ticaret Web Sitesi Güvenlik Testi\r\n\r\nBir e-ticaret şirketi, web sitesinin güvenliğini test etmek için bir etik hacker'dan yardım istedi.\r\n\r\n🔹 1. Hedef: Bir Web Uygulaması\r\n\r\nHedef sistem: www.example-ecommerce.com\r\nTest kapsamı: Web uygulaması, veritabanı, sunucu yapılandırması\r\n\r\n🔹 2. Adımlar:\r\n\r\n**Adım 1: Port Taraması (Nmap)**\r\n• Port 80 (HTTP): Apache 2.4.49 açık\r\n• Port 443 (HTTPS): Apache 2.4.49 açık\r\n• Port 3306 (MySQL): MySQL 8.0.25 açık\r\n• Port 22 (SSH): OpenSSH 8.2 açık\r\n\r\n**Adım 2: Açık Tarama (OpenVAS)**\r\n• CVE-2021-41773 (Apache path traversal) - Kritik\r\n• CVE-2021-44228 (Log4j) - Kritik\r\n• Eski MySQL versiyonu - Yüksek\r\n• Toplam 26 açık tespit edildi\r\n\r\n**Adım 3: Web Form Testi (Burp Suite)**\r\n• Login formunda SQL Injection açığı bulundu\r\n• Ürün arama sayfasında XSS açığı bulundu\r\n• Güvenli olmayan cookie yapılandırması tespit edildi\r\n• File upload açığı bulundu\r\n\r\n**Adım 4: Parola Testi (John the Ripper)**\r\n• 15 zayıf parola tespit edildi\r\n• \"password123\" - 2 dakikada kırıldı\r\n• \"admin\" - 30 saniyede kırıldı\r\n• Güçlü parola politikaları önerildi\r\n\r\n**Adım 5: Raporlama ve Öneriler**\r\n• 3 kritik açık\r\n• 8 yüksek seviye açık\r\n• 15 orta seviye açık\r\n• Her açık için çözüm önerileri sunuldu\r\n\r\n🔹 3. Sonuçlar:\r\n\r\nŞirket, raporu aldıktan sonra:\r\n• Apache sürümünü güncelledi\r\n• SQL Injection açığını kapattı (parametrik sorgular)\r\n• XSS açığını kapattı (input validation)\r\n• Güçlü parola politikaları uyguladı\r\n• 2FA zorunlu hale getirildi\r\n\r\nBu test sayesinde, şirket potansiyel olarak 5 milyon dolarlık zarardan korundu.\r\n\r\n💡 Öğrenilen Dersler:\r\n\r\n1. Sistematik Yaklaşım: Her adım, bir sonraki adım için temel oluşturur\r\n2. Kapsamlı Test: Tek bir araç yeterli değildir, birden fazla araç kullanılmalıdır\r\n3. Detaylı Raporlama: Bulgular, anlaşılır ve uygulanabilir şekilde raporlanmalıdır\r\n4. Sürekli İyileştirme: Güvenlik testleri düzenli olarak yapılmalıdır\r\n\r\n✅ Sonuç:\r\nBu senaryo, etik hacking sürecinin nasıl işlediğini gösterir. Bu süreç, sistemleri güvenli hale getirmek ve saldırılara karşı dirençli olmalarını sağlamak için kritiktir.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabGl.png",
+                        "title": "Örnek Senaryo"
+                    }
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz - Temel Güvenlik Testi",
+                    "content": "Soru: Temel güvenlik testinin amacı nedir?",
                     "type": "quiz",
-                    "question": "Güvenlik testi yaparken ilk adım nedir?",
+                    "question": "Temel güvenlik testinin amacı nedir?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Exploit geliştirme",
+                            "text": "Sisteme zarar vermek",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Bilgi toplama",
+                            "text": "Açıkları tespit etmek",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Port tarama",
+                            "text": "Parolaları çalmak",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Raporlama",
+                            "text": "Sistemi kapatmak",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Güvenlik testinin ilk adımı bilgi toplamadır. Hedef hakkında mümkün olduğunca çok bilgi toplamak başarılı bir test için kritiktir."
+                    "explanation": "Temel güvenlik testi, açıkları tespit ederek sistemi daha güvenli hale getirmek için öneriler sunar. Bu test, yasal izinler çerçevesinde gerçekleştirilir ve sistemlerin güvenlik seviyesini değerlendirmek için kritiktir. Test süreci, hedef sistem analizi, açık tarama, web uygulama testi, parola güvenliği testi ve raporlama adımlarını içerir. Her adım, sistemlerin güvenliğini artırmak ve saldırılara karşı dirençli hale getirmek için tasarlanmıştır. Örnek: Bir e-ticaret şirketi, temel güvenlik testi sayesinde SQL Injection ve XSS açıklarını tespit etti. Açıklar kapatıldı ve şirket, potansiyel olarak milyonlarca dolarlık zarardan korundu."
                 }
             ]
         },
@@ -650,390 +808,320 @@
             "title": "9. Test ve Değerlendirme",
             "duration": "15 dk",
             "color": "#ff6b35",
-            "documents": 15,
+            "documents": 11,
             "isCompleted": false,
             "isActive": false,
             "description": "Etik Hacking'e Giriş kategorisinin kapsamlı testi",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Test Hazırlığı",
-                    "content": "Bu test, Etik Hacking'e Giriş kategorisindeki tüm konuları kapsamaktadır. Test öncesi öğrendiğiniz konuları gözden geçirin ve hazır olduğunuzda teste başlayın.",
+                    "title": "Test Hazırlığı ve Kurallar",
+                    "content": "Etik Hacking'e Giriş - Kapsamlı Test\r\n\r\nBu test, Etik Hacking'e Giriş kategorisindeki tüm 8 dersi kapsayan 10 sorudan oluşmaktadır. Test, eğitim içeriğindeki tüm konuları değerlendirmek için tasarlanmıştır.\r\n\r\nTest Kuralları:\r\n• Her soru için sadece bir doğru cevap vardır\r\n• Test süresi: 15 dakika\r\n• Başarı için en az %70 (7/10) doğru cevap gerekir\r\n• Testi tamamladıktan sonra sonuçlarınızı görebilirsiniz\r\n• Eksik konularınızı tekrar çalışabilirsiniz\r\n\r\nKapsanan Konular:\r\n• Etik Hacking Nedir ve Amacı\r\n• Hacking Türleri (Beyaz, Siyah, Gri Şapka)\r\n• Hacker Türleri (Script Kiddie, Profesyonel, Hacktivist, Insider)\r\n• Hacking'in Avantajları ve Dezavantajları\r\n• Tarihte Ünlü Etik Hacking Olayları\r\n• Etik Hackerın Rolü ve Sorumlulukları\r\n• Etik Hacking Araçları ve Teknolojileri\r\n• Pratik Uygulama: Temel Güvenlik Testi\r\n\r\nHer soru, derslerde işlenen konulardan seçilmiştir ve öğrendiklerinizi değerlendirmenize yardımcı olur.",
                     "media": {
                         "type": "image",
                         "url": "https://ankaraotantik.com/HackLab/HackLabTest.png",
-                        "title": ""
+                        "title": "Test Hazırlığı"
                     }
                 },
                 {
                     "id": "2",
-                    "title": "Test Kuralları",
-                    "content": "Test 10 sorudan oluşmaktadır. Her soru için sadece bir doğru cevap vardır. Test kategorisindeki tüm konuları kapsamaktadır. Testi tamamladıktan sonra sonuçlarınızı görebilir ve eksik konularınızı tekrar çalışabilirsiniz."
+                    "title": "Soru 1: Etik Hacking'in Amacı",
+                    "content": "Etik hacking'in temel amacı nedir?",
+                    "type": "quiz",
+                    "question": "Etik hacking'in temel amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sistemlere zarar vermek ve veri çalmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Güvenlik açıklarını tespit etmek ve sistemi güçlendirmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sistemleri kapatmak ve servisleri kesmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Kullanıcı verilerini çalmak ve satmak",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Etik hacking'in temel amacı, sistemlerdeki güvenlik açıklarını proaktif olarak tespit etmek ve bu açıkları kapatarak sistemi güçlendirmektir. Etik hacker'lar, yasal izinler çerçevesinde sistemleri test ederler ve saldırganlardan önce açıkları tespit ederler. Bu sayede, organizasyonlar finansal kayıplardan, itibar kaybından ve yasal sorunlardan korunur. Örnek: Bir finans kurumunda çalışan etik hacker, web uygulamasında kritik bir SQL Injection açığı buldu. Bu açık, tüm müşteri veritabanına erişim sağlayabilirdi. Etik hacker, açığı detaylı bir raporla bildirdi ve çözüm önerileri sundu. Kurum, açığı 24 saat içinde kapattı ve potansiyel olarak milyonlarca dolarlık zarardan korundu."
                 },
                 {
                     "id": "3",
-                    "title": "Kategori Tamamlama",
-                    "content": "Bu testi başarıyla tamamladığınızda, Etik Hacking'e Giriş kategorisini tamamlamış olacaksınız. Test sonucunuz %70 ve üzerinde olmalıdır."
+                    "title": "Soru 2: Beyaz Şapka Hacking",
+                    "content": "Beyaz şapka hacker'ların temel özelliği nedir?",
+                    "type": "quiz",
+                    "question": "Beyaz şapka hacker'ların temel özelliği nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Yasal izinlerle çalışan ve sistemleri koruyan profesyoneller",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Yasa dışı yöntemlerle sistemlere zarar veren saldırganlar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "İzin almadan sistemlere giren ve açıkları bildiren araştırmacılar",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Sadece kendi çıkarları için çalışan hacker'lar",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Beyaz şapka hacker'lar, yasal izinlerle çalışan ve sistemleri korumak için güvenlik testleri gerçekleştiren profesyonellerdir. Görevleri; güvenlik açıklarını bulmak, raporlamak ve çözüm önerileri sunmaktır. Bir bakıma \"siber dünyanın güvenlik müfettişleri\"dir. Google, Microsoft, Tesla gibi şirketlerin bug bounty programlarında çalışan güvenlik araştırmacıları beyaz şapka hacker'lardır. Örnek: Google'ın bug bounty programında çalışan güvenlik araştırmacıları. Sistemdeki açıkları bulup bildirerek ödül kazanırlar ve Google'ı korurlar. 2023'te Google, etik hacker'lara 12 milyon dolar ödül dağıttı."
                 },
                 {
                     "id": "4",
-                    "title": "Kapsamlı Test: Etik Hacking'e Giriş",
-                    "content": "[Quiz Sayfası: Kapsamlı Test: Etik Hacking'e Giriş]",
-                    "type": "quiz",
-                    "question": "Etik hacking sürecinin ilk aşaması nedir?",
-                    "options": [
-                        {
-                            "id": "A",
-                            "text": "Penetrasyon testi",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "Planlama ve izin alma",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "C",
-                            "text": "Bilgi toplama",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "D",
-                            "text": "Raporlama",
-                            "isCorrect": false
-                        }
-                    ],
-                    "explanation": "Etik hacking sürecinin ilk aşaması planlama ve izin almaktır. Yasal izinler olmadan hiçbir güvenlik testi yapılamaz."
-                },
-                {
-                    "id": "5",
-                    "title": "Soru 2: Hacking Türleri",
-                    "content": "[Quiz Sayfası: Soru 2: Hacking Türleri]",
-                    "type": "quiz",
-                    "question": "Hangi hacking türü yasal ve etik olarak kabul edilir?",
-                    "options": [
-                        {
-                            "id": "A",
-                            "text": "Siyah şapka hacking",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "Beyaz şapka hacking",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "C",
-                            "text": "Gri şapka hacking",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "D",
-                            "text": "Hiçbiri",
-                            "isCorrect": false
-                        }
-                    ],
-                    "explanation": "Beyaz şapka hacking yasal izinlerle yapılan etik hacking türüdür. Güvenlik testleri için yasal yetki alınarak çalışır."
-                },
-                {
-                    "id": "6",
-                    "title": "Soru 3: Hacker Türleri",
-                    "content": "[Quiz Sayfası: Soru 3: Hacker Türleri]",
+                    "title": "Soru 3: Script Kiddie",
+                    "content": "Script kiddie'lerin temel özelliği nedir?",
                     "type": "quiz",
                     "question": "Script kiddie'lerin temel özelliği nedir?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Yüksek teknik beceri",
+                            "text": "Gelişmiş programlama becerileri ve kendi araçlarını geliştirme",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Hazır araçları kullanma",
-                            "isCorrect": true
+                            "text": "Sadece savunma amaçlı çalışma ve sistemleri koruma",
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Profesyonel çalışma",
+                            "text": "Hazır exploit'leri ve araçları kullanarak saldırı yapma",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Yasal izinlerle çalışan profesyonel güvenlik uzmanları",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Script kiddie'ler, kendi araçlarını geliştirmek yerine hazır exploit'leri ve araçları kullanarak saldırı yapan kişilerdir. Derin teknik bilgiye sahip değillerdir ve genellikle genç yaşta, öğrenme aşamasında olan kişilerdir. Teknik bilgileri sınırlı olsa bile, hazır araçları kullanarak zarar verebilirler. Örnek: 2016 yılında Mirai botnet'in kaynak kodunu kullanan script kiddie'ler, büyük çaplı DDoS saldırıları düzenleyerek Twitter, Netflix gibi siteleri saatlerce erişilemez hale getirdiler. Bu saldırı, Dyn DNS servisini etkiledi ve milyonlarca kullanıcıyı etkiledi."
+                },
+                {
+                    "id": "5",
+                    "title": "Soru 4: Etik Hacking Süreci",
+                    "content": "Etik hacking sürecinin ilk aşaması nedir?",
+                    "type": "quiz",
+                    "question": "Etik hacking sürecinin ilk aşaması nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Keşif (Reconnaissance)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Açık analizi ve test",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Raporlama",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Derin bilgi",
+                            "text": "Planlama ve izin alma",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Etik hacking sürecinin ilk aşaması planlama ve izin almaktır. Testin kapsamı, süresi, yöntemleri ve yasal sınırlar belirlenir. Tüm çalışmalar resmi izinler çerçevesinde yapılmalıdır. Planlama aşaması 1-2 hafta sürebilir. Örnek: Şirketten yazılı \"penetrasyon testi izin belgesi\" alınması, test edilecek sistemlerin (web sitesi, API, şirket ağı vb.) net şekilde belirlenmesi. İzin alınmadan yapılan herhangi bir test, siber suç kapsamındadır ve ciddi yasal sonuçlara yol açabilir."
+                },
+                {
+                    "id": "6",
+                    "title": "Soru 5: Bug Bounty Programları",
+                    "content": "Bug bounty programlarının amacı nedir?",
+                    "type": "quiz",
+                    "question": "Bug bounty programlarının amacı nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Güvenlik açıklarını erken tespit etmek ve güvenlik araştırmacılarına ödül vermek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Hacker'ları yakalamak ve cezalandırmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Sistemleri kapatmak ve servisleri kesmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Veri çalmak ve satmak",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Script kiddie'ler hazır araçları ve scriptleri kullanarak hacking yapar. Derin teknik bilgiye sahip değillerdir."
+                    "explanation": "Bug bounty programları, şirketlerin güvenlik açıklarını erken tespit etmelerine ve güvenlik araştırmacıları için gelir kaynağı oluşturmalarına yardımcı olur. Bu programlar, etik hacking'in en popüler ve etkili uygulamalarından biridir. Google, Microsoft ve Tesla gibi şirketler etik hacker'lar ile işbirliği yapar. Hacker'lar güvenlik açıklarını bildirerek ödül kazanır. Örnek: Google, 2010 yılında bug bounty programını başlattı. 2023 yılında, Google etik hacker'lara toplam 12 milyon dolar ödül dağıttı. Microsoft, 2023 yılında etik hacker'lara toplam 13.7 milyon dolar ödül dağıttı."
                 },
                 {
                     "id": "7",
-                    "title": "Soru 4: Etik Kurallar",
-                    "content": "[Quiz Sayfası: Soru 4: Etik Kurallar]",
+                    "title": "Soru 6: Wireshark Kullanımı",
+                    "content": "Wireshark aracı ne amaçla kullanılır?",
                     "type": "quiz",
-                    "question": "Etik hacking yaparken en önemli kural nedir?",
+                    "question": "Wireshark aracı ne amaçla kullanılır?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Hızlı olmak",
+                            "text": "Port taraması yapmak",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Yasal izinler almak",
-                            "isCorrect": true
+                            "text": "Web uygulama testleri yapmak",
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "Gizli kalmak",
-                            "isCorrect": false
+                            "text": "Ağ trafiğini analiz etmek ve paketleri incelemek",
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
-                            "text": "Sistemlere zarar vermek",
+                            "text": "Şifre kırmak",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hacking yaparken en önemli kural yasal izinler almaktır. İzinsiz güvenlik testi yapmak yasa dışıdır."
+                    "explanation": "Wireshark, ağ trafiğini analiz eden en popüler araçlardan biridir. Paket yakalama ve analiz özellikleri sayesinde, ağdaki güvenlik sorunlarını tespit etmeye yardımcı olur. Wireshark, gerçek zamanlı paket yakalama, protokol analizi (HTTP, HTTPS, TCP, UDP, vb.), güvenlik açığı tespiti ve ağ performans analizi yapabilir. Örnek: Bir etik hacker, Wireshark kullanarak ağ trafiğini analiz etti ve şifrelenmemiş HTTP trafiği tespit etti. Bu, hassas verilerin açık metin olarak aktarıldığını gösterdi ve HTTPS kullanımının zorunlu hale getirilmesi gerektiğini kanıtladı."
                 },
                 {
                     "id": "8",
-                    "title": "Soru 5: Tarihi Olaylar",
-                    "content": "[Quiz Sayfası: Soru 5: Tarihi Olaylar]",
+                    "title": "Soru 7: Nmap Kullanımı",
+                    "content": "Nmap aracı ne amaçla kullanılır?",
                     "type": "quiz",
-                    "question": "Hangi olay endüstriyel kontrol sistemlerini hedef alan ilk siber silah olarak bilinir?",
+                    "question": "Nmap aracı ne amaçla kullanılır?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "WannaCry",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "Stuxnet",
+                            "text": "Port taraması yapmak ve açık servisleri tespit etmek",
                             "isCorrect": true
                         },
                         {
+                            "id": "B",
+                            "text": "Ağ trafiğini analiz etmek",
+                            "isCorrect": false
+                        },
+                        {
                             "id": "C",
-                            "text": "Anonymous saldırıları",
+                            "text": "Web uygulama testleri yapmak",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Kevin Mitnick olayları",
+                            "text": "Şifre kırmak",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Stuxnet, 2010'da İran'ın nükleer tesislerini hedef alan ve endüstriyel kontrol sistemlerini etkileyen ilk siber silah olarak tarihe geçmiştir."
+                    "explanation": "Nmap (Network Mapper), sistem ve port taraması yapan güçlü bir araçtır. Hangi portların açık olduğunu, hangi servislerin çalıştığını ve işletim sistemlerini tespit eder. Nmap, port tarama (TCP, UDP), servis versiyonu tespiti, işletim sistemi tespiti, ağ haritası oluşturma ve güvenlik açığı taraması yapabilir. Örnek: Bir etik hacker, Nmap kullanarak bir sunucuda 22 (SSH), 80 (HTTP) ve 443 (HTTPS) portlarının açık olduğunu tespit etti. Bu bilgi, güvenlik testlerinin odaklanacağı alanları belirledi. Örneğin, Apache 2.4.49 sürümü bilinen güvenlik açıkları içeriyordu."
                 },
                 {
                     "id": "9",
-                    "title": "Soru 6: Etik Hacker Sorumlulukları",
-                    "content": "[Quiz Sayfası: Soru 6: Etik Hacker Sorumlulukları]",
+                    "title": "Soru 8: Burp Suite Kullanımı",
+                    "content": "Burp Suite aracı ne amaçla kullanılır?",
                     "type": "quiz",
-                    "question": "Etik hackerın temel görevi nedir?",
+                    "question": "Burp Suite aracı ne amaçla kullanılır?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Sistemlere zarar vermek",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "Sistemleri korumak",
+                            "text": "Web uygulama güvenlik testleri yapmak",
                             "isCorrect": true
                         },
                         {
+                            "id": "B",
+                            "text": "Port taraması yapmak",
+                            "isCorrect": false
+                        },
+                        {
                             "id": "C",
-                            "text": "Veri çalmak",
+                            "text": "Ağ trafiğini analiz etmek",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Sistemleri kapatmak",
+                            "text": "Şifre kırmak",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Etik hackerın temel görevi sistemleri korumaktır. Güvenlik açıklarını tespit ederek sistemleri güvenli hale getirir."
+                    "explanation": "Burp Suite, web uygulamalarında açık bulmak için kullanılan en kapsamlı araçlardan biridir. Profesyonel etik hacker'ların vazgeçilmez aracıdır. Burp Suite, proxy özelliği (trafiği yakalama ve manipüle etme), spider (web sitesi haritası çıkarma), scanner (otomatik açık taraması), intruder (brute-force saldırıları) ve repeater (istekleri tekrar gönderme) özelliklerine sahiptir. Örnek: Bir etik hacker, Burp Suite kullanarak bir web uygulamasını test etti. Proxy özelliği ile login formundaki istekleri yakaladı ve SQL Injection payload'ları ekledi. Bu sayede, veritabanından hassas veriler çekebileceğini kanıtladı."
                 },
                 {
                     "id": "10",
-                    "title": "Soru 7: Hacking Avantajları",
-                    "content": "[Quiz Sayfası: Soru 7: Hacking Avantajları]",
+                    "title": "Soru 9: Keşif Aşaması",
+                    "content": "Etik hacking sürecinde keşif (reconnaissance) aşamasında hangi yöntem kullanılır?",
                     "type": "quiz",
-                    "question": "Etik hacking'in en büyük avantajı nedir?",
+                    "question": "Etik hacking sürecinde keşif (reconnaissance) aşamasında hangi yöntem kullanılır?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Sistemlere zarar vermek",
+                            "text": "WHOIS sorgusu ile domain sahibi bilgilerini öğrenmek",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "SQL Injection testleri yapmak",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Exploit geliştirmek",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Raporlama yapmak",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Keşif (reconnaissance) aşamasında, hedef sistem hakkında mümkün olduğunca fazla bilgi toplamak için pasif ve aktif keşif yöntemleri kullanılır. Pasif keşif yöntemlerinden biri WHOIS sorgusudur. WHOIS sorgusu, domain sahibi, kayıt tarihi, son güncelleme tarihi gibi bilgileri öğrenmek için kullanılır. Bu yöntem, hedef sistemle doğrudan iletişim kurmadan bilgi toplamak için idealdir. Aktif keşif yöntemleri ise port taraması, servis versiyonu tespiti ve işletim sistemi tespitini içerir. Bu bilgiler, güvenlik testlerinin odaklanacağı alanları belirler."
+                },
+                {
+                    "id": "11",
+                    "title": "Soru 10: Etik Hackerın Sorumlulukları",
+                    "content": "Etik hacker'ın en temel sorumluluğu nedir?",
+                    "type": "quiz",
+                    "question": "Etik hacker'ın en temel sorumluluğu nedir?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Sisteme zarar vermek",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Güvenliği artırmak",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "C",
                             "text": "Veri çalmak",
                             "isCorrect": false
                         },
                         {
-                            "id": "D",
-                            "text": "Sistemleri kapatmak",
-                            "isCorrect": false
-                        }
-                    ],
-                    "explanation": "Etik hacking'in en büyük avantajı sistem güvenliğini artırmaktır. Güvenlik açıklarını tespit ederek sistemleri korur."
-                },
-                {
-                    "id": "11",
-                    "title": "Soru 8: Mesleki Gelişim",
-                    "content": "[Quiz Sayfası: Soru 8: Mesleki Gelişim]",
-                    "type": "quiz",
-                    "question": "Etik hackerlar neden sürekli kendilerini geliştirmelidir?",
-                    "options": [
-                        {
-                            "id": "A",
-                            "text": "Para kazanmak için",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "Siber güvenlik alanı sürekli değiştiği için",
-                            "isCorrect": true
-                        },
-                        {
                             "id": "C",
-                            "text": "Ün kazanmak için",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "D",
-                            "text": "Rekabet için",
-                            "isCorrect": false
-                        }
-                    ],
-                    "explanation": "Siber güvenlik alanı sürekli değiştiği için etik hackerlar güncel kalmak zorundadır. Yeni tehditler ve teknikler sürekli ortaya çıkar."
-                },
-                {
-                    "id": "12",
-                    "title": "Soru 9: Kevin Mitnick",
-                    "content": "[Quiz Sayfası: Soru 9: Kevin Mitnick]",
-                    "type": "quiz",
-                    "question": "Kevin Mitnick bugün ne yapmaktadır?",
-                    "options": [
-                        {
-                            "id": "A",
-                            "text": "Hala hack yapmaya devam ediyor",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "Güvenlik danışmanı olarak çalışıyor",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "C",
-                            "text": "Hapiste",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "D",
-                            "text": "Emekli",
-                            "isCorrect": false
-                        }
-                    ],
-                    "explanation": "Kevin Mitnick cezasını tamamladıktan sonra etik hacking alanında uzmanlaştı ve bugün güvenlik danışmanı olarak çalışmaktadır."
-                },
-                {
-                    "id": "13",
-                    "title": "Soru 10: WannaCry",
-                    "content": "[Quiz Sayfası: Soru 10: WannaCry]",
-                    "type": "quiz",
-                    "question": "WannaCry saldırısı hangi yılda gerçekleşti?",
-                    "options": [
-                        {
-                            "id": "A",
-                            "text": "2015",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "2016",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "C",
-                            "text": "2017",
+                            "text": "Güvenlik açıklarını tespit etmek ve raporlamak",
                             "isCorrect": true
                         },
                         {
                             "id": "D",
-                            "text": "2018",
+                            "text": "Sistemi kapatmak",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "WannaCry ransomware saldırısı 2017 yılında gerçekleşti ve 150'den fazla ülkede 300.000'den fazla bilgisayarı etkiledi."
-                },
-                {
-                    "id": "14",
-                    "title": "Soru 11: Etik Hacking Araçları",
-                    "content": "[Quiz Sayfası: Soru 11: Etik Hacking Araçları]",
-                    "type": "quiz",
-                    "question": "Hangi araç ağ trafiğini analiz etmek için kullanılır?",
-                    "options": [
-                        {
-                            "id": "A",
-                            "text": "Nmap",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "Wireshark",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "C",
-                            "text": "Metasploit",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "D",
-                            "text": "Burp Suite",
-                            "isCorrect": false
-                        }
-                    ],
-                    "explanation": "Wireshark, ağ trafiğini gerçek zamanlı olarak analiz eden bir protokol analizörüdür."
-                },
-                {
-                    "id": "15",
-                    "title": "Soru 12: Pratik Uygulama",
-                    "content": "[Quiz Sayfası: Soru 12: Pratik Uygulama]",
-                    "type": "quiz",
-                    "question": "Güvenlik testi yaparken ilk adım nedir?",
-                    "options": [
-                        {
-                            "id": "A",
-                            "text": "Exploit geliştirme",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "B",
-                            "text": "Bilgi toplama",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "C",
-                            "text": "Port tarama",
-                            "isCorrect": false
-                        },
-                        {
-                            "id": "D",
-                            "text": "Raporlama",
-                            "isCorrect": false
-                        }
-                    ],
-                    "explanation": "Güvenlik testinin ilk adımı bilgi toplamadır. Hedef hakkında mümkün olduğunca çok bilgi toplamak başarılı bir test için kritiktir."
+                    "explanation": "Etik hacker'ın temel sorumluluğu, sistemlerdeki güvenlik açıklarını tespit etmek ve raporlayarak güvenliği artırmaktır. Etik hacker'lar, yasal izinler çerçevesinde sistemleri test ederler, açıkları bulurlar ve detaylı raporlar sunarlar. Bu sayede, organizasyonlar finansal kayıplardan, itibar kaybından ve yasal sorunlardan korunur. Etik hacker'ların sorumlulukları arasında güvenlik açığı analizi, penetrasyon testi, raporlama ve çözüm önerileri sunma bulunur. Örnek: Bir finans kurumunda çalışan etik hacker, web uygulamasında kritik bir SQL Injection açığı buldu. Açık kapatıldı ve kurum, potansiyel olarak milyonlarca dolarlık zarardan korundu."
                 }
             ]
         }

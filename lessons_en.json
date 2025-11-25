@@ -6,7 +6,7 @@
                 "title": "1. What is Ethical Hacking",
                 "duration": "12 min",
                 "color": "#ff6b35",
-                "documents": 4,
+                "documents": 5,
                 "isCompleted": false,
                 "isActive": true,
                 "description": "Learn the concept of ethical hacking and its basic principles",
@@ -14,7 +14,7 @@
                     {
                         "id": "1",
                         "title": "What is Ethical Hacking?",
-                        "content": "Ethical hacking is the legal and ethical hacking activities conducted to identify security vulnerabilities in systems and enhance security. Ethical hackers help protect systems by learning the techniques used by malicious attackers.",
+                        "content": "Ethical hacking is the practice of identifying security vulnerabilities in a system to improve its security through legal and authorized activities.\r\nEthical hackers use the same techniques as malicious attackers, but with permission, to help protect systems.",
                         "media": {
                             "type": "image",
                             "url": "https://ankaraotantik.com/HackLab/HackLabEthickHacking.png",
@@ -24,16 +24,17 @@
                     {
                         "id": "2",
                         "title": "Purpose of Ethical Hacking",
-                        "content": "The main purpose of ethical hacking is to proactively identify security vulnerabilities in systems and close these vulnerabilities. This way, security measures can be taken before real attackers can harm the systems."
+                        "content": "The main purpose of ethical hacking is to proactively detect and fix security vulnerabilities.\r\nThis ensures that necessary precautions are taken before real attackers can cause damage."
                     },
                     {
                         "id": "3",
                         "title": "Ethical Hacking Process",
-                        "content": "The ethical hacking process consists of the following stages: Planning and Authorization, Reconnaissance and Information Gathering, Vulnerability Analysis, Penetration Testing, Reporting and Recommendations."
+                        "content": "The ethical hacking process generally includes these steps:\r\n\r\n1. Planning & Authorization – Obtaining permission to perform tests\r\n\r\n2. Reconnaissance & Information Gathering – Collecting data about the system\r\n\r\n3. Vulnerability Analysis – Identifying security flaws\r\n\r\n4. Penetration Testing – Exploiting vulnerabilities in a controlled manner\r\n\r\n5.Reporting & Recommendations – Documenting findings and providing solutions"
                     },
                     {
                         "id": "4",
                         "title": "Quiz: Ethical Hacking Basics",
+                        "content": "What is the main purpose of ethical hacking?",
                         "type": "quiz",
                         "question": "What is the main purpose of ethical hacking?",
                         "options": [
@@ -59,6 +60,16 @@
                             }
                         ],
                         "explanation": "The main purpose of ethical hacking is to proactively identify security vulnerabilities in systems and close these vulnerabilities."
+                    },
+                    {
+                        "id": "5",
+                        "title": "Hacking Types Summary",
+                        "content": "Let's summarize the types of hacking:\r\n\r\nWhite Hat Hacking: Legal and ethical hacking done with proper authorization.\r\n\r\nBlack Hat Hacking: Illegal and harmful hacking with malicious intent.\r\n\r\nGrey Hat Hacking: A mix of both; sometimes legal, sometimes illegal activities.\r\n\r\n👉 The key difference lies in whether permission is granted and whether the intention is ethical or malicious.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabHacking.png",
+                            "title": "Hacking Types Summary"
+                        }
                     }
                 ]
             },
@@ -210,7 +221,7 @@
                 "title": "4. Advantages and Disadvantages of Hacking",
                 "duration": "8 min",
                 "color": "#00ff88",
-                "documents": 4,
+                "documents": 5,
                 "isCompleted": false,
                 "isActive": false,
                 "description": "Analyze the positive and negative aspects of hacking",
@@ -237,6 +248,29 @@
                     },
                     {
                         "id": "4",
+                        "title": "Case Study: Sony PlayStation Attack",
+                        "type": "case_study",
+                        "content": "In 2011, Sony's PlayStation Network was attacked, resulting in the theft of personal information from 77 million users. This event clearly demonstrates the difference between ethical hacking and malicious hacking.",
+                        "case_details": {
+                            "date": "2011",
+                            "target": "Sony PlayStation Network",
+                            "impact": "77 million users affected",
+                            "damage": "$1.2 billion in damage",
+                            "lesson": "Importance of security measures"
+                        },
+                        "learning_objectives": [
+                            "Understanding social engineering techniques",
+                            "Identifying corporate security vulnerabilities",
+                            "Learning post-attack response processes"
+                        ],
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabSiyah.png",
+                            "title": "Sony PlayStation Attack"
+                        }
+                    },
+                    {
+                        "id": "5",
                         "title": "Quiz: Advantages and Disadvantages of Hacking",
                         "content": "[Quiz Page: Quiz: Advantages and Disadvantages of Hacking]",
                         "type": "quiz",
@@ -331,105 +365,231 @@
             },
             {
                 "id": "1_6",
-                "title": "6. Famous Ethical Hacking Events in History",
+                "title": "6. Role and Responsibilities of Ethical Hackers",
                 "duration": "14 min",
                 "color": "#3498db",
                 "documents": 5,
                 "isCompleted": false,
                 "isActive": false,
-                "description": "Learn about famous ethical hacking events in history and their impacts",
+                "description": "Learn about the roles, responsibilities, and ethical rules of ethical hackers",
                 "pages": [
                     {
                         "id": "1",
-                        "title": "Famous Ethical Hacking Events in History",
-                        "content": "Throughout history, many important ethical hacking events have occurred. These events have contributed to the development of the cybersecurity field and the establishment of security standards. In this lesson, we will examine the most important ethical hacking events."
+                        "title": "Basic Roles of Ethical Hackers",
+                        "content": "Ethical hackers play a crucial role in cybersecurity. Their main responsibilities include identifying security vulnerabilities, conducting penetration tests, providing security recommendations, and helping organizations improve their security posture.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabEthickHacking.png",
+                            "title": "Ethical Hacker"
+                        }
                     },
                     {
                         "id": "2",
-                        "title": "Kevin Mitnick - The Most Famous Hacker",
-                        "content": "Kevin Mitnick was the world's most wanted hacker in the 1990s. He was able to make free calls by hacking phone systems. After being caught in 1995, he completed his sentence and specialized in ethical hacking. Today he works as a security consultant.",
-                        "media": {
-                            "type": "image",
-                            "url": "https://ankaraotantik.com/HackLab/HackLabKevin.png",
-                            "title": "Kevin Mitnick"
-                        }
+                        "title": "Responsibilities",
+                        "content": "Ethical hackers must maintain confidentiality, follow legal guidelines, provide accurate reports, and continuously update their knowledge. They must act with integrity and always prioritize the security of the systems they test."
                     },
                     {
                         "id": "3",
-                        "title": "Anonymous - Hacktivist Group",
-                        "content": "Anonymous is a hacktivist group founded in 2003. It works to support WikiLeaks, protest censorship, and fight for social justice. It has organized attacks against major companies like Sony, MasterCard, and Visa. The group has opened up the debate about the line between ethical hacking and hacktivism.",
-                        "media": {
-                            "type": "image",
-                            "url": "https://ankaraotantik.com/HackLab/HackLabAnonymous.png",
-                            "title": "Anonymous"
-                        }
+                        "title": "Ethical Rules and Principles",
+                        "content": "Ethical hackers must follow strict ethical principles: obtain proper authorization, maintain confidentiality, do no harm, report findings accurately, and act in the best interest of their clients and the public."
                     },
                     {
                         "id": "4",
-                        "title": "Stuxnet - Cyber Weapon",
-                        "content": "Stuxnet was a cyber weapon that targeted Iran's nuclear facilities in 2010. It went down in history as the first malware to target industrial control systems. This event demonstrated the reality of cyber warfare and the security vulnerabilities of critical infrastructure.",
-                        "media": {
-                            "type": "image",
-                            "url": "https://ankaraotantik.com/HackLab/Stuxnet.jpg",
-                            "title": "STUXnet"
-                        }
+                        "title": "Professional Development and Certification",
+                        "content": "Ethical hackers must continuously develop their skills through training, certifications, and hands-on practice. Popular certifications include CEH, OSCP, CISSP, and CISM. Staying current with new threats and techniques is essential."
                     },
                     {
                         "id": "5",
-                        "title": "WannaCry - Global Attack",
-                        "content": "In 2017, the WannaCry ransomware attack affected more than 300,000 computers in over 150 countries. Many institutions, including the NHS (British Health System), were affected. This attack demonstrated the importance of security updates and the value of ethical hackers.",
-                        "media": {
-                            "type": "image",
-                            "url": "https://ankaraotantik.com/HackLab/HackLabWannaCry.jpeg",
-                            "title": "WannaCry"
-                        }
-                    },
-                    {
-                        "id": "6",
-                        "title": "Quiz: Famous Hacking Events in History",
-                        "content": "[Quiz Page: Quiz: Famous Hacking Events in History]",
+                        "title": "Quiz: Ethical Hacker Roles",
                         "type": "quiz",
-                        "question": "Which event is known as the first cyber weapon to target industrial control systems?",
+                        "question": "What is the primary responsibility of an ethical hacker?",
                         "options": [
                             {
                                 "id": "A",
-                                "text": "WannaCry",
+                                "text": "Damaging systems",
                                 "isCorrect": false
                             },
                             {
                                 "id": "B",
-                                "text": "Anonymous attacks",
-                                "isCorrect": false
+                                "text": "Protecting systems",
+                                "isCorrect": true
                             },
                             {
                                 "id": "C",
-                                "text": "Kevin Mitnick events",
+                                "text": "Stealing data",
                                 "isCorrect": false
                             },
                             {
                                 "id": "D",
-                                "text": "Stuxnet",
-                                "isCorrect": true
+                                "text": "Shutting down systems",
+                                "isCorrect": false
                             }
                         ],
-                        "explanation": "Stuxnet went down in history in 2010 as the first cyber weapon to target Iran's nuclear facilities and affect industrial control systems."
+                        "explanation": "The primary responsibility of an ethical hacker is to protect systems by identifying security vulnerabilities and helping improve security."
                     }
                 ]
             },
             {
                 "id": "1_7",
-                "title": "7. Test and Evaluation",
+                "title": "7. Ethical Hacking Tools and Technologies",
+                "duration": "20 min",
+                "color": "#9b59b6",
+                "documents": 6,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Learn about the basic tools and technologies used in ethical hacking",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Kali Linux and Basic Tools",
+                        "content": "Kali Linux is a Linux distribution specifically designed for ethical hacking. It contains more than 600 penetration testing tools. Popular tools like Nmap, Wireshark, Metasploit, and Burp Suite come pre-installed.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabEthickHacking.png",
+                            "title": "Kali Linux"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Nmap and Port Scanning",
+                        "content": "Nmap is one of the most popular network scanning tools. It is used to discover hosts and services on a network, identify open ports, and detect security vulnerabilities. It supports various scanning techniques and protocols."
+                    },
+                    {
+                        "id": "3",
+                        "title": "Wireshark and Network Analysis",
+                        "content": "Wireshark is a network protocol analyzer that captures and analyzes network traffic in real-time. It helps ethical hackers understand network communications, detect suspicious activities, and identify security issues."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Metasploit Framework",
+                        "content": "Metasploit is a penetration testing framework that provides tools for developing and executing exploit code. It contains thousands of exploits and payloads for testing various security vulnerabilities."
+                    },
+                    {
+                        "id": "5",
+                        "title": "Burp Suite and Web Security",
+                        "content": "Burp Suite is a comprehensive web application security testing platform. It includes tools for web vulnerability scanning, manual testing, and automated security testing of web applications."
+                    },
+                    {
+                        "id": "6",
+                        "title": "Quiz: Ethical Hacking Tools",
+                        "type": "quiz",
+                        "question": "Which tool is used for network port scanning?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Wireshark",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Nmap",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Metasploit",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Burp Suite",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Nmap is the most popular tool for network port scanning and host discovery."
+                    }
+                ]
+            },
+            {
+                "id": "1_8",
+                "title": "8. Practical Application: Basic Security Testing",
+                "duration": "25 min",
+                "color": "#e67e22",
+                "documents": 7,
+                "isCompleted": false,
+                "isActive": false,
+                "description": "Apply the knowledge learned through hands-on security testing exercises",
+                "pages": [
+                    {
+                        "id": "1",
+                        "title": "Lab Environment Setup",
+                        "content": "Set up a safe lab environment for ethical hacking practice. Use virtual machines, isolated networks, and legal testing targets. Never test on systems you don't own or don't have permission to test.",
+                        "media": {
+                            "type": "image",
+                            "url": "https://ankaraotantik.com/HackLab/HackLabEthickHacking.png",
+                            "title": "Lab Environment"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "title": "Basic Network Scanning",
+                        "content": "Practice basic network scanning techniques using Nmap. Learn how to scan for open ports, identify services, and detect potential security vulnerabilities in a controlled environment."
+                    },
+                    {
+                        "id": "3",
+                        "title": "Vulnerability Assessment",
+                        "content": "Conduct basic vulnerability assessments on test systems. Learn how to identify common security issues, categorize vulnerabilities, and prioritize them based on risk levels."
+                    },
+                    {
+                        "id": "4",
+                        "title": "Password Security Testing",
+                        "content": "Test password security using various techniques. Learn about password cracking methods, brute force attacks, and how to implement strong password policies."
+                    },
+                    {
+                        "id": "5",
+                        "title": "Web Application Testing",
+                        "content": "Practice basic web application security testing. Learn about common web vulnerabilities like SQL injection, XSS, and CSRF attacks in a safe environment."
+                    },
+                    {
+                        "id": "6",
+                        "title": "Reporting and Documentation",
+                        "content": "Learn how to create professional security reports. Document findings, provide recommendations, and present results in a clear and actionable format."
+                    },
+                    {
+                        "id": "7",
+                        "title": "Quiz: Practical Application",
+                        "type": "quiz",
+                        "question": "What is the most important rule when setting up a lab environment?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Use real production systems",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Never test without permission",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Share results publicly",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Test on any available system",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The most important rule is to never test on systems you don't own or don't have explicit permission to test."
+                    }
+                ]
+            },
+            {
+                "id": "1_9",
+                "title": "9. Test and Evaluation",
                 "duration": "15 min",
                 "color": "#ff6b35",
-                "documents": 13,
+                "documents": 15,
                 "isCompleted": false,
                 "isActive": false,
                 "description": "Comprehensive test for Introduction to Ethical Hacking category",
                 "pages": [
                     {
                         "id": "1",
-                        "title": "Test Preparation",
-                        "content": "This test covers all topics in the Introduction to Ethical Hacking category. Review the topics you have learned before the test and start the test when you are ready.",
+                        "title": "Test Hazırlığı",
+                        "content": "Bu test, Etik Hacking'e Giriş kategorisindeki tüm konuları kapsamaktadır. Test öncesi öğrendiğiniz konuları gözden geçirin ve hazır olduğunuzda teste başlayın.",
                         "media": {
                             "type": "image",
                             "url": "https://ankaraotantik.com/HackLab/HackLabTest.png",
@@ -438,7 +598,7 @@
                     },
                     {
                         "id": "2",
-                        "title": "Test Rules",
+                        "title": "Test Kuralları",
                         "content": "The test consists of 10 questions. There is only one correct answer for each question. It covers all topics in the test category. After completing the test, you can see your results and review the topics you missed."
                     },
                     {
@@ -571,7 +731,7 @@
                         "title": "Question 5: Historical Events",
                         "content": "[Quiz Page: Question 5: Historical Events]",
                         "type": "quiz",
-                        "question": "Which event is known as the first cyber weapon to target industrial control systems?",
+                        "question": "Hangi olay endüstriyel kontrol sistemlerini hedef alan ilk siber silah olarak bilinir?",
                         "options": [
                             {
                                 "id": "A",
@@ -718,6 +878,66 @@
                     },
                     {
                         "id": "13",
+                        "title": "Question 10: Ethical Hacking Tools",
+                        "content": "[Quiz Page: Question 10: Ethical Hacking Tools]",
+                        "type": "quiz",
+                        "question": "Which tool is used for web application security testing?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Nmap",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Wireshark",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Burp Suite",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "D",
+                                "text": "Metasploit",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Burp Suite is specifically designed for web application security testing and includes tools for vulnerability scanning and manual testing."
+                    },
+                    {
+                        "id": "14",
+                        "title": "Question 11: Lab Environment",
+                        "content": "[Quiz Page: Question 11: Lab Environment]",
+                        "type": "quiz",
+                        "question": "What is the most important rule when setting up a lab environment?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Use real production systems",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Never test without permission",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Share results publicly",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Test on any available system",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "The most important rule is to never test on systems you don't own or don't have explicit permission to test."
+                    },
+                    {
+                        "id": "13",
                         "title": "Question 10: WannaCry",
                         "content": "[Quiz Page: Question 10: WannaCry]",
                         "type": "quiz",
@@ -745,6 +965,66 @@
                             }
                         ],
                         "explanation": "The WannaCry ransomware attack occurred in 2017 and affected more than 300,000 computers in over 150 countries."
+                    },
+                    {
+                        "id": "14",
+                        "title": "Question 11: Ethical Hacking Tools",
+                        "content": "[Quiz Page: Question 11: Ethical Hacking Tools]",
+                        "type": "quiz",
+                        "question": "Which tool is used for network traffic analysis?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Nmap",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Wireshark",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "C",
+                                "text": "Metasploit",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "D",
+                                "text": "Burp Suite",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Wireshark is a protocol analyzer that analyzes network traffic in real-time."
+                    },
+                    {
+                        "id": "15",
+                        "title": "Question 12: Web Application Security",
+                        "content": "[Quiz Page: Question 12: Web Application Security]",
+                        "type": "quiz",
+                        "question": "Which tool is used for web application security testing?",
+                        "options": [
+                            {
+                                "id": "A",
+                                "text": "Nmap",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "B",
+                                "text": "Wireshark",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": "C",
+                                "text": "Burp Suite",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": "D",
+                                "text": "Metasploit",
+                                "isCorrect": false
+                            }
+                        ],
+                        "explanation": "Burp Suite is specifically designed for web application security testing and includes tools for vulnerability scanning and manual testing."
                     }
                 ]
             }

@@ -70,77 +70,134 @@
         },
         {
             "id": "3_2",
-            "title": "Phishing, Pretexting, Baiting, Tailgating",
-            "duration": "60 dakika",
+            "title": "Quiz - Sosyal Mühendislik",
+            "duration": "15 dakika",
             "color": "#f97316",
-            "documents": 8,
+            "documents": 1,
             "isCompleted": false,
             "isActive": false,
-            "description": "Sosyal mühendisliğin temel tekniklerini öğren: Phishing, Pretexting, Baiting ve Tailgating yöntemlerini detaylı olarak incele.",
+            "description": "Sosyal mühendislik konusundaki bilginizi test edin ve öğrendiklerinizi pekiştirin.",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Phishing Teknikleri",
-                    "content": "Phishing, en yaygın sosyal mühendislik saldırı türüdür. Saldırganlar, güvenilir kurumlar gibi görünerek hedef kişilerden hassas bilgiler elde etmeye çalışır.\n\nPhishing türleri:\n• E-posta phishing\n• Spear phishing (hedefli)\n• Whaling (büyük balık avı)\n• Vishing (sesli phishing)\n• Smishing (SMS phishing)\n\nKorunma yöntemleri:\n• Gönderen adresini kontrol etme\n• Linkleri doğrulama\n• Gramer hatalarına dikkat etme\n• Acil durum mesajlarına şüpheyle yaklaşma"
-                },
-                {
-                    "id": "2",
-                    "title": "Pretexting ve Baiting",
-                    "content": "Pretexting: Saldırgan, sahte bir kimlik veya senaryo oluşturarak hedef kişiden bilgi almayı amaçlar. Örneğin, IT destek ekibi gibi davranarak şifre sorma.\n\nBaiting: Fiziksel veya dijital tuzaklar kullanarak kurbanları cezbetme yöntemi. USB bellekler, sahte web siteleri veya indirme linkleri kullanılır.\n\nPretexting örnekleri:\n• Sahte müfettiş kimliği\n• IT destek personeli\n• Güvenlik görevlisi\n• Müşteri hizmetleri temsilcisi\n\nBaiting örnekleri:\n• Ücretsiz yazılım indirme\n• Sahte ödül kampanyaları\n• Fiziksel USB bellekler\n• Sahte sosyal medya profilleri"
-                },
-                {
-                    "id": "3",
-                    "title": "Tailgating ve Fiziksel Erişim",
-                    "content": "Tailgating (peş takip), saldırganın yetkisiz erişim için yetkili bir kişiyi takip etmesi yöntemidir. Bu teknik, fiziksel güvenlik sistemlerini aşmak için kullanılır.\n\nTailgating yöntemleri:\n• Kapı açıkken içeri girme\n• Yetkili kişiyle birlikte geçiş\n• Sahte kimlik kartları\n• Güvenlik personeli gibi davranma\n\nKorunma önlemleri:\n• Kapıları kendin kapatma\n• Kimlik kontrolü yapma\n• Şüpheli davranışları rapor etme\n• Fiziksel güvenlik protokollerine uyma\n\nFiziksel güvenlik, siber güvenlik kadar önemlidir çünkü fiziksel erişim genellikle sistem erişimini de beraberinde getirir."
-                },
-                {
-                    "id": "4",
-                    "title": "Spear Phishing Detayları",
-                    "content": "Spear phishing, belirli bir hedefe yönelik olarak tasarlanmış özel phishing saldırılarıdır. Bu saldırılar, hedef hakkında detaylı bilgi toplanarak kişiselleştirilir.\n\nSpear phishing özellikleri:\n• Hedef hakkında detaylı araştırma\n• Kişiselleştirilmiş mesajlar\n• Gerçekçi senaryolar\n• Sosyal medya bilgilerinin kullanımı\n• Şirket içi bilgilerin kullanımı\n\nÖrnek senaryolar:\n• CEO'dan gelen acil ödeme talebi\n• IT departmanından gelen güvenlik uyarısı\n• İnsan kaynaklarından gelen form doldurma talebi\n• Finans departmanından gelen bütçe onayı"
-                },
-                {
-                    "id": "5",
-                    "title": "Vishing ve Smishing Teknikleri",
-                    "content": "Vishing (Voice + Phishing): Sesli arama yoluyla yapılan phishing saldırılarıdır. Saldırganlar, otomatik sesli mesajlar veya canlı operatörler kullanır.\n\nVishing özellikleri:\n• Otomatik sesli mesajlar\n• Sahte banka çağrıları\n• Acil durum uyarıları\n• Ödül bildirimleri\n• Borç tahsilatı\n\nSmishing (SMS + Phishing): SMS yoluyla yapılan phishing saldırılarıdır. Kısa mesajlar kullanılarak hedefler kandırılmaya çalışılır.\n\nSmishing özellikleri:\n• Kısa ve etkili mesajlar\n• Acil durum bildirimleri\n• Ödül ve fırsat duyuruları\n• Güvenlik uyarıları\n• Hesap doğrulama talepleri"
-                },
-                {
-                    "id": "6",
-                    "title": "Fiziksel Sosyal Mühendislik",
-                    "content": "Fiziksel sosyal mühendislik, saldırganın fiziksel olarak hedef ortama erişim sağlamaya çalıştığı yöntemlerdir.\n\nFiziksel teknikler:\n• Shoulder surfing (omuz üstünden izleme)\n• Dumpster diving (çöp karıştırma)\n• Impersonation (kimlik taklidi)\n• Piggybacking (sırt sırta geçiş)\n• Reverse social engineering\n\nGüvenlik önlemleri:\n• Ekran koruyucu kullanma\n• Hassas belgeleri imha etme\n• Kimlik doğrulama yapma\n• Şüpheli davranışları rapor etme\n• Fiziksel güvenlik protokollerine uyma"
-                },
-                {
-                    "id": "7",
-                    "title": "Sosyal Medya Manipülasyonu",
-                    "content": "Sosyal medya platformları, sosyal mühendislik saldırıları için ideal ortamlardır. Saldırganlar, bu platformlarda hedefler hakkında bilgi toplar ve manipülasyon yapar.\n\nSosyal medya tehditleri:\n• Sahte profil oluşturma\n• Hedef hakkında bilgi toplama\n• Güven ilişkisi kurma\n• Yanlış bilgi yayma\n• Kimlik hırsızlığı\n\nKorunma yöntemleri:\n• Gizlilik ayarlarını kontrol etme\n• Kişisel bilgileri paylaşmama\n• Şüpheli profilleri engelleme\n• Güçlü şifreler kullanma\n• İki faktörlü doğrulama"
-                },
-                {
-                    "id": "8",
-                    "title": "Quiz: Sosyal Mühendislik Teknikleri",
+                    "title": "Quiz - Sosyal Mühendislik",
                     "type": "quiz",
-                    "question": "Spear phishing nedir?",
+                    "question": "Phishing yaygın olarak ne kullanır?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "Genel phishing saldırısı",
+                            "text": "Fiziksel güç",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "Hedefli phishing saldırısı",
+                            "text": "Sahte e-posta/web siteleri",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "Sesli phishing saldırısı",
+                            "text": "Patlayıcılar",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "SMS phishing saldırısı",
+                            "text": "Donanım hasarı",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Spear phishing, belirli bir hedefe yönelik olarak tasarlanmış özel phishing saldırılarıdır. Hedef hakkında detaylı bilgi toplanarak kişiselleştirilir."
+                    "explanation": "Phishing, sahte e-posta ve web siteleri kullanarak hedefleri kandırmaya çalışan sosyal mühendislik tekniğidir."
+                },
+                {
+                    "id": "2",
+                    "title": "Quiz - Sosyal Mühendislik",
+                    "type": "quiz",
+                    "question": "Pretexting örneği:",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Bilinmeyen USB takma",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Banka desteği gibi arayıp şifre sorma",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Birini kapıdan takip etme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "E-postaya zararlı yazılım ekleme",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Pretexting, sahte kimlik veya senaryo oluşturarak hedef kişiden bilgi almayı amaçlayan sosyal mühendislik tekniğidir."
+                },
+                {
+                    "id": "3",
+                    "title": "Quiz - Sosyal Mühendislik",
+                    "type": "quiz",
+                    "question": "Hangisi baiting koruması DEĞİLDİR?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Bilinmeyen USB kullanmama",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Uygulama beyaz listesi",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Herkese açık Wi-Fi'yi serbestçe kullanma",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Uç nokta koruması",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Bilinmeyen USB kullanmama, baiting saldırılarından korunma yöntemidir, koruma değildir."
+                },
+                {
+                    "id": "4",
+                    "title": "Quiz - Sosyal Mühendislik",
+                    "type": "quiz",
+                    "question": "Hangisi tailgating'i ÖNLEMEZ?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Döner kapı sensörleri",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Personeli misafirleri doğrulamak için eğitme",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Kapıları açık bırakma",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Güvenlik görevlileri bulundurma",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Kapıları açık bırakma, tailgating saldırılarını önlemez, aksine kolaylaştırır."
+                },
+                {
+                    "id": "5",
+                    "title": "Kısa Özet",
+                    "content": "Sosyal mühendislik, insan güvenini ve eğilimlerini hedefler. En etkili savunmalar sürekli farkındalık eğitimi, sıkı kimlik doğrulama prosedürleri, teknik kontroller (MFA, uç nokta koruması) ve sağlam fiziksel güvenlik politikalarıdır."
                 }
             ]
         },

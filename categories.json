@@ -10,16 +10,20 @@
                 "#ff6b35",
                 "#f7931e"
             ],
-            "description": "Etik hacking ve siber güvenliğin temel kavramlarını öğren, sistemleri korumayı keşfet.",
-            "totalLessons": 7,
+                "description": "Etik hacking ve siber güvenliğin temel kavramlarını öğren, sistemleri korumayı keşfet.",
+                "totalLessons": 9,
             "duration": "1.5 saat",
             "difficulty": "Başlangıç",
             "whatYouWillLearn": [
-                "Etik hacking ve siber güvenliğin temel kavramlarını anlamak.\r",
-                "Hacking türleri ve etik kuralları öğrenmek.\r",
-                "Siber güvenlik ekosistemini tanımak.\r",
-                "Temel güvenlik araçlarını kullanmayı öğrenmek.\r",
-                "Güvenlik testleri için hazırlık yapmak."
+                "Etik hacking'in amacı, süreci ve temel kavramlarını anlamak\r",
+                "Beyaz, siyah ve gri şapka hacking türlerini öğrenmek\r",
+                "Script kiddie, profesyonel hacker, hacktivist ve insider türlerini tanımak\r",
+                "Hacking'in avantajları, dezavantajları ve etik kurallarını öğrenmek\r",
+                "Tarihte ünlü etik hacking olaylarını ve gerçek dünya örneklerini incelemek\r",
+                "Etik hacker'ın rolü, sorumlulukları ve bug bounty programlarını anlamak\r",
+                "Wireshark, Nmap, Burp Suite, Metasploit gibi etik hacking araçlarını tanımak\r",
+                "Temel güvenlik testi sürecini adım adım uygulamak\r",
+                "Kapsamlı test ile öğrendiklerinizi değerlendirmek"
             ],
             "targetAudience": [
                 "Siber güvenlik alanına yeni başlayanlar\r",
@@ -28,21 +32,26 @@
                 "Kariyer değişikliği yapmak isteyenler"
             ],
             "benefits": [
-                "Siber güvenlik alanında sağlam temel\r",
-                "Etik hacking kavramlarını anlama\r",
-                "Güvenlik araçlarını tanıma\r",
-                "Siber güvenlik kariyerine hazırlık"
+                "Etik hacking ve siber güvenlik alanında sağlam temel kazanmak\r",
+                "Hacking türleri ve hacker profillerini detaylı anlamak\r",
+                "Gerçek dünya örnekleri ile pratik bilgi edinmek\r",
+                "Etik hacking araçlarını ve teknolojilerini tanımak\r",
+                "Temel güvenlik testi sürecini öğrenmek\r",
+                "Bug bounty programları ve kariyer fırsatlarını keşfetmek\r",
+                "Siber güvenlik kariyerine hazırlık yapmak"
             ],
             "requirements": [
-                "Temel bilgisayar bilgisi\r",
+                "Temel bilgisayar ve işletim sistemi bilgisi\r",
                 "İnternet kullanım deneyimi\r",
-                "Öğrenmeye açık olmak\r",
-                "Güvenlik konusuna ilgi"
+                "Öğrenmeye açık olmak ve meraklı olmak\r",
+                "Siber güvenlik ve etik hacking konusuna ilgi\r",
+                "Analitik düşünme becerisi"
             ],
             "averageSalary": [
+                "Etik Hacker / Penetrasyon Test Uzmanı: 67,000 - 109,000 TL\r",
                 "Siber Güvenlik Uzmanı: 73,000 - 119,000 TL\r",
                 "Güvenlik Analisti: 50,000 - 85,000 TL\r",
-                "Penetrasyon Test Uzmanı: 67,000 - 109,000 TL\r",
+                "Bug Bounty Araştırmacısı: 40,000 - 200,000+ TL (proje bazlı)\r",
                 "Güvenlik Danışmanı: 87,000 - 141,000 TL"
             ]
         },
