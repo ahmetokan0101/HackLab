@@ -1,131 +1,656 @@
 {
     "categoryId": "3",
-    "categoryTitle": "3. Network Security",
+    "categoryTitle": "Social Engineering",
     "lessons": [
         {
             "id": "3_1",
-            "title": "1. Network Security Fundamentals",
-            "duration": "25 min",
-            "color": "#00FF88",
-            "documents": 5,
+            "title": "1. What is Social Engineering?",
+            "duration": "45 minutes",
+            "color": "#ec4899",
+            "documents": 6,
             "isCompleted": false,
             "isActive": true,
-            "description": "Learn the basics of network security and protection mechanisms",
+            "description": "Detailed information about the fundamental concepts, history, and current importance of social engineering.",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Network Security Overview",
-                    "content": "Network security involves the policies and practices adopted to prevent and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.",
-                    "media": {
-                        "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/NetworkSecurity.png",
-                        "title": "Network Security"
-                    }
+                    "title": "Social Engineering Definition",
+                    "content": "Social engineering is a method in the field of cybersecurity that uses human psychology to identify security vulnerabilities and gain access to systems by exploiting these vulnerabilities.\n\nThis technique exploits the weaknesses of the human factor rather than bypassing technical security measures. Social engineers attempt to obtain desired information by manipulating emotions such as trust, fear, and greed in target individuals.\n\nSocial engineering is considered one of the most dangerous types of attacks in cybersecurity because it can bypass even the strongest security systems through human error."
                 },
                 {
                     "id": "2",
-                    "title": "Network Security Threats",
-                    "content": "Common network security threats include malware, phishing, DDoS attacks, man-in-the-middle attacks, and unauthorized access. Understanding these threats is essential for effective network protection."
+                    "title": "History and Development",
+                    "content": "The concept of social engineering became popular in the 1990s through the work of Kevin Mitnick. Mitnick gained access to systems by using human psychology more than his technical skills.\n\nToday, social engineering includes:\n• Phishing emails\n• Fake websites\n• Social media manipulation\n• Phone fraud\n• Physical access methods\n\nThese techniques are constantly evolving and becoming more sophisticated."
                 },
                 {
                     "id": "3",
-                    "title": "Firewall Configuration",
-                    "content": "Firewalls are network security devices that monitor and control incoming and outgoing network traffic based on predetermined security rules. Proper firewall configuration is crucial for network protection."
+                    "title": "Human Psychology and Security",
+                    "content": "Social engineering uses the fundamental principles of human psychology. People are naturally inclined to trust, help, and respect authority.\n\nPsychological factors used:\n• Trust: Appearing familiar and trustworthy\n• Fear: Creating urgency and threats\n• Greed: Offering free rewards and opportunities\n• Authority: Acting as an authorized person\n• Social proof: Showing that others are doing it too\n\nThese factors weaken the target individuals' ability to think rationally and cause them to comply with attackers' requests."
                 },
                 {
                     "id": "4",
-                    "title": "Intrusion Detection Systems",
-                    "content": "Intrusion Detection Systems (IDS) monitor network traffic for suspicious activity and issue alerts when such activity is discovered. They are essential for detecting potential security breaches."
+                    "title": "Social Engineering Cycle",
+                    "content": "Social engineering attacks follow a specific cycle:\n\n1. Information Gathering: Collecting detailed information about the target\n2. Target Selection: Identifying the most suitable victim\n3. Building Trust: Establishing a trust relationship with the target\n4. Manipulation: Obtaining the desired information\n5. Outcome: Using the obtained information\n\nThis cycle enables attackers to work systematically and increases their chances of success."
                 },
                 {
                     "id": "5",
-                    "title": "Quiz: Network Security Basics",
+                    "title": "Current Threats",
+                    "content": "Modern social engineering threats are constantly evolving and becoming more sophisticated:\n\n• Fake video and audio using deepfake technology\n• AI-powered personalized attacks\n• Misuse of social media platforms\n• Attack techniques specific to mobile devices\n• Attacks targeting cloud-based services\n\nThese threats are becoming more effective by bypassing traditional security measures."
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Social Engineering Fundamentals",
                     "type": "quiz",
-                    "question": "What is the primary purpose of a firewall?",
+                    "question": "What is the most commonly used psychological factor in social engineering attacks?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "To increase network speed",
+                            "text": "Fear",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "To monitor and control network traffic",
+                            "text": "Trust",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "To store network data",
+                            "text": "Anger",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "To create network connections",
+                            "text": "Sadness",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "The primary purpose of a firewall is to monitor and control incoming and outgoing network traffic based on predetermined security rules."
+                    "explanation": "Trust is the most commonly used psychological factor in social engineering attacks. Attackers attempt to gain the trust of target individuals to obtain desired information."
                 }
             ]
         },
         {
-            "id": "3_2",
-            "title": "2. Network Monitoring and Analysis",
-            "duration": "30 min",
-            "color": "#00D4FF",
-            "documents": 4,
+            "id": "3_3",
+            "title": "2. Social Engineering Tests",
+            "duration": "40 minutes",
+            "color": "#10b981",
+            "documents": 5,
             "isCompleted": false,
             "isActive": false,
-            "description": "Learn about network monitoring tools and traffic analysis",
+            "description": "Learn about social engineering tests, discover how they are designed and implemented.",
             "pages": [
                 {
                     "id": "1",
-                    "title": "Network Monitoring Tools",
-                    "content": "Network monitoring tools help administrators track network performance, identify issues, and ensure security. Popular tools include Wireshark, Nagios, and SolarWinds.",
-                    "media": {
-                        "type": "image",
-                        "url": "https://ankaraotantik.com/HackLab/NetworkMonitoring.png",
-                        "title": "Network Monitoring"
-                    }
+                    "title": "Test Planning and Preparation",
+                    "content": "Social engineering tests are conducted to measure and improve organizations' security awareness. These tests require careful planning.\n\nTest planning stages:\n• Target identification and scope\n• Designing test scenarios\n• Establishing ethical guidelines\n• Obtaining legal permissions\n• Forming the test team\n• Preparing the timeline"
                 },
                 {
                     "id": "2",
-                    "title": "Traffic Analysis",
-                    "content": "Traffic analysis involves examining network traffic patterns to identify anomalies, security threats, and performance issues. It's a crucial skill for network security professionals."
+                    "title": "Test Scenarios and Methods",
+                    "content": "Social engineering tests use various scenarios:\n\nEmail-based tests:\n• Sending phishing emails\n• Using fake attachments\n• Emergency messages\n• Reward and opportunity announcements\n\nPhysical tests:\n• Security personnel testing\n• Identity verification testing\n• Physical access testing\n• Document security testing"
                 },
                 {
                     "id": "3",
-                    "title": "Log Management",
-                    "content": "Effective log management involves collecting, storing, and analyzing log data from various network devices and applications. This helps in incident response and compliance."
+                    "title": "Test Results and Reporting",
+                    "content": "Test results should be reported and analyzed in detail:\n\nReporting criteria:\n• Test scope and objectives\n• Methods used\n• Results obtained\n• Security vulnerabilities\n• Recommendations and improvements\n\nMetrics:\n• Success rate\n• Response times\n• Awareness level\n• Training needs"
                 },
                 {
                     "id": "4",
-                    "title": "Quiz: Network Monitoring",
+                    "title": "Ethical Guidelines and Boundaries",
+                    "content": "Social engineering tests should be conducted within ethical guidelines:\n\nEthical principles:\n• Do no harm\n• Protect privacy\n• Transparency\n• Legal compliance\n• Obtaining consent\n\nTest boundaries:\n• Protecting personal information\n• Not creating excessive stress\n• Not committing actual crimes\n• Not disrupting business processes"
+                },
+                {
+                    "id": "5",
+                    "title": "Quiz: Social Engineering Tests",
                     "type": "quiz",
-                    "question": "What is the primary purpose of network monitoring?",
+                    "question": "What is the main purpose of social engineering tests?",
                     "options": [
                         {
                             "id": "A",
-                            "text": "To increase network speed",
+                            "text": "To damage systems",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "To track performance and identify issues",
+                            "text": "To measure security awareness",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "To store network data",
+                            "text": "To steal data",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "To create network connections",
+                            "text": "To shut down systems",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "The primary purpose of network monitoring is to track network performance and identify issues or anomalies."
+                    "explanation": "The main purpose of social engineering tests is to measure security awareness. These tests evaluate how prepared employees are against social engineering attacks."
+                }
+            ]
+        },
+        {
+            "id": "3_4",
+            "title": "3. Protection Against Human Factor Attacks",
+            "duration": "50 minutes",
+            "color": "#3b82f6",
+            "documents": 7,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Learn effective protection methods against human factor attacks, increase security awareness.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Security Awareness Training",
+                    "content": "Security awareness training enables employees to recognize social engineering attacks and protect themselves against them.\n\nTraining topics:\n• Recognizing social engineering techniques\n• Detecting suspicious emails\n• Creating secure passwords\n• Using two-factor authentication\n• Physical security measures\n\nTraining methods:\n• Regular training sessions\n• Simulation tests\n• Video training\n• Interactive modules\n• Quizzes and assessments"
+                },
+                {
+                    "id": "2",
+                    "title": "Email Security",
+                    "content": "Email is the most common vector for social engineering attacks. For secure email use:\n\nSender verification:\n• Examining email addresses in detail\n• Verifying domain addresses\n• Being cautious of unexpected senders\n• Following internal email policies\n\nContent analysis:\n• Approaching emergency messages with suspicion\n• Checking grammar and spelling errors\n• Not opening unexpected attachments\n• Not clicking suspicious links\n\nSecurity tools:\n• Spam filters\n• Antivirus software\n• Email security gateways\n• Security awareness platforms"
+                },
+                {
+                    "id": "3",
+                    "title": "Password Security and Authentication",
+                    "content": "Strong passwords and multi-factor authentication are the foundation of account security:\n\nCreating strong passwords:\n• Using at least 12 characters\n• Mix of uppercase/lowercase letters, numbers, and symbols\n• Not using personal information\n• Different password for each account\n• Using a password manager\n\nMulti-factor authentication:\n• SMS verification code\n• App-based verification\n• Biometric verification\n• Hardware keys\n• Backup codes\n\nPassword policies:\n• Regular password changes\n• Password complexity requirements\n• Account lockout policies\n• Password history check"
+                },
+                {
+                    "id": "4",
+                    "title": "Physical Security Measures",
+                    "content": "Physical security is an integral part of cybersecurity:\n\nOffice security:\n• Using screen locks\n• Keeping desk clean\n• Storing sensitive documents in locked cabinets\n• Maintaining visitor log\n• Cooperating with security personnel\n\nMobile device security:\n• Encrypting devices\n• Remote wipe feature\n• Using secure Wi-Fi\n• Keeping devices updated\n• Performing backups\n\nData protection:\n• Encrypting sensitive data\n• Secure data destruction methods\n• Data classification\n• Access control\n• Data loss prevention (DLP)"
+                },
+                {
+                    "id": "5",
+                    "title": "Social Media Security",
+                    "content": "Social media platforms are rich sources of information for attackers:\n\nProfile security:\n• Checking privacy settings\n• Limiting personal information\n• Not accepting suspicious connections\n• Not sharing location information in profile photos\n• Separating work and personal accounts\n\nContent sharing:\n• Not sharing sensitive business information\n• Not sharing vacation plans\n• Not sharing internal company information\n• Checking location information\n• Thinking before sharing\n\nSecurity tools:\n• Social media security software\n• Suspicious activity monitoring\n• Automatic security alerts\n• Security awareness training"
+                },
+                {
+                    "id": "6",
+                    "title": "Incident Response and Reporting",
+                    "content": "Rapid and effective response to security incidents is crucial:\n\nIncident detection:\n• Recognizing suspicious activities\n• Reporting security breaches\n• Detecting abnormal behavior\n• Using security tools\n• Listening to employee feedback\n\nResponse process:\n• Documenting the incident\n• Notifying the security team\n• Isolating affected systems\n• Preserving evidence\n• Following communication protocols\n\nReporting:\n• Preparing detailed incident report\n• Identifying affected systems\n• Conducting damage assessment\n• Recommending preventive measures\n• Identifying lessons learned"
+                },
+                {
+                    "id": "7",
+                    "title": "Quiz: Protection Methods",
+                    "type": "quiz",
+                    "question": "What is the minimum number of characters for a strong password?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "8 characters",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "10 characters",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "12 characters",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "6 characters",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "At least 12 characters should be used for a strong password. The password should consist of a mix of uppercase/lowercase letters, numbers, and symbols."
+                }
+            ]
+        },
+        {
+            "id": "3_5",
+            "title": "4. Case Studies and Example Attacks",
+            "duration": "55 minutes",
+            "color": "#8b5cf6",
+            "documents": 6,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Analyze real social engineering attacks, learn the techniques used by attackers and their consequences.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Famous Social Engineering Cases",
+                    "content": "Important social engineering cases in history demonstrate the impact and danger of these attacks:\n\nKevin Mitnick Case (1990s):\n• Gaining access to systems by deceiving phone companies\n• Fake identities and pretexting techniques\n• 5 years in prison\n• Pioneer in ethical hacking\n\nTarget Data Breach (2013):\n• Access through HVAC company\n• 40 million credit card information stolen\n• 110 million customer information affected\n• Cost: $162 million\n\nSony Pictures Attack (2014):\n• Started with fake email\n• 100 TB of data stolen\n• Films and emails published\n• Company reputation severely damaged"
+                },
+                {
+                    "id": "2",
+                    "title": "CEO Fraud (Business Email Compromise)",
+                    "content": "CEO fraud is one of the social engineering attack types that causes the most damage to companies:\n\nAttack method:\n• Attacker impersonates the CEO's email address\n• Sends urgent payment request to finance department\n• Usually requests large transfers\n• Creates time pressure\n\nReal case examples:\n• Google and Facebook (2013-2015): $100 million\n• Ubiquiti Networks (2015): $46.7 million\n• Scoular Company (2016): $17.2 million\n• FACC (2016): $47 million\n\nProtection methods:\n• Multi-factor authentication\n• Payment approval processes\n• Email security tools\n• Employee training\n• Verifying suspicious requests"
+                },
+                {
+                    "id": "3",
+                    "title": "Phishing Attacks and Consequences",
+                    "content": "Phishing attacks pose serious threats to individuals and organizations:\n\nCurrent phishing examples:\n• COVID-19 themed attacks (2020-2023)\n• Fake vaccine appointment notifications\n• Fake government agency messages\n• Bank security warnings\n• Social media account verification\n\nSuccessful phishing consequences:\n• Account information theft\n• Financial losses\n• Identity theft\n• Data breaches\n• System access\n\nStatistics:\n• Phishing attacks increased by 61% in 2022\n• Average cost: $4.35 million\n• Most targeted: Healthcare sector\n• 85% increase on mobile devices"
+                },
+                {
+                    "id": "4",
+                    "title": "Physical Social Engineering Cases",
+                    "content": "Physical social engineering is an effective way to bypass technical security measures:\n\nFamous physical attacks:\n• Frank Abagnale Jr. (Catch Me If You Can):\n  - Fake pilot identity\n  - Fake doctor identity\n  - Fake lawyer identity\n  - $2.5 million fraud\n\n• Christopher Rocancourt:\n  - Fake aristocrat identity\n  - Imitation of luxurious lifestyle\n  - $40 million fraud\n\n• Anna Sorokin (Anna Delvey):\n  - Fake socialite identity\n  - Luxury hotel and restaurant fraud\n  - $275,000 fraud\n\nPhysical security lessons:\n• Tightening identity verification protocols\n• Employee training\n• Security cameras\n• Visitor registration system\n• Security personnel training"
+                },
+                {
+                    "id": "5",
+                    "title": "Social Media Manipulation Cases",
+                    "content": "Social media platforms are ideal environments for social engineering attacks:\n\nCambridge Analytica Scandal (2018):\n• 87 million user data stolen from Facebook\n• Personality profiles created\n• Used in election campaigns\n• Facebook paid $5 billion fine\n\nFake news and disinformation:\n• Russian interference in 2016 US elections\n• Spreading false information in Brexit campaign\n• Fake information during COVID-19\n• Political manipulation campaigns\n\nProtection methods:\n• Verifying information sources\n• Reporting suspicious content\n• Following trusted news sources\n• Social media literacy\n• Being alert to algorithm manipulation"
+                },
+                {
+                    "id": "6",
+                    "title": "Quiz: Case Studies",
+                    "type": "quiz",
+                    "question": "How many credit card information was stolen in the Target data breach?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "20 million",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "30 million",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "40 million",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "50 million",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "40 million credit card information was stolen in the Target data breach. This incident occurred through an HVAC company and affected 110 million customer information."
+                }
+            ]
+        },
+        {
+            "id": "3_6",
+            "title": "5. Social Engineering Defense Strategies",
+            "duration": "50 minutes",
+            "color": "#ef4444",
+            "documents": 8,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Learn advanced defense strategies against social engineering attacks, discover organizational security measures.",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Defense Strategies Overview",
+                    "content": "Effective defense against social engineering attacks requires a multi-layered approach. A single method is not sufficient; multiple defense layers must be used.\n\nDefense layers:\n• Technical measures (security software, filters)\n• Procedural measures (policies, protocols)\n• Human factor (training, awareness)\n• Physical measures (security systems)\n• Organizational measures (control mechanisms)\n\nDefense principles:\n• Defense in depth\n• Principle of least privilege\n• Balance of defense and detection\n• Continuous improvement\n• Incident response preparedness"
+                },
+                {
+                    "id": "2",
+                    "title": "Organizational Security Policies",
+                    "content": "Organizational security policies form the fundamental defense layer against social engineering attacks.\n\nPolicy types:\n• Information security policy\n• Email security policy\n• Social media usage policy\n• Physical security policy\n• Visitor management policy\n• Data classification policy\n\nPolicy characteristics:\n• Should be clear and understandable\n• Should be regularly updated\n• Should be communicated to employees\n• Should include sanctions for non-compliance\n• Should comply with legal requirements\n• Should be practical and implementable"
+                },
+                {
+                    "id": "3",
+                    "title": "Security Awareness Programs",
+                    "content": "Security awareness programs enable employees to recognize social engineering threats and protect themselves against them.\n\nProgram components:\n• Regular training sessions\n• Simulation tests and drills\n• Video training and interactive modules\n• Security bulletins and updates\n• Quizzes and assessments\n• Real case analyses\n\nTraining topics:\n• Recognizing social engineering techniques\n• Detecting suspicious emails\n• Creating and managing secure passwords\n• Using two-factor authentication\n• Physical security measures\n• Data protection and privacy"
+                },
+                {
+                    "id": "4",
+                    "title": "Technical Defense Tools",
+                    "content": "Technical defense tools help automatically detect and prevent social engineering attacks.\n\nEmail security tools:\n• Spam filters and anti-phishing software\n• Email security gateways (ESG)\n• Domain-based Message Authentication (DMARC)\n• Sender Policy Framework (SPF)\n• DomainKeys Identified Mail (DKIM)\n\nWeb security tools:\n• Web Application Firewalls (WAF)\n• Anti-malware software\n• Secure browser extensions\n• URL filtering systems\n• Security scanners"
+                },
+                {
+                    "id": "5",
+                    "title": "Physical Security Measures",
+                    "content": "Physical security is an important vector for social engineering attacks and requires comprehensive measures.\n\nAccess control systems:\n• Card-based access systems\n• Biometric verification (fingerprint, facial recognition)\n• PIN codes and passwords\n• Two-factor physical verification\n• Visitor registration and tracking systems\n\nSecurity personnel:\n• Trained security guards\n• 24/7 security monitoring\n• Suspicious behavior detection\n• Emergency response teams\n• Regular security audits"
+                },
+                {
+                    "id": "6",
+                    "title": "Incident Detection and Response",
+                    "content": "Rapid detection and effective response to social engineering attacks is critical to minimize damage.\n\nDetection methods:\n• Security Information and Event Management (SIEM) systems\n• User Behavior Analytics (UBA)\n• Anomaly detection systems\n• Security awareness reports\n• Employee feedback\n• Automatic threat detection\n\nResponse process:\n• Incident classification and prioritization\n• Isolation of affected systems\n• Preservation and collection of evidence\n• Notification to security team\n• Implementation of communication protocols\n• Coordination with external organizations"
+                },
+                {
+                    "id": "7",
+                    "title": "Continuous Improvement and Evaluation",
+                    "content": "Social engineering defense strategies should be continuously evaluated and improved.\n\nEvaluation metrics:\n• Attack detection rates\n• False positive rates\n• Response times\n• Training effectiveness\n• Security awareness level\n• Incident recurrence rates\n\nImprovement process:\n• Regular security assessments\n• Penetration tests\n• Social engineering simulations\n• Vulnerability scans\n• Risk assessments\n• Benchmark comparisons"
+                },
+                {
+                    "id": "8",
+                    "title": "Quiz: Defense Strategies",
+                    "type": "quiz",
+                    "question": "Which of the defense layers is most important?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Technical measures",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Procedural measures",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Human factor",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Physical measures",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "The human factor is the most important defense layer because even the strongest security systems can be bypassed through human error."
+                }
+            ]
+        },
+        {
+            "id": "3_7",
+            "title": "6. Test and Evaluation",
+            "duration": "15 min",
+            "color": "#10b981",
+            "documents": 11,
+            "isCompleted": false,
+            "isActive": false,
+            "description": "Comprehensive test for the Social Engineering category",
+            "pages": [
+                {
+                    "id": "1",
+                    "title": "Test Preparation and Rules",
+                    "content": "Social Engineering - Comprehensive Test\r\n\r\nThis test consists of 10 questions covering all 6 lessons in the Social Engineering category. The test is designed to evaluate all topics in the training content.\r\n\r\nTest Rules:\r\n• There is only one correct answer for each question\r\n• Test duration: 15 minutes\r\n• At least 70% (7/10) correct answers required for success\r\n• You can view your results after completing the test\r\n• You can review topics you missed\r\n\r\nTopics Covered:\r\n• What is Social Engineering? (Fundamental concepts, history, psychology, cycle, threats)\r\n• Social Engineering Techniques (Phishing, pretexting, baiting, tailgating)\r\n• Social Engineering Tests (Planning, scenarios, reporting, ethical guidelines)\r\n• Protection Against Human Factor Attacks (Awareness, email security, password, physical security)\r\n• Case Studies and Example Attacks (Real cases, CEO fraud, phishing, physical attacks)\r\n• Social Engineering Defense Strategies (Defense layers, policies, technical tools)\r\n\r\nEach question is selected from topics covered in the lessons and helps you evaluate what you have learned.",
+                    "media": {
+                        "type": "image",
+                        "url": "https://ankaraotantik.com/HackLab/HackLabTest.png",
+                        "title": "Test Preparation"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Question 1: Social Engineering Fundamentals",
+                    "type": "quiz",
+                    "question": "What is the most commonly used psychological factor in social engineering attacks?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Trust",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Fear",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Anger",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Greed",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Trust is the most commonly used psychological factor in social engineering attacks. Attackers attempt to gain the trust of target individuals to obtain desired information. People are naturally inclined to trust, help, and respect authority. These weaknesses are manipulated by attackers."
+                },
+                {
+                    "id": "3",
+                    "title": "Question 2: Social Engineering Cycle",
+                    "type": "quiz",
+                    "question": "What is the first step of the social engineering cycle?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Target selection",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Building trust",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Manipulation",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Information gathering",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "The first step of the social engineering cycle is information gathering. Detailed information about the target is collected to determine the most suitable attack method. This information helps the attacker establish a trust relationship with the target and perform manipulation. The cycle proceeds as follows: Information Gathering → Target Selection → Building Trust → Manipulation → Outcome."
+                },
+                {
+                    "id": "4",
+                    "title": "Question 3: Phishing Techniques",
+                    "type": "quiz",
+                    "question": "What do phishing attacks commonly use?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Physical force",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Fake emails and websites",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Hardware damage",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Password cracking tools",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Phishing is a social engineering technique that attempts to deceive targets using fake emails and websites. Attackers send fake emails that appear to be from real organizations and try to steal personal information by directing users to fake websites. In 2022, phishing attacks increased by 61% and the average cost was calculated as $4.35 million."
+                },
+                {
+                    "id": "5",
+                    "title": "Question 4: Pretexting Technique",
+                    "type": "quiz",
+                    "question": "What is the best example of the pretexting technique?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Plugging in an unknown USB device",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Following someone through a door",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Calling as bank support and asking for password",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Adding malware to email",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Pretexting is a social engineering technique that aims to obtain information from a target person by creating a fake identity or scenario. The attacker gains the target's trust and obtains sensitive information by acting as, for example, a bank employee, technical support staff, or an authorized person. This technique can be used in phone, email, or face-to-face conversations."
+                },
+                {
+                    "id": "6",
+                    "title": "Question 5: Tailgating and Physical Security",
+                    "type": "quiz",
+                    "question": "Which of the following should NOT be done to prevent tailgating attacks?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Using turnstile sensors",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Training staff to verify visitors",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Leaving doors open",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Having security guards",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Leaving doors open does not prevent tailgating attacks; on the contrary, it facilitates them. Tailgating is a method where an attacker follows an authorized person for unauthorized access. To prevent these attacks, turnstile sensors, staff training, security guards, and visitor registration systems should be used."
+                },
+                {
+                    "id": "7",
+                    "title": "Question 6: Social Engineering Tests",
+                    "type": "quiz",
+                    "question": "What is the main purpose of social engineering tests?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "To measure and improve security awareness",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "To damage systems",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "To steal data",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "To shut down systems",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "The main purpose of social engineering tests is to measure and improve security awareness. These tests evaluate how prepared an organization's employees are against social engineering attacks. Tests should be conducted within the framework of careful planning, ethical guidelines, and legal permissions. Test results should be reported in detail and training needs should be identified."
+                },
+                {
+                    "id": "8",
+                    "title": "Question 7: Password Security",
+                    "type": "quiz",
+                    "question": "What are the minimum number of characters and characteristics for a strong password?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "8 characters, letters only",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "12 characters, mix of uppercase/lowercase letters, numbers and symbols",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "10 characters, letters and numbers",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "6 characters, any character",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "At least 12 characters should be used for a strong password. The password should consist of a mix of uppercase/lowercase letters, numbers, and symbols. Personal information should not be used, different passwords should be created for each account, and a password manager should be used. Security is further enhanced when used together with multi-factor authentication (MFA)."
+                },
+                {
+                    "id": "9",
+                    "title": "Question 8: CEO Fraud (BEC)",
+                    "type": "quiz",
+                    "question": "What does an attacker typically do in a CEO fraud (Business Email Compromise) attack?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Impersonates the CEO's email address and sends urgent payment request to finance department",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Steals the CEO's computer",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Cracks the CEO's password",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Eavesdrops on the CEO's phone",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "CEO fraud (BEC) is one of the social engineering attack types that causes the most damage to companies. The attacker impersonates the CEO's email address and sends an urgent payment request to the finance department. Usually large transfers are requested and time pressure is created. In real cases, Google and Facebook lost $100 million, and FACC lost $47 million. Multi-factor authentication, payment approval processes, and employee training are necessary for protection."
+                },
+                {
+                    "id": "10",
+                    "title": "Question 9: Defense Strategies",
+                    "type": "quiz",
+                    "question": "Which of the defense layers against social engineering attacks is most important?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Technical measures",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Procedural measures",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Physical measures",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Human factor (training and awareness)",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "The human factor is the most important defense layer because even the strongest security systems can be bypassed through human error. Security awareness programs, regular training sessions, simulation tests, and real case analyses enable employees to recognize social engineering threats and protect themselves against them. A multi-layered approach is necessary for effective defense: technical, procedural, human factor, physical, and organizational measures must be used together."
+                },
+                {
+                    "id": "11",
+                    "title": "Question 10: Case Studies",
+                    "type": "quiz",
+                    "question": "How many credit card information was stolen in the Target data breach (2013) and how did the attack occur?",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "20 million, direct website attack",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "40 million, access through HVAC company",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "30 million, email phishing",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "50 million, physical access",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "In the Target data breach, 40 million credit card information was stolen and 110 million customer information was affected. This incident occurred through an HVAC (heating, ventilation, air conditioning) company using social engineering techniques. Attackers gained access to systems by using the HVAC company's connection with Target. This incident demonstrated the importance of supply chain security and how devastating social engineering attacks can be. The total cost was calculated as $162 million."
                 }
             ]
         }
